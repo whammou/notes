@@ -254,11 +254,11 @@ Merge arch to main branch
 
 - *Goal:* Develop install script for [[https://github.com/whammou/dotfiles][dotfiles]]
 
-** TODO [#A] Refactor notes@github :GITHUB:ORGMODE:
+** DOING [#A] Refactor notes@github :GITHUB:ORGMODE:
 SCHEDULED: <2024-10-05 Sat 19:00>
 
 - *Goal(s):* 
-  - [ ] Rebase #trunk to #main [[https://github.com/whammou/notes][notes@github]]
+  - [X] Rebase #trunk to #main [[https://github.com/whammou/notes][notes@github]]
   - [ ] Merge @cuisine and @travel to @experience
 
 *** Merge git-trunk to git-main

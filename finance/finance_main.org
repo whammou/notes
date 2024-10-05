@@ -54,9 +54,7 @@ file:finance/assets/multiple-postings.png
 
 Finally, transactions may have more than two postings; in fact they may have any number postings. The only thing that matters is that the sum of their amounts is *zero* (from the rule of double-entry bookkeeping)
 
-*** DONE Types of Accounts
-CLOSED: [2024-10-05 Sat 03:03]
-
+*** Types of Accounts
 - Note taken on [2024-10-05 Sat 01:56] \\
   In ~beancount~, all account names, without exception, must be associated to one of the types of accounts described below.
 

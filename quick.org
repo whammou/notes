@@ -17,13 +17,6 @@
 
 - *Stumble upon:* [[https://l.opnxng.com/r/sysadmin/comments/2wazbb/im_struggling_with_my_workload_and_need_tips_for/][Offload-workload@reddit]]
 
-* TODO Visit local gym :GYM:
-SCHEDULED: <2024-10-07 Mon 16:00>
-- Note taken on [2024-10-02 Wed 20:11] \\
-  Look for machines that satisfy personal criteria
-
-Visit local resident gym 
-
 * DONE Order Donuts :SCHEDULE:
 CLOSED: [2024-10-05 Sat 02:54] DEADLINE: <2024-10-04 Fri 19:00 -2h>
 

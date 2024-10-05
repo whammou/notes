@@ -255,7 +255,7 @@ Merge arch to main branch
 - *Goal:* Develop install script for [[https://github.com/whammou/dotfiles][dotfiles]]
 
 ** DOING [#A] Refactor notes@github :GITHUB:ORGMODE:
-SCHEDULED: <2024-10-05 Sat 19:00>
+SCHEDULED: <2024-10-05 Sat 00:00>
 
 - *Goal(s):* 
   - [X] Rebase #trunk to #main [[https://github.com/whammou/notes][notes@github]]

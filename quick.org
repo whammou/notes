@@ -1,0 +1,35 @@
+#+TITLE: Quick Notes
+#+DESCRIPTION: Captures and Quick notes
+
+* Ghost in the wires
+
+[[https://libgen.is/search.php?req=Ghost+in+the+wires&lg_topic=libgen&open=0&view=simple&res=25&phrase=1&column=def][Ghost In The Wire@library-genisis]]
+
+* Plain text music playlist
+
+*Goal:* Plain text music playlist that works with ~ytfzf~ and ~new pipe~
+
+* Github repo updates track :GITHUB:
+
+- *Goal(s):* Find a way to keep track github repo updates and get notification from updates
+
+* Offload workload :DISCUSS:
+
+- *Stumble upon:* [[https://l.opnxng.com/r/sysadmin/comments/2wazbb/im_struggling_with_my_workload_and_need_tips_for/][Offload-workload@reddit]]
+
+* TODO [#B] Visit local gym :GYM:
+SCHEDULED: <2024-10-06 Sun 16:00>
+- Note taken on [2024-10-02 Wed 20:11] \\
+  Look for machines that satisfy personal criteria
+
+Visit local resident gym 
+
+* DONE Order Donuts :SCHEDULE:
+CLOSED: [2024-10-05 Sat 02:54] DEADLINE: <2024-10-04 Fri 19:00 -2h>
+
+* TODO Cafe :CAFE:SOCIAL:
+SCHEDULED: <2024-10-06 Sun 11:00>
+
+Cafe with friends
+- *Address:* [[https://www.google.com/maps/place/26A+Ph%E1%BA%A1m+Ng%E1%BB%8Dc+Th%E1%BA%A1ch,+Ph%C6%B0%E1%BB%9Dng+6,+Qu%E1%BA%ADn+3,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7842646,106.6939983,19z/data=!4m6!3m5!1s0x31752f3406e949d1:0x7a24235059671f2f!8m2!3d10.7844551!4d106.6942183!16s%2Fg%2F11c5m0ycbt?force=pwa&source=mlapk][26A Phạm Ngọc Thạch, Q3]]
+

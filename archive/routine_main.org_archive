@@ -1,0 +1,14 @@
+* DOING [#A] Routine Setup
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-10-01 Tue 03:58
+:ARCHIVE_FILE: /home/whammou/notes/routine/routine_main.org
+:ARCHIVE_CATEGORY: routine_main
+:ARCHIVE_TODO: DONE
+:END:
+
+*Goal:* Refactor [[file:routine.org]] to work with scripting and improve interaction with ~agenda view~
+
+** Multiple schedule date orgmode
+
+*Goal(s):* Refactor [[#maintenance]] by including syntax found from [[https://a.opnxng.com/exchange/emacs.stackexchange.com/questions/16680/org-mode-schedule-1-event-for-multiple-days][multiple date schedule]] in orgmode syntax 
+

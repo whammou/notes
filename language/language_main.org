@@ -1,0 +1,17 @@
+#+TITLE: Language Notebook
+
+* Description :LANGUAGE:
+
+Notebook on language learning
+
+** German :GERMAN:
+
+Section dedicated to notes about the process of learning German 
+
+*** DOING [#C] Get a book
+DEADLINE: <2024-10-05 Sat 22:00 -2h>
+- Note taken on [2024-10-05 Sat 03:19] \\
+  Choose the book previous learnt from for familiarity
+
+- *Goal:* Get a book to review German
+

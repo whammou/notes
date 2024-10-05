@@ -1,0 +1,77 @@
+#+TITLE: Schedule Notebook
+#+FILETAGS: :SCHEDULE:
+
+* Description :SCHEDULE:
+
+Notebook to keep track and plan future events
+
+** University Clubs
+
+- *Goal:* Find a suitable group to network and expand knowledge
+- *Resource:* [[https://libguides.brown.edu/evaluate/Read][Brown University Library]]
+
+*** PENDING Clubs join
+
+Emails to contact under club categories
+
+*** Club categories
+
+**** Special Interests Clubs
+
+Included socials and interest clubes 
+
+***** Board Game Club
+
+Club meeting in weekly session on /Tue/ and /Thu/ from /3PM/ to /6PM/
+
+- *Main Page:* [[https://www.rmit.edu.vn/students/campus-life/clubs/saigon-south-campus-clubs/social-and-special-interest-clubs/boardgames-club][visit RMIT-webpage]]
+- *Facebook:* [[https://www.facebook.com/RMITBGC/][visit facebook]]
+
+- *Contact:*
+  - *Email:* mailto:boardgamesclub.sgs@rmit.edu.vn
+
+***** Debate Club
+
+- *Main page:* [[https://www.rmit.edu.vn/students/campus-life/clubs/saigon-south-campus-clubs/social-and-special-interest-clubs/debate-club][visit RMIT-webpage]]
+- *Facebook:* [[https://www.facebook.com/rmitsgsdebateclub][vicit facebook]]
+
+- *Contact:*
+  - *Email:* mailto:debateclub.sgs@rmit.edu.vn
+
+***** Dance Club
+
+- *Main page:* [[https://www.rmit.edu.vn/students/campus-life/clubs/saigon-south-campus-clubs/creative-collectives-clubs/dance-club][visit RMIT-webpage]]
+- *Facebook:* [[https://www.facebook.com/rmitsaigondanceclub][visit Facebook]]
+- *Instagram:* [[https://www.instagram.com/rmitsgs.danceclub][visit Instagram]]
+
+- *Contact:*
+  - *Email:* mailto:danceclub.sgs@rmit.edu.vn
+
+**** Academic clubs
+
+Interesting academic related groups
+
+** ABORTED Party time! :SOCIAL:ONEOFF:
+CLOSED: [2024-10-04 Fri 00:29]
+
+Meet up w old classmate from LNH
+
+- *Address:*  [[https://www.google.com/maps/place/22+Nguy%E1%BB%85n+%C4%90%C3%ACnh+Chi%E1%BB%83u,+%C4%90a+Kao,+Qu%E1%BA%ADn+1,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7904284,106.7012801,19z/data=!4m6!3m5!1s0x317528b56a96a59b:0x5ce412e6d3b51fed!8m2!3d10.790454!4d106.7012343!16s%2Fg%2F11j0srtjg5?force=pwa&source=mlapk][22 Nguyễn Đình Chiểu, Đa Kao, Q1]]
+- [[https://www.facebook.com/groups/606650666139872/permalink/2987987958006119/?mibextid=rS40aB7S9Ucbxw6v][Facebook post]]
+
+** ABORTED Pay Lava :CAFE:ONEOFF:
+CLOSED: [2024-10-02 Wed 23:46] DEADLINE: <2024-10-02 Wed 22:00>
+
+- Matcha
+- Bs
+
+** Thrift-lifting! :SOCIAL:ONEOFF:
+SCHEDULED: <2024-10-10 Thu 16:00>
+
+- *Goal:* Append a list of local thift shops
+
+** DONE [#B] Pay Lava :CAFE:ONEOFF:
+CLOSED: [2024-10-05 Sat 20:36] DEADLINE: <2024-10-05 Sat 19:00 -2h>
+
+- [X] Matcha 60K
+

@@ -1,0 +1,271 @@
+* DONE Report Reading Guide :TECHNICAL:
+  CLOSED: [2024-08-30 Fri 20:55]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2024-09-10 Tue 22:06
+  :ARCHIVE_FILE: /home/whammou/notes/personal.org
+  :ARCHIVE_CATEGORY: personal
+  :ARCHIVE_TODO: 
+  :END:
+
+- *Goal:* efficiently read an academic report
+
+** Common Components Of Original Research Articles
+
+1. *Authors:* Describes who is responsible for this work. Maybe one person, a group, or an institution. Make note of authors and institutions you see repeatedly during your research process
+2. *Abstract:* summarize article contents and findings; may include methodology
+3. *Keywords:* Describe the content in quick words or phrases. Help you place the work in context with other literature. Good for quick reference
+4. *Introduction:* summarizes the article's main idea, thesis, or research question. Should answer the question, "Why this?" Includes background knowledge on the topic and provides information about research motivations, impact, or purpose
+5. *Literature Review:* Places the research in context with prior work. Analyses important contributions that the ~author~ believe are relevant and that the article build upon to create new knowledge. Sometimes includes a theoretical framework good place to look to find additional sources for you research
+6. *Methods:* An explanation of how and why the authors approached the examination of their question and the collection of date. May include information about the limitations of their chosen methodology 
+7. *Conclusion:* A synthesis of the findings and importance of the research
+
+** While You read
+
+~Reading a scholarly article isn't like reading a novel. Its likely you won't read absorb it from beginning to end, all at once~
+
+Asking a series of question as you do your research. Your reading should be guided by your topic or your own research question or thesis
+
+For Example:
+
+  - is the article relevant to a class theme or to my own work?
+     - What questions does it help to answer, or what topics does it address
+
+  - Does the article offer any unique perspectives or new information?
+     - Are these relevant or useful to me?
+
+  - Can I use the contents of the article in any other ways?
+    - Does the article offer a helpful framework for understand my topic or question?
+    - Do the ~author~ use interesting or innovative methods to conduct their research that might be relevant to me?
+    - Does the article contain references I might consult for further information?
+
+** In Practice
+
+Many scholarly articles are organized to help you scan and skin efficiently. The next time you need to read an article, practice scanning eh following sections and skin their contents
+
+- *The abstract:* this summary provides a birds eye view of the article contents
+- *The Introduction:* What is the topic of the research article> What is its main idea or question?
+- *The list of keywords or descriptors*
+- *Methods:* How did the ~author~ go about answering their question/collecting their data?
+- *Section Headings:* Stop and skim those sections you may find relevant
+- *Figures:* Offer a lot of information in quick visual format
+- *The conclusion:* What are the findings and/or conclusions of this article?
+
+** Reading Strategies
+
+*** Markup your text
+
+Read with purpose
+
+  - Scanning and skimming with a pin in hand can help to focus your reading
+  - Use color for quick references. Try highlight's or some sticky notes. Use different colors to represent different topics.
+  - Write in margins, putting down thoughts and questions about the content as you read
+  - Use digital markup features available in e-book platforms or third party solutions
+
+Categorize Information
+
+Create your own informal system of organization. It doesn't have to be complicated - Be sure it works for you
+
+*** Keywords
+
+  - Jot down a few of your own keywords for each articles. These keywords may correspond with important topics being addressed in class or in your research paper
+  - Write keywords con print copies or use the built-in note taking features in reference management tools (Zotero or Endnote)
+  - Your keywords and system of organization may grow more complex the deeper you get into your reading
+
+    - Decide if the term essential your understanding of the article or if you can look it up later and keep scanning
+
+*** Reading for Citations
+
+Look to the literature review to identify the core references that relate to your otpic. Literature reviews are typically organized by subtopic within a research 
+
+** Resources
+
+*Youtube:* [[https://www.youtube.com/watch?v=Gv5ku0eoY6k&t=66]]
+*Resource:* [[https://libguides.brown.edu/evaluate/Read][Brown University Libarry]]
+* Learn orgmode :RESEARCH:
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2024-09-10 Tue 22:06
+  :ARCHIVE_FILE: /home/whammou/notes/personal.org
+  :ARCHIVE_CATEGORY: personal
+  :ARCHIVE_TODO: IN-PROGESS
+  :END:
+
+This is an orgmode clone using nvim-orgmode
+
+** orgmode-nvim
+
+Configurations and documentation can be found as [[https://github.com/nvim-orgmode/orgmode/blob/master/DOCS.md][nvim-orgmode docs]]
+
+** orgmode manual
+
+Org-manual can be found at [[https://orgmode.org/manual/#SEC_Contents][org-manula]]
+
+** TODO Don't auto indent when 'Return'
+
+- *Goal(s):* tell *nvim-orgmode* to not auto-indent when hitting return
+- *Source(s):* [[https://github.com/nvim-orgmode/orgmode/blob/master/DOCS.md#folds][nvim-orgmode Docs]]
+
+** TODO Systemd + orgmode
+
+- *Goal(s):* Integrate server-side service to automate tasks to sync from servers
+- *Stumble upon:* [[https://github.com/nvim-orgmode/orgmode/blob/master/DOCS.md#folds][nvim-orgmode variables]]
+
+** DONE orgmode github support
+   CLOSED: [2024-08-24 Sat 22:24] DEADLINE: <2024-08-24 Sat 22:00>
+
+- This a test project where you can explore how github interepets orgmode files [[https://github.com/novoid/github-orgmode-tests][github-orgmode-test]]
+~git clone https://github.com/novoid/github-orgmode-tests~
+
+- Github new [[https://redlib.seasi.dev/r/orgmode/comments/utotmr/github_now_supports_latex_for_markdown_and/][update]] support LaTeX for markdown and orgmode files
+- example note: [[~/notes/design/EEET2604/number_system.md][number_system.md]]
+- file:
+
+- [X] Look for github orgmode preview plugin for nvim
+
+** DONE orgzly-android
+   CLOSED: [2024-08-24 Sat 02:28] DEADLINE: <2024-08-23 Fri>
+   :PROPERTIES:
+   :CUSTOM_ID: orgzly-android
+   :END:
+
+Orgzly documentation can be found at [[https://www.orgzlyrevived.com/docs][orgzly-android manual]]
+
+*** DONE Note
+    CLOSED: [2024-09-03 Tue 21:30]
+
+Linking to notes is dont using propperties.
+
+1. ID 
+  - *value* can be anything but, but ~UUID~ is recommended
+  - *Example*: ~id:123e4567-e89b-12d3-a456-426655440000~
+
+2. CUSTOM_ID: 
+  - If set ~CUSTOM-ID~ to ~Meeting Checklist~, linking that note is done using:
+  - *Example*: ~[[#Meeting checklist]]~
+  
+  - [[#orgzly-android]]
+  - [[./work.org#eeet2604]] ~Does NOT work~
+  - [[file:work.org::id:eeet2604]] [[https://a.opnxng.com/exchange/emacs.stackexchange.com/questions/19598/org-mode-link-to-heading-in-other-org-file][take a look]] [[https://orgmode.org/manual/Handling-Links.html][handling links orgmode manual]]
+
+*** DONE Notebook
+    CLOSED: [2024-09-03 Tue 21:30]
+
+Link to a notebook within the app looks like a link to an external file:
+/Only the name matters and it has to be the same as the notebook you are linking to/
+- *Example*: ~file:link_note_book.org~
+
+file:routine.org
+- Visit [[./work.org][Work Notebook]]
+
+*** Search related
+
+- Visit [[https://www.orgzlyrevived.com/docs#search][Search topic]]
+
+** DONE markup-syntax
+   CLOSED: [2024-08-24 Sat 22:24] DEADLINE: <2024-08-23 Fri 22:00>
+
+*** DONE Emphasis and Monospace
+    CLOSED: [2024-08-24 Sat 01:41]
+
+You can make words ~*bold*~, ~/italic/~, ~_underline_~, ~=verbatim=~, ~code~ , and ~+strike-through+~
+
+*** DONE Paragraph
+    CLOSED: [2024-08-24 Sat 22:27]
+
+To preserve the line breaks, indention and blank lines in a region but otherwise use normal formatting, use this contruct, which can be used to format poerty
+
+#+BEGIN_EXAMPLE
+ This is a paragraph
+ To export to the notebook
+ Show on orgzly
+#+END_EXAMPLE
+
+*** DONE Creating Footnotes
+    CLOSED: [2024-08-24 Sat 01:41]
+
+A foot note id defined in a paragraph that is started by a footnote marker in square brackets in column 0, no indention allowed. The footnote reference is simple the marker in square brackets, inside text. 
+
+- *Example:*
+
+#+BEGIN_EXAMPLE
+The Org website[fn:1] now looks a lot better than it used to.
+...
+[fn:1] The link is: https://orgmode.org
+#+END_EXAMPLE
+
+** Export orgmode to ical via nvim-orgmode
+
+- *Goal:* 
+
+** TODO orgmode & LaTeX
+
+*Stumble upon:* [[https://www.unwoundstack.com/blog/cross-references-in-org-mode.html][Unwound Stack blog]]
+* DONE Git trunk-base development :TECHNICAL:RESEARCH:
+  CLOSED: [2024-09-09 Mon 01:56]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2024-09-10 Tue 22:07
+  :ARCHIVE_FILE: /home/whammou/notes/personal.org
+  :ARCHIVE_CATEGORY: personal
+  :ARCHIVE_TODO: 
+  :END:
+
+- *Goal:* Develop trunk base for notes [[https://opnxng.com/search?q=git%20trunk%20base%20example][search]]
+* DONE Create folder in webdav dir :ARCHIVE:
+  CLOSED: [2024-09-10 Tue 20:33]
+  :PROPERTIES:
+  :ARCHIVE_TIME: 2024-09-11 Wed 03:27
+  :ARCHIVE_FILE: /home/whammou/notes/personal.org
+  :ARCHIVE_CATEGORY: personal
+  :ARCHIVE_TODO: 
+  :END:
+
+- *Visit:* [[https://docs.oracle.com/cd/E21764_01/doc.1111/e10978/c08_folders.htm#CSMRC722][managing webdav folder]]
+[[./test/file.org][test file]]
+[[./file.org]]
+
+** Orgzly github repo SSH
+
+- *Visit:* [[https://docs.github.com/en/authentication/connecting-to-github-with-ssh][github ssh doc]]
+
+*** Repo Structure
+
+- *Goal(s):* Experimenting orgzly-repo structure
+- Read this file on orgzly [[./README.md][README.md]]
+- [X] Read [[./EEET2604/number_system.md][file]] on android ~does NOT work~
+
+** Workflow with Mgit
+
+- *Goal:* Recurs sync from github with Mgit
+* DONE [#A] Re-install arch Linux !!!
+  DEADLINE: <2024-09-18 Wed 00:00> CLOSED: [2024-09-21 Sat 20:55]
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-09-22 Sun 01:37
+:ARCHIVE_FILE: /home/whammou/notes/main.org
+:ARCHIVE_CATEGORY: main
+:ARCHIVE_TODO: 
+:END:
+
+- *Visit:* [[https://www.youtube.com/watch?v=xQblmLXIJyA][Instalation tutorial]]
+
+** Fresh distro Todo list
+
+A list of things to do when first install new distro
+
+*** DONE Package installation
+    CLOSED: [2024-09-18 Wed 09:52]
+
+List of packages to install
+
+*** DONE Config Hibernate
+    CLOSED: [2024-09-18 Wed 22:11]
+
+*** DONE Enable z-ram
+CLOSED: [2024-09-21 Sat 20:52]
+
+- *Visit:* [[https://www.youtube.com/watch?v=dI84g2x1LR0][youtube]]
+- *Visit:* [[https://wiki.archlinux.org/title/Zram][arch wiki]]
+
+*** ABORTED Config Timeshift backup
+CLOSED: [2024-09-21 Sat 20:53]
+
+Config Timeshift to work with arch based distro 
+

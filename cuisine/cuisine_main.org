@@ -1,0 +1,5 @@
+#+TITLE: Cuisine Notebook
+
+* Description :CUISINE:
+
+Notebook on cuisine topic, keep track of and planning events related to food and cuisine

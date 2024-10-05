@@ -1,0 +1,20 @@
+[submodule "design/EEET2604"]
+	path = design/EEET2604
+	url = git@github.com:whammou/EEET2604
+    branch = main
+[submodule "design/OENG1181"]
+	path = design/OENG1181
+	url = git@github.com:whammou/OENG1181
+    branch = main
+[submodule "design/MIET2510"]
+	path = design/MIET2510
+	url = git@github.com:whammou/MIET2510
+    branch = main
+[submodule "math/MATH2349"]
+	path = math/MATH2349
+	url = git@github.com:whammou/MATH2349
+    branch = main
+[submodule "physics/OENG1209"]
+	path = physics/OENG1209
+	url = git@github.com:whammou/OENG1209
+    branch = main

@@ -14,4 +14,5 @@ DEADLINE: <2024-10-05 Sat 22:00 -2h>
   Choose the book previous learnt from for familiarity
 
 - *Goal:* Get a book to review German
+- *Book:* [[https://libgen.li/edition.php?id=138543351][Auf geht's! beginning German language and culture 4th]]
 

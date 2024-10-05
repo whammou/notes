@@ -17,8 +17,8 @@
 
 - *Stumble upon:* [[https://l.opnxng.com/r/sysadmin/comments/2wazbb/im_struggling_with_my_workload_and_need_tips_for/][Offload-workload@reddit]]
 
-* TODO [#B] Visit local gym :GYM:
-SCHEDULED: <2024-10-06 Sun 16:00>
+* TODO Visit local gym :GYM:
+SCHEDULED: <2024-10-07 Mon 16:00>
 - Note taken on [2024-10-02 Wed 20:11] \\
   Look for machines that satisfy personal criteria
 

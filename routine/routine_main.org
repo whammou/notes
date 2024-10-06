@@ -145,6 +145,22 @@ SCHEDULED: <2024-10-07 Mon 19:00>
 - [ ] Shampoo day 
 - [ ] Body mist
 
+** Cooking :COOK:HEALTH:
+
+Initiate
+
+*** DONE [#A] Grocery :ONEOFF:
+CLOSED: [2024-10-05 Sat 19:02] SCHEDULED: <2024-10-05 Sat 16:00>
+
+List of to get items
+- [X] Thịt 1.5kg
+- [X] Thịt băm
+- [X] Dầu hào
+- [X] Nước tương
+- [X] Tương ớt
+- [X] Rau/củ
+- Total: 278
+
 ** PENDING Hitting the gym :GYM:HEALTH:
 
 - *Goal:* To plan a gym schedule and you need to start hitting da gym
@@ -208,20 +224,4 @@ SCHEDULED: <2024-10-07 Mon 16:00>
   Look for machines that satisfy personal criteria
 
 Visit local resident gym 
-
-** Cooking :COOK:HEALTH:
-
-Initiate
-
-*** DONE [#A] Grocery :ONEOFF:
-CLOSED: [2024-10-05 Sat 19:02] SCHEDULED: <2024-10-05 Sat 16:00>
-
-List of to get items
-- [X] Thịt 1.5kg
-- [X] Thịt băm
-- [X] Dầu hào
-- [X] Nước tương
-- [X] Tương ớt
-- [X] Rau/củ
-- Total: 278
 

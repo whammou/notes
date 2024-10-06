@@ -1,7 +1,7 @@
 #+TITLE: Report Reading Guide
 #+DESCRIPTION: A guide on how to efficiently navigate and read an academic report  
 
-* DONE Report Reading Guide :ACADEMIC:
+* DONE Report Reading Guide :ACADEMIC:ARCHIVE:
   CLOSED: [2024-08-30 Fri 20:55]
   :PROPERTIES:
   :ARCHIVE_TIME: 2024-09-10 Tue 22:06

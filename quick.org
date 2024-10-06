@@ -32,3 +32,8 @@ Linux speech to text package
 - *Goal:* Implement to @language topic
 - *Source:*  [[https://github.com/julius-speech/julius][julius]]
 
+* DONE Script orgmode scratchpad :VIM:ORGMODE:
+CLOSED: [2024-10-07 Mon 02:06]
+
+- *Goal(s):* Create an nvim-orgmode scratchpad with ~qtile~
+- *Stumble upon:* [[https://curtismchale.ca/2023/12/20/ultimate-keyboard-control-task-management-nvim-orgmode/][nvim-orgmode workflow]]

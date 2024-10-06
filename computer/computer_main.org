@@ -259,7 +259,7 @@ SCHEDULED: <2024-10-05 Sat 00:00>
 
 - *Goal(s):* 
   - [X] Rebase #trunk to #main [[https://github.com/whammou/notes][notes@github]]
-  - [ ] Merge @cuisine and @travel to @experience
+  - [ ] Merge @cuisine and @travel
 
 *** Merge git-trunk to git-main
 

@@ -8,8 +8,8 @@ Notebook on language learning
 
 Section dedicated to notes about the process of learning German 
 
-*** DOING [#C] Get a book
-DEADLINE: <2024-10-05 Sat 22:00 -2h>
+*** DONE [#C] Get a book
+DEADLINE: <2024-10-05 Sat 22:00 -2h> CLOSED: [2024-10-07 Mon 00:44]
 - Note taken on [2024-10-05 Sat 03:19] \\
   Choose the book previous learnt from for familiarity
 

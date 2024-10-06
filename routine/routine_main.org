@@ -143,6 +143,7 @@ CLOCK: [2024-09-29 Sun 20:49]
 - *Goal(s):* come up with a consistent schedule for gardening
 
 *** TODO Schedule hygiene day :SCHEDULE:
+SCHEDULED: <2024-10-07 Mon 19:00>
 
 - [ ] Shampoo day 
 - [ ] Body mist

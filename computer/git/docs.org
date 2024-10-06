@@ -2,7 +2,7 @@
 #+DESCRIPTION: A git workflow guides I found here and there
 #+FILETAGS: :COMPUTER:DOC:
 
-* DONE Write better commit messages :GIT:
+* DONE Write better commit messages :GIT:ARCHIVE:
 CLOSED: [2024-09-21 Sat 22:31]
 
 - *Goal(s):* Write better and more comprehensive commit messages

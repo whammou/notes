@@ -117,7 +117,7 @@ file:finance/assets/income-statement.png
   a. /It is important to take note of the *normal signs -* Income numbers are negative and Expenses numbers positive/
   b. /If the final sum is a negative number means that there is a corresponding amount of Assets and/or Liabilities with positive number(this a good)/
 
-*** DOING Clearing Income
+*** DOING [#C] Clearing Income
 SCHEDULED: <2024-10-07 Mon 19:00>
 
 *** Debits and Credits
@@ -206,7 +206,7 @@ d. Special account handles only one type of currency
 3. Keep doing step 2 forever
    - Roll up the books, move the total of your *income* and *expense* to *equity*, and zero out your *income* and *expense* accounts once a year
 
-** TODO [#B] Beancount Double-entry bookkeeping :FINANCE:VIM:BEANCOUNT:
+** DOING [#B] Beancount Double-entry bookkeeping :FINANCE:VIM:BEANCOUNT:
 
 - *Visit:* [[https://beancount.github.io/docs/beancount_cheat_sheet.html][beancount-syntax-pta]]
 - *Visit:* [[https://github.com/simonmichael/hledger][github]]

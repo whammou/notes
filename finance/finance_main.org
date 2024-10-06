@@ -117,6 +117,11 @@ file:finance/assets/income-statement.png
   a. /It is important to take note of the *normal signs -* Income numbers are negative and Expenses numbers positive/
   b. /If the final sum is a negative number means that there is a corresponding amount of Assets and/or Liabilities with positive number(this a good)/
 
+*** DOING Clearing Income
+SCHEDULED: <2024-10-07 Mon 19:00>
+
+
+
 *** Debits and Credits
 
 ~Double-entry bookkeeping~ traditionally names movements of money as *debits* or *credits*. As an error-checking mechanism, the debits must exactly balance the credits, both within each individual transaction and over all transactions

@@ -361,4 +361,8 @@ Special properties provide an alternative access method to Org mode features, li
 CLOSED: [2024-09-29 Sun 22:07]
 
 *** TODO Orgmode social media integrate
+** DONE Script orgmode scratchpad :VIM:ORGMODE:
+CLOSED: [2024-10-07 Mon 02:06]
 
+- *Goal(s):* Create an nvim-orgmode scratchpad with ~qtile~
+- *Stumble upon:* [[https://curtismchale.ca/2023/12/20/ultimate-keyboard-control-task-management-nvim-orgmode/][nvim-orgmode workflow]]

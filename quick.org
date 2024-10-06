@@ -26,11 +26,13 @@ CLOSED: [2024-10-06 Sun 19:20] SCHEDULED: <2024-10-06 Sun 11:00>
 Cafe with friends
 - *Address:* [[https://www.google.com/maps/place/26A+Ph%E1%BA%A1m+Ng%E1%BB%8Dc+Th%E1%BA%A1ch,+Ph%C6%B0%E1%BB%9Dng+6,+Qu%E1%BA%ADn+3,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7842646,106.6939983,19z/data=!4m6!3m5!1s0x31752f3406e949d1:0x7a24235059671f2f!8m2!3d10.7844551!4d106.6942183!16s%2Fg%2F11c5m0ycbt?force=pwa&source=mlapk][26A Phạm Ngọc Thạch, Q3]]
 
-* TODO Speech to Text :LINUX:DOC:
+* DOING Speech to Text :LINUX:DOC:
+- Note taken on [2024-10-07 Mon 03:10] \\
+  Test run Google Recorder android
 
 Linux speech to text package
-- *Goal:* Implement to @language topic
-- *Source:*  [[https://github.com/julius-speech/julius][julius]]
+- *Goal:* Implement to @language topic that works with android
+- *Source:*  [[https://github.com/julius-speech/julius][julius]]  [[https://wiki.archlinux.org/title/Speech_dispatcher][voice_dispatcher@archwiki]]
 
 * DONE Script orgmode scratchpad :VIM:ORGMODE:
 CLOSED: [2024-10-07 Mon 02:06]

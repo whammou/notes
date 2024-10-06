@@ -99,11 +99,15 @@ file:finance/assets/naming.png
 file:finance/assets/naming2.png
 file:finance/assets/naming3.png
 
-*** DOING Trial Balance
+*** Trial Balance
 
 The of the ~postings~ on all of the accounts and render just the account name and its final balance on the right, we obtain a report we call the *trial balance*
 
 file:finance/assets/trial-balance.png
+
+This simply reflects the balance of each account at particular point in time. And because each of the accounts began with a zero balance, and each transaction has itself a zero balance, we know that the sum of all those balances must equal zero. This is a consequence of our constraining that each of the postings be part of a transaction, and that each transaction have postings that balance each other out
+
+*** Income Statement
 
 *** Debits and Credits
 

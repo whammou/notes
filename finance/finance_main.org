@@ -109,6 +109,14 @@ This simply reflects the balance of each account at particular point in time. An
 
 *** Income Statement
 
+*Income Statement -* is a summary of changes in income statement accounts during a particular period of time.It tells us how much money was earned and spent during this period, and the difference tells us how much profit (or loss) was incurred
+
+file:finance/assets/income-statement.png
+
+/In order to generate this summary, we simply sum up just the transactions for a particular period of types Income and Expenses then separate each type vertically/
+  a. /It is important to take note of the *normal signs -* Income numbers are negative and Expenses numbers positive/
+  b. /If the final sum is a negative number means that there is a corresponding amount of Assets and/or Liabilities with positive number(this a good)/
+
 *** Debits and Credits
 
 ~Double-entry bookkeeping~ traditionally names movements of money as *debits* or *credits*. As an error-checking mechanism, the debits must exactly balance the credits, both within each individual transaction and over all transactions

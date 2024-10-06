@@ -142,12 +142,10 @@ CLOCK: [2024-09-29 Sun 20:49]
 
 - *Goal(s):* come up with a consistent schedule for gardening
 
-*** PENDING Schedule hygiene day :SCHEDULE:
+*** TODO Schedule hygiene day :SCHEDULE:
 
 - [ ] Shampoo day 
 - [ ] Body mist
-
-** TODO [#A] Burnout schedule :SCHEDULE:
 
 ** PENDING Hitting the gym :GYM:HEALTH:
 

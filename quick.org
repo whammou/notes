@@ -15,5 +15,5 @@
 
 * Offload workload :DISCUSS:
 
-- *Stumble upon:* [[https://l.opnxng.com/r/sysadmin/comments/2wazbb/im_struggling_with_my_workload_and_need_tips_for/][Offload-workload@reddit]]
+- *Stumble upon:* [[https://www.reddit.com/r/productivity/comments/1bzy57h/how_to_effectively_juggle_multiple_highpriority//][Offload-workload@reddit]]
 

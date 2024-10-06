@@ -93,8 +93,8 @@ Overhaul skincare routine:
 
 - *Goal(s):* Look for topical treatment to fill in routine
 
-**** TODO Checkout this routine :DISCUSS:
-SCHEDULED: <2024-10-06 Sun 02:00>
+**** DOING Checkout this routine :DISCUSS:
+SCHEDULED: <2024-10-07 Mon 05:00>
 
 - *Source:*  [[https://www.reddit.com/r/SkincareAddiction/comments/tm9cw6/routine_help_is_it_safe_to_use_a_salicylic_acid/][skincare routine@reddit]]
 

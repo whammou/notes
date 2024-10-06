@@ -120,8 +120,6 @@ file:finance/assets/income-statement.png
 *** DOING Clearing Income
 SCHEDULED: <2024-10-07 Mon 19:00>
 
-
-
 *** Debits and Credits
 
 ~Double-entry bookkeeping~ traditionally names movements of money as *debits* or *credits*. As an error-checking mechanism, the debits must exactly balance the credits, both within each individual transaction and over all transactions
@@ -166,7 +164,7 @@ These two are called ~Income Statement accounts~. The balances they accumulate d
 
 *** Statements
 
-** TODO [#B] Double-entry accounting
+** DOING [#B] Double-entry accounting
 :PROPERTIES:
 :CUSTOM_ID: double-entry-accounting
 :END:

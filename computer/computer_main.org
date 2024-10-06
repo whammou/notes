@@ -207,7 +207,7 @@ CLOSED: [2024-10-07 Mon 04:39]
 
 [[./archive/main.org_archive]]
 
-** PENDING Github search query :GITHUB:
+** TODO Github search query :GITHUB:
 
 - *Goal(s):* Learn github search queries
 

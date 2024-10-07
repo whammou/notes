@@ -144,6 +144,10 @@ House chord routine
 
 Initiate
 
+*** Recipes :DOC:
+
+Food recipes I collect over the internet
+
 *** DONE [#A] Grocery :ONEOFF:
 CLOSED: [2024-10-05 Sat 19:02] SCHEDULED: <2024-10-05 Sat 16:00>
 

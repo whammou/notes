@@ -52,10 +52,12 @@ CLOSED: [2024-10-07 Mon 20:22]
 
 - *Source:* [[https://redlib.seasi.dev/r/StrongerByScience/comments/1f2tk5v/why_is_it_that_calorie_intake_is_so_important_for/][Calorie intake and muscle growth]]
 
-*** TODO Measure body fat
+*** TODO Measure body fat :ARTICLE:
 
 - *Goal:* measuring body fat and log data
   - [ ] Var check ~skincaliper~
+
+- *Visit:*  [[https://pubmed.ncbi.nlm.nih.gov/8046177/]]
 
 ** Sessions
 

@@ -218,8 +218,8 @@ Visit [[/server/archive/calisthenics/Class,\ Health\ -\ Bodyweight\ Training_\ T
 
 1. [[https://redlib.seasi.dev/r/Fitness/comments/3sjpv8/best_learning_resources/][r/Fitness - Best learning resources]]
 
-*** TODO [#A] Visit local gym :ONEOFF:
-SCHEDULED: <2024-10-07 Mon 16:00>
+*** DONE [#A] Visit local gym :ONEOFF:
+CLOSED: [2024-10-07 Mon 18:40] SCHEDULED: <2024-10-07 Mon 16:00>
 - Note taken on [2024-10-02 Wed 20:11] \\
   Look for machines that satisfy personal criteria
 

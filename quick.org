@@ -18,7 +18,7 @@ DEADLINE: <2024-10-10 Thu 00:00 -1d>
 
 Shoppee sale, resupply [[shoppee.vn/cart]]
 
-* TODO [#A] Resupply :ONEOFF:
+* TODO Resupply :ONEOFF:
 SCHEDULED: <2024-10-08 Tue 18:00>
 
 Visit aunt house to resupply food
@@ -27,6 +27,6 @@ Visit aunt house to resupply food
 
 Glue back a hole on my sneakers
 
-* DOING [#A] Create orgmode notebook :ONEOFF:ORGMODE:
+* DOING [#B] Create orgmode notebook :ONEOFF:ORGMODE:
 DEADLINE: <2024-10-08 Tue 02:00>
 

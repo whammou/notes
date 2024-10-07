@@ -197,6 +197,10 @@ List of to get items
 
 - *Source:* [[https://redlib.seasi.dev/r/StrongerByScience/comments/1f2tk5v/why_is_it_that_calorie_intake_is_so_important_for/][Calorie intake and muscle growth]]
 
+**** TODO Measure body fat
+
+- *Goal:* measuring body fat and log data
+
 *** Sessions
 
 **** Warm-up
@@ -234,4 +238,8 @@ CLOSED: [2024-10-07 Mon 18:40] SCHEDULED: <2024-10-07 Mon 16:00>
   Look for machines that satisfy personal criteria
 
 Visit local resident gym 
+
+*** Measure BMI
+
+- *Goal:* measuring BMI and log data
 

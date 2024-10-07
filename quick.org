@@ -23,3 +23,7 @@ SCHEDULED: <2024-10-08 Tue 18:00>
 
 Visit aunt house to resupply food
 
+* TODO Fix sneakers :ONEOFF:
+
+Glue back a hole on my sneakers
+

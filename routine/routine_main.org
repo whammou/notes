@@ -99,8 +99,8 @@ Overhaul skincare routine:
 - *Goal:*  Reduce face oil
 - *Source:*  [[https://www.youtube.com/watch?v=hevaszImfJk&t=287][Doctorly@youtube]]
 
-**** DOING [#B] Checkout this routine :DISCUSS:
-SCHEDULED: <2024-10-07 Mon 05:00>
+**** DONE [#B] Checkout this routine :DISCUSS:
+CLOSED: [2024-10-07 Mon 19:50] SCHEDULED: <2024-10-07 Mon 05:00>
 
 - *Source:*  [[https://www.reddit.com/r/SkincareAddiction/comments/tm9cw6/routine_help_is_it_safe_to_use_a_salicylic_acid/][skincare routine@reddit]]
 

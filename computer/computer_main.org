@@ -370,3 +370,12 @@ CLOSED: [2024-10-07 Mon 02:06]
 - *Goal(s):* Create an nvim-orgmode scratchpad with ~qtile~
 - *Stumble upon:* [[https://curtismchale.ca/2023/12/20/ultimate-keyboard-control-task-management-nvim-orgmode/][nvim-orgmode workflow]]
 
+** TODO Spreadsheet data visualize
+:PROPERTIES:
+:CUSTOM_ID: visidata
+:END:
+
+- *Goal(s):* implement .csv for data tracking
+- *Stumble upon:* python data visualizer  [[https://www.visidata.org/][visidata]]
+
+

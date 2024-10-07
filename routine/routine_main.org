@@ -52,6 +52,11 @@ CLOSED: [2024-09-29 Sun 20:14] SCHEDULED: <2024-09-29 Sun 16:00>
 - [X] L cystine
 - [X] Lips
 
+**** Shampoo day
+SCHEDULED: <2024-10-12 Sat 14:00 +1w>
+
+Weekly shampoo schedule
+
 *** Skincare :SKINCARE:
 
 Skincare routines and documentation on improving efficiency of the schedule

@@ -13,8 +13,13 @@
 
 - *Goal(s):* Find a way to keep track github repo updates and get notification from updates
 
-* Shoppee Sale 10-10 :ONEOFF:
+* TODO Shoppee Sale 10-10 :ONEOFF:
 DEADLINE: <2024-10-10 Thu 00:00 -1d>
 
 Shoppee sale, resupply [[shoppee.vn/cart]]
+
+* TODO [#A] Resupply :ONEOFF:
+SCHEDULED: <2024-10-08 Tue 18:00>
+
+Visit aunt house to resupply food
 

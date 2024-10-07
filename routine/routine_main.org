@@ -52,16 +52,6 @@ CLOSED: [2024-09-29 Sun 20:14] SCHEDULED: <2024-09-29 Sun 16:00>
 - [X] L cystine
 - [X] Lips
 
-**** Shampoo day
-SCHEDULED: <2024-10-13 Sun 14:00 +1w>
-
-Weekly shampoo schedule
-
-**** Conditioner Day
-SCHEDULED: <2024-10-07 Mon 14:00 +2d>
-
-Weekly conditioner schedule
-
 *** Skincare :SKINCARE:
 
 Skincare routines and documentation on improving efficiency of the schedule
@@ -118,6 +108,22 @@ CLOSED: [2024-10-07 Mon 04:37]
 - *Goal(s):* choose a suitable product and schedule to improve hair quality
 - *Stumble upon:*  [[https://labmuffin.com/how-does-olaplex-hair-treatment-work/][Olaplex_treatment@muffinlab]]
 
+**** Shampoo day
+SCHEDULED: <2024-10-13 Sun 14:00 +1w>
+:PROPERTIES:
+:CUSTOM_ID: shampoo_day
+:END:
+
+Weekly shampoo schedule
+
+**** Conditioner Day
+SCHEDULED: <2024-10-07 Mon 14:00 +2d>
+:PROPERTIES:
+:CUSTOM_ID: conditioner_day
+:END:
+
+Weekly conditioner schedule
+
 *** Vehicle :VEHICLE:
 
 **** Bike maintenance
@@ -171,15 +177,41 @@ List of to get items
 - [X] Rau/củ
 - Total: 278
 
-** PENDING Hitting the gym :GYM:HEALTH:
+** DOING Hitting the gym :ROUTINE:GYM:HEALTH:
 
 - *Goal:* To plan a gym schedule and you need to start hitting da gym
 
+*** Resources
+
+**** Primer Routine
+
+- Visit [[https://redlib.seasi.dev/r/bodyweightfitness/wiki/training_guide][r/bodyweightfitness guide]]
+- Visit [[https://nick-e.com/primer/][Nick-E.com guide]]
+- Visit [[https://www.hybridcalisthenics.com/routine][hybridcalisthenics.com]]
+
+**** "Overcome Gravity - Steven Low"
+
+Visit [[/server/archive/calisthenics/Class,\ Health\ -\ Bodyweight\ Training_\ The\ Scientific\ Approach\ to\ Calisthenics\ Workout_\ The\ Easiest\ Way\ to\ Overcome\ Gravity\ and\ be\ Leaner,\ Bigger\ and\ Stronger.pdf]]
+
+**** Youtube
+
+- *Channel:*
+  1. [[https://youtube.com/channel/UCeJFgNahi--FKs0oJyeRDEw][Hybridcalisthenics.youtube]]
+  2. [[https://www.youtube.com/@OFFICIALTHENXSTUDIOS][THENXstudio@youtube]]
+- *Video:*
+  1. [[https://youtube.com/watch?v=U9ENCvFf9yQ][Step-by_step beginner gym guide]]
+
+**** Reddit
+
+1. [[https://redlib.seasi.dev/r/Fitness/comments/3sjpv8/best_learning_resources/][r/Fitness - Best learning resources]]
+
 *** Miscellaneous
 
-**** Post-workout maintenance
+**** DONE Post-workout maintenance
+CLOSED: [2024-10-07 Mon 20:22]
 
-- *Goal:* Look for a way to manage hair after a workout session
+- *Goal:* Look for a way to manage hair after a workout session 
+- *Solution:* Implemented new shampoo and conditioner day schedules  [[#conditioner_day]]  [[#shampoo_day]]
 
 *** Research
 
@@ -204,29 +236,6 @@ List of to get items
 - Shoulder, wrists, knees, and hips
 
 **** Bicep Exercise
-
-*** Resources
-
-**** Primer Routine
-
-- Visit [[https://redlib.seasi.dev/r/bodyweightfitness/wiki/training_guide][r/bodyweightfitness guide]]
-- Visit [[https://nick-e.com/primer/][Nick-E.com guide]]
-- Visit [[https://www.hybridcalisthenics.com/routine][hybridcalisthenics.com]]
-
-**** "Overcome Gravity - Steven Low"
-
-Visit [[/server/archive/calisthenics/Class,\ Health\ -\ Bodyweight\ Training_\ The\ Scientific\ Approach\ to\ Calisthenics\ Workout_\ The\ Easiest\ Way\ to\ Overcome\ Gravity\ and\ be\ Leaner,\ Bigger\ and\ Stronger.pdf]]
-
-**** Youtube
-
-- *Channel:*
-  1. [[https://youtube.com/channel/UCeJFgNahi--FKs0oJyeRDEw][Hybridcalisthenics.youtube]]
-- *Video:*
-  1. [[https://youtube.com/watch?v=U9ENCvFf9yQ][Step-by_step beginner gym guide]]
-
-**** Reddit
-
-1. [[https://redlib.seasi.dev/r/Fitness/comments/3sjpv8/best_learning_resources/][r/Fitness - Best learning resources]]
 
 *** DONE [#A] Visit local gym :ONEOFF:
 CLOSED: [2024-10-07 Mon 18:40] SCHEDULED: <2024-10-07 Mon 16:00>

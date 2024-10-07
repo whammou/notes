@@ -164,7 +164,7 @@ These two are called ~Income Statement accounts~. The balances they accumulate d
 
 *** Statements
 
-** DOING [#B] Double-entry accounting
+** DOING Double-entry accounting
 :PROPERTIES:
 :CUSTOM_ID: double-entry-accounting
 :END:
@@ -206,7 +206,7 @@ d. Special account handles only one type of currency
 3. Keep doing step 2 forever
    - Roll up the books, move the total of your *income* and *expense* to *equity*, and zero out your *income* and *expense* accounts once a year
 
-** DOING [#B] Beancount Double-entry bookkeeping :FINANCE:VIM:BEANCOUNT:
+** DOING Beancount Double-entry bookkeeping :FINANCE:VIM:BEANCOUNT:
 
 - *Visit:* [[https://beancount.github.io/docs/beancount_cheat_sheet.html][beancount-syntax-pta]]
 - *Visit:* [[https://github.com/simonmichael/hledger][github]]

@@ -108,16 +108,17 @@ CLOSED: [2024-10-07 Mon 04:37]
 - *Goal(s):* choose a suitable product and schedule to improve hair quality
 - *Stumble upon:*  [[https://labmuffin.com/how-does-olaplex-hair-treatment-work/][Olaplex_treatment@muffinlab]]
 
-**** Shampoo day
-SCHEDULED: <2024-10-13 Sun 14:00 +1w>
+**** Shampoo & Conditioner PM
+SCHEDULED: <2024-10-13 Sun 01:00 +1w>
 :PROPERTIES:
 :CUSTOM_ID: shampoo_day
 :END:
 
 Weekly shampoo schedule
 
-**** Conditioner Day
-<2024-10-07 Mon 14:00 +1w><2024-10-09 Wed 14:00 +1w><2024-10-11 Fri 14:00 +1w><2024-10-13 Sun 14:00 +1w>
+**** Wash Day AM
+
+<2024-10-07 Mon 14:00 +1w><2024-10-09 Wed 14:00 +1w><2024-10-11 Fri 14:00 +1w>
 :PROPERTIES:
 :CUSTOM_ID: conditioner_day
 :END:
@@ -133,37 +134,19 @@ SCHEDULED: <2024-11-08 Fri>
 
 House chord routine
 
-*** DONE Washing day :ONEOFF:
-CLOSED: [2024-09-30 Mon 05:52] DEADLINE: <2024-09-27 Fri 04:00>
-
-*** ABORTED Grocery :ROUTINE:CHORE:ONEOFF:
-CLOSED: [2024-10-02 Wed 16:21] DEADLINE: <2024-10-02 Wed 19:00>
-:LOGBOOK:
-CLOCK: [2024-09-29 Sun 20:49]
-:END:
-
-- [ ] Dầu hào
-- [X] Thịt 1.5kg
-- [ ] Rau
-- [ ] Thịt băm 250g
-- [ ] Nc tương
-- [ ] Tương ớt
-
 *** PENDING Sharpen knives :ONEOFF:
 
 *** PENDING Gardening :SCHEDULE:
 
 - *Goal(s):* come up with a consistent schedule for gardening
 
-*** DONE [#B] Schedule hygiene day :SCHEDULE:
-CLOSED: [2024-10-07 Mon 19:32] SCHEDULED: <2024-10-07 Mon 19:00>
-
-- [X] Shampoo day 
-- [X] Body mist
-
 ** Cooking :COOK:HEALTH:
 
 Initiate
+
+*** Recipes :DOC:
+
+Food recipes I collect over the internet
 
 *** DONE [#A] Grocery :ONEOFF:
 CLOSED: [2024-10-05 Sat 19:02] SCHEDULED: <2024-10-05 Sat 16:00>

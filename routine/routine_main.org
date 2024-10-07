@@ -149,11 +149,11 @@ CLOCK: [2024-09-29 Sun 20:49]
 
 - *Goal(s):* come up with a consistent schedule for gardening
 
-*** TODO [#B] Schedule hygiene day :SCHEDULE:
-SCHEDULED: <2024-10-07 Mon 19:00>
+*** DONE [#B] Schedule hygiene day :SCHEDULE:
+CLOSED: [2024-10-07 Mon 19:32] SCHEDULED: <2024-10-07 Mon 19:00>
 
-- [ ] Shampoo day 
-- [ ] Body mist
+- [X] Shampoo day 
+- [X] Body mist
 
 ** Cooking :COOK:HEALTH:
 

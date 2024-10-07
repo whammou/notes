@@ -22,13 +22,14 @@ Linux speech to text package
 
 Section dedicated to notes about the process of learning German 
 
-*** TODO [#C] Get a book
+*** DOING [#B] Get a book :DISCUSS:BOOK:
 DEADLINE: <2024-10-07 Mon 00:00>
 - Note taken on [2024-10-05 Sat 03:19] \\
   Choose the book previous learnt from for familiarity
 
 - *Goal:* Get a book to review German
 - *Book:*  [[https://libgen.li/edition.php?id=138543351][Auf geht's! beginning German language and culture 4th]]
+- *Reddit:*  [[https://www.reddit.com/r/German/comments/xtvvqd/best_german_self_study_books/][self-study]]
 
 *** TODO Speaking practice environment
 

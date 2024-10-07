@@ -149,7 +149,7 @@ Meal-preps, cooking recipes and grocery planning
 
 Food recipes I collect over the internet
 
-*** Grocery
+*** Grocery :GROCERY:
 
 <2024-10-08 Tue 17:00 +1w><2024-10-12 Sat 17:00 +1w>
 

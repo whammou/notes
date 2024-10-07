@@ -57,6 +57,11 @@ SCHEDULED: <2024-10-13 Sun 14:00 +1w>
 
 Weekly shampoo schedule
 
+**** Conditioner Day
+SCHEDULED: <2024-10-07 Mon 14:00 +2d>
+
+Weekly conditioner schedule
+
 *** Skincare :SKINCARE:
 
 Skincare routines and documentation on improving efficiency of the schedule

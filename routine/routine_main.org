@@ -118,7 +118,7 @@ Weekly shampoo schedule
 
 **** Wash Day
 
-<2024-10-07 Mon 14:00 +1w><2024-10-09 Wed 14:00 +1w><2024-10-11 Fri 14:00 +1w><2024-10-13 Sun 14:00 +1w>
+<2024-10-07 Mon 14:00 +1w><2024-10-09 Wed 14:00 +1w><2024-10-11 Fri 14:00 +1w>
 :PROPERTIES:
 :CUSTOM_ID: conditioner_day
 :END:

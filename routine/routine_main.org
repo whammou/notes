@@ -116,7 +116,7 @@ SCHEDULED: <2024-10-13 Sun 01:00 +1w>
 
 Weekly shampoo schedule
 
-**** Wash Day
+**** Wash Day AM
 
 <2024-10-07 Mon 14:00 +1w><2024-10-09 Wed 14:00 +1w><2024-10-11 Fri 14:00 +1w>
 :PROPERTIES:
@@ -134,33 +134,11 @@ SCHEDULED: <2024-11-08 Fri>
 
 House chord routine
 
-*** DONE Washing day :ONEOFF:
-CLOSED: [2024-09-30 Mon 05:52] DEADLINE: <2024-09-27 Fri 04:00>
-
-*** ABORTED Grocery :ROUTINE:CHORE:ONEOFF:
-CLOSED: [2024-10-02 Wed 16:21] DEADLINE: <2024-10-02 Wed 19:00>
-:LOGBOOK:
-CLOCK: [2024-09-29 Sun 20:49]
-:END:
-
-- [ ] Dầu hào
-- [X] Thịt 1.5kg
-- [ ] Rau
-- [ ] Thịt băm 250g
-- [ ] Nc tương
-- [ ] Tương ớt
-
 *** PENDING Sharpen knives :ONEOFF:
 
 *** PENDING Gardening :SCHEDULE:
 
 - *Goal(s):* come up with a consistent schedule for gardening
-
-*** DONE [#B] Schedule hygiene day :SCHEDULE:
-CLOSED: [2024-10-07 Mon 19:32] SCHEDULED: <2024-10-07 Mon 19:00>
-
-- [X] Shampoo day 
-- [X] Body mist
 
 ** Cooking :COOK:HEALTH:
 

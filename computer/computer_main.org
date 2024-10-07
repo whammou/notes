@@ -162,7 +162,8 @@ CLOSED: [2024-09-27 Fri 01:16] DEADLINE: <2024-09-26 Thu 22:00>
 
 ~fzf~ uses ~FZF_DEFAULT_OPTS~ as config, run ~export~ to pass variable to sub-shells
 
-** PENDING Vim-fugitive workflow :COMPUTER:GIT:VIM:
+** DONE Vim-fugitive workflow :COMPUTER:GIT:VIM:ARCHIVE:
+CLOSED: [2024-10-07 Mon 22:27]
 
 - *Goal:* Improve git workflow and merge conflicts
 - *Stumble upon:* [[https://www.youtube.com/playlist?list=PLmcTCfaoOo_jP2mViI_3d1aZrbueLyArh][DevOps git playlist]]
@@ -197,7 +198,8 @@ b. ~cw~ to reword the last commit
 c. ~cf~ to create a fixup commit
 d. ~crc~ to revert the commit under the cursor
 
-** PENDING Git workflow keybind :COMPUTER:GIT:
+** DONE Git workflow keybind :COMPUTER:GIT:ARCHIVE:
+CLOSED: [2024-10-07 Mon 22:27]
 
 - *Goal(s):* Add vim-fugitive keybinds to optimize workflow
 - *Stumble upon:* [[https://youtube.com/watch?v=57x4ZzzCr2Y][nvim+fugitive+lazygit@youtube]] [[https://github.com/jesseduffield/lazygit][lazygit@github]]
@@ -236,7 +238,8 @@ CLOSED: [2024-10-07 Mon 04:38]
 - *Goal:* Take a look at vim
 - [[https://github.com/mfussenegger/nvim-dap][documentation]]
 
-** PENDING Config xdg-open :LINUX:
+** DONE Config xdg-open :LINUX:
+CLOSED: [2024-10-07 Mon 22:27]
 
 - *Goal:* Config xdg-open to open demanding file types
 
@@ -377,5 +380,4 @@ CLOSED: [2024-10-07 Mon 02:06]
 
 - *Goal(s):* implement .csv for data tracking
 - *Stumble upon:* python data visualizer  [[https://www.visidata.org/][visidata]]
-
 

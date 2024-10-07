@@ -55,6 +55,7 @@ CLOSED: [2024-10-07 Mon 20:22]
 *** TODO Measure body fat
 
 - *Goal:* measuring body fat and log data
+  - [ ] Var check ~skincaliper~
 
 ** Sessions
 
@@ -75,3 +76,4 @@ Visit local resident gym
 
 - *Goal:* measuring BMI and log data
 - *Visit:* data visualizer [[computer/computer_main.org#visidata][visidata package]]
+

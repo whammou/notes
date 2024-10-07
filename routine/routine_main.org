@@ -239,7 +239,7 @@ CLOSED: [2024-10-07 Mon 18:40] SCHEDULED: <2024-10-07 Mon 16:00>
 
 Visit local resident gym 
 
-*** Measure BMI
+*** TODO Measure BMI
 
 - *Goal:* measuring BMI and log data
 

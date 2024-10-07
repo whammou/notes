@@ -23,7 +23,7 @@ Linux speech to text package
 Section dedicated to notes about the process of learning German 
 
 *** TODO [#C] Get a book
-DEADLINE: <2024-10-07 Mon 00:00 -2h>
+DEADLINE: <2024-10-07 Mon 00:00>
 - Note taken on [2024-10-05 Sat 03:19] \\
   Choose the book previous learnt from for familiarity
 

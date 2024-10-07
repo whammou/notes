@@ -28,14 +28,6 @@ Visit [[/server/archive/calisthenics/Class,\ Health\ -\ Bodyweight\ Training_\ T
 
 1. [[https://redlib.seasi.dev/r/Fitness/comments/3sjpv8/best_learning_resources/][r/Fitness - Best learning resources]]
 
-** Miscellaneous
-
-*** DONE Post-workout maintenance
-CLOSED: [2024-10-07 Mon 20:22]
-
-- *Goal:* Look for a way to manage hair after a workout session 
-- *Solution:* Implemented new shampoo and conditioner day schedules  [[#conditioner_day]]  [[#shampoo_day]]
-
 ** Research
 
 *** Bulk or Cut
@@ -43,7 +35,7 @@ CLOSED: [2024-10-07 Mon 20:22]
 - *Bulk -* Deliberately targeting a ~caloric surplus~ for the purpose of ~gaining~ weight over a period of time
 - *Cut -* Deliberately targeting a ~caloric deficit~ for the purpose of ~losing~ weight over a period of time
 
-*** calisthenics vs weight-lifting
+*** Calisthenics vs Weight-lifting
 
 - *Goal:* Develop a suitable workout session and timeline
 - *Resource:* [[https://youtube.com/watch?v=VLOKMjHEyhY][youtube]]
@@ -66,6 +58,12 @@ CLOSED: [2024-10-07 Mon 20:22]
 - Shoulder, wrists, knees, and hips
 
 *** Bicep Exercise
+
+** DONE Post-workout maintenance
+CLOSED: [2024-10-07 Mon 20:22]
+
+- *Goal:* Look for a way to manage hair after a workout session 
+- *Solution:* Implemented new shampoo and conditioner day schedules  [[#conditioner_day]]  [[#shampoo_day]]
 
 ** DONE [#A] Visit local gym :ONEOFF:
 CLOSED: [2024-10-07 Mon 18:40] SCHEDULED: <2024-10-07 Mon 16:00>

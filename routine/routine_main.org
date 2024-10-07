@@ -109,7 +109,7 @@ CLOSED: [2024-10-07 Mon 04:37]
 - *Stumble upon:*  [[https://labmuffin.com/how-does-olaplex-hair-treatment-work/][Olaplex_treatment@muffinlab]]
 
 **** Shampoo & Conditioner day
-SCHEDULED: <2024-10-13 Sun 14:00 +1w>
+SCHEDULED: <2024-10-13 Sun 01:00 +1w>
 :PROPERTIES:
 :CUSTOM_ID: shampoo_day
 :END:

@@ -9,6 +9,7 @@ Notebook on language learning
 - *Goal(s):* 
   - [ ] Use cli or website to convert yt transcript to text
   - [ ] Check out Google Recorder
+
 *** DOING Speech to Text :LINUX:DOC:
 - Note taken on [2024-10-07 Mon 03:10] \\
   Test run Google Recorder android
@@ -28,4 +29,8 @@ CLOSED: [2024-10-07 Mon 02:39] DEADLINE: <2024-10-05 Sat 22:00 -2h>
 
 - *Goal:* Get a book to review German
 - *Book:* [[https://libgen.li/edition.php?id=138543351][Auf geht's! beginning German language and culture 4th]]
+
+*** TODO Speaking practice environment
+
+- *Goal:* create speaking environment via either irl or discord(schedule events if necessary)
 

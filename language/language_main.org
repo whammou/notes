@@ -22,13 +22,17 @@ Linux speech to text package
 
 Section dedicated to notes about the process of learning German 
 
+*** Grammar
+
+- *Goal(s):* Learn German grammar
+
 *** DOING [#B] Get a book :DISCUSS:BOOK:
 DEADLINE: <2024-10-07 Mon 00:00>
 - Note taken on [2024-10-05 Sat 03:19] \\
   Choose the book previous learnt from for familiarity
 
 - *Goal:* Get a book to review German
-- *Book:*  [[https://libgen.li/edition.php?id=138543351][Auf geht's! beginning German language and culture 4th]]
+- *Book:*  [[https://libgen.li/edition.php?id=138543351][Auf geht's! beginning German language and culture 4th]] [[https://www.fluentu.com/blog/german/best-books-to-learn-german/][book-lists]]
 - *Reddit:*  [[https://www.reddit.com/r/German/comments/xtvvqd/best_german_self_study_books/][self-study]] [[https://www.reddit.com/r/German/comments/4b1ft7/best_resource_for_learning_german_free/][self-study resource]]
 
 *** TODO Speaking practice environment

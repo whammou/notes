@@ -18,17 +18,9 @@ DEADLINE: <2024-10-10 Thu 00:00 -1d>
 
 Shoppee sale, resupply [[shoppee.vn/cart]]
 
-* DONE [#A] Visit auntie house :ONEOFF:
-CLOSED: [2024-10-08 Tue 20:15] SCHEDULED: <2024-10-08 Tue 18:00>
-
-Visit aunt house to resupply food
-
 * TODO Fix sneakers :ONEOFF:
 
 Glue back a hole on my sneakers
-
-* DONE [#B] Create orgmode notebook :ONEOFF:ORGMODE:
-CLOSED: [2024-10-08 Tue 21:22] DEADLINE: <2024-10-08 Tue 02:00>
 
 * TODO [#C] Buy facemask
 

@@ -135,7 +135,7 @@ SCHEDULED: <2024-11-08 Fri>
 
 House chord routine
 
-*** Clothe washing
+*** PENDING Clothe washing
 
 Weekly clothe washing and techniques 
 
@@ -161,7 +161,7 @@ Weekly clothe washing and techniques
 
 Meal-preps, cooking recipes and grocery planning  
 
-*** [#B] Food-preps :DIET:
+*** PENDING [#B] Food-preps :DIET:
 
 <2024-10-08 Tue 23:00 +1w>
 <2024-10-10 Thu 23:00 +1w>

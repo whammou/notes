@@ -26,3 +26,6 @@ Glue back a hole on my sneakers
 
 - *Goal(s):* buy black face mask for aesthetic
 
+* TODO [#A] Repair air-conditioner :ONEOFF:
+SCHEDULED: <2024-10-10 Thu 14:00>
+

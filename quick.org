@@ -18,8 +18,8 @@ DEADLINE: <2024-10-10 Thu 00:00 -1d>
 
 Shoppee sale, resupply [[shoppee.vn/cart]]
 
-* TODO [#A] Visit auntie house :ONEOFF:
-SCHEDULED: <2024-10-08 Tue 18:00>
+* DONE [#A] Visit auntie house :ONEOFF:
+CLOSED: [2024-10-08 Tue 20:15] SCHEDULED: <2024-10-08 Tue 18:00>
 
 Visit aunt house to resupply food
 

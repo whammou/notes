@@ -189,7 +189,7 @@ Run ~:G~ without arguments to access the main summary buffer (interative equival
 > [!NOTE]
 > Press ~g?~ inside the buffer for quickly open documentation at the key mappings section
 
-**** TODO Track files
+**** Track files
 
 *** Useful keybinds
 

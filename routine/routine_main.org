@@ -155,7 +155,7 @@ Food recipes I collect over the internet
 
 Grocery plan for easy meal-prepping 
 
-**** TODO Short trip
+**** TODO [#A] Short trip
 SCHEDULED: <2024-10-09 Wed 17:00>
 
 Buy:

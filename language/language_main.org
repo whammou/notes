@@ -29,7 +29,7 @@ DEADLINE: <2024-10-07 Mon 00:00>
 
 - *Goal:* Get a book to review German
 - *Book:*  [[https://libgen.li/edition.php?id=138543351][Auf geht's! beginning German language and culture 4th]]
-- *Reddit:*  [[https://www.reddit.com/r/German/comments/xtvvqd/best_german_self_study_books/][self-study]]
+- *Reddit:*  [[https://www.reddit.com/r/German/comments/xtvvqd/best_german_self_study_books/][self-study]] [[https://www.reddit.com/r/German/comments/4b1ft7/best_resource_for_learning_german_free/][self-study resource]]
 
 *** TODO Speaking practice environment
 

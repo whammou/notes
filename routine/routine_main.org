@@ -140,11 +140,13 @@ House chord routine
 Weekly clothe washing and techniques 
 
 **** Black clothes
+
 <2024-10-08 Tue 23:00 +1w>
 
 /Technique to wash clothes of dark colors/
 
 **** White clothes
+
 <2024-10-09 Wed 23:00 +1w>
 
 /Technique to wash clothes of bright colors/
@@ -159,7 +161,8 @@ Weekly clothe washing and techniques
 
 Meal-preps, cooking recipes and grocery planning  
 
-*** Food-preps :DIET:
+*** [#B] Food-preps :DIET:
+
 <2024-10-08 Tue 23:00 +1w>
 <2024-10-10 Thu 23:00 +1w>
 

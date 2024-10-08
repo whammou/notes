@@ -12,8 +12,8 @@ Archive of bistros/restaurants and good dinning places I have visited
 **Phone:*  tel:0969266512
 **Open:*  4–10 PM
 
-*** DONE Sweet June
-CLOSED: [2024-09-26 Thu 00:48] DEADLINE: <2024-09-25 Wed 20:00>
+*** TODO Sweet June
+DEADLINE: <2024-09-25 Wed 20:00>
 
 **Address:*  [[https://www.google.com/maps/place/Ti%E1%BB%87m+b%C3%A1nh+Sweet+June+(Crepes+%26+Waffle),+261+%C4%90.+S%C6%B0+V%E1%BA%A1n+H%E1%BA%A1nh,+Ph%C6%B0%E1%BB%9Dng+9,+Qu%E1%BA%ADn+10,+H%E1%BB%93+Ch%C3%AD+Minh+700000,+Vietnam/@10.7662518,106.6717886,16z/data=!4m6!3m5!1s0x31752f692e34766b:0xaf5ca43c38f494f!8m2!3d10.7662518!4d106.6717886!16s%2Fg%2F11pxlbqy15?force=pwa&source=mlapk][261 Sư Vạn Hạnh P9 Q10]]
 **Phone:*  tel:0913800669
@@ -34,7 +34,6 @@ Bread bakery and coffee
 - *Address:*  [[https://www.google.com/maps/place/SOKO+Cake+Bake+%26+Brunch+-+Nguy%E1%BB%85n+Trung+Tr%E1%BB%B1c,+27a+%C4%90.+Nguy%E1%BB%85n+Trung+Tr%E1%BB%B1c,+Ph%C6%B0%E1%BB%9Dng+B%E1%BA%BFn+Th%C3%A0nh,+Qu%E1%BA%ADn+1,+H%E1%BB%93+Ch%C3%AD+Minh+700000,+Vietnam/@10.7743336,106.6984623,17z/data=!4m6!3m5!1s0x31752f933bbb5a7d:0xed6364badfbac677!8m2!3d10.7743336!4d106.6984623!16s%2Fg%2F11v6ns90qx?force=pwa&source=mlapk][27a Đ. Nguyễn Trung Trực, Phường Bến Thành, Quận 1]]
 - *Contact:*  tel:0909929880
 - *Open:*  8 AM–10 PM
-
 
 ** Bistros :CUISINE:LIST:BISTRO:
 

@@ -135,6 +135,20 @@ SCHEDULED: <2024-11-08 Fri>
 
 House chord routine
 
+*** Clothe washing
+
+Weekly clothe washing and techniques 
+
+**** Black clothes
+<2024-10-08 Tue 23:00 +1w>
+
+/Technique to wash clothes of dark colors/
+
+**** White clothes
+<2024-10-09 Wed 23:00 +1w>
+
+/Technique to wash clothes of bright colors/
+
 *** PENDING Sharpen knives :ONEOFF:
 
 *** PENDING Gardening :SCHEDULE:
@@ -144,6 +158,13 @@ House chord routine
 ** Cooking :COOK:HEALTH:
 
 Meal-preps, cooking recipes and grocery planning  
+
+*** Food-preps :DIET:
+<2024-10-08 Tue 23:00 +1w>
+<2024-10-10 Thu 23:00 +1w>
+
+- *Goal(s):* Prepare food for next following days
+  /Prepare food list/
 
 *** Recipes :DOC:
 
@@ -155,7 +176,7 @@ Food recipes I collect over the internet
 
 Grocery plan for easy meal-prepping 
 
-**** TODO [#A] Short trip
+**** TODO [#A] Short trip :ONEOFF:
 SCHEDULED: <2024-10-09 Wed 17:00>
 
 Buy:

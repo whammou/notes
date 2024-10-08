@@ -1,7 +1,7 @@
 #+TITLE: Quick Notes
 #+DESCRIPTION: Captures and Quick notes
 
-* Ghost in the wires
+* Ghost in the wires :BOOK:
 
 [[https://libgen.is/search.php?req=Ghost+in+the+wires&lg_topic=libgen&open=0&view=simple&res=25&phrase=1&column=def][Ghost In The Wire@library-genisis]]
 
@@ -22,5 +22,7 @@ Shoppee sale, resupply [[shoppee.vn/cart]]
 
 Glue back a hole on my sneakers
 
-* TODO [#C] Buy facemask
+* TODO [#C] Buy face mask :ONEOFF:
+
+- *Goal(s):* buy black face mask for aesthetic
 

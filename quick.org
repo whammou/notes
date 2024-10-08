@@ -27,9 +27,8 @@ Visit aunt house to resupply food
 
 Glue back a hole on my sneakers
 
-* DOING [#B] Create orgmode notebook :ONEOFF:ORGMODE:
-DEADLINE: <2024-10-08 Tue 02:00>
+* DONE [#B] Create orgmode notebook :ONEOFF:ORGMODE:
+CLOSED: [2024-10-08 Tue 21:22] DEADLINE: <2024-10-08 Tue 02:00>
 
 * TODO [#C] Buy facemask
-DEADLINE: <2024-10-08 Tue 18:00>
 

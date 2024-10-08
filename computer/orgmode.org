@@ -28,7 +28,8 @@ CLOSED: [2024-09-30 Mon 03:38]
 
 /For now, ~orgzly-android~ does not support search by property, check/ [[https://github.com/orgzly/orgzly-android/issues/146][issue:search by property drawer]]
 
-*** TODO Orgmode Hyperlink
+*** DONE Orgmode Hyperlink
+CLOSED: [2024-10-08 Tue 22:58]
 
 *Visit:* [[https://github.com/nvim-orgmode/orgmode/blob/master/DOCS.md#hyperlinks][nvim-orgmode#hyperlink]] see how nvim-orgmode handle hyperlink
 *Note:* Cross file include

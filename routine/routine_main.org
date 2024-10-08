@@ -116,7 +116,7 @@ SCHEDULED: <2024-10-13 Sun 01:00 +1w>
 
 Weekly shampoo schedule
 
-**** Wash Day AM
+**** [#B] Wash Day AM
 :PROPERTIES:
 :CUSTOM_ID: wash_day
 :END:

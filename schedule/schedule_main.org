@@ -74,6 +74,6 @@ CLOSED: [2024-10-09 Wed 21:42] DEADLINE: <2024-10-08 Tue 19:00> SCHEDULED: <2024
 
 - *Goal:* Append a list of local thift shops
 
-** Cafe w Viet :ONEOFF:
-SCHEDULED: <2024-10-10 Thu 18:00>
+** ABORTED Cafe w Viet :ONEOFF:
+CLOSED: [2024-10-10 Thu 02:43] SCHEDULED: <2024-10-10 Thu 18:00>
 

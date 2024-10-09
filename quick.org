@@ -29,7 +29,7 @@ Glue back a hole on my sneakers
 * TODO [#A] Repair air-conditioner :ONEOFF:
 SCHEDULED: <2024-10-10 Thu 14:00>
 
-* Open webdav server
+* TODO Open webdav server
 
 - *Goal:* open webdav server to connect with android
 

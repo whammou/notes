@@ -118,7 +118,6 @@ file:finance/assets/income-statement.png
   b. /If the final sum is a negative number means that there is a corresponding amount of Assets and/or Liabilities with positive number(this a good)/
 
 *** Clearing Income
-SCHEDULED: <2024-10-07 Mon 19:00>
 
 The ~income statement~ only sum up within a particular internal of time. If we were to sum up all the transactions of this account since its inception we should obtain the total amount of income earned since the account was created
 
@@ -133,8 +132,6 @@ A bette rway to achieve the same thing is to zero out the balances of the ~Incom
 
 *** TODO Equity
 DEADLINE: <2024-10-10 Thu 02:00>
-
-
 
 *** Debits and Credits
 

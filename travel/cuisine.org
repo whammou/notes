@@ -52,3 +52,5 @@ Nhà hàng và buffet rau
 
 ** Restaurants :CUISINE:LIST:RESTAURANT:
 
+** Drinks :DRINKS:
+

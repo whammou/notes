@@ -180,7 +180,7 @@ Food recipes I collect over the internet
 Grocery plan for easy meal-prepping 
 
 **** TODO [#A] Short trip :ONEOFF:
-SCHEDULED: <2024-10-09 Wed 17:00>
+SCHEDULED: <2024-10-10 Thu 17:00>
 
 Buy:
   - [ ] Ngò gai

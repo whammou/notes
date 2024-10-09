@@ -42,5 +42,5 @@ DEADLINE: <2024-10-07 Mon 00:00>
 *** DOING [#A] Deutsch lernen :ROUTINE:
 DEADLINE: <2024-10-08 Tue 04:00>
 
-schedule up!!!
+Schedule up!!!
 

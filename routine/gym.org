@@ -45,7 +45,7 @@ Visit [[/server/archive/calisthenics/Class,\ Health\ -\ Bodyweight\ Training_\ T
 - *Source:* [[https://redlib.seasi.dev/r/StrongerByScience/comments/1f2tk5v/why_is_it_that_calorie_intake_is_so_important_for/][Calorie intake and muscle growth]]
 
 *** TODO Measure body fat :ARTICLE:
-DEADLINE: <2024-10-10 Thu 00:00>
+DEADLINE: <2024-10-11 Fri 00:00>
 
 - *Goal:* measuring body fat and log data
   - [ ] Var check ~skincaliper~

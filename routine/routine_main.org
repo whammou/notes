@@ -164,7 +164,7 @@ Meal-preps, cooking recipes and grocery planning
 *** PENDING [#B] Food-preps :DIET:
 
 <2024-10-08 Tue 23:00 +1w>
-<2024-10-10 Thu 23:00 +1w>
+<2024-10-12 Sat 23:00 +1w>
 
 - *Goal(s):* Prepare food for next following days
   /Prepare food list/

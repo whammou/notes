@@ -69,8 +69,8 @@ Club meeting in weekly session on /Tue/ and /Thu/ from /3PM/ to /6PM/
 
 Interesting academic related groups
 
-** TODO [#D] Thrift-lifting! :SOCIAL:ONEOFF:
-DEADLINE: <2024-10-08 Tue 19:00> SCHEDULED: <2024-10-10 Thu 16:00>
+** ABORTED [#D] Thrift-lifting! :SOCIAL:ONEOFF:
+CLOSED: [2024-10-09 Wed 21:42] DEADLINE: <2024-10-08 Tue 19:00> SCHEDULED: <2024-10-10 Thu 16:00>
 
 - *Goal:* Append a list of local thift shops
 

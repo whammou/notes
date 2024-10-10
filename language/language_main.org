@@ -8,7 +8,7 @@ Notebook on language learning
 
 - *Goal(s):* 
   - [ ] Use cli or website to convert yt transcript to text
-  - [ ] Check out Google Recorder
+  - [X] Check out Google Recorder
 
 *** DOING Speech to Text :LINUX:DOC:
 - Note taken on [2024-10-07 Mon 03:10] \\

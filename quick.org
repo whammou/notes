@@ -13,8 +13,8 @@
 
 - *Goal(s):* Find a way to keep track github repo updates and get notification from updates
 
-* TODO Shoppee Sale 10-10 :ONEOFF:
-DEADLINE: <2024-10-10 Thu 00:00 -1d>
+* DONE Shoppee Sale 10-10 :ONEOFF:
+CLOSED: [2024-10-11 Fri 00:40] DEADLINE: <2024-10-10 Thu 00:00 -1d>
 
 Shoppee sale, resupply [[shoppee.vn/cart]]
 
@@ -37,4 +37,10 @@ SCHEDULED: <2024-10-11 Fri 14:00>
 - *Goal:* open webdav server to connect with android
 
 * TODO Hadilao per person cost :ONEOFF:
+
+* TODO [#A] Contact Sacombank :ONEOFF:
+DEADLINE: <2024-10-12 Sat 15:00>
+
+Contact local bank for physical credit card
+- tel:02836364730
 

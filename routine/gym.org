@@ -92,7 +92,7 @@ Visit local resident gym
 - *Visit:* data visualizer [[computer/computer_main.org#visidata][visidata package]]
 
 
-* Calisthenic Routine :ROUTINE:GYM:HEALTH:
+* TODO Calisthenic Routine :ROUTINE:GYM:HEALTH:
 <2024-10-09 Wed 01:00 +1w>
 <2024-10-11 Fri 01:00 +1w>
 <2024-10-13 Sun 01:00 +1w>

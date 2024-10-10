@@ -147,7 +147,7 @@ Weekly clothe washing and techniques
 
 **** [#B] White clothes
 
-<2024-10-09 Wed 23:00 +1w>
+<2024-10-16 Wed 23:00 +1w>
 
 /Technique to wash clothes of bright colors/
 
@@ -179,8 +179,8 @@ Food recipes I collect over the internet
 
 Grocery plan for easy meal-prepping 
 
-**** TODO [#A] Short trip :ONEOFF:
-SCHEDULED: <2024-10-10 Thu 17:00>
+**** ABORTED [#A] Short trip :ONEOFF:
+CLOSED: [2024-10-10 Thu 19:46] SCHEDULED: <2024-10-12 Sat 17:00>
 
 Buy:
   - [ ] Ngò gai

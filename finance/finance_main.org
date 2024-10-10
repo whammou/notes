@@ -233,7 +233,7 @@ If we were to adjust the signs for ~credits~ and ~debits~ and have sums that are
 
 /Its much easier to just always add up the numbers/
 
-** DOING Double-entry Bookkeeping
+** Double-entry Bookkeeping
 :PROPERTIES:
 :CUSTOM_ID: double-entry-bookkeeping
 :END:

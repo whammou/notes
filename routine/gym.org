@@ -1,6 +1,6 @@
 #+TITLE: Gym Notebook
 
-* Description :ROUTINE:GYM:HEALTH:
+* Description :GYM:HEALTH:
 
 Documenting exercises and planning workout schedule
 
@@ -47,10 +47,13 @@ Visit [[/server/archive/calisthenics/Class,\ Health\ -\ Bodyweight\ Training_\ T
 *** TODO Measure body fat :ARTICLE:
 DEADLINE: <2024-10-12 Sat 00:00>
 
-- *Goal:* measuring body fat and log data
-  - [ ] Var check ~skincaliper~
+- *Goal:* 
 
-- *Visit:*  [[https://pubmed.ncbi.nlm.nih.gov/8046177/]]
+  - [X] Var check ~skincaliper~
+    - *Visit:* [[https://pubmed.ncbi.nlm.nih.gov/804177/11]]
+
+  - [ ] Measuring body fat and log data
+
 
 ** Terminology
 
@@ -58,7 +61,7 @@ DEADLINE: <2024-10-12 Sat 00:00>
 - *Sets -* refers to specific number of reps to perform of an exercise
 - *Rest -* refers to period of rest between ~sets~ of an exercise
 
-** DOING Sessions
+** DOING Exercise techniques
 
 A collection of various exercise and techniques require to perform an exercise
 
@@ -87,4 +90,12 @@ Visit local resident gym
 
 - *Goal:* measuring BMI and log data
 - *Visit:* data visualizer [[computer/computer_main.org#visidata][visidata package]]
+
+
+* Calisthenic Routine :ROUTINE:GYM:HEALTH:
+<2024-10-09 Wed 01:00 +1w>
+<2024-10-11 Fri 01:00 +1w>
+<2024-10-13 Sun 01:00 +1w>
+
+/Insert calisthenic routine here/
 

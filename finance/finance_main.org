@@ -277,7 +277,7 @@ d. Special account handles only one type of currency
 
 ** DOING Beancount Double-entry bookkeeping :VIM:BEANCOUNT:
 
-- *Visit:* [[https://beancount.github.io/docs/beancount_cheat_sheet.html][beancount-syntax-pta]]
+- *Visit:* [[https://beancount.github.io/docs/][beancount DOCS]]  [[https://beancount.github.io/docs/beancount_cheat_sheet.html][beancount-syntax-pta]]
 - *Visit:* [[https://github.com/simonmichael/hledger][github]]
 
 *** Plain-Text Accounting

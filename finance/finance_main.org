@@ -97,7 +97,6 @@ Two more amounts are used to describe changes in the above during a given period
 These two are called ~Income Statement accounts~. The balances they accumulate during some period of time indicate the inflows and outflows during that period (which will affect the Assets and Liabilities balances)
 
 *** Types of Accounts
-
 - Note taken on [2024-10-05 Sat 01:56] \\
   In ~beancount~, all account names, without exception, must be associated to one of the types of accounts described below.
 
@@ -178,7 +177,6 @@ A bette rway to achieve the same thing is to zero out the balances of the ~Incom
 file:finance/assets/clearing-income.png
 
 **** Equity Accounts
-DEADLINE: <2024-10-10 Thu 02:00> CLOSED: [2024-10-10 Thu 20:41]
 
 The account type *Equity* is used for accounts that hold a summary of the net income implied by all the past activity. This account list together the ~Assets~, ~Liabilities~ and ~Equity~ accounts. Ans because the ~income~ and ~expenses~ accounts have been zeroed out the sum of of these balances should equal to exactly zero
 

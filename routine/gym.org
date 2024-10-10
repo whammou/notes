@@ -1,6 +1,6 @@
 #+TITLE: Gym Notebook
 
-* DOING Description :ROUTINE:GYM:HEALTH:
+* Description :ROUTINE:GYM:HEALTH:
 
 Documenting exercises and planning workout schedule
 
@@ -12,7 +12,7 @@ Documenting exercises and planning workout schedule
 - Visit [[https://nick-e.com/primer/][Nick-E.com guide]]
 - Visit [[https://www.hybridcalisthenics.com/routine][hybridcalisthenics.com]]
 
-*** "Overcome Gravity - Steven Low"
+*** Overcome Gravity - Steven Low :BOOK:
 
 Visit [[/server/archive/calisthenics/Class,\ Health\ -\ Bodyweight\ Training_\ The\ Scientific\ Approach\ to\ Calisthenics\ Workout_\ The\ Easiest\ Way\ to\ Overcome\ Gravity\ and\ be\ Leaner,\ Bigger\ and\ Stronger.pdf]]
 
@@ -52,13 +52,23 @@ DEADLINE: <2024-10-11 Fri 00:00>
 
 - *Visit:*  [[https://pubmed.ncbi.nlm.nih.gov/8046177/]]
 
-** Sessions
+** Terminology
+
+- *Reps -* refers to a single execution of a movement
+- *Sets -* refers to specific number of reps to perform of an exercise
+- *Rest -* refers to period of rest between ~sets~ of an exercise
+
+** DOING Sessions
+
+A collection of various exercise and techniques require to perform an exercise
 
 *** Warm-up
 
 - Shoulder, wrists, knees, and hips
 
-*** Bicep Exercise
+*** Push-ups
+
+
 
 ** DONE Post-workout maintenance
 CLOSED: [2024-10-07 Mon 20:22]

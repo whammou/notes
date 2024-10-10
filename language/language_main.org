@@ -4,11 +4,9 @@
 
 Notebook on language learning
 
-** Integrate AI with youtube transcript
+** Integrate tts
 
-- *Goal(s):* 
-  - [ ] Use cli or website to convert yt transcript to text
-  - [X] Check out Google Recorder
+- *Goal(s):*  Utilize tts and stt system in linux for better language learning experience
 
 *** DOING Speech to Text :LINUX:DOC:
 - Note taken on [2024-10-07 Mon 03:10] \\
@@ -17,6 +15,10 @@ Notebook on language learning
 Linux speech to text package
 - *Goal:* Implement to @language topic that works with android
 - *Source:*  [[https://github.com/julius-speech/julius][julius]]  [[https://wiki.archlinux.org/title/Speech_dispatcher][voice_dispatcher@archwiki]]
+
+*** Youtube transcript
+
+- *Goal(s):* fast get youtube transcript and utilize tts system 
 
 ** German :GERMAN:
 

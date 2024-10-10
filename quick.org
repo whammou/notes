@@ -29,6 +29,9 @@ Glue back a hole on my sneakers
 * TODO [#A] Repair air-conditioner :ONEOFF:
 SCHEDULED: <2024-10-11 Fri 14:00>
 
+- *Goal:* Call repairer and schedule a timeline for ac fix
+- tel:0907300898
+
 * TODO Open webdav server
 
 - *Goal:* open webdav server to connect with android

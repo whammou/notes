@@ -27,7 +27,6 @@ Section dedicated to notes about the process of learning German
 - *Goal(s):* Learn German grammar
 
 *** DOING [#B] Get a book :DISCUSS:BOOK:
-DEADLINE: <2024-10-07 Mon 00:00>
 - Note taken on [2024-10-05 Sat 03:19] \\
   Choose the book previous learnt from for familiarity
 
@@ -40,7 +39,6 @@ DEADLINE: <2024-10-07 Mon 00:00>
 - *Goal:* create speaking environment via either irl or discord(schedule events if necessary)
 
 *** DOING [#A] Deutsch lernen :ROUTINE:
-DEADLINE: <2024-10-08 Tue 04:00>
 
 Schedule up!!!
 

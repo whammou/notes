@@ -33,3 +33,5 @@ SCHEDULED: <2024-10-11 Fri 14:00>
 
 - *Goal:* open webdav server to connect with android
 
+* TODO Hadilao per person cost :ONEOFF:
+

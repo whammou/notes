@@ -203,6 +203,38 @@ file:finance/assets/balance-sheet.png
 
 Account name implicitly define a hierarchy. The ":" separator is interpreted by some reporting code to create an in-memory tree and can allow you to collapse a note's children sub accounts and compute aggregates on the parent
 
+** Accounting Equations
+
+Express *accounting equations* in signed terms
+ - *A* = the sum of all ~Assets~ postings
+ - *L* = the sum of all ~Liabilities~ postings
+ - *X* = the sum of all ~Expenses~ postings
+ - *I* = the sum of all ~Income~ postings
+ - *E* = the sum of all ~Equity~ postings
+
+In general,
+*A* + *L* + *E* + *X* + *I* = 0
+
+This follows from the fact that
+~sum(all postings) = 0~
+
+Which follows from the fact that each transaction is guaranteed to sum up to zero (which id enforced by Beancount):
+~for all transactions t, sum(postings of t) = 0~
+
+Moreover, the sum of postings from ~Income~ and ~Expenses~ the ~Net Income~ (NI):
+*NI* = *X* + *I*
+
+If we adjust the ~equity~ to reflect the total ~net icome~ effect by clearing the income to the ~Equity~ retained earnings account, we fet an updated Equity value (E'):
+*E'* - *E* + *NI* + *X* + *I*
+
+And simplified accounting equation:
+*A* + *L* *E'* = 0
+
+If we were to adjust the signs for ~credits~ and ~debits~ and have sums that are all the positive number, this becomes the familiar accounting equation:
+/Assets - Liabilities = Equity/
+
+/Its much easier to just always add up the numbers/
+
 ** DOING Double-entry accounting
 :PROPERTIES:
 :CUSTOM_ID: double-entry-accounting

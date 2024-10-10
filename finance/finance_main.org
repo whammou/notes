@@ -54,7 +54,50 @@ file:finance/assets/multiple-postings.png
 
 Finally, transactions may have more than two postings; in fact they may have any number postings. The only thing that matters is that the sum of their amounts is *zero* (from the rule of double-entry bookkeeping)
 
+*** Debits and Credits
+
+~Double-entry bookkeeping~ traditionally names movements of money as *debits* or *credits*. As an error-checking mechanism, the debits must exactly balance the credits, both within each individual transaction and over all transactions
+
+*** Signed Numbers
+
+~(+)~ and ~(-)~ integers instead of debit and credit labels. This is essentially the same system. 
+
+- ~(+)~ integers are debits
+- ~(-)~ integers are credits
+
+And within each transaction the sum of amounts must be zero
+
+/As a consequence PTA tools, its common for reports to show equity, liability, and revenue balances as negative numbers/
+
+*** Assets, Liabilities and Equity
+
+Accounting describes the status of a business, person or other entity at any point in time in terms of three amounts
+
+- *Assets* - Things owned
+- *Liabilities* - Things owed
+- *Equity* - The amount invested by owners/shareholders
+- *Income* - Things earn
+- *Expenses* - Things spend
+
+The foundation of double-entry accounting is the ~accouting equation~, which says Equity is always equal to Assets minus Liabilities (or, Net Assets)
+
+or *Assets* = *Liabilities* + *Equity*
+
+These three are called the ~Balance Sheet accounts~. Their balances summarise the overall financial status at some point in time
+
+*** Revenue and Expenses
+
+Two more amounts are used to describe changes in the above during a given period:
+
+- *Revenue* - Money flowing in
+- *Expenses* - Money flowing out
+
+/In come is sometimes used to mean Net income, which is Revenue - Expenses/
+
+These two are called ~Income Statement accounts~. The balances they accumulate during some period of time indicate the inflows and outflows during that period (which will affect the Assets and Liabilities balances)
+
 *** Types of Accounts
+
 - Note taken on [2024-10-05 Sat 01:56] \\
   In ~beancount~, all account names, without exception, must be associated to one of the types of accounts described below.
 
@@ -99,7 +142,11 @@ file:finance/assets/naming.png
 file:finance/assets/naming2.png
 file:finance/assets/naming3.png
 
-*** Trial Balance
+*** Types of Financial Statements
+
+Financial ~statments~ are used to summarize/organize different types of account to and interprets them in meaningful way
+
+**** Trial Balance
 
 The of the ~postings~ on all of the accounts and render just the account name and its final balance on the right, we obtain a report we call the *trial balance*
 
@@ -107,75 +154,54 @@ file:finance/assets/trial-balance.png
 
 This simply reflects the balance of each account at particular point in time. And because each of the accounts began with a zero balance, and each transaction has itself a zero balance, we know that the sum of all those balances must equal zero. This is a consequence of our constraining that each of the postings be part of a transaction, and that each transaction have postings that balance each other out
 
-*** Income Statement
+**** Income Statement
 
-*Income Statement -* is a summary of changes in income statement accounts during a particular period of time.It tells us how much money was earned and spent during this period, and the difference tells us how much profit (or loss) was incurred
+**Income Statement -* is a summary of changes in income statement accounts during a particular period of time.It tells us how much money was earned and spent during this period, and the difference tells us how much profit (or loss) was incurred
 
 file:finance/assets/income-statement.png
 
 /In order to generate this summary, we simply sum up just the transactions for a particular period of types Income and Expenses then separate each type vertically/
-  a. /It is important to take note of the *normal signs -* Income numbers are negative and Expenses numbers positive/
-  b. /If the final sum is a negative number means that there is a corresponding amount of Assets and/or Liabilities with positive number(this a good)/
+a. /It is important to take note of the *normal signs -* Income numbers are negative and Expenses numbers positive/
+b. /If the final sum is a negative number means that there is a corresponding amount of Assets and/or Liabilities with positive number(this a good)/
 
-*** Clearing Income
+**** Clearing Income
 
 The ~income statement~ only sum up within a particular internal of time. If we were to sum up all the transactions of this account since its inception we should obtain the total amount of income earned since the account was created
 
 A bette rway to achieve the same thing is to zero out the balances of the ~Income~ and ~Expenses~ accounts. /Beancount calls this basic transformation "clearing". It is carried out by:/
 
-  1. Computing the balances of those accounts of those accounts from the beginning of time to the start of the reporting period
-  2. Inserting transactions to empty those balances and trnasfer them to some other account that isn't ~Income~ nor ~Expenses~ 
+1. Computing the balances of those accounts of those accounts from the beginning of time to the start of the reporting period
+2. Inserting transactions to empty those balances and trnasfer them to some other account that isn't ~Income~ nor ~Expenses~ 
 
-  - [NOTE]: this is unrelated to the term "clearing transactions" which means acknowledging or marking that some transactions have been eyeballed by the bookkeeper and checked for correction
+- [NOTE]: this is unrelated to the term "clearing transactions" which means acknowledging or marking that some transactions have been eyeballed by the bookkeeper and checked for correction
 
-  file:finance/assets/clearing-income.png
+file:finance/assets/clearing-income.png
 
-*** TODO Equity
-DEADLINE: <2024-10-10 Thu 02:00>
+**** Equity Accounts
+DEADLINE: <2024-10-10 Thu 02:00> CLOSED: [2024-10-10 Thu 20:41]
 
-*** Debits and Credits
+The account type *Equity* is used for accounts that hold a summary of the net income implied by all the past activity. This account list together the ~Assets~, ~Liabilities~ and ~Equity~ accounts. Ans because the ~income~ and ~expenses~ accounts have been zeroed out the sum of of these balances should equal to exactly zero
 
-~Double-entry bookkeeping~ traditionally names movements of money as *debits* or *credits*. As an error-checking mechanism, the debits must exactly balance the credits, both within each individual transaction and over all transactions
+- [NOTE]: /The normal sign of an equity account is negative/
 
-*** Signed Numbers
+There are few different ~Equity~ accounts in Beancount:
+- *Previous Earnings* or *Retained Earnings*. An account used to hold the sum totoal of ~Income~ and ~Expenses~ balances from the beginning of time until the beginning of a reporting period. /This is the account referred to in the previous section/
+- *Current Earnings* or *Net Income*. An account used to contain the sum of ~Income~ and ~Expenses~ incurred during the reposting period. They are filled in by *clearing* the ~Income~ and ~Expenses~ accounts at the end of the reporting period 
+- *Opening Balances* An account used to counterbalance deposits used to initialize accounts. This type of account is used when we truncate the past history with a particular amount
 
-~(+)~ and ~(-)~ integers instead of debit and credit labels. This is essentially the same system. 
+**** Balance Sheet
 
-- ~(+)~ integers are debits
-- ~(-)~ integers are credits
+Another kind of summary is a listing of the owner's assets and debts, for each of the accounts. This answers the question: /"Where is the money?"/
 
-And within each transaction the sum of amounts must be zero
+- [NOTE]: To account for the money left once the debts are all paid off look at *net worth*
 
-/As a consequence PTA tools, its common for reports to show equity, liability, and revenue balances as negative numbers/
+/If the Income & Expenses are cleared to zro and all their balances have been transferred to Equity accounts, the net worth should be equal the sum of all the Equity accounts/. So in building up the ~balance sheet~, it is customary to clear the net income and the display the balances of the Equity accounts
 
-*** Assets, Liabilities and Equity
+file:finance/assets/balance-sheet.png
 
-Accounting describes the status of a business, person or other entity at any point in time in terms of three amounts
+*** Chart of Accounts
 
-- *Assets* - Things owned
-- *Liabilities* - Things owed
-- *Equity* - The amount invested by owners/shareholders
-- *Income* - Things earn
-- *Expenses* - Things spend
-
-The foundation of double-entry accounting is the ~accouting equation~, which says Equity is always equal to Assets minus Liabilities (or, Net Assets)
-
-or *Assets* = *Liabilities* + *Equity*
-
-These three are called the ~Balance Sheet accounts~. Their balances summarise the overall financial status at some point in time
-
-*** Revenue and Expenses
-
-Two more amounts are used to describe changes in the above during a given period:
-
-- *Revenue* - Money flowing in
-- *Expenses* - Money flowing out
-
-/In come is sometimes used to mean Net income, which is Revenue - Expenses/
-
-These two are called ~Income Statement accounts~. The balances they accumulate during some period of time indicate the inflows and outflows during that period (which will affect the Assets and Liabilities balances)
-
-*** Statements
+Account name implicitly define a hierarchy. The ":" separator is interpreted by some reporting code to create an in-memory tree and can allow you to collapse a note's children sub accounts and compute aggregates on the parent
 
 ** DOING Double-entry accounting
 :PROPERTIES:

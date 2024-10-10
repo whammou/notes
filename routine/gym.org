@@ -68,8 +68,6 @@ A collection of various exercise and techniques require to perform an exercise
 
 *** Push-ups
 
-
-
 ** DONE Post-workout maintenance
 CLOSED: [2024-10-07 Mon 20:22]
 

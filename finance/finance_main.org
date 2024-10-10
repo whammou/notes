@@ -31,7 +31,7 @@ a. Tracking multiple accounts
 b. Assets "flow" from 1 account to another is called a ~transaction~
 c. Each accounts can have their own ~entries~ and ~tags~
 
-/More details on/ [[#double-entry-accounting][double-entry-accoutine]]
+/More details on/ [[#double-entry-bookkeeping][double-entry-bookkeeping]]
 
 ***** Many Accounts
 
@@ -206,9 +206,9 @@ Account name implicitly define a hierarchy. The ":" separator is interpreted by 
 Express *accounting equations* in signed terms
  - *A* = the sum of all ~Assets~ postings
  - *L* = the sum of all ~Liabilities~ postings
+ - *E* = the sum of all ~Equity~ postings
  - *X* = the sum of all ~Expenses~ postings
  - *I* = the sum of all ~Income~ postings
- - *E* = the sum of all ~Equity~ postings
 
 In general,
 *A* + *L* + *E* + *X* + *I* = 0
@@ -222,20 +222,20 @@ Which follows from the fact that each transaction is guaranteed to sum up to zer
 Moreover, the sum of postings from ~Income~ and ~Expenses~ the ~Net Income~ (NI):
 *NI* = *X* + *I*
 
-If we adjust the ~equity~ to reflect the total ~net icome~ effect by clearing the income to the ~Equity~ retained earnings account, we fet an updated Equity value (E'):
-*E'* - *E* + *NI* + *X* + *I*
+If we adjust the ~equity~ to reflect the total ~net income~ effect by clearing the income to the ~Equity~ retained earnings account, we get an updated Equity value (E'):
+*E'* = *E* + *NI* + *X* + *I*
 
 And simplified accounting equation:
-*A* + *L* *E'* = 0
+*A* + *L* + *E'* = 0
 
 If we were to adjust the signs for ~credits~ and ~debits~ and have sums that are all the positive number, this becomes the familiar accounting equation:
 /Assets - Liabilities = Equity/
 
 /Its much easier to just always add up the numbers/
 
-** DOING Double-entry accounting
+** DOING Double-entry Bookkeeping
 :PROPERTIES:
-:CUSTOM_ID: double-entry-accounting
+:CUSTOM_ID: double-entry-bookkeeping
 :END:
 
 Double-entry accounting or bookkeeping is an accounting method, which states that every financial transaction has equal and opposite effects in at least two different accounts
@@ -275,10 +275,32 @@ d. Special account handles only one type of currency
 3. Keep doing step 2 forever
    - Roll up the books, move the total of your *income* and *expense* to *equity*, and zero out your *income* and *expense* accounts once a year
 
-** DOING Beancount Double-entry bookkeeping :FINANCE:VIM:BEANCOUNT:
+** DOING Beancount Double-entry bookkeeping :VIM:BEANCOUNT:
 
 - *Visit:* [[https://beancount.github.io/docs/beancount_cheat_sheet.html][beancount-syntax-pta]]
 - *Visit:* [[https://github.com/simonmichael/hledger][github]]
+
+*** Plain-Text Accounting
+
+This document talks about Beancount, whose purpose is "double-entry bookkeeping using text files". Beancount implements a parser for a single syntax that allows you to record transactions and postings. The syntax for an example transaction looks something like this:
+
+~2016-12-06 * "Biang!" "Dinner"~
+  ~Liabilities:Credit Card  -47.23 USD~
+  ~Expenses:Restaurants~
+
+- *Verification -* After parsing the transactions, ~beancount~ also verifies the rule of the double-entry method: it checks that the sum of the postings on al your transactions is zero. If you make a mistake an record a transaction with a non-zero balance, an error will be displayed
+- *Balance Assertions -* ~Beancount~ allows you to replicate which can automate and/or process the streams of transactions in your input files. You can build custom functionality by writing code which directly processes the transaction stream
+- *Querying & Reporting -* It provides tools to then process this stream of transactions to produce the kinds of reports we discussed earlier in this document
+
+**** The Table Perspective
+
+~Beancount~ input:
+file:finance/assets/table-perspective1.png
+
+Rendered output:
+file:finance/assets/table-perspective2.png
+
+/Beancount and SQL database together/
 
 *** Fave web interface for Beancount
 

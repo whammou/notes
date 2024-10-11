@@ -175,6 +175,59 @@ Meal-preps, cooking recipes and grocery planning
 
 Food recipes I collect over the internet
 
+**** Prawn Pasta recipe :RECIPE:
+
+Prawn Pasta inspired by [[https://youtube.com/watch?v=0z3ky30sLyc][Prawn Noodle-Culinary Frank@Youtube]]
+
+***** Ingredients
+
+- [ ] Prawn 500g
+- [ ] Shallot
+- [ ] Ginger
+- [ ] Scallion
+- [ ] Lemongrass
+- [ ] Garlic
+- [ ] Mirin (Wine/Shake/White wine)
+- [ ] Oyster Sauce
+- [ ] Soy Sauce
+- [ ] Mayonnaise
+- [ ] Celery
+
+***** Cooking
+
+Cooking phase
+
+****** Prawn oil
+
+1. Cook prawn shells with "Shallot, Ginger, Scallion, Lemongrass" in hot oil until oil boil
+2. Put off heat and let cool
+
+****** Prawn saute
+
+1. Saute prawns with Prawn Oil and Butter
+2. When the prawns near done, put in: 
+   a. Minced Garlic
+   b. Soy Sauce (1 tbs)
+   c. Mirin (1 tbs), /1:1 or 1:1.5 radio with soy sauce/
+     - [REPLACEMENT]: Wine/Sake/White wine
+
+****** Pasta sauce
+- Note taken on [2024-10-11 Fri 21:41] \\
+  Instant noodle or Pasta depends on taste (cook till "near-done")
+
+1. Stir Oyster Sauce , Soy Sauce, Sugar, and Prawn Oil on low heat pan (adjust to flavor)
+2. Add Pasta water to dissolve sugar
+
+****** Pasta
+
+1. Cook Pasta for 8-10 minutes (till near-done)
+2. Stir Pasta with Pasta sauce on low heat pan and let cool
+3. Add Mayonnaise sauce and stir again
+
+****** Serve 
+
+/Add Prawns and sliced Celery on ready Pasta/
+
 *** TODO [#C] Grocery :GROCERY:
 
 <2024-10-08 Tue 17:00 +1w><2024-10-12 Sat 17:00 +1w>

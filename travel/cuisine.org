@@ -4,7 +4,7 @@
 
 Archive of bistros/restaurants and good dinning places I have visited
 
-** SNACKS :CUISINE:LIST:SNACK:
+** Snack :SNACK:
 
 *** Tường Burger
 
@@ -34,7 +34,7 @@ Bread bakery and coffee
 - *Contact:*  tel:0909929880
 - *Open:*  8 AM–10 PM
 
-** Bistros :CUISINE:LIST:BISTRO:
+** Bistros :BISTRO:
 
 *** Today With You
 
@@ -50,7 +50,7 @@ Nhà hàng và buffet rau
 - *Contact:*  tel:02873011908
 - *Open:*  10 AM–10 PM
 
-** Restaurants :CUISINE:LIST:RESTAURANT:
+** Restaurants :RESTAURANT:
 
 ** Drinks :DRINKS:
 

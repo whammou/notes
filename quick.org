@@ -36,7 +36,8 @@ SCHEDULED: <2024-10-11 Fri 14:00>
 
 - *Goal:* open webdav server to connect with android
 
-* TODO Hadilao per person cost :ONEOFF:
+* ABORTED Hadilao per person cost :ONEOFF:
+CLOSED: [2024-10-12 Sat 21:03]
 
 * TODO [#A] Contact Sacombank :ONEOFF:
 DEADLINE: <2024-10-11 Fri 15:00>

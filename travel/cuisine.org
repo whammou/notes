@@ -50,12 +50,14 @@ Nhà hàng và buffet rau
 - *Contact:*  tel:02873011908
 - *Open:*  10 AM–10 PM
 
+** Restaurants :RESTAURANT:
+
+** Drinks :DRINKS:
+
+** Street-food :STREETFOOD:
+
 *** Cơm Hàu Minh Ký
 
 - *Address:*  [[https://www.google.com/maps/place/294+Tr%E1%BA%A7n+H%C6%B0ng+%C4%90%E1%BA%A1o+B,+Ph%C6%B0%E1%BB%9Dng+11,+Qu%E1%BA%ADn+5,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7523204,106.6629385,16z/data=!4m6!3m5!1s0x31752ef73815690f:0xb86c743a14743f1b!8m2!3d10.7523204!4d106.6629385!16s%2Fg%2F11cslq2vgf?force=pwa&source=mlapk][294B Trần Hưng Đạo Q5]]
 - *Open:* 4PM - 10PM
-
-** Restaurants :RESTAURANT:
-
-** Drinks :DRINKS:
 

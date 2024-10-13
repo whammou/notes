@@ -127,11 +127,6 @@ Weekly shampoo schedule
 
 Weekly conditioner schedule
 
-*** Vehicle :VEHICLE:
-
-**** Bike maintenance
-SCHEDULED: <2024-11-08 Fri>
-
 ** House chores :CHORE:
 
 House chord routine

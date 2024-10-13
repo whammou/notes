@@ -4,14 +4,19 @@
 
 Classical bike notebook and maintenance 
 
-** Classical bikes 
+** Classical bikes
 
 Collection of classical bikes and manuals (tips and tricks included)
 
 ** Maintenance :MAINTENANCE:
 
 Weekly and monthly bikes maintenance schedule
+
 ** Learn about classic motorbike
 
 - *Goal(s):* Learn to maintain and operate classic motorcycle 
+
+* TODO Take bike from workshop :ONEOFF:
+
+- *Goal:* Learn to operate bike and take it home
 

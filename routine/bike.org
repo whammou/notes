@@ -8,15 +8,22 @@ Classical bike notebook and maintenance
 
 Collection of classical bikes and manuals (tips and tricks included)
 
+*** Learn about classic motorbike
+
+- *Goal(s):* Learn to maintain and operate classic motorcycle 
+
 ** Maintenance :MAINTENANCE:
 
 Weekly and monthly bikes maintenance schedule
 
-*** TODO Take bike from workshop :ONEOFF:
+*** Honda Airblade
+
+**** Oil change
+SCHEDULED: <2024-11-08 Fri>
+
+*** Suzuki GN125
+
+**** TODO Take bike from workshop :ONEOFF:
 
 - *Goal:* Learn to operate bike and take it home
-
-** Learn about classic motorbike
-
-- *Goal(s):* Learn to maintain and operate classic motorcycle 
 

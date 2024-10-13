@@ -4,7 +4,7 @@
 
 Classical bike notebook and maintenance 
 
-** Classical bikes 
+** Classical bikes
 
 Collection of classical bikes and manuals (tips and tricks included)
 
@@ -12,5 +12,7 @@ Collection of classical bikes and manuals (tips and tricks included)
 
 Weekly and monthly bikes maintenance schedule
 
+* TODO Take bike from workshop :ONEOFF:
 
+- *Goal:* Learn to operate bike and take it home
 

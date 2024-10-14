@@ -60,7 +60,7 @@ Skincare routines and documentation on improving efficiency of the schedule
 
 List of ingredients using in my skincare routine and where to get them. Also include good deals
 
-***** Azelaic Acid
+***** [#E] Azelaic Acid
 
 <2024-09-24 Tue 00:00 +1w>
 
@@ -136,7 +136,7 @@ CLOSED: [2024-10-10 Thu 21:00]
 
 Weekly clothe washing and techniques 
 
-**** [#B] Black clothes
+**** [#D] Black clothes
 
 <2024-10-08 Tue 23:00 +1w>
 

@@ -117,7 +117,7 @@ CLOSED: [2024-10-07 Mon 04:37]
 
 Weekly shampoo schedule
 
-**** [#B] Wash Day AM
+**** [#C] Wash Day AM
 :PROPERTIES:
 :CUSTOM_ID: wash_day
 :END:

@@ -27,7 +27,7 @@ Glue back a hole on my sneakers
 - *Goal(s):* buy black face mask for aesthetic
 
 * TODO [#A] Repair air-conditioner :ONEOFF:
-SCHEDULED: <2024-10-11 Fri 14:00>
+SCHEDULED: <2024-10-21 Mon 14:00>
 
 - *Goal:* Call repairer and schedule a timeline for ac fix
 - tel:0907300898
@@ -40,7 +40,7 @@ SCHEDULED: <2024-10-11 Fri 14:00>
 CLOSED: [2024-10-12 Sat 21:03]
 
 * TODO [#A] Contact Sacombank :ONEOFF:
-DEADLINE: <2024-10-11 Fri 15:00>
+DEADLINE: <2024-10-21 Mon 15:00>
 
 Contact local bank for physical credit card
 - tel:02836364730

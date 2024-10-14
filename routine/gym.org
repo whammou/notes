@@ -88,7 +88,7 @@ Visit local resident gym
 - *Goal:* measuring BMI and log data
 - *Visit:* data visualizer [[computer/computer_main.org#visidata][visidata package]]
 
-* TODO Calisthenic Routine :ROUTINE:GYM:HEALTH:
+* TODO [#D] Calisthenic Routine :ROUTINE:GYM:HEALTH:
 
 <2024-10-09 Wed 01:00 +1w>
 <2024-10-11 Fri 01:00 +1w>

@@ -24,7 +24,7 @@ SCHEDULED: <2024-11-08 Fri>
 *** Suzuki GN125
 
 **** TODO Take bike from repairshop :ONEOFF:
-SCHEDULED: <2024-10-15 Tue 15:00>
+SCHEDULED: <2024-10-16 Wed 15:00>
 
 - *Goal:* Learn to operate bike and take it home
 - *Adrdress:*  [[][]]

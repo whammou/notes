@@ -56,7 +56,8 @@ Purchase Klairs Toner
 * TODO Allocate course time :ONEOFF:
 DEADLINE: <2024-10-17 Thu 15:00>
 
-* Return drawing pack :ONEOFF:
+* TODO [#A] Return drawing pack :ONEOFF:
+DEADLINE: <2024-10-15 Tue 18:15>
 
 - *Address:*  [[https://www.google.com/maps/place/C%E1%BB%99ng+C%C3%A0+Ph%C3%AA,+08+BIS+C%C3%B4ng+tr%C6%B0%E1%BB%9Dng+Qu%E1%BB%91c+T%E1%BA%BF,+Ph%C6%B0%E1%BB%9Dng+6,+Qu%E1%BA%ADn+3,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7832156,106.6958153,17z/data=!4m6!3m5!1s0x31752f3696607ae1:0x1f9a9d862942f0c4!8m2!3d10.7832156!4d106.6958153!16s%2Fg%2F11ggqf8rqn?force=pwa&source=mlapk][08 BIS Công trường Quốc Tể, Phường 6, Quận 3]]
 

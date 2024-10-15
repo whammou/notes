@@ -8,7 +8,8 @@ Notebook on language learning
 
 - *Goal(s):*  Utilize tts and stt system in linux for better language learning experience
 
-*** DOING Speech to Text :LINUX:DOC:
+*** DONE Speech to Text :LANGUAGE:LINUX:DOC:
+CLOSED: [2024-10-15 Tue 19:56]
 - Note taken on [2024-10-11 Fri 20:47] \\
   Re-config nvim-orgmode for better tts experience
 - Note taken on [2024-10-07 Mon 03:10] \\
@@ -21,28 +22,4 @@ Linux speech to text package
 *** Youtube transcript
 
 - *Goal(s):* fast get youtube transcript and utilize tts system 
-
-** German :GERMAN:
-
-Section dedicated to notes about the process of learning German 
-
-*** Grammar
-
-- *Goal(s):* Learn German grammar
-
-*** DOING [#B] Get a book :DISCUSS:BOOK:
-- Note taken on [2024-10-05 Sat 03:19] \\
-  Choose the book previous learnt from for familiarity
-
-- *Goal:* Get a book to review German
-- *Book:*  [[https://libgen.li/edition.php?id=138543351][Auf geht's! beginning German language and culture 4th]] [[https://www.fluentu.com/blog/german/best-books-to-learn-german/][book-lists]]
-- *Reddit:*  [[https://www.reddit.com/r/German/comments/xtvvqd/best_german_self_study_books/][self-study]] [[https://www.reddit.com/r/German/comments/4b1ft7/best_resource_for_learning_german_free/][self-study resource]]
-
-*** TODO Speaking practice environment
-
-- *Goal:* create speaking environment via either irl or discord(schedule events if necessary)
-
-*** DOING [#A] Deutsch lernen :ROUTINE:
-
-Schedule up!!!
 

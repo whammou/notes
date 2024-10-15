@@ -158,7 +158,7 @@ Weekly clothe washing and techniques
 
 Meal-preps, cooking recipes and grocery planning  
 
-*** TODO [#D] Food-preps :DIET:
+*** [#D] Food-preps :DIET:
 
 <2024-10-10 Thu 01:00 +1w>
 <2024-10-14 Mon 01:00 +1w>

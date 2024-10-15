@@ -54,7 +54,7 @@ Purchase Klairs Toner
 - *Purchase:*  [[https://hasaki.vn/san-pham/nuoc-hoa-hong-khong-mui-klairs-danh-cho-da-nhay-cam-180ml-65994.html][Klairs Preparation Unscented Toner]]
 - tel:18006324
 
-* TODO Allocate course time :ONEOFF:
+* TODO [#B] Allocate course time :ONEOFF:
 DEADLINE: <2024-10-17 Thu 15:00>
 
 * DONE [#A] Return drawing pack :ONEOFF:
@@ -62,7 +62,19 @@ CLOSED: [2024-10-15 Tue 18:30] DEADLINE: <2024-10-15 Tue 18:15>
 
 - *Address:*  [[https://www.google.com/maps/place/C%E1%BB%99ng+C%C3%A0+Ph%C3%AA,+08+BIS+C%C3%B4ng+tr%C6%B0%E1%BB%9Dng+Qu%E1%BB%91c+T%E1%BA%BF,+Ph%C6%B0%E1%BB%9Dng+6,+Qu%E1%BA%ADn+3,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7832156,106.6958153,17z/data=!4m6!3m5!1s0x31752f3696607ae1:0x1f9a9d862942f0c4!8m2!3d10.7832156!4d106.6958153!16s%2Fg%2F11ggqf8rqn?force=pwa&source=mlapk][08 BIS Công trường Quốc Tể, Phường 6, Quận 3]]
 
-* [#A] Creative CAD :CAD:
+* TODO [#A] Creative CAD :CAD:
 DEADLINE: <2024-10-21 Mon 00:00>
 
 - *Goal(s):* Run creative cad before the course start
+
+* TODO [#A] Write An Appeal :URGENT:
+DEADLINE: <2024-10-29 Tue -1w> SCHEDULED: <2024-10-17 Thu 16:00>
+
+- *Goal:* write an appeal on reaching final at risk stage and take measure in what is needed to be done
+
+* TODO [#B] Driver license :PERFORMANCE:
+DEADLINE: <2024-10-16 Wed 22:00>
+
+- *Goal:* prepare to get a driver license
+- *Visit:*  [[https://luatvietnam.vn/hanh-chinh/thi-bang-lai-xe-may-570-97385-article.html][procedures]]
+

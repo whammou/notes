@@ -77,6 +77,8 @@ DEADLINE: <2024-10-16 Wed 22:00>
 
 - *Goal:* prepare to get a driver license
 - *Visit:*  [[https://luatvietnam.vn/hanh-chinh/thi-bang-lai-xe-may-570-97385-article.html][procedures]]
+- *Exam Centers:*  [[https://luatvietnam.vn/giao-thong/thi-bang-lai-xe-a1-863-33859-article.html][list]]
+- [NOTE]: contact center (2)(4)(7) from above list
 
 ** Practice 8 curves :ONEOFF:
 

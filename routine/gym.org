@@ -88,11 +88,11 @@ Visit local resident gym
 - *Goal:* measuring BMI and log data
 - *Visit:* data visualizer [[computer/computer_main.org#visidata][visidata package]]
 
-* TODO [#D] Calisthenic Routine :ROUTINE:GYM:HEALTH:
+* TODO [#D] Calisthenic :ROUTINE:GYM:HEALTH:
 
 <2024-10-09 Wed 01:00 +1w>
 <2024-10-11 Fri 01:00 +1w>
 <2024-10-13 Sun 01:00 +1w>
 
-/Insert calisthenic routine here/
+- *Goal:* finish [[https://nick-e.com/primer/#buildup][14 days build up routine]]
 

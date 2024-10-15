@@ -73,3 +73,6 @@ CLOSED: [2024-09-29 Sun 22:07]
 
 *** TODO Orgmode social media integrate
 
+* TODO [#A] Dual boot :SYSTEM:
+DEADLINE: <2024-10-20 Sun 20:00>
+

@@ -30,3 +30,8 @@ SCHEDULED: <2024-10-16 Wed 15:00>
 - *Adrdress:*  [[https://www.google.com/maps/place/124+%C4%90%E1%BB%93ng+%C4%90en,+Ph%C6%B0%E1%BB%9Dng+14,+T%C3%A2n+B%C3%ACnh,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7916081,106.6437621,17z/data=!4m6!3m5!1s0x31752eb32a50f777:0x26c24c60c04a727e!8m2!3d10.7916081!4d106.6437621!16s%2Fg%2F11gd3bgvc1?force=pwa&source=mlapk][124 Đồng Đen P14, Tân Bình]]
 - tel:0903765687
 
+*** Repair Shop :LIST:
+DEADLINE: <2024-10-16 Wed 22:00>
+
+A list of repair shops for classical bike
+

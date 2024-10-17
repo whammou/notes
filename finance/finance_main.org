@@ -201,7 +201,7 @@ file:finance/assets/balance-sheet.png
 
 Account name implicitly define a hierarchy. The ":" separator is interpreted by some reporting code to create an in-memory tree and can allow you to collapse a note's children sub accounts and compute aggregates on the parent
 
-** Accounting Equations
+** TODO Accounting Equations
 
 Express *accounting equations* in signed terms
  - *A* = the sum of all ~Assets~ postings

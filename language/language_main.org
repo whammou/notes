@@ -23,3 +23,6 @@ Linux speech to text package
 
 - *Goal(s):* fast get youtube transcript and utilize tts system 
 
+** Contact Fraud Q
+
+- *Goal(s):* contact fraud Q to plan a weekly speaking schedule

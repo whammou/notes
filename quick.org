@@ -89,7 +89,7 @@ DEADLINE: <2024-10-16 Wed 22:00>
   2.  [[https://www.google.com/maps/place/Tr%C6%B0%E1%BB%9Dng+Cao+%C4%91%E1%BA%B3ng+B%C3%A1ch+khoa+Nam+S%C3%A0i+G%C3%B2n,+47+%C4%90.+Cao+L%E1%BB%97,+Ph%C6%B0%E1%BB%9Dng+4,+Qu%E1%BA%ADn+8,+H%E1%BB%93+Ch%C3%AD+Minh+790000,+Vietnam/@10.735473,106.6805792,16z/data=!4m6!3m5!1s0x31752f696de5fbc5:0xb94cb1d7bd5d881d!8m2!3d10.735473!4d106.6805792!16s%2Fg%2F11g23385_8?force=pwa&source=mlapk][Trường Cao đẳng bách khoa Nam Sài Gòn, 47 Cao Lỗ, P4, Q8]]
 
 * TODO Open server :ONEOFF:
-DEADLINE: <2024-10-17 Thu 15:00 -1h>
+DEADLINE: <2024-10-18 Fri 01:00 -1h>
 
 Open ssh server and copy IP
 

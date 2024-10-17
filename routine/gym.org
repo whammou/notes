@@ -48,11 +48,11 @@ Visit [[/server/archive/calisthenics/Class,\ Health\ -\ Bodyweight\ Training_\ T
 DEADLINE: <2024-10-16 Wed 23:00>
 
 - *Goal:* 
-
   - [X] Var check ~skincaliper~
     - *Visit:* [[https://pubmed.ncbi.nlm.nih.gov/804177/11]]
-
   - [ ] Measuring body fat and log data
+
+- *Visit:* [[https://www.healthline.com/nutrition/ways-to-measure-body-fat#TOC_TITLE_HDR_2][measure__body_fat_with_calipers@healthline]]
 
 ** Terminology
 

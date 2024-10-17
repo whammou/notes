@@ -8,11 +8,19 @@ Classical bike notebook and maintenance
 
 Hydrography forcast of a next day or week is important to schedule a smooth ride
 
+*** Sources :LIST:
+
+- *Visit:*  [[https://thegioimoicau.com/dia-danh/sai-gon/trang-1][Hydrography forcast]]  [[http://thuydacvietnam.org.vn/thuy-trieu/sai-gon-DNP280101983DIZI29.html][Hydrography archive]]
+
+*** TODO Ideal conditions :LOG:
+
+- *Goal:* log ideal condition for a smooth ride
+
 ** Classical bikes
 
 Collection of classical bikes and manuals (tips and tricks included)
 
-*** Learn about classic motorbike
+*** TODO Learn about classic motorbike
 
 - *Goal(s):* Learn to maintain and operate classic motorcycle 
 

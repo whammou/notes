@@ -4,6 +4,10 @@
 
 Classical bike notebook and maintenance 
 
+** Hydrography forcast :DOC:
+
+Hydrography forcast of a next day or week is important to schedule a smooth ride
+
 ** Classical bikes
 
 Collection of classical bikes and manuals (tips and tricks included)

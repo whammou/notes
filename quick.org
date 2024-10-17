@@ -54,8 +54,8 @@ Purchase Klairs Toner
 - *Purchase:*  [[https://hasaki.vn/san-pham/nuoc-hoa-hong-khong-mui-klairs-danh-cho-da-nhay-cam-180ml-65994.html][Klairs Preparation Unscented Toner]]
 - tel:18006324
 
-* TODO [#B] Allocate course time :ONEOFF:
-DEADLINE: <2024-10-17 Thu 15:00>
+* DONE [#B] Allocate course time :ONEOFF:
+CLOSED: [2024-10-17 Thu 15:00] DEADLINE: <2024-10-17 Thu 15:00>
 
 * DONE [#A] Return drawing pack :ONEOFF:
 CLOSED: [2024-10-15 Tue 18:30] DEADLINE: <2024-10-15 Tue 18:15>

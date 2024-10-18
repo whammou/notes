@@ -109,7 +109,7 @@ DEADLINE: <2024-10-18 Fri 19:00>
 - *Goal:* ssh to the server via Termux
 - *Visit:*  [[https://wiki.termux.com/wiki/Remote_Access]]
 
-* Lunar Calendar :ONEOFF:
+* TODO Lunar Calendar :ONEOFF:
 
 - *Goal:* keep track of lunar cal w orgmode
 

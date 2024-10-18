@@ -308,7 +308,7 @@ CLOSED: [2024-10-07 Mon 02:06]
 - *Goal(s):* Create an nvim-orgmode scratchpad with ~qtile~
 - *Stumble upon:* [[https://curtismchale.ca/2023/12/20/ultimate-keyboard-control-task-management-nvim-orgmode/][nvim-orgmode workflow]]
 
-** TODO Spreadsheet data visualize :DATA:DOC:
+** PENDING Spreadsheet data visualize :DATA:DOC:
 :PROPERTIES:
 :CUSTOM_ID: visidata
 :END:
@@ -317,7 +317,7 @@ CLOSED: [2024-10-07 Mon 02:06]
 - *Stumble upon:* python data visualizer  [[https://www.visidata.org/][visidata]]
 - *DOCS:* [[https://github.com/saulpw/visidata/wiki/Screen-Layout][visidata DOCS][documents]]
 
-* TODO Linux G-suite :LINUX:
+** TODO Linux G-suite :LINUX:
 DEADLINE: <2024-10-20 Sun 22:00 -1d>
 
 - *Goal:* Integrate G-suites with Linux

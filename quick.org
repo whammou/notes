@@ -103,6 +103,7 @@ DEADLINE: <2024-10-18 Fri 19:00> CLOSED: [2024-10-18 Fri 20:25]
 
 - *Goal(s):* added Vietnamese and German input method to arch
 - *Visit:* [[https://wiki.archlinux.org/title/Input_method][input_method@archwiki]]
+-  *Resource:*  [[https://www.youtube.com/watch?v=lJoXhS4EUJs]]
 
 * TODO Termux ssh :LINUX:
 

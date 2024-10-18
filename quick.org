@@ -113,3 +113,8 @@ DEADLINE: <2024-10-18 Fri 19:00>
 
 - *Goal:* keep track of lunar cal w orgmode
 
+* PENDING Fun project :READ:
+
+- *Goal:* check out thia fun racing project
+- *Visit:* [[https://github.com/stuckatprototype/racer]]
+

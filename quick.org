@@ -93,8 +93,8 @@ CLOSED: [2024-10-18 Fri 05:23] DEADLINE: <2024-10-18 Fri 01:00 -1h>
 
 Open ssh server and copy IP
 
-* TODO Report mole :ONEOFF:
-DEADLINE: <2024-10-18 Fri 19:00>
+* DONE Report mole :ONEOFF:
+CLOSED: [2024-10-18 Fri 23:23] DEADLINE: <2024-10-18 Fri 19:00>
 
 - *Goal(s):* take a picture and report mole from rain to the landlord
 - tel:Pa

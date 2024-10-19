@@ -225,7 +225,7 @@ Cooking phase
 
 *** TODO [#C] Grocery :GROCERY:
 
-<2024-11-05 Tue 17:00 +1w><2024-11-09 Sat 17:00 +1w>
+<2024-10-22 Tue 17:00 +1w><2024-10-26 Sat 17:00 +1w>
 
 Grocery plan for easy meal-prepping 
 

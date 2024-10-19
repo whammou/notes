@@ -318,7 +318,7 @@ CLOSED: [2024-10-07 Mon 02:06]
 - *DOCS:* [[https://github.com/saulpw/visidata/wiki/Screen-Layout][visidata DOCS][documents]]
 
 ** TODO Linux G-suite :LINUX:
-DEADLINE: <2024-10-20 Sun 22:00 -1d>
+DEADLINE: <2024-10-20 Sun 22:00>
 
 - *Goal:* Integrate G-suites with Linux
 

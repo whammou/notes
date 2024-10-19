@@ -151,3 +151,8 @@ DEADLINE: <2024-10-20 Sun 15:00>
 
 Collect money from Viet
 
+* TODO Sign-in email :ONEOFF:
+DEADLINE: <2024-10-20 Sun 18:00>
+
+Sign-in msmail AGAIN to check uni notification
+

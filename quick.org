@@ -33,7 +33,8 @@ SCHEDULED: <2024-10-21 Mon 14:00>
 - *Goal:* Call repairer and schedule a timeline for ac fix
 - tel:0907300898
 
-* TODO Open webdav server
+* DONE Open webdav server
+CLOSED: [2024-10-20 Sun 03:00]
 
 - *Goal:* open webdav server to connect with android
 

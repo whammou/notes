@@ -4,6 +4,12 @@
 
 Documenting exercises and planning workout schedule
 
+** Terminology
+
+- *Reps -* refers to a single execution of a movement
+- *Sets -* refers to specific number of reps to perform of an exercise
+- *Rest -* refers to period of rest between ~sets~ of an exercise
+
 ** Resources
 
 *** Primer Routine
@@ -44,6 +50,12 @@ Visit [[/server/archive/calisthenics/Class,\ Health\ -\ Bodyweight\ Training_\ T
 
 - *Source:* [[https://redlib.seasi.dev/r/StrongerByScience/comments/1f2tk5v/why_is_it_that_calorie_intake_is_so_important_for/][Calorie intake and muscle growth]]
 
+
+*** TODO Plaintext Accounting for Weight loss 
+
+- *Goal(s):* use ~beancount~  for monitoring nutrition intake
+- *Stumble upon:* [[https://github.com/rcaputo/calories-ledger][plaintext accouting for weight loss@github]]
+
 *** DOING [#D] Measure body fat :ARTICLE:
 DEADLINE: <2024-10-16 Wed 23:00>
 
@@ -53,12 +65,6 @@ DEADLINE: <2024-10-16 Wed 23:00>
   - [ ] Measuring body fat and log data
 
 - *Visit:* [[https://www.healthline.com/nutrition/ways-to-measure-body-fat#TOC_TITLE_HDR_2][measure__body_fat_with_calipers@healthline]]
-
-** Terminology
-
-- *Reps -* refers to a single execution of a movement
-- *Sets -* refers to specific number of reps to perform of an exercise
-- *Rest -* refers to period of rest between ~sets~ of an exercise
 
 ** DOING Exercise techniques
 

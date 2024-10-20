@@ -146,12 +146,12 @@ Run ~Export VARIABLE_NAME=value~ to define a variable
 - *Goal:* check out thia fun racing project
 - *Visit:* [[https://github.com/stuckatprototype/racer]]
 
-* TODO [#A] Collect money :ONEOFF:
-DEADLINE: <2024-10-20 Sun 15:00>
+* DONE [#A] Collect money :ONEOFF:
+CLOSED: [2024-10-20 Sun 16:43] DEADLINE: <2024-10-20 Sun 15:00>
 
 Collect money from Viet
 
-* TODO Sign-in email :ONEOFF:
+* TODO [#A] Sign-in email :ONEOFF:
 DEADLINE: <2024-10-20 Sun 18:00>
 
 Sign-in msmail AGAIN to check uni notification

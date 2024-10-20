@@ -91,3 +91,7 @@ Run ~Export VARIABLE_NAME=value~ to define a variable
 - *Goal:* check out thia fun racing project
 - *Visit:* [[https://github.com/stuckatprototype/racer]]
 
+* TODO OpenWeather API key :ONEOFF:
+
+- *Goal:* check api key functional after a few hours
+

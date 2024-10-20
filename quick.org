@@ -151,8 +151,8 @@ CLOSED: [2024-10-20 Sun 16:43] DEADLINE: <2024-10-20 Sun 15:00>
 
 Collect money from Viet
 
-* TODO [#A] Sign-in email :ONEOFF:
-DEADLINE: <2024-10-20 Sun 18:00>
+* DONE [#A] Sign-in email :ONEOFF:
+CLOSED: [2024-10-20 Sun 19:42] DEADLINE: <2024-10-20 Sun 18:00>
 
 Sign-in msmail AGAIN to check uni notification
 

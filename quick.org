@@ -96,3 +96,8 @@ DEADLINE: <2024-10-21 Mon 16:00>
 
 - *Goal:* check api key functional after a few hours
 
+* TODO Dry sneakers :ONEOFF:
+DEADLINE: <2024-10-21 Mon 16:00>
+
+- *Goal:* dry my kicks
+

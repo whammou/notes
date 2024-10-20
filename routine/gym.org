@@ -76,18 +76,6 @@ CLOSED: [2024-10-07 Mon 20:22]
 - *Goal:* Look for a way to manage hair after a workout session 
 - *Solution:* Implemented new shampoo and conditioner day schedules  [[#conditioner_day]]  [[#shampoo_day]]
 
-** DONE [#A] Visit local gym :ONEOFF:
-CLOSED: [2024-10-07 Mon 18:40] SCHEDULED: <2024-10-07 Mon 16:00>
-- Note taken on [2024-10-02 Wed 20:11] \\
-  Look for machines that satisfy personal criteria
-
-Visit local resident gym 
-
-** TODO Measure BMI
-
-- *Goal:* measuring BMI and log data
-- *Visit:* data visualizer [[computer/computer_main.org#visidata][visidata package]]
-
 * [#D] Calisthenic :ROUTINE:GYM:HEALTH:
 
 <2024-10-09 Wed 01:00 +1w>

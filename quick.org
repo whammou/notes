@@ -13,19 +13,9 @@
 
 - *Goal(s):* Find a way to keep track github repo updates and get notification from updates
 
-* DONE Shoppee Sale 10-10 :ONEOFF:
-CLOSED: [2024-10-11 Fri 00:40] DEADLINE: <2024-10-10 Thu 00:00 -1d>
-
-Shoppee sale, resupply [[shoppee.vn/cart]]
-
 * TODO Fix sneakers :ONEOFF:
 
 Glue back a hole on my sneakers
-
-* DONE [#C] Buy face mask :ONEOFF:
-CLOSED: [2024-10-15 Tue 19:44]
-
-- *Goal(s):* buy black face mask for aesthetic
 
 * TODO [#A] Repair air-conditioner :ONEOFF:
 SCHEDULED: <2024-10-21 Mon 14:00>
@@ -54,51 +44,6 @@ Purchase Klairs Toner
 - *Address:*  [[https://www.google.com/maps/place/Hasaki+Beauty+%26+Clinic,+A30%2F6+QL50,+B%C3%ACnh+H%C6%B0ng,+B%C3%ACnh+Ch%C3%A1nh,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7317472,106.6563207,16z/data=!4m6!3m5!1s0x31754b6798823323:0x451097df50a2001d!8m2!3d10.7317472!4d106.6563207!16s%2Fg%2F11nnvs1lms?force=pwa&source=mlapk][A30/6 QL50, Bình Hưng, Bình Chánh]]
 - *Purchase:*  [[https://hasaki.vn/san-pham/nuoc-hoa-hong-khong-mui-klairs-danh-cho-da-nhay-cam-180ml-65994.html][Klairs Preparation Unscented Toner]]
 - tel:18006324
-
-* DONE [#B] Allocate course time :ONEOFF:
-CLOSED: [2024-10-17 Thu 15:00] DEADLINE: <2024-10-17 Thu 15:00>
-
-* DONE [#A] Return drawing pack :ONEOFF:
-CLOSED: [2024-10-15 Tue 18:30] DEADLINE: <2024-10-15 Tue 18:15>
-
-- *Address:*  [[https://www.google.com/maps/place/C%E1%BB%99ng+C%C3%A0+Ph%C3%AA,+08+BIS+C%C3%B4ng+tr%C6%B0%E1%BB%9Dng+Qu%E1%BB%91c+T%E1%BA%BF,+Ph%C6%B0%E1%BB%9Dng+6,+Qu%E1%BA%ADn+3,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7832156,106.6958153,17z/data=!4m6!3m5!1s0x31752f3696607ae1:0x1f9a9d862942f0c4!8m2!3d10.7832156!4d106.6958153!16s%2Fg%2F11ggqf8rqn?force=pwa&source=mlapk][08 BIS Công trường Quốc Tể, Phường 6, Quận 3]]
-
-* TODO [#A] Creative CAD :CAD:
-DEADLINE: <2024-10-21 Mon 00:00>
-
-- *Goal(s):* Run creative cad before the course start
-
-* TODO [#A] Write An Appeal :URGENT:
-DEADLINE: <2024-10-29 Tue -1w> SCHEDULED: <2024-10-17 Thu 16:00>
-
-- *Goal:* write an appeal on reaching final at risk stage and take measure in what is needed to be done
-
-* DOING [#B] Driver license :PERFORMANCE:
-DEADLINE: <2024-10-16 Wed 22:00>
-
-- *Goal:* prepare to get a driver license
-- *Visit:*  [[https://luatvietnam.vn/hanh-chinh/thi-bang-lai-xe-may-570-97385-article.html][procedures]]
-- *Exam Centers:*  [[https://luatvietnam.vn/giao-thong/thi-bang-lai-xe-a1-863-33859-article.html][list]]
-- [NOTE]: contact center (2)(4)(7) from above list
-
-** Practice 8 curves :ONEOFF:
-
-- *Goal:* complete 8 curve driving test
-- *Visit:* for  [[https://sviet.net/tap-chay-lai-xe-may-vong-so-8-o-dau-ho-chi-minh/][public practice]]
-- *Address:*
-  1.  [[https://www.google.com/maps/place/51%2F2+%C4%90.+Th%C3%A0nh+Th%C3%A1i,+Ph%C6%B0%E1%BB%9Dng+14,+Qu%E1%BA%ADn+10,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7722177,106.6638098,17z/data=!4m6!3m5!1s0x31752ec32f36903b:0x848a7a3d5458bc53!8m2!3d10.7722177!4d106.6638098!16s%2Fg%2F11knk6p848?force=pwa&source=mlapk][51/2 Đ. Thành Thái, Phường 14, Quận 10]]
-  2.  [[https://www.google.com/maps/place/Tr%C6%B0%E1%BB%9Dng+Cao+%C4%91%E1%BA%B3ng+B%C3%A1ch+khoa+Nam+S%C3%A0i+G%C3%B2n,+47+%C4%90.+Cao+L%E1%BB%97,+Ph%C6%B0%E1%BB%9Dng+4,+Qu%E1%BA%ADn+8,+H%E1%BB%93+Ch%C3%AD+Minh+790000,+Vietnam/@10.735473,106.6805792,16z/data=!4m6!3m5!1s0x31752f696de5fbc5:0xb94cb1d7bd5d881d!8m2!3d10.735473!4d106.6805792!16s%2Fg%2F11g23385_8?force=pwa&source=mlapk][Trường Cao đẳng bách khoa Nam Sài Gòn, 47 Cao Lỗ, P4, Q8]]
-
-* DONE Open server :ONEOFF:
-CLOSED: [2024-10-18 Fri 05:23] DEADLINE: <2024-10-18 Fri 01:00 -1h>
-
-Open ssh server and copy IP
-
-* DONE Report mole :ONEOFF:
-CLOSED: [2024-10-18 Fri 23:23] DEADLINE: <2024-10-18 Fri 19:00>
-
-- *Goal(s):* take a picture and report mole from rain to the landlord
-- tel:Pa
 
 * DOING Arch input method :LINUX:
 
@@ -145,14 +90,4 @@ Run ~Export VARIABLE_NAME=value~ to define a variable
 
 - *Goal:* check out thia fun racing project
 - *Visit:* [[https://github.com/stuckatprototype/racer]]
-
-* DONE [#A] Collect money :ONEOFF:
-CLOSED: [2024-10-20 Sun 16:43] DEADLINE: <2024-10-20 Sun 15:00>
-
-Collect money from Viet
-
-* DONE [#A] Sign-in email :ONEOFF:
-CLOSED: [2024-10-20 Sun 19:42] DEADLINE: <2024-10-20 Sun 18:00>
-
-Sign-in msmail AGAIN to check uni notification
 

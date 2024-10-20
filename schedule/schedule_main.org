@@ -18,11 +18,6 @@ CLOSED: [2024-10-02 Wed 23:46] DEADLINE: <2024-10-02 Wed 22:00>
 - Matcha
 - Bs
 
-** DONE [#B] Pay Lava :CAFE:ONEOFF:
-CLOSED: [2024-10-05 Sat 20:36] DEADLINE: <2024-10-05 Sat 19:00 -2h>
-
-- [X] Matcha 60K
-
 ** University Clubs
 
 - *Goal:* Find a suitable group to network and expand knowledge

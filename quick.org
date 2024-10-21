@@ -101,3 +101,6 @@ DEADLINE: <2024-10-21 Mon 16:00>
 
 - *Goal:* dry my kicks
 
+* TODO Buy cotton :ONEOFF:
+DEADLINE: <2024-10-21 Mon 22:00>
+

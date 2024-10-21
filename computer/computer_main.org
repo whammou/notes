@@ -341,7 +341,7 @@ Some GUI toolkits provide input method modules support for input method integrat
 
 **** Environment Variable
 
-- *Source(s):* [[https://www.freecodecamp.org/news/how-to-set-an-environment-variable-in-linux/][env_var@codecamp]]
+- *Source(s):* [[https://www.freecodecamp.org/news/how-to-set-an-environment-variable-in-linux/][env_var@codecamp]] [[https://wiki.archlinux.org/title/Environment_variables#Graphical_environment][set env var@archwiki]]
 
 ~Environment Variables~ are the variables specific to a certain environment
 

@@ -317,8 +317,43 @@ CLOSED: [2024-10-07 Mon 02:06]
 - *Stumble upon:* python data visualizer  [[https://www.visidata.org/][visidata]]
 - *DOCS:* [[https://github.com/saulpw/visidata/wiki/Screen-Layout][visidata DOCS][documents]]
 
-** TODO Linux G-suite :LINUX:
-DEADLINE: <2024-10-20 Sun 22:00>
+** DONE Linux G-suite :LINUX:
+DEADLINE: <2024-10-20 Sun 22:00> CLOSED: [2024-10-21 Mon 21:37]
 
 - *Goal:* Integrate G-suites with Linux
+- [NOTE]: failed to build g-suite-electron on arch linux
+
+  Change integrate g-suite using Qutebrowser
+
+** DOING Arch input method :LINUX:
+
+- *Goal(s):* added Vietnamese and German input method to arch
+- *Visit:* [[https://wiki.archlinux.org/title/Input_method][input_method@archwiki]]
+-  *Resource:*  [[https://www.youtube.com/watch?v=lJoXhS4EUJs]]  [[https://wiki.archlinux.org/title/Fcitx][fcitx@archwiki]]
+
+*** Input Methods
+
+In an operating system component or program that enables users to generate characters not natively available to their input devices by using sequences of characters that are natively available on their input devices
+
+**** Setup fcitx5
+
+Some GUI toolkits provide input method modules support for input method integration in applications. However they're not always needed  
+
+**** Environment Variable
+
+- *Source(s):* [[https://www.freecodecamp.org/news/how-to-set-an-environment-variable-in-linux/][env_var@codecamp]]
+
+~Environment Variables~ are the variables specific to a certain environment
+
+***** List Environment Variables
+
+Run ~env~ to display all the environment variables defined for a current session
+
+***** Print Environment Variables
+
+Run ~printenv VARIBLE_NAME~ or ~echo $varname~ to print the value of a certain variable 
+
+***** Set Environment Variables
+
+Run ~Export VARIABLE_NAME=value~ to define a variable 
 

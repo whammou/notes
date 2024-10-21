@@ -223,7 +223,7 @@ Cooking phase
 
 /Add Prawns and sliced Celery on ready Pasta/
 
-*** TODO [#C] Grocery :GROCERY:
+*** [#C] Grocery :GROCERY:
 
 <2024-10-22 Tue 17:00 +1w><2024-10-26 Sat 17:00 +1w>
 

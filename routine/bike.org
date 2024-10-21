@@ -50,3 +50,7 @@ A list of repair shops for classical bike and regular bike
 - tel:0908205163
 - tel:090711078
 
+* TODO [#A] Test drive :ONEOFF:
+
+What makes bike stutter
+

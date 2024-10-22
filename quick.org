@@ -69,7 +69,7 @@ CLOSED: [2024-10-21 Mon 21:56] DEADLINE: <2024-10-21 Mon 16:00>
 
 - *Goal:* dry my kicks
 
-* TODO Buy cotton :ONEOFF:URGENT:
+* TODO [#C] Buy cotton :ONEOFF:URGENT:
 DEADLINE: <2024-10-23 Wed 22:00>
 
 * Download Solid Works
@@ -88,4 +88,8 @@ DEADLINE: <2024-10-23 Wed 18:00>
 DEADLINE: <2024-10-23 Wed 16:00>
 
 - *Goal:* take picture of mole for further actions
+
+* Merge notes repo
+
+- *Goal:* merge conflict branch to main and clean up other branches
 

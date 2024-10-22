@@ -6,13 +6,15 @@ Archive of bistros/restaurants and good dinning places I have visited
 
 ** Snack :SNACK:
 
-*** Tường Burger
+*** DONE Tường Burger
+CLOSED: [2024-10-22 Tue 22:38]
 
 **Address:*  [[https://www.google.com/maps/place/T%C6%B0%E1%BB%9Dng+By+Double+T+-+Smash+Burger+%26+Dessert,+343%2F3+%C4%90.+T%C3%B4+Hi%E1%BA%BFn+Th%C3%A0nh,+Ph%C6%B0%E1%BB%9Dng+12,+Qu%E1%BA%ADn+10,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.776153,106.6648687,17z/data=!4m6!3m5!1s0x31752f001afd5825:0xb0f1a22939078b94!8m2!3d10.776153!4d106.6648687!16s%2Fg%2F11lchys71b?force=pwa&source=mlapk][343/3 Tô Hiến Thành P12 Q10]]
 **Phone:*  tel:0969266512
 **Open:*  4–10 PM
 
-*** Sweet June
+*** DONE Sweet June
+CLOSED: [2024-10-22 Tue 22:37]
 
 **Address:*  [[https://www.google.com/maps/place/Ti%E1%BB%87m+b%C3%A1nh+Sweet+June+(Crepes+%26+Waffle),+261+%C4%90.+S%C6%B0+V%E1%BA%A1n+H%E1%BA%A1nh,+Ph%C6%B0%E1%BB%9Dng+9,+Qu%E1%BA%ADn+10,+H%E1%BB%93+Ch%C3%AD+Minh+700000,+Vietnam/@10.7662518,106.6717886,16z/data=!4m6!3m5!1s0x31752f692e34766b:0xaf5ca43c38f494f!8m2!3d10.7662518!4d106.6717886!16s%2Fg%2F11pxlbqy15?force=pwa&source=mlapk][261 Sư Vạn Hạnh P9 Q10]]
 **Phone:*  tel:0913800669

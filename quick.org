@@ -80,3 +80,7 @@ DEADLINE: <2024-10-23 Wed 23:59>
 * TODO [#A] Clean PC
 DEADLINE: <2024-10-23 Wed 18:00>
 
+- *Adress:*  [[https://www.google.com/maps/place/Phong+V%C5%A9,+132E+%C4%90.+C%C3%A1ch+M%E1%BA%A1ng+Th%C3%A1ng+8,+Ph%C6%B0%E1%BB%9Dng+10,+Qu%E1%BA%ADn+3,+H%E1%BB%93+Ch%C3%AD+Minh+70000,+Vietnam/@10.778505,106.6805751,16z/data=!4m6!3m5!1s0x31752f4bc45fec6b:0x26d029897a864c7a!8m2!3d10.778505!4d106.6805751!16s%2Fg%2F11l5tfd83j?force=pwa&source=mlapk][132E Đ. Cách Mạng Tháng 8, Phường 10, Quận 3]]
+- tel:02873058867
+- *Open:* 8 AM–9 PM
+

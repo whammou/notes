@@ -77,7 +77,7 @@ DEADLINE: <2024-10-27 Sun 23:59>
 
 - *Visit:*  [[https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Frmiteduau-my.sharepoint.com%2F%3Au%3A%2Fg%2Fpersonal%2Fthien_huynhduc_rmit_edu_vn%2FESiPJm0wXQhAlnhsfdgbn6QBCMjBduoaNSUTNBzFEqSW7A%3Fe%3DjOCtl2&data=04%7C01%7Ctrung.nguyenchi%40rmit.edu.vn%7C51d68fe20c164e930e9c08d92f05e9fc%7Cd1323671cdbe4417b4d4bdb24b51316b%7C0%7C0%7C637592524757725572%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=e4cyNRgH7y3LxKjOhUrtL8BoT65ySKYr8DF4SBU2%2Fq8%3D&reserved=0][solidworks]]
 
-** TODO Report installatiom error :COMPUTER:
+** TODO [#C] Report installatiom error :COMPUTER:
 DEADLINE: <2024-10-23 Wed 19:00>
 
 - *Goal:* report faulty provided solidworks serial numbers

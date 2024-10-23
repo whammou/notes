@@ -90,8 +90,8 @@ DEADLINE: <2024-10-23 Wed 18:00>
 - tel:02873058867
 - *Open:* 8 AM–9 PM
 
-* TODO [#B] Report mole :ONEOFF:
-DEADLINE: <2024-10-23 Wed 16:00>
+* DONE [#B] Report mole :ONEOFF:
+CLOSED: [2024-10-24 Thu 00:00] DEADLINE: <2024-10-23 Wed 16:00>
 
 - *Goal:* take picture of mole for further actions
 

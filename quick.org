@@ -71,7 +71,7 @@ CLOSED: [2024-10-24 Thu 19:53] DEADLINE: <2024-10-23 Wed 22:00>
 - *Goal:* merge conflict branch to main and clean up other branches
 
 * TODO PC market research :COMPUTER:ONEOFF:
-DEADLINE: <2024-10-26 Sat 16:00>
+DEADLINE: <2024-10-25 Fri 16:00>
 
 - *Goal:* Look for a budget 2hand pc
 

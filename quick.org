@@ -39,8 +39,8 @@ Contact local bank for physical credit card
 - *Goal:* check out thia fun racing project
 - *Visit:* [[https://github.com/stuckatprototype/racer]]
 
-* TODO [#C] Buy cotton :ONEOFF:URGENT:
-DEADLINE: <2024-10-24 Thu 22:00>
+* DONE [#C] Buy cotton :ONEOFF:URGENT:
+CLOSED: [2024-10-25 Fri 01:23] DEADLINE: <2024-10-24 Thu 22:00>
 
 * DOING Download Solidworks :COMPUTER:ONEOFF:
 DEADLINE: <2024-10-27 Sun 23:59>

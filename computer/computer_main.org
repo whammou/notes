@@ -317,8 +317,8 @@ CLOSED: [2024-10-07 Mon 02:06]
 - *Stumble upon:* python data visualizer  [[https://www.visidata.org/][visidata]]
 - *DOCS:* [[https://github.com/saulpw/visidata/wiki/Screen-Layout][visidata DOCS][documents]]
 
-** DONE Linux G-suite :LINUX:
-DEADLINE: <2024-10-20 Sun 22:00> CLOSED: [2024-10-21 Mon 21:37]
+** DONE [#B] Linux G-suite :LINUX:
+CLOSED: [2024-10-22 Tue 00:13] DEADLINE: <2024-10-20 Sun 22:00>
 
 - *Goal:* Integrate G-suites with Linux
 - [NOTE]: failed to build g-suite-electron on arch linux

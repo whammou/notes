@@ -54,8 +54,8 @@ A list of repair shops for classical bike and regular bike
 
 Clean up my bikes
 
-**** TODO Buy cleaning toolkits :ONEOFF:
-DEADLINE: <2024-10-25 Fri 02:00>
+**** DONE [#D] Buy cleaning toolkits :ONEOFF:
+CLOSED: [2024-10-25 Fri 02:00] DEADLINE: <2024-10-25 Fri 02:00>
 
 - *Goal:* buy cleaning toolkits for bike maintenance
 

@@ -17,20 +17,6 @@
 
 Glue back a hole on my sneakers
 
-* DONE [#A] Repair air-conditioner :ONEOFF:
-CLOSED: [2024-10-22 Tue 19:11] SCHEDULED: <2024-10-21 Mon 14:00>
-
-- *Goal:* Call repairer and schedule a timeline for ac fix
-- tel:0907300898
-
-* DONE Open webdav server
-CLOSED: [2024-10-20 Sun 03:00]
-
-- *Goal:* open webdav server to connect with android
-
-* ABORTED Hadilao per person cost :ONEOFF:
-CLOSED: [2024-10-12 Sat 21:03]
-
 * DOING [#A] Contact Sacombank :ONEOFF:
 DEADLINE: <2024-10-25 Fri 15:00>
 
@@ -38,14 +24,6 @@ Contact local bank for physical credit card
 
 - *Address:*  [[https://www.google.com/maps/place/Ng%C3%A2n+h%C3%A0ng+Sacombank,+d7%2F204+QL50,+Phong+Ph%C3%BA,+B%C3%ACnh+Ch%C3%A1nh,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.696367,106.6546296,19z/data=!4m9!1m2!2m1!1ssacombank+phong+ph%C3%BA!3m5!1s0x31753168a9c85ee9:0x9bef7c753f7107be!8m2!3d10.6963808!4d106.6545208!16s%2Fg%2F11h_ts5c4r?force=pwa&source=mlapk][d7/204 QL50, Phong Phú, Bình Chánh]]
 - tel:02836364730
-
-* ABORTED [#A] Klairs Toner :ONEOFF:
-CLOSED: [2024-10-12 Sat 18:11] DEADLINE: <2024-10-12 Sat 18:00>
-
-Purchase Klairs Toner
-- *Address:*  [[https://www.google.com/maps/place/Hasaki+Beauty+%26+Clinic,+A30%2F6+QL50,+B%C3%ACnh+H%C6%B0ng,+B%C3%ACnh+Ch%C3%A1nh,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7317472,106.6563207,16z/data=!4m6!3m5!1s0x31754b6798823323:0x451097df50a2001d!8m2!3d10.7317472!4d106.6563207!16s%2Fg%2F11nnvs1lms?force=pwa&source=mlapk][A30/6 QL50, Bình Hưng, Bình Chánh]]
-- *Purchase:*  [[https://hasaki.vn/san-pham/nuoc-hoa-hong-khong-mui-klairs-danh-cho-da-nhay-cam-180ml-65994.html][Klairs Preparation Unscented Toner]]
-- tel:18006324
 
 * TODO Termux ssh :LINUX:
 
@@ -61,16 +39,6 @@ Purchase Klairs Toner
 - *Goal:* check out thia fun racing project
 - *Visit:* [[https://github.com/stuckatprototype/racer]]
 
-* DONE OpenWeather API key :ONEOFF:
-CLOSED: [2024-10-21 Mon 14:19] DEADLINE: <2024-10-21 Mon 16:00>
-
-- *Goal:* check api key functional after a few hours
-
-* DONE Dry sneakers :ONEOFF:
-CLOSED: [2024-10-21 Mon 21:56] DEADLINE: <2024-10-21 Mon 16:00>
-
-- *Goal:* dry my kicks
-
 * TODO [#C] Buy cotton :ONEOFF:URGENT:
 DEADLINE: <2024-10-24 Thu 22:00>
 
@@ -84,21 +52,4 @@ CLOSED: [2024-10-24 Thu 00:04] DEADLINE: <2024-10-23 Wed 19:00>
 
 - *Goal:* report faulty provided solidworks serial numbers
 - mailto:le.van@rmit.edu.vn
-
-* DONE [#A] Clean PC :COMPUTER:ONEOFF:
-CLOSED: [2024-10-24 Thu 00:00] DEADLINE: <2024-10-23 Wed 18:00>
-
-- *Adress:*  [[https://www.google.com/maps/place/Phong+V%C5%A9,+132E+%C4%90.+C%C3%A1ch+M%E1%BA%A1ng+Th%C3%A1ng+8,+Ph%C6%B0%E1%BB%9Dng+10,+Qu%E1%BA%ADn+3,+H%E1%BB%93+Ch%C3%AD+Minh+70000,+Vietnam/@10.778505,106.6805751,16z/data=!4m6!3m5!1s0x31752f4bc45fec6b:0x26d029897a864c7a!8m2!3d10.778505!4d106.6805751!16s%2Fg%2F11l5tfd83j?force=pwa&source=mlapk][132E Đ. Cách Mạng Tháng 8, Phường 10, Quận 3]]
-- tel:02873058867
-- *Open:* 8 AM–9 PM
-
-* DONE [#B] Report mole :ONEOFF:
-CLOSED: [2024-10-24 Thu 00:00] DEADLINE: <2024-10-23 Wed 16:00>
-
-- *Goal:* take picture of mole for further actions
-
-* TODO [#C] Merge notes repo :GITHUB:ONEOFF:
-DEADLINE: <2024-10-23 Wed 22:00>
-
-- *Goal:* merge conflict branch to main and clean up other branches
 

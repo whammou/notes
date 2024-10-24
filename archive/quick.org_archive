@@ -167,4 +167,101 @@ CLOSED: [2024-10-15 Tue 19:44]
 :END:
 
 - *Goal(s):* buy black face mask for aesthetic
+* TODO [#C] Merge notes repo :GITHUB:ONEOFF:
+DEADLINE: <2024-10-23 Wed 22:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-10-24 Thu 20:35
+:ARCHIVE_FILE: /home/whammou/notes/quick.org
+:ARCHIVE_OLPATH: Report mole
+:ARCHIVE_CATEGORY: quick
+:ARCHIVE_TODO: TODO
+:END:
+
+- *Goal:* merge conflict branch to main and clean up other branches
+* DONE [#B] Report mole :ONEOFF:
+CLOSED: [2024-10-24 Thu 00:00] DEADLINE: <2024-10-23 Wed 16:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-10-24 Thu 20:35
+:ARCHIVE_FILE: /home/whammou/notes/quick.org
+:ARCHIVE_OLPATH: Clean PC
+:ARCHIVE_CATEGORY: quick
+:ARCHIVE_TODO: DONE
+:END:
+
+- *Goal:* take picture of mole for further actions
+* DONE [#A] Clean PC :COMPUTER:ONEOFF:
+CLOSED: [2024-10-24 Thu 00:00] DEADLINE: <2024-10-23 Wed 18:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-10-24 Thu 20:35
+:ARCHIVE_FILE: /home/whammou/notes/quick.org
+:ARCHIVE_OLPATH: Download Solid Works/Report installatiom error
+:ARCHIVE_CATEGORY: quick
+:ARCHIVE_TODO: DONE
+:END:
+
+- *Adress:*  [[https://www.google.com/maps/place/Phong+V%C5%A9,+132E+%C4%90.+C%C3%A1ch+M%E1%BA%A1ng+Th%C3%A1ng+8,+Ph%C6%B0%E1%BB%9Dng+10,+Qu%E1%BA%ADn+3,+H%E1%BB%93+Ch%C3%AD+Minh+70000,+Vietnam/@10.778505,106.6805751,16z/data=!4m6!3m5!1s0x31752f4bc45fec6b:0x26d029897a864c7a!8m2!3d10.778505!4d106.6805751!16s%2Fg%2F11l5tfd83j?force=pwa&source=mlapk][132E Đ. Cách Mạng Tháng 8, Phường 10, Quận 3]]
+- tel:02873058867
+- *Open:* 8 AM–9 PM
+* DONE Dry sneakers :ONEOFF:
+CLOSED: [2024-10-21 Mon 21:56] DEADLINE: <2024-10-21 Mon 16:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-10-24 Thu 20:35
+:ARCHIVE_FILE: /home/whammou/notes/quick.org
+:ARCHIVE_CATEGORY: quick
+:ARCHIVE_TODO: DONE
+:END:
+
+- *Goal:* dry my kicks
+* DONE OpenWeather API key :ONEOFF:
+CLOSED: [2024-10-21 Mon 14:19] DEADLINE: <2024-10-21 Mon 16:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-10-24 Thu 20:35
+:ARCHIVE_FILE: /home/whammou/notes/quick.org
+:ARCHIVE_CATEGORY: quick
+:ARCHIVE_TODO: DONE
+:END:
+
+- *Goal:* check api key functional after a few hours
+* DONE Open webdav server
+CLOSED: [2024-10-20 Sun 03:00]
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-10-24 Thu 20:35
+:ARCHIVE_FILE: /home/whammou/notes/quick.org
+:ARCHIVE_CATEGORY: quick
+:ARCHIVE_TODO: DONE
+:END:
+
+- *Goal:* open webdav server to connect with android
+* DONE [#A] Repair air-conditioner :ONEOFF:
+CLOSED: [2024-10-22 Tue 19:11] SCHEDULED: <2024-10-21 Mon 14:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-10-24 Thu 20:35
+:ARCHIVE_FILE: /home/whammou/notes/quick.org
+:ARCHIVE_CATEGORY: quick
+:ARCHIVE_TODO: DONE
+:END:
+
+- *Goal:* Call repairer and schedule a timeline for ac fix
+- tel:0907300898
+* ABORTED Hadilao per person cost :ONEOFF:
+CLOSED: [2024-10-12 Sat 21:03]
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-10-24 Thu 20:35
+:ARCHIVE_FILE: /home/whammou/notes/quick.org
+:ARCHIVE_CATEGORY: quick
+:ARCHIVE_TODO: ABORTED
+:END:
+* ABORTED [#A] Klairs Toner :ONEOFF:
+CLOSED: [2024-10-12 Sat 18:11] DEADLINE: <2024-10-12 Sat 18:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-10-24 Thu 20:35
+:ARCHIVE_FILE: /home/whammou/notes/quick.org
+:ARCHIVE_CATEGORY: quick
+:ARCHIVE_TODO: ABORTED
+:END:
+
+Purchase Klairs Toner
+- *Address:*  [[https://www.google.com/maps/place/Hasaki+Beauty+%26+Clinic,+A30%2F6+QL50,+B%C3%ACnh+H%C6%B0ng,+B%C3%ACnh+Ch%C3%A1nh,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7317472,106.6563207,16z/data=!4m6!3m5!1s0x31754b6798823323:0x451097df50a2001d!8m2!3d10.7317472!4d106.6563207!16s%2Fg%2F11nnvs1lms?force=pwa&source=mlapk][A30/6 QL50, Bình Hưng, Bình Chánh]]
+- *Purchase:*  [[https://hasaki.vn/san-pham/nuoc-hoa-hong-khong-mui-klairs-danh-cho-da-nhay-cam-180ml-65994.html][Klairs Preparation Unscented Toner]]
+- tel:18006324
 

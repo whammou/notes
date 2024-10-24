@@ -97,8 +97,8 @@ CLOSED: [2024-10-24 Thu 00:00] DEADLINE: <2024-10-23 Wed 16:00>
 
 - *Goal:* take picture of mole for further actions
 
-* TODO [#C] Merge notes repo :GITHUB:ONEOFF:
-DEADLINE: <2024-10-23 Wed 22:00>
+* DONE [#C] Merge notes repo :GITHUB:ONEOFF:
+CLOSED: [2024-10-24 Thu 19:53] DEADLINE: <2024-10-23 Wed 22:00>
 
 - *Goal:* merge conflict branch to main and clean up other branches
 

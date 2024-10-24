@@ -60,6 +60,13 @@ Nhà hàng và buffet rau
 
 ** Restaurants :RESTAURANT:
 
+*** Japan Eats
+
+- *Address:* [[https://www.google.com/maps/place/Japan+Eats,+5%2F70+Nguy%E1%BB%85n+Trung+Ng%E1%BA%A1n,+B%E1%BA%BFn+Ngh%C3%A9,+Qu%E1%BA%ADn+1,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7844945,106.7059409,17z/data=!4m6!3m5!1s0x31752f4a4fd3c9f1:0x3065eb12a7a71510!8m2!3d10.7844945!4d106.7059409!16s%2Fg%2F11p_1fxn0x?force=pwa&source=mlapk][5/70 Nguyễn Trung Ngạn, Bến Nghé, Quận 1]]
+- tel:0903636940
+- *Open:* 11 AM–3 PM 5–10 PM
+- From *Tiktok:* [[https://vm.tiktok.com/ZSjRVVD4h][tiktok]]
+
 ** Drinks :DRINKS:
 
 ** Street-food :STREETFOOD:

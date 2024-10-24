@@ -41,9 +41,9 @@ Bread bakery and coffee
 *** Today With You
 
 Korean Pasta
-**Address:*  [[https://www.google.com/maps/place/Vietnam,+H%E1%BB%93+Ch%C3%AD+Minh,+Th%E1%BB%A7+%C4%90%E1%BB%A9c,+Th%E1%BA%A3o+%C4%90i%E1%BB%81n,+%C4%90.+Th%E1%BA%A3o+%C4%90i%E1%BB%81n,+Today+With+You+(K-Pasta)+-+%EC%98%A4%EB%8A%98%EA%B7%B8%EB%8C%80%EC%99%80/@10.8080485,106.7333358,17z/data=!4m9!1m2!2m1!1zdG9kYXkgd2l0aCB5b3UgdGjhuqNvIMSRaeG7gW4!3m5!1s0x317527eb709a1147:0x5f9cee2f1c3aeb94!8m2!3d10.8080485!4d106.7333358!16s%2Fg%2F11vwtk6mxq?force=pwa&source=mlapk][99 Thảo Điền Q2]]
-**Phone:*  tel:0708399998
-**Open:*  11 AM–3 PM  5–10 PM
+*Address:*  [[https://www.google.com/maps/place/Vietnam,+H%E1%BB%93+Ch%C3%AD+Minh,+Th%E1%BB%A7+%C4%90%E1%BB%A9c,+Th%E1%BA%A3o+%C4%90i%E1%BB%81n,+%C4%90.+Th%E1%BA%A3o+%C4%90i%E1%BB%81n,+Today+With+You+(K-Pasta)+-+%EC%98%A4%EB%8A%98%EA%B7%B8%EB%8C%80%EC%99%80/@10.8080485,106.7333358,17z/data=!4m9!1m2!2m1!1zdG9kYXkgd2l0aCB5b3UgdGjhuqNvIMSRaeG7gW4!3m5!1s0x317527eb709a1147:0x5f9cee2f1c3aeb94!8m2!3d10.8080485!4d106.7333358!16s%2Fg%2F11vwtk6mxq?force=pwa&source=mlapk][99 Thảo Điền Q2]]
+*Phone:*  tel:0708399998
+*Open:*  11 AM–3 PM  5–10 PM
 
 *** Hàng Cuốn
 
@@ -51,6 +51,12 @@ Nhà hàng và buffet rau
 - *Address:*  [[https://www.google.com/maps/place/Hang+Cuon+Cao+Thang,+59B+%C4%90.+Cao+Th%E1%BA%AFng,+Ph%C6%B0%E1%BB%9Dng+3,+Qu%E1%BA%ADn+3,+H%E1%BB%93+Ch%C3%AD+Minh+700000,+Vietnam/@10.7706438,106.6812002,16z/data=!4m9!1m2!2m1!1zSMOgbmcgY3Xhu5Fu!3m5!1s0x31752fae49444fbd:0xe2d81b57d3e48114!8m2!3d10.7706438!4d106.6812002!16s%2Fg%2F11w2661v_z?force=pwa&source=mlapk][59B Đ. Cao Thắng, Phường 3, Quận 3]]
 - *Contact:*  tel:02873011908
 - *Open:*  10 AM–10 PM
+
+*** Trần Pizza
+
+- *Address:*  [[https://www.google.com/maps/place/Tr%E1%BA%A7n+Pizza,+117%2F20+%C4%90.+C%E1%BB%91ng+Qu%E1%BB%B3nh,+Ph%C6%B0%E1%BB%9Dng+Nguy%E1%BB%85n+C%C6%B0+Trinh,+Qu%E1%BA%ADn+1,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7653108,106.6894298,16z/data=!4m6!3m5!1s0x31752f006a3e0da1:0x6a0a10d4ede92cbb!8m2!3d10.7653108!4d106.6894298!16s%2Fg%2F11wfc1b_68?force=pwa&source=mlapk][117/20 Đ. Cống Quỳnh, Phường Nguyễn Cư Trinh, Quận 1]]
+- *Open:* 1–9 PM
+- *Contact:* [[https://www.instagram.com/tranpizza?igsh=NGE1NjhybXl0c3Ri][tran_pizza@instagram]]
 
 ** Restaurants :RESTAURANT:
 

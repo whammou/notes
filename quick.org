@@ -93,5 +93,9 @@ DEADLINE: <2024-10-26 Sat 22:00 ++1d>
 SCHEDULED: <2024-10-26 Sat 20:00>
 
 - *Goal:* get info on Snoopy cups for a gift
-file:assets/
+
+file:assets/snoopy/IMG_20241026_002110.jpg
+file:assets/snoopy/IMG_20241026_002112.jpg
+file:assets/snoopy/IMG_20241026_002114.jpg
+file:assets/snoopy/IMG_20241026_002117.jpg
 

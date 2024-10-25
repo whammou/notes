@@ -84,5 +84,8 @@ DEADLINE: <2024-10-26 Sat 14:00>
 Contact auntie 7 for bike repair shop
 
 * TODO [#A] Write an appeal :URGENT:
-DEADLINE: <2024-10-25 Fri 22:00 ++1d>
+DEADLINE: <2024-10-26 Sat 22:00 ++1d>
+
+- *Goal:* write an appeal for my course
+- *Visit:*  [[https://app.smartmailcloud.com/web-share/NVsBkDfROwtXT2bftC_y6y7TaC-zFy9OOCbWpVUf][@email]]
 

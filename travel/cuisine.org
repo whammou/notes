@@ -13,8 +13,7 @@ CLOSED: [2024-10-22 Tue 22:38]
 **Phone:*  tel:0969266512
 **Open:*  4–10 PM
 
-*** DONE Sweet June
-CLOSED: <2024-10-25 Fri 22:15>
+*** Sweet June
 
 **Address:*  [[https://www.google.com/maps/place/Ti%E1%BB%87m+b%C3%A1nh+Sweet+June+(Crepes+%26+Waffle),+261+%C4%90.+S%C6%B0+V%E1%BA%A1n+H%E1%BA%A1nh,+Ph%C6%B0%E1%BB%9Dng+9,+Qu%E1%BA%ADn+10,+H%E1%BB%93+Ch%C3%AD+Minh+700000,+Vietnam/@10.7662518,106.6717886,16z/data=!4m6!3m5!1s0x31752f692e34766b:0xaf5ca43c38f494f!8m2!3d10.7662518!4d106.6717886!16s%2Fg%2F11pxlbqy15?force=pwa&source=mlapk][261 Sư Vạn Hạnh P9 Q10]]
 **Phone:*  tel:0913800669

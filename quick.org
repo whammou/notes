@@ -84,7 +84,7 @@ CLOSED: [2024-10-26 Sat 18:24] DEADLINE: <2024-10-26 Sat 14:00>
 Contact auntie 7 for bike repair shop
 
 * TODO [#A] Write an appeal :URGENT:
-DEADLINE: <2024-10-27 Sun 22:00 ++1d>
+DEADLINE: <2024-10-27 Sun 22:00 ++1d -3h>
 :PROPERTIES:
 :LAST_REPEAT: [2024-10-27 Sun 21:07]
 :END:
@@ -101,4 +101,11 @@ file:assets/snoopy/IMG_20241026_002110.jpg
 file:assets/snoopy/IMG_20241026_002112.jpg
 file:assets/snoopy/IMG_20241026_002114.jpg
 file:assets/snoopy/IMG_20241026_002117.jpg
+
+* Tiệm 31 thrift :LIST:
+
+- *Address:*  [[https://www.google.com/maps/place/Ti%E1%BB%87m+Ba+M%E1%BB%91t,+354%2F68A+%C4%90.+Phan+V%C4%83n+Tr%E1%BB%8B,+Ph%C6%B0%E1%BB%9Dng+11,+B%C3%ACnh+Th%E1%BA%A1nh,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.8217624,106.696346,16z/data=!4m6!3m5!1s0x317529be216bd975:0xa521a907d5b378c9!8m2!3d10.8217624!4d106.696346!16s%2Fg%2F11pkjbxcwd?force=pwa&source=mlapk][354/68A Đ. Phan Văn Trị, Phường 11, Bình Thạnh]]
+- *Open:* 11 AM–8 PM
+- tel:0902617607
+- *IG:* [[https://www.instagram.com/ttiem31.thrift?igsh=YzljYTk1ODg3Zg==][@ttiem31.thrift]]
 

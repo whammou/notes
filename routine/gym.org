@@ -55,8 +55,7 @@ Visit [[/server/archive/calisthenics/Class,\ Health\ -\ Bodyweight\ Training_\ T
 - *Goal(s):* use ~beancount~  for monitoring nutrition intake
 - *Stumble upon:* [[https://github.com/rcaputo/calories-ledger][plaintext accouting for weight loss@github]]
 
-*** DOING [#B] Measure body fat :ARTICLE:
-DEADLINE: <2024-10-24 Thu 23:00>
+*** DOING [#A] Measure body fat :ARTICLE:
 
 - *Goal:* 
   - [X] Var check ~skincaliper~

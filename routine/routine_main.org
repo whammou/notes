@@ -238,3 +238,8 @@ Buy:
   - [ ] Rau ôm
   - [ ] Rau ngổ
 
+* TODO Adding extra meal :RECURRING:
+DEADLINE: <2024-10-29 Tue 22:00>
+
+- *Goal:* adding one extra meal per day
+

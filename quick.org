@@ -18,7 +18,6 @@
 Glue back a hole on my sneakers
 
 * DOING [#A] Contact Sacombank :ONEOFF:
-DEADLINE: <2024-10-28 Mon 15:00>
 
 Contact local bank for physical credit card
 
@@ -84,9 +83,9 @@ CLOSED: [2024-10-26 Sat 18:24] DEADLINE: <2024-10-26 Sat 14:00>
 Contact auntie 7 for bike repair shop
 
 * TODO [#A] Write an appeal :URGENT:
-DEADLINE: <2024-10-27 Sun 22:00 ++1d -3h>
+DEADLINE: <2024-10-30 Wed 22:00 ++1d -3h>
 :PROPERTIES:
-:LAST_REPEAT: [2024-10-27 Sun 21:07]
+:LAST_REPEAT: [2024-10-29 Tue 23:40]
 :END:
 
 - *Goal:* write an appeal for my course

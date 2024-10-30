@@ -361,3 +361,16 @@ Run ~Export VARIABLE_NAME=value~ to define a variable
 
 - *Goal(s):* clean up $HOME dir
 - *Stumble upon:* [[https://github.com/b3nj5m1n/xdg-ninja][xdg-ninjja@github]]
+** DONE Install Latex nvim-treesitter parser :NVIM:
+CLOSED: [2024-10-31 Thu 01:38]
+
+- *Goal(s):* Integrate latex parser to nvim to write tex math in markdown
+- *Source(s):* [[https://github.com/latex-lsp/tree-sitter-latex]]
+  
+  To run generate parser, run: ~npx tree-sitter generate~ (~npx~ package comes with ~npm~)
+  
+  - Required ~treesitter-cli~ to intergrate:
+      1. run ~git clone https://github.com/latex-lsp/tree-sitter-latex~
+      2. cd into tree-sitter and generate parser then run ~treesitter generate~
+  
+  - [[https://github.com/nvim-treesitter/nvim-treesitter/wiki/Installation][nvim-treesitter installation]] installation in config

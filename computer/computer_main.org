@@ -374,3 +374,7 @@ CLOSED: [2024-10-31 Thu 01:38]
       2. cd into tree-sitter and generate parser then run ~treesitter generate~
   
   - [[https://github.com/nvim-treesitter/nvim-treesitter/wiki/Installation][nvim-treesitter installation]] installation in config
+** Open markdown at headline :NVIM:
+
+- *Goal(s):* find a way to open markdown at certain headline
+- *Visit:* [[https://a.opnxng.com/exchange/stackoverflow.com/questions/51187658/markdown-reference-to-section-from-another-file][cross file reference]]

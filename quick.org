@@ -118,3 +118,6 @@ SCHEDULED: <2024-10-31 Thu 18:00>
 
 - *Goal(s):* create schedule for university/courses
 
+* Change class schedule
+DEADLINE: <2024-10-31 Thu 23:59>
+

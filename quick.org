@@ -123,3 +123,7 @@ DEADLINE: <2024-10-31 Thu 23:59>
 
 - *Goal:* change lab to 10:30 am
 
+* TODO Implement ripgrep :NVIM:
+
+- *Stumble upon:*  [[https://www.youtube.com/watch?v=loNdGAnKEf8][ripgrep workflow@youtube]]
+

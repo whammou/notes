@@ -361,6 +361,7 @@ Run ~Export VARIABLE_NAME=value~ to define a variable
 
 - *Goal(s):* clean up $HOME dir
 - *Stumble upon:* [[https://github.com/b3nj5m1n/xdg-ninja][xdg-ninjja@github]]
+
 ** DONE Install Latex nvim-treesitter parser :NVIM:
 CLOSED: [2024-10-31 Thu 01:38]
 

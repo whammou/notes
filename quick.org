@@ -132,3 +132,9 @@ DEADLINE: <2024-10-31 Thu 23:59>
 - *Stumble upon:*  [[https://www.youtube.com/watch?v=loNdGAnKEf8][ripgrep workflow@youtube]]
 
 >>>>>>> refs/remotes/origin/main
+
+* TODO [#A] Return money :ONEOFF:
+DEADLINE: <2024-11-02 Sat 14:00>
+
+- *Goal:* return owed money to Han
+

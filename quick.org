@@ -125,10 +125,6 @@ DEADLINE: <2024-10-31 Thu 23:59>
 
 * TODO Implement ripgrep :NVIM:
 
-<<<<<<< HEAD
 - *Goal(s):* implement ripgrep for faster documentation search
 - *Stumble upon:* [[https://github.com/duane9/nvim-rg]]
-=======
 - *Stumble upon:*  [[https://www.youtube.com/watch?v=loNdGAnKEf8][ripgrep workflow@youtube]]
-
->>>>>>> refs/remotes/origin/main

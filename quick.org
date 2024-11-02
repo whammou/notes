@@ -140,3 +140,7 @@ DEADLINE: <2024-11-02 Sat 17:00>
 - [ ] L cystine
 - [ ] Klanzir Adapalene
 
+* Venom
+
+- *Visit:*  [[https://moveek.com/thong-tin-ve/6ce2f3f7-f409-47b1-bfb9-15c9c1f972a0?partnerCode=MOMO9GPK20190102&orderId=NVXEVRZ&requestId=3a7e7c7e-2c6a-45f7-bbc8-84dea8865fb0&amount=147000&orderInfo=Mua+v%C3%A9+r%E1%BA%A1p+Mega+GS+L%C3%BD+Ch%C3%ADnh+Th%E1%BA%AFng+t%E1%BA%A1i+Moveek.com+-+Gi%C3%A1+tr%E1%BB%8B+%C4%91%C6%A1n+h%C3%A0ng%3A+147%2C000+VND&orderType=momo_wallet&transId=70425598269&resultCode=0&message=Th%C3%A0nh+c%C3%B4ng.&payType=webApp&responseTime=1730549890872&extraData=&signature=00b38df2fa1761e5a9396df7767b4a7dad565c171328d9344b4d50b4bef089b9][ticket]]
+

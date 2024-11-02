@@ -138,3 +138,9 @@ DEADLINE: <2024-11-02 Sat 14:00>
 
 - *Goal:* return owed money to Han
 
+* TODO Resupply :ONEOFF:
+DEADLINE: <2024-11-02 Sat 17:00>
+
+- [ ] L cystine
+- [ ] Klanzir Adapalene
+

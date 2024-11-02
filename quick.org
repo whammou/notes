@@ -108,8 +108,8 @@ file:assets/snoopy/IMG_20241026_002117.jpg
 - tel:0902617607
 - *IG:* [[https://www.instagram.com/ttiem31.thrift?igsh=YzljYTk1ODg3Zg==][@ttiem31.thrift]]
 
-* TODO Initiate Creative CAD course
-SCHEDULED: <2024-10-31 Thu 17:00>
+* DONE Initiate Creative CAD course
+CLOSED: [2024-11-02 Sat 07:33] SCHEDULED: <2024-10-31 Thu 17:00>
 
 - *Goal(s):* create a repo for the new course
 

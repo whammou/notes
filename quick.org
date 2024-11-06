@@ -29,7 +29,8 @@ Contact local bank for physical credit card
 - *Goal:* ssh to the server via Termux
 - *Visit:*  [[https://wiki.termux.com/wiki/Remote_Access]]
 
-* TODO Lunar Calendar :ONEOFF:
+* ABORTED Lunar Calendar :ONEOFF:
+CLOSED: [2024-11-07 Thu 06:08]
 
 - *Goal:* keep track of lunar cal w orgmode
 

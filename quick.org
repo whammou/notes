@@ -86,7 +86,7 @@ CLOSED: [2024-11-05 Tue 19:45] DEADLINE: <2024-10-31 Thu 23:59>
 - *Stumble upon:*  [[https://www.youtube.com/watch?v=loNdGAnKEf8][ripgrep workflow@youtube]]
 
 * TODO Resupply :ONEOFF:
-DEADLINE: <2024-11-03 Sun 17:00>
+DEADLINE: <2024-11-07 Thu 17:00>
 
 - [ ] L cystine
 - [ ] Klanzir Adapalene

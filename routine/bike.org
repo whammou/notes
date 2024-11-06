@@ -31,7 +31,7 @@ Weekly and monthly bikes maintenance schedule
 *** Honda Airblade
 
 **** Oil change
-SCHEDULED: <2024-11-06 Wed>
+SCHEDULED: <2024-11-06 Wed .+2m>
 
 *** Suzuki GN125
 

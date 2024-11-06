@@ -17,6 +17,15 @@ CLOSED: [2024-11-07 Thu 06:04]
 
 - *Goal:* log ideal condition for a smooth ride
 
+**** Tie level
+
+- < 3.7mm, freeway might be flooded
+- > 3.6mm is ideal for a bike ride
+
+**** TODO Rain amount
+
+- *Goal:* log ideal percipitation status
+
 ** Classical bikes
 
 Collection of classical bikes and manuals (tips and tricks included)

@@ -12,7 +12,8 @@ Hydrography forcast of a next day or week is important to schedule a smooth ride
 
 - *Visit:*  [[https://thegioimoicau.com/dia-danh/sai-gon/trang-1][Hydrography forcast]]  [[http://thuydacvietnam.org.vn/thuy-trieu/sai-gon-DNP280101983DIZI29.html][Hydrography archive]]
 
-*** TODO Ideal conditions :LOG:
+*** DONE Ideal conditions :LOG:
+CLOSED: [2024-11-07 Thu 06:04]
 
 - *Goal:* log ideal condition for a smooth ride
 
@@ -31,7 +32,10 @@ Weekly and monthly bikes maintenance schedule
 *** Honda Airblade
 
 **** Oil change
-SCHEDULED: <2024-11-06 Wed .+2m>
+SCHEDULED: <2025-01-07 Tue .+2m>
+:PROPERTIES:
+:LAST_REPEAT: [2024-11-07 Thu 05:06]
+:END:
 
 *** Suzuki GN125
 

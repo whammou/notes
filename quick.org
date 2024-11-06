@@ -1,15 +1,15 @@
 #+TITLE: Quick Notes
 #+DESCRIPTION: Captures and Quick notes
 
-* Ghost in the wires :BOOK:
+* PENDING Ghost in the wires :BOOK:
 
 [[https://libgen.is/search.php?req=Ghost+in+the+wires&lg_topic=libgen&open=0&view=simple&res=25&phrase=1&column=def][Ghost In The Wire@library-genisis]]
 
-* Plain text music playlist
+* PENDING Plain text music playlist
 
 *Goal:* Plain text music playlist that works with ~ytfzf~ and ~new pipe~
 
-* Github repo updates track :GITHUB:
+* PENDING Github repo updates track :GITHUB:
 
 - *Goal(s):* Find a way to keep track github repo updates and get notification from updates
 

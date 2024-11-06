@@ -69,13 +69,13 @@ CLOSED: [2024-11-02 Sat 07:33] SCHEDULED: <2024-10-31 Thu 17:00>
 
 - *Goal(s):* create a repo for the new course
 
-* TODO Create university schedule
-SCHEDULED: <2024-10-31 Thu 18:00>
+* DONE Create university schedule
+CLOSED: [2024-11-07 Thu 04:49] SCHEDULED: <2024-10-31 Thu 18:00>
 
 - *Goal(s):* create schedule for university/courses
 
 * ABORTED Change class schedule :ONEOFF:
-DEADLINE: <2024-10-31 Thu 23:59> CLOSED: [2024-11-05 Tue 19:45]
+CLOSED: [2024-11-05 Tue 19:45] DEADLINE: <2024-10-31 Thu 23:59>
 
 - *Goal:* change lab to 10:30 am
 
@@ -106,5 +106,4 @@ CLOSED: [2024-11-05 Tue 19:44]
 
 - *Goal(s):* run automatic git sync on ~server~
 - *Stumble upon:* [[https://www.worthe-it.co.za/blog/2016-08-13-automated-syncing-with-git.html][git-sync-systemd]]
-
 

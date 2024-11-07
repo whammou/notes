@@ -87,7 +87,7 @@ CLOSED: [2024-11-07 Thu 06:08]
 - *Stumble upon:* [[https://github.com/duane9/nvim-rg]]
 - *Stumble upon:*  [[https://www.youtube.com/watch?v=loNdGAnKEf8][ripgrep workflow@youtube]]
 
-* TODO Resupply :ONEOFF:
+* TODO [#D] Resupply :ONEOFF:
 DEADLINE: <2024-11-08 Fri 17:00>
 
 - [ ] L cystine
@@ -120,7 +120,7 @@ SCHEDULED: <2024-11-08 Fri 14:00-18:00>
 - *Goal:* check AC
 - tel:0907300898
 
-* TODO Start server :COMPUTER:ONEOFF:
+* TODO [#B] Start server :COMPUTER:ONEOFF:
 DEADLINE: <2024-11-08 Fri 15:00>
 
 - *Goal:* start server and get ip

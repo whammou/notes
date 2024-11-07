@@ -129,6 +129,7 @@ DEADLINE: <2024-11-08 Fri 15:00>
 DEADLINE: <2024-11-08 Fri 20:00>
 
 - *Goal:* confirm test date and access to recorded lessions
+- mailto:jaronie.mohdjani@rmit.edu.vn
 
 * TODO [#A] Dinning :SOCIAL:ONEOFF:
 DEADLINE: <2024-11-09 Sat 17:00 -1h>

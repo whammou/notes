@@ -325,7 +325,8 @@ CLOSED: [2024-10-22 Tue 00:13] DEADLINE: <2024-10-20 Sun 22:00>
 
   Change integrate g-suite using Qutebrowser
 
-** DOING Arch input method :LINUX:
+** DONE Arch input method :COMPUTER:LINUX:
+CLOSED: [2024-11-08 Fri 04:51]
 
 - *Goal(s):* added Vietnamese and German input method to arch
 - *Visit:* [[https://wiki.archlinux.org/title/Input_method][input_method@archwiki]]

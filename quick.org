@@ -120,3 +120,8 @@ SCHEDULED: <2024-11-08 Fri 14:00-18:00>
 - *Goal:* check AC
 - tel:0907300898
 
+* TODO Start server :COMPUTER:ONEOFF:
+DEADLINE: <2024-11-08 Fri 15:00>
+
+- *Goal:* start server and get ip
+

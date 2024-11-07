@@ -109,8 +109,8 @@ CLOSED: [2024-11-05 Tue 19:44]
 - *Goal(s):* run automatic git sync on ~server~
 - *Stumble upon:* [[https://www.worthe-it.co.za/blog/2016-08-13-automated-syncing-with-git.html][git-sync-systemd]]
 
-* TODO [#A] CMND :ONEOFF:
-DEADLINE: <2024-11-07 Thu 18:00>
+* DONE [#A] CMND :ONEOFF:
+CLOSED: [2024-11-07 Thu 19:40] DEADLINE: <2024-11-07 Thu 18:00>
 
 - *Goal:* deliver cmnd for dad
 

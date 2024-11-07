@@ -118,4 +118,5 @@ DEADLINE: <2024-11-07 Thu 18:00>
 SCHEDULED: <2024-11-08 Fri 14:00-18:00>
 
 - *Goal:* check AC
+- tel:0907300898
 

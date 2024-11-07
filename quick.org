@@ -126,6 +126,7 @@ DEADLINE: <2024-11-08 Fri 15:00>
 - *Goal:* start server and get ip
 
 * TODO [#A] Question on Asgm1 :URGENT:ONEOFF:
+DEADLINE: <2024-11-08 Fri 20:00>
 
 - *Goal:* confirm test date and access to recorded lessions
 

@@ -14,8 +14,8 @@
 	path = math/MATH2349
 	url = git@github.com:whammou/MATH2349
     branch = main
-[submodule "physics/oeng1209"]
-	path = physics/oeng1209
+[submodule "physics/OENG1209"]
+	path = physics/OENG1209
 	url = git@github.com:whammou/OENG1209
     branch = main
 [submodule "design/EEET2603"]
@@ -23,6 +23,6 @@
 	url = git@github.com:whammou/EEET2603
     branch = main
 [submodule "design/OENG1205"]
-	path = design/OENg1205
+    path = design/OENG1205
 	url = git@github.com:whammou/OENG1205
     branch = main

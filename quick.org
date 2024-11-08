@@ -115,13 +115,13 @@ CLOSED: [2024-11-07 Thu 19:40] DEADLINE: <2024-11-07 Thu 18:00>
 - *Goal:* deliver cmnd for dad
 
 * AC maintenance :ONEOFF:
-SCHEDULED: <2024-11-08 Fri 14:00-18:00>
+SCHEDULED: <2024-11-09 Sat 14:00-18:00>
 
 - *Goal:* check AC
 - tel:0907300898
 
-* TODO [#B] Start server :COMPUTER:ONEOFF:
-DEADLINE: <2024-11-08 Fri 15:00>
+* DONE [#B] Start server :COMPUTER:ONEOFF:
+CLOSED: [2024-11-08 Fri 16:33] DEADLINE: <2024-11-08 Fri 15:00>
 
 - *Goal:* start server and get ip
 

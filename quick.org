@@ -126,7 +126,7 @@ CLOSED: [2024-11-08 Fri 16:33] DEADLINE: <2024-11-08 Fri 15:00>
 - *Goal:* start server and get ip
 
 * TODO [#A] Question on Asgm1 :URGENT:ONEOFF:
-DEADLINE: <2024-11-08 Fri 20:00>
+DEADLINE: <2024-11-09 Sat 20:00>
 
 - *Goal:* confirm test date and access to recorded lessions
 - mailto:jaronie.mohdjani@rmit.edu.vn

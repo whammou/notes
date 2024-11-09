@@ -40,7 +40,7 @@ CLOSED: [2024-11-07 Thu 06:08]
 - *Visit:* [[https://github.com/stuckatprototype/racer]]
 
 * DOING [#D] Download Solidworks :COMPUTER:ONEOFF:
-DEADLINE: <2024-11-07 Thu 23:59>
+DEADLINE: <2024-11-08 Fri 23:59>
 
 - *Visit:*  [[https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Frmiteduau-my.sharepoint.com%2F%3Au%3A%2Fg%2Fpersonal%2Fthien_huynhduc_rmit_edu_vn%2FESiPJm0wXQhAlnhsfdgbn6QBCMjBduoaNSUTNBzFEqSW7A%3Fe%3DjOCtl2&data=04%7C01%7Ctrung.nguyenchi%40rmit.edu.vn%7C51d68fe20c164e930e9c08d92f05e9fc%7Cd1323671cdbe4417b4d4bdb24b51316b%7C0%7C0%7C637592524757725572%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=e4cyNRgH7y3LxKjOhUrtL8BoT65ySKYr8DF4SBU2%2Fq8%3D&reserved=0][solidworks]]
 
@@ -115,7 +115,7 @@ CLOSED: [2024-11-07 Thu 19:40] DEADLINE: <2024-11-07 Thu 18:00>
 - *Goal:* deliver cmnd for dad
 
 * AC maintenance :ONEOFF:
-SCHEDULED: <2024-11-09 Sat 14:00-18:00>
+SCHEDULED: <2024-11-10 Sun 14:00-18:00>
 
 - *Goal:* check AC
 - tel:0907300898

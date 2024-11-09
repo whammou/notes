@@ -97,9 +97,9 @@ CLOSED: [2024-10-07 Mon 19:50] SCHEDULED: <2024-10-07 Mon 05:00>
 *** Haircare :HAIRCARE:
 
 **** Haircut
-DEADLINE: <2024-11-08 Fri 17:00 +1m>
+DEADLINE: <2024-12-24 Tue 17:00 .+45d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-09-23 Mon 19:22]
+:LAST_REPEAT: [2024-11-09 Sat 14:44]
 :END:
 
 - *Goal:* log a good cut

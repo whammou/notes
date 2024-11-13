@@ -136,3 +136,4 @@ DEADLINE: <2024-11-09 Sat 17:00 -1h>
 
 - *Goal:* dine with Hans family
 
+* Create merge conflict

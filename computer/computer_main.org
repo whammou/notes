@@ -359,7 +359,7 @@ Run ~printenv VARIBLE_NAME~ or ~echo $varname~ to print the value of a certain v
 Run ~Export VARIABLE_NAME=value~ to define a variable 
 
 *** TODO [#C] Config xfcit5
-DEADLINE: <2024-11-09 Sat 20:00>
+DEADLINE: <2024-11-13 Wed 20:00>
 
 - *Goal:* rebind keys and adjust theme
 

@@ -88,7 +88,7 @@ CLOSED: [2024-11-07 Thu 06:08]
 - *Stumble upon:*  [[https://www.youtube.com/watch?v=loNdGAnKEf8][ripgrep workflow@youtube]]
 
 * TODO [#D] Resupply :ONEOFF:
-DEADLINE: <2024-11-09 Sat 17:00>
+DEADLINE: <2024-11-13 Wed 17:00>
 
 - [ ] L cystine
 - [ ] Klanzir Adapalene
@@ -115,7 +115,7 @@ CLOSED: [2024-11-07 Thu 19:40] DEADLINE: <2024-11-07 Thu 18:00>
 - *Goal:* deliver cmnd for dad
 
 * DOING AC maintenance :ONEOFF:
-SCHEDULED: <2024-11-10 Sun 14:00-18:00>
+SCHEDULED: <2024-11-13 Wed 14:00-18:00>
 
 - *Goal:* check AC
 - tel:0907300898

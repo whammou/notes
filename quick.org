@@ -57,7 +57,7 @@ SCHEDULED: <2024-11-14 Thu 16:00>
 :END:
 
 - *Goal:* write an appeal for my course
-- *Visit:*  [[https://app.smartmailcloud.com/web-share/NVsBkDfROwtXT2bftC_y6y7TaC-zFy9OOCbWpVUf][@email]]
+- *Visit:*  [[https://app.smartmailcloud.com/web-share/NVsBkDfROwtXT2bftC_y6y7TaC-zFy9OOCbWpVUf][@email]] [[https://app.smartmailcloud.com/web-share/zd_MEw-3KGni2S-H1FnEEjpu8Qp4yvaL7UgmEHPh][urgent]]
 
 * Tiệm 31 thrift :LIST:
 

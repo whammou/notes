@@ -50,7 +50,8 @@ CLOSED: [2024-10-24 Thu 00:04] DEADLINE: <2024-10-23 Wed 19:00>
 - *Goal:* report faulty provided solidworks serial numbers
 - mailto:le.van@rmit.edu.vn
 
-* PENDING [#A] Write an appeal :URGENT:
+* TODO [#A] Write an appeal :URGENT:
+SCHEDULED: <2024-11-14 Thu 16:00>
 :PROPERTIES:
 :LAST_REPEAT: [2024-10-29 Tue 23:40]
 :END:
@@ -130,9 +131,4 @@ CLOSED: [2024-11-13 Wed 15:10] DEADLINE: <2024-11-09 Sat 20:00>
 
 - *Goal:* confirm test date and access to recorded lessions
 - mailto:jaronie.mohdjani@rmit.edu.vn
-
-* DONE [#A] Dinning :SOCIAL:ONEOFF:
-CLOSED: [2024-11-13 Wed 15:10] DEADLINE: <2024-11-09 Sat 17:00 -1h>
-
-- *Goal:* dine with Hans family
 

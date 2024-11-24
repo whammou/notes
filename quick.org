@@ -132,3 +132,12 @@ CLOSED: [2024-11-13 Wed 15:10] DEADLINE: <2024-11-09 Sat 20:00>
 - *Goal:* confirm test date and access to recorded lessions
 - mailto:jaronie.mohdjani@rmit.edu.vn
 
+* DONE Config lazy.nvim :NVIM:
+DEADLINE: <2024-11-14 Thu 22:00> CLOSED: [2024-11-25 Mon 01:58]
+
+- *Goal(s):* replace Vundle with lazy.nvim
+- *Visit:* [[https://github.com/folke/lazy.nvim][lazy.nvim@github]]
+
+* Config nvim-supertab and nvim-cmp
+- *Stumble upon:* [[https://github.com/hrsh7th/nvim-cmp/issues/179][issue@github]]
+- *Goal(s):* config nvim to work with nvim-cmp nvim-supertab

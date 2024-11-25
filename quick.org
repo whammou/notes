@@ -115,8 +115,8 @@ CLOSED: [2024-11-07 Thu 19:40] DEADLINE: <2024-11-07 Thu 18:00>
 
 - *Goal:* deliver cmnd for dad
 
-* DOING AC maintenance :ONEOFF:
-SCHEDULED: <2024-11-13 Wed 14:00-18:00>
+* DONE AC maintenance :ONEOFF:
+CLOSED: [2024-11-14 Thu 20:19] SCHEDULED: <2024-11-13 Wed 14:00-18:00>
 
 - *Goal:* check AC
 - tel:0907300898
@@ -131,4 +131,7 @@ CLOSED: [2024-11-13 Wed 15:10] DEADLINE: <2024-11-09 Sat 20:00>
 
 - *Goal:* confirm test date and access to recorded lessions
 - mailto:jaronie.mohdjani@rmit.edu.vn
+
+* TODO Buy cigarette :ONEOFF:
+DEADLINE: <2024-11-25 Mon 17:00>
 

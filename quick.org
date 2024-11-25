@@ -133,17 +133,18 @@ CLOSED: [2024-11-13 Wed 15:10] DEADLINE: <2024-11-09 Sat 20:00>
 - mailto:jaronie.mohdjani@rmit.edu.vn
 
 * DONE Config lazy.nvim :NVIM:
-DEADLINE: <2024-11-14 Thu 22:00> CLOSED: [2024-11-25 Mon 01:58]
+CLOSED: [2024-11-25 Mon 01:58] DEADLINE: <2024-11-14 Thu 22:00>
 
 - *Goal(s):* replace Vundle with lazy.nvim
 - *Visit:* [[https://github.com/folke/lazy.nvim][lazy.nvim@github]]
 
 * Config nvim-supertab and nvim-cmp
+
 - *Stumble upon:* [[https://github.com/hrsh7th/nvim-cmp/issues/179][issue@github]]
 - *Goal(s):* config nvim to work with nvim-cmp nvim-supertab
 
-
 * English teaching
+
 - *Goal(s):* create lesson plan for English teaching
 - tel:[Khánh Vi]
 
@@ -152,5 +153,5 @@ DEADLINE: <2024-11-14 Thu 22:00> CLOSED: [2024-11-25 Mon 01:58]
 - *Goal(s):* config nvim-lspconfig to work with  [[https://github.com/ms-jpq/coq_nvim][coq.nvim@github]]
 - *Stumble upon:*  [[https://neovim.io/doc/user/lsp.html][docs]]  [[https://github.com/neovim/nvim-lspconfig][nvim-lspconfig]]
 
-* Create conflict A
+* create conflict B
 

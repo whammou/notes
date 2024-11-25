@@ -80,6 +80,10 @@ CLOSED: [2024-10-07 Mon 20:22]
 - *Goal:* Look for a way to manage hair after a workout session 
 - *Solution:* Implemented new shampoo and conditioner day schedules  [[#conditioner_day]]  [[#shampoo_day]]
 
+** Gym information
+- *Goal(s):* collect information on different gyms
+- *Visit:* 
+
 * [#D] Calisthenic :ROUTINE:GYM:HEALTH:
 
 <2024-10-09 Wed 01:00 +1w>

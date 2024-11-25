@@ -142,6 +142,12 @@ DEADLINE: <2024-11-14 Thu 22:00> CLOSED: [2024-11-25 Mon 01:58]
 - *Stumble upon:* [[https://github.com/hrsh7th/nvim-cmp/issues/179][issue@github]]
 - *Goal(s):* config nvim to work with nvim-cmp nvim-supertab
 
-* DONE Buy cigarette :ONEOFF:
-CLOSED: [2024-11-25 Mon 20:20] DEADLINE: <2024-11-25 Mon 17:00>
 
+* English teaching
+- *Goal(s):* create lesson plan for English teaching
+- tel:[Khánh Vi]
+
+* Config nvim-lspconfig
+
+- *Goal(s):* config nvim-lspconfig to work with  [[https://github.com/ms-jpq/coq_nvim][coq.nvim@github]]
+- *Stumble upon:*  [[https://neovim.io/doc/user/lsp.html][docs]]  [[https://github.com/neovim/nvim-lspconfig][nvim-lspconfig]]

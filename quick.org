@@ -143,5 +143,5 @@ DEADLINE: <2024-11-14 Thu 22:00> CLOSED: [2024-11-25 Mon 01:58]
 - *Goal(s):* config nvim to work with nvim-cmp nvim-supertab
 
 * DONE Buy cigarette :ONEOFF:
-DEADLINE: <2024-11-25 Mon 17:00> CLOSED: [2024-11-25 Mon 19:53]
+CLOSED: [2024-11-25 Mon 20:20] DEADLINE: <2024-11-25 Mon 17:00>
 

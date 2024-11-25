@@ -1,4 +1,5 @@
 * Intro to Elec & Electronic Eng, Lecture - SGS/1.2.029 (Online)
+
   <2024-10-28 Mon 10:30>--<2024-10-28 Mon 12:00>
 EEET2603_SEM3_1114_VNMRI, Lecture, 01_Online
 Intro to Elec & Electronic Eng
@@ -6,6 +7,7 @@ Staff: Minh Bui
 Location: SGS/1.2.029 (Online)
 
 * Intro to Elec & Electronic Eng, Lecture - SGS/1.2.029 (Online)
+
   <2024-11-04 Mon 10:30>--<2024-11-04 Mon 12:00>
 EEET2603_SEM3_1114_VNMRI, Lecture, 01_Online
 Intro to Elec & Electronic Eng
@@ -13,6 +15,7 @@ Staff: Minh Bui
 Location: SGS/1.2.029 (Online)
 
 * Intro to Elec & Electronic Eng, Lecture - SGS/1.2.029 (Online)
+
   <2024-11-11 Mon 10:30>--<2024-11-11 Mon 12:00>
 EEET2603_SEM3_1114_VNMRI, Lecture, 01_Online
 Intro to Elec & Electronic Eng
@@ -20,6 +23,7 @@ Staff: Minh Bui
 Location: SGS/1.2.029 (Online)
 
 * Intro to Elec & Electronic Eng, Lecture - SGS/1.2.029 (Online)
+
   <2024-11-18 Mon 10:30>--<2024-11-18 Mon 12:00>
 EEET2603_SEM3_1114_VNMRI, Lecture, 01_Online
 Intro to Elec & Electronic Eng
@@ -27,6 +31,7 @@ Staff: Minh Bui
 Location: SGS/1.2.029 (Online)
 
 * Intro to Elec & Electronic Eng, Lecture - SGS/1.2.029 (Online)
+
   <2024-11-25 Mon 10:30>--<2024-11-25 Mon 12:00>
 EEET2603_SEM3_1114_VNMRI, Lecture, 01_Online
 Intro to Elec & Electronic Eng
@@ -34,6 +39,7 @@ Staff: Minh Bui
 Location: SGS/1.2.029 (Online)
 
 * Intro to Elec & Electronic Eng, Lecture - SGS/1.2.029 (Online)
+
   <2024-12-02 Mon 10:30>--<2024-12-02 Mon 12:00>
 EEET2603_SEM3_1114_VNMRI, Lecture, 01_Online
 Intro to Elec & Electronic Eng
@@ -41,6 +47,7 @@ Staff: Minh Bui
 Location: SGS/1.2.029 (Online)
 
 * Intro to Elec & Electronic Eng, Lecture - SGS/1.2.029 (Online)
+
   <2024-12-09 Mon 10:30>--<2024-12-09 Mon 12:00>
 EEET2603_SEM3_1114_VNMRI, Lecture, 01_Online
 Intro to Elec & Electronic Eng
@@ -48,6 +55,7 @@ Staff: Minh Bui
 Location: SGS/1.2.029 (Online)
 
 * Intro to Elec & Electronic Eng, Lecture - SGS/1.2.029 (Online)
+
   <2024-12-16 Mon 10:30>--<2024-12-16 Mon 12:00>
 EEET2603_SEM3_1114_VNMRI, Lecture, 01_Online
 Intro to Elec & Electronic Eng
@@ -55,6 +63,7 @@ Staff: Minh Bui
 Location: SGS/1.2.029 (Online)
 
 * Intro to Elec & Electronic Eng, Lecture - SGS/1.2.029 (Online)
+
   <2024-12-30 Mon 10:30>--<2024-12-30 Mon 12:00>
 EEET2603_SEM3_1114_VNMRI, Lecture, 01_Online
 Intro to Elec & Electronic Eng
@@ -62,6 +71,7 @@ Staff: Minh Bui
 Location: SGS/1.2.029 (Online)
 
 * Intro to Elec & Electronic Eng, Lecture - SGS/1.2.029 (Online)
+
   <2025-01-06 Mon 10:30>--<2025-01-06 Mon 12:00>
 EEET2603_SEM3_1114_VNMRI, Lecture, 01_Online
 Intro to Elec & Electronic Eng
@@ -69,6 +79,7 @@ Staff: Minh Bui
 Location: SGS/1.2.029 (Online)
 
 * Intro to Elec & Electronic Eng, Lecture - SGS/1.2.029 (Online)
+
   <2025-01-13 Mon 10:30>--<2025-01-13 Mon 12:00>
 EEET2603_SEM3_1114_VNMRI, Lecture, 01_Online
 Intro to Elec & Electronic Eng
@@ -76,6 +87,7 @@ Staff: Minh Bui
 Location: SGS/1.2.029 (Online)
 
 * Intro to Elec & Electronic Eng, Tutorial - SGS/8.1.002 (Lab-Specialised)
+
   <2024-10-30 Wed 12:30>--<2024-10-30 Wed 14:00>
 EEET2603_SEM3_1114_VNMRI, Tutorial, 02
 Intro to Elec & Electronic Eng
@@ -83,6 +95,7 @@ Staff: Tung Nguyen
 Location: SGS/8.1.002 (Lab-Specialised)
 
 * Intro to Elec & Electronic Eng, Tutorial - SGS/8.1.002 (Lab-Specialised)
+
   <2024-11-06 Wed 12:30>--<2024-11-06 Wed 14:00>
 EEET2603_SEM3_1114_VNMRI, Tutorial, 02
 Intro to Elec & Electronic Eng
@@ -90,13 +103,16 @@ Staff: Tung Nguyen
 Location: SGS/8.1.002 (Lab-Specialised)
 
 * Intro to Elec & Electronic Eng, Tutorial - SGS/8.1.002 (Lab-Specialised)
+
   <2024-11-13 Wed 12:30>--<2024-11-13 Wed 14:00>
 EEET2603_SEM3_1114_VNMRI, Tutorial, 02
 Intro to Elec & Electronic Eng
 Staff: Tung Nguyen
 Location: SGS/8.1.002 (Lab-Specialised)
 
-* Intro to Elec & Electronic Eng, Tutorial - SGS/8.1.002 (Lab-Specialised)
+* DONE Intro to Elec & Electronic Eng, Tutorial - SGS/8.1.002 (Lab-Specialised)
+CLOSED: [2024-11-20 Wed 21:23]
+
   <2024-11-20 Wed 12:30>--<2024-11-20 Wed 14:00>
 EEET2603_SEM3_1114_VNMRI, Tutorial, 02
 Intro to Elec & Electronic Eng
@@ -104,6 +120,7 @@ Staff: Tung Nguyen
 Location: SGS/8.1.002 (Lab-Specialised)
 
 * Intro to Elec & Electronic Eng, Tutorial - SGS/8.1.002 (Lab-Specialised)
+
   <2024-11-27 Wed 12:30>--<2024-11-27 Wed 14:00>
 EEET2603_SEM3_1114_VNMRI, Tutorial, 02
 Intro to Elec & Electronic Eng
@@ -111,6 +128,7 @@ Staff: Tung Nguyen
 Location: SGS/8.1.002 (Lab-Specialised)
 
 * Intro to Elec & Electronic Eng, Tutorial - SGS/8.1.002 (Lab-Specialised)
+
   <2024-12-04 Wed 12:30>--<2024-12-04 Wed 14:00>
 EEET2603_SEM3_1114_VNMRI, Tutorial, 02
 Intro to Elec & Electronic Eng
@@ -118,6 +136,7 @@ Staff: Tung Nguyen
 Location: SGS/8.1.002 (Lab-Specialised)
 
 * Intro to Elec & Electronic Eng, Tutorial - SGS/8.1.002 (Lab-Specialised)
+
   <2024-12-11 Wed 12:30>--<2024-12-11 Wed 14:00>
 EEET2603_SEM3_1114_VNMRI, Tutorial, 02
 Intro to Elec & Electronic Eng
@@ -125,6 +144,7 @@ Staff: Tung Nguyen
 Location: SGS/8.1.002 (Lab-Specialised)
 
 * Intro to Elec & Electronic Eng, Tutorial - SGS/8.1.002 (Lab-Specialised)
+
   <2024-12-18 Wed 12:30>--<2024-12-18 Wed 14:00>
 EEET2603_SEM3_1114_VNMRI, Tutorial, 02
 Intro to Elec & Electronic Eng
@@ -132,6 +152,7 @@ Staff: Tung Nguyen
 Location: SGS/8.1.002 (Lab-Specialised)
 
 * Intro to Elec & Electronic Eng, Tutorial - SGS/8.1.002 (Lab-Specialised)
+
   <2025-01-01 Wed 12:30>--<2025-01-01 Wed 14:00>
 EEET2603_SEM3_1114_VNMRI, Tutorial, 02
 Intro to Elec & Electronic Eng
@@ -139,6 +160,7 @@ Staff: Tung Nguyen
 Location: SGS/8.1.002 (Lab-Specialised)
 
 * Intro to Elec & Electronic Eng, Tutorial - SGS/8.1.002 (Lab-Specialised)
+
   <2025-01-08 Wed 12:30>--<2025-01-08 Wed 14:00>
 EEET2603_SEM3_1114_VNMRI, Tutorial, 02
 Intro to Elec & Electronic Eng
@@ -146,6 +168,7 @@ Staff: Tung Nguyen
 Location: SGS/8.1.002 (Lab-Specialised)
 
 * Intro to Elec & Electronic Eng, Tutorial - SGS/8.1.002 (Lab-Specialised)
+
   <2025-01-15 Wed 12:30>--<2025-01-15 Wed 14:00>
 EEET2603_SEM3_1114_VNMRI, Tutorial, 02
 Intro to Elec & Electronic Eng
@@ -153,6 +176,7 @@ Staff: Tung Nguyen
 Location: SGS/8.1.002 (Lab-Specialised)
 
 * Dig Sys Design 1, Lecture - -
+
   <2024-08-19 Mon 10:30>--<2024-08-19 Mon 12:00>
 EEET2604_SEM2_1115_VNMRI, Lecture, 01_Online
 Dig Sys Design 1
@@ -160,6 +184,7 @@ Staff: Hung Pham (Hung Pham Viet)
 Location: -
 
 * Dig Sys Design 1, Lecture - -
+
   <2024-08-26 Mon 10:30>--<2024-08-26 Mon 12:00>
 EEET2604_SEM2_1115_VNMRI, Lecture, 01_Online
 Dig Sys Design 1
@@ -167,6 +192,7 @@ Staff: Hung Pham (Hung Pham Viet)
 Location: -
 
 * Dig Sys Design 1, Lecture - -
+
   <2024-09-02 Mon 10:30>--<2024-09-02 Mon 12:00>
 EEET2604_SEM2_1115_VNMRI, Lecture, 01_Online
 Dig Sys Design 1
@@ -174,6 +200,7 @@ Staff: Hung Pham (Hung Pham Viet)
 Location: -
 
 * Dig Sys Design 1, Lecture - -
+
   <2024-09-09 Mon 10:30>--<2024-09-09 Mon 12:00>
 EEET2604_SEM2_1115_VNMRI, Lecture, 01_Online
 Dig Sys Design 1
@@ -181,6 +208,7 @@ Staff: Hung Pham (Hung Pham Viet)
 Location: -
 
 * Dig Sys Design 1, Lecture - -
+
   <2024-09-16 Mon 10:30>--<2024-09-16 Mon 12:00>
 EEET2604_SEM2_1115_VNMRI, Lecture, 01_Online
 Dig Sys Design 1
@@ -188,6 +216,7 @@ Staff: Hung Pham (Hung Pham Viet)
 Location: -
 
 * Dig Sys Design 1, Tutorial - SGS/8.1.002 (Lab-Specialised)
+
   <2024-08-21 Wed 16:30>--<2024-08-21 Wed 18:00>
 EEET2604_SEM2_1115_VNMRI, Tutorial, 02
 Dig Sys Design 1
@@ -195,6 +224,7 @@ Staff: Hung Pham (Hung Pham Viet)
 Location: SGS/8.1.002 (Lab-Specialised)
 
 * Dig Sys Design 1, Tutorial - SGS/8.1.002 (Lab-Specialised)
+
   <2024-08-28 Wed 16:30>--<2024-08-28 Wed 18:00>
 EEET2604_SEM2_1115_VNMRI, Tutorial, 02
 Dig Sys Design 1
@@ -202,6 +232,7 @@ Staff: Hung Pham (Hung Pham Viet)
 Location: SGS/8.1.002 (Lab-Specialised)
 
 * Dig Sys Design 1, Tutorial - SGS/8.1.002 (Lab-Specialised)
+
   <2024-09-04 Wed 16:30>--<2024-09-04 Wed 18:00>
 EEET2604_SEM2_1115_VNMRI, Tutorial, 02
 Dig Sys Design 1
@@ -209,6 +240,7 @@ Staff: Hung Pham (Hung Pham Viet)
 Location: SGS/8.1.002 (Lab-Specialised)
 
 * Dig Sys Design 1, Tutorial - SGS/8.1.002 (Lab-Specialised)
+
   <2024-09-11 Wed 16:30>--<2024-09-11 Wed 18:00>
 EEET2604_SEM2_1115_VNMRI, Tutorial, 02
 Dig Sys Design 1
@@ -216,6 +248,7 @@ Staff: Hung Pham (Hung Pham Viet)
 Location: SGS/8.1.002 (Lab-Specialised)
 
 * Dig Sys Design 1, Tutorial - SGS/8.1.002 (Lab-Specialised)
+
   <2024-09-18 Wed 16:30>--<2024-09-18 Wed 18:00>
 EEET2604_SEM2_1115_VNMRI, Tutorial, 02
 Dig Sys Design 1
@@ -223,6 +256,7 @@ Staff: Hung Pham (Hung Pham Viet)
 Location: SGS/8.1.002 (Lab-Specialised)
 
 * Mechanical Design, Lecture - SGS/2.4.044 (Lab-Windows)
+
   <2024-08-20 Tue 12:30>--<2024-08-20 Tue 14:00>
 MIET2510_SEM2_1282_VNMRI, Lecture, 01
 Mechanical Design
@@ -230,6 +264,7 @@ Staff: Byron Mason
 Location: SGS/2.4.044 (Lab-Windows)
 
 * Mechanical Design, Lecture - SGS/2.4.044 (Lab-Windows)
+
   <2024-08-27 Tue 12:30>--<2024-08-27 Tue 14:00>
 MIET2510_SEM2_1282_VNMRI, Lecture, 01
 Mechanical Design
@@ -237,6 +272,7 @@ Staff: Byron Mason
 Location: SGS/2.4.044 (Lab-Windows)
 
 * Mechanical Design, Lecture - SGS/2.4.044 (Lab-Windows)
+
   <2024-09-03 Tue 12:30>--<2024-09-03 Tue 14:00>
 MIET2510_SEM2_1282_VNMRI, Lecture, 01
 Mechanical Design
@@ -244,6 +280,7 @@ Staff: Byron Mason
 Location: SGS/2.4.044 (Lab-Windows)
 
 * Mechanical Design, Lecture - SGS/2.4.044 (Lab-Windows)
+
   <2024-09-10 Tue 12:30>--<2024-09-10 Tue 14:00>
 MIET2510_SEM2_1282_VNMRI, Lecture, 01
 Mechanical Design
@@ -251,6 +288,7 @@ Staff: Byron Mason
 Location: SGS/2.4.044 (Lab-Windows)
 
 * Mechanical Design, Lecture - SGS/2.4.044 (Lab-Windows)
+
   <2024-09-17 Tue 12:30>--<2024-09-17 Tue 14:00>
 MIET2510_SEM2_1282_VNMRI, Lecture, 01
 Mechanical Design
@@ -258,6 +296,7 @@ Staff: Byron Mason
 Location: SGS/2.4.044 (Lab-Windows)
 
 * Mechanical Design, Tutorial - SGS/2.4.044 (Lab-Windows)
+
   <2024-08-09 Fri 16:30>--<2024-08-09 Fri 18:00>
 MIET2510_SEM2_1282_VNMRI, Tutorial, 01
 Mechanical Design
@@ -265,6 +304,7 @@ Staff: Byron Mason
 Location: SGS/2.4.044 (Lab-Windows)
 
 * Mechanical Design, Tutorial - SGS/2.4.044 (Lab-Windows)
+
   <2024-08-23 Fri 16:30>--<2024-08-23 Fri 18:00>
 MIET2510_SEM2_1282_VNMRI, Tutorial, 01
 Mechanical Design
@@ -272,6 +312,7 @@ Staff: Byron Mason
 Location: SGS/2.4.044 (Lab-Windows)
 
 * Mechanical Design, Tutorial - SGS/2.4.044 (Lab-Windows)
+
   <2024-08-30 Fri 16:30>--<2024-08-30 Fri 18:00>
 MIET2510_SEM2_1282_VNMRI, Tutorial, 01
 Mechanical Design
@@ -279,6 +320,7 @@ Staff: Byron Mason
 Location: SGS/2.4.044 (Lab-Windows)
 
 * Mechanical Design, Tutorial - SGS/2.4.044 (Lab-Windows)
+
   <2024-09-06 Fri 16:30>--<2024-09-06 Fri 18:00>
 MIET2510_SEM2_1282_VNMRI, Tutorial, 01
 Mechanical Design
@@ -286,6 +328,7 @@ Staff: Byron Mason
 Location: SGS/2.4.044 (Lab-Windows)
 
 * Mechanical Design, Tutorial - SGS/2.4.044 (Lab-Windows)
+
   <2024-09-13 Fri 16:30>--<2024-09-13 Fri 18:00>
 MIET2510_SEM2_1282_VNMRI, Tutorial, 01
 Mechanical Design
@@ -293,6 +336,7 @@ Staff: Byron Mason
 Location: SGS/2.4.044 (Lab-Windows)
 
 * Mechanical Design, Tutorial - SGS/2.4.044 (Lab-Windows)
+
   <2024-09-20 Fri 16:30>--<2024-09-20 Fri 18:00>
 MIET2510_SEM2_1282_VNMRI, Tutorial, 01
 Mechanical Design
@@ -300,6 +344,7 @@ Staff: Byron Mason
 Location: SGS/2.4.044 (Lab-Windows)
 
 * Creative Engineering CAD, Lecture - SGS/2.4.024 (Online)
+
   <2024-10-28 Mon 08:30>--<2024-10-28 Mon 10:00>
 OENG1205_SEM3_1297_VNMRI, Lecture, 01_Online
 Creative Engineering CAD
@@ -307,6 +352,7 @@ Staff: Jaronie Mohd Jani
 Location: SGS/2.4.024 (Online)
 
 * Creative Engineering CAD, Lecture - SGS/2.4.024 (Online)
+
   <2024-11-04 Mon 08:30>--<2024-11-04 Mon 10:00>
 OENG1205_SEM3_1297_VNMRI, Lecture, 01_Online
 Creative Engineering CAD
@@ -314,6 +360,7 @@ Staff: Jaronie Mohd Jani
 Location: SGS/2.4.024 (Online)
 
 * Creative Engineering CAD, Lecture - SGS/2.4.024 (Online)
+
   <2024-11-11 Mon 08:30>--<2024-11-11 Mon 10:00>
 OENG1205_SEM3_1297_VNMRI, Lecture, 01_Online
 Creative Engineering CAD
@@ -321,6 +368,7 @@ Staff: Jaronie Mohd Jani
 Location: SGS/2.4.024 (Online)
 
 * Creative Engineering CAD, Lecture - SGS/2.4.024 (Online)
+
   <2024-11-18 Mon 08:30>--<2024-11-18 Mon 10:00>
 OENG1205_SEM3_1297_VNMRI, Lecture, 01_Online
 Creative Engineering CAD
@@ -328,6 +376,7 @@ Staff: Jaronie Mohd Jani
 Location: SGS/2.4.024 (Online)
 
 * Creative Engineering CAD, Lecture - SGS/2.4.024 (Online)
+
   <2024-11-25 Mon 08:30>--<2024-11-25 Mon 10:00>
 OENG1205_SEM3_1297_VNMRI, Lecture, 01_Online
 Creative Engineering CAD
@@ -335,6 +384,7 @@ Staff: Jaronie Mohd Jani
 Location: SGS/2.4.024 (Online)
 
 * Creative Engineering CAD, Lecture - SGS/2.4.024 (Online)
+
   <2024-12-02 Mon 08:30>--<2024-12-02 Mon 10:00>
 OENG1205_SEM3_1297_VNMRI, Lecture, 01_Online
 Creative Engineering CAD
@@ -342,6 +392,7 @@ Staff: Jaronie Mohd Jani
 Location: SGS/2.4.024 (Online)
 
 * Creative Engineering CAD, Lecture - SGS/2.4.024 (Online)
+
   <2024-12-09 Mon 08:30>--<2024-12-09 Mon 10:00>
 OENG1205_SEM3_1297_VNMRI, Lecture, 01_Online
 Creative Engineering CAD
@@ -349,6 +400,7 @@ Staff: Jaronie Mohd Jani
 Location: SGS/2.4.024 (Online)
 
 * Creative Engineering CAD, Lecture - SGS/2.4.024 (Online)
+
   <2024-12-16 Mon 08:30>--<2024-12-16 Mon 10:00>
 OENG1205_SEM3_1297_VNMRI, Lecture, 01_Online
 Creative Engineering CAD
@@ -356,6 +408,7 @@ Staff: Jaronie Mohd Jani
 Location: SGS/2.4.024 (Online)
 
 * Creative Engineering CAD, Lecture - SGS/2.4.024 (Online)
+
   <2024-12-30 Mon 08:30>--<2024-12-30 Mon 10:00>
 OENG1205_SEM3_1297_VNMRI, Lecture, 01_Online
 Creative Engineering CAD
@@ -363,6 +416,7 @@ Staff: Jaronie Mohd Jani
 Location: SGS/2.4.024 (Online)
 
 * Creative Engineering CAD, Lecture - SGS/2.4.024 (Online)
+
   <2025-01-06 Mon 08:30>--<2025-01-06 Mon 10:00>
 OENG1205_SEM3_1297_VNMRI, Lecture, 01_Online
 Creative Engineering CAD
@@ -370,6 +424,7 @@ Staff: Jaronie Mohd Jani
 Location: SGS/2.4.024 (Online)
 
 * Creative Engineering CAD, Lecture - SGS/2.4.024 (Online)
+
   <2025-01-13 Mon 08:30>--<2025-01-13 Mon 10:00>
 OENG1205_SEM3_1297_VNMRI, Lecture, 01_Online
 Creative Engineering CAD
@@ -377,6 +432,7 @@ Staff: Jaronie Mohd Jani
 Location: SGS/2.4.024 (Online)
 
 * Creative Engineering CAD, Tutorial - SGS/2.4.002 (Lab-Windows)
+
   <2024-10-31 Thu 10:30>--<2024-10-31 Thu 12:00>
 OENG1205_SEM3_1297_VNMRI, Tutorial, 03
 Creative Engineering CAD
@@ -384,6 +440,7 @@ Staff: Le Van
 Location: SGS/2.4.002 (Lab-Windows)
 
 * Creative Engineering CAD, Tutorial - SGS/2.4.002 (Lab-Windows)
+
   <2024-11-07 Thu 10:30>--<2024-11-07 Thu 12:00>
 OENG1205_SEM3_1297_VNMRI, Tutorial, 03
 Creative Engineering CAD
@@ -391,6 +448,7 @@ Staff: Le Van
 Location: SGS/2.4.002 (Lab-Windows)
 
 * Creative Engineering CAD, Tutorial - SGS/2.4.002 (Lab-Windows)
+
   <2024-11-14 Thu 10:30>--<2024-11-14 Thu 12:00>
 OENG1205_SEM3_1297_VNMRI, Tutorial, 03
 Creative Engineering CAD
@@ -398,6 +456,7 @@ Staff: Le Van
 Location: SGS/2.4.002 (Lab-Windows)
 
 * Creative Engineering CAD, Tutorial - SGS/2.4.002 (Lab-Windows)
+
   <2024-11-21 Thu 10:30>--<2024-11-21 Thu 12:00>
 OENG1205_SEM3_1297_VNMRI, Tutorial, 03
 Creative Engineering CAD
@@ -405,6 +464,7 @@ Staff: Le Van
 Location: SGS/2.4.002 (Lab-Windows)
 
 * Creative Engineering CAD, Tutorial - SGS/2.4.002 (Lab-Windows)
+
   <2024-11-28 Thu 10:30>--<2024-11-28 Thu 12:00>
 OENG1205_SEM3_1297_VNMRI, Tutorial, 03
 Creative Engineering CAD
@@ -412,6 +472,7 @@ Staff: Le Van
 Location: SGS/2.4.002 (Lab-Windows)
 
 * Creative Engineering CAD, Tutorial - SGS/2.4.002 (Lab-Windows)
+
   <2024-12-05 Thu 10:30>--<2024-12-05 Thu 12:00>
 OENG1205_SEM3_1297_VNMRI, Tutorial, 03
 Creative Engineering CAD
@@ -419,6 +480,7 @@ Staff: Le Van
 Location: SGS/2.4.002 (Lab-Windows)
 
 * Creative Engineering CAD, Tutorial - SGS/2.4.002 (Lab-Windows)
+
   <2024-12-12 Thu 10:30>--<2024-12-12 Thu 12:00>
 OENG1205_SEM3_1297_VNMRI, Tutorial, 03
 Creative Engineering CAD
@@ -426,6 +488,7 @@ Staff: Le Van
 Location: SGS/2.4.002 (Lab-Windows)
 
 * Creative Engineering CAD, Tutorial - SGS/2.4.002 (Lab-Windows)
+
   <2024-12-19 Thu 10:30>--<2024-12-19 Thu 12:00>
 OENG1205_SEM3_1297_VNMRI, Tutorial, 03
 Creative Engineering CAD
@@ -433,6 +496,7 @@ Staff: Le Van
 Location: SGS/2.4.002 (Lab-Windows)
 
 * Creative Engineering CAD, Tutorial - SGS/2.4.002 (Lab-Windows)
+
   <2025-01-02 Thu 10:30>--<2025-01-02 Thu 12:00>
 OENG1205_SEM3_1297_VNMRI, Tutorial, 03
 Creative Engineering CAD
@@ -440,6 +504,7 @@ Staff: Le Van
 Location: SGS/2.4.002 (Lab-Windows)
 
 * Creative Engineering CAD, Tutorial - SGS/2.4.002 (Lab-Windows)
+
   <2025-01-09 Thu 10:30>--<2025-01-09 Thu 12:00>
 OENG1205_SEM3_1297_VNMRI, Tutorial, 03
 Creative Engineering CAD
@@ -447,6 +512,7 @@ Staff: Le Van
 Location: SGS/2.4.002 (Lab-Windows)
 
 * Creative Engineering CAD, Tutorial - SGS/2.4.002 (Lab-Windows)
+
   <2025-01-16 Thu 10:30>--<2025-01-16 Thu 12:00>
 OENG1205_SEM3_1297_VNMRI, Tutorial, 03
 Creative Engineering CAD

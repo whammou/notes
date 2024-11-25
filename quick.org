@@ -142,6 +142,6 @@ DEADLINE: <2024-11-14 Thu 22:00> CLOSED: [2024-11-25 Mon 01:58]
 - *Stumble upon:* [[https://github.com/hrsh7th/nvim-cmp/issues/179][issue@github]]
 - *Goal(s):* config nvim to work with nvim-cmp nvim-supertab
 
-* TODO Buy cigarette :ONEOFF:
-DEADLINE: <2024-11-25 Mon 17:00>
+* DONE Buy cigarette :ONEOFF:
+DEADLINE: <2024-11-25 Mon 17:00> CLOSED: [2024-11-25 Mon 19:53]
 

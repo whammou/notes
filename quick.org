@@ -151,3 +151,6 @@ DEADLINE: <2024-11-14 Thu 22:00> CLOSED: [2024-11-25 Mon 01:58]
 
 - *Goal(s):* config nvim-lspconfig to work with  [[https://github.com/ms-jpq/coq_nvim][coq.nvim@github]]
 - *Stumble upon:*  [[https://neovim.io/doc/user/lsp.html][docs]]  [[https://github.com/neovim/nvim-lspconfig][nvim-lspconfig]]
+
+* Create conflict A
+

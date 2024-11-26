@@ -144,6 +144,7 @@ CLOSED: [2024-11-25 Mon 01:58] DEADLINE: <2024-11-14 Thu 22:00>
 - *Goal(s):* config nvim to work with nvim-cmp nvim-supertab
 
 * English teaching
+SCHEDULED: <2024-11-28 Thu 20:00>
 
 - *Goal(s):* create lesson plan for English teaching
 - tel:[Khánh Vi]
@@ -152,5 +153,4 @@ CLOSED: [2024-11-25 Mon 01:58] DEADLINE: <2024-11-14 Thu 22:00>
 DEADLINE: <2024-11-26 Tue 22:00>
 
 - *Goal(s):* disable preview for dir 
-
 

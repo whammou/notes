@@ -148,8 +148,8 @@ CLOSED: [2024-11-25 Mon 01:58] DEADLINE: <2024-11-14 Thu 22:00>
 - *Goal(s):* create lesson plan for English teaching
 - tel:[Khánh Vi]
 
-* TODO Yazi disable preview :LINUX:
-DEADLINE: <2024-11-26 Tue 22:00>
+* DONE Yazi disable preview :LINUX:
+DEADLINE: <2024-11-26 Tue 22:00> CLOSED: [2024-11-26 Tue 22:32]
 
 - *Goal(s):* disable preview for dir 
 

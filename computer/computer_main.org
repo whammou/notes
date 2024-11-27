@@ -392,9 +392,13 @@ CLOSED: [2024-10-31 Thu 01:38]
 - *Goal(s):* config nvim-lspconfig to work with  [[https://github.com/ms-jpq/coq_nvim][coq.nvim@github]]
 - *Stumble upon:*  [[https://neovim.io/doc/user/lsp.html][docs]]
 
-*** What is LSP
+*** Differences between LSP and code completion
 
-LSP stands for "Language server protocol" and it is standardized information on a language
+Differences between LSP and code-completion, liner
+
+**** What is LSP
+
+LSP stands for "Language server protocol" and it is standardized information on a language include ~code completer~ and ~linter~ role into one. However a LSP run separately from the editor and thus has to be connected to the editor
 
 *** Config LSP for neovim
 

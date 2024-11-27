@@ -88,8 +88,8 @@ CLOSED: [2024-11-07 Thu 06:08]
 - *Stumble upon:* [[https://github.com/duane9/nvim-rg]]
 - *Stumble upon:*  [[https://www.youtube.com/watch?v=loNdGAnKEf8][ripgrep workflow@youtube]]
 
-* TODO [#D] Resupply :ONEOFF:
-DEADLINE: <2024-11-13 Wed 17:00>
+* ABORTED [#D] Resupply :ONEOFF:
+CLOSED: [2024-11-27 Wed 12:04] DEADLINE: <2024-11-13 Wed 17:00>
 
 - [ ] L cystine
 - [ ] Klanzir Adapalene
@@ -150,7 +150,7 @@ SCHEDULED: <2024-11-28 Thu 20:00>
 - tel:[Khánh Vi]
 
 * DONE Yazi disable preview :LINUX:
-DEADLINE: <2024-11-26 Tue 22:00> CLOSED: [2024-11-26 Tue 22:32]
+CLOSED: [2024-11-26 Tue 22:32] DEADLINE: <2024-11-26 Tue 22:00>
 
 - *Goal(s):* disable preview for dir 
 

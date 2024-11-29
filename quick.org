@@ -154,6 +154,7 @@ CLOSED: [2024-11-26 Tue 22:32] DEADLINE: <2024-11-26 Tue 22:00>
 
 - *Goal(s):* disable preview for dir 
 
-*  Markdown link
+* Markdown link
 
 [[markdown headline][routine/cook/prawn_pasta.md#pasta]]
+

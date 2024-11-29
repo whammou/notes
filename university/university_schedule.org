@@ -464,7 +464,8 @@ Creative Engineering CAD
 Staff: Le Van
 Location: SGS/2.4.002 (Lab-Windows)
 
-* Creative Engineering CAD, Tutorial - SGS/2.4.002 (Lab-Windows)
+* DONE Creative Engineering CAD, Tutorial - SGS/2.4.002 (Lab-Windows)
+CLOSED: [2024-11-28 Thu 11:42]
 
   <2024-11-28 Thu 10:30>--<2024-11-28 Thu 12:00>
 OENG1205_SEM3_1297_VNMRI, Tutorial, 03

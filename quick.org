@@ -154,6 +154,17 @@ CLOSED: [2024-11-26 Tue 22:32] DEADLINE: <2024-11-26 Tue 22:00>
 
 - *Goal(s):* disable preview for dir 
 
-*  Markdown link
+* Integrate markdown headline :NVIM:GITHUB:
 
-[[markdown headline][routine/cook/prawn_pasta.md#pasta]]
+- *Goal(s):* create link to a specific headline in a markdown file
+- *Visit:* [[https://github.com/chimay/organ?tab=readme-ov-file][organ@github]]
+
+* Implement nvim image
+
+- *Goal(s):* adding image support to nvim for better documentation render
+- *Stumble upon:*  [[https://github.com/3rd/image.nvim][nvim-imgage@github]]
+
+** Config Kitty
+
+- *Goal(s):* config kitty to replace alacritty (take advantage of kitty image protocol)
+- *Source(s):*  [[https://github.com/kovidgoyal/kitty][kitty@github]]

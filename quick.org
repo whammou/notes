@@ -180,3 +180,7 @@ SCHEDULED: <2024-12-01 Sun 17:00>
 - tel:0812315351
 - /insert bill here/
 
+* Terminal rework :LINUX:
+
+- *Goal:* rework linux terminal
+

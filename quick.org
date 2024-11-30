@@ -143,8 +143,8 @@ CLOSED: [2024-11-25 Mon 01:58] DEADLINE: <2024-11-14 Thu 22:00>
 - *Stumble upon:* [[https://github.com/hrsh7th/nvim-cmp/issues/179][issue@github]]
 - *Goal(s):* config nvim to work with nvim-cmp nvim-supertab
 
-* TODO English teaching
-SCHEDULED: <2024-11-28 Thu 20:00>
+* TODO [#B] English teaching
+SCHEDULED: <2024-12-01 Sun 20:00>
 
 - *Goal(s):* create lesson plan for English teaching
 - tel:[Khánh Vi]
@@ -168,3 +168,11 @@ CLOSED: [2024-11-26 Tue 22:32] DEADLINE: <2024-11-26 Tue 22:00>
 
 - *Goal(s):* config kitty to replace alacritty (take advantage of kitty image protocol)
 - *Source(s):*  [[https://github.com/kovidgoyal/kitty][kitty@github]]
+
+* TODO [#A] Buy drugs :ONEOFF:URGENT:
+SCHEDULED: <2024-12-01 Sun 17:00>
+
+- *Goal:* buy drugs for dad
+- tel:0812315351
+- /insert bill here/
+

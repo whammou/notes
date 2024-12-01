@@ -180,7 +180,7 @@ SCHEDULED: <2024-12-01 Sun 17:00>
 
 - *Goal:* rework linux terminal
 
-* TODO [#A] Resupply :SKINCARE:
+* TODO [#A] Resupply :SKINCARE:ONEOFF:
 SCHEDULED: <2024-12-01 Sun 16:00>
 
 - [ ] Shaving foam

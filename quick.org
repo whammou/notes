@@ -51,7 +51,7 @@ CLOSED: [2024-10-24 Thu 00:04] DEADLINE: <2024-10-23 Wed 19:00>
 - mailto:le.van@rmit.edu.vn
 
 * TODO [#A] Write an appeal :URGENT:
-SCHEDULED: <2024-11-14 Thu 16:00>
+DEADLINE: <2024-12-12 Thu ++1d>
 :PROPERTIES:
 :LAST_REPEAT: [2024-10-29 Tue 23:40]
 :END:

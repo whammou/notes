@@ -143,8 +143,8 @@ CLOSED: [2024-11-25 Mon 01:58] DEADLINE: <2024-11-14 Thu 22:00>
 - *Stumble upon:* [[https://github.com/hrsh7th/nvim-cmp/issues/179][issue@github]]
 - *Goal(s):* config nvim to work with nvim-cmp nvim-supertab
 
-* TODO [#B] English teaching
-SCHEDULED: <2024-12-01 Sun 20:00>
+* DONE [#B] English teaching
+CLOSED: [2024-12-02 Mon 11:59] SCHEDULED: <2024-12-01 Sun 20:00>
 
 - *Goal(s):* create lesson plan for English teaching
 - tel:[Khánh Vi]

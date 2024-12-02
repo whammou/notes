@@ -169,7 +169,7 @@ CLOSED: [2024-11-26 Tue 22:32] DEADLINE: <2024-11-26 Tue 22:00>
 - *Goal(s):* config kitty to replace alacritty (take advantage of kitty image protocol)
 - *Source(s):*  [[https://github.com/kovidgoyal/kitty][kitty@github]]
 
-* TODO [#A] Buy drugs :ONEOFF:URGENT:
+* DOING [#A] Buy drugs :ONEOFF:URGENT:
 SCHEDULED: <2024-12-01 Sun 17:00>
 
 - *Goal:* buy drugs for dad

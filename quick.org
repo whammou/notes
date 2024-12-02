@@ -184,6 +184,10 @@ CLOSED: [2024-12-02 Mon 20:58] SCHEDULED: <2024-12-01 Sun 17:00>
 
 - *Goal(s):* render html syntax image inside markdown
 
+*** Config lazy.nvim
+
+- *Goal(s):* rewrite config init in lua
+
 ** Integrate markdown headline :NVIM:GITHUB:
 
 - *Goal(s):* create link to a specific headline in a markdown file
@@ -195,3 +199,7 @@ CLOSED: [2024-12-02 Mon 20:59] SCHEDULED: <2024-12-01 Sun 16:00>
 - [X] Shaving foam
 - [X] Razor blades x5
 
+
+* Test image
+
+[[assets/lobes.jpg]]

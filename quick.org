@@ -162,7 +162,7 @@ CLOSED: [2024-11-26 Tue 22:32] DEADLINE: <2024-11-26 Tue 22:00>
 SCHEDULED: <2024-12-01 Sun 17:00>
 
 - *Goal:* buy drugs for dad
-- tel:0812315351
+- tel:0812315351 tel:0948264651
 - /insert bill here/
 - *Address:* [[https://www.google.com/maps/place/29%2F3C,+29%2F3+Ho%C3%A0ng+Di%E1%BB%87u,+Ph%C6%B0%E1%BB%9Dng+10,+Ph%C3%BA+Nhu%E1%BA%ADn,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.795681,106.6713981,16z/data=!4m6!3m5!1s0x3175292be44b0197:0xbcb684f29a3bba02!8m2!3d10.795681!4d106.6713981!16s%2Fg%2F11j2vw0vbp?force=pwa&source=mlapk][29/3b Hoàng Diệu, phú nhuận]]
 
@@ -184,6 +184,7 @@ SCHEDULED: <2024-12-01 Sun 17:00>
 
 - *Goal(s):* create link to a specific headline in a markdown file
 - *Visit:* [[https://github.com/chimay/organ?tab=readme-ov-file][organ@github]]
+
 * TODO [#A] Resupply :SKINCARE:ONEOFF:
 SCHEDULED: <2024-12-01 Sun 16:00>
 

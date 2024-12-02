@@ -158,8 +158,8 @@ CLOSED: [2024-11-26 Tue 22:32] DEADLINE: <2024-11-26 Tue 22:00>
 
 - *Goal(s):* learn to write a github wiki page
 
-* DOING [#A] Buy drugs :ONEOFF:URGENT:
-SCHEDULED: <2024-12-01 Sun 17:00>
+* DONE [#A] Buy drugs :ONEOFF:URGENT:
+CLOSED: [2024-12-02 Mon 20:58] SCHEDULED: <2024-12-01 Sun 17:00>
 
 - *Goal:* buy drugs for dad
 - tel:0812315351 tel:0948264651
@@ -185,9 +185,9 @@ SCHEDULED: <2024-12-01 Sun 17:00>
 - *Goal(s):* create link to a specific headline in a markdown file
 - *Visit:* [[https://github.com/chimay/organ?tab=readme-ov-file][organ@github]]
 
-* TODO [#A] Resupply :SKINCARE:ONEOFF:
-SCHEDULED: <2024-12-01 Sun 16:00>
+* DONE [#A] Resupply :SKINCARE:ONEOFF:
+CLOSED: [2024-12-02 Mon 20:59] SCHEDULED: <2024-12-01 Sun 16:00>
 
-- [ ] Shaving foam
-- [ ] Razor blades x5
+- [X] Shaving foam
+- [X] Razor blades x5
 

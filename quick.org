@@ -154,21 +154,6 @@ CLOSED: [2024-11-26 Tue 22:32] DEADLINE: <2024-11-26 Tue 22:00>
 
 - *Goal(s):* disable preview for dir 
 
-* Integrate markdown headline :NVIM:GITHUB:
-
-- *Goal(s):* create link to a specific headline in a markdown file
-- *Visit:* [[https://github.com/chimay/organ?tab=readme-ov-file][organ@github]]
-
-* TODO Implement nvim image :NVIM:
-
-- *Goal(s):* adding image support to nvim for better documentation render
-- *Stumble upon:*  [[https://github.com/3rd/image.nvim][nvim-imgage@github]]
-
-** Config Kitty
-
-- *Goal(s):* config kitty to replace alacritty (take advantage of kitty image protocol)
-- *Source(s):*  [[https://github.com/kovidgoyal/kitty][kitty@github]]
-
 * TODO Github wiki :GITHUB:
 
 - *Goal(s):* learn to write a github wiki page
@@ -183,4 +168,19 @@ SCHEDULED: <2024-12-01 Sun 17:00>
 * Terminal rework :LINUX:
 
 - *Goal:* rework linux terminal
+
+** TODO Implement nvim image :NVIM:
+
+- *Goal(s):* adding image support to nvim for better documentation render
+- *Stumble upon:*  [[https://github.com/3rd/image.nvim][nvim-imgage@github]]
+
+*** Config Kitty
+
+- *Goal(s):* config kitty to replace alacritty (take advantage of kitty image protocol)
+- *Source(s):*  [[https://github.com/kovidgoyal/kitty][kitty@github]]
+
+** Integrate markdown headline :NVIM:GITHUB:
+
+- *Goal(s):* create link to a specific headline in a markdown file
+- *Visit:* [[https://github.com/chimay/organ?tab=readme-ov-file][organ@github]]
 

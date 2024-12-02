@@ -180,10 +180,15 @@ SCHEDULED: <2024-12-01 Sun 17:00>
 - *Goal(s):* config kitty to replace alacritty (take advantage of kitty image protocol)
 - *Source(s):*  [[https://github.com/kovidgoyal/kitty][kitty@github]]
 
+*** Render html in markdown
+
+- *Goal(s):* render html syntax image inside markdown
+
 ** Integrate markdown headline :NVIM:GITHUB:
 
 - *Goal(s):* create link to a specific headline in a markdown file
 - *Visit:* [[https://github.com/chimay/organ?tab=readme-ov-file][organ@github]]
+
 * TODO [#A] Resupply :SKINCARE:ONEOFF:
 SCHEDULED: <2024-12-01 Sun 16:00>
 

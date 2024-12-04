@@ -241,7 +241,7 @@ Buy:
   - [ ] Rau ôm
   - [ ] Rau ngổ
 
-* DOING Adding extra meal :RECURRING:
+* PENDING Adding extra meal :RECURRING:
 
 - *Goal:* adding one extra meal per day
 

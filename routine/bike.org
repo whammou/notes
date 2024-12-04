@@ -22,7 +22,7 @@ CLOSED: [2024-11-07 Thu 06:04]
 - < 3.7mm, freeway might be flooded
 - > 3.6mm is ideal for a bike ride
 
-**** TODO Rain amount
+**** PENDING Rain amount
 
 - *Goal:* log ideal percipitation status
 
@@ -30,7 +30,7 @@ CLOSED: [2024-11-07 Thu 06:04]
 
 Collection of classical bikes and manuals (tips and tricks included)
 
-*** TODO Learn about classic motorbike
+*** PENDING Learn about classic motorbike
 
 - *Goal(s):* Learn to maintain and operate classic motorcycle 
 

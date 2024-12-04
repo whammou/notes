@@ -426,6 +426,7 @@ DEADLINE: <2024-12-04 Wed 07:00>
   - [ ] kitty 
   - [ ] fastfetch
   - [ ] fish
+  - [ ] starship shell
 
 
 **** DONE Render html in markdown

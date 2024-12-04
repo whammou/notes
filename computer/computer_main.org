@@ -419,14 +419,14 @@ LSP stands for "Language server protocol" and it is standardized information on 
 - *Source(s):*  [[https://github.com/kovidgoyal/kitty][kitty@github]]
 
 
-***** TODO Terminal colors
-DEADLINE: <2024-12-04 Wed 07:00>
+***** DONE Terminal colors
+DEADLINE: <2024-12-04 Wed 07:00> CLOSED: [2024-12-04 Wed 19:37]
 
 - *Goal(s):* update terminal colors mappings
-  - [ ] kitty 
-  - [ ] fastfetch
-  - [ ] fish
-  - [ ] starship shell
+  - [X] kitty 
+  - [X] fastfetch
+  - [X] fish
+  - [X] starship shell
 
 
 **** DONE Render html in markdown

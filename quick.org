@@ -198,8 +198,3 @@ CLOSED: [2024-12-02 Mon 20:59] SCHEDULED: <2024-12-01 Sun 16:00>
 
 - [X] Shaving foam
 - [X] Razor blades x5
-
-
-* Test image
-
-[[assets/lobes.jpg]]

@@ -418,7 +418,6 @@ LSP stands for "Language server protocol" and it is standardized information on 
 - *Goal(s):* config kitty to replace alacritty (take advantage of kitty image protocol)
 - *Source(s):*  [[https://github.com/kovidgoyal/kitty][kitty@github]]
 
-
 ***** TODO Terminal colors
 DEADLINE: <2024-12-04 Wed 07:00>
 
@@ -426,7 +425,6 @@ DEADLINE: <2024-12-04 Wed 07:00>
   - [ ] kitty 
   - [ ] fastfetch
   - [ ] fish
-
 
 **** DONE Render html in markdown
 CLOSED: [2024-12-04 Wed 15:16]

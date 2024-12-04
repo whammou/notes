@@ -404,3 +404,42 @@ LSP stands for "Language server protocol" and it is standardized information on 
 
 - *Visit:* [[https://github.com/neovim/nvim-lspconfig][nvim-lspconfig@github]]
 
+** DOING Terminal rework :COMPUTER:LINUX:
+
+- *Goal:* rework linux terminal
+
+*** DOING Implement nvim image :COMPUTER:LINUX:NVIM:
+
+- *Goal(s):* adding image support to nvim for better documentation render
+- *Stumble upon:*  [[https://github.com/3rd/image.nvim][nvim-imgage@github]]
+
+**** Config Kitty
+
+- *Goal(s):* config kitty to replace alacritty (take advantage of kitty image protocol)
+- *Source(s):*  [[https://github.com/kovidgoyal/kitty][kitty@github]]
+
+
+***** TODO Terminal colors
+DEADLINE: <2024-12-04 Wed 07:00>
+
+- *Goal(s):* update terminal colors mappings
+  - [ ] kitty 
+  - [ ] fastfetch
+  - [ ] fish
+
+
+**** DONE Render html in markdown
+CLOSED: [2024-12-04 Wed 15:16]
+
+- *Goal(s):* render html syntax image inside markdown
+
+**** ABORTED Config lazy.nvim
+CLOSED: [2024-12-04 Wed 15:16]
+
+- *Goal(s):* rewrite config init in lua
+
+*** TODO Integrate markdown headline :COMPUTER:LINUX:NVIM:GITHUB:
+
+- *Goal(s):* create link to a specific headline in a markdown file
+- *Visit:* [[https://github.com/chimay/organ?tab=readme-ov-file][organ@github]]
+

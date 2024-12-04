@@ -132,7 +132,7 @@ CLOSED: [2024-11-13 Wed 15:10] DEADLINE: <2024-11-09 Sat 20:00>
 - *Goal:* confirm test date and access to recorded lessions
 - mailto:jaronie.mohdjani@rmit.edu.vn
 
-* DONE Config lazy.nvim :NVIM:
+* ABORTED Config lazy.nvim :NVIM:
 CLOSED: [2024-11-25 Mon 01:58] DEADLINE: <2024-11-14 Thu 22:00>
 
 - *Goal(s):* replace Vundle with lazy.nvim
@@ -166,42 +166,11 @@ CLOSED: [2024-12-02 Mon 20:58] SCHEDULED: <2024-12-01 Sun 17:00>
 - /insert bill here/
 - *Address:* [[https://www.google.com/maps/place/29%2F3C,+29%2F3+Ho%C3%A0ng+Di%E1%BB%87u,+Ph%C6%B0%E1%BB%9Dng+10,+Ph%C3%BA+Nhu%E1%BA%ADn,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.795681,106.6713981,16z/data=!4m6!3m5!1s0x3175292be44b0197:0xbcb684f29a3bba02!8m2!3d10.795681!4d106.6713981!16s%2Fg%2F11j2vw0vbp?force=pwa&source=mlapk][29/3b Hoàng Diệu, phú nhuận]]
 
-* Terminal rework :LINUX:
-
-- *Goal:* rework linux terminal
-
-** TODO Implement nvim image :NVIM:
-
-- *Goal(s):* adding image support to nvim for better documentation render
-- *Stumble upon:*  [[https://github.com/3rd/image.nvim][nvim-imgage@github]]
-
-*** Config Kitty
-
-- *Goal(s):* config kitty to replace alacritty (take advantage of kitty image protocol)
-- *Source(s):*  [[https://github.com/kovidgoyal/kitty][kitty@github]]
-
-*** Render html in markdown
-
-- *Goal(s):* render html syntax image inside markdown
-
-*** Config lazy.nvim
-
-- *Goal(s):* rewrite config init in lua
-
-** Integrate markdown headline :NVIM:GITHUB:
-
-- *Goal(s):* create link to a specific headline in a markdown file
-- *Visit:* [[https://github.com/chimay/organ?tab=readme-ov-file][organ@github]]
-
 * DONE [#A] Resupply :SKINCARE:ONEOFF:
 CLOSED: [2024-12-02 Mon 20:59] SCHEDULED: <2024-12-01 Sun 16:00>
 
 - [X] Shaving foam
 - [X] Razor blades x5
-
-* Test image
-
-[[assets/lobes.jpg]]
 
 * TODO Buy cotton :ONEOFF:
 SCHEDULED: <2024-12-04 Wed 22:00>

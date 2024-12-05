@@ -408,7 +408,8 @@ LSP stands for "Language server protocol" and it is standardized information on 
 
 - *Goal:* rework linux terminal
 
-*** DOING Implement nvim image :COMPUTER:LINUX:NVIM:
+*** DONE Implement nvim image :COMPUTER:LINUX:NVIM:
+CLOSED: [2024-12-05 Thu 01:48]
 
 - *Goal(s):* adding image support to nvim for better documentation render
 - *Stumble upon:*  [[https://github.com/3rd/image.nvim][nvim-imgage@github]]
@@ -443,4 +444,3 @@ CLOSED: [2024-12-04 Wed 15:16]
 
 - *Goal(s):* create link to a specific headline in a markdown file
 - *Visit:* [[https://github.com/chimay/organ?tab=readme-ov-file][organ@github]]
-

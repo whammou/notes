@@ -429,7 +429,6 @@ DEADLINE: <2024-12-04 Wed 07:00> CLOSED: [2024-12-04 Wed 19:37]
   - [X] fish
   - [X] starship shell
 
-
 **** DONE Render html in markdown
 CLOSED: [2024-12-04 Wed 15:16]
 

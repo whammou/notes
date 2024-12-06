@@ -419,9 +419,8 @@ CLOSED: [2024-12-05 Thu 01:48]
 - *Goal(s):* config kitty to replace alacritty (take advantage of kitty image protocol)
 - *Source(s):*  [[https://github.com/kovidgoyal/kitty][kitty@github]]
 
-
 ***** DONE Terminal colors
-DEADLINE: <2024-12-04 Wed 07:00> CLOSED: [2024-12-04 Wed 19:37]
+CLOSED: [2024-12-04 Wed 19:37] DEADLINE: <2024-12-04 Wed 07:00>
 
 - *Goal(s):* update terminal colors mappings
   - [X] kitty 
@@ -443,3 +442,4 @@ CLOSED: [2024-12-04 Wed 15:16]
 
 - *Goal(s):* create link to a specific headline in a markdown file
 - *Visit:* [[https://github.com/chimay/organ?tab=readme-ov-file][organ@github]]
+

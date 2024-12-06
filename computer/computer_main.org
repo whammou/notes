@@ -404,7 +404,8 @@ LSP stands for "Language server protocol" and it is standardized information on 
 
 - *Visit:* [[https://github.com/neovim/nvim-lspconfig][nvim-lspconfig@github]]
 
-** DOING Terminal rework :COMPUTER:LINUX:
+** DONE Terminal rework :COMPUTER:LINUX:
+CLOSED: [2024-12-06 Fri 20:56]
 
 - *Goal:* rework linux terminal
 
@@ -438,7 +439,8 @@ CLOSED: [2024-12-04 Wed 15:16]
 
 - *Goal(s):* rewrite config init in lua
 
-*** TODO Integrate markdown headline :COMPUTER:LINUX:NVIM:GITHUB:
+*** DONE Integrate markdown headline :COMPUTER:LINUX:NVIM:GITHUB:
+CLOSED: [2024-12-06 Fri 20:55]
 
 - *Goal(s):* create link to a specific headline in a markdown file
 - *Visit:* [[https://github.com/chimay/organ?tab=readme-ov-file][organ@github]]

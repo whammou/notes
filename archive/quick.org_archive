@@ -363,4 +363,78 @@ CLOSED: [2024-11-13 Wed 15:10] DEADLINE: <2024-11-09 Sat 17:00 -1h>
 :END:
 
 - *Goal:* dine with Hans family
+* TODO Buy cotton :ONEOFF:
+SCHEDULED: <2024-12-06 Fri 22:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-12-07 Sat 19:04
+:ARCHIVE_FILE: /home/whammou/notes/quick.org
+:ARCHIVE_CATEGORY: quick
+:ARCHIVE_TODO: TODO
+:END:
+* DONE [#C] Report installatiom error :COMPUTER:
+CLOSED: [2024-10-24 Thu 00:04] DEADLINE: <2024-10-23 Wed 19:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-12-07 Sat 19:05
+:ARCHIVE_FILE: /home/whammou/notes/quick.org
+:ARCHIVE_CATEGORY: quick
+:ARCHIVE_TODO: DONE
+:END:
+
+- *Goal:* report faulty provided solidworks serial numbers
+- mailto:le.van@rmit.edu.vn
+* DONE AC maintenance :ONEOFF:
+CLOSED: [2024-11-14 Thu 20:19] SCHEDULED: <2024-11-13 Wed 14:00-18:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-12-07 Sat 19:05
+:ARCHIVE_FILE: /home/whammou/notes/quick.org
+:ARCHIVE_CATEGORY: quick
+:ARCHIVE_TODO: DONE
+:END:
+
+- *Goal:* check AC
+- tel:0907300898
+* DONE [#B] Start server :COMPUTER:ONEOFF:
+CLOSED: [2024-11-08 Fri 16:33] DEADLINE: <2024-11-08 Fri 15:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-12-07 Sat 19:05
+:ARCHIVE_FILE: /home/whammou/notes/quick.org
+:ARCHIVE_CATEGORY: quick
+:ARCHIVE_TODO: DONE
+:END:
+
+- *Goal:* start server and get ip
+* DONE [#A] CMND :ONEOFF:
+CLOSED: [2024-11-07 Thu 19:40] DEADLINE: <2024-11-07 Thu 18:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-12-07 Sat 19:06
+:ARCHIVE_FILE: /home/whammou/notes/quick.org
+:ARCHIVE_CATEGORY: quick
+:ARCHIVE_TODO: DONE
+:END:
+
+- *Goal:* deliver cmnd for dad
+* DONE [#A] Buy drugs :ONEOFF:URGENT:
+CLOSED: [2024-12-02 Mon 20:58] SCHEDULED: <2024-12-01 Sun 17:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-12-07 Sat 19:06
+:ARCHIVE_FILE: /home/whammou/notes/quick.org
+:ARCHIVE_CATEGORY: quick
+:ARCHIVE_TODO: DONE
+:END:
+
+- *Goal:* buy drugs for dad
+- tel:0812315351 tel:0948264651
+- /insert bill here/
+- *Address:* [[https://www.google.com/maps/place/29%2F3C,+29%2F3+Ho%C3%A0ng+Di%E1%BB%87u,+Ph%C6%B0%E1%BB%9Dng+10,+Ph%C3%BA+Nhu%E1%BA%ADn,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.795681,106.6713981,16z/data=!4m6!3m5!1s0x3175292be44b0197:0xbcb684f29a3bba02!8m2!3d10.795681!4d106.6713981!16s%2Fg%2F11j2vw0vbp?force=pwa&source=mlapk][29/3b Hoàng Diệu, phú nhuận]]
+* DONE [#A] Resupply :SKINCARE:ONEOFF:
+CLOSED: [2024-12-02 Mon 20:59] SCHEDULED: <2024-12-01 Sun 16:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-12-07 Sat 19:06
+:ARCHIVE_FILE: /home/whammou/notes/quick.org
+:ARCHIVE_CATEGORY: quick
+:ARCHIVE_TODO: DONE
+:END:
+
+- [X] Shaving foam
+- [X] Razor blades x5
 

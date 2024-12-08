@@ -172,6 +172,6 @@ CLOSED: [2024-12-02 Mon 20:59] SCHEDULED: <2024-12-01 Sun 16:00>
 - [X] Shaving foam
 - [X] Razor blades x5
 
-* TODO Buy cotton :ONEOFF:
-SCHEDULED: <2024-12-06 Fri 22:00>
+* DONE Buy cotton :ONEOFF:
+CLOSED: [2024-12-07 Sat 02:00] SCHEDULED: <2024-12-06 Fri 22:00>
 

@@ -44,14 +44,8 @@ DEADLINE: <2024-11-13 Wed 23:59>
 
 - *Visit:*  [[https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Frmiteduau-my.sharepoint.com%2F%3Au%3A%2Fg%2Fpersonal%2Fthien_huynhduc_rmit_edu_vn%2FESiPJm0wXQhAlnhsfdgbn6QBCMjBduoaNSUTNBzFEqSW7A%3Fe%3DjOCtl2&data=04%7C01%7Ctrung.nguyenchi%40rmit.edu.vn%7C51d68fe20c164e930e9c08d92f05e9fc%7Cd1323671cdbe4417b4d4bdb24b51316b%7C0%7C0%7C637592524757725572%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=e4cyNRgH7y3LxKjOhUrtL8BoT65ySKYr8DF4SBU2%2Fq8%3D&reserved=0][solidworks]]
 
-** DONE [#C] Report installatiom error :COMPUTER:
-CLOSED: [2024-10-24 Thu 00:04] DEADLINE: <2024-10-23 Wed 19:00>
-
-- *Goal:* report faulty provided solidworks serial numbers
-- mailto:le.van@rmit.edu.vn
-
 * TODO [#A] Write an appeal :URGENT:
-DEADLINE: <2024-12-12 Thu ++1d>
+DEADLINE: <2024-12-12 Thu ++1d> SCHEDULED: <2024-12-12 Thu ++1d -1w>
 :PROPERTIES:
 :LAST_REPEAT: [2024-10-29 Tue 23:40]
 :END:
@@ -94,11 +88,6 @@ CLOSED: [2024-11-27 Wed 12:04] DEADLINE: <2024-11-13 Wed 17:00>
 - [ ] L cystine
 - [ ] Klanzir Adapalene
 
-* DONE Venom :ONEOFF:DATING:
-CLOSED: [2024-11-03 Sun 04:56] DEADLINE: <2024-11-02 Sat 20:00>
-
-- *Visit:*  [[https://moveek.com/thong-tin-ve/6ce2f3f7-f409-47b1-bfb9-15c9c1f972a0?partnerCode=MOMO9GPK20190102&orderId=NVXEVRZ&requestId=3a7e7c7e-2c6a-45f7-bbc8-84dea8865fb0&amount=147000&orderInfo=Mua+v%C3%A9+r%E1%BA%A1p+Mega+GS+L%C3%BD+Ch%C3%ADnh+Th%E1%BA%AFng+t%E1%BA%A1i+Moveek.com+-+Gi%C3%A1+tr%E1%BB%8B+%C4%91%C6%A1n+h%C3%A0ng%3A+147%2C000+VND&orderType=momo_wallet&transId=70425598269&resultCode=0&message=Th%C3%A0nh+c%C3%B4ng.&payType=webApp&responseTime=1730549890872&extraData=&signature=00b38df2fa1761e5a9396df7767b4a7dad565c171328d9344b4d50b4bef089b9][ticket]]  [[https://www.google.com/maps/place/Mega+GS+Cinemas+Ly+Chinh+Thang,+212+L%C3%BD+Ch%C3%ADnh+Th%E1%BA%AFng,+Ph%C6%B0%E1%BB%9Dng+9,+Qu%E1%BA%ADn+3,+H%E1%BB%93+Ch%C3%AD+Minh+72414,+Vietnam/@10.780639,106.6824183,17z/data=!4m6!3m5!1s0x31752f8a1bb2e59f:0x46d2bcd3e7bff8a!8m2!3d10.780639!4d106.6824183!16s%2Fg%2F11cp5ykdlp?force=pwa&source=mlapk][map]]
-
 * ABORTED Added nvim images :NVIM:
 CLOSED: [2024-11-05 Tue 19:44]
 
@@ -109,22 +98,6 @@ CLOSED: [2024-11-05 Tue 19:44]
 
 - *Goal(s):* run automatic git sync on ~server~
 - *Stumble upon:* [[https://www.worthe-it.co.za/blog/2016-08-13-automated-syncing-with-git.html][git-sync-systemd]]
-
-* DONE [#A] CMND :ONEOFF:
-CLOSED: [2024-11-07 Thu 19:40] DEADLINE: <2024-11-07 Thu 18:00>
-
-- *Goal:* deliver cmnd for dad
-
-* DONE AC maintenance :ONEOFF:
-CLOSED: [2024-11-14 Thu 20:19] SCHEDULED: <2024-11-13 Wed 14:00-18:00>
-
-- *Goal:* check AC
-- tel:0907300898
-
-* DONE [#B] Start server :COMPUTER:ONEOFF:
-CLOSED: [2024-11-08 Fri 16:33] DEADLINE: <2024-11-08 Fri 15:00>
-
-- *Goal:* start server and get ip
 
 * ABORTED [#A] Question on Asgm1 :URGENT:ONEOFF:
 CLOSED: [2024-11-13 Wed 15:10] DEADLINE: <2024-11-09 Sat 20:00>
@@ -158,20 +131,7 @@ CLOSED: [2024-11-26 Tue 22:32] DEADLINE: <2024-11-26 Tue 22:00>
 
 - *Goal(s):* learn to write a github wiki page
 
-* DONE [#A] Buy drugs :ONEOFF:URGENT:
-CLOSED: [2024-12-02 Mon 20:58] SCHEDULED: <2024-12-01 Sun 17:00>
+* Initialize CAD team project
 
-- *Goal:* buy drugs for dad
-- tel:0812315351 tel:0948264651
-- /insert bill here/
-- *Address:* [[https://www.google.com/maps/place/29%2F3C,+29%2F3+Ho%C3%A0ng+Di%E1%BB%87u,+Ph%C6%B0%E1%BB%9Dng+10,+Ph%C3%BA+Nhu%E1%BA%ADn,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.795681,106.6713981,16z/data=!4m6!3m5!1s0x3175292be44b0197:0xbcb684f29a3bba02!8m2!3d10.795681!4d106.6713981!16s%2Fg%2F11j2vw0vbp?force=pwa&source=mlapk][29/3b Hoàng Diệu, phú nhuận]]
-
-* DONE [#A] Resupply :SKINCARE:ONEOFF:
-CLOSED: [2024-12-02 Mon 20:59] SCHEDULED: <2024-12-01 Sun 16:00>
-
-- [X] Shaving foam
-- [X] Razor blades x5
-
-* DONE Buy cotton :ONEOFF:
-CLOSED: [2024-12-07 Sat 02:00] SCHEDULED: <2024-12-06 Fri 22:00>
+- *Goal(s):* Initialize team project at dir [[./design/EEET2603/project]]
 

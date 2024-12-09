@@ -47,7 +47,8 @@ Intro to Elec & Electronic Eng
 Staff: Minh Bui
 Location: SGS/1.2.029 (Online)
 
-* Intro to Elec & Electronic Eng, Lecture - SGS/1.2.029 (Online)
+* DONE Intro to Elec & Electronic Eng, Lecture - SGS/1.2.029 (Online)
+CLOSED: [2024-12-09 Mon 11:59]
 
   <2024-12-09 Mon 10:30>--<2024-12-09 Mon 12:00>
 EEET2603_SEM3_1114_VNMRI, Lecture, 01_Online
@@ -395,7 +396,8 @@ Creative Engineering CAD
 Staff: Jaronie Mohd Jani
 Location: SGS/2.4.024 (Online)
 
-* Creative Engineering CAD, Lecture - SGS/2.4.024 (Online)
+* DONE Creative Engineering CAD, Lecture - SGS/2.4.024 (Online)
+CLOSED: [2024-12-09 Mon 09:41]
 
   <2024-12-09 Mon 08:30>--<2024-12-09 Mon 10:00>
 OENG1205_SEM3_1297_VNMRI, Lecture, 01_Online

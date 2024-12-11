@@ -134,3 +134,4 @@ CLOSED: [2024-11-26 Tue 22:32] DEADLINE: <2024-11-26 Tue 22:00>
 * Initialize CAD team project
 
 - *Goal(s):* Initialize team project at dir [[./design/EEET2603/project]]
+

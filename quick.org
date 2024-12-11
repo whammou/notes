@@ -134,3 +134,13 @@ CLOSED: [2024-11-26 Tue 22:32] DEADLINE: <2024-11-26 Tue 22:00>
 * Initialize CAD team project
 
 - *Goal(s):* Initialize team project at dir [[./design/EEET2603/project]]
+
+* TODO Presentation recording :UNIVERSITY:
+SCHEDULED: <2024-12-13 Fri 12:00>
+
+- *Goal(s):* team recording for presentation
+
+** TODO Slide completion
+SCHEDULED: <2024-12-12 Thu 18:00>
+
+- *Goal(s):* finish [[material and part][https://www.canva.com/design/DAGY_tou_ok/L97rVvYAuHnefMwwlLyMIw/edit]]

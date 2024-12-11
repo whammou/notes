@@ -139,7 +139,8 @@ Intro to Elec & Electronic Eng
 Staff: Tung Nguyen
 Location: SGS/8.1.002 (Lab-Specialised)
 
-* Intro to Elec & Electronic Eng, Tutorial - SGS/8.1.002 (Lab-Specialised)
+* DONE Intro to Elec & Electronic Eng, Tutorial - SGS/8.1.002 (Lab-Specialised)
+CLOSED: [2024-12-11 Wed 15:58]
 
   <2024-12-11 Wed 12:30>--<2024-12-11 Wed 14:00>
 EEET2603_SEM3_1114_VNMRI, Tutorial, 02

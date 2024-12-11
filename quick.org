@@ -144,3 +144,7 @@ SCHEDULED: <2024-12-13 Fri 12:00>
 SCHEDULED: <2024-12-12 Thu 18:00>
 
 - *Goal(s):* finish [[material and part][https://www.canva.com/design/DAGY_tou_ok/L97rVvYAuHnefMwwlLyMIw/edit]]
+
+* TODO Catapult technical calculation :UNIVERSITY:
+
+- *Goal(s):* calculate ~output~ and spring ~k constant~

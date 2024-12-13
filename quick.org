@@ -135,8 +135,8 @@ CLOSED: [2024-11-26 Tue 22:32] DEADLINE: <2024-11-26 Tue 22:00>
 
 - *Goal(s):* Initialize team project at dir [[./design/EEET2603/project]]
 
-* TODO Presentation recording :UNIVERSITY:
-SCHEDULED: <2024-12-13 Fri 12:00>
+* ABORTED Presentation recording :UNIVERSITY:
+CLOSED: [2024-12-13 Fri 18:56] SCHEDULED: <2024-12-13 Fri 12:00>
 
 - *Goal(s):* team recording for presentation
 

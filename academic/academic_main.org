@@ -7,3 +7,4 @@ Notebook to keep record of read articles or leant skillets related to academic t
 ** Note-taking
 
 - *Goal(s):* learn effective note-taking method form lecture slides
+

@@ -237,14 +237,6 @@ Cooking phase
 Grocery plan for easy meal-prepping 
 - [ ] Tin foils
 
-**** ABORTED [#A] Short trip :ONEOFF:
-CLOSED: [2024-10-10 Thu 19:46] SCHEDULED: <2024-10-12 Sat 17:00>
-
-Buy:
-  - [ ] Ngò gai
-  - [ ] Rau ôm
-  - [ ] Rau ngổ
-
 * PENDING Adding extra meal :RECURRING:
 
 - *Goal:* adding one extra meal per day

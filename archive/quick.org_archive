@@ -437,4 +437,141 @@ CLOSED: [2024-12-02 Mon 20:59] SCHEDULED: <2024-12-01 Sun 16:00>
 
 - [X] Shaving foam
 - [X] Razor blades x5
+* ABORTED [#A] Question on Asgm1 :URGENT:ONEOFF:
+CLOSED: [2024-11-13 Wed 15:10] DEADLINE: <2024-11-09 Sat 20:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-12-14 Sat 11:10
+:ARCHIVE_FILE: /home/whammou/notes/quick.org
+:ARCHIVE_CATEGORY: quick
+:ARCHIVE_TODO: ABORTED
+:END:
+
+- *Goal:* confirm test date and access to recorded lessions
+- mailto:jaronie.mohdjani@rmit.edu.vn
+* ABORTED Catapult technical calculation :UNIVERSITY:
+CLOSED: [2024-12-14 Sat 11:09]
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-12-14 Sat 11:11
+:ARCHIVE_FILE: /home/whammou/notes/quick.org
+:ARCHIVE_OLPATH: Presentation recording/Slide completion
+:ARCHIVE_CATEGORY: quick
+:ARCHIVE_TODO: ABORTED
+:END:
+
+- *Goal(s):* calculate ~output~ and spring ~k constant~
+* ABORTED Slide completion
+CLOSED: [2024-12-13 Fri 18:56] SCHEDULED: <2024-12-12 Thu 18:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-12-14 Sat 11:11
+:ARCHIVE_FILE: /home/whammou/notes/quick.org
+:ARCHIVE_OLPATH: Presentation recording
+:ARCHIVE_CATEGORY: quick
+:ARCHIVE_TODO: ABORTED
+:END:
+
+- *Goal(s):* finish [[https://www.canva.com/design/DAGY_tou_ok/L97rVvYAuHnefMwwlLyMIw/edit][material & part slidea]]
+* ABORTED Presentation recording :UNIVERSITY:
+CLOSED: [2024-12-13 Fri 18:56] SCHEDULED: <2024-12-13 Fri 12:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-12-14 Sat 11:11
+:ARCHIVE_FILE: /home/whammou/notes/quick.org
+:ARCHIVE_OLPATH: Initialize CAD team project
+:ARCHIVE_CATEGORY: quick
+:ARCHIVE_TODO: ABORTED
+:END:
+
+- *Goal(s):* team recording for presentation
+* ABORTED Config lazy.nvim :NVIM:
+CLOSED: [2024-11-25 Mon 01:58] DEADLINE: <2024-11-14 Thu 22:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-12-14 Sat 11:11
+:ARCHIVE_FILE: /home/whammou/notes/quick.org
+:ARCHIVE_CATEGORY: quick
+:ARCHIVE_TODO: ABORTED
+:END:
+
+- *Goal(s):* replace Vundle with lazy.nvim
+- *Visit:* [[https://github.com/folke/lazy.nvim][lazy.nvim@github]]
+* ABORTED Added nvim images :NVIM:
+CLOSED: [2024-11-05 Tue 19:44]
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-12-14 Sat 11:11
+:ARCHIVE_FILE: /home/whammou/notes/quick.org
+:ARCHIVE_CATEGORY: quick
+:ARCHIVE_TODO: ABORTED
+:END:
+
+- *Goal(s):* Add image render to nvim
+- *Stumble upon:* [[https://github.com/3rd/image.nvim][images.nvim@github]]
+* ABORTED [#D] Resupply :ONEOFF:
+CLOSED: [2024-11-27 Wed 12:04] DEADLINE: <2024-11-13 Wed 17:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-12-14 Sat 11:11
+:ARCHIVE_FILE: /home/whammou/notes/quick.org
+:ARCHIVE_CATEGORY: quick
+:ARCHIVE_TODO: ABORTED
+:END:
+
+- [ ] L cystine
+- [ ] Klanzir Adapalene
+* ABORTED Change class schedule :ONEOFF:
+CLOSED: [2024-11-05 Tue 19:45] DEADLINE: <2024-10-31 Thu 23:59>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-12-14 Sat 11:12
+:ARCHIVE_FILE: /home/whammou/notes/quick.org
+:ARCHIVE_CATEGORY: quick
+:ARCHIVE_TODO: ABORTED
+:END:
+
+- *Goal:* change lab to 10:30 am
+* ABORTED Lunar Calendar :ONEOFF:
+CLOSED: [2024-11-07 Thu 06:08]
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-12-14 Sat 11:12
+:ARCHIVE_FILE: /home/whammou/notes/quick.org
+:ARCHIVE_CATEGORY: quick
+:ARCHIVE_TODO: ABORTED
+:END:
+
+- *Goal:* keep track of lunar cal w orgmode
+* ABORTED [#D] Download Solidworks :COMPUTER:ONEOFF:
+CLOSED: [2024-12-13 Fri 18:56] DEADLINE: <2024-11-13 Wed 23:59>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-12-14 Sat 11:12
+:ARCHIVE_FILE: /home/whammou/notes/quick.org
+:ARCHIVE_CATEGORY: quick
+:ARCHIVE_TODO: ABORTED
+:END:
+
+- *Visit:*  [[https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Frmiteduau-my.sharepoint.com%2F%3Au%3A%2Fg%2Fpersonal%2Fthien_huynhduc_rmit_edu_vn%2FESiPJm0wXQhAlnhsfdgbn6QBCMjBduoaNSUTNBzFEqSW7A%3Fe%3DjOCtl2&data=04%7C01%7Ctrung.nguyenchi%40rmit.edu.vn%7C51d68fe20c164e930e9c08d92f05e9fc%7Cd1323671cdbe4417b4d4bdb24b51316b%7C0%7C0%7C637592524757725572%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=e4cyNRgH7y3LxKjOhUrtL8BoT65ySKYr8DF4SBU2%2Fq8%3D&reserved=0][solidworks]]
+* DONE Initiate Creative CAD course
+CLOSED: [2024-11-02 Sat 07:33] SCHEDULED: <2024-10-31 Thu 17:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-12-14 Sat 11:13
+:ARCHIVE_FILE: /home/whammou/notes/quick.org
+:ARCHIVE_CATEGORY: quick
+:ARCHIVE_TODO: DONE
+:END:
+
+- *Goal(s):* create a repo for the new course
+* DONE Create university schedule
+CLOSED: [2024-11-07 Thu 04:49] SCHEDULED: <2024-10-31 Thu 18:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-12-14 Sat 11:14
+:ARCHIVE_FILE: /home/whammou/notes/quick.org
+:ARCHIVE_CATEGORY: quick
+:ARCHIVE_TODO: DONE
+:END:
+
+- *Goal(s):* create schedule for university/courses
+* DONE Yazi disable preview :LINUX:
+CLOSED: [2024-11-26 Tue 22:32] DEADLINE: <2024-11-26 Tue 22:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-12-14 Sat 11:14
+:ARCHIVE_FILE: /home/whammou/notes/quick.org
+:ARCHIVE_CATEGORY: quick
+:ARCHIVE_TODO: DONE
+:END:
+
+- *Goal(s):* disable preview for dir 
 

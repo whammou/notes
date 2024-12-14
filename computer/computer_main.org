@@ -358,11 +358,6 @@ Run ~printenv VARIBLE_NAME~ or ~echo $varname~ to print the value of a certain v
 
 Run ~Export VARIABLE_NAME=value~ to define a variable 
 
-*** ABORTED [#C] Config xfcit5
-CLOSED: [2024-11-27 Wed 12:03] DEADLINE: <2024-11-13 Wed 20:00>
-
-- *Goal:* rebind keys and adjust theme
-
 ** TODO Clean up $HOME :COMPUTER:LINUX:
 
 - *Goal(s):* clean up $HOME dir
@@ -433,11 +428,6 @@ CLOSED: [2024-12-04 Wed 19:37] DEADLINE: <2024-12-04 Wed 07:00>
 CLOSED: [2024-12-04 Wed 15:16]
 
 - *Goal(s):* render html syntax image inside markdown
-
-**** ABORTED Config lazy.nvim
-CLOSED: [2024-12-04 Wed 15:16]
-
-- *Goal(s):* rewrite config init in lua
 
 *** DONE Integrate markdown headline :COMPUTER:LINUX:NVIM:GITHUB:
 CLOSED: [2024-12-06 Fri 20:55]

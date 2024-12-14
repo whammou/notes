@@ -17,7 +17,7 @@
 
 Glue back a hole on my sneakers
 
-* DOING [#A] Contact Sacombank :ONEOFF:
+* PENDING [#A] Contact Sacombank :ONEOFF:
 
 Contact local bank for physical credit card
 
@@ -29,20 +29,10 @@ Contact local bank for physical credit card
 - *Goal:* ssh to the server via Termux
 - *Visit:*  [[https://wiki.termux.com/wiki/Remote_Access]]
 
-* ABORTED Lunar Calendar :ONEOFF:
-CLOSED: [2024-11-07 Thu 06:08]
-
-- *Goal:* keep track of lunar cal w orgmode
-
 * PENDING Fun project :READ:
 
 - *Goal:* check out thia fun racing project
 - *Visit:* [[https://github.com/stuckatprototype/racer]]
-
-* ABORTED [#D] Download Solidworks :COMPUTER:ONEOFF:
-CLOSED: [2024-12-13 Fri 18:56] DEADLINE: <2024-11-13 Wed 23:59>
-
-- *Visit:*  [[https://aus01.safelinks.protection.outlook.com/?url=https%3A%2F%2Frmiteduau-my.sharepoint.com%2F%3Au%3A%2Fg%2Fpersonal%2Fthien_huynhduc_rmit_edu_vn%2FESiPJm0wXQhAlnhsfdgbn6QBCMjBduoaNSUTNBzFEqSW7A%3Fe%3DjOCtl2&data=04%7C01%7Ctrung.nguyenchi%40rmit.edu.vn%7C51d68fe20c164e930e9c08d92f05e9fc%7Cd1323671cdbe4417b4d4bdb24b51316b%7C0%7C0%7C637592524757725572%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=e4cyNRgH7y3LxKjOhUrtL8BoT65ySKYr8DF4SBU2%2Fq8%3D&reserved=0][solidworks]]
 
 * ABORTED [#A] Write an appeal :URGENT:
 CLOSED: [2024-12-13 Fri 00:32] DEADLINE: <2024-12-12 Thu>
@@ -53,27 +43,12 @@ CLOSED: [2024-12-13 Fri 00:32] DEADLINE: <2024-12-12 Thu>
 - *Goal:* write an appeal for my course
 - *Visit:*  [[https://app.smartmailcloud.com/web-share/NVsBkDfROwtXT2bftC_y6y7TaC-zFy9OOCbWpVUf][@email]] [[https://app.smartmailcloud.com/web-share/zd_MEw-3KGni2S-H1FnEEjpu8Qp4yvaL7UgmEHPh][urgent]]
 
-* Tiệm 31 thrift :LIST:
+* PENDING Tiệm 31 thrift :LIST:
 
 - *Address:*  [[https://www.google.com/maps/place/Ti%E1%BB%87m+Ba+M%E1%BB%91t,+354%2F68A+%C4%90.+Phan+V%C4%83n+Tr%E1%BB%8B,+Ph%C6%B0%E1%BB%9Dng+11,+B%C3%ACnh+Th%E1%BA%A1nh,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.8217624,106.696346,16z/data=!4m6!3m5!1s0x317529be216bd975:0xa521a907d5b378c9!8m2!3d10.8217624!4d106.696346!16s%2Fg%2F11pkjbxcwd?force=pwa&source=mlapk][354/68A Đ. Phan Văn Trị, Phường 11, Bình Thạnh]]
 - *Open:* 11 AM–8 PM
 - tel:0902617607
 - *IG:* [[https://www.instagram.com/ttiem31.thrift?igsh=YzljYTk1ODg3Zg==][@ttiem31.thrift]]
-
-* DONE Initiate Creative CAD course
-CLOSED: [2024-11-02 Sat 07:33] SCHEDULED: <2024-10-31 Thu 17:00>
-
-- *Goal(s):* create a repo for the new course
-
-* DONE Create university schedule
-CLOSED: [2024-11-07 Thu 04:49] SCHEDULED: <2024-10-31 Thu 18:00>
-
-- *Goal(s):* create schedule for university/courses
-
-* ABORTED Change class schedule :ONEOFF:
-CLOSED: [2024-11-05 Tue 19:45] DEADLINE: <2024-10-31 Thu 23:59>
-
-- *Goal:* change lab to 10:30 am
 
 * DONE Implement ripgrep :NVIM:
 CLOSED: [2024-11-07 Thu 06:08]
@@ -82,34 +57,10 @@ CLOSED: [2024-11-07 Thu 06:08]
 - *Stumble upon:* [[https://github.com/duane9/nvim-rg]]
 - *Stumble upon:*  [[https://www.youtube.com/watch?v=loNdGAnKEf8][ripgrep workflow@youtube]]
 
-* ABORTED [#D] Resupply :ONEOFF:
-CLOSED: [2024-11-27 Wed 12:04] DEADLINE: <2024-11-13 Wed 17:00>
-
-- [ ] L cystine
-- [ ] Klanzir Adapalene
-
-* ABORTED Added nvim images :NVIM:
-CLOSED: [2024-11-05 Tue 19:44]
-
-- *Goal(s):* Add image render to nvim
-- *Stumble upon:* [[https://github.com/3rd/image.nvim][images.nvim@github]]
-
 * PENDING Automatic git sync :COMPUTER:ORGMODE:
 
 - *Goal(s):* run automatic git sync on ~server~
 - *Stumble upon:* [[https://www.worthe-it.co.za/blog/2016-08-13-automated-syncing-with-git.html][git-sync-systemd]]
-
-* ABORTED [#A] Question on Asgm1 :URGENT:ONEOFF:
-CLOSED: [2024-11-13 Wed 15:10] DEADLINE: <2024-11-09 Sat 20:00>
-
-- *Goal:* confirm test date and access to recorded lessions
-- mailto:jaronie.mohdjani@rmit.edu.vn
-
-* ABORTED Config lazy.nvim :NVIM:
-CLOSED: [2024-11-25 Mon 01:58] DEADLINE: <2024-11-14 Thu 22:00>
-
-- *Goal(s):* replace Vundle with lazy.nvim
-- *Visit:* [[https://github.com/folke/lazy.nvim][lazy.nvim@github]]
 
 * PENDING Config nvim-supertab and nvim-cmp
 
@@ -122,30 +73,7 @@ CLOSED: [2024-12-02 Mon 11:59] SCHEDULED: <2024-12-01 Sun 20:00>
 - *Goal(s):* create lesson plan for English teaching
 - tel:[Khánh Vi]
 
-* DONE Yazi disable preview :LINUX:
-CLOSED: [2024-11-26 Tue 22:32] DEADLINE: <2024-11-26 Tue 22:00>
-
-- *Goal(s):* disable preview for dir 
-
 * TODO Github wiki :GITHUB:
 
 - *Goal(s):* learn to write a github wiki page
-
-* Initialize CAD team project
-
-- *Goal(s):* Initialize team project at dir [[./design/EEET2603/project]]
-
-* ABORTED Presentation recording :UNIVERSITY:
-CLOSED: [2024-12-13 Fri 18:56] SCHEDULED: <2024-12-13 Fri 12:00>
-
-- *Goal(s):* team recording for presentation
-
-** ABORTED Slide completion
-CLOSED: [2024-12-13 Fri 18:56] SCHEDULED: <2024-12-12 Thu 18:00>
-
-- *Goal(s):* finish [[https://www.canva.com/design/DAGY_tou_ok/L97rVvYAuHnefMwwlLyMIw/edit][material & part slidea]]
-
-* TODO Catapult technical calculation :UNIVERSITY:
-
-- *Goal(s):* calculate ~output~ and spring ~k constant~
 

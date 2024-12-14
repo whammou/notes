@@ -27,7 +27,7 @@ The Zettelkasten method* is designed to help capture and organize knowledge for 
 
 **** Luhmann's numbering system
 
-[[file:assets/note-taking/SCR_3_1.png]]
+file:assets/note-taking/SCR_3_1.png
 
 - The very first note is assigned ~no.1~, second related to ~no.1~ is assigned ~no.2~
 - ~Injection~ or ~comment~ on the first note is assigned ~1a~, second note related to this note is assigned ~1b~. And comment on note ~1a~ is denoted as ~1a1~, and go on
@@ -58,11 +58,11 @@ The Zettelkasten method* is designed to help capture and organize knowledge for 
 
 *** Anatomy of a Zettel
 
-[[file:assets/note-taking/SCR_33_2.png]]
+file:assets/note-taking/SCR_33_2.png
 
 - An *Anatomy of a Zettel* includes:
   1. A *Unique identifier -* This gives your Zettel an unambiguous address
   2. The *Body -* This is where to write down ~capture~ (a piece of knowledge)
   3. *Reference -* reference the source of the knowledge or thought
 
-  [[file:assets/note-taking/SCR_33_3.png]]
+  file:assets/note-taking/SCR_33_3.png

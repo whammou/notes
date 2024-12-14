@@ -30,6 +30,7 @@ Collection of fun and dope workshop (perfect for a date)
 Ingredidents to look for:
 
 [[https://labmuffin.com/amodimethicone-my-new-favourite-hair-ingredient/][Amodimithicone@muddinlab]]
+
 ** Maintenance :MAINTENANCE:
 :PROPERTIES:
 :CUSTOM_ID: maintenance

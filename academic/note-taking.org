@@ -66,3 +66,4 @@ file:academic/assets/note-taking/SCR_33_2.png
   3. *Reference -* reference the source of the knowledge or thought
 
   file:academic/assets/note-taking/SCR_33_3.png
+

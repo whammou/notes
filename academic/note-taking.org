@@ -67,6 +67,7 @@ file:academic/assets/note-taking/SCR_33_2.png
 
   file:academic/assets/note-taking/SCR_33_3.png
 
+<<<<<<< HEAD
 ** Hybrid Method
 
 - Better structure notes in *Commonplace Book* format via ~markdown~ and ~orgmode~
@@ -75,3 +76,5 @@ file:academic/assets/note-taking/SCR_33_2.png
 - Better use of ~org-agenda~ and ~org-todo~
 
 Example of *Hybrid Method* checkout: [[https://github.com/whammou/notes]]
+=======
+>>>>>>> origin/main

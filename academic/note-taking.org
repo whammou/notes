@@ -1,13 +1,13 @@
-* Note-taking
+* Note-taking :ACADEMIC:
 
 - *Goal(s):* learn effective note-taking method form lecture slides
 - *Stumble upon:* [[https://zettelkasten.de/overview/][zettelkasten method]]
 
 Combine Zettelkasten method with the Outline method for seamless integration with digital notes
 
-** Outline method format
+** Commonplace Book method format
 
-The Outline Method* is the most structured note-taking method, and visually looks very organized
+*The Commonplace Book Method* is the most structured note-taking method, and visually looks very organized
 - Add main points as headers and elaborate them underneath
 - For each supporting information, create a nested bullet point below it
 - Outline method also works very well with ~markdown~ and ~orgmode~
@@ -66,3 +66,12 @@ file:academic/assets/note-taking/SCR_33_2.png
   3. *Reference -* reference the source of the knowledge or thought
 
   file:academic/assets/note-taking/SCR_33_3.png
+
+** Hybrid Method
+
+- Better structure notes in *Commonplace Book* format via ~markdown~ and ~orgmode~
+- Each ~Header~ has its own unique ID and can be export as *Hyperlink*
+- Look up is fast and possible with ~grep~ and ~orgmode-tag~
+- Better use of ~org-agenda~ and ~org-todo~
+
+Example of *Hybrid Method* checkout: [[https://github.com/whammou/notes]]

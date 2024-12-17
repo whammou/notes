@@ -76,3 +76,9 @@ CLOSED: [2024-12-02 Mon 11:59] SCHEDULED: <2024-12-01 Sun 20:00>
 * TODO Github wiki :GITHUB:
 
 - *Goal(s):* learn to write a github wiki page
+
+* TODO Systemd service :SYSTEMD:
+DEADLINE: <2024-12-17 Tue 22:00>
+
+- *Goal:* set ~tlp~ on top most of shutdown target
+

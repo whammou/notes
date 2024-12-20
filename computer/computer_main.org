@@ -441,3 +441,13 @@ CLOSED: [2024-12-16 Mon 02:55] DEADLINE: <2024-12-15 Sun 20:00>
 - *Goal(s):* Adding power supply detection to systemd via udev rules
 - *Stumble upon:* [[https://chrisdown.name/2017/10/29/adding-power-related-targets-to-systemd.html][adding power related targets to systemd]]
 
+** DONE Systemd service :SYSTEMD:
+DEADLINE: <2024-12-21 Sat 00:00> CLOSED: [2024-12-21 Sat 02:39]
+
+- *Goal:* set ~tlp~ on top most of shutdown target
+- *Solution:* [[https://old.reddit.com/r/linuxquestions/comments/udr7ch/running_systemd_service_on_shutdown_before/][systemd service on shutdown]]
+
+*** DONE Systemd multiple triggers :SYSTEMD:
+DEADLINE: <2024-12-21 Sat 00:00> CLOSED: [2024-12-21 Sat 02:39]
+
+- *Goal:* implement multiple triggers for a systemd service

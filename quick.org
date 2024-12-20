@@ -82,3 +82,9 @@ DEADLINE: <2024-12-17 Tue 22:00>
 
 - *Goal:* set ~tlp~ on top most of shutdown target
 - *Solution:* [[https://old.reddit.com/r/linuxquestions/comments/udr7ch/running_systemd_service_on_shutdown_before/][systemd service on shutdown]]
+
+** TODO Systemd multiple triggers :SYSTEMD:
+DEADLINE: <2024-12-21 Sat 00:00>
+
+- *Goal:* implement multiple triggers for a systemd service
+

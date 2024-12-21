@@ -1,5 +1,4 @@
-#+TITLE: Quick Notes
-#+DESCRIPTION: Captures and Quick notes
+#+TITLE: Quick Notes #+DESCRIPTION: Captures and Quick notes
 
 * PENDING Ghost in the wires :BOOK:
 
@@ -67,7 +66,7 @@ CLOSED: [2024-11-07 Thu 06:08]
 - *Stumble upon:* [[https://github.com/hrsh7th/nvim-cmp/issues/179][issue@github]]
 - *Goal(s):* config nvim to work with nvim-cmp nvim-supertab
 
-* DONE [#B] English teaching
+* DONE [#B] English teaching :ACADEMIC:
 CLOSED: [2024-12-02 Mon 11:59] SCHEDULED: <2024-12-01 Sun 20:00>
 
 - *Goal(s):* create lesson plan for English teaching
@@ -77,8 +76,25 @@ CLOSED: [2024-12-02 Mon 11:59] SCHEDULED: <2024-12-01 Sun 20:00>
 
 - *Goal(s):* learn to write a github wiki page
 
-* Solve conflict Markdown Flow plugin
+* TODO Solve conflict Markdown Flow plugin :NVIM:
+DEADLINE: <2024-12-21 Sat 22:00>
 
 - Note taken on [2024-12-21 Sat 02:47] \\
   ~TAB~ key has conflicted bind action in both plugin. Please visit main site for configuration documentation
 - *Goal(s):* solve ~TAB~ key conflict between [[https://github.com/jakewvincent/mkdnflow.nvim][mkdnflow]] and markdown.nvim
+
+* TODO Navigate LibreTexts :ACADEMIC:
+
+- *Goal(s):* Learn to navigate LibreTexts database
+- *Stumble upon:* [[https://www.directtextbook.com/articles/926/libretexts][navigate LibreTexts]]
+
+** How LibreTexts works
+
+LibreTexts features subject libraries organized in three ~resource~ types:
+
+ 1. *Bookshelves:* ~bookshelves~ are comprised of *textbooks* 
+   - Created by the non profits development team
+   - ~bookshelves~ also hold *text maps* - which are OER /(Open Education Sources)/
+
+ 2. *Learning Objects:* Ancillary content like laboratory experiments. *Interactive Visualizations*, math simulations, reference items, practice worksheets and assessment materials
+ 3. *Campus Bookshelves:* Customized, campus curated and mixed from existing content

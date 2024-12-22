@@ -1,4 +1,5 @@
-#+TITLE: Quick Notes #+DESCRIPTION: Captures and Quick notes
+#+TITLE: Quick Notes
+#+DESCRIPTION: Captures and Quick notes
 
 * PENDING Ghost in the wires :BOOK:
 

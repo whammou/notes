@@ -83,7 +83,6 @@ DEADLINE: <2024-12-21 Sat 22:00>
 - Note taken on [2024-12-21 Sat 02:47] \\
   ~TAB~ key has conflicted bind action in both plugin. Please visit main site for configuration documentation
 - *Goal(s):* solve ~TAB~ key conflict between [[https://github.com/jakewvincent/mkdnflow.nvim][mkdnflow]] and markdown.nvim
-
 * TODO Navigate LibreTexts :ACADEMIC:
 
 - *Goal(s):* Learn to navigate LibreTexts database

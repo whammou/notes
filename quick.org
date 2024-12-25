@@ -72,8 +72,7 @@ CLOSED: [2024-11-07 Thu 06:08]
 - *Goal(s):* learn to write a github wiki page
 
 * DONE Solve conflict Markdown Flow plugin :NVIM:
-DEADLINE: <2024-12-21 Sat 22:00> CLOSED: [2024-12-25 Wed 22:23]
-
+CLOSED: [2024-12-25 Wed 22:23] DEADLINE: <2024-12-21 Sat 22:00>
 - Note taken on [2024-12-21 Sat 02:47] \\
   ~TAB~ key has conflicted bind action in both plugin. Please visit main site for configuration documentation
 - *Goal(s):* solve ~TAB~ key conflict between [[https://github.com/jakewvincent/mkdnflow.nvim][mkdnflow]] and markdown.nvim

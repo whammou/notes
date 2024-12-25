@@ -207,7 +207,8 @@ CLOSED: [2024-10-07 Mon 22:27]
 ** DONE Symlink :COMPUTER:TERMUX:
 CLOSED: [2024-10-07 Mon 04:39]
 
-[[./archive/main.org_archive]]
+- *Source:* [[https://wiki.termux.com/wiki/Internal_and_external_storage][termux wiki]]
+  run: ~termux-setup-storage~
 
 ** TODO Github search query :GITHUB:
 

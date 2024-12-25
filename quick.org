@@ -78,11 +78,13 @@ DEADLINE: <2024-12-21 Sat 22:00> CLOSED: [2024-12-25 Wed 22:23]
   ~TAB~ key has conflicted bind action in both plugin. Please visit main site for configuration documentation
 - *Goal(s):* solve ~TAB~ key conflict between [[https://github.com/jakewvincent/mkdnflow.nvim][mkdnflow]] and markdown.nvim
 
-* TODO Nvim session manager
+* TODO Nvim session manager :NVIM:
 DEADLINE: <2024-12-26 Thu 20:00>
 
+- Note taken on [2024-12-25 Wed 23:11] \\
+  Checkout config file at: [[~/.config/nvim/init.vim][init.vim]] and [[~/.config/nvim/lua/init.lua][init.lua]]
 - *Goal(s):* look for a compatible nvim session manager
-- *Stumble upon:* [[https://old.reddit.com/r/neovim/comments/szis80/which_session_manager_for_nvim/][nvim@reddit]]
+- *Stumble upon:* [[https://old.reddit.com/r/neovim/comments/szis80/which_session_manager_for_nvim/][nvim@reddit]]  [[https://github.com/rmagatti/auto-session][auto-session@github]]
 
 * TODO ID verification
 DEADLINE: <2024-12-26 Thu 16:00 -2h>
@@ -96,3 +98,8 @@ DEADLINE: <2024-12-26 Thu 16:00 -2h>
 - *Goal(s):* update new verification with the bank
 - *Address:* [[https://maps.app.goo.gl/HPc8YU7fWxvmYJvr8][d7/204 QL50, Phong Phú, Bình Chánh]]
 - *Contact:* tel:02836364730
+
+* TODO Convert vim-plug to lazy.nvim :NVIM:
+DEADLINE: <2024-12-27 Fri 20:00>
+
+- *Goal(s):* replace plugin manager to [[https://github.com/folke/lazy.nvim][lazy.nvim]] for seamless integration with lua config

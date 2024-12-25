@@ -71,9 +71,28 @@ CLOSED: [2024-11-07 Thu 06:08]
 
 - *Goal(s):* learn to write a github wiki page
 
-* TODO Solve conflict Markdown Flow plugin :NVIM:
-DEADLINE: <2024-12-21 Sat 22:00>
+* DONE Solve conflict Markdown Flow plugin :NVIM:
+DEADLINE: <2024-12-21 Sat 22:00> CLOSED: [2024-12-25 Wed 22:23]
 
 - Note taken on [2024-12-21 Sat 02:47] \\
   ~TAB~ key has conflicted bind action in both plugin. Please visit main site for configuration documentation
 - *Goal(s):* solve ~TAB~ key conflict between [[https://github.com/jakewvincent/mkdnflow.nvim][mkdnflow]] and markdown.nvim
+
+* TODO Nvim session manager
+DEADLINE: <2024-12-26 Thu 20:00>
+
+- *Goal(s):* look for a compatible nvim session manager
+- *Stumble upon:* [[https://old.reddit.com/r/neovim/comments/szis80/which_session_manager_for_nvim/][nvim@reddit]]
+
+* TODO ID verification
+DEADLINE: <2024-12-26 Thu 16:00 -2h>
+
+- *Goal(s):* update identification and update verify with the bank
+- *Address:* [[https://maps.app.goo.gl/2Fp6YFyGDrs26JAE8][MMV3+M3J, ĐH7, Phong Phú, Bình Chánh]]
+- *Contact:* tel:02838757253
+
+** Bank ID verification
+
+- *Goal(s):* update new verification with the bank
+- *Address:* [[https://maps.app.goo.gl/HPc8YU7fWxvmYJvr8][d7/204 QL50, Phong Phú, Bình Chánh]]
+- *Contact:* tel:02836364730

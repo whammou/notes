@@ -69,7 +69,8 @@ Special properties provide an alternative access method to Org mode features, li
 - *Goal:* Generate .ics files from .org files(use homelab for daily merge)
 - *Visit:*  [[https://pypi.org/project/org2ical/][org2ical package]] [[https://github.com/jacobmischka/ics-merger][icals merger]]
 
-*** TODO Orgmode social media integrate
+*** DONE Orgmode social media integrate
+CLOSED: [2024-12-26 Thu 22:28]
 
 * DONE [#B] Dual boot :SYSTEM:
 CLOSED: [2024-10-24 Thu 00:01] DEADLINE: <2024-10-20 Sun 20:00>

@@ -294,7 +294,8 @@ CLOSED: [2024-10-07 Mon 02:39] SCHEDULED: <2024-10-05 Sat 00:00>
 - *Goal:* Learn to navigate and notate in Zathura sufficiently
 - *Documentation:* [[https://pwmt.org/projects/zathura/documentation/]]
 
-** TODO Integrate Github link :VIM:GITHUB:
+** DONE Integrate Github link :VIM:GITHUB:
+CLOSED: [2024-12-26 Thu 22:27]
 
 **Goal:* Integrate github orgmode render for android
 

@@ -79,7 +79,6 @@ CLOSED: [2024-12-25 Wed 22:23] DEADLINE: <2024-12-21 Sat 22:00>
 
 * TODO Nvim session manager :NVIM:
 DEADLINE: <2024-12-26 Thu 20:00>
-
 - Note taken on [2024-12-25 Wed 23:11] \\
   Checkout config file at: [[~/.config/nvim/init.vim][init.vim]] and [[~/.config/nvim/lua/init.lua][init.lua]]
 - *Goal(s):* look for a compatible nvim session manager
@@ -102,3 +101,4 @@ DEADLINE: <2024-12-26 Thu 16:00 -2h>
 DEADLINE: <2024-12-27 Fri 20:00>
 
 - *Goal(s):* replace plugin manager to [[https://github.com/folke/lazy.nvim][lazy.nvim]] for seamless integration with lua config
+

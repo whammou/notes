@@ -104,7 +104,8 @@ DEADLINE: <2024-12-30 Mon 16:00 -2h>
 
 - *Stumble upon:* [[https://github.com/nanotee/nvim-lua-guide][nvim-lua-guide]]
 
-** TODO Convert vim-plug to lazy.nvim :NVIM:
+** DONE Convert vim-plug to lazy.nvim :NVIM:
+CLOSED: [2024-12-27 Fri 22:56]
 
 DEADLINE: <2024-12-27 Fri 20:00>
 

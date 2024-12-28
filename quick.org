@@ -111,3 +111,9 @@ DEADLINE: <2024-12-27 Fri 20:00>
 
 - *Goal(s):* replace plugin manager to [[https://github.com/folke/lazy.nvim][lazy.nvim]] for seamless integration with lua config
 
+* Hủ Tiếu Bà Mười :BISTRO:
+
+- *Address:*  [[https://www.google.com/maps/place/H%E1%BB%A7+Ti%E1%BA%BFu+B%C3%A0+M%C6%B0%E1%BB%9Di,+135+%C4%90%C6%B0%E1%BB%9Dng+S%E1%BB%91+14,+Khu+d%C3%A2n+c%C6%B0+Vi%E1%BB%87t+Ph%C3%BA+Garden,+B%C3%ACnh+Ch%C3%A1nh,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.6908471,106.6421607,16z/data=!4m6!3m5!1s0x3175314bb0e2cda1:0xf5af65450922bd34!8m2!3d10.6908471!4d106.6421607!16s%2Fg%2F11kq3gn0dq?force=pwa&source=mlapk][135 Đường Số 14, Khu dân cư Việt Phú Garden, Bình Chánh]]
+- *Contact:*  tel:0988145648
+- *Open:*  
+

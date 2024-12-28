@@ -70,6 +70,11 @@ Nhà hàng và buffet rau
 - *Contact:*  tel:0988145648
 - *Open:*  
 
+**** TODO Unpaid 50K :ONEOFF:
+DEADLINE: <2024-12-28 Sat 18:00>
+
+- *Goal:* pay 50K to Hủ Tiếu Bà Mười
+
 ** Restaurants :RESTAURANT:
 
 *** Japan Eats

@@ -111,3 +111,9 @@ DEADLINE: <2024-12-27 Fri 20:00>
 
 - *Goal(s):* replace plugin manager to [[https://github.com/folke/lazy.nvim][lazy.nvim]] for seamless integration with lua config
 
+* TODO Recover archlinux :LINUX:
+SCHEDULED: <2024-12-30 Mon 02:00-04:00>
+
+- *Goal:* recover linux from unexpected shutdown
+- *Stumble upon:*  [[https://www.reddit.com/r/archlinux/comments/m2wf1s/shutdown_during_update/][r/archlinux]]
+

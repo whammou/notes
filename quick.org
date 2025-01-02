@@ -122,3 +122,9 @@ DEADLINE: <2025-01-06 Mon 00:00-23:00 ++1d -1w>
 
 - *Goal:* find a suitable birthday present withoj budget
 
+* TODO Sale jeans :ONEOFF:
+DEADLINE: <2025-01-07 Tue 20:00 -1h>
+
+- *Goal:* 2nd hand sale
+- *Source:*  [[https://www.instagram.com/p/DEUzO7RTmTw/?igsh=YzljYTk1ODg3Zg==][lazsing.stuff@ig]]
+

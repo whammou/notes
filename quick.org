@@ -111,8 +111,8 @@ DEADLINE: <2024-12-27 Fri 20:00>
 
 - *Goal(s):* replace plugin manager to [[https://github.com/folke/lazy.nvim][lazy.nvim]] for seamless integration with lua config
 
-* DOING Recover archlinux :LINUX:
-SCHEDULED: <2024-12-30 Mon 02:00-04:00>
+* DONE Recover archlinux :LINUX:
+CLOSED: [2025-01-06 Mon 07:34] SCHEDULED: <2024-12-30 Mon 02:00-04:00>
 
 - *Goal:* recover linux from unexpected shutdown
 - *Stumble upon:*  [[https://www.reddit.com/r/archlinux/comments/m2wf1s/shutdown_during_update/][r/archlinux]]
@@ -125,8 +125,8 @@ DEADLINE: <2025-01-06 Mon 03:00>
 - *Goal(s):* setup ~hibernation~ for archlinux
 - *Source(s):* [[https://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate#Hibernation][hibernation@archwiki]]
 
+** Update grub parameters
 
-** Update grub parameters 
 - *Goal(s):* update grub boot parameters to splash ~screen~ and hide grub ~menu~
   - Add ~splash~ parameter to kernel parameter: ~GRUB_CMDLINE_LINUX_DEFAULT="... splash"~
   - Add ~hidden~ parameter to ~GRUB_TIMEOUT_STYLE~: ~GRUB_TIMEOUT_STYLE=hidden~
@@ -155,3 +155,4 @@ CLOSED: [2025-01-05 Sun 23:49] DEADLINE: <2025-01-07 Tue 20:00 -1h>
 
 - *Goal:* 2nd hand sale
 - *Source:*  [[https://www.instagram.com/p/DEUzO7RTmTw/?igsh=YzljYTk1ODg3Zg==][lazsing.stuff@ig]]
+

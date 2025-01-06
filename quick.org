@@ -119,7 +119,6 @@ SCHEDULED: <2024-12-30 Mon 02:00-04:00>
 
 * TODO Arch Linux hibernation :LINUX:
 DEADLINE: <2025-01-06 Mon 03:00>
-
 - Note taken on [2025-01-06 Mon 01:48] \\
   Hibernation for brtfs partitions
 
@@ -132,7 +131,8 @@ DEADLINE: <2025-01-06 Mon 00:00-23:00 ++1d -1w>
 - *Goal:* find a suitable birthday present withoj budget
 
 * DONE Sale jeans :ONEOFF:
-DEADLINE: <2025-01-07 Tue 20:00 -1h> CLOSED: [2025-01-05 Sun 23:49]
+CLOSED: [2025-01-05 Sun 23:49] DEADLINE: <2025-01-07 Tue 20:00 -1h>
 
 - *Goal:* 2nd hand sale
 - *Source:*  [[https://www.instagram.com/p/DEUzO7RTmTw/?igsh=YzljYTk1ODg3Zg==][lazsing.stuff@ig]]
+

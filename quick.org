@@ -121,8 +121,8 @@ CLOSED: [2025-01-06 Mon 07:34] SCHEDULED: <2024-12-30 Mon 02:00-04:00>
 
 - *Goal(s):* chroot from a live usb
 
-** TODO Arch Linux hibernation
-DEADLINE: <2025-01-06 Mon 03:00>
+** DONE Arch Linux hibernation
+CLOSED: [2025-01-09 Thu 02:29] DEADLINE: <2025-01-06 Mon 03:00>
 - Note taken on [2025-01-06 Mon 01:48] \\
   Hibernation for btrfs partitions
 
@@ -156,7 +156,10 @@ CLOSED: [2025-01-07 Tue 00:55] SCHEDULED: <2025-01-06 Mon 21:00-23:00>
 - *Contact:* /tel:/
 
 ** TODO [#A] Birthday present :URGENT:ONEOFF:
-DEADLINE: <2025-01-06 Mon 00:00-23:00 ++1d -1w>
+DEADLINE: <2025-01-10 Fri 00:00-23:00 ++1d -1w>
+:PROPERTIES:
+:LAST_REPEAT: [2025-01-09 Thu 02:29]
+:END:
 
 - *Goal:* find a suitable birthday present within budget - *300K* 
 

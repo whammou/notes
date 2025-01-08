@@ -178,4 +178,3 @@ DEADLINE: <2025-01-09 Thu 05:00>
 
 - *Goal:* integrate bard AI to workflow
 - *Resource:* [[https://www.reddit.com/r/ChatGPT/comments/1akynsv/any_free_alternatives_to_open_ai_api/][Google Bard]]
-

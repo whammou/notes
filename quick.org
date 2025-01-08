@@ -160,7 +160,14 @@ DEADLINE: <2025-01-06 Mon 00:00-23:00 ++1d -1w>
 
 - *Goal:* find a suitable birthday present within budget - *300K* 
 
-* TODO Overhaul Note repo
+* TODO Overhaul Note repo :GIT:ONEOFF:
 DEADLINE: <2025-01-08 Wed 18:00>
 
 - *Goal(s):* update note repo structure for more optimal workflow
+
+* TODO Integrate Bard AI :LINUX:
+DEADLINE: <2025-01-09 Thu 05:00>
+
+- *Goal:* integrate bard AI to workflow
+- *Resource:* [[https://www.reddit.com/r/ChatGPT/comments/1akynsv/any_free_alternatives_to_open_ai_api/][Google Bard]]
+

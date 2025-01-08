@@ -46,6 +46,10 @@ SCHEDULED: <2025-01-07 Tue .+2m>
 :LAST_REPEAT: [2024-11-07 Thu 05:06]
 :END:
 
+***** TODO Check engine oil
+
+- *Goal:* evaluate bike engine oil condition
+
 *** Suzuki GN125
 
 *** Repair Shop :LIST:

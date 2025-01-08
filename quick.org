@@ -139,7 +139,9 @@ DEADLINE: <2025-01-06 Mon 03:00>
 
 - *Goal(s):* enable system zswap on boot
   - Add ~zswap.enable=1~ to kernel parameter: ~GRUB_CMDLINE_LINUX="... zswap.enabled=1"~
+
 ** Config ~pacman~
+
 - *Goal(s):* config ~pacman~ to:
   - Output colors
   - have a funny animation

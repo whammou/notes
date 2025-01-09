@@ -89,7 +89,7 @@ CLOSED: [2024-12-26 Thu 23:19] DEADLINE: <2024-12-26 Thu 20:00>
 - *Goal(s):* look for a compatible nvim session manager
 - *Stumble upon:* [[https://old.reddit.com/r/neovim/comments/szis80/which_session_manager_for_nvim/][nvim@reddit]]  [[https://github.com/rmagatti/auto-session][auto-session@github]]
 
-* TODO ID verification
+* TODO ID verification :URGENT:
 DEADLINE: <2024-12-30 Mon 16:00 -2h>
 
 - *Goal(s):* update identification and update verify with the bank

@@ -29,8 +29,8 @@ Contact local bank for physical credit card
 - *Goal:* ssh to the server via Termux
 - *Visit:*  [[https://wiki.termux.com/wiki/Remote_Access]]
 
-** TODO SSH to Github :MAINTENANCE:GITHUB:
-DEADLINE: <2025-01-09 Thu 05:00>
+** DONE SSH to Github :MAINTENANCE:GITHUB:
+CLOSED: [2025-01-10 Fri 05:51] DEADLINE: <2025-01-09 Thu 05:00>
 
 - *Goal:* generate ssh key and successfully pull repos from github
 
@@ -181,6 +181,7 @@ DEADLINE: <2025-01-09 Thu 05:00>
 
 ** DONE Create API
 CLOSED: [2025-01-10 Fri 02:28]
+
 - *Goal(s):* successfully obtain working API for Google Gemini
 - *Resource:* [[https://console.cloud.google.com/apis/credentials?pli=1&inv=1&invt=AbmaIA][Google cloud console]]
   - Obtain working API through google cloud console
@@ -210,3 +211,4 @@ CLOSED: [2025-01-10 Fri 02:27]
 *** Nvim integration
 
 - *Goal(s):* render response in markdown to take advantage of nvim markdown render
+

@@ -102,7 +102,7 @@ DEADLINE: <2024-12-30 Mon 16:00 -2h>
 - *Address:* [[https://maps.app.goo.gl/HPc8YU7fWxvmYJvr8][d7/204 QL50, Phong Phú, Bình Chánh]]
 - *Contact:* tel:02836364730
 
-* TODO Convert nvim :NVIM:
+* PENDING Convert nvim :NVIM:
 
 - *Goal(s):* convert [[~/.config/nvim/init.vim][init.vim]] to [[~/.config/nvim/lua/init.lua][init.lua]]
   - Run ~nvim +:help lua_guide"~ for built-in conversion guide from vim script to lua
@@ -173,8 +173,40 @@ DEADLINE: <2025-01-08 Wed 18:00>
 
 - *Goal(s):* update note repo structure for more optimal workflow
 
-* TODO Integrate Bard AI :LINUX:
+* DOING Integrate Google AI :LINUX:
 DEADLINE: <2025-01-09 Thu 05:00>
 
 - *Goal:* integrate bard AI to workflow
-- *Resource:* [[https://www.reddit.com/r/ChatGPT/comments/1akynsv/any_free_alternatives_to_open_ai_api/][Google Bard]]
+- *Resource:* [[https://www.reddit.com/r/ChatGPT/comments/1akynsv/any_free_alternatives_to_open_ai_api/][Google AI Studio]]  [[https://ai.google.dev/docs][Google AI docs]]
+
+** DONE Create API
+CLOSED: [2025-01-10 Fri 02:28]
+- *Goal(s):* successfully obtain working API for Google Gemini
+- *Resource:* [[https://console.cloud.google.com/apis/credentials?pli=1&inv=1&invt=AbmaIA][Google cloud console]]
+  - Obtain working API through google cloud console
+  - NOTE: only 1 API per project
+
+- *Note:* looking up for platform free tier limitation
+
+** DONE Make request
+CLOSED: [2025-01-10 Fri 02:27]
+
+- *Goal(s):* make request from terminal to Gemini
+- *Note:* use the [[https://ai.google.dev/api/generate-content#method:-models.generatecontent][~generateContent~]] to make request to Gemini API
+- #+NAME: Make request to Gemini API
+  #+BEGIN_SRC python
+  import google.generativeai as genai
+
+  genai.configure(api_key="YOUR_API_KEY")
+  model = genai.GenerativeModel("gemini-1.5-flash")
+  response = model.generate_content("Explain how AI works")
+  print(response.text)
+  #+END_SRC
+
+** TODO Shell Integration
+
+- *Goal(s):* working on integrate AI with ~kitty~
+
+*** Nvim integration
+
+- *Goal(s):* render response in markdown to take advantage of nvim markdown render

@@ -90,7 +90,7 @@ CLOSED: [2024-12-26 Thu 23:19] DEADLINE: <2024-12-26 Thu 20:00>
 - *Stumble upon:* [[https://old.reddit.com/r/neovim/comments/szis80/which_session_manager_for_nvim/][nvim@reddit]]  [[https://github.com/rmagatti/auto-session][auto-session@github]]
 
 * TODO ID verification :URGENT:
-DEADLINE: <2024-12-30 Mon 16:00 -2h>
+DEADLINE: <2025-01-13 Mon 16:00 -2h>
 
 - *Goal(s):* update identification and update verify with the bank
 - *Address:* [[https://maps.app.goo.gl/2Fp6YFyGDrs26JAE8][MMV3+M3J, ĐH7, Phong Phú, Bình Chánh]]
@@ -214,6 +214,7 @@ CLOSED: [2025-01-10 Fri 02:27]
 - *Goal(s):* render response in markdown to take advantage of nvim markdown render
 
 ** Working with Google AI
+
 - *Goal(s):* create workspace with [[https://pypi.org/project/google-generativeai/][google-generativeai sdk]]
 - *Resources:*  [[https://github.com/google-gemini/cookbook][cookbook]]  [[https://ai.google.dev][documentation]]
 
@@ -224,3 +225,4 @@ CLOSED: [2025-01-10 Fri 02:27]
   - [ ] brightness slider
 
 - *Resource:*  [[https://github.com/Shringe/dunst-media-control][github]]
+

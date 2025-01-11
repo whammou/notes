@@ -1,0 +1,13 @@
+#+TITLE: Template Archive
+#+DESCRIPTION: Description for archive here
+
+* Archives :ARCHIVED:
+
+Allocated space for archives
+
+** Documents :DOC:
+
+** Lists :LIST:
+
+** Logs :LOG:
+

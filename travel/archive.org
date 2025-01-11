@@ -1,0 +1,153 @@
+#+TITLE: Template Archive
+#+DESCRIPTION: Description for archive here
+
+* Archives :ARCHIVED:
+
+Allocated space for archives
+
+** Documents :DOC:
+
+** Lists :LIST:
+*** Local cuisine :CUISINE:
+
+Archive of bistros/restaurants and good dinning places I have visited
+
+**** Snack :SNACK:
+
+***** DONE Tường Burger
+CLOSED: [2024-10-22 Tue 22:38]
+
+****Address:*  [[https://www.google.com/maps/place/T%C6%B0%E1%BB%9Dng+By+Double+T+-+Smash+Burger+%26+Dessert,+343%2F3+%C4%90.+T%C3%B4+Hi%E1%BA%BFn+Th%C3%A0nh,+Ph%C6%B0%E1%BB%9Dng+12,+Qu%E1%BA%ADn+10,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.776153,106.6648687,17z/data=!4m6!3m5!1s0x31752f001afd5825:0xb0f1a22939078b94!8m2!3d10.776153!4d106.6648687!16s%2Fg%2F11lchys71b?force=pwa&source=mlapk][343/3 Tô Hiến Thành P12 Q10]]
+****Phone:*  tel:0969266512
+****Open:*  4–10 PM
+
+***** DONE Sweet June
+CLOSED: [2024-10-25 Fri 22:39] DEADLINE: <2024-10-25 Fri 22:15>
+
+****Address:*  [[https://www.google.com/maps/place/Ti%E1%BB%87m+b%C3%A1nh+Sweet+June+(Crepes+%26+Waffle),+261+%C4%90.+S%C6%B0+V%E1%BA%A1n+H%E1%BA%A1nh,+Ph%C6%B0%E1%BB%9Dng+9,+Qu%E1%BA%ADn+10,+H%E1%BB%93+Ch%C3%AD+Minh+700000,+Vietnam/@10.7662518,106.6717886,16z/data=!4m6!3m5!1s0x31752f692e34766b:0xaf5ca43c38f494f!8m2!3d10.7662518!4d106.6717886!16s%2Fg%2F11pxlbqy15?force=pwa&source=mlapk][261 Sư Vạn Hạnh P9 Q10]]
+****Phone:*  tel:0913800669
+****Open:*  9 AM–11 PM
+
+***** Hoàng Nhi
+
+Bao tử cá chỉen giòn & đồ ăn vặt
+
+- *Address:*  [[https://www.google.com/maps/place/Bao+T%E1%BB%AD+C%C3%A1+Chi%C3%AAn+Gi%C3%B2n+Ho%C3%A0ng+Nhi+-+Chi+Nh%C3%A1nh+1,+l%C3%B4+S,+chung+c%C6%B0,+Ng+Gia+T%E1%BB%B1+Ho%C3%A0+H%E1%BA%A3o,+Ph%C6%B0%E1%BB%9Dng+2,+Qu%E1%BA%ADn+10,+H%E1%BB%93+Ch%C3%AD+Minh+700000,+Vietnam/@10.7631632,106.6738497,17z/data=!4m6!3m5!1s0x31752f5b1b36a827:0x993a0106e4bb43f1!8m2!3d10.7631632!4d106.6738497!16s%2Fg%2F11sg_6hl3w?force=pwa&source=mlapk][lô S, chung cư, Ng Gia Tự Hoà Hảo, Phường 2, Quận 10]]
+- *Contact:*  tel:0393825545
+- *Open:*  3–10 PM
+
+***** Soko
+
+Bread bakery and coffee
+
+- *Address:*  [[https://www.google.com/maps/place/SOKO+Cake+Bake+%26+Brunch+-+Nguy%E1%BB%85n+Trung+Tr%E1%BB%B1c,+27a+%C4%90.+Nguy%E1%BB%85n+Trung+Tr%E1%BB%B1c,+Ph%C6%B0%E1%BB%9Dng+B%E1%BA%BFn+Th%C3%A0nh,+Qu%E1%BA%ADn+1,+H%E1%BB%93+Ch%C3%AD+Minh+700000,+Vietnam/@10.7743336,106.6984623,17z/data=!4m6!3m5!1s0x31752f933bbb5a7d:0xed6364badfbac677!8m2!3d10.7743336!4d106.6984623!16s%2Fg%2F11v6ns90qx?force=pwa&source=mlapk][27a Đ. Nguyễn Trung Trực, Phường Bến Thành, Quận 1]]
+- *Contact:*  tel:0909929880
+- *Open:*  8 AM–10 PM
+
+***** La Creme
+
+- *Address:*  [[https://www.google.com/maps/place/La+Creme+-+Finest+Ice+Cream+(Ben+Thanh),+84+P.+%C4%90%E1%BB%A9c+Ch%C3%ADnh,+P,+Qu%E1%BA%ADn+1,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7707056,106.6992531,16z/data=!4m6!3m5!1s0x31752fe40c2d66e7:0x580e2371fd00314c!8m2!3d10.7707056!4d106.6992531!16s%2Fg%2F11lm9pyjc8?force=pwa&source=mlapk][84 P. Đức Chính, P, Quận 1]]
+- tel:0769123723
+- *Open:* 9 AM–10 PM
+
+**** Bistros :BISTRO:
+
+***** Today With You
+
+Korean Pasta
+- *Address:*  [[https://www.google.com/maps/place/Vietnam,+H%E1%BB%93+Ch%C3%AD+Minh,+Th%E1%BB%A7+%C4%90%E1%BB%A9c,+Th%E1%BA%A3o+%C4%90i%E1%BB%81n,+%C4%90.+Th%E1%BA%A3o+%C4%90i%E1%BB%81n,+Today+With+You+(K-Pasta)+-+%EC%98%A4%EB%8A%98%EA%B7%B8%EB%8C%80%EC%99%80/@10.8080485,106.7333358,17z/data=!4m9!1m2!2m1!1zdG9kYXkgd2l0aCB5b3UgdGjhuqNvIMSRaeG7gW4!3m5!1s0x317527eb709a1147:0x5f9cee2f1c3aeb94!8m2!3d10.8080485!4d106.7333358!16s%2Fg%2F11vwtk6mxq?force=pwa&source=mlapk][99 Thảo Điền Q2]]
+- *Phone:*  tel:0708399998
+- *Open:*  11 AM–3 PM  5–10 PM
+
+***** Hàng Cuốn
+
+Nhà hàng và buffet rau
+- *Address:*  [[https://www.google.com/maps/place/Hang+Cuon+Cao+Thang,+59B+%C4%90.+Cao+Th%E1%BA%AFng,+Ph%C6%B0%E1%BB%9Dng+3,+Qu%E1%BA%ADn+3,+H%E1%BB%93+Ch%C3%AD+Minh+700000,+Vietnam/@10.7706438,106.6812002,16z/data=!4m9!1m2!2m1!1zSMOgbmcgY3Xhu5Fu!3m5!1s0x31752fae49444fbd:0xe2d81b57d3e48114!8m2!3d10.7706438!4d106.6812002!16s%2Fg%2F11w2661v_z?force=pwa&source=mlapk][59B Đ. Cao Thắng, Phường 3, Quận 3]]
+- *Contact:*  tel:02873011908
+- *Open:*  10 AM–10 PM
+
+***** Trần Pizza
+
+- *Address:*  [[https://www.google.com/maps/place/Tr%E1%BA%A7n+Pizza,+117%2F20+%C4%90.+C%E1%BB%91ng+Qu%E1%BB%B3nh,+Ph%C6%B0%E1%BB%9Dng+Nguy%E1%BB%85n+C%C6%B0+Trinh,+Qu%E1%BA%ADn+1,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7653108,106.6894298,16z/data=!4m6!3m5!1s0x31752f006a3e0da1:0x6a0a10d4ede92cbb!8m2!3d10.7653108!4d106.6894298!16s%2Fg%2F11wfc1b_68?force=pwa&source=mlapk][117/20 Đ. Cống Quỳnh, Phường Nguyễn Cư Trinh, Quận 1]]
+- *Open:* 1–9 PM
+- *Contact:* [[https://www.instagram.com/tranpizza?igsh=NGE1NjhybXl0c3Ri][tran_pizza@instagram]]
+
+***** Hủ Tiếu Bà Mười :BISTRO:
+
+- *Address:*  [[https://www.google.com/maps/place/H%E1%BB%A7+Ti%E1%BA%BFu+B%C3%A0+M%C6%B0%E1%BB%9Di,+135+%C4%90%C6%B0%E1%BB%9Dng+S%E1%BB%91+14,+Khu+d%C3%A2n+c%C6%B0+Vi%E1%BB%87t+Ph%C3%BA+Garden,+B%C3%ACnh+Ch%C3%A1nh,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.6908471,106.6421607,16z/data=!4m6!3m5!1s0x3175314bb0e2cda1:0xf5af65450922bd34!8m2!3d10.6908471!4d106.6421607!16s%2Fg%2F11kq3gn0dq?force=pwa&source=mlapk][135 Đường Số 14, Khu dân cư Việt Phú Garden, Bình Chánh]]
+- *Contact:*  tel:0988145648
+- *Open:*  
+
+****** PENDING Unpaid 50K
+
+- *Goal:* pay 50K to Hủ Tiếu Bà Mười
+
+**** Restaurants :RESTAURANT:
+
+***** Japan Eats
+
+- *Address:* [[https://www.google.com/maps/place/Japan+Eats,+5%2F70+Nguy%E1%BB%85n+Trung+Ng%E1%BA%A1n,+B%E1%BA%BFn+Ngh%C3%A9,+Qu%E1%BA%ADn+1,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7844945,106.7059409,17z/data=!4m6!3m5!1s0x31752f4a4fd3c9f1:0x3065eb12a7a71510!8m2!3d10.7844945!4d106.7059409!16s%2Fg%2F11p_1fxn0x?force=pwa&source=mlapk][5/70 Nguyễn Trung Ngạn, Bến Nghé, Quận 1]]
+- tel:0903636940
+- *Open:* 11 AM–3 PM 5–10 PM
+- From *Tiktok:* [[https://vm.tiktok.com/ZSjRVVD4h][tiktok]]
+
+**** Drinks :DRINKS:
+
+**** Street-food :STREETFOOD:
+
+***** Cơm Hàu Minh Ký
+
+- *Address:*  [[https://www.google.com/maps/place/294+Tr%E1%BA%A7n+H%C6%B0ng+%C4%90%E1%BA%A1o+B,+Ph%C6%B0%E1%BB%9Dng+11,+Qu%E1%BA%ADn+5,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7523204,106.6629385,16z/data=!4m6!3m5!1s0x31752ef73815690f:0xb86c743a14743f1b!8m2!3d10.7523204!4d106.6629385!16s%2Fg%2F11cslq2vgf?force=pwa&source=mlapk][294B Trần Hưng Đạo Q5]]
+- *Open:* 4PM - 10PM
+
+** Logs :LOG:
+*** Đà Lạt 13/09/24
+
+**** Visit
+
+***** Food
+
+***** Check-ins
+
+***** Cafe
+
+**** 130924
+
+Taxi: 146K
+Dinner: 50K
+
+Total: 196K
+
+**** 140924
+
+- Expense tracking:
+  Fuel: 50K*
+  Breakfast: 40K*
+  Xôi: 15K*
+  Bạc Sỉu: 20K*
+  Bánh: 29K~*
+  Nướng: 167.5K*
+  Đậu nành: 22K*
+
+Total: 344K*
+
+**** 150924
+
+Bánh Căn: 200K
+Cf: 260K
+Mì: 310K
+Bánh: 62K
+Bakery: 468K
+lẩu bò: 336K
+Kem bơ: 50K
+
+Total: 1.686K
+
+**** 160924
+
+Cf: 60K*
+Bánh mì: 15K
+Xe máy: 500K
+Xe về: 290K*
+ks: 310K*
+

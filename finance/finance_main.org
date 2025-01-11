@@ -275,7 +275,7 @@ d. Special account handles only one type of currency
 3. Keep doing step 2 forever
    - Roll up the books, move the total of your *income* and *expense* to *equity*, and zero out your *income* and *expense* accounts once a year
 
-** DOING Beancount Double-entry bookkeeping :VIM:BEANCOUNT:
+** PENDING Beancount Double-entry bookkeeping :VIM:BEANCOUNT:
 
 - *Visit:* [[https://beancount.github.io/docs/][beancount DOCS]]  [[https://beancount.github.io/docs/beancount_cheat_sheet.html][beancount-syntax-pta]]
 - *Visit:* [[https://github.com/simonmichael/hledger][github]]

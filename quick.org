@@ -72,7 +72,7 @@ CLOSED: [2024-11-07 Thu 06:08]
 - *Stumble upon:* [[https://github.com/hrsh7th/nvim-cmp/issues/179][issue@github]]
 - *Goal(s):* config nvim to work with nvim-cmp nvim-supertab
 
-* TODO Github wiki :GITHUB:
+* PENDING Github wiki :GITHUB:
 
 - *Goal(s):* learn to write a github wiki page
 
@@ -102,7 +102,8 @@ DEADLINE: <2024-12-30 Mon 16:00 -2h>
 - *Address:* [[https://maps.app.goo.gl/HPc8YU7fWxvmYJvr8][d7/204 QL50, Phong Phú, Bình Chánh]]
 - *Contact:* tel:02836364730
 
-* PENDING Convert nvim :NVIM:
+* TODO Convert nvim :NVIM:
+DEADLINE: <2025-01-11 Sat 18:00>
 
 - *Goal(s):* convert [[~/.config/nvim/init.vim][init.vim]] to [[~/.config/nvim/lua/init.lua][init.lua]]
   - Run ~nvim +:help lua_guide"~ for built-in conversion guide from vim script to lua
@@ -160,10 +161,10 @@ CLOSED: [2025-01-07 Tue 00:55] SCHEDULED: <2025-01-06 Mon 21:00-23:00>
 - *Destination:* /insert destination link here/
 - *Contact:* /tel:/
 
-** TODO [#A] Birthday present :URGENT:ONEOFF:
-DEADLINE: <2025-01-10 Fri 00:00-23:00 ++1d -1w>
+** DONE [#A] Birthday present :URGENT:ONEOFF:
+DEADLINE: <2025-01-14 Tue 00:00-23:00 ++1d -1w>
 :PROPERTIES:
-:LAST_REPEAT: [2025-01-09 Thu 02:29]
+:LAST_REPEAT: [2025-01-11 Sat 03:22]
 :END:
 
 - *Goal:* find a suitable birthday present within budget - *300K* 
@@ -208,7 +209,18 @@ CLOSED: [2025-01-10 Fri 02:27]
 
 - *Goal(s):* working on integrate AI with ~kitty~
 
-*** Nvim integration
+*** Nvim integration :NVIM:
 
 - *Goal(s):* render response in markdown to take advantage of nvim markdown render
 
+** Working with Google AI
+- *Goal(s):* create workspace with [[https://pypi.org/project/google-generativeai/][google-generativeai sdk]]
+- *Resources:*  [[https://github.com/google-gemini/cookbook][cookbook]]  [[https://ai.google.dev][documentation]]
+
+* TODO Dunst config :LINUX:
+
+- *Goal(s):* config dunst volume and brightness slider
+  - [ ] volume slider
+  - [ ] brightness slider
+
+- *Resource:*  [[https://github.com/Shringe/dunst-media-control][github]]

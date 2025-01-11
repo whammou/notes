@@ -173,6 +173,7 @@ DEADLINE: <2025-01-14 Tue 00:00-23:00 ++1d -1w>
 DEADLINE: <2025-01-11 Sat 18:00>
 
 - *Goal(s):* update note repo structure for more optimal workflow
+- *NOTE:* checkout [[./README.org][README]] and find a suitable repo structure
 
 * DOING [#C] Integrate Google AI :LINUX:
 DEADLINE: <2025-01-11 Sat 05:00>

@@ -81,6 +81,7 @@ CLOSED: [2024-10-07 Mon 20:22]
 - *Solution:* Implemented new shampoo and conditioner day schedules  [[#conditioner_day]]  [[#shampoo_day]]
 
 ** Gym information
+
 - *Goal(s):* collect information on different gyms
 - *Visit:* 
 

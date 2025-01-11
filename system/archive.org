@@ -1,4 +1,4 @@
-#+TITLE: Template Archive
+#+TITLE: Systems Archive
 #+DESCRIPTION: Description for archive here
 
 * Archives :SYSTEM:ARCHIVED:

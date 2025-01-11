@@ -1,7 +1,7 @@
 #+TITLE: Systems Archive
 #+DESCRIPTION: Description for archive here
 
-* Archives :SYSTEM:ARCHIVED:
+* Archives :ARCHIVED:SYSTEM:
 
 Allocated space for archives
 

@@ -1,7 +1,7 @@
 #+TITLE: Template Archive
 #+DESCRIPTION: Description for archive here
 
-* Archives :ARCHIVED:
+* Archives :ARCHIVED:ROUTINE:
 
 Allocated space for archives
 

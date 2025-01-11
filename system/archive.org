@@ -1,0 +1,648 @@
+#+TITLE: Template Archive
+#+DESCRIPTION: Description for archive here
+
+* Archives :SYSTEM:ARCHIVED:
+
+Allocated space for archives
+
+** Documents :DOC:
+*** DONE Orgmode Manual
+CLOSED: [2024-11-07 Thu 06:08]
+
+/Because ~orgzly-android~ is under development and features are limited some implementations will be a work around and possibly revisit in the future, check for request features/ [[https://github.com/orgzly-revived/orgzly-android-revived/issues/88][prioritized requested features]]
+
+**** DONE Orgmode Include Files
+CLOSED: [2024-09-06 Fri 21:35]
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-09-11 Wed 04:59
+:ARCHIVE_FILE: /home/whammou/notes/personal.org
+:ARCHIVE_CATEGORY: personal
+:ARCHIVE_TODO: TODO
+:END:
+
+- *Goal:* Include files from across org files
+- *Resources:* [[https://orgmode.org/manual/Include-Files.html][org manual]]
+
+**** DONE Orgmode Search
+CLOSED: [2024-09-30 Mon 03:38]
+
+****Goal(s):* Learn to search in orgmode repo
+****Stumble-upon:* [[https://www.orgzlyrevived.com/docs#search][orgzly-manual]]  [[https://orgmode.org/worg/org-tutorials/advanced-searching.html][nvim-orgmode]]
+
+/For now, ~orgzly-android~ does not support search by property, check/ [[https://github.com/orgzly/orgzly-android/issues/146][issue:search by property drawer]]
+
+**** DONE Orgmode Hyperlink
+CLOSED: [2024-10-08 Tue 22:58]
+
+**Visit:* [[https://github.com/nvim-orgmode/orgmode/blob/master/DOCS.md#hyperlinks][nvim-orgmode#hyperlink]] see how nvim-orgmode handle hyperlink
+**Note:* Cross file include
+
+**** DONE Orgmode Tag
+CLOSED: [2024-10-01 Tue 06:03]
+
+**Visit:* [[https://www.orgzly.com/docs#search][orgzly#search]] how orgzly handle headline ~tag~
+**Suggestion:* Use [[./README.org][README]] to generate a list of ~tags~ and its ~description~
+
+**** DONE Orgmode PROPERTIES
+CLOSED: [2024-10-01 Tue 06:03]
+
+- *Goal(s):* Read [[https://orgmode.org/manual/Properties-and-Columns.html][PROPERTIES@orgmanual]] 
+
+***** Property Syntax
+
+A. Properties are key-value pairs. When they are associated with single entry or with a tree they need to inserted in to special drawer with the name ~:PROPERTIES:~, which has to located right below a headline, and its planning line
+
+B. Depend on the value of ~org-use-property-inheritance~, a property set this way is associated either with a single entry, or with the subtree defined by the entry
+
+C. Properties can be inserted at the buffer level. That means they apply before the first headline and can be inherited by all entries in a file. Property blocks defined before the first headline must be at the top of the buffer with only comments above them
+
+\Note that a property can only have one try per drawer\
+
+Property values set with the global variable ~org-global-properties~ can be inherited by all entries in all Org files
+
+***** Special Properties
+
+Special properties provide an alternative access method to Org mode features, like the TODO sate or the priority of an entry:
+
+- ~#+FILETAG: :FOO:BAR:~: notebook tag
+
+**** PENDING Org2ical :ORGMODE:DATA:
+
+- *Goal:* Generate .ics files from .org files(use homelab for daily merge)
+- *Visit:*  [[https://pypi.org/project/org2ical/][org2ical package]] [[https://github.com/jacobmischka/ics-merger][icals merger]]
+
+**** DONE Orgmode social media integrate
+CLOSED: [2024-12-26 Thu 22:28]
+*** DONE Write better commit messages :GIT:
+CLOSED: [2024-09-21 Sat 22:31]
+
+- *Goal(s):* Write better and more comprehensive commit messages
+- *Stumble upon:* [[https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/]]
+
+**** The Anatomy of a Commit Message
+
+- *Basic:*
+  ~git commit -m <message>~
+- *Detailed:*
+  ~git commit -m <title> -m <description>~
+
+**** 5 Steps to write a better commit message
+- Note taken on [2024-09-21 Sat 21:37] \\
+  To come up with thoughtful commits consider the following: 
+  
+  - Why have I made these changes?
+  - What effect have my changes made?
+  - Why was the change needed?
+  - What are the changes in reference?
+
+1. *Capitalization and Punctuation:*
+   Capitalize the first word and do not end in punctuation. If using /Convention Commits/, remember to use all lowercase
+
+2. *Mood:*
+   Use imperative mood in the subject line. *Example -* ~Add fix~ for ~dark mode toggle state~. Imperative mood fives the tone you are giving in /order/ or /request/
+
+3. *Type of Commit:*
+   Specify the type of commit. It is recommended and can be even more beneficial to have consistent set of words to describe your changes. *Example:* /Bugfix/, /Update/, /Retractor/, /Bump/, and so on.
+
+4. *Length:*
+   The first line should ideally be no longer than 50 chars, and the body should be restricted to 72 chars
+
+5. *Content:*
+   Be direct, try to eliminate fillers words and phrases in theses sentences (*Example:* though, maybe, I think, kind of), Think like a journalist
+
+**** Conventional Commits
+
+Conventional Commit is a formatting convention that provides as set of rules to formulate a consistent commit message structure like so:
+
+#+NAME: Conventional Commit structure
+#+BEGIN_SRC
+<type>[option scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+#+END_SRC
+
+The commit ~type~ can include the following:
+
+- ~feat~ -a new feature is introduces with the changes
+- ~fix~ -a bug fix has occurred
+- ~chore~ -changes that do not relate to a fix or feature and don't modify src or test files (for example updating dependencies)
+- ~refractor~ -refactored code that neither fixes a bug nor adds a feature
+- ~doc~ - updates to documentation such as the README or other markdown files
+- ~style~ -changes that do not affect the meaning of the code, likely realted to code formatting such as white-space, missing semi-colons, and so on
+- ~test~ -including new or correcting previous tests
+- ~perf~ -performance improvements
+- ~ci~ -continuous integration related
+- ~build~ -changes tha affect the build system or external dependencies
+- ~revert~ -reverts a previous commit
+
+/The commit type subject line should be all lowercase with a character limit to encourage succinct descriptions/
+
+The ~[optional commit body]~ should be used to provide detail that cannot fit within the character limitations of the subject line description
+
+It is also good location to utilize ~BREAKING CHANGE: <description>~ to note the reason for a breaking change within the commit
+
+The ~[footer]~ is also optional. We use the footer to link the JIRA story what would be closed with these changes for example:
+~Closes D2!I-<JIRA #>~
+
+#+NAME: Full Conventional Commit Example
+#+BEGIN_SRC
+fix: fix foo to enable bar
+
+This fixes the broken behavior of the component by doing xyz. 
+
+BREAKING CHANGE
+Before this fix foo wasn't enabled at all, behavior changes from <old> to <new>
+
+Closes D2IQ-12345
+#+END_SRC
+
+> [!NOTE]
+> The ensure that these committing conventions remain consistent across developers, commit message linting can be configured before changes are able to be pushed up. [[https://commitizen-tools.github.io/commitizen/][Commitizen]] is a great tool to enforce standards, sync up semantic versioning, along with other helpful features
+
+** Lists :LIST:
+
+** Logs :LOG:
+*** DONE Vim buffer workflow :VIM:
+CLOSED: [2024-09-08 Sun 04:17]
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-09-11 Wed 04:59
+:ARCHIVE_FILE: /home/whammou/notes/personal.org
+:ARCHIVE_CATEGORY: personal
+:ARCHIVE_TODO: DONE
+:END:
+
+- *Goal:* Learn more efficient way to work with vim buffers
+- *Stumble Upon:* [[https://dev.to/iggredible/a-faster-vim-workflow-with-buffers-and-args-51kf][vim workflow]]
+
+*** DONE Vim jumps marks workflow :VIM:
+CLOSED: [2024-09-08 Sun 06:35]
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-09-11 Wed 04:59
+:ARCHIVE_FILE: /home/whammou/notes/personal.org
+:ARCHIVE_CATEGORY: personal
+:ARCHIVE_TODO: DONE
+:END:
+
+- *Goal:* Achieve faster workflow in vim with vim-mark
+- *Stumble upon:* [[https://github.com/chentoast/marks.nvim][chentoast/marks.nvim]]
+*** DONE [#A] Refactor notes@github :GITHUB:ORGMODE:
+CLOSED: [2024-10-07 Mon 02:39] SCHEDULED: <2024-10-05 Sat 00:00>
+
+- *Goal(s):* 
+  - [X] Rebase #trunk to #main [[https://github.com/whammou/notes][notes@github]]
+  - [X] Merge @cuisine and @travel to @experience
+
+**** Merge git-trunk to git-main
+
+- *Goal(s):* Successfully solve merge conflicts and merge git-trunk to git-main
+
+**** Write README page
+
+- *Goal(s):* Write a comprehensive README for [[https://github.com/whammou/notes][notes@github]]
+
+*** DONE [#B] nvim-fzf :FZF:
+CLOSED: [2024-09-08 Sun 04:15]
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-09-11 Wed 04:59
+:ARCHIVE_FILE: /home/whammou/notes/personal.org
+:ARCHIVE_CATEGORY: personal
+:ARCHIVE_TODO: TODO
+:END:
+
+- *Goal*: Look for a way to printout file full path at cursor location
+
+*** DONE Systemd run task on shutdown :SYSTEMD:
+CLOSED: [2024-09-08 Sun 04:17]
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-09-11 Wed 04:59
+:ARCHIVE_FILE: /home/whammou/notes/personal.org
+:ARCHIVE_CATEGORY: personal
+:ARCHIVE_TODO: DONE
+:END:
+
+- *Goal:* Reset tlp charge threshold on shutdown
+
+**** Resources
+
+- Visit [[https://a.opnxng.com/exchange/unix.stackexchange.com/questions/39226/how-to-run-a-script-with-systemd-right-before-shutdown][overflow answer]]
+- Visit [[https://www.freedesktop.org/software/systemd/man/latest/systemd.special.html][systemd special targets]]
+
+*** DONE Big Data Languages :DATA:
+CLOSED: [2024-08-29 Thu 22:52]
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-09-11 Wed 04:59
+:ARCHIVE_FILE: /home/whammou/notes/personal.org
+:ARCHIVE_CATEGORY: personal
+:ARCHIVE_TODO: DONE
+:END:
+
+- *Goal:* Store data of monitored workout sessions
+- *Resources:* [[https://www.youtube.com/watch?v=LkriaLlkByM&t=66][yt: csv vs json vs xml]]
+
+*** DONE Keep Public IP address after reboot :DATA:
+CLOSED: [2024-09-07 Sat 21:24] DEADLINE: <2024-09-11 Wed 22:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-09-11 Wed 04:59
+:ARCHIVE_FILE: /home/whammou/notes/personal.org
+:ARCHIVE_CATEGORY: personal
+:ARCHIVE_TODO: TODO
+:END:
+
+- *Goal:* Keep router public IP address across reboots
+- Contact Viettel tel:18008098
+
+*** DONE Create folder in webdav dir :DATA:
+CLOSED: [2024-09-10 Tue 20:33]
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-09-11 Wed 04:59
+:ARCHIVE_FILE: /home/whammou/notes/personal.org
+:ARCHIVE_CATEGORY: personal
+:ARCHIVE_TODO: 
+:END:
+
+- *Visit:* [[https://docs.oracle.com/cd/E21764_01/doc.1111/e10978/c08_folders.htm#CSMRC722][managing webdav folder]]
+[[./test/file.org][test file]]
+[[./file.org]]
+
+**** Orgzly github repo SSH
+
+- *Visit:* [[https://docs.github.com/en/authentication/connecting-to-github-with-ssh][github ssh doc]]
+
+***** Repo Structure
+
+- *Goal(s):* Experimenting orgzly-repo structure
+- Read this file on orgzly [[./README.org]]
+- [X] Read [[./EEET2604/number_system.md][file]] on android ~does NOT work~
+
+**** Workflow with Mgit
+
+- *Goal:* Recurs sync from github with Mgit
+
+*** DONE Config system themes
+CLOSED: [2024-09-27 Fri 03:17]
+
+Re-config system theme for better aesthetic
+
+**** Parse ~bat~ as ~man~ pager
+
+Setting ~bat~ as ~man~ output pager, run the following commands:
+~set -U MANPAGER "sh -c 'col -bx | bat -l man -p'"~
+Might also need to run:
+~set -U MANROFFOPT "-c"~
+
+**** Config ~fzf~ theme
+
+Modify [[https://github.com/catppuccin/fzf][catpuccin-fzf]] theme
+
+#+NAME: catpuccin-fzf theme
+#+BEGIN_SRC
+set -Ux FZF_DEFAULT_OPTS "\
+--color=bg+:#313244,bg:#1e1e2e,spinner:#f5e0dc,hl:#f38ba8 \
+--color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \
+--color=marker:#b4befe,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8 \
+--color=selected-bg:#45475a \
+--multi"
+#+END_SRC
+
+#+NAME: OneDarket-fzf fish
+#+BEGIN_SRC
+set -Ux FZF_DEFAULT_OPTS "\
+--color=bg+:#313244,bg:#000000,spinner:#ff6700,hl:#ff005c \
+--color=fg:#93a4c3,header:#ff005c,info:#ae00ff,pointer:#ff6700 \
+--color=marker:#41a7fc,fg+:#cdd6f4,prompt:#ae00ff,hl+:#ff005c \
+--color=selected-bg:#004646 \
+--multi"
+#+END_SRC
+
+#+NAME: OneDarkest-fzf bash
+#+BEGIN_SRC
+export FZF_DEFAULT_OPTS "\
+--color=bg+:#313244,bg:#000000,spinner:#ff6700,hl:#ff005c \
+--color=fg:#93a4c3,header:#ff005c,info:#ae00ff,pointer:#ff6700 \
+--color=marker:#41a7fc,fg+:#cdd6f4,prompt:#ae00ff,hl+:#ff005c \
+--color=selected-bg:#004646 \
+--multi"
+#+END_SRC
+
+***** DONE Config ~fzf~ menu
+CLOSED: [2024-09-27 Fri 01:16] DEADLINE: <2024-09-26 Thu 22:00>
+
+***Goal(s):* Fully config ~fzf~ to work as a menu and complete with themes
+***Stumble upon:* [[https://github.com/junegunn/fzf/issues/70][Using fzf as selection menu@github]]
+
+****** Passing shell variables
+
+~fzf~ uses ~FZF_DEFAULT_OPTS~ as config, run ~export~ to pass variable to sub-shells
+
+*** DONE Vim-fugitive workflow :GIT:NVIM:ARCHIVE:
+CLOSED: [2024-10-07 Mon 22:27]
+
+- *Goal:* Improve git workflow and merge conflicts
+- *Stumble upon:* [[https://www.youtube.com/playlist?list=PLmcTCfaoOo_jP2mViI_3d1aZrbueLyArh][DevOps git playlist]]
+
+**** Working with vim-fugitive
+
+Develop a suitable workflow with vim-fugitive
+
+- *Source(s):* [[https://redlib.seasi.dev/r/vim/comments/tcb29t/video_a_great_git_workflow_with_vimfugitive/][reddit]]  [[https://dzx.fr/blog/introduction-to-vim-fugitive/][fugitive_in_action@blog]]
+> [!NOTE]
+> Run ~:help fugitive~ in ~nvim~ for fugitive documentation
+
+**** Record changes
+
+The summer buffer constitutes Fugitive's main interface, from which you can stage diff, and commit files to record changes to Git repository
+
+***** Summary view
+
+Run ~:G~ without arguments to access the main summary buffer (interative equivalent of ~git status~)
+
+/For the status, you can use Vim's built in window management commands, like ~:only~ to hide windows other than the focues one (same as ~<C-w><C-o>~). You can chain it after a Git command as ~:G | only~/
+
+> [!NOTE]
+> Press ~g?~ inside the buffer for quickly open documentation at the key mappings section
+
+***** Track files
+
+**** Useful keybinds
+
+a. ~ca~ to amend the last commit
+b. ~cw~ to reword the last commit
+c. ~cf~ to create a fixup commit
+d. ~crc~ to revert the commit under the cursor
+
+*** DONE Git workflow keybind :GIT:ARCHIVE:
+CLOSED: [2024-10-07 Mon 22:27]
+
+- *Goal(s):* Add vim-fugitive keybinds to optimize workflow
+- *Stumble upon:* [[https://youtube.com/watch?v=57x4ZzzCr2Y][nvim+fugitive+lazygit@youtube]] [[https://github.com/jesseduffield/lazygit][lazygit@github]]
+
+*** DONE Symlink :TERMUX:
+CLOSED: [2024-10-07 Mon 04:39]
+
+- *Source:* [[https://wiki.termux.com/wiki/Internal_and_external_storage][termux wiki]]
+  run: ~termux-setup-storage~
+
+*** TODO Github search query :GITHUB:
+
+- *Goal(s):* Learn github search queries
+
+*** DONE Tmux selection-panel script :TMUX:
+CLOSED: [2024-10-07 Mon 04:38]
+
+- *Goal(s):* Config tmux selection panel with qtile scratch board for quick access
+- *Stumble upon:*  [[https://linuxier.com/how-to-list-sessions-in-tmux/][How to list tmux sessions]]  [[https://gist.github.com/vaughany/483324b983ac51281ef63bb672f6c1ed][.tmux.conf]]
+
+*** PENDING Qutebrowser config :QUTEBROWSER:
+
+- *Goal:* implement text to speech to qutebrowser
+- *Stumble upon:* [[https://redlib.seasi.dev/r/qutebrowser/comments/w4pv2v/configpy_ideas/][qutebrowser tts config idea]]
+
+**** Rebind set-mark function
+
+- *Goal:* rebind set-mark func to match vim
+
+#+NAME: config.py bind command
+#+BEGIN_SRC: python
+  config.bind('m', 'mode-enter set_mark')
+#+END_SRC
+
+*** PENDING View vim-dap :NVIM:
+
+- *Goal:* Take a look at vim
+- [[https://github.com/mfussenegger/nvim-dap][documentation]]
+
+*** DONE Config xdg-open :LINUX:
+CLOSED: [2024-10-07 Mon 22:27]
+
+- *Goal:* Config xdg-open to open demanding file types
+
+*** PENDING Refactor dotfiles@github :GITHUB:
+
+- *Goal:* re flow [[https://github.com/whammou/dotfiles][dotfiles-repo]] to work with my client and server
+
+**** Fork repos
+
+Fork [[https://github.com/whammou/dotfiles][dotfiles-main]] to another repo and use that repo for server configs, then merge arch-branch to main repo and use as client configs
+
+**** Merge arch to main
+
+Merge arch to main branch
+
+**** Develop install script
+
+- *Goal:* Develop install script for [[https://github.com/whammou/dotfiles][dotfiles]]
+
+*** PENDING Github workflow doc :GITHUB:
+
+- *Stumble upon:* [[https://docs.github.com/en/get-started/using-git/about-git][Git handbook]]
+
+*** PENDING Config Neomutt :NEOMUTT:
+
+- *Goal(s):* Determine if its worth to include [[https://neomutt.org/guide/gettingstarted.html][Neomutt]] in workflow
+
+*** PENDING Zathura Doc :ZATHURA:
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-09-11 Wed 04:59
+:ARCHIVE_FILE: /home/whammou/notes/personal.org
+:ARCHIVE_CATEGORY: personal
+:ARCHIVE_TODO: IN-PROGESS
+:END:
+
+- *Goal:* Learn to navigate and notate in Zathura sufficiently
+- *Documentation:* [[https://pwmt.org/projects/zathura/documentation/]]
+
+*** DONE Integrate Github link :NVIM:GITHUB:
+CLOSED: [2024-12-26 Thu 22:27]
+
+***Goal:* Integrate github orgmode render for android
+
+**** Git-link snippet
+
+***Goal(s):* Write an ultilsnip snippet for repo link on github at current cursor location
+***Stumble upon:* [[https://github.com/jltwheeler/nvim-git-link]]
+
+*** DONE Script orgmode scratchpad :NVIM:ORGMODE:
+CLOSED: [2024-10-07 Mon 02:06]
+
+- *Goal(s):* Create an nvim-orgmode scratchpad with ~qtile~
+- *Stumble upon:* [[https://curtismchale.ca/2023/12/20/ultimate-keyboard-control-task-management-nvim-orgmode/][nvim-orgmode workflow]]
+
+*** PENDING Spreadsheet data visualize :DATA:DOC:
+:PROPERTIES:
+:CUSTOM_ID: visidata
+:END:
+
+- *Goal(s):* implement .csv for data tracking
+- *Stumble upon:* python data visualizer  [[https://www.visidata.org/][visidata]]
+- *DOCS:* [[https://github.com/saulpw/visidata/wiki/Screen-Layout][visidata DOCS][documents]]
+
+*** DONE [#B] Linux G-suite :LINUX:
+CLOSED: [2024-10-22 Tue 00:13] DEADLINE: <2024-10-20 Sun 22:00>
+
+- *Goal:* Integrate G-suites with Linux
+- [NOTE]: failed to build g-suite-electron on arch linux
+  
+  Change integrate g-suite using Qutebrowser
+
+*** DONE Arch input method :LINUX:
+CLOSED: [2024-11-08 Fri 04:51]
+
+- *Goal(s):* added Vietnamese and German input method to arch
+- *Visit:* [[https://wiki.archlinux.org/title/Input_method][input_method@archwiki]]
+-  *Resource:*  [[https://www.youtube.com/watch?v=lJoXhS4EUJs]]  [[https://wiki.archlinux.org/title/Fcitx][fcitx@archwiki]]
+
+**** Input Methods
+
+In an operating system component or program that enables users to generate characters not natively available to their input devices by using sequences of characters that are natively available on their input devices
+
+***** Setup fcitx5
+
+Some GUI toolkits provide input method modules support for input method integration in applications. However they're not always needed  
+
+***** Environment Variable
+
+- *Source(s):* [[https://www.freecodecamp.org/news/how-to-set-an-environment-variable-in-linux/][env_var@codecamp]] [[https://wiki.archlinux.org/title/Environment_variables#Graphical_environment][set env var@archwiki]]
+
+~Environment Variables~ are the variables specific to a certain environment
+
+****** List Environment Variables
+
+Run ~env~ to display all the environment variables defined for a current session
+
+****** Print Environment Variables
+
+Run ~printenv VARIBLE_NAME~ or ~echo $varname~ to print the value of a certain variable 
+
+****** Set Environment Variables
+
+Run ~Export VARIABLE_NAME=value~ to define a variable 
+
+*** PENDING Clean up $HOME :LINUX:
+
+- *Goal(s):* clean up $HOME dir
+- *Stumble upon:* [[https://github.com/b3nj5m1n/xdg-ninja][xdg-ninjja@github]]
+
+*** DONE Install Latex nvim-treesitter parser :NVIM:
+CLOSED: [2024-10-31 Thu 01:38]
+
+- *Goal(s):* Integrate latex parser to nvim to write tex math in markdown
+- *Source(s):* [[https://github.com/latex-lsp/tree-sitter-latex]]
+  
+  To run generate parser, run: ~npx tree-sitter generate~ (~npx~ package comes with ~npm~)
+  
+  - Required ~treesitter-cli~ to intergrate:
+    1. run ~git clone https://github.com/latex-lsp/tree-sitter-latex~
+    2. cd into tree-sitter and generate parser then run ~treesitter generate~
+  
+  - [[https://github.com/nvim-treesitter/nvim-treesitter/wiki/Installation][nvim-treesitter installation]] installation in config
+  
+  ** Open markdown at headline :NVIM:
+  
+  - *Goal(s):* find a way to open markdown at certain headline
+  - *Visit:* [[https://a.opnxng.com/exchange/stackoverflow.com/questions/51187658/markdown-reference-to-section-from-another-file][cross file reference]]
+
+*** Neovim auto completion :NVIM:
+
+- *Goal(s):* config nvim-lspconfig to work with  [[https://github.com/ms-jpq/coq_nvim][coq.nvim@github]]
+- *Stumble upon:*  [[https://neovim.io/doc/user/lsp.html][docs]]
+
+**** Differences between LSP and code completion
+
+Differences between LSP and code-completion, liner
+
+***** What is LSP
+
+LSP stands for "Language server protocol" and it is standardized information on a language include ~code completer~ and ~linter~ role into one. However a LSP run separately from the editor and thus has to be connected to the editor
+
+**** Config LSP for neovim
+
+- *Visit:* [[https://github.com/neovim/nvim-lspconfig][nvim-lspconfig@github]]
+
+*** DONE Terminal rework :LINUX:
+CLOSED: [2024-12-06 Fri 20:56]
+
+- *Goal:* rework linux terminal
+
+**** DONE Implement nvim image :LINUX:NVIM:
+CLOSED: [2024-12-05 Thu 01:48]
+
+- *Goal(s):* adding image support to nvim for better documentation render
+- *Stumble upon:*  [[https://github.com/3rd/image.nvim][nvim-imgage@github]]
+
+***** Config Kitty
+
+- *Goal(s):* config kitty to replace alacritty (take advantage of kitty image protocol)
+- *Source(s):*  [[https://github.com/kovidgoyal/kitty][kitty@github]]
+
+****** DONE Terminal colors
+CLOSED: [2024-12-04 Wed 19:37] DEADLINE: <2024-12-04 Wed 07:00>
+
+- *Goal(s):* update terminal colors mappings
+  - [X] kitty 
+  - [X] fastfetch
+  - [X] fish
+  - [X] starship shell
+
+***** DONE Render html in markdown
+CLOSED: [2024-12-04 Wed 15:16]
+
+- *Goal(s):* render html syntax image inside markdown
+
+**** DONE Integrate markdown headline :LINUX:NVIM:GITHUB:
+CLOSED: [2024-12-06 Fri 20:55]
+
+- *Goal(s):* create link to a specific headline in a markdown file
+- *Visit:* [[https://github.com/chimay/organ?tab=readme-ov-file][organ@github]]
+
+*** DONE Systemd power supply detection :SYSTEMD:
+CLOSED: [2024-12-16 Mon 02:55] DEADLINE: <2024-12-15 Sun 20:00>
+
+- *Goal(s):* Adding power supply detection to systemd via udev rules
+- *Stumble upon:* [[https://chrisdown.name/2017/10/29/adding-power-related-targets-to-systemd.html][adding power related targets to systemd]]
+
+*** DONE Systemd service :SYSTEMD:
+CLOSED: [2024-12-21 Sat 02:39] DEADLINE: <2024-12-21 Sat 00:00>
+
+- *Goal:* set ~tlp~ on top most of shutdown target
+- *Solution:* [[https://old.reddit.com/r/linuxquestions/comments/udr7ch/running_systemd_service_on_shutdown_before/][systemd service on shutdown]]
+
+**** DONE Systemd multiple triggers :SYSTEMD:
+CLOSED: [2024-12-21 Sat 02:39] DEADLINE: <2024-12-21 Sat 00:00>
+
+- *Goal:* implement multiple triggers for a systemd service
+*** ABORTED [#C] Config xfcit5
+CLOSED: [2024-11-27 Wed 12:03] DEADLINE: <2024-11-13 Wed 20:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-12-14 Sat 11:10
+:ARCHIVE_FILE: /home/whammou/notes/computer/computer_main.org
+:ARCHIVE_OLPATH: Description
+:ARCHIVE_CATEGORY: computer_main
+:ARCHIVE_TODO: ABORTED
+:END:
+
+- *Goal:* rebind keys and adjust theme
+*** ABORTED Config lazy.nvim
+CLOSED: [2024-12-04 Wed 15:16]
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-12-14 Sat 11:12
+:ARCHIVE_FILE: /home/whammou/notes/computer/computer_main.org
+:ARCHIVE_OLPATH: Description/Terminal rework
+:ARCHIVE_CATEGORY: computer_main
+:ARCHIVE_TODO: ABORTED
+:END:
+
+- *Goal(s):* rewrite config init in lua
+*** ABORTED Orgzly android comments
+CLOSED: [2024-09-29 Sun 22:07]
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-12-14 Sat 11:12
+:ARCHIVE_FILE: /home/whammou/notes/computer/orgmode.org
+:ARCHIVE_OLPATH: Description/Orgmode Manual
+:ARCHIVE_CATEGORY: orgmode
+:ARCHIVE_TODO: ABORTED
+:END:
+*** DONE [#B] Dual boot :SYSTEM:
+CLOSED: [2024-10-24 Thu 00:01] DEADLINE: <2024-10-20 Sun 20:00>
+

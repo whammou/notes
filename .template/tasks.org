@@ -1,0 +1,20 @@
+#+TITLE: Template Notebook
+#+DESCRIPTION: Add notebook description here
+
+* Tasks
+
+Allocated space for tasks/todos
+
+** One-off :ONEOFF:
+
+** Incidental :INCIDENTAL:
+
+** Coordinated :COORDINATED:
+
+** Performance :PERFORMANCE:
+
+** Urgent :URGENT:
+
+
+** Recurring :RECURRING:
+

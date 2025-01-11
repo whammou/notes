@@ -102,7 +102,7 @@ DEADLINE: <2025-01-13 Mon 16:00 -2h>
 - *Address:* [[https://maps.app.goo.gl/HPc8YU7fWxvmYJvr8][d7/204 QL50, Phong Phú, Bình Chánh]]
 - *Contact:* tel:02836364730
 
-* TODO Convert nvim :NVIM:
+* TODO [#B] Convert nvim :NVIM:
 DEADLINE: <2025-01-11 Sat 18:00>
 
 - *Goal(s):* convert [[~/.config/nvim/init.vim][init.vim]] to [[~/.config/nvim/lua/init.lua][init.lua]]
@@ -169,12 +169,12 @@ DEADLINE: <2025-01-14 Tue 00:00-23:00 ++1d -1w>
 
 - *Goal:* find a suitable birthday present within budget - *300K* 
 
-* TODO Overhaul Note repo :GIT:ONEOFF:
+* TODO [#A] Overhaul Note repo :GIT:ONEOFF:
 DEADLINE: <2025-01-11 Sat 18:00>
 
 - *Goal(s):* update note repo structure for more optimal workflow
 
-* DOING Integrate Google AI :LINUX:
+* DOING [#C] Integrate Google AI :LINUX:
 DEADLINE: <2025-01-11 Sat 05:00>
 
 - *Goal:* integrate bard AI to workflow

@@ -1,6 +1,0 @@
-#+TITLE: Travel Notebook
-
-* Description :TRAVEL:
-
-Travel logs and planning
-

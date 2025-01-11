@@ -360,7 +360,7 @@ Run ~printenv VARIBLE_NAME~ or ~echo $varname~ to print the value of a certain v
 
 Run ~Export VARIABLE_NAME=value~ to define a variable 
 
-** TODO Clean up $HOME :COMPUTER:LINUX:
+** PENDING Clean up $HOME :COMPUTER:LINUX:
 
 - *Goal(s):* clean up $HOME dir
 - *Stumble upon:* [[https://github.com/b3nj5m1n/xdg-ninja][xdg-ninjja@github]]

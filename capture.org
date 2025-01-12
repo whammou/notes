@@ -146,8 +146,8 @@ DEADLINE: <2025-01-14 Tue 00:00-23:00 ++1d -1w>
 
 - *Goal:* find a suitable birthday present within budget - *300K* 
 
-* TODO [#A] Overhaul Note repo :GIT:ONEOFF:
-DEADLINE: <2025-01-11 Sat 18:00>
+* DONE [#A] Overhaul Note repo :GIT:ONEOFF:
+CLOSED: [2025-01-13 Mon 00:59] DEADLINE: <2025-01-11 Sat 18:00>
 
 - *Goal(s):* update note repo structure for more optimal workflow
 - *NOTE:* checkout [[./README.org][README]] and find a suitable repo structure
@@ -197,7 +197,6 @@ CLOSED: [2025-01-10 Fri 02:27]
 
 - *Goal(s):* render response in markdown to take advantage of nvim markdown render
 
-
 *** Shellgpt run-test
 DEADLINE: <2025-01-12 Sun 18:00>
 
@@ -222,3 +221,4 @@ DEADLINE: <2025-01-12 Sun 18:00>
 SCHEDULED: <2025-01-12 Sun 12:15>
 
 - Essay review: [[https://docs.google.com/document/d/1-ktw5Ltzat7aWSUX9Jz8XylWnjQgiel-9wEgDlFjlLs/edit?usp=sharing][introduction letter]]
+

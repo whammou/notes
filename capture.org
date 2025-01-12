@@ -197,7 +197,7 @@ CLOSED: [2025-01-10 Fri 02:27]
 
 - *Goal(s):* render response in markdown to take advantage of nvim markdown render
 
-*** Shellgpt run-test
+*** DOING Shellgpt run-test
 DEADLINE: <2025-01-12 Sun 18:00>
 
 - *Goal(s):* run test shellgpt with Gemini AI
@@ -217,8 +217,8 @@ DEADLINE: <2025-01-12 Sun 18:00>
 
 - *Resource:*  [[https://github.com/Shringe/dunst-media-control][github]]
 
-* TODO Review essay
-SCHEDULED: <2025-01-12 Sun 12:15>
+* DOING Review essay
+SCHEDULED: <2025-01-14 Tue 12:15>
 
 - Essay review: [[https://docs.google.com/document/d/1-ktw5Ltzat7aWSUX9Jz8XylWnjQgiel-9wEgDlFjlLs/edit?usp=sharing][introduction letter]]
 

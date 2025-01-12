@@ -152,8 +152,8 @@ DEADLINE: <2025-01-11 Sat 18:00>
 - *Goal(s):* update note repo structure for more optimal workflow
 - *NOTE:* checkout [[./README.org][README]] and find a suitable repo structure
 
-
 ** Modify README
+
 - *Goal(s):* modify and add README content
   - [ ] modify [[./README.org::repo-hierarchy][Hierachy]]
   - [ ] add template struc
@@ -209,4 +209,9 @@ CLOSED: [2025-01-10 Fri 02:27]
   - [ ] brightness slider
 
 - *Resource:*  [[https://github.com/Shringe/dunst-media-control][github]]
+
+* TODO Review essay
+SCHEDULED: <2025-01-12 Sun 12:15>
+
+- Essay review: [[https://docs.google.com/document/d/1-ktw5Ltzat7aWSUX9Jz8XylWnjQgiel-9wEgDlFjlLs/edit?usp=sharing][introduction letter]]
 

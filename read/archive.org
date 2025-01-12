@@ -1,4 +1,4 @@
-#+TITLE: Template Archive
+#+TITLE: Read Archive
 #+DESCRIPTION: Description for archive here
 
 * Archives :ARCHIVED:

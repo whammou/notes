@@ -197,6 +197,14 @@ CLOSED: [2025-01-10 Fri 02:27]
 
 - *Goal(s):* render response in markdown to take advantage of nvim markdown render
 
+
+*** Shellgpt run-test
+DEADLINE: <2025-01-12 Sun 18:00>
+
+- *Goal(s):* run test shellgpt with Gemini AI
+- *Stumble upon:* 
+  - Github: [[https://github.com/TheR1D/shell_gpt/issues/514][discussion]]
+
 ** Working with Google AI
 
 - *Goal(s):* create workspace with [[https://pypi.org/project/google-generativeai/][google-generativeai sdk]]
@@ -214,4 +222,3 @@ CLOSED: [2025-01-10 Fri 02:27]
 SCHEDULED: <2025-01-12 Sun 12:15>
 
 - Essay review: [[https://docs.google.com/document/d/1-ktw5Ltzat7aWSUX9Jz8XylWnjQgiel-9wEgDlFjlLs/edit?usp=sharing][introduction letter]]
-

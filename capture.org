@@ -225,10 +225,7 @@ SCHEDULED: <2025-01-14 Tue 12:15>
 
 - Essay review: [[https://docs.google.com/document/d/1-ktw5Ltzat7aWSUX9Jz8XylWnjQgiel-9wEgDlFjlLs/edit?usp=sharing][introduction letter]]
 
-<<<<<<< HEAD
 * TODO Nvim optimization :NVIM:
 DEADLINE: <2025-01-13 Mon 22:00>
 
 - *Goal:* research ways to optimize nvim and manage new packages
-=======
->>>>>>> origin/main

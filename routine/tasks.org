@@ -15,8 +15,8 @@ Allocated space for tasks/todos
 
 ** Urgent :URGENT:
 
-
 ** Recurring :RECURRING:
+
 *** Self-care :SELFCARE:
 :PROPERTIES:
 :CUSTOM_ID: maintenance
@@ -88,7 +88,7 @@ CLOSED: [2024-10-07 Mon 19:50] SCHEDULED: <2024-10-07 Mon 05:00>
 **** Haircare :HAIRCARE:
 
 ***** Haircut
-DEADLINE: <2025-01-13 Mon 17:00 .+45d -1w>
+DEADLINE: <2025-01-13 Mon 17:00 .+45d -1w> SCHEDULED: <2025-01-13 Mon 17:30>
 :PROPERTIES:
 :LAST_REPEAT: [2024-11-09 Sat 14:44]
 :END:
@@ -120,6 +120,7 @@ Weekly shampoo schedule
 
 
 Weekly conditioner schedule
+
 *** Bikes maintenance :BIKE:
 
 Weekly and monthly bikes maintenance schedule
@@ -189,6 +190,7 @@ Weekly clothe washing and techniques
 **** PENDING Gardening :SCHEDULE:
 
 - *Goal(s):* come up with a consistent schedule for gardening
+
 *** Cooking :COOK:
 
 Meal-preps, cooking recipes and grocery planning  
@@ -264,6 +266,8 @@ Cooking phase
 
 Grocery plan for easy meal-prepping 
 - [ ] Tin foils
+
 *** PENDING Adding extra meal
 
 - *Goal:* adding one extra meal per day
+

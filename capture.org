@@ -158,6 +158,8 @@ CLOSED: [2025-01-13 Mon 00:59] DEADLINE: <2025-01-11 Sat 18:00>
   - [ ] modify [[./README.org::repo-hierarchy][Hierachy]]
   - [ ] add template struc
 
+<<<<<<< HEAD
+=======
 * DOING [#C] Integrate Google AI :LINUX:
 DEADLINE: <2025-01-11 Sat 05:00>
 
@@ -209,6 +211,7 @@ DEADLINE: <2025-01-12 Sun 18:00>
 - *Goal(s):* create workspace with [[https://pypi.org/project/google-generativeai/][google-generativeai sdk]]
 - *Resources:*  [[https://github.com/google-gemini/cookbook][cookbook]]  [[https://ai.google.dev][documentation]]
 
+>>>>>>> origin/main
 * TODO Dunst config :LINUX:
 
 - *Goal(s):* config dunst volume and brightness slider
@@ -222,3 +225,7 @@ SCHEDULED: <2025-01-14 Tue 12:15>
 
 - Essay review: [[https://docs.google.com/document/d/1-ktw5Ltzat7aWSUX9Jz8XylWnjQgiel-9wEgDlFjlLs/edit?usp=sharing][introduction letter]]
 
+* TODO Nvim optimization :NVIM:
+DEADLINE: <2025-01-13 Mon 22:00>
+
+- *Goal:* research ways to optimize nvim and manage new packages

@@ -275,7 +275,7 @@ DEADLINE: <2025-01-13 Mon 18:00>
   require("config.lazy")
   #+END_SRC  
 
-***** Switching config
+***** TODO Switching config
 DEADLINE: <2025-01-14 Tue 22:00>
 
 - *Goal:* successfully switching between different configs dir

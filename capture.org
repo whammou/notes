@@ -79,21 +79,6 @@ DEADLINE: <2025-01-14 Tue 16:00 -2h>
 - *Address:* [[https://maps.app.goo.gl/HPc8YU7fWxvmYJvr8][d7/204 QL50, Phong Phú, Bình Chánh]]
 - *Contact:* tel:02836364730
 
-* TODO [#B] Convert nvim :NVIM:
-DEADLINE: <2025-01-13 Mon 18:00>
-
-- *Goal(s):* convert [[~/.config/nvim/init.vim][init.vim]] to [[~/.config/nvim/lua/init.lua][init.lua]]
-  - Run ~nvim +:help lua_guide"~ for built-in conversion guide from vim script to lua
-
-- *Stumble upon:* [[https://github.com/nanotee/nvim-lua-guide][nvim-lua-guide]]
-
-** DONE Convert vim-plug to lazy.nvim :NVIM:
-CLOSED: [2024-12-27 Fri 22:56]
-
-DEADLINE: <2024-12-27 Fri 20:00>
-
-- *Goal(s):* replace plugin manager to [[https://github.com/folke/lazy.nvim][lazy.nvim]] for seamless integration with lua config
-
 * DONE Recover archlinux :LINUX:
 CLOSED: [2025-01-06 Mon 07:34] SCHEDULED: <2024-12-30 Mon 02:00-04:00>
 
@@ -139,7 +124,6 @@ CLOSED: [2025-01-07 Tue 00:55] SCHEDULED: <2025-01-06 Mon 21:00-23:00>
 - *Contact:* /tel:/
 
 ** DONE [#A] Birthday present :URGENT:ONEOFF:
-DEADLINE: <2025-01-14 Tue 00:00-23:00 ++1d -1w>
 :PROPERTIES:
 :LAST_REPEAT: [2025-01-11 Sat 03:22]
 :END:
@@ -173,9 +157,4 @@ CLOSED: [2025-01-13 Mon 00:59] DEADLINE: <2025-01-11 Sat 18:00>
 SCHEDULED: <2025-01-14 Tue 12:15>
 
 - Essay review: [[https://docs.google.com/document/d/1-ktw5Ltzat7aWSUX9Jz8XylWnjQgiel-9wEgDlFjlLs/edit?usp=sharing][introduction letter]]
-
-* TODO Nvim optimization :NVIM:
-DEADLINE: <2025-01-13 Mon 22:00>
-
-- *Goal:* research ways to optimize nvim and manage new packages
 

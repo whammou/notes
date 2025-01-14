@@ -218,6 +218,67 @@ DEADLINE: <2025-01-12 Sun 18:00>
 
 
 
+
+*** Nvim-lsp :NVIM:
+
+Nvim supports the Language Server Protocol (LSP), which means it acts as a client to LSP servers and includes a Lua framework `vim.lsp` for building enhanced LSP tools
+- *Run:* ~:help lsp~ for nvim-lsp guide
+- Setup [[https://github.com/neovim/nvim-lspconfig][nvim-lspconfig]]
+
+**** Language sever
+
+The ~Language Server Protocol~ (LSP) is an open, JSON-RPC-based protocol for use between source code editors or ~integrated development environments~ (IDES) and ~servers~ that provides /language intelligence tools/
+
+**** Markup language server
+
+Generally a good markup language server is texlab
+- *Resources:* [[https://github.com/latex-lsp/texlab][texlab]]
+*** Nvim optimization :NVIM:
+
+- *Goal:* research ways to optimize nvim and manage new packages
+
+**** TODO [#B] Convert nvim :NVIM:
+DEADLINE: <2025-01-13 Mon 18:00>
+
+- *Goal(s):* convert [[~/.config/nvim/init.vim][init.vim]] to [[~/.config/nvim/lua/init.lua][init.lua]]
+  - Run ~nvim +:help lua_guide"~ for built-in conversion guide from vim script to lua
+
+- *Stumble upon:* [[https://github.com/nanotee/nvim-lua-guide][nvim-lua-guide]]
+
+***** Modular nvim
+
+- *Goal(s):* convert singular ~init.vim~ to  [[https://www.kurtpeniket.tech/blog/neovim_lua_transition_vimplug_to_lazy][modular]] with vim config structure
+
+  #+NAME: overall stucture
+  #+BEGIN_SRC
+  .
+  ├── init.lua
+  ├── lazy-lock.json
+  ├── lua
+  │   ├── general.lua
+  │   ├── lsp_config.lua
+  │   ├── mappings.lua
+  │   └── plugins.lua
+  ├── old_init.vim
+  └── spell
+      ├── en.utf-8.add
+      └── en.utf-8.add.spl
+  #+END_SRC
+
+***** Convert vim-plug to lazy.nvim
+
+- *Goal(s):* replace plugin manager to [[https://github.com/folke/lazy.nvim][lazy.nvim]] for seamless integration with lua config
+
+****** Installation 
+
+- *Structured Setup:*
+  #+NAME: /.config/nvim/init.lua
+  #+BEGIN_SRC lua
+  require("config.lazy")
+  #+END_SRC  
+
+
+
 ** Lists :LIST:
 
 ** Logs :LOG:
@@ -443,7 +504,7 @@ CLOSED: [2024-10-07 Mon 04:39]
 - *Source:* [[https://wiki.termux.com/wiki/Internal_and_external_storage][termux wiki]]
   run: ~termux-setup-storage~
 
-*** TODO Github search query :GITHUB:
+*** PENDING Github search query :GITHUB:
 
 - *Goal(s):* Learn github search queries
 

@@ -13,7 +13,7 @@ Allocated space for tasks/todos
 
 - *Goal(s):* Find a way to keep track github repo updates and get notification from updates
 
-*** DOING Termux ssh :LINUX:TERMUX:
+*** PENDING Termux ssh :LINUX:TERMUX:
 
 - *Goal:* ssh to the server via Termux
 - *Visit:*  [[https://wiki.termux.com/wiki/Remote_Access]]

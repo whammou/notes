@@ -6,7 +6,7 @@
 Allocated space for archives
 
 ** Documents :DOC:
-*** TODO Navigate LibreTexts
+*** PENDING Navigate LibreTexts
 
 - *Goal(s):* Learn to navigate LibreTexts database
 - *Stumble upon:* [[https://www.directtextbook.com/articles/926/libretexts][navigate LibreTexts]]

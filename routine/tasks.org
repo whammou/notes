@@ -88,10 +88,11 @@ CLOSED: [2024-10-07 Mon 19:50] SCHEDULED: <2024-10-07 Mon 05:00>
 **** Haircare :HAIRCARE:
 
 ***** Haircut
-DEADLINE: <2025-01-13 Mon 17:00 .+45d -1w> SCHEDULED: <2025-01-13 Mon 17:30>
+DEADLINE: <2025-02-27 Thu 17:00 .+45d -1w>
 :PROPERTIES:
-:LAST_REPEAT: [2024-11-09 Sat 14:44]
+:LAST_REPEAT: [2025-01-13 Mon 21:15]
 :END:
+- State "DONE"       from "TODO"       [2025-01-13 Mon 21:15]
 
 - *Goal:* log a good cut
 file: 
@@ -134,6 +135,7 @@ SCHEDULED: <2025-01-07 Tue .+2m>
 :END:
 
 ****** TODO Check engine oil
+DEADLINE: <2025-01-14 Tue 17:00>
 
 - *Goal:* evaluate bike engine oil condition
 

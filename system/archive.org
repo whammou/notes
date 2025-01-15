@@ -275,6 +275,22 @@ DEADLINE: <2025-01-13 Mon 18:00>
   require("config.lazy")
   #+END_SRC  
 
+
+****** Setup plugins
+
+- Plugins are installed under ~$HOME/.config/nvim/lua/plugins/*.lua~ - every lua files under this dir are auto-merged with the config file
+- Plugin spec example:
+  #+NAME: spec example
+  #+BEGIN_SRC lua
+  return {
+    "folke/neodev.nvim",
+    "folke/which-key.nvim",
+    { "folke/neoconf.nvim", cmd = "Neoconf" },
+  }
+  #+END_SRC
+- More on plugin spec, visit: [[https://lazy.folke.io/spec]]
+
+
 ***** TODO Switching config
 DEADLINE: <2025-01-14 Tue 22:00>
 

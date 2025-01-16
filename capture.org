@@ -142,9 +142,6 @@ CLOSED: [2025-01-13 Mon 00:59] DEADLINE: <2025-01-11 Sat 18:00>
   - [ ] modify [[./README.org::repo-hierarchy][Hierachy]]
   - [ ] add template struc
 
-<<<<<<< HEAD
-=======
-
 * TODO Dunst config :LINUX:
 
 - *Goal(s):* config dunst volume and brightness slider

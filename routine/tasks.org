@@ -135,7 +135,7 @@ SCHEDULED: <2025-01-07 Tue .+2m>
 :END:
 
 ****** TODO Check engine oil
-DEADLINE: <2025-01-14 Tue 17:00>
+DEADLINE: <2025-01-19 Sun 17:00>
 
 - *Goal:* evaluate bike engine oil condition
 

@@ -150,8 +150,8 @@ CLOSED: [2025-01-13 Mon 00:59] DEADLINE: <2025-01-11 Sat 18:00>
 
 - *Resource:*  [[https://github.com/Shringe/dunst-media-control][github]]
 
-* DOING Review essay
-SCHEDULED: <2025-01-14 Tue 12:15>
+* DONE Review essay
+SCHEDULED: <2025-01-14 Tue 12:15> CLOSED: [2025-01-18 Sat 23:03]
 
 - Essay review: [[https://docs.google.com/document/d/1-ktw5Ltzat7aWSUX9Jz8XylWnjQgiel-9wEgDlFjlLs/edit?usp=sharing][introduction letter]]
 
@@ -160,7 +160,8 @@ SCHEDULED: <2025-01-14 Tue 12:15>
 - *Goal:* display ~chapter list~ on ~mpv~
 - *Visit:* [[https://old.reddit.com/r/mpv/comments/j7czzx/displaying_chapter_titles/][chapter list script]]
 
-* TODO Qutebrowser CSS :QUTEBROWSER:
+* DONE Qutebrowser CSS :QUTEBROWSER:
+CLOSED: [2025-01-18 Sat 23:03]
 
 - *Goal:* custom css for qutebrowser
 - *Visit:* [[https://github.com/alphapapa/solarized-everything-css]]

@@ -263,6 +263,18 @@ DEADLINE: <2025-01-13 Mon 18:00>
       └── en.utf-8.add.spl
   #+END_SRC
 
+
+****** Adding plugins
+
+- *Goal:* adding plugins
+
+
+****** Keymapping config
+
+- *Goal:* adding keymaps
+- *Keymapping syntax:*
+  - Keymappings can be set using command: ~vim.keymap.set()~ method
+
 ***** Convert vim-plug to lazy.nvim
 
 - *Goal(s):* replace plugin manager to [[https://github.com/folke/lazy.nvim][lazy.nvim]] for seamless integration with lua config

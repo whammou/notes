@@ -166,3 +166,10 @@ CLOSED: [2025-01-18 Sat 23:03]
 - *Goal:* custom css for qutebrowser
 - *Visit:* [[https://github.com/alphapapa/solarized-everything-css]]
 
+* TODO Cúng ông táo
+SCHEDULED: <2025-01-22 Wed 12:00 --3d>
+
+- [ ] Giấy cúng
+- Trái cây: 
+  - [ ] Táo
+

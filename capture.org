@@ -155,3 +155,12 @@ SCHEDULED: <2025-01-14 Tue 12:15>
 
 - Essay review: [[https://docs.google.com/document/d/1-ktw5Ltzat7aWSUX9Jz8XylWnjQgiel-9wEgDlFjlLs/edit?usp=sharing][introduction letter]]
 
+* TODO MPV script :MPV:
+
+- *Goal:* display ~chapter list~ on ~mpv~
+- *Visit:* [[https://old.reddit.com/r/mpv/comments/j7czzx/displaying_chapter_titles/][chapter list script]]
+
+* TODO Qutebrowser CSS :QUTEBROWSER:
+
+- *Goal:* custom css for qutebrowser
+- *Visit:* [[https://github.com/alphapapa/solarized-everything-css]]

@@ -67,7 +67,7 @@ CLOSED: [2024-12-26 Thu 23:19] DEADLINE: <2024-12-26 Thu 20:00>
 - *Stumble upon:* [[https://old.reddit.com/r/neovim/comments/szis80/which_session_manager_for_nvim/][nvim@reddit]]  [[https://github.com/rmagatti/auto-session][auto-session@github]]
 
 * TODO ID verification :URGENT:
-DEADLINE: <2025-01-14 Tue 16:00 -2h>
+DEADLINE: <2025-01-20 Mon 16:00 -2h>
 
 - *Goal(s):* update identification and update verify with the bank
 - *Address:* [[https://maps.app.goo.gl/2Fp6YFyGDrs26JAE8][MMV3+M3J, ĐH7, Phong Phú, Bình Chánh]]
@@ -151,7 +151,7 @@ CLOSED: [2025-01-13 Mon 00:59] DEADLINE: <2025-01-11 Sat 18:00>
 - *Resource:*  [[https://github.com/Shringe/dunst-media-control][github]]
 
 * DONE Review essay
-SCHEDULED: <2025-01-14 Tue 12:15> CLOSED: [2025-01-18 Sat 23:03]
+CLOSED: [2025-01-18 Sat 23:03] SCHEDULED: <2025-01-14 Tue 12:15>
 
 - Essay review: [[https://docs.google.com/document/d/1-ktw5Ltzat7aWSUX9Jz8XylWnjQgiel-9wEgDlFjlLs/edit?usp=sharing][introduction letter]]
 
@@ -165,3 +165,4 @@ CLOSED: [2025-01-18 Sat 23:03]
 
 - *Goal:* custom css for qutebrowser
 - *Visit:* [[https://github.com/alphapapa/solarized-everything-css]]
+

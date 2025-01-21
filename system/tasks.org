@@ -33,7 +33,7 @@ CLOSED: [2025-01-10 Fri 05:51] DEADLINE: <2025-01-09 Thu 05:00>
 - *Goal(s):* learn to write a github wiki page
 
 
-*** TODO Control nvim instances
+*** PENDING Control nvim instances
 
 - *Goal:* Control nvim instances from the ~terminal~ with ~command line~
 - *Resource:* [[https://github.com/chmln/nvim-ctrl][nvim-ctrl]]

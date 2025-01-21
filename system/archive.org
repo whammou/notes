@@ -245,7 +245,7 @@ DEADLINE: <2025-01-19 Sun 18:00>
 
 ***** Modular nvim
 
-- *Goal(s):* convert singular ~init.vim~ to  [[https://www.kurtpeniket.tech/blog/neovim_lua_transition_vimplug_to_lazy][modular]] with vim config structure
+- *Goal(s):* convert singular ~init.vim~ to  [[https://www.kurtpeniket.tech/blog/neovim_lua_transition_vimplug_to_lazy][modular config]] with vim config structure
 
   #+NAME: overall stucture
   #+BEGIN_SRC
@@ -265,13 +265,19 @@ DEADLINE: <2025-01-19 Sun 18:00>
 
 ****** Adding plugins
 
-- *Goal:* adding plugins
+- *Goal:* adding and configuring plugins
 
 ****** Keymapping config
 
 - *Goal:* adding keymaps
+
+- Source ~kepmaps.lua~ from ~config/init.lua~:
+  - In ~config/init.lua~:
+
 - *Keymapping syntax:*
   - Keymappings can be set using command: ~vim.keymap.set()~ method
+  - Set ~map~ variable for clean format: ~local map = vim.keymap.set~
+	 - Consult ~:help vim.keymap.set()~ for more parameter information
 
 ***** Convert vim-plug to lazy.nvim
 
@@ -302,8 +308,42 @@ DEADLINE: <2025-01-19 Sun 18:00>
 **** DONE Switching config
 CLOSED: [2025-01-15 Wed 21:19] DEADLINE: <2025-01-14 Tue 22:00>
 
-- *Goal:* successfully switching between different configs dir
+- *Goal:* successfully switching between different config dir
 - *Resource:* [[https://michaeluloth.com/neovim-switch-configs/][switching config]]
+*** DONE Recover archlinux :LINUX:
+CLOSED: [2025-01-06 Mon 07:34] SCHEDULED: <2024-12-30 Mon 02:00-04:00>
+
+- *Goal:* recover linux from unexpected shutdown
+- *Stumble upon:*  [[https://www.reddit.com/r/archlinux/comments/m2wf1s/shutdown_during_update/][r/archlinux]]
+
+**** Chroot from live USB
+
+- *Goal(s):* chroot from a live usb
+
+**** DONE Arch Linux hibernation
+CLOSED: [2025-01-09 Thu 02:29] DEADLINE: <2025-01-06 Mon 03:00>
+- Note taken on [2025-01-06 Mon 01:48] \\
+  Hibernation for btrfs partitions
+
+- *Goal(s):* setup ~hibernation~ for archlinux
+- *Source(s):* [[https://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate#Hibernation][hibernation@archwiki]]
+
+**** Update grub parameters
+
+- *Goal(s):* update grub boot parameters to splash ~screen~ and hide grub ~menu~
+  - Add ~splash~ parameter to kernel parameter: ~GRUB_CMDLINE_LINUX_DEFAULT="... splash"~
+  - Add ~hidden~ parameter to ~GRUB_TIMEOUT_STYLE~: ~GRUB_TIMEOUT_STYLE=hidden~
+
+**** Enable zswap
+
+- *Goal(s):* enable system zswap on boot
+  - Add ~zswap.enable=1~ to kernel parameter: ~GRUB_CMDLINE_LINUX="... zswap.enabled=1"~
+
+**** Config ~pacman~
+
+- *Goal(s):* config ~pacman~ to:
+  - Output colors: ~Colors~
+  - have a funny animation ~IloveCandy~
 
 ** Lists :LIST:
 

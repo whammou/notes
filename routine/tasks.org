@@ -8,10 +8,19 @@ Allocated space for tasks/todos
 ** One-off :ONEOFF:
 
 *** Dating :DATING:
+*** PENDING [#A] Contact Sacombank
+
+Contact local bank for physical credit card
+
+- *Address:*  [[https://www.google.com/maps/place/Ng%C3%A2n+h%C3%A0ng+Sacombank,+d7%2F204+QL50,+Phong+Ph%C3%BA,+B%C3%ACnh+Ch%C3%A1nh,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.696367,106.6546296,19z/data=!4m9!1m2!2m1!1ssacombank+phong+ph%C3%BA!3m5!1s0x31753168a9c85ee9:0x9bef7c753f7107be!8m2!3d10.6963808!4d106.6545208!16s%2Fg%2F11h_ts5c4r?force=pwa&source=mlapk][d7/204 QL50, Phong Phú, Bình Chánh]]
+- tel:02836364730
+*** PENDING Fix sneakers :ONEOFF:
+
+Glue back a hole on my sneakers
 
 ** Incidental :INCIDENTAL:
 
-*** TODO Cúng ông táo
+*** TODO [#A] Cúng ông táo
 DEADLINE: <2025-01-22 Wed 12:00 -3d>
 
 - [ ] Giấy cúng
@@ -142,7 +151,7 @@ SCHEDULED: <2025-01-07 Tue .+2m>
 :END:
 
 ****** TODO Check engine oil
-DEADLINE: <2025-01-19 Sun 17:00>
+DEADLINE: <2025-01-23 Thu 17:00>
 
 - *Goal:* evaluate bike engine oil condition
 

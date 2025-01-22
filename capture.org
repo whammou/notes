@@ -86,3 +86,7 @@ DEADLINE: <2025-01-22 Wed 00:00> CLOSED: [2025-01-23 Thu 00:03]
 
 - *Goal:* bind ~<C-g>...~ to ~fish~ for ~vim-fugitive~ workflow
 - *Visit:* [[https://fishshell.com/docs/current/cmds/bind.html][fishshell_DOC#bind]]
+
+* Config lua-snip and nvim-lsp
+- *Goal:* successfully replace ~ultil-snip~ and ~coc-nvim~ with ~lua-snip~ + ~lsp-zeo~
+- *Visit:* [[https://a.opnxng.com/exchange/vi.stackexchange.com/questions/41733/how-to-set-up-luasnip-in-neovim-w-lsp-zero][nvim-cmp#external-sources]]

@@ -6,6 +6,7 @@
 Allocated space for archives
 
 ** Documents :DOC:
+
 *** Hitting the gym :GYM:
 
 Documenting exercises and planning workout schedule
@@ -90,6 +91,7 @@ CLOSED: [2024-10-07 Mon 20:22]
 
 - *Goal(s):* collect information on different gyms
 - *Visit:* 
+
 *** [#D] Calisthenic :GYM:
 
 <2024-10-09 Wed 01:00 +1w>
@@ -97,6 +99,7 @@ CLOSED: [2024-10-07 Mon 20:22]
 <2024-10-13 Sun 01:00 +1w>
 
 - *Goal:* finish [[https://nick-e.com/primer/#buildup][14 days build up routine]]
+
 *** Hydrography forcast :BIKE:
 
 Hydrography forcast of a next day or week is important to schedule a smooth ride
@@ -118,6 +121,7 @@ CLOSED: [2024-11-07 Thu 06:04]
 ***** PENDING Rain amount
 
 - *Goal:* log ideal percipitation status
+
 *** Classical bikes
 
 Collection of classical bikes and manuals (tips and tricks included)
@@ -129,6 +133,7 @@ Collection of classical bikes and manuals (tips and tricks included)
 ** Lists :LIST:
 
 ** Logs :LOG:
+
 *** DONE Venom :MOVIE:
 CLOSED: [2024-11-03 Sun 04:56] DEADLINE: <2024-11-02 Sat 20:00>
 

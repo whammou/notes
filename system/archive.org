@@ -835,4 +835,25 @@ CLOSED: [2024-09-29 Sun 22:07]
 
 *** DONE [#B] Dual boot :SYSTEM:
 CLOSED: [2024-10-24 Thu 00:01] DEADLINE: <2024-10-20 Sun 20:00>
+*** DONE Qutebrowser CSS :QUTEBROWSER:
+CLOSED: [2025-01-18 Sat 23:03]
+
+- *Goal:* custom css for qutebrowser
+- *Visit:* [[https://github.com/alphapapa/solarized-everything-css]]
+*** DONE MPV script :MPV:
+CLOSED: [2025-01-20 Mon 20:12]
+
+- *Goal:* display ~chapter list~ on ~mpv~
+- *Visit:* [[https://old.reddit.com/r/mpv/comments/j7czzx/displaying_chapter_titles/][chapter list script]]
+*** DONE Solve conflict Markdown Flow plugin :NVIM:
+CLOSED: [2024-12-25 Wed 22:23] DEADLINE: <2024-12-21 Sat 22:00>
+- Note taken on [2024-12-21 Sat 02:47] \\
+  ~TAB~ key has conflicted bind action in both plugin. Please visit main site for configuration documentation
+- *Goal(s):* solve ~TAB~ key conflict between [[https://github.com/jakewvincent/mkdnflow.nvim][mkdnflow]] and markdown.nvim
+*** DONE Implement ripgrep :NVIM:
+CLOSED: [2024-11-07 Thu 06:08]
+
+- *Goal(s):* implement ripgrep for faster documentation search
+- *Stumble upon:* [[https://github.com/duane9/nvim-rg]]
+- *Stumble upon:*  [[https://www.youtube.com/watch?v=loNdGAnKEf8][ripgrep workflow@youtube]]
 

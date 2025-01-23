@@ -235,7 +235,7 @@ Generally a good markup language server is texlab
 - *Goal:* research ways to optimize nvim and manage new packages
 
 **** DOING [#B] Convert nvim :NVIM:
-DEADLINE: <2025-01-22 Wed 18:00>
+DEADLINE: <2025-01-25 Sat 18:00>
 
 - *Goal(s):* convert [[~/dotfiles/nvim/.config/nvim/init.vim][init.vim]] to [[~/dotfiles/nvim-lua/.config/nvim/init.lua][init.lua]]
   - Run ~nvim +:help lua_guide"~ for built-in conversion guide from vim script to lua
@@ -309,6 +309,7 @@ CLOSED: [2025-01-15 Wed 21:19] DEADLINE: <2025-01-14 Tue 22:00>
 
 - *Goal:* successfully switching between different config dir
 - *Resource:* [[https://michaeluloth.com/neovim-switch-configs/][switching config]]
+
 *** DONE Recover archlinux :LINUX:
 CLOSED: [2025-01-06 Mon 07:34] SCHEDULED: <2024-12-30 Mon 02:00-04:00>
 
@@ -834,21 +835,25 @@ CLOSED: [2024-09-29 Sun 22:07]
 
 *** DONE [#B] Dual boot :SYSTEM:
 CLOSED: [2024-10-24 Thu 00:01] DEADLINE: <2024-10-20 Sun 20:00>
+
 *** DONE Qutebrowser CSS :QUTEBROWSER:
 CLOSED: [2025-01-18 Sat 23:03]
 
 - *Goal:* custom css for qutebrowser
 - *Visit:* [[https://github.com/alphapapa/solarized-everything-css]]
+
 *** DONE MPV script :MPV:
 CLOSED: [2025-01-20 Mon 20:12]
 
 - *Goal:* display ~chapter list~ on ~mpv~
 - *Visit:* [[https://old.reddit.com/r/mpv/comments/j7czzx/displaying_chapter_titles/][chapter list script]]
+
 *** DONE Solve conflict Markdown Flow plugin :NVIM:
 CLOSED: [2024-12-25 Wed 22:23] DEADLINE: <2024-12-21 Sat 22:00>
 - Note taken on [2024-12-21 Sat 02:47] \\
   ~TAB~ key has conflicted bind action in both plugin. Please visit main site for configuration documentation
 - *Goal(s):* solve ~TAB~ key conflict between [[https://github.com/jakewvincent/mkdnflow.nvim][mkdnflow]] and markdown.nvim
+
 *** DONE Implement ripgrep :NVIM:
 CLOSED: [2024-11-07 Thu 06:08]
 

@@ -1,27 +1,14 @@
 #+TITLE: Capture
 #+DESCRIPTION: Captures and Quick notes
 
-* PENDING Plain text music playlist
+* PENDING Plain text music playlist :LINUX:
 
 *Goal:* Plain text music playlist that works with ~ytfzf~ and ~new pipe~
 
-* PENDING Config nvim-supertab and nvim-cmp
+* PENDING Config nvim-supertab and nvim-cmp :NVIM:
 
 - *Stumble upon:* [[https://github.com/hrsh7th/nvim-cmp/issues/179][issue@github]]
 - *Goal(s):* config nvim to work with nvim-cmp nvim-supertab
-
-* TODO ID verification :URGENT:
-DEADLINE: <2025-01-31 Fri 16:00 -2h>
-
-- *Goal(s):* update identification and update verify with the bank
-- *Address:* [[https://maps.app.goo.gl/2Fp6YFyGDrs26JAE8][MMV3+M3J, ĐH7, Phong Phú, Bình Chánh]]
-- *Contact:* tel:02838757253
-
-** Bank ID verification
-
-- *Goal(s):* update new verification with the bank
-- *Address:* [[https://maps.app.goo.gl/HPc8YU7fWxvmYJvr8][d7/204 QL50, Phong Phú, Bình Chánh]]
-- *Contact:* tel:02836364730
 
 * DOING Overhaul Note repo :GITHUB:
 
@@ -54,6 +41,27 @@ DEADLINE: <2025-01-22 Wed 00:00> CLOSED: [2025-01-23 Thu 00:03]
 - *Goal:* bind ~<C-g>...~ to ~fish~ for ~vim-fugitive~ workflow
 - *Visit:* [[https://fishshell.com/docs/current/cmds/bind.html][fishshell_DOC#bind]]
 
-* DOING Config lua-snip and nvim-lsp
+* DOING Config lua-snip and nvim-lsp :NVIM:
 - *Goal:* successfully replace ~ultil-snip~ and ~coc-nvim~ with ~lua-snip~ + ~lsp-zeo~
 - *Visit:* [[https://a.opnxng.com/exchange/vi.stackexchange.com/questions/41733/how-to-set-up-luasnip-in-neovim-w-lsp-zero][nvim-cmp#external-sources]]
+
+** Configure lua-snip
+
+- *Goal(s):* configure and learn ~lua-snip~ syntax
+
+** Configure nvim-lsp
+- *Goal(s):* configure ~nvim-lsp~
+
+** configure nvim-cmp
+- *Goal(s):* configure ~nvim-cmp~
+
+* TODO Modular Qtile :QTILE:
+
+- *Goal:* successfully modularize ~qtile~ config
+
+* TODO Unbind fishshell keys :FISH:
+
+- *Goal:* unbind ~send_to_background~ (~cZ~) or rebind to other keys
+
+* TODO Config yazi :YAZI:
+- *Goal:* separate hotkeys into ~EDIT~ and ~VIEW~

@@ -164,7 +164,6 @@ Closes D2IQ-12345
 > The ensure that these committing conventions remain consistent across developers, commit message linting can be configured before changes are able to be pushed up. [[https://commitizen-tools.github.io/commitizen/][Commitizen]] is a great tool to enforce standards, sync up semantic versioning, along with other helpful features
 
 *** DOING [#C] Integrate Google AI :LINUX:
-DEADLINE: <2025-01-24 Fri 05:00>
 
 - *Goal:* integrate bard AI to workflow
 - *Resource:* [[https://www.reddit.com/r/ChatGPT/comments/1akynsv/any_free_alternatives_to_open_ai_api/][Google AI Studio]]  [[https://ai.google.dev/docs][Google AI docs]]
@@ -194,7 +193,7 @@ CLOSED: [2025-01-10 Fri 02:27]
   print(response.text)
   #+END_SRC
 
-**** TODO Shell Integration
+**** DOING Shell Integration
 
 - *Goal(s):* working on integrate AI with ~kitty~
 
@@ -203,7 +202,7 @@ CLOSED: [2025-01-10 Fri 02:27]
 - *Goal(s):* render response in markdown to take advantage of nvim markdown render
 
 ***** TODO Shellgpt run-test :LINUX:
-DEADLINE: <2025-01-24 Fri 18:00>
+DEADLINE: <2025-01-24 Fri 22:00>
 
 - *Goal(s):* run test shellgpt with Gemini AI
 - *Stumble upon:* 

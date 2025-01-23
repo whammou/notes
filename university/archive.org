@@ -10,4 +10,12 @@ Allocated space for archives
 ** Lists :LIST:
 
 ** Logs :LOG:
+*** ABORTED [#A] Write an appeal :URGENT:
+CLOSED: [2024-12-13 Fri 00:32] DEADLINE: <2024-12-12 Thu>
+:PROPERTIES:
+:LAST_REPEAT: [2024-12-12 Thu 16:06]
+:END:
+
+- *Goal:* write an appeal for my course
+- *Visit:*  [[https://app.smartmailcloud.com/web-share/NVsBkDfROwtXT2bftC_y6y7TaC-zFy9OOCbWpVUf][@email]] [[https://app.smartmailcloud.com/web-share/zd_MEw-3KGni2S-H1FnEEjpu8Qp4yvaL7UgmEHPh][urgent]]
 

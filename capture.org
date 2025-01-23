@@ -50,9 +50,11 @@ DEADLINE: <2025-01-22 Wed 00:00> CLOSED: [2025-01-23 Thu 00:03]
 - *Goal(s):* configure and learn ~lua-snip~ syntax
 
 ** Configure nvim-lsp
+
 - *Goal(s):* configure ~nvim-lsp~
 
 ** configure nvim-cmp
+
 - *Goal(s):* configure ~nvim-cmp~
 
 * TODO Modular Qtile :QTILE:
@@ -65,3 +67,11 @@ DEADLINE: <2025-01-22 Wed 00:00> CLOSED: [2025-01-23 Thu 00:03]
 
 * TODO Config yazi :YAZI:
 - *Goal:* separate hotkeys into ~EDIT~ and ~VIEW~
+
+* TODO Config nvim auto-pairs :NVIM:
+
+- *Goal(s):* config nvim-auto pairs hotkeys
+
+* TODO Learn nvim-orgmode_capture :NVIM:
+
+- *Goal:* learn ~org_capture_template~ at [[https://github.com/nvim-orgmode/orgmode/blob/master/docs/configuration.org#org_capture_templates][nvim-orgmode-configuration]]

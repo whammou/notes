@@ -234,15 +234,15 @@ Generally a good markup language server is texlab
 
 - *Goal:* research ways to optimize nvim and manage new packages
 
-**** DOING [#B] Convert nvim :NVIM:
-DEADLINE: <2025-01-25 Sat 18:00>
+**** DONE Setup LazyVim :NVIM:
+DEADLINE: <2025-01-25 Sat 18:00> CLOSED: [2025-01-24 Fri 21:31]
 
 - *Goal(s):* convert [[~/dotfiles/nvim/.config/nvim/init.vim][init.vim]] to [[~/dotfiles/nvim-lua/.config/nvim/init.lua][init.lua]]
   - Run ~nvim +:help lua_guide"~ for built-in conversion guide from vim script to lua
-
+- *Checkout:* [[http://www.lazyvim.org/]]
 - *Stumble upon:* [[https://github.com/nanotee/nvim-lua-guide][nvim-lua-guide]]
 
-***** Modular nvim
+***** LazyVim modular
 
 - *Goal(s):* convert singular ~init.vim~ to  [[https://www.kurtpeniket.tech/blog/neovim_lua_transition_vimplug_to_lazy][modular config]] with vim config structure
 
@@ -262,11 +262,11 @@ DEADLINE: <2025-01-25 Sat 18:00>
       └── en.utf-8.add.spl
   #+END_SRC
 
-****** Adding plugins
+****** LazyVim plugins
 
 - *Goal:* adding and configuring plugins
 
-****** Keymapping config
+****** LazyVim mappings
 
 - *Goal:* adding keymaps
 
@@ -278,11 +278,11 @@ DEADLINE: <2025-01-25 Sat 18:00>
   - Set ~map~ variable for clean format: ~local map = vim.keymap.set~
 	 - Consult ~:help vim.keymap.set()~ for more parameter information
 
-***** Convert vim-plug to lazy.nvim
+***** Convert vim-script to LazyVim
 
 - *Goal(s):* replace plugin manager to [[https://github.com/folke/lazy.nvim][lazy.nvim]] for seamless integration with lua config
 
-****** Installation
+****** LazvyVim installation
 
 - *Structured Setup:*
   #+NAME: /.config/nvim/init.lua
@@ -290,7 +290,7 @@ DEADLINE: <2025-01-25 Sat 18:00>
   require("config.lazy")
   #+END_SRC  
 
-****** Setup plugins
+****** LazyVim add plugins
 
 - Plugins are installed under ~$HOME/.config/nvim/lua/plugins/*.lua~ - every lua files under this dir are auto-merged with the config file
 - Plugin spec example:
@@ -304,7 +304,7 @@ DEADLINE: <2025-01-25 Sat 18:00>
   #+END_SRC
 - More on plugin spec, visit: [[https://lazy.folke.io/spec]]
 
-**** DONE Switching config
+**** DONE Switching nvim configs
 CLOSED: [2025-01-15 Wed 21:19] DEADLINE: <2025-01-14 Tue 22:00>
 
 - *Goal:* successfully switching between different config dir

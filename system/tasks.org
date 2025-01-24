@@ -6,6 +6,9 @@
 Allocated space for tasks/todos
 
 ** One-off :ONEOFF:
+*** TODO Learn nvim-orgmode_capture :NVIM:
+
+- *Goal:* learn ~org_capture_template~ at [[https://github.com/nvim-orgmode/orgmode/blob/master/docs/configuration.org#org_capture_templates][nvim-orgmode-configuration]]
 
 ** Incidental :INCIDENTAL:
 

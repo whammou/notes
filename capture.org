@@ -41,7 +41,7 @@ DEADLINE: <2025-01-22 Wed 00:00> CLOSED: [2025-01-23 Thu 00:03]
 - *Goal:* bind ~<C-g>...~ to ~fish~ for ~vim-fugitive~ workflow
 - *Visit:* [[https://fishshell.com/docs/current/cmds/bind.html][fishshell_DOC#bind]]
 
-* DOING Config lua-snip and nvim-lsp :NVIM:
+* PENDING Config lua-snip and nvim-lsp :NVIM:
 - *Goal:* successfully replace ~ultil-snip~ and ~coc-nvim~ with ~lua-snip~ + ~lsp-zeo~
 - *Visit:* [[https://a.opnxng.com/exchange/vi.stackexchange.com/questions/41733/how-to-set-up-luasnip-in-neovim-w-lsp-zero][nvim-cmp#external-sources]]
 
@@ -68,10 +68,7 @@ DEADLINE: <2025-01-22 Wed 00:00> CLOSED: [2025-01-23 Thu 00:03]
 * TODO Config yazi :YAZI:
 - *Goal:* separate hotkeys into ~EDIT~ and ~VIEW~
 
-* TODO Config nvim auto-pairs :NVIM:
+* DONE Config nvim auto-pairs :NVIM:
+CLOSED: [2025-01-24 Fri 21:35]
 
 - *Goal(s):* config nvim-auto pairs hotkeys
-
-* TODO Learn nvim-orgmode_capture :NVIM:
-
-- *Goal:* learn ~org_capture_template~ at [[https://github.com/nvim-orgmode/orgmode/blob/master/docs/configuration.org#org_capture_templates][nvim-orgmode-configuration]]

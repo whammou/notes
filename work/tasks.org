@@ -12,7 +12,9 @@ Allocated space for tasks/todos
 ** Coordinated :COORDINATED:
 
 ** Urgent :URGENT:
-*** TODO [#A] ID verification :WORK:
+
+*** TODO ID verification :WORK:
+
 DEADLINE: <2025-01-31 Fri 16:00 -2h>
 
 - *Goal(s):* update identification and update verify with the bank

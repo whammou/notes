@@ -22,7 +22,6 @@
   - [ ] add template structure
 
 ** TODO Separate archive hierarchy
-
 - Note taken on [2025-01-23 Thu 00:09] \\
   Separate ~Logs~ ~Lists~ and ~Documents~ to different files to avoid callbacks
 - *Goal:* optimize ~archive~ hierarchy
@@ -36,12 +35,13 @@
 - *Resource:*  [[https://github.com/Shringe/dunst-media-control][github]]
 
 * DONE Integrate nvim-fugitive to fish :LINUX:
-DEADLINE: <2025-01-22 Wed 00:00> CLOSED: [2025-01-23 Thu 00:03]
+CLOSED: [2025-01-23 Thu 00:03] DEADLINE: <2025-01-22 Wed 00:00>
 
 - *Goal:* bind ~<C-g>...~ to ~fish~ for ~vim-fugitive~ workflow
 - *Visit:* [[https://fishshell.com/docs/current/cmds/bind.html][fishshell_DOC#bind]]
 
 * DOING Config lua-snip and nvim-lsp :NVIM:
+
 - *Goal:* successfully replace ~ultil-snip~ and ~coc-nvim~ with ~lua-snip~ + ~lsp-zeo~
 - *Visit:* [[https://a.opnxng.com/exchange/vi.stackexchange.com/questions/41733/how-to-set-up-luasnip-in-neovim-w-lsp-zero][nvim-cmp#external-sources]]
 
@@ -50,9 +50,11 @@ DEADLINE: <2025-01-22 Wed 00:00> CLOSED: [2025-01-23 Thu 00:03]
 - *Goal(s):* configure and learn ~lua-snip~ syntax
 
 ** Configure nvim-lsp
+
 - *Goal(s):* configure ~nvim-lsp~
 
 ** configure nvim-cmp
+
 - *Goal(s):* configure ~nvim-cmp~
 
 * TODO Modular Qtile :QTILE:
@@ -64,4 +66,6 @@ DEADLINE: <2025-01-22 Wed 00:00> CLOSED: [2025-01-23 Thu 00:03]
 - *Goal:* unbind ~send_to_background~ (~cZ~) or rebind to other keys
 
 * TODO Config yazi :YAZI:
+
 - *Goal:* separate hotkeys into ~EDIT~ and ~VIEW~
+

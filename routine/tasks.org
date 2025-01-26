@@ -20,8 +20,8 @@ Glue back a hole on my sneakers
 
 ** Incidental :INCIDENTAL:
 
-*** TODO [#A] Cúng ông táo
-DEADLINE: <2025-01-23 Thu 12:00 -3d>
+*** ABORTED [#A] Cúng ông táo
+DEADLINE: <2025-01-23 Thu 12:00 -3d> CLOSED: [2025-01-25 Sat 15:38]
 
 - [ ] Giấy cúng
 - Trái cây: 

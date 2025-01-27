@@ -860,4 +860,19 @@ CLOSED: [2024-11-07 Thu 06:08]
 - *Goal(s):* implement ripgrep for faster documentation search
 - *Stumble upon:* [[https://github.com/duane9/nvim-rg]]
 - *Stumble upon:*  [[https://www.youtube.com/watch?v=loNdGAnKEf8][ripgrep workflow@youtube]]
+*** ABORTED Dunst config :LINUX:
+CLOSED: [2025-01-27 Mon 22:11]
+
+- *Goal(s):* config dunst volume and brightness slider
+  - [ ] volume slider
+  - [ ] brightness slider
+
+- *Resource:*  [[https://github.com/Shringe/dunst-media-control][github]]
+*** ABORTED Unbind fishshell keys :FISH:
+CLOSED: [2025-01-27 Mon 22:16]
+- Note taken on [2025-01-27 Mon 22:15] \\
+  - Not possible due to $TERM
+  - Visit: [[https://github.com/fish-shell/fish-shell/issues/7152][binding /cZ]]
+
+- *Goal:* unbind ~send_to_background~ (~cZ~) or rebind to other keys
 

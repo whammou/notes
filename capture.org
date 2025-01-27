@@ -27,14 +27,6 @@
   Separate ~Logs~ ~Lists~ and ~Documents~ to different files to avoid callbacks
 - *Goal:* optimize ~archive~ hierarchy
 
-* TODO Dunst config :LINUX:
-
-- *Goal(s):* config dunst volume and brightness slider
-  - [ ] volume slider
-  - [ ] brightness slider
-
-- *Resource:*  [[https://github.com/Shringe/dunst-media-control][github]]
-
 * DONE Integrate nvim-fugitive to fish :LINUX:
 CLOSED: [2025-01-23 Thu 00:03] DEADLINE: <2025-01-22 Wed 00:00>
 
@@ -62,12 +54,10 @@ CLOSED: [2025-01-23 Thu 00:03] DEADLINE: <2025-01-22 Wed 00:00>
 
 - *Goal:* successfully modularize ~qtile~ config
 
-* TODO Unbind fishshell keys :FISH:
-
-- *Goal:* unbind ~send_to_background~ (~cZ~) or rebind to other keys
-
 * TODO Config yazi :YAZI:
-- *Goal:* separate hotkeys into ~EDIT~ and ~VIEW~
+- *Goal:* separate hotkeys into ~EDIT~ and ~VIEW~:
+  - [ ] Bind shotkey to open ~EDIT~ such as: images, texts, docs
+  - [ ] Bind shotkey to open ~VIEW~ - view only for images and texts/docs
 
 * DONE Config nvim auto-pairs :NVIM:
 CLOSED: [2025-01-24 Fri 21:35]

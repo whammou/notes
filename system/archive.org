@@ -235,7 +235,7 @@ Generally a good markup language server is texlab
 - *Goal:* research ways to optimize nvim and manage new packages
 
 **** DONE Setup LazyVim :NVIM:
-DEADLINE: <2025-01-25 Sat 18:00> CLOSED: [2025-01-24 Fri 21:31]
+CLOSED: [2025-01-24 Fri 21:31] DEADLINE: <2025-01-25 Sat 18:00>
 
 - *Goal(s):* convert [[~/dotfiles/nvim/.config/nvim/init.vim][init.vim]] to [[~/dotfiles/nvim-lua/.config/nvim/init.lua][init.lua]]
   - Run ~nvim +:help lua_guide"~ for built-in conversion guide from vim script to lua
@@ -860,6 +860,7 @@ CLOSED: [2024-11-07 Thu 06:08]
 - *Goal(s):* implement ripgrep for faster documentation search
 - *Stumble upon:* [[https://github.com/duane9/nvim-rg]]
 - *Stumble upon:*  [[https://www.youtube.com/watch?v=loNdGAnKEf8][ripgrep workflow@youtube]]
+
 *** ABORTED Dunst config :LINUX:
 CLOSED: [2025-01-27 Mon 22:11]
 
@@ -868,6 +869,7 @@ CLOSED: [2025-01-27 Mon 22:11]
   - [ ] brightness slider
 
 - *Resource:*  [[https://github.com/Shringe/dunst-media-control][github]]
+
 *** ABORTED Unbind fishshell keys :FISH:
 CLOSED: [2025-01-27 Mon 22:16]
 - Note taken on [2025-01-27 Mon 22:15] \\

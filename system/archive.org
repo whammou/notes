@@ -580,12 +580,14 @@ CLOSED: [2024-10-07 Mon 04:38]
 - *Goal(s):* Config tmux selection panel with qtile scratch board for quick access
 - *Stumble upon:*  [[https://linuxier.com/how-to-list-sessions-in-tmux/][How to list tmux sessions]]  [[https://gist.github.com/vaughany/483324b983ac51281ef63bb672f6c1ed][.tmux.conf]]
 
-*** PENDING Qutebrowser config :QUTEBROWSER:
+*** DONE Qutebrowser config :QUTEBROWSER:
+CLOSED: [2025-01-28 Tue 04:02]
 
 - *Goal:* implement text to speech to qutebrowser
 - *Stumble upon:* [[https://redlib.seasi.dev/r/qutebrowser/comments/w4pv2v/configpy_ideas/][qutebrowser tts config idea]]
 
-**** Rebind set-mark function
+**** DONE Rebind set-mark function
+CLOSED: [2025-01-28 Tue 03:19]
 
 - *Goal:* rebind set-mark func to match vim
 
@@ -593,6 +595,12 @@ CLOSED: [2024-10-07 Mon 04:38]
 #+BEGIN_SRC: python
   config.bind('m', 'mode-enter set_mark')
 #+END_SRC
+
+**** DONE Qutebrowser start-page
+CLOSED: [2025-01-28 Tue 04:01]
+
+Add qutebrowser start-page
+*Visit:* [[https://nimplex.github.io/Minimal-StartPage/][start-page]]
 
 *** PENDING View vim-dap :NVIM:
 

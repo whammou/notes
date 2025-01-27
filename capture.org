@@ -50,9 +50,14 @@ CLOSED: [2025-01-23 Thu 00:03] DEADLINE: <2025-01-22 Wed 00:00>
 
 - *Goal(s):* configure ~nvim-cmp~
 
-* TODO Modular Qtile :QTILE:
+* DOING Modular Qtile :QTILE:
 
 - *Goal:* successfully modularize ~qtile~ config
+
+
+** TODO Qtile scripts
+
+Run ~scripts~ directly in ~qtile~
 
 * TODO Config yazi :YAZI:
 - *Goal:* separate hotkeys into ~EDIT~ and ~VIEW~:
@@ -63,3 +68,16 @@ CLOSED: [2025-01-23 Thu 00:03] DEADLINE: <2025-01-22 Wed 00:00>
 CLOSED: [2025-01-24 Fri 21:35]
 
 - *Goal(s):* config nvim-auto pairs hotkeys
+
+* TODO Pandoc font settings :PANDOC:
+
+Set conversion fonts from ~markdown~ to ~LaTex~
+*Visit:* [[https://a.opnxng.com/exchange/tex.stackexchange.com/questions/234786/how-to-set-a-font-family-with-pandoc][pandoc fonts]]
+
+* Organize Script repo
+
+Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~
+  - [ ] Organize ~/scripts~
+  - [ ] Oragnize [[file:/home/whammou/notes/capture.org::*Qtile scripts][~qtile~]] scripts
+  - [ ] Oragnize ~$PATH~
+

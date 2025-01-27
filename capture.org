@@ -22,7 +22,6 @@
   - [ ] add template structure
 
 ** TODO Separate archive hierarchy
-
 - Note taken on [2025-01-23 Thu 00:09] \\
   Separate ~Logs~ ~Lists~ and ~Documents~ to different files to avoid callbacks
 - *Goal:* optimize ~archive~ hierarchy
@@ -55,6 +54,7 @@ CLOSED: [2025-01-23 Thu 00:03] DEADLINE: <2025-01-22 Wed 00:00>
 - *Goal:* successfully modularize ~qtile~ config
 
 * TODO Config yazi :YAZI:
+
 - *Goal:* separate hotkeys into ~EDIT~ and ~VIEW~:
   - [ ] Bind shotkey to open ~EDIT~ such as: images, texts, docs
   - [ ] Bind shotkey to open ~VIEW~ - view only for images and texts/docs
@@ -63,3 +63,4 @@ CLOSED: [2025-01-23 Thu 00:03] DEADLINE: <2025-01-22 Wed 00:00>
 CLOSED: [2025-01-24 Fri 21:35]
 
 - *Goal(s):* config nvim-auto pairs hotkeys
+

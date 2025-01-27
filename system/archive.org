@@ -235,7 +235,7 @@ Generally a good markup language server is texlab
 - *Goal:* research ways to optimize nvim and manage new packages
 
 **** DONE Setup LazyVim :NVIM:
-DEADLINE: <2025-01-25 Sat 18:00> CLOSED: [2025-01-24 Fri 21:31]
+CLOSED: [2025-01-24 Fri 21:31] DEADLINE: <2025-01-25 Sat 18:00>
 
 - *Goal(s):* convert [[~/dotfiles/nvim/.config/nvim/init.vim][init.vim]] to [[~/dotfiles/nvim-lua/.config/nvim/init.lua][init.lua]]
   - Run ~nvim +:help lua_guide"~ for built-in conversion guide from vim script to lua

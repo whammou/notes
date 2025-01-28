@@ -6,6 +6,7 @@
 Allocated space for tasks/todos
 
 ** One-off :ONEOFF:
+
 *** TODO Learn nvim-orgmode_capture :NVIM:
 
 - *Goal:* learn ~org_capture_template~ at [[https://github.com/nvim-orgmode/orgmode/blob/master/docs/configuration.org#org_capture_templates][nvim-orgmode-configuration]]
@@ -34,7 +35,6 @@ CLOSED: [2025-01-10 Fri 05:51] DEADLINE: <2025-01-09 Thu 05:00>
 *** PENDING Github wiki :GITHUB:
 
 - *Goal(s):* learn to write a github wiki page
-
 
 *** PENDING Control nvim instances
 

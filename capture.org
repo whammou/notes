@@ -73,3 +73,16 @@ CLOSED: [2025-01-24 Fri 21:35]
 Set conversion fonts from ~markdown~ to ~LaTex~
 *Visit:* [[https://a.opnxng.com/exchange/tex.stackexchange.com/questions/234786/how-to-set-a-font-family-with-pandoc][pandoc fonts]]
 
+* Organize Script repo
+
+Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~
+  - [ ] Organize ~/scripts~
+  - [ ] Oragnize [[file:/home/whammou/notes/capture.org::*Qtile scripts][qtile]] scripts
+  - [ ] Oragnize ~$PATH~
+
+* DONE Test alarm feature :ALARM:
+CLOSED: [2025-01-28 Tue 21:17] DEADLINE: <2025-01-28 Tue 21:17>
+:PROPERTIES:
+:ID:       0eac2552-10d0-4a32-9bf4-c2556ddc1f19
+:END:
+

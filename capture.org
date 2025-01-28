@@ -80,3 +80,9 @@ Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~
   - [ ] Oragnize [[file:/home/whammou/notes/capture.org::*Qtile scripts][qtile]] scripts
   - [ ] Oragnize ~$PATH~
 
+* DONE Test alarm feature :ALARM:
+CLOSED: [2025-01-28 Tue 21:17] DEADLINE: <2025-01-28 Tue 21:17>
+:PROPERTIES:
+:ID:       0eac2552-10d0-4a32-9bf4-c2556ddc1f19
+:END:
+

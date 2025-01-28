@@ -693,7 +693,8 @@ In an operating system component or program that enables users to generate chara
 
 ***** Setup fcitx5
 
-Some GUI toolkits provide input method modules support for input method integration in applications. However they're not always needed  
+Some GUI toolkits provide input method modules support for input method integration in applications. However they're not always needed
+  - Run ~pacman -S fcit5-im fcitx5-unikey~ to install ~fcitx5~ and ~unikey~
 
 ***** Environment Variable
 
@@ -712,6 +713,9 @@ Run ~printenv VARIBLE_NAME~ or ~echo $varname~ to print the value of a certain v
 ****** Set Environment Variables
 
 Run ~Export VARIABLE_NAME=value~ to define a variable 
+
+***** Fcitx5 with nvim
+Install [[https://github.com/pysan3/fcitx5.nvim][fcitx5.nvim]] for better workflow
 
 *** PENDING Clean up $HOME :LINUX:
 

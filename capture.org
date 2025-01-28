@@ -80,4 +80,3 @@ Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~
   - [ ] Organize ~/scripts~
   - [ ] Oragnize [[file:/home/whammou/notes/capture.org::*Qtile scripts][~qtile~]] scripts
   - [ ] Oragnize ~$PATH~
-

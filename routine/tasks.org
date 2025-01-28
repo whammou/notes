@@ -29,6 +29,12 @@ CLOSED: [2025-01-25 Sat 15:38] DEADLINE: <2025-01-23 Thu 12:00 -3d>
 - Trái cây: 
   - [ ] Táo
 
+*** TODO Bike repair :BIKE:
+SCHEDULED: <2025-02-03 Mon 16:00>
+
+Diagnose failure point
+*Visit:* [[https://vinfastauto.com/vn_vi/cu-de-xe-may][hư hỏng củ đề]]  [[https://3mp.vn/service/cu-de-xe-may-bao-nhieu-tien-nguyen-nhan-cu-de-hu-hon][giá tham khảo]]
+
 ** Coordinated :COORDINATED:
 
 ** Urgent :URGENT:

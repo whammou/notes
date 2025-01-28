@@ -73,7 +73,3 @@ CLOSED: [2025-01-24 Fri 21:35]
 Set conversion fonts from ~markdown~ to ~LaTex~
 *Visit:* [[https://a.opnxng.com/exchange/tex.stackexchange.com/questions/234786/how-to-set-a-font-family-with-pandoc][pandoc fonts]]
 
-* Bike repair :BIKE:
-
-Diagnose failure point
-*Visit:* [[https://vinfastauto.com/vn_vi/cu-de-xe-may][hư hỏng củ đề]]  [[https://3mp.vn/service/cu-de-xe-may-bao-nhieu-tien-nguyen-nhan-cu-de-hu-hon][giá tham khảo]]

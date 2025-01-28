@@ -60,8 +60,8 @@ Run ~scripts~ directly in ~qtile~
 * TODO Config yazi :YAZI:
 
 - *Goal:* separate hotkeys into ~EDIT~ and ~VIEW~:
-  - [ ] Bind shotkey to open ~EDIT~ such as: images, texts, docs
-  - [ ] Bind shotkey to open ~VIEW~ - view only for images and texts/docs
+  - [ ] Bind short-key to open ~EDIT~ such as: images, texts, docs
+  - [ ] Bind short-key to open ~VIEW~ - view only for images and texts/docs
 
 * DONE Config nvim auto-pairs :NVIM:
 CLOSED: [2025-01-24 Fri 21:35]
@@ -73,9 +73,7 @@ CLOSED: [2025-01-24 Fri 21:35]
 Set conversion fonts from ~markdown~ to ~LaTex~
 *Visit:* [[https://a.opnxng.com/exchange/tex.stackexchange.com/questions/234786/how-to-set-a-font-family-with-pandoc][pandoc fonts]]
 
-* Organize Script repo
+* Bike repair :BIKE:
 
-Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~
-  - [ ] Organize ~/scripts~
-  - [ ] Oragnize [[file:/home/whammou/notes/capture.org::*Qtile scripts][qtile]] scripts
-  - [ ] Oragnize ~$PATH~
+Diagnose failure point
+*Visit:* [[https://vinfastauto.com/vn_vi/cu-de-xe-may][hư hỏng củ đề]]  [[https://3mp.vn/service/cu-de-xe-may-bao-nhieu-tien-nguyen-nhan-cu-de-hu-hon][giá tham khảo]]

@@ -9,7 +9,12 @@ Allocated space for tasks/todos
 *** TODO Learn nvim-orgmode_capture :NVIM:
 
 - *Goal:* learn ~org_capture_template~ at [[https://github.com/nvim-orgmode/orgmode/blob/master/docs/configuration.org#org_capture_templates][nvim-orgmode-configuration]]
+*** Organize Script repo :GITHUB:ORGMODE:
 
+Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~
+- [ ] Organize ~/scripts~
+- [ ] Organize [[file:/home/whammou/notes/capture.org::*Qtile scripts][qtile]] scripts
+- [ ] Organize ~$PATH~
 ** Incidental :INCIDENTAL:
 
 *** PENDING Github repo updates track :GITHUB:

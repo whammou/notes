@@ -52,10 +52,26 @@ CLOSED: [2025-01-23 Thu 00:03] DEADLINE: <2025-01-22 Wed 00:00>
 * DOING Modular Qtile :QTILE:
 
 - *Goal:* successfully modularize ~qtile~ config
+- /Input example tree dir here/
 
 ** TODO Qtile scripts
 
 Run ~scripts~ directly in ~qtile~
+
+** Colorschemes
+
+Create ~colorschemes.py~
+
+** Keymaps
+Create ~keymaps.py~
+
+** Layouts
+
+Create ~layouts.py~
+
+** Scratchpads
+
+Create ~scratchpads.py~
 
 * TODO Config yazi :YAZI:
 

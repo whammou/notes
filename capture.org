@@ -84,8 +84,7 @@ Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~
   - [ ] Oragnize [[file:/home/whammou/notes/capture.org::*Qtile scripts][qtile]] scripts
   - [ ] Oragnize ~$PATH~
 
-* ABORTED System Proxy and DNS :SYSTEM:
-CLOSED: [2025-01-30 Thu 22:01]
+* PENDING System Proxy and DNS :SYSTEM:
 
 Access blocked websites via ~proxy~ or changeing ~DNS~
 

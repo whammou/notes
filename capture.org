@@ -63,6 +63,7 @@ Run ~scripts~ directly in ~qtile~
 Create ~colorschemes.py~
 
 ** Keymaps
+
 Create ~keymaps.py~
 
 ** Layouts

@@ -85,3 +85,4 @@ Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~
 * TODO System Proxy and DNS :SYSTEM:
 
 Access blocked websites via ~proxy~ or changeing ~DNS~
+

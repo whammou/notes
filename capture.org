@@ -53,25 +53,11 @@ CLOSED: [2025-01-23 Thu 00:03] DEADLINE: <2025-01-22 Wed 00:00>
 
 - *Goal:* successfully modularize ~qtile~ config
 - /Input example tree dir here/
-
-** TODO Qtile scripts
-
-Run ~scripts~ directly in ~qtile~
-
-** Colorschemes
-
-Create ~colorschemes.py~
-
-** Keymaps
-Create ~keymaps.py~
-
-** Layouts
-
-Create ~layouts.py~
-
-** Scratchpads
-
-Create ~scratchpads.py~
+- Config directory: 
+  - [ ] Keymaps config: /create ~keymaps.py~/dot_examples
+  - [ ] Colorscheme config: /create ~colorschemes.py~/
+  - [ ] Layouts config: /create ~layouts.py~/
+  - [ ] Scratepad config: /create ~scratepads.py~/
 
 * TODO Config yazi :YAZI:
 
@@ -89,16 +75,13 @@ CLOSED: [2025-01-24 Fri 21:35]
 Set conversion fonts from ~markdown~ to ~LaTex~
 *Visit:* [[https://a.opnxng.com/exchange/tex.stackexchange.com/questions/234786/how-to-set-a-font-family-with-pandoc][pandoc fonts]]
 
-* Organize Script repo
+* Organize Script repo :GITHUB:
 
 Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~
   - [ ] Organize ~/scripts~
   - [ ] Oragnize [[file:/home/whammou/notes/capture.org::*Qtile scripts][qtile]] scripts
   - [ ] Oragnize ~$PATH~
 
-* DONE Test alarm feature :ALARM:
-CLOSED: [2025-01-28 Tue 21:17] DEADLINE: <2025-01-28 Tue 21:17>
-:PROPERTIES:
-:ID:       0eac2552-10d0-4a32-9bf4-c2556ddc1f19
-:END:
+* TODO System Proxy and DNS :SYSTEM:
 
+Access blocked websites via ~proxy~ or changeing ~DNS~

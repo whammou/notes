@@ -88,3 +88,12 @@ Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~
 
 Access blocked websites via ~proxy~ or changeing ~DNS~
 
+* TODO Integrate lazygit :GIT:
+
+Replace ~vim-fugitive~ with ~lazygit~
+
+* Understanding the ATS :WORK:
+
+- [ ] What is an [[https://www.jobscan.co/blog/8-things-you-need-to-know-about-applicant-tracking-systems/][ATS]]
+- [ ] Impact of ATS on your ~application~
+- [ ] What to do

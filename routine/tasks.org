@@ -158,8 +158,8 @@ SCHEDULED: <2025-01-07 Tue .+2m>
 :LAST_REPEAT: [2024-11-07 Thu 05:06]
 :END:
 
-****** TODO Check engine oil
-DEADLINE: <2025-01-23 Thu 17:00>
+****** DONE Check engine oil
+CLOSED: [2025-02-12 Wed 00:10] DEADLINE: <2025-01-23 Thu 17:00>
 
 - *Goal:* evaluate bike engine oil condition
 

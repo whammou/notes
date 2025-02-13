@@ -97,3 +97,10 @@ Replace ~vim-fugitive~ with ~lazygit~
 - [ ] What is an [[https://www.jobscan.co/blog/8-things-you-need-to-know-about-applicant-tracking-systems/][ATS]]
 - [ ] Impact of ATS on your ~application~
 - [ ] What to do
+
+* TODO Buy Cotton
+DEADLINE: <2025-02-13 Thu 23:59>
+:PROPERTIES:
+:ID:       f139600e-35f9-4a70-af6a-cfde919326d5
+:END:
+

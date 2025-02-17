@@ -20,6 +20,12 @@ Contact local bank for physical credit card
 
 Glue back a hole on my sneakers
 
+*** DONE Buy Cotton
+CLOSED: [2025-02-14 Fri 04:01] DEADLINE: <2025-02-13 Thu 23:59>
+:PROPERTIES:
+:ID:       f139600e-35f9-4a70-af6a-cfde919326d5
+:END:
+
 ** Incidental :INCIDENTAL:
 
 *** ABORTED [#A] Cúng ông táo
@@ -153,9 +159,9 @@ Weekly and monthly bikes maintenance schedule
 **** Honda Airblade
 
 ***** Oil change
-SCHEDULED: <2025-01-07 Tue .+2m>
+SCHEDULED: <2025-04-12 Sat .+2m>
 :PROPERTIES:
-:LAST_REPEAT: [2024-11-07 Thu 05:06]
+:LAST_REPEAT: [2025-02-12 Wed 00:10]
 :END:
 
 ****** DONE Check engine oil

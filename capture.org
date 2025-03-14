@@ -41,7 +41,7 @@ CLOSED: [2025-01-23 Thu 00:03] DEADLINE: <2025-01-22 Wed 00:00>
 DEADLINE: <2025-03-01 Sat 22:00>
 
 - *Goal(s):* configure and learn ~lua-snip~ syntax
-- *Visit:*[[https://sbulav.github.io/vim/neovim-setting-up-luasnip/][Neovim setting up snippets with luasnip]]  [[https://code.visualstudio.com/docs/editor/userdefinedsnippets][Snippets in vscode]]
+- *Visit:*  [[https://sbulav.github.io/vim/neovim-setting-up-luasnip/][Neovim setting up snippets with luasnip]]  [[https://code.visualstudio.com/docs/editor/userdefinedsnippets][Snippets in vscode]]
 
 ** Configure nvim-lsp
 
@@ -94,6 +94,10 @@ Access blocked websites via ~proxy~ or changeing ~DNS~
 
 Replace ~vim-fugitive~ with ~lazygit~
 
+** Set lazygit diff-mode
+
+
+
 * TODO Understanding the ATS :WORK:
 
 - [ ] What is an [[https://www.jobscan.co/blog/8-things-you-need-to-know-about-applicant-tracking-systems/][ATS]]
@@ -107,6 +111,8 @@ DEADLINE: <2025-02-24 Mon 22:00> CLOSED: [2025-02-28 Fri 21:00]
 /Config git merge-tool in/ ~lazygit~
 
 * TODO Re-config systemd battery :SYSTEMD:
-DEADLINE: <2025-02-26 Wed 18:00>
+DEADLINE: <2025-03-14 Fri 18:00>
 
-/Adjust battery and adapter behaviour/
+/Adjust battery and adapter behaviour, add:/
+  - [ ] Plugin behaviour
+  - [ ] Un-plug behaviour

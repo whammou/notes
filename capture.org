@@ -94,9 +94,13 @@ Access blocked websites via ~proxy~ or changeing ~DNS~
 
 Replace ~vim-fugitive~ with ~lazygit~
 
-** Set lazygit diff-mode
+** Setup git
 
+*Checkout:* [[file:/home/whammou/.gitconfig][gitconfig]]
 
+*** Add git-deff method
+
+/insert use method here/
 
 * TODO Understanding the ATS :WORK:
 

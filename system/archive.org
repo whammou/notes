@@ -6,6 +6,26 @@
 Allocated space for archives
 
 ** Documents :DOC:
+*** TODO Understanding git :GIT:
+
+/Understand the fundamentals of the git tool/
+
+**** Git config
+
+There are two locations a git config file can exist:
+ - *Local* git repo: in the repo itself (and ignored by ~.gitignore~)
+ - *Global* exist outside of the repo e.g. [[file:/home/whammou/.gitconfig][gitconfig]]
+
+**** Git merge vs re-base vs squashing
+
+There are different strategies to merge two ~branches~:
+ - *Merging:* Merge and ties together the ~history~ of both ~branches~
+ - *Re-basing:* Merge the ~commits~ of a branch to the *tip* of ~main~ and then performs a ~fast-forward-merge~
+ - *Squashing:* Squeeze all the ~commits~ of ~feature branch~ into one single ~commit~ and merge it with ~main~
+
+**** Git commit vs stash
+
+*Visit:* [[https://paulapivat.com/technical_notes/example_tech/git_stash/][Git Stash vs Git Commit]]
 
 *** DONE Orgmode Manual
 CLOSED: [2024-11-07 Thu 06:08]

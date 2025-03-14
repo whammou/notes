@@ -101,7 +101,7 @@ Replace ~vim-fugitive~ with ~lazygit~
 - [ ] What to do
 
 * DONE Merge conflict branch (Lazygit) :GIT:
-DEADLINE: <2025-02-24 Mon 22:00> CLOSED: [2025-02-28 Fri 21:00]
+CLOSED: [2025-02-28 Fri 21:00] DEADLINE: <2025-02-24 Mon 22:00>
 
 *Resources:* [[https://inv.nadeko.net/watch?v=Ihg37znaiBo][lazygit workflow]]
 /Config git merge-tool in/ ~lazygit~
@@ -110,3 +110,4 @@ DEADLINE: <2025-02-24 Mon 22:00> CLOSED: [2025-02-28 Fri 21:00]
 DEADLINE: <2025-02-26 Wed 18:00>
 
 /Adjust battery and adapter behaviour/
+

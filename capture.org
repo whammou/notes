@@ -42,12 +42,15 @@ DEADLINE: <2025-03-01 Sat 22:00>
 
 - *Goal(s):* configure and learn ~lua-snip~ syntax
 - *Visit:*  [[https://sbulav.github.io/vim/neovim-setting-up-luasnip/][Neovim setting up snippets with luasnip]]  [[https://code.visualstudio.com/docs/editor/userdefinedsnippets][Snippets in vscode]]
+   - *Youtube:* [[https://youtube.com/watch?v=GxnBIRl9UmA][luasnip setup]]
 
-** Configure nvim-lsp
+** ABORTED Configure nvim-lsp
+CLOSED: [2025-03-16 Sun 20:23]
 
 - *Goal(s):* configure ~nvim-lsp~
 
-** configure nvim-cmp
+** ABORTED configure nvim-cmp
+CLOSED: [2025-03-16 Sun 20:23]
 
 - *Goal(s):* configure ~nvim-cmp~
 
@@ -79,7 +82,7 @@ CLOSED: [2025-01-24 Fri 21:35]
 Set conversion fonts from ~markdown~ to ~LaTex~
 *Visit:* [[https://a.opnxng.com/exchange/tex.stackexchange.com/questions/234786/how-to-set-a-font-family-with-pandoc][pandoc fonts]]
 
-* Organize Script repo :GITHUB:
+* PENDING Organize Script repo :GITHUB:
 
 Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~
   - [ ] Organize ~/scripts~
@@ -90,17 +93,18 @@ Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~
 
 Access blocked websites via ~proxy~ or changeing ~DNS~
 
-* TODO Integrate lazygit :GIT:
+* DOING Integrate lazygit :GIT:
 
 Replace ~vim-fugitive~ with ~lazygit~
 
 ** Setup git
 
+/edit editor and diff-method in global config file/
 *Checkout:* [[file:/home/whammou/.gitconfig][gitconfig]]
 
-*** Add git-deff method
+*** TODO Add git-deff method
 
-/insert use method here/
+/insert use methods here/
 
 * TODO Understanding the ATS :WORK:
 
@@ -108,14 +112,8 @@ Replace ~vim-fugitive~ with ~lazygit~
 - [ ] Impact of ATS on your ~application~
 - [ ] What to do
 
-* DONE Merge conflict branch (Lazygit) :GIT:
-CLOSED: [2025-02-28 Fri 21:00] DEADLINE: <2025-02-24 Mon 22:00>
-
-*Resources:* [[https://inv.nadeko.net/watch?v=Ihg37znaiBo][lazygit workflow]]
-/Config git merge-tool in/ ~lazygit~
-
 * TODO Re-config systemd battery :SYSTEMD:
-DEADLINE: <2025-03-14 Fri 18:00>
+DEADLINE: <2025-03-14 Fri 23:45>
 
 /Adjust battery and adapter behaviour, add:/
   - [ ] Plugin behaviour

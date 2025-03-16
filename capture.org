@@ -120,3 +120,4 @@ DEADLINE: <2025-03-14 Fri 18:00>
 /Adjust battery and adapter behaviour, add:/
   - [ ] Plugin behaviour
   - [ ] Un-plug behaviour
+

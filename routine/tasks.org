@@ -19,8 +19,9 @@ Contact local bank for physical credit card
 *** PENDING Fix sneakers :ONEOFF:
 
 Glue back a hole on my sneakers
+
 *** DONE Buy Cotton
-DEADLINE: <2025-02-13 Thu 23:59> CLOSED: [2025-02-24 Mon 11:11]
+CLOSED: [2025-02-24 Mon 11:11] DEADLINE: <2025-02-13 Thu 23:59>
 :PROPERTIES:
 :ID:       f139600e-35f9-4a70-af6a-cfde919326d5
 :END:

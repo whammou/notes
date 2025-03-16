@@ -9,6 +9,12 @@ Allocated space for tasks/todos
 
 *** Dating :DATING:
 
+/Insert dating ideas and planning/
+
+**** Mì Cay xíu
+
+- *Address:* 
+
 *** PENDING [#A] Contact Sacombank
 
 Contact local bank for physical credit card
@@ -129,11 +135,12 @@ CLOSED: [2024-10-07 Mon 19:50] SCHEDULED: <2024-10-07 Mon 05:00>
 
 **** Haircare :HAIRCARE:
 
-***** Haircut
-DEADLINE: <2025-02-27 Thu 17:00 .+45d -1w>
+***** TODO Haircut
+DEADLINE: <2025-04-28 Mon 17:00 .+45d -1w>
 :PROPERTIES:
-:LAST_REPEAT: [2025-01-13 Mon 21:15]
+:LAST_REPEAT: [2025-03-14 Fri 21:54]
 :END:
+- State "DONE"       from "DOING"      [2025-03-14 Fri 21:54]
 - State "DONE"       from "TODO"       [2025-01-13 Mon 21:15]
 
 - *Goal:* log a good cut

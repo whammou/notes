@@ -41,8 +41,12 @@ CLOSED: [2025-01-23 Thu 00:03] DEADLINE: <2025-01-22 Wed 00:00>
 DEADLINE: <2025-03-01 Sat 22:00>
 
 - *Goal(s):* configure and learn ~lua-snip~ syntax
-- *Visit:*  [[https://sbulav.github.io/vim/neovim-setting-up-luasnip/][Neovim setting up snippets with luasnip]]  [[https://code.visualstudio.com/docs/editor/userdefinedsnippets][Snippets in vscode]]
+
+- *Visit:*
    - *Youtube:* [[https://youtube.com/watch?v=GxnBIRl9UmA][luasnip setup]]
+   - *Setup:* [[https://evesdropper.dev/files/luasnip/ultisnips-to-luasnip/][nvim luasnip setup]]
+   - [[https://sbulav.github.io/vim/neovim-setting-up-luasnip/][Neovim setting up snippets with luasnip]]
+   - [[https://code.visualstudio.com/docs/editor/userdefinedsnippets][Snippets in vscode]]
 
 ** ABORTED Configure nvim-lsp
 CLOSED: [2025-03-16 Sun 20:23]
@@ -119,3 +123,14 @@ DEADLINE: <2025-03-14 Fri 23:45>
   - [ ] Plugin behaviour
   - [ ] Un-plug behaviour
 
+* University of the people :UNIVERSITY:
+
+/Closer look into the/ [[https://www.uopeople.edu/][University of the people]]
+
+** Education and tuition fees
+
+/information on providing courses and fees/
+
+** Education in Vietname
+
+/both locally and globally/

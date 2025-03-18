@@ -92,6 +92,15 @@ Nhà hàng và buffet rau
 - *Contact:* tel:0373000282 [[https://www.facebook.com/aoyamasaigon/][facebook]]
 - *Open:* 11 AM–2 PM - 5:30–10:30 PM
 
+***** Pazzi
+:PROPERTIES:
+:ID:       5a6dacfe-bb52-4649-8f46-dae454fca664
+:END:
+
+- *Address:*  [[https://www.google.com/maps/place/Pazzi,+7A+%C4%90.+Nguy%E1%BB%85n+Th%C3%A0nh+%C3%9D,+%C4%90a+Kao,+Qu%E1%BA%ADn+1,+H%E1%BB%93+Ch%C3%AD+Minh+70000,+Vietnam/@10.7885766,106.6971844,17z/data=!4m6!3m5!1s0x3175291630a4c8f5:0x7133ab6c809ad7b9!8m2!3d10.7885766!4d106.6971844!16s%2Fg%2F11fsmh9fs2?force=pwa&source=mlapk][7A Đ. Nguyễn Thành Ý, Đa Kao, Quận 1]]
+- *Contact:*  tel:0775707066
+- *Open:* 10 AM–2 PM 4–9 PM
+
 **** Restaurants :RESTAURANT:
 
 ***** Japan Eats

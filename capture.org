@@ -41,7 +41,6 @@ CLOSED: [2025-01-23 Thu 00:03] DEADLINE: <2025-01-22 Wed 00:00>
 DEADLINE: <2025-03-19 Wed 22:00>
 
 - *Goal(s):* configure and learn ~lua-snip~ syntax
-
 - *Visit:*
    - *Youtube:* [[https://youtube.com/watch?v=GxnBIRl9UmA][luasnip setup]]
    - *Setup:* [[https://evesdropper.dev/files/luasnip/ultisnips-to-luasnip/][nvim luasnip setup]]

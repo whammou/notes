@@ -11,15 +11,6 @@ Allocated space for tasks/todos
 
 /Insert dating ideas and planning/
 
-**** ABORTED Mì Cay Một Xíu
-CLOSED: [2025-03-19 Wed 23:40] SCHEDULED: <2025-03-19 Wed 19:15>
-:PROPERTIES:
-:ID:       f7050fca-8c76-4be4-8d85-d25c6373261c
-:END:
-
-*Address:* [[https://www.google.com/maps/place/M%C3%AC+Cay+X%C3%ADu,+41%2F24+T%C3%B4n+Th%E1%BA%A5t+Thuy%E1%BA%BFt,+Ph%C6%B0%E1%BB%9Dng+16,+Qu%E1%BA%ADn+4,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7552661,106.7101667,16z/data=!4m6!3m5!1s0x31752f3dbb9bda11:0xbdf275cc94a0ed79!8m2!3d10.7552661!4d106.7101667!16s%2Fg%2F11ft4cyv2s?force=pwa&source=mlapk][41/24 Tôn Thất Thuyết, Phường 16, Quận 4]]
-- *Contact:* tel:0799147319
-
 *** PENDING [#A] Contact Sacombank
 
 Contact local bank for physical credit card
@@ -330,8 +321,8 @@ Grocery plan for easy meal-prepping
 
 - *Goal:* adding one extra meal per day
 
-*** DONE Pick HER up! :DATING:
-CLOSED: [2025-03-19 Wed 23:40] DEADLINE: <2025-03-19 Wed 18:30 -1h>
+*** Pick HER up! :DATING:
+ DEADLINE: <2025-03-20 Thu 19:00 -1h>
 :PROPERTIES:
 :ID:       b50be36d-d0d6-445b-864f-058907694753
 :END:

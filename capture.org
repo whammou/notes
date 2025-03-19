@@ -117,7 +117,7 @@ Replace ~vim-fugitive~ with ~lazygit~
 - [ ] What to do
 
 * TODO Re-config systemd battery :SYSTEMD:
-DEADLINE: <2025-03-14 Fri 23:45>
+DEADLINE: <2025-03-19 Wed 23:45>
 
 /Adjust battery and adapter behaviour, add:/
   - [ ] Plugin behaviour

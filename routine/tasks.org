@@ -12,7 +12,7 @@ Allocated space for tasks/todos
 /Insert dating ideas and planning/
 
 **** TODO Mì Cay Một Xíu
-SCHEDULED: <2025-03-16 Sun 21:30>
+SCHEDULED: <2025-03-19 Wed 19:15>
 :PROPERTIES:
 :ID:       f7050fca-8c76-4be4-8d85-d25c6373261c
 :END:

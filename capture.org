@@ -136,6 +136,7 @@ DEADLINE: <2025-03-14 Fri 23:45>
 /both locally and globally/
 
 * TODO Pick HER up!
+DEADLINE: <2025-03-19 Wed 18:30 -1h>
 :PROPERTIES:
 :ID:       b50be36d-d0d6-445b-864f-058907694753
 :END:

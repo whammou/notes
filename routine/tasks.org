@@ -31,7 +31,7 @@ CLOSED: [2025-02-24 Mon 11:11] DEADLINE: <2025-02-13 Thu 23:59>
 /Buy cotton from Family Mart/
 
 *** TODO Grocery list
-DEADLINE: <2025-02-24 Mon 14:00>
+DEADLINE: <2025-03-20 Thu 14:00>
 
 /Insert Grocery list here/
 
@@ -50,8 +50,7 @@ CLOSED: [2025-01-25 Sat 15:38] DEADLINE: <2025-01-23 Thu 12:00 -3d>
 - Trái cây: 
   - [ ] Táo
 
-*** TODO Bike repair :BIKE:
-SCHEDULED: <2025-02-03 Mon 16:00>
+*** PENDING Bike repair :BIKE:
 
 Diagnose failure point
 *Visit:* [[https://vinfastauto.com/vn_vi/cu-de-xe-may][hư hỏng củ đề]]  [[https://3mp.vn/service/cu-de-xe-may-bao-nhieu-tien-nguyen-nhan-cu-de-hu-hon][giá tham khảo]]

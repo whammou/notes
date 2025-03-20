@@ -13,10 +13,7 @@ Allocated space for tasks/todos
 
 ** Urgent :URGENT:
 
-*** TODO ID verification :WORK:
-DEADLINE: <2025-02-03 Mon>
-
-DEADLINE: <2025-01-31 Fri 16:00 -2h>
+*** PENDING ID verification :WORK:
 
 - *Goal(s):* update identification and update verify with the bank
 - *Address:* [[https://maps.app.goo.gl/2Fp6YFyGDrs26JAE8][MMV3+M3J, ĐH7, Phong Phú, Bình Chánh]]

@@ -222,8 +222,7 @@ CLOSED: [2025-01-10 Fri 02:27]
 
 - *Goal(s):* render response in markdown to take advantage of nvim markdown render
 
-***** TODO Shellgpt run-test :LINUX:
-DEADLINE: <2025-01-24 Fri 22:00>
+***** PENDING Shellgpt run-test :LINUX:
 
 - *Goal(s):* run test shellgpt with Gemini AI
 - *Stumble upon:* 

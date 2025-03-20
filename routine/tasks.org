@@ -33,7 +33,7 @@ CLOSED: [2025-02-24 Mon 11:11] DEADLINE: <2025-02-13 Thu 23:59>
 *** TODO Grocery list
 DEADLINE: <2025-03-20 Thu 20:00>
 
-/Insert Grocery list here/
+- /Insert Grocery list here/
 
 *** DONE Buy Cotton
 CLOSED: [2025-02-14 Fri 04:01] DEADLINE: <2025-02-13 Thu 23:59>

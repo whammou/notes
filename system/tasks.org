@@ -24,7 +24,7 @@ DEADLINE: <2025-03-20 Thu 21:00>
 :ID:       c1fcc5ff-079a-40e9-950b-5f15210d08c6
 :END:
 
-/Test nerdfont on Orgzly/
+- /Test nerdfont on Orgzly/
 
 ** Incidental :INCIDENTAL:
 

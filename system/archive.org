@@ -6,6 +6,7 @@
 Allocated space for archives
 
 ** Documents :DOC:
+
 *** TODO Understanding git :GIT:
 
 /Understand the fundamentals of the git tool/

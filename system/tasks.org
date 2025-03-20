@@ -10,12 +10,22 @@ Allocated space for tasks/todos
 *** TODO Learn nvim-orgmode_capture :NVIM:
 
 - *Goal:* learn ~org_capture_template~ at [[https://github.com/nvim-orgmode/orgmode/blob/master/docs/configuration.org#org_capture_templates][nvim-orgmode-configuration]]
+
 *** Organize Script repo :GITHUB:ORGMODE:
 
 Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~
 - [ ] Organize ~/scripts~
 - [ ] Organize [[file:/home/whammou/notes/capture.org::*Qtile scripts][qtile]] scripts
 - [ ] Organize ~$PATH~
+
+*** TODO Orgzly nerdfont :ORGMODE:
+DEADLINE: <2025-03-20 Thu 21:00>
+:PROPERTIES:
+:ID:       c1fcc5ff-079a-40e9-950b-5f15210d08c6
+:END:
+
+- /Test nerdfont on Orgzly/
+
 ** Incidental :INCIDENTAL:
 
 *** PENDING Github repo updates track :GITHUB:

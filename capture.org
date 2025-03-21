@@ -121,24 +121,3 @@ CLOSED: [2025-03-20 Thu 02:05] DEADLINE: <2025-03-19 Wed 23:45>
 
 - /Both locally and globally/
 
-* TODO Open-source application :LINUX:
-
-- /List of FOSS AI/
-
-* TODO Qtile ssh-tmux method :LINUX:
-DEADLINE: <2025-03-21 Fri 18:00>
-
-- /Add ssh-tmux keybind to qtile/
-- *File:* [[file:~/.config/qtile/settings/key/spawn.py][qtile-config]]
-
-* TODO Connect to Samba drive :LINUX:
-DEADLINE: <2025-03-21 Fri 17:00>
-
-- /Create keybinds to connect to /sambashare/
-- *File:* [[file:/usr/local/bin/smb-mount][smb-mount command]]
-
-* TODO Notification through ssh :LINUX:
-DEADLINE: <2025-03-21 Fri 17:30>
-
-- /Pipe notification socket through ssh/
-

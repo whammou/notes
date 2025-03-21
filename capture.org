@@ -22,6 +22,7 @@
   - [ ] add template structure
 
 ** TODO Separate archive hierarchy
+
 - Note taken on [2025-01-23 Thu 00:09] \\
   Separate ~Logs~ ~Lists~ and ~Documents~ to different files to avoid callbacks
 - *Goal:* optimize ~archive~ hierarchy
@@ -55,18 +56,6 @@ CLOSED: [2025-03-16 Sun 20:23]
 CLOSED: [2025-03-16 Sun 20:23]
 
 - *Goal(s):* configure ~nvim-cmp~
-
-* DOING Modular Qtile :QTILE:
-
-- *Goal:* successfully modularize ~qtile~ config
-- /Input example tree dir here/
-
-- Config directory: 
-  - [ ] Keymaps config: /create ~keymaps.py~/dot_examples
-  - [ ] Colorscheme config: /create ~colorschemes.py~/
-  - [ ] Layouts config: /create ~layouts.py~/
-  - [ ] Scratepad config: /create ~scratepads.py~/
-  - [ ] Options config: /create ~options.py~/
 
 * TODO Config yazi :YAZI:
 
@@ -133,3 +122,6 @@ CLOSED: [2025-03-20 Thu 02:05] DEADLINE: <2025-03-19 Wed 23:45>
 
 /Both locally and globally/
 
+* TODO Open-source application :LINUX:
+
+/List of FOSS AI/

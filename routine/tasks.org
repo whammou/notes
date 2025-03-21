@@ -31,9 +31,11 @@ CLOSED: [2025-02-24 Mon 11:11] DEADLINE: <2025-02-13 Thu 23:59>
 /Buy cotton from Family Mart/
 
 *** TODO Grocery list
-DEADLINE: <2025-03-20 Thu 20:00>
+DEADLINE: <2025-03-21 Fri 01:00>
 
-- /Insert Grocery list here/
+tel:mom
+- [ ] Má Đùi Gà (1.5kg)
+- [ ] Canh (3 Ngày)
 
 *** DONE Buy Cotton
 CLOSED: [2025-02-14 Fri 04:01] DEADLINE: <2025-02-13 Thu 23:59>

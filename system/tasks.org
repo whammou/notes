@@ -54,7 +54,7 @@ DEADLINE: <2025-03-21 Fri 20:00>
   - [ ] parent-arrows.lua 
   - [ ] checkout plugsin [[https://yazi-rs.github.io/docs/resources/][list]]
 
-*** TODO Openai API :SYSTEM:
+*** DOING Openai API :SYSTEM:
 DEADLINE: <2025-03-21 Fri 22:00>
 :PROPERTIES:
 :ID:       4eb61678-1269-411e-ad54-efb16c040ba4

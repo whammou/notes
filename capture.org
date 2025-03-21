@@ -112,16 +112,33 @@ CLOSED: [2025-03-20 Thu 02:05] DEADLINE: <2025-03-19 Wed 23:45>
 
 * University of the people :UNIVERSITY:
 
-/Closer look into the/ [[https://www.uopeople.edu/][University of the people]]
+- /Closer look into the/ [[https://www.uopeople.edu/][University of the people]]
 
 ** Education and tuition fees
 
-/Information on providing courses and fees/
+- /Information on providing courses and fees/
 
 ** Education in Vietname
 
-/Both locally and globally/
+- /Both locally and globally/
 
 * TODO Open-source application :LINUX:
 
-/List of FOSS AI/
+- /List of FOSS AI/
+
+* TODO Qtile create ssh-tmux func :LINUX:
+DEADLINE: <2025-03-21 Fri 18:00>
+
+- /Add ssh-tmux keybind to qtile/
+- *File:* [[file:~/.config/qtile/settings/key/spawn.py][qtile-config]]
+
+* TODO Connect to Samba drive :LINUX:
+DEADLINE: <2025-03-21 Fri 17:00>
+
+- /Create keybinds to connect to /sambashare/
+- *File:* [[file:/usr/local/bin/smb-mount][smb-mount command]]
+
+* TODO Notification through ssh :LINUX:
+DEADLINE: <2025-03-21 Fri 17:30>
+
+- /Pipe notification socket through ssh/

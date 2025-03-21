@@ -364,6 +364,75 @@ CLOSED: [2025-01-09 Thu 02:29] DEADLINE: <2025-01-06 Mon 03:00>
 - *Goal(s):* config ~pacman~ to:
   - Output colors: ~Colors~
   - have a funny animation ~IloveCandy~
+*** DONE Modular Qtile :QTILE:
+CLOSED: [2025-03-20 Thu 22:09]
+
+- *Goal:* successfully modularize ~qtile~ config
+- Config directory: 
+  - [x] Keymaps config: /create ~keymaps.py~/dot_examples
+  - [x] Colorscheme config: /create ~colorschemes.py~/
+  - [x] Layouts config: /create ~layouts.py~/
+  - [x] Scratepad config: /create ~scratepads.py~/
+  - [x] Options config: /create ~options.py~/
+- Working-tree dir:
+#+BEGIN_text options
+ .config/qtile
+├──  __pycache__
+│   └──  config.cpython-313.pyc
+├──  autostart.sh -> ../../dotfiles/qtile/.config/qtile/autostart.sh
+├──  config.json
+├──  config.py -> ../../dotfiles/qtile/.config/qtile/config.py
+├──  settings
+│   ├──  __pycache__
+│   │   ├──  groups.cpython-313.pyc
+│   │   ├──  keymaps.cpython-313.pyc
+│   │   ├──  keys.cpython-313.pyc
+│   │   ├──  layouts.cpython-313.pyc
+│   │   ├──  mouse.cpython-313.pyc
+│   │   ├──  path.cpython-313.pyc
+│   │   ├──  screens.cpython-313.pyc
+│   │   ├──  theme.cpython-313.pyc
+│   │   └──  widgets.cpython-313.pyc
+│   ├──  group
+│   │   ├──  __pycache__
+│   │   │   └──  scratchpads.cpython-313.pyc
+│   │   └──  scratchpads.py -> ../../../../dotfiles/qtile/.config/qtile/settings/group/scratchpads.py
+│   ├──  groups.py -> ../../../dotfiles/qtile/.config/qtile/settings/groups.py
+│   ├──  key
+│   │   ├──  __pycache__
+│   │   │   ├──  functional.cpython-313.pyc
+│   │   │   ├──  general.cpython-313.pyc
+│   │   │   ├──  layers.cpython-313.pyc
+│   │   │   ├──  qtile.cpython-313.pyc
+│   │   │   ├──  spawn.cpython-313.pyc
+│   │   │   └──  windows.cpython-313.pyc
+│   │   ├──  functional.py -> ../../../../dotfiles/qtile/.config/qtile/settings/key/functional.py
+│   │   ├──  layers.py -> ../../../../dotfiles/qtile/.config/qtile/settings/key/layers.py
+│   │   ├──  qtile.py -> ../../../../dotfiles/qtile/.config/qtile/settings/key/qtile.py
+│   │   ├──  spawn.py -> ../../../../dotfiles/qtile/.config/qtile/settings/key/spawn.py
+│   │   └──  windows.py -> ../../../../dotfiles/qtile/.config/qtile/settings/key/windows.py
+│   ├──  keymaps.py -> ../../../dotfiles/qtile/.config/qtile/settings/keymaps.py
+│   ├──  keys.py -> ../../../dotfiles/qtile/.config/qtile/settings/keys.py
+│   ├──  layouts.py -> ../../../dotfiles/qtile/.config/qtile/settings/layouts.py
+│   ├──  mouse.py -> ../../../dotfiles/qtile/.config/qtile/settings/mouse.py
+│   ├──  path.py -> ../../../dotfiles/qtile/.config/qtile/settings/path.py
+│   ├──  screens.py -> ../../../dotfiles/qtile/.config/qtile/settings/screens.py
+│   ├──  theme.py -> ../../../dotfiles/qtile/.config/qtile/settings/theme.py
+│   ├──  widget
+│   │   └──  base.py -> ../../../../dotfiles/qtile/.config/qtile/settings/widget/base.py
+│   └──  widgets.py -> ../../../dotfiles/qtile/.config/qtile/settings/widgets.py
+└──  themes
+    ├──  dark-grey.json -> ../../../dotfiles/qtile/.config/qtile/themes/dark-grey.json
+    ├──  dracula.json -> ../../../dotfiles/qtile/.config/qtile/themes/dracula.json
+    ├──  material-darker.json -> ../../../dotfiles/qtile/.config/qtile/themes/material-darker.json
+    ├──  material-ocean.json -> ../../../dotfiles/qtile/.config/qtile/themes/material-ocean.json
+    ├──  monokai-pro.json -> ../../../dotfiles/qtile/.config/qtile/themes/monokai-pro.json
+    ├──  nord-wave.json -> ../../../dotfiles/qtile/.config/qtile/themes/nord-wave.json
+    ├──  nord.json -> ../../../dotfiles/qtile/.config/qtile/themes/nord.json
+    ├──  onedark.json -> ../../../dotfiles/qtile/.config/qtile/themes/onedark.json
+    ├── 󰂺 README.md -> ../../../dotfiles/qtile/.config/qtile/themes/README.md
+    └──  rosepine.json -> ../../../dotfiles/qtile/.config/qtile/themes/rosepine.json
+#+END_text
 
 ** Lists :LIST:
 

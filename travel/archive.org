@@ -131,6 +131,10 @@ SCHEDULED: <2025-03-22 Sat 12:00>
 :ID:       fd95b2e2-16a5-4145-87a7-c49bef538e56
 :END:
 
+- /Insert address/
+- /Insert contact/
+- /Open hours/
+
 ** Logs :LOG:
 
 *** Đà Lạt 13/09/24

@@ -43,12 +43,12 @@ DEADLINE: <2025-03-21 Fri 17:00>
 - *File:* [[file:/usr/local/bin/smb-mount][smb-mount command]]
 
 *** TODO Notification through ssh :LINUX:
-DEADLINE: <2025-03-21 Fri 17:30>
+DEADLINE: <2025-03-22 Sat 17:30>
 
 - /Pipe notification socket through ssh/
 
 *** TODO Update yazi plugins :YAZI:
-DEADLINE: <2025-03-21 Fri 20:00>
+DEADLINE: <2025-03-22 Sat 20:00>
 
 - /Update yazi plugins:/
   - [ ] parent-arrows.lua 

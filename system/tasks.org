@@ -31,7 +31,7 @@ DEADLINE: <2025-03-22 Sat 21:00>
 - /List of FOSS AI/
 
 *** TODO Qtile ssh-tmux method :LINUX:
-DEADLINE: <2025-03-21 Fri 18:00>
+DEADLINE: <2025-03-22 Sat 18:00>
 
 - /Add ssh-tmux keybind to qtile/
 - *File:* [[file:~/.config/qtile/settings/key/spawn.py][qtile-config]]
@@ -55,7 +55,7 @@ DEADLINE: <2025-03-21 Fri 20:00>
   - [ ] checkout plugsin [[https://yazi-rs.github.io/docs/resources/][list]]
 
 *** DOING Openai API :SYSTEM:
-DEADLINE: <2025-03-21 Fri 22:00>
+DEADLINE: <2025-03-22 Sat 22:00>
 :PROPERTIES:
 :ID:       4eb61678-1269-411e-ad54-efb16c040ba4
 :END:

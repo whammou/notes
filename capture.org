@@ -22,7 +22,6 @@
   - [ ] add template structure
 
 ** TODO Separate archive hierarchy
-
 - Note taken on [2025-01-23 Thu 00:09] \\
   Separate ~Logs~ ~Lists~ and ~Documents~ to different files to avoid callbacks
 - *Goal:* optimize ~archive~ hierarchy
@@ -126,7 +125,7 @@ CLOSED: [2025-03-20 Thu 02:05] DEADLINE: <2025-03-19 Wed 23:45>
 
 - /List of FOSS AI/
 
-* TODO Qtile create ssh-tmux func :LINUX:
+* TODO Qtile ssh-tmux method :LINUX:
 DEADLINE: <2025-03-21 Fri 18:00>
 
 - /Add ssh-tmux keybind to qtile/
@@ -142,3 +141,4 @@ DEADLINE: <2025-03-21 Fri 17:00>
 DEADLINE: <2025-03-21 Fri 17:30>
 
 - /Pipe notification socket through ssh/
+

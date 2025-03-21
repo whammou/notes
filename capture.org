@@ -121,10 +121,3 @@ CLOSED: [2025-03-20 Thu 02:05] DEADLINE: <2025-03-19 Wed 23:45>
 
 - /Both locally and globally/
 
-* TODO Openai API :SYSTEM:
-:PROPERTIES:
-:ID:       4eb61678-1269-411e-ad54-efb16c040ba4
-:END:
-
-- /Contact [[tel:DuyTung][Duy Tung]] for API access/
-

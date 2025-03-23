@@ -364,6 +364,7 @@ CLOSED: [2025-01-09 Thu 02:29] DEADLINE: <2025-01-06 Mon 03:00>
 - *Goal(s):* config ~pacman~ to:
   - Output colors: ~Colors~
   - have a funny animation ~IloveCandy~
+
 *** DONE Modular Qtile :QTILE:
 CLOSED: [2025-03-20 Thu 22:09]
 

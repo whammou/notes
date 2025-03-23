@@ -19,7 +19,7 @@ Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~
 - [ ] Organize ~$PATH~
 
 *** TODO Orgzly nerdfont :ORGMODE:
-DEADLINE: <2025-03-22 Sat 21:00>
+DEADLINE: <2025-03-23 Sun 21:00>
 :PROPERTIES:
 :ID:       c1fcc5ff-079a-40e9-950b-5f15210d08c6
 :END:
@@ -31,13 +31,13 @@ DEADLINE: <2025-03-22 Sat 21:00>
 - /List of FOSS AI/
 
 *** TODO Qtile ssh-tmux method :LINUX:
-DEADLINE: <2025-03-22 Sat 18:00>
+DEADLINE: <2025-03-23 Sun 18:00>
 
 - /Add ssh-tmux keybind to qtile/
 - *File:* [[file:~/.config/qtile/settings/key/spawn.py][qtile-config]]
 
 *** DOING Connect to Samba drive :LINUX:
-DEADLINE: <2025-03-22 Sat 17:00>
+DEADLINE: <2025-03-23 Sun 17:00>
 
 - /Create keybinds to connect to ~sambashare~/
 
@@ -46,12 +46,12 @@ DEADLINE: <2025-03-22 Sat 17:00>
 - [ ] Add ~qtile~ [[file:~/.config/qtile/settings/key/spawn.py][keybinds]]
 
 *** TODO Notification through ssh :LINUX:
-DEADLINE: <2025-03-22 Sat 17:30>
+DEADLINE: <2025-03-23 Sun 17:30>
 
 - /Pipe notification socket through ssh/
 
-*** TODO Update yazi plugins :YAZI:
-DEADLINE: <2025-03-22 Sat 20:00>
+*** DONE Update yazi plugins :YAZI:
+DEADLINE: <2025-03-23 Sun 20:00> CLOSED: [2025-03-23 Sun 14:56]
 
 - /Update yazi plugins:/
   - [ ] parent-arrows.lua 

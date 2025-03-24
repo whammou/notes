@@ -121,6 +121,7 @@ CLOSED: [2025-03-20 Thu 02:05] DEADLINE: <2025-03-19 Wed 23:45>
 
 - /Both locally and globally/
 
+<<<<<<< HEAD
 * DOING Yazi fish integration :YAZI:
 DEADLINE: <2025-03-23 Sun 16:00>
 
@@ -132,12 +133,25 @@ DEADLINE: <2025-03-23 Sun 16:00>
 
 * ABORTED Phê La :ONEOFF:
 DEADLINE: <2025-03-23 Sun 21:30 -1h> CLOSED: [2025-03-23 Sun 21:27]
+||||||| 65cec2e
+* TODO Phê La :ONEOFF:
+DEADLINE: <2025-03-23 Sun 21:30 -1h>
+=======
+* ABORTED Phê La :ONEOFF:
+CLOSED: [2025-03-24 Mon 16:59] DEADLINE: <2025-03-23 Sun 21:30 -1h>
+>>>>>>> origin/merge-capture.org-4d266b3-2025-03-23_212946
 :PROPERTIES:
 :ID:       c88e4695-3e14-4617-9912-369ce22e2d26
 :END:
 
 - [ ] Trà sữa Phong Lan size S, trân châu Ô Long
 
+<<<<<<< HEAD
+* TODO This message is from local repo :GIT:
+
+- /insert message here/
+||||||| 65cec2e
+=======
 * This message is from remote repo
 :PROPERTIES:
 :ID:       f98c97bc-d088-4963-923c-be2c82ea8c3b
@@ -145,3 +159,4 @@ DEADLINE: <2025-03-23 Sun 21:30 -1h> CLOSED: [2025-03-23 Sun 21:27]
 
 - /insert message here/
 
+>>>>>>> origin/merge-capture.org-4d266b3-2025-03-23_212946

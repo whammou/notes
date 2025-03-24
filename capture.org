@@ -130,14 +130,6 @@ CLOSED: [2025-03-24 Mon 22:04] DEADLINE: <2025-03-23 Sun 16:00>
 
 - /Set input dir as a parameter/
 
-* ABORTED Phê La :ONEOFF:
-CLOSED: [2025-03-23 Sun 21:27] DEADLINE: <2025-03-23 Sun 21:30 -1h>
-:PROPERTIES:
-:ID:       c88e4695-3e14-4617-9912-369ce22e2d26
-:END:
-
-- [ ] Trà sữa Phong Lan size S, trân châu Ô Long
-
 * TODO Detect git repos from system :GIT:FZF:
 
 - /Detect system wise git repos the use fzf to open lazygit at repo location/

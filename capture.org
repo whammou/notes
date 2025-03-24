@@ -138,16 +138,14 @@ CLOSED: [2025-03-23 Sun 21:27] DEADLINE: <2025-03-23 Sun 21:30 -1h>
 
 - [ ] Trà sữa Phong Lan size S, trân châu Ô Long
 
-* This message is from remote repo
-:PROPERTIES:
-:ID:       f98c97bc-d088-4963-923c-be2c82ea8c3b
-:END:
+* TODO Detect git repos from system :GIT:FZF:
 
-- /insert message here/
+- /Detect system wise git repos the use fzf to open lazygit at repo location/
 
-* TODO Photobooth w her
+* TODO Photobooth with her :DATING:
 SCHEDULED: <2025-03-29 Sat 18:00>
 :PROPERTIES:
 :ID:       91a7c22a-c12d-425e-94c2-a1a38010a16d
 :END:
 
+- /Photo-shooting with my girl/

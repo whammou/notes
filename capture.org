@@ -141,3 +141,7 @@ SCHEDULED: <2025-03-29 Sat 18:00>
 :END:
 
 - /Photo-shooting with my girl/
+
+* DONE Schedule past
+SCHEDULED: <2025-03-24 Mon> CLOSED: [2025-03-25 Tue 06:45]
+- /past shedule/

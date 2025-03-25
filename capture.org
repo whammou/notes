@@ -141,3 +141,12 @@ SCHEDULED: <2025-03-29 Sat 18:00>
 :END:
 
 - /Photo-shooting with my girl/
+
+* TODO Cake for her
+SCHEDULED: <2025-03-25 Tue 18:30>
+:PROPERTIES:
+:ID:       1747ccdd-ef85-4093-9d46-5788aaca0d29
+:END:
+
+- /Stop by a Ministop/
+

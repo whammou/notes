@@ -42,6 +42,7 @@ CLOSED: [2025-02-14 Fri 04:01] DEADLINE: <2025-02-13 Thu 23:59>
 :PROPERTIES:
 :ID:       f139600e-35f9-4a70-af6a-cfde919326d5
 :END:
+
 *** TODO Photobooth with her :DATING:
 SCHEDULED: <2025-03-29 Sat 18:00>
 :PROPERTIES:
@@ -328,9 +329,10 @@ Cooking phase
 - *Goal:* adding one extra meal per day
 
 *** TODO Dear diary :DATING:
-SCHEDULED: <2025-03-25 Tue 14:00 +1d>
+SCHEDULED: <2025-03-25 Tue 20:30 +1d>
 
 - /Journaling todays event/
+
 *** TODO Pick HER up! :DATING:ALARM:
 SCHEDULED: <2025-03-27 Thu 16:30 +1d>
 :PROPERTIES:
@@ -344,3 +346,4 @@ SCHEDULED: <2025-03-27 Thu 16:30 +1d>
 
 - /Picking my girl up/
 - *Location:*  [[https://www.google.com/maps/place/A%2BC+Coffee+Experience,+230%2F18+Pasteur,+Ph%C6%B0%E1%BB%9Dng+6,+Qu%E1%BA%ADn+3,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7858949,106.6915706,16z/data=!4m6!3m5!1s0x31752f0079a094e1:0xa8800ca97260d786!8m2!3d10.7858949!4d106.6915706!16s%2Fg%2F11x1lhrz1t?force=pwa&source=mlapk][230/18 Pasteur, Phường 6, Quận 3]]
+

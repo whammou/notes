@@ -36,8 +36,8 @@ DEADLINE: <2025-03-24 Mon 18:00>
 - /Add ssh-tmux keybind to qtile/
 - *File:* [[file:~/.config/qtile/settings/key/spawn.py][qtile-config]]
 
-*** DOING Connect to Samba drive :LINUX:
-DEADLINE: <2025-03-24 Mon 17:00>
+*** DONE Connect to Samba drive :LINUX:
+DEADLINE: <2025-03-24 Mon 17:00> CLOSED: [2025-03-25 Tue 06:45]
 
 - /Create keybinds to connect to ~sambashare~/
 

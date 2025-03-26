@@ -19,7 +19,7 @@ Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~
 - [ ] Organize ~$PATH~
 
 *** ABORTED Orgzly nerdfont :ORGMODE:
-DEADLINE: <2025-03-25 Tue 21:00> CLOSED: [2025-03-25 Tue 09:16]
+CLOSED: [2025-03-25 Tue 09:16] DEADLINE: <2025-03-25 Tue 21:00>
 :PROPERTIES:
 :ID:       c1fcc5ff-079a-40e9-950b-5f15210d08c6
 :END:
@@ -31,7 +31,7 @@ DEADLINE: <2025-03-25 Tue 21:00> CLOSED: [2025-03-25 Tue 09:16]
 - /List of FOSS AI/
 
 *** TODO Qtile ssh-tmux method :LINUX:
-DEADLINE: <2025-03-25 Tue 18:00>
+DEADLINE: <2025-03-26 Wed 18:00>
 
 - /Add ssh-tmux keybind to qtile/
 - *File:* [[file:~/.config/qtile/settings/key/spawn.py][qtile-config]]
@@ -46,7 +46,7 @@ CLOSED: [2025-03-25 Tue 06:45] DEADLINE: <2025-03-24 Mon 17:00>
 - [ ] Add ~qtile~ [[file:~/.config/qtile/settings/key/spawn.py][keybinds]]
 
 *** TODO Notification through ssh :LINUX:
-DEADLINE: <2025-03-25 Tue 17:30>
+DEADLINE: <2025-03-26 Wed 17:30>
 
 - /Pipe notification socket through ssh/
 

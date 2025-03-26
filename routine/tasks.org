@@ -51,6 +51,18 @@ SCHEDULED: <2025-03-29 Sat 18:00>
 
 - /Photo-shooting with my girl/
 
+*** TODO Obtain IP
+SCHEDULED: <2025-03-26 Wed 15:00>
+:PROPERTIES:
+:ID:       ce78c56b-3c1c-4dc1-9b99-98f4a9a2e271
+:END:
+
+*** TODO Buy razer
+DEADLINE: <2025-03-26 Wed 15:00>
+:PROPERTIES:
+:ID:       6be721fe-3a0a-40c3-aea7-5aea736aed4e
+:END:
+
 ** Incidental :INCIDENTAL:
 
 *** ABORTED [#A] Cúng ông táo

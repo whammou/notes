@@ -158,7 +158,4 @@ SCHEDULED: <2025-03-28 Fri 18:00 +1d>
 :PROPERTIES:
 :ID:       d32db78b-af0c-49dc-b062-4fa7cb43b424
 :END:
-:LOGBOOK:
-- State "ABORTED"    from "TODO"       [2025-03-30 Sun 05:17]
-:END:
 

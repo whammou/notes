@@ -135,9 +135,16 @@ CLOSED: [2025-03-24 Mon 22:04] DEADLINE: <2025-03-23 Sun 16:00>
 - /Detect system wise git repos the use fzf to open lazygit at repo location/
 
 * ABORTED Cake for her :DATING:
-SCHEDULED: <2025-03-25 Tue 18:30> CLOSED: [2025-03-25 Tue 19:50]
+CLOSED: [2025-03-25 Tue 19:50] SCHEDULED: <2025-03-25 Tue 18:30>
 :PROPERTIES:
 :ID:       1747ccdd-ef85-4093-9d46-5788aaca0d29
 :END:
 
 - /Stop by a Ministop/
+
+* TODO Test alarm :ALARM:
+DEADLINE: <2025-03-26 Wed 07:23>
+:PROPERTIES:
+:ID:       4d209720-9602-4a03-9d9e-8ab227ad6886
+:END:
+

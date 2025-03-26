@@ -108,7 +108,7 @@ Replace ~vim-fugitive~ with ~lazygit~
 - /Open yazi at typed dir in fish shell/
 
 ** TODO Fish shell input dir
-DEADLINE: <2025-03-26 Wed 20:00>
+DEADLINE: <2025-03-27 Thu 20:00>
 
 - /Set input dir as a parameter/
 
@@ -117,7 +117,7 @@ DEADLINE: <2025-03-26 Wed 20:00>
 - /Detect system wise git repos the use fzf to open lazygit at repo location/
 
 * TODO Self-host AI [0%] :LINUX:AI:
-DEADLINE: <2025-03-26 Wed 22:00>
+DEADLINE: <2025-03-27 Thu 22:00>
 
 - /GTX 1050 ti AI self-host models/
 
@@ -141,12 +141,12 @@ DEADLINE: <2025-03-26 Wed 22:00>
   - [[https://github.com/TheR1D/shell_gpt][Shell_gpt@github]]
 
 * TODO Men eyebrows care :SELFCARE:
-DEADLINE: <2025-03-26 Wed 22:00>
+DEADLINE: <2025-03-27 Thu 22:00>
 
 - /Suggestions for eyebrows-care/
 
 * TODO Optimal sleep time :SELFCARE:
-DEADLINE: <2025-03-26 Wed 22:00 -2h>
+DEADLINE: <2025-03-27 Thu 22:00 -2h>
 :PROPERTIES:
 :ID:       b7abea60-bd6a-4bb4-9aa6-5e7ccfa0ace5
 :END:

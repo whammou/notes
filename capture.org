@@ -145,3 +145,11 @@ DEADLINE: <2025-03-26 Wed 22:00>
 
 - /Suggestions for eyebrows-care/
 
+* Optimal sleep time
+DEADLINE: <2025-03-26 Wed 22:00 -2h>
+:PROPERTIES:
+:ID:       b7abea60-bd6a-4bb4-9aa6-5e7ccfa0ace5
+:END:
+
+- /Research optimal sleep time/
+

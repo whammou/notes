@@ -152,3 +152,10 @@ DEADLINE: <2025-03-26 Wed 22:00 -2h>
 :END:
 
 - /Research optimal sleep time/
+
+* TODO Everday tasks :TEST:
+SCHEDULED: <2025-03-27 Thu 18:00 +1d>
+:PROPERTIES:
+:ID:       d32db78b-af0c-49dc-b062-4fa7cb43b424
+:END:
+

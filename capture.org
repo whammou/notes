@@ -160,6 +160,6 @@ SCHEDULED: <2025-03-27 Thu 18:00 ++1d>
 :LAST_REPEAT: [2025-03-30 Sun 05:22]
 :END:
 :LOGBOOK:
-- State "ABORTED"    from "TODO"       [2025-03-27 Thu 05:22]
+- State "ABORTED"    from "TODO"       [2025-03-30 Sun 05:22]
 :END:
 

@@ -329,7 +329,13 @@ Cooking phase
 - *Goal:* adding one extra meal per day
 
 *** TODO Dear diary :DATING:
-SCHEDULED: <2025-03-25 Tue 20:30 +1d>
+SCHEDULED: <2025-03-26 Wed 16:30 +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2025-03-26 Wed 07:02]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2025-03-26 Wed 07:02]
+:END:
 
 - /Journaling todays event/
 
@@ -337,10 +343,11 @@ SCHEDULED: <2025-03-25 Tue 20:30 +1d>
 SCHEDULED: <2025-03-27 Thu 16:30 +1d>
 :PROPERTIES:
 :ID:       b50be36d-d0d6-445b-864f-058907694753
-:LAST_REPEAT: [2025-03-25 Tue 19:50]
+:LAST_REPEAT: [2025-03-26 Wed 07:03]
 :END:
 - State "DONE"       from "TODO"       [2025-03-25 Tue 19:50]
 :LOGBOOK:
+- State "ABORTED"    from "TODO"       [2025-03-26 Wed 07:03]
 - State "DONE"       from "TODO"       [2025-03-24 Mon 23:41]
 :END:
 

@@ -82,6 +82,7 @@ Diagnose failure point
 ** Urgent :URGENT:
 
 ** Recurring :RECURRING:
+
 *** Dating routines :DATING:
 
 - /Dating routines/
@@ -199,7 +200,9 @@ Weekly conditioner schedule
 Weekly and monthly bikes maintenance schedule
 
 **** Honda Airblade
+
 - /Honda Airblade/
+
 **** Clean Bikes
 
 - /Clean up my bikes/
@@ -216,6 +219,7 @@ CLOSED: [2025-02-12 Wed 00:10] DEADLINE: <2025-01-23 Thu 17:00>
 - *Goal:* evaluate bike engine oil condition
 
 **** Suzuki GN125
+
 ***** Clean Bikes
 
 - /Clean up my bikes/
@@ -286,7 +290,6 @@ SCHEDULED: <2025-03-27 Thu 16:30 +1d>
 :ID:       b50be36d-d0d6-445b-864f-058907694753
 :LAST_REPEAT: [2025-03-26 Wed 07:03]
 :END:
-- State "DONE"       from "TODO"       [2025-03-25 Tue 19:50]
 :LOGBOOK:
 - State "ABORTED"    from "TODO"       [2025-03-26 Wed 07:03]
 - State "DONE"       from "TODO"       [2025-03-24 Mon 23:41]

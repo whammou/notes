@@ -1,0 +1,153 @@
+#+TITLE: Capture
+#+DESCRIPTION: Captures and Quick notes
+
+* PENDING Plain text music playlist :LINUX:
+
+*Goal:* Plain text music playlist that works with ~ytfzf~ and ~new pipe~
+
+* PENDING Config nvim-supertab and nvim-cmp :NVIM:
+
+- *Stumble upon:* [[https://github.com/hrsh7th/nvim-cmp/issues/179][issue@github]]
+- *Goal(s):* config nvim to work with nvim-cmp nvim-supertab
+
+* DOING Overhaul Note repo :GITHUB: [0%]
+
+- *Goal(s):* update note repo structure for more optimal workflow
+- *NOTE:* checkout [[./README.org][README]] and find a suitable repo structure
+
+** Modify README
+
+- *Goal(s):* modify and add README content
+  - [ ] modify [[./README.org::repo-hierarchy][Hierarchy]]
+  - [ ] add template structure
+
+** TODO Separate archive hierarchy
+- Note taken on [2025-01-23 Thu 00:09] \\
+  Separate ~Logs~ ~Lists~ and ~Documents~ to different files to avoid callbacks
+- *Goal:* optimize ~archive~ hierarchy
+
+* PENDING Config lua-snip and nvim-lsp :NVIM:
+
+- *Goal:* successfully replace ~ultil-snip~ and ~coc-nvim~ with ~lua-snip~ + ~lsp-zeo~
+- *Visit:* [[https://a.opnxng.com/exchange/vi.stackexchange.com/questions/41733/how-to-set-up-luasnip-in-neovim-w-lsp-zero][nvim-cmp#external-sources]]
+
+** Configure lua-snip
+
+- *Goal(s):* configure and learn ~lua-snip~ syntax
+- *Visit:*
+   - *Youtube:* [[https://youtube.com/watch?v=GxnBIRl9UmA][luasnip setup]]
+   - *Setup:* [[https://evesdropper.dev/files/luasnip/ultisnips-to-luasnip/][nvim luasnip setup]]
+   - [[https://sbulav.github.io/vim/neovim-setting-up-luasnip/][Neovim setting up snippets with luasnip]]
+   - [[https://code.visualstudio.com/docs/editor/userdefinedsnippets][Snippets in vscode]]
+
+** ABORTED Configure nvim-lsp
+CLOSED: [2025-03-16 Sun 20:23]
+
+- *Goal(s):* configure ~nvim-lsp~
+
+** ABORTED configure nvim-cmp
+CLOSED: [2025-03-16 Sun 20:23]
+
+- *Goal(s):* configure ~nvim-cmp~
+
+* TODO Config yazi :YAZI:
+
+- *Goal:* separate hotkeys into ~EDIT~ and ~VIEW~:
+  - [ ] Bind short-key to open ~EDIT~ such as: images, texts, docs
+  - [ ] Bind short-key to open ~VIEW~ - view only for images and texts/docs
+
+* TODO Pandoc font settings :PANDOC:
+
+Set conversion fonts from ~markdown~ to ~LaTex~
+*Visit:* [[https://a.opnxng.com/exchange/tex.stackexchange.com/questions/234786/how-to-set-a-font-family-with-pandoc][pandoc fonts]]
+
+* PENDING Organize Script repo :GITHUB:
+
+Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~
+  - [ ] Organize ~/scripts~
+  - [ ] Oragnize [[file:/home/whammou/notes/capture.org::*Qtile scripts][qtile]] scripts
+  - [ ] Oragnize ~$PATH~
+
+* PENDING System Proxy and DNS :SYSTEM:
+
+Access blocked websites via ~proxy~ or changeing ~DNS~
+
+* DOING Integrate lazygit [%] :GIT:
+
+Replace ~vim-fugitive~ with ~lazygit~
+
+** TODO Setup git
+
+/edit editor and diff-method in global config file/
+*Checkout:* [[file:/home/whammou/.gitconfig][gitconfig]]
+
+*** TODO Add git-deff method
+
+/insert use methods here/
+
+* TODO Understanding the ATS [%] :WORK:
+
+- [ ] What is an [[https://www.jobscan.co/blog/8-things-you-need-to-know-about-applicant-tracking-systems/][ATS]]
+- [ ] Impact of ATS on your ~application~
+- [ ] What to do
+
+* PENDING University of the people [0%] :UNIVERSITY:
+
+- /Closer look into the/ [[https://www.uopeople.edu/][University of the people]]
+
+** Education and tuition fees
+
+- /Information on providing courses and fees/
+
+** Education in Vietname
+
+- /Both locally and globally/
+
+* DOING Yazi fish integration [0%] :YAZI:
+
+- /Open yazi at typed dir in fish shell/
+
+** TODO Fish shell input dir
+DEADLINE: <2025-03-26 Wed 20:00>
+
+- /Set input dir as a parameter/
+
+* TODO Detect git repos from system :GIT:FZF:
+
+- /Detect system wise git repos the use fzf to open lazygit at repo location/
+
+* TODO Self-host AI [0%] :LINUX:AI:
+DEADLINE: <2025-03-26 Wed 22:00>
+
+<<<<<<< HEAD
+- /GTX 1050 ti AI self-host models/
+
+** Linux-Windows dual boot
+
+- /Dual boot Windows and Linux on the same system/
+- *Visit:* [[https://wiki.archlinux.org/title/Dual_boot_with_Windows][Dual boot with Windows]]
+
+** Self-host AI with Nvidia card
+
+- /Models compatible with ~GTX 1050 ti~/
+- *Visit:*
+  - [[https://discuss.techlore.tech/t/possible-to-use-nvidia-gtx-card-for-self-hosted-ai/8454/4][AI self-host nvidia card]]
+  - [[https://ollama.com/search][Ollama models]]
+
+** Integrate AI into shell
+
+- /Successfully pull AI into working shell/
+- *Visit:* 
+  - [[https://github.com/danielmiessler/fabric][Fabric@github]]
+  - [[https://github.com/TheR1D/shell_gpt][Shell_gpt@github]]
+
+* TODO Men eyebrows care :SELFCARE:
+DEADLINE: <2025-03-26 Wed 22:00>
+
+- /Suggestions for eyebrows-care/
+||||||| 3d116db
+- /Stop by a Ministop/
+=======
+- /Stop by a Ministop/
+
+>>>>>>> origin/merge-capture.org-42d817b-2025-03-26_092830

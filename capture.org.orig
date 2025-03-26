@@ -134,19 +134,71 @@ CLOSED: [2025-03-24 Mon 22:04] DEADLINE: <2025-03-23 Sun 16:00>
 
 - /Detect system wise git repos the use fzf to open lazygit at repo location/
 
-* TODO Photobooth with her :DATING:
-SCHEDULED: <2025-03-29 Sat 18:00>
+* ABORTED Cake for her :DATING:
+CLOSED: [2025-03-25 Tue 19:50] SCHEDULED: <2025-03-25 Tue 18:30>
 :PROPERTIES:
-:ID:       91a7c22a-c12d-425e-94c2-a1a38010a16d
+:ID:       1747ccdd-ef85-4093-9d46-5788aaca0d29
 :END:
 
-- /Photo-shooting with my girl/
+- /Stop by a Ministop/
 <<<<<<< HEAD
+||||||| 028c5ee
 
-* DONE Schedule past
-SCHEDULED: <2025-03-24 Mon> CLOSED: [2025-03-25 Tue 06:45]
-- /past shedule/
-||||||| 53d993f
+* TODO Test alarm :ALARM: [66%]
+DEADLINE: <2025-03-26 Wed 07:25>
+:PROPERTIES:
+:ID:       4d209720-9602-4a03-9d9e-8ab227ad6886
+:Effort: 0:02
+:END:
+:LOGBOOK:
+CLOCK: [2025-03-26 Wed 07:40]--[2025-03-26 Wed 07:41] => 0:01
+:END:
+
+- [x] task 1
+- [x] task 2
+- [x] task 3
+
+** DOING Sub task 1
+
+- /Content/
+
+** DONE Sub task 2
+CLOSED: [2025-03-26 Wed 07:33]
+
+- /Content/
+
+** DONE Sub Task 3
+CLOSED: [2025-03-26 Wed 07:39]
+
+- /Content/
 =======
 
->>>>>>> origin/main
+* TODO Test alarm :ALARM: [66%]
+DEADLINE: <2025-03-26 Wed 07:25>
+:PROPERTIES:
+:ID:       4d209720-9602-4a03-9d9e-8ab227ad6886
+:Effort:   0:02
+:END:
+:LOGBOOK:
+CLOCK: [2025-03-26 Wed 07:40]--[2025-03-26 Wed 07:41] => 0:01
+:END:
+
+- [x] task 1
+- [x] task 2
+- [x] task 3
+
+** DOING Sub task 1
+
+- /Content/
+
+** DONE Sub task 2
+CLOSED: [2025-03-26 Wed 07:33]
+
+- /Content/
+
+** DONE Sub Task 3
+CLOSED: [2025-03-26 Wed 07:39]
+
+- /Content/
+
+>>>>>>> origin/merge-capture.org-49abeb1-2025-03-26_074540

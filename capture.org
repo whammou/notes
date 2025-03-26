@@ -153,3 +153,9 @@ DEADLINE: <2025-03-26 Wed 22:00 -2h>
 
 - /Research optimal sleep time/
 
+* TODO Repeating tasks :TEST:
+SCHEDULED: <2025-03-31 Mon ++1d>
+:PROPERTIES:
+:ID:       36bb7f91-e6f0-4ac1-a273-18a8ea7ee096
+:END:
+

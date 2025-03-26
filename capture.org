@@ -144,3 +144,10 @@ DEADLINE: <2025-03-26 Wed 22:00>
 DEADLINE: <2025-03-26 Wed 22:00>
 
 - /Suggestions for eyebrows-care/
+
+* TODO Obtain IP :ONEOFF:
+SCHEDULED: <2025-03-26 Wed 15:00>
+:PROPERTIES:
+:ID:       ce78c56b-3c1c-4dc1-9b99-98f4a9a2e271
+:END:
+

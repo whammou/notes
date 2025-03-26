@@ -984,4 +984,19 @@ CLOSED: [2025-01-27 Mon 22:16]
   - Visit: [[https://github.com/fish-shell/fish-shell/issues/7152][binding /cZ]]
 
 - *Goal:* unbind ~send_to_background~ (~cZ~) or rebind to other keys
+*** DONE Re-config systemd battery :SYSTEMD:
+CLOSED: [2025-03-20 Thu 02:05] DEADLINE: <2025-03-19 Wed 23:45>
+
+/Adjust battery and adapter behaviour, add:/
+- [x] Plugin behaviour
+- [x] Un-plug behaviour
+*** DONE Integrate nvim-fugitive to fish :LINUX:
+CLOSED: [2025-01-23 Thu 00:03] DEADLINE: <2025-01-22 Wed 00:00>
+
+- *Goal:* bind ~<C-g>...~ to ~fish~ for ~vim-fugitive~ workflow
+- *Visit:* [[https://fishshell.com/docs/current/cmds/bind.html][fishshell_DOC#bind]]
+*** DONE Config nvim auto-pairs :NVIM:
+CLOSED: [2025-01-24 Fri 21:35]
+
+- *Goal(s):* config nvim-auto pairs hotkeys
 

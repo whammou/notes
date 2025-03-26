@@ -10,7 +10,7 @@
 - *Stumble upon:* [[https://github.com/hrsh7th/nvim-cmp/issues/179][issue@github]]
 - *Goal(s):* config nvim to work with nvim-cmp nvim-supertab
 
-* DOING Overhaul Note repo :GITHUB:
+* DOING Overhaul Note repo :GITHUB: [0%]
 
 - *Goal(s):* update note repo structure for more optimal workflow
 - *NOTE:* checkout [[./README.org][README]] and find a suitable repo structure
@@ -25,12 +25,6 @@
 - Note taken on [2025-01-23 Thu 00:09] \\
   Separate ~Logs~ ~Lists~ and ~Documents~ to different files to avoid callbacks
 - *Goal:* optimize ~archive~ hierarchy
-
-* DONE Integrate nvim-fugitive to fish :LINUX:
-CLOSED: [2025-01-23 Thu 00:03] DEADLINE: <2025-01-22 Wed 00:00>
-
-- *Goal:* bind ~<C-g>...~ to ~fish~ for ~vim-fugitive~ workflow
-- *Visit:* [[https://fishshell.com/docs/current/cmds/bind.html][fishshell_DOC#bind]]
 
 * PENDING Config lua-snip and nvim-lsp :NVIM:
 
@@ -62,11 +56,6 @@ CLOSED: [2025-03-16 Sun 20:23]
   - [ ] Bind short-key to open ~EDIT~ such as: images, texts, docs
   - [ ] Bind short-key to open ~VIEW~ - view only for images and texts/docs
 
-* DONE Config nvim auto-pairs :NVIM:
-CLOSED: [2025-01-24 Fri 21:35]
-
-- *Goal(s):* config nvim-auto pairs hotkeys
-
 * TODO Pandoc font settings :PANDOC:
 
 Set conversion fonts from ~markdown~ to ~LaTex~
@@ -83,11 +72,11 @@ Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~
 
 Access blocked websites via ~proxy~ or changeing ~DNS~
 
-* DOING Integrate lazygit :GIT:
+* DOING Integrate lazygit [%] :GIT:
 
 Replace ~vim-fugitive~ with ~lazygit~
 
-** Setup git
+** TODO Setup git
 
 /edit editor and diff-method in global config file/
 *Checkout:* [[file:/home/whammou/.gitconfig][gitconfig]]
@@ -96,20 +85,13 @@ Replace ~vim-fugitive~ with ~lazygit~
 
 /insert use methods here/
 
-* TODO Understanding the ATS :WORK:
+* TODO Understanding the ATS [%] :WORK:
 
 - [ ] What is an [[https://www.jobscan.co/blog/8-things-you-need-to-know-about-applicant-tracking-systems/][ATS]]
 - [ ] Impact of ATS on your ~application~
 - [ ] What to do
 
-* DONE Re-config systemd battery :SYSTEMD:
-CLOSED: [2025-03-20 Thu 02:05] DEADLINE: <2025-03-19 Wed 23:45>
-
-/Adjust battery and adapter behaviour, add:/
-  - [ ] Plugin behaviour
-  - [ ] Un-plug behaviour
-
-* PENDING University of the people :UNIVERSITY:
+* PENDING University of the people [0%] :UNIVERSITY:
 
 - /Closer look into the/ [[https://www.uopeople.edu/][University of the people]]
 
@@ -121,12 +103,12 @@ CLOSED: [2025-03-20 Thu 02:05] DEADLINE: <2025-03-19 Wed 23:45>
 
 - /Both locally and globally/
 
-* DONE Yazi fish integration :YAZI:
-CLOSED: [2025-03-24 Mon 22:04] DEADLINE: <2025-03-23 Sun 16:00>
+* DOING Yazi fish integration [0%] :YAZI:
 
 - /Open yazi at typed dir in fish shell/
 
-** Fish shell input dir
+** TODO Fish shell input dir
+DEADLINE: <2025-03-26 Wed 20:00>
 
 - /Set input dir as a parameter/
 
@@ -134,10 +116,31 @@ CLOSED: [2025-03-24 Mon 22:04] DEADLINE: <2025-03-23 Sun 16:00>
 
 - /Detect system wise git repos the use fzf to open lazygit at repo location/
 
-* ABORTED Cake for her :DATING:
-CLOSED: [2025-03-25 Tue 19:50] SCHEDULED: <2025-03-25 Tue 18:30>
-:PROPERTIES:
-:ID:       1747ccdd-ef85-4093-9d46-5788aaca0d29
-:END:
+* TODO Self-host AI [0%] :LINUX:AI:
+DEADLINE: <2025-03-26 Wed 22:00>
 
-- /Stop by a Ministop/
+- /GTX 1050 ti AI self-host models/
+
+** Linux-Windows dual boot
+
+- /Dual boot Windows and Linux on the same system/
+- *Visit:* [[https://wiki.archlinux.org/title/Dual_boot_with_Windows][Dual boot with Windows]]
+
+** Self-host AI with Nvidia card
+
+- /Models compatible with ~GTX 1050 ti~/
+- *Visit:*
+  - [[https://discuss.techlore.tech/t/possible-to-use-nvidia-gtx-card-for-self-hosted-ai/8454/4][AI self-host nvidia card]]
+  - [[https://ollama.com/search][Ollama models]]
+
+** Integrate AI into shell
+
+- /Successfully pull AI into working shell/
+- *Visit:* 
+  - [[https://github.com/danielmiessler/fabric][Fabric@github]]
+  - [[https://github.com/TheR1D/shell_gpt][Shell_gpt@github]]
+
+* TODO Men eyebrows care :SELFCARE:
+DEADLINE: <2025-03-26 Wed 22:00>
+
+- /Suggestions for eyebrows-care/

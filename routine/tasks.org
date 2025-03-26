@@ -7,7 +7,7 @@ Allocated space for tasks/todos
 
 ** One-off :ONEOFF:
 
-*** Dating :DATING:
+*** Dating plans :DATING:
 
 /Insert dating ideas and planning/
 
@@ -43,7 +43,7 @@ CLOSED: [2025-02-14 Fri 04:01] DEADLINE: <2025-02-13 Thu 23:59>
 :ID:       f139600e-35f9-4a70-af6a-cfde919326d5
 :END:
 
-*** TODO Photobooth with her :DATING:
+**** TODO Photobooth with her :DATING:
 SCHEDULED: <2025-03-29 Sat 18:00>
 :PROPERTIES:
 :ID:       91a7c22a-c12d-425e-94c2-a1a38010a16d
@@ -82,6 +82,9 @@ Diagnose failure point
 ** Urgent :URGENT:
 
 ** Recurring :RECURRING:
+*** Dating routines :DATING:
+
+- /Dating routines/
 
 *** Self-care :SELFCARE:
 :PROPERTIES:
@@ -196,6 +199,10 @@ Weekly conditioner schedule
 Weekly and monthly bikes maintenance schedule
 
 **** Honda Airblade
+- /Honda Airblade/
+**** Clean Bikes
+
+- /Clean up my bikes/
 
 ***** Oil change
 SCHEDULED: <2025-04-12 Sat .+2m>
@@ -209,31 +216,9 @@ CLOSED: [2025-02-12 Wed 00:10] DEADLINE: <2025-01-23 Thu 17:00>
 - *Goal:* evaluate bike engine oil condition
 
 **** Suzuki GN125
+***** Clean Bikes
 
-**** Repair Shop :LIST:
-
-A list of repair shops for classical bike and regular bike
-
-***** Nam's repair shop
-
-- *Adrdress:*  [[https://www.google.com/maps/place/124+%C4%90%E1%BB%93ng+%C4%90en,+Ph%C6%B0%E1%BB%9Dng+14,+T%C3%A2n+B%C3%ACnh,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7916081,106.6437621,17z/data=!4m6!3m5!1s0x31752eb32a50f777:0x26c24c60c04a727e!8m2!3d10.7916081!4d106.6437621!16s%2Fg%2F11gd3bgvc1?force=pwa&source=mlapk][124 Đồng Đen P14, Tân Bình]]
-- tel:0903765687
-
-***** Sang's repair shop
-
-- *Address:*  [[https://www.google.com/maps/place/C%C6%A1+s%E1%BB%9F+ph%E1%BA%BF+li%E1%BB%87u+ch%C3%A2u+to%C3%A0n+270B,+270+L%C3%BD+Th%C6%B0%E1%BB%9Dng+Ki%E1%BB%87t,+Ph%C6%B0%E1%BB%9Dng+6,+T%C3%A2n+B%C3%ACnh,+H%E1%BB%93+Ch%C3%AD+Minh+700000,+Vietnam/@10.7792635,106.6564198,18z/data=!4m14!1m7!3m6!1s0x31752ec14aeff41f:0x4249759a204d52c5!2zMjcwYiBMw70gVGjGsOG7nW5nIEtp4buHdCwgUGjGsOG7nW5nIDE0LCBUw6JuIELDrG5oLCBI4buTIENow60gTWluaCwgVmlldG5hbQ!8m2!3d10.7750581!4d106.6572665!16s%2Fg%2F11w7qjp2nd!3m5!1s0x31752f000b58044f:0xa55c08e23b8e35a6!8m2!3d10.7794068!4d106.6559686!16s%2Fg%2F11y3gwh78b?force=pwa&source=mlapk][270B Lý Thường Kiệt, Phường 6, Tân Bình]]
-- *Open:* < 5PM
-- tel:0908205163
-- tel:090711078
-
-***** Local repair shop
-
-- *Address:*  [[https://www.google.com/maps/place/H%C3%A0u+C%E1%BA%A7n+Gi%E1%BB%9D+8k,+58+%E1%BA%A5p+2,+Phong+Ph%C3%BA,+B%C3%ACnh+Ch%C3%A1nh,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.6890786,106.6496913,19z/data=!4m14!1m7!3m6!1s0x317531ec53324ca5:0x4f58250de55105ff!2zxJDGsMahzIBuZyBUw6JuIExpw6ptLCBQaG9uZyBQaMO6LCBCw6xuaCBDaMOhbmgsIEjhu5MgQ2jDrSBNaW5oLCBWaWV0bmFt!8m2!3d10.6872732!4d106.6436576!16s%2Fg%2F1v27r_18!3m5!1s0x31753162e21ac975:0xee02b5072ec07e91!8m2!3d10.6890925!4d106.6496599!16s%2Fg%2F11h7cl165d?force=pwa&source=mlapk][58 ấp 2, Phong Phú, Bình Chánh]]
-- tel:0934577449
-
-**** Clean Bikes
-
-Clean up my bikes
+- /Clean up my bikes/
 
 *** House chores :CHORE:
 
@@ -274,63 +259,6 @@ Meal-preps, cooking recipes and grocery planning
 - *Goal(s):* Prepare food for next following days
   /Prepare food list/
 
-**** Recipes :DOC:
-
-Food recipes I collect over the internet
-
-***** Prawn Pasta recipe :RECIPE:
-
-Prawn Pasta inspired by [[https://youtube.com/watch?v=0z3ky30sLyc][Prawn Noodle-Culinary Frank@Youtube]]
-
-****** Ingredients
-
-- [ ] Prawn 500g
-- [ ] Shallot
-- [ ] Ginger
-- [ ] Scallion
-- [ ] Lemongrass
-- [ ] Garlic
-- [ ] Mirin (Wine/Shake/White wine)
-- [ ] Oyster Sauce
-- [ ] Soy Sauce
-- [ ] Mayonnaise
-- [ ] Celery
-
-****** Cooking
-
-Cooking phase
-
-******* Prawn oil
-
-1. Cook prawn shells with "Shallot, Ginger, Scallion, Lemongrass" in hot oil until oil boil
-2. Put off heat and let cool
-
-******* Prawn saute
-
-1. Saute prawns with Prawn Oil and Butter
-2. When the prawns near done, put in: 
-   a. Minced Garlic
-   b. Soy Sauce (1 tbs)
-   c. Mirin (1 tbs), /1:1 or 1:1.5 radio with soy sauce/
-      - [REPLACEMENT]: Wine/Sake/White wine
-
-******* Pasta sauce
-- Note taken on [2024-10-11 Fri 21:41] \\
-  Instant noodle or Pasta depends on taste (cook till "near-done")
-
-1. Stir Oyster Sauce , Soy Sauce, Sugar, and Prawn Oil on low heat pan (adjust to flavor)
-2. Add Pasta water to dissolve sugar
-
-******* Pasta
-
-1. Cook Pasta for 8-10 minutes (till near-done)
-2. Stir Pasta with Pasta sauce on low heat pan and let cool
-3. Add Mayonnaise sauce and stir again
-
-******* Serve
-
-/Add Prawns and sliced Celery on ready Pasta/
-
 **** [#C] Grocery :GROCERY:
 
 <2024-10-22 Tue 17:00 +1w>
@@ -340,7 +268,7 @@ Cooking phase
 
 - *Goal:* adding one extra meal per day
 
-*** TODO Dear diary :DATING:
+**** TODO Dear diary :DATING:
 SCHEDULED: <2025-03-26 Wed 16:30 +1d>
 :PROPERTIES:
 :LAST_REPEAT: [2025-03-26 Wed 07:02]
@@ -351,7 +279,7 @@ SCHEDULED: <2025-03-26 Wed 16:30 +1d>
 
 - /Journaling todays event/
 
-*** TODO Pick HER up! :DATING:ALARM:
+**** TODO Pick HER up! :DATING:ALARM:
 SCHEDULED: <2025-03-27 Thu 16:30 +1d>
 :PROPERTIES:
 :ID:       b50be36d-d0d6-445b-864f-058907694753

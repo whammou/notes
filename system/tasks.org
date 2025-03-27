@@ -30,7 +30,7 @@ CLOSED: [2025-03-25 Tue 09:16] DEADLINE: <2025-03-25 Tue 21:00>
 
 - /List of FOSS AI/
 
-*** TODO Qtile ssh-tmux method :LINUX:
+*** TODO [#B] Qtile ssh-tmux method :LINUX:
 DEADLINE: <2025-03-27 Thu 18:00>
 
 - /Add ssh-tmux keybind to qtile/
@@ -45,7 +45,7 @@ CLOSED: [2025-03-25 Tue 06:45] DEADLINE: <2025-03-24 Mon 17:00>
 - [x] Update [[file:/usr/local/bin/smb-mount][smb-mount]]
 - [ ] Add ~qtile~ [[file:~/.config/qtile/settings/key/spawn.py][keybinds]]
 
-*** TODO Notification through ssh :LINUX:
+*** TODO [#B] Notification through ssh :LINUX:
 DEADLINE: <2025-03-27 Thu 17:30>
 
 - /Pipe notification socket through ssh/

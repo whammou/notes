@@ -15,13 +15,14 @@
 - *Goal(s):* update note repo structure for more optimal workflow
 - *NOTE:* checkout [[./README.org][README]] and find a suitable repo structure
 
-** Modify README
+** TODO Modify README
 
 - *Goal(s):* modify and add README content
   - [ ] modify [[./README.org::repo-hierarchy][Hierarchy]]
   - [ ] add template structure
 
 ** TODO Separate archive hierarchy
+
 - Note taken on [2025-01-23 Thu 00:09] \\
   Separate ~Logs~ ~Lists~ and ~Documents~ to different files to avoid callbacks
 - *Goal:* optimize ~archive~ hierarchy
@@ -107,7 +108,7 @@ Replace ~vim-fugitive~ with ~lazygit~
 
 - /Open yazi at typed dir in fish shell/
 
-** TODO Fish shell input dir
+** TODO [#C] Fish shell input dir
 DEADLINE: <2025-03-27 Thu 20:00>
 
 - /Set input dir as a parameter/
@@ -116,7 +117,7 @@ DEADLINE: <2025-03-27 Thu 20:00>
 
 - /Detect system wise git repos the use fzf to open lazygit at repo location/
 
-* TODO Self-host AI [0%] :LINUX:AI:
+* TODO [#D] Self-host AI [0%] :LINUX:AI:
 DEADLINE: <2025-03-27 Thu 22:00>
 
 - /GTX 1050 ti AI self-host models/
@@ -140,15 +141,25 @@ DEADLINE: <2025-03-27 Thu 22:00>
   - [[https://github.com/danielmiessler/fabric][Fabric@github]]
   - [[https://github.com/TheR1D/shell_gpt][Shell_gpt@github]]
 
-* TODO Men eyebrows care :SELFCARE:
+* TODO [#E] Men eyebrows care :SELFCARE:
 DEADLINE: <2025-03-27 Thu 22:00>
 
 - /Suggestions for eyebrows-care/
 
-* TODO Optimal sleep time :SELFCARE:
+* TODO [#E] Optimal sleep time :SELFCARE:
 DEADLINE: <2025-03-27 Thu 22:00 -2h>
 :PROPERTIES:
 :ID:       b7abea60-bd6a-4bb4-9aa6-5e7ccfa0ace5
 :END:
 
 - /Research optimal sleep time/
+
+* TODO Orgmode-nvim agenda custom commands [%] :NVIM:ORGMODE:
+DEADLINE: <2025-03-27 Thu 23:00>
+
+- Note taken on [2025-03-27 Thu 09:27] \\
+  check org_agenda_custom_commands
+
+- /Create org_agenda_custom_commands custom cammands/
+- *Visit:* [[https://nvim-orgmode.github.io/configuration][nvim-orgmode documentations]]
+

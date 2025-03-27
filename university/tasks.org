@@ -21,9 +21,11 @@ Emails to contact under club categories
 
 **** Club categories
 
+- /Available university clubs/
+
 ***** Special Interests Clubs
 
-Included socials and interest clubes 
+- /Included socials and interest clubes/
 
 ****** Board Game Club
 

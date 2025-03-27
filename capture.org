@@ -162,4 +162,3 @@ DEADLINE: <2025-03-27 Thu 23:00>
 
 - /Create org_agenda_custom_commands custom cammands/
 - *Visit:* [[https://nvim-orgmode.github.io/configuration][nvim-orgmode documentations]]
-

@@ -6,12 +6,16 @@
 Allocated space for tasks/todos
 
 ** One-off :ONEOFF:
+
+- /One time tasks/
+
 *** University Clubs
 
 - *Goal:* Find a suitable group to network and expand knowledge
 - *Resource:* [[https://libguides.brown.edu/evaluate/Read][Brown University Library]]
 
-**** PENDING Clubs join
+**** ABORTED Clubs join
+CLOSED: [2025-03-27 Thu 08:46]
 
 Emails to contact under club categories
 

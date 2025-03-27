@@ -57,7 +57,7 @@ SCHEDULED: <2025-03-27 Thu 15:00>
 :ID:       ce78c56b-3c1c-4dc1-9b99-98f4a9a2e271
 :END:
 
-*** TODO Buy razer
+*** TODO [#B] Buy razer
 DEADLINE: <2025-03-27 Thu 15:00>
 :PROPERTIES:
 :ID:       6be721fe-3a0a-40c3-aea7-5aea736aed4e

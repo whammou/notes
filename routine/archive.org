@@ -131,6 +131,7 @@ Collection of classical bikes and manuals (tips and tricks included)
 - *Goal(s):* Learn to maintain and operate classic motorcycle 
 
 ** Lists :LIST:
+
 *** Recipes :DOC:RECIPE:
 
 Food recipes I collect over the internet
@@ -187,6 +188,7 @@ Cooking phase
 ****** Serve
 
 /Add Prawns and sliced Celery on ready Pasta/
+
 *** Repair Shops
 
 A list of repair shops for classical bike and regular bike

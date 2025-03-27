@@ -92,7 +92,7 @@ CLOSED: [2024-10-07 Mon 20:22]
 - *Goal(s):* collect information on different gyms
 - *Visit:* 
 
-*** [#D] Calisthenic :GYM:
+*** Calisthenic :GYM:
 
 <2024-10-09 Wed 01:00 +1w>
 <2024-10-11 Fri 01:00 +1w>

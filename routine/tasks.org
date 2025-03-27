@@ -51,7 +51,7 @@ SCHEDULED: <2025-03-29 Sat 18:00>
 
 - /Photo-shooting with my girl/
 
-*** TODO Obtain IP
+*** TODO [#F] Obtain IP
 SCHEDULED: <2025-03-27 Thu 15:00>
 :PROPERTIES:
 :ID:       ce78c56b-3c1c-4dc1-9b99-98f4a9a2e271
@@ -121,21 +121,21 @@ Skincare routines and documentation on improving efficiency of the schedule
 
 List of ingredients using in my skincare routine and where to get them. Also include good deals
 
-****** [#E] Azelaic Acid
+****** Azelaic Acid
 
 <2024-09-24 Tue 00:00 +1w>
 
-****** [#E] Retinol
+****** Retinol
 
 <2024-09-19 Thu 00:00 +1w>
 <2024-09-22 Sun 00:00 +1w>
 
-****** [#E] Niacinamide
+****** Niacinamide
 
 <2024-09-20 Fri 00:00 +1w>
 <2024-09-23 Mon 00:00 +1w>
 
-****** [#E] Vitamin C
+****** Vitamin C
 
 <2024-09-18 Wed 00:00 +1w>
 <2024-09-21 Sat 00:00 +1w>
@@ -174,7 +174,7 @@ CLOSED: [2024-10-07 Mon 04:37]
 - *Goal(s):* choose a suitable product and schedule to improve hair quality
 - *Stumble upon:*  [[https://labmuffin.com/how-does-olaplex-hair-treatment-work/][Olaplex_treatment@muffinlab]]
 
-***** [#C] Shampoo & Conditioner PM
+***** Shampoo & Conditioner PM
 
 <2024-10-13 Sun 01:00 +1w>
 :PROPERTIES:
@@ -183,7 +183,7 @@ CLOSED: [2024-10-07 Mon 04:37]
 
 Weekly shampoo schedule
 
-***** [#C] Wash Day AM
+***** Wash Day AM
 :PROPERTIES:
 :CUSTOM_ID: wash_day
 :END:
@@ -233,13 +233,13 @@ CLOSED: [2024-10-10 Thu 21:00]
 
 Weekly clothe washing and techniques 
 
-***** [#D] Black clothes
+***** Black clothes
 
 <2024-10-08 Tue 23:00 +1w>
 
 /Technique to wash clothes of dark colors/
 
-***** [#D] White clothes
+***** White clothes
 
 <2024-10-16 Wed 23:00 +1w>
 
@@ -255,7 +255,7 @@ Weekly clothe washing and techniques
 
 Meal-preps, cooking recipes and grocery planning  
 
-**** [#D] Food-preps :DIET:
+**** Food-preps :DIET:
 
 <2024-10-10 Thu 01:00 +1w>
 <2024-10-14 Mon 01:00 +1w>
@@ -263,7 +263,7 @@ Meal-preps, cooking recipes and grocery planning
 - *Goal(s):* Prepare food for next following days
   /Prepare food list/
 
-**** [#C] Grocery :GROCERY:
+**** Grocery :GROCERY:
 
 <2024-10-22 Tue 17:00 +1w>
 <2024-10-26 Sat 17:00 +1w>
@@ -272,7 +272,7 @@ Meal-preps, cooking recipes and grocery planning
 
 - *Goal:* adding one extra meal per day
 
-**** TODO Dear diary :DATING:
+**** TODO [#A] Dear diary :DATING:
 SCHEDULED: <2025-03-27 Thu 16:30 +1d>
 :PROPERTIES:
 :LAST_REPEAT: [2025-03-27 Thu 04:15]
@@ -284,7 +284,7 @@ SCHEDULED: <2025-03-27 Thu 16:30 +1d>
 
 - /Journaling todays event/
 
-**** TODO Pick HER up! :DATING:ALARM:
+**** TODO [#A] Pick HER up! :DATING:ALARM:
 SCHEDULED: <2025-03-27 Thu 16:30 +1d>
 :PROPERTIES:
 :ID:       b50be36d-d0d6-445b-864f-058907694753

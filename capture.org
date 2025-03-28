@@ -172,3 +172,4 @@ return {
   { "folke/trouble.nvim", enabled = false },
 }
 #+END_lua
+

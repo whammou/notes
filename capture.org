@@ -116,7 +116,7 @@ DEADLINE: <2025-03-29 Sat 20:00>
 
 - /Detect system wise git repos the use fzf to open lazygit at repo location/
 
-* TODO [#D] Self-host AI [0%] :LINUX:AI:
+* TODO [#D] Self-host AI :LINUX:AI:
 DEADLINE: <2025-03-27 Thu 22:00>
 
 - /GTX 1050 ti AI self-host models/
@@ -155,9 +155,9 @@ DEADLINE: <2025-03-28 Fri 22:00 -2h>
 
 * TODO Orgmode-nvim agenda custom commands [%] :NVIM:ORGMODE:
 DEADLINE: <2025-03-28 Fri 23:00>
-
 - Note taken on [2025-03-27 Thu 09:27] \\
   check org_agenda_custom_commands
 
 - /Create org_agenda_custom_commands custom cammands/
 - *Visit:* [[https://nvim-orgmode.github.io/configuration][nvim-orgmode documentations]]
+

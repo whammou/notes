@@ -22,7 +22,6 @@
   - [ ] add template structure
 
 ** TODO Separate archive hierarchy
-
 - Note taken on [2025-01-23 Thu 00:09] \\
   Separate ~Logs~ ~Lists~ and ~Documents~ to different files to avoid callbacks
 - *Goal:* optimize ~archive~ hierarchy
@@ -156,9 +155,9 @@ DEADLINE: <2025-03-27 Thu 22:00 -2h>
 
 * TODO Orgmode-nvim agenda custom commands [%] :NVIM:ORGMODE:
 DEADLINE: <2025-03-27 Thu 23:00>
-
 - Note taken on [2025-03-27 Thu 09:27] \\
   check org_agenda_custom_commands
 
 - /Create org_agenda_custom_commands custom cammands/
 - *Visit:* [[https://nvim-orgmode.github.io/configuration][nvim-orgmode documentations]]
+

@@ -117,7 +117,7 @@ DEADLINE: <2025-03-29 Sat 20:00>
 - /Detect system wise git repos the use fzf to open lazygit at repo location/
 
 * TODO [#D] Self-host AI :LINUX:AI:
-DEADLINE: <2025-03-27 Thu 22:00>
+DEADLINE: <2025-03-28 Fri 22:00>
 
 - /GTX 1050 ti AI self-host models/
 

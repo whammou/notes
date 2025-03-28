@@ -107,11 +107,6 @@ Replace ~vim-fugitive~ with ~lazygit~
 
 - /Open yazi at typed dir in fish shell/
 
-** TODO [#C] Fish shell input dir
-DEADLINE: <2025-03-29 Sat 20:00>
-
-- /Set input dir as a parameter/
-
 * TODO Detect git repos from system :GIT:FZF:
 
 - /Detect system wise git repos the use fzf to open lazygit at repo location/

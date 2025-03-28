@@ -51,14 +51,14 @@ SCHEDULED: <2025-03-29 Sat 18:00>
 
 - /Photo-shooting with my girl/
 
-*** TODO [#F] Obtain IP
+*** TODO [#B] Obtain IP
 DEADLINE: <2025-03-28 Fri 16:00>
 :PROPERTIES:
 :ID:       ce78c56b-3c1c-4dc1-9b99-98f4a9a2e271
 :END:
 
 *** TODO [#B] Buy razer
-DEADLINE: <2025-03-28 Fri 15:00>
+DEADLINE: <2025-03-29 Sat 15:00>
 :PROPERTIES:
 :ID:       6be721fe-3a0a-40c3-aea7-5aea736aed4e
 :END:
@@ -286,11 +286,12 @@ SCHEDULED: <2025-03-28 Fri 16:30 +1d>
 - /Journaling todays event/
 
 **** TODO [#A] Pick HER up! :DATING:ALARM:
-SCHEDULED: <2025-03-28 Fri 16:30 +1d>
+SCHEDULED: <2025-03-29 Sat 16:30 +1d>
 :PROPERTIES:
 :ID:       b50be36d-d0d6-445b-864f-058907694753
-:LAST_REPEAT: [2025-03-28 Fri 09:35]
+:LAST_REPEAT: [2025-03-28 Fri 19:34]
 :END:
+- State "ABORTED"    from "TODO"       [2025-03-28 Fri 19:34]
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2025-03-28 Fri 09:35
 - State "ABORTED"    from "TODO"       [2025-03-26 Wed 07:03]

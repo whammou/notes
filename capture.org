@@ -161,3 +161,14 @@ DEADLINE: <2025-03-28 Fri 23:00>
 - /Create org_agenda_custom_commands custom cammands/
 - *Visit:* [[https://nvim-orgmode.github.io/configuration][nvim-orgmode documentations]]
 
+* TODO Lazyvim disable plugins :NVIM:
+
+- /Disable unused plugins in ~lazyvim~/
+- *Visit:* [[https://www.lazyvim.org/configuration/plugins#-disabling-plugins][Disable plugins - Lazyvim]]
+
+#+BEGIN_lua
+return {
+  -- disable trouble
+  { "folke/trouble.nvim", enabled = false },
+}
+#+END_lua

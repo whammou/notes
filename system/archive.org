@@ -235,6 +235,8 @@ CLOSED: [2025-01-10 Fri 02:27]
 
 *** Learn Docker
 
+- /Learn to operate dockers/
+
 *** Nvim-lsp :NVIM:
 
 Nvim supports the Language Server Protocol (LSP), which means it acts as a client to LSP servers and includes a Lua framework `vim.lsp` for building enhanced LSP tools

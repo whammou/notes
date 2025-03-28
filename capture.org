@@ -22,7 +22,6 @@
   - [ ] add template structure
 
 ** TODO Separate archive hierarchy
-
 - Note taken on [2025-01-23 Thu 00:09] \\
   Separate ~Logs~ ~Lists~ and ~Documents~ to different files to avoid callbacks
 - *Goal:* optimize ~archive~ hierarchy

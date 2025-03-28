@@ -109,7 +109,7 @@ Replace ~vim-fugitive~ with ~lazygit~
 - /Open yazi at typed dir in fish shell/
 
 ** TODO [#C] Fish shell input dir
-DEADLINE: <2025-03-27 Thu 20:00>
+DEADLINE: <2025-03-29 Sat 20:00>
 
 - /Set input dir as a parameter/
 
@@ -142,12 +142,12 @@ DEADLINE: <2025-03-27 Thu 22:00>
   - [[https://github.com/TheR1D/shell_gpt][Shell_gpt@github]]
 
 * TODO [#E] Men eyebrows care :SELFCARE:
-DEADLINE: <2025-03-27 Thu 22:00>
+DEADLINE: <2025-03-28 Fri 22:00>
 
 - /Suggestions for eyebrows-care/
 
 * TODO [#E] Optimal sleep time :SELFCARE:
-DEADLINE: <2025-03-27 Thu 22:00 -2h>
+DEADLINE: <2025-03-28 Fri 22:00 -2h>
 :PROPERTIES:
 :ID:       b7abea60-bd6a-4bb4-9aa6-5e7ccfa0ace5
 :END:
@@ -155,7 +155,7 @@ DEADLINE: <2025-03-27 Thu 22:00 -2h>
 - /Research optimal sleep time/
 
 * TODO Orgmode-nvim agenda custom commands [%] :NVIM:ORGMODE:
-DEADLINE: <2025-03-27 Thu 23:00>
+DEADLINE: <2025-03-28 Fri 23:00>
 
 - Note taken on [2025-03-27 Thu 09:27] \\
   check org_agenda_custom_commands

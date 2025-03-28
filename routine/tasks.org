@@ -277,9 +277,9 @@ SCHEDULED: <2025-03-28 Fri 16:30 +1d>
 :PROPERTIES:
 :LAST_REPEAT: [2025-03-28 Fri 09:35]
 :END:
+:LOGBOOK:
 - State "DONE"       from "TODO"       [2025-03-28 Fri 09:35]
 - State "ABORTED"    from "TODO"       [2025-03-27 Thu 04:15]
-:LOGBOOK:
 - State "DONE"       from "TODO"       [2025-03-26 Wed 07:02]
 :END:
 
@@ -291,8 +291,8 @@ SCHEDULED: <2025-03-28 Fri 16:30 +1d>
 :ID:       b50be36d-d0d6-445b-864f-058907694753
 :LAST_REPEAT: [2025-03-28 Fri 09:35]
 :END:
-- State "DONE"       from "TODO"       [2025-03-28 Fri 09:35]
 :LOGBOOK:
+- State "DONE"       from "TODO"       [2025-03-28 Fri 09:35
 - State "ABORTED"    from "TODO"       [2025-03-26 Wed 07:03]
 - State "DONE"       from "TODO"       [2025-03-24 Mon 23:41]
 :END:

@@ -43,16 +43,16 @@ CLOSED: [2025-02-14 Fri 04:01] DEADLINE: <2025-02-13 Thu 23:59>
 :ID:       f139600e-35f9-4a70-af6a-cfde919326d5
 :END:
 
-**** TODO Photobooth with her :DATING:
-SCHEDULED: <2025-03-29 Sat 18:00>
+**** ABORTED Photobooth with her :DATING:
+SCHEDULED: <2025-03-29 Sat 18:00> CLOSED: [2025-03-29 Sat 09:56]
 :PROPERTIES:
 :ID:       91a7c22a-c12d-425e-94c2-a1a38010a16d
 :END:
 
 - /Photo-shooting with my girl/
 
-*** TODO [#B] Obtain IP
-DEADLINE: <2025-03-28 Fri 16:00>
+*** DONE [#B] Obtain IP
+DEADLINE: <2025-03-28 Fri 16:00> CLOSED: [2025-03-29 Sat 09:54]
 :PROPERTIES:
 :ID:       ce78c56b-3c1c-4dc1-9b99-98f4a9a2e271
 :END:
@@ -273,10 +273,11 @@ Meal-preps, cooking recipes and grocery planning
 - *Goal:* adding one extra meal per day
 
 **** TODO [#A] Dear diary :DATING:
-SCHEDULED: <2025-03-28 Fri 16:30 +1d>
+SCHEDULED: <2025-03-29 Sat 16:30 +1d>
 :PROPERTIES:
-:LAST_REPEAT: [2025-03-28 Fri 09:35]
+:LAST_REPEAT: [2025-03-29 Sat 09:53]
 :END:
+- State "ABORTED"    from "TODO"       [2025-03-29 Sat 09:53]
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2025-03-28 Fri 09:35]
 - State "ABORTED"    from "TODO"       [2025-03-27 Thu 04:15]
@@ -286,11 +287,12 @@ SCHEDULED: <2025-03-28 Fri 16:30 +1d>
 - /Journaling todays event/
 
 **** TODO [#A] Pick HER up! :DATING:ALARM:
-SCHEDULED: <2025-03-29 Sat 16:30 +1d>
+SCHEDULED: <2025-03-30 Sun 16:30 +1d>
 :PROPERTIES:
 :ID:       b50be36d-d0d6-445b-864f-058907694753
-:LAST_REPEAT: [2025-03-28 Fri 19:34]
+:LAST_REPEAT: [2025-03-29 Sat 09:56]
 :END:
+- State "ABORTED"    from "TODO"       [2025-03-29 Sat 09:56]
 - State "ABORTED"    from "TODO"       [2025-03-28 Fri 19:34]
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2025-03-28 Fri 09:35

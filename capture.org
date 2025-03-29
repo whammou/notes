@@ -112,7 +112,6 @@ Replace ~vim-fugitive~ with ~lazygit~
 - /Detect system wise git repos the use fzf to open lazygit at repo location/
 
 * DOING [#B] Self-host AI [0%] :LINUX:AI:
-DEADLINE: <2025-03-28 Fri 22:00>
 
 - /GTX 1050 ti AI self-host models/
 
@@ -142,12 +141,12 @@ DEADLINE: <2025-03-28 Fri 22:00>
   - [[https://github.com/TheR1D/shell_gpt][Shell_gpt@github]]
 
 * TODO [#D] Men eyebrows care :SELFCARE:
-DEADLINE: <2025-03-28 Fri 22:00>
+DEADLINE: <2025-03-29 Sat 22:00>
 
 - /Suggestions for eyebrows-care/
 
 * TODO [#C] Optimal sleep time :SELFCARE:
-DEADLINE: <2025-03-28 Fri 22:00 -2h>
+DEADLINE: <2025-03-29 Sat 22:00 -2h>
 :PROPERTIES:
 :ID:       b7abea60-bd6a-4bb4-9aa6-5e7ccfa0ace5
 :END:
@@ -155,7 +154,7 @@ DEADLINE: <2025-03-28 Fri 22:00 -2h>
 - /Research optimal sleep time/
 
 * TODO [#A] Orgmode-nvim agenda custom commands [%] :NVIM:ORGMODE:
-DEADLINE: <2025-03-28 Fri 23:00>
+DEADLINE: <2025-03-29 Sat 23:00>
 
 - Note taken on [2025-03-27 Thu 09:27] \\
   check org_agenda_custom_commands
@@ -175,3 +174,15 @@ return {
 }
 #+END_lua
 
+* TODO Qtile spawn keybind :QTILE:
+DEADLINE: <2025-03-29 Sat 22:00>
+
+- /Create ~default_spawn~ keybind for qtile [[file:~/.config/qtile/settings/keymaps.py][~keymaps~]]/
+
+* TODO Orgmode desktop notification :ORGMODE:
+DEADLINE: <2025-03-29 Sat 22:00>
+
+- Note taken on [2025-03-29 Sat 13:45] \\
+  The following [[https://nvim-orgmode.github.io/configuration#cron][guide]] is written for ~cron~. Modify to work with ~systemd~
+
+- /Integrate ~orgmode-notification~ to ~system~/

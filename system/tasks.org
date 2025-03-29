@@ -64,6 +64,7 @@ CLOSED: [2025-03-22 Sat 06:17] DEADLINE: <2025-03-22 Sat 22:00>
 :END:
 
 - /Contact [[tel:DuyTung][Duy Tung]] for API access/
+
 *** TODO MPV script :MPV:
 DEADLINE: <2025-03-29 Sat 22:00>
 
@@ -71,6 +72,7 @@ DEADLINE: <2025-03-29 Sat 22:00>
 - *Scripts:*
   - [[https://old.reddit.com/r/mpv/comments/j7czzx/displaying_chapter_titles/][chapter list script]]
   - [[https://old.reddit.com/r/mpv/comments/fs8r80/jump_to_a_specific_time/][Jump-to-time]]
+
 *** TODO [#C] Fish shell input dir :SHELL:
 DEADLINE: <2025-03-29 Sat 20:00>
 

@@ -121,7 +121,6 @@ Replace ~vim-fugitive~ with ~lazygit~
 - *Visit:* [[https://wiki.archlinux.org/title/Dual_boot_with_Windows][Dual boot with Windows]]
 
 ** TODO Self-host AI with Nvidia card
-
 - Note taken on [2025-03-28 Fri 22:13] \\
   Modified version of ~ollama~ to work with GTX 1050 ti [[https://github.com/ollama/ollama/issues/2332][Ollama on legacy gpu]]
 
@@ -131,7 +130,6 @@ Replace ~vim-fugitive~ with ~lazygit~
   - [[https://ollama.com/search][Ollama models]]
 
 ** TODO Integrate AI into shell
-
 - Note taken on [2025-03-28 Fri 21:57] \\
   Integrate ~Ollama~ into ~shell_gpt~ using this [[https://github.com/TheR1D/shell_gpt/wiki/Ollama][guide]] 
 

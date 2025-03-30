@@ -64,7 +64,8 @@ CLOSED: [2025-03-22 Sat 06:17] DEADLINE: <2025-03-22 Sat 22:00>
 :END:
 
 - /Contact [[tel:DuyTung][Duy Tung]] for API access/
-*** TODO MPV script :MPV:
+
+*** DOING MPV script :MPV:
 DEADLINE: <2025-03-29 Sat 22:00>
 
 - *Goal:* display ~chapter list~ on ~mpv~

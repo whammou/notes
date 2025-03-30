@@ -153,7 +153,6 @@ DEADLINE: <2025-03-29 Sat 22:00 -2h>
 
 * TODO [#A] Orgmode-nvim agenda custom commands [%] :NVIM:ORGMODE:
 DEADLINE: <2025-03-29 Sat 23:00>
-
 - Note taken on [2025-03-27 Thu 09:27] \\
   check org_agenda_custom_commands
 
@@ -179,8 +178,8 @@ DEADLINE: <2025-03-29 Sat 22:00>
 
 * TODO Orgmode desktop notification :ORGMODE:
 DEADLINE: <2025-03-29 Sat 22:00>
-
 - Note taken on [2025-03-29 Sat 13:45] \\
   The following [[https://nvim-orgmode.github.io/configuration#cron][guide]] is written for ~cron~. Modify to work with ~systemd~
 
 - /Integrate ~orgmode-notification~ to ~system~/
+

@@ -58,7 +58,7 @@ CLOSED: [2025-03-29 Sat 09:54] DEADLINE: <2025-03-28 Fri 16:00>
 :END:
 
 *** TODO [#B] Buy razer
-DEADLINE: <2025-03-30 Sun 16:00>
+DEADLINE: <2025-03-31 Mon 16:00>
 :PROPERTIES:
 :ID:       6be721fe-3a0a-40c3-aea7-5aea736aed4e
 :END:
@@ -273,13 +273,13 @@ Meal-preps, cooking recipes and grocery planning
 - *Goal:* adding one extra meal per day
 
 **** TODO [#A] Dear diary :DATING:
-SCHEDULED: <2025-03-30 Sun 16:30 +1d>
+SCHEDULED: <2025-03-31 Mon 16:30 +1d>
 :PROPERTIES:
 :LAST_REPEAT: [2025-03-29 Sat 23:31]
 :END:
+:LOGBOOK:
 - State "ABORTED"    from "TODO"       [2025-03-29 Sat 23:31]
 - State "ABORTED"    from "TODO"       [2025-03-29 Sat 09:53]
-:LOGBOOK:
 - State "DONE"       from "TODO"       [2025-03-28 Fri 09:35]
 - State "ABORTED"    from "TODO"       [2025-03-27 Thu 04:15]
 - State "DONE"       from "TODO"       [2025-03-26 Wed 07:02]
@@ -288,7 +288,7 @@ SCHEDULED: <2025-03-30 Sun 16:30 +1d>
 - /Journaling todays event/
 
 **** TODO [#A] Pick HER up! :DATING:ALARM:
-SCHEDULED: <2025-03-30 Sun 16:30 +1d>
+SCHEDULED: <2025-03-31 Mon 16:30 +1d>
 :PROPERTIES:
 :ID:       b50be36d-d0d6-445b-864f-058907694753
 :LAST_REPEAT: [2025-03-29 Sat 09:56]

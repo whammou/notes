@@ -288,11 +288,12 @@ SCHEDULED: <2025-03-31 Mon 16:30 +1d>
 - /Journaling todays event/
 
 **** TODO [#A] Pick HER up! :DATING:ALARM:
-SCHEDULED: <2025-03-31 Mon 16:30 +1d>
+SCHEDULED: <2025-04-01 Tue 16:30 +1d>
 :PROPERTIES:
 :ID:       b50be36d-d0d6-445b-864f-058907694753
-:LAST_REPEAT: [2025-03-30 Sun 22:50]
+:LAST_REPEAT: [2025-03-31 Mon 23:16]
 :END:
+- State "DONE"       from "DOING"      [2025-03-31 Mon 23:16]
 - State "ABORTED"    from "TODO"       [2025-03-29 Sat 09:56]
 - State "ABORTED"    from "TODO"       [2025-03-28 Fri 19:34]
 :LOGBOOK:

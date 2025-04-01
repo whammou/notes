@@ -11,6 +11,7 @@
 - *Goal(s):* config nvim to work with nvim-cmp nvim-supertab
 
 * DOING Overhaul Note repo :GITHUB: [0%]
+DEADLINE: <2025-04-01 Tue 22:00>
 
 - *Goal(s):* update note repo structure for more optimal workflow
 - *NOTE:* checkout [[./README.org][README]] and find a suitable repo structure
@@ -152,7 +153,7 @@ DEADLINE: <2025-03-31 Mon 22:00 -2h>
 - /Research optimal sleep time/
 - *Visit:* [[https://youtube.com/watch?v=q7amXedTasQ][Sleep hygeines and habbits]]
 
-* TODO [#A] Orgmode-nvim agenda custom commands [%] :NVIM:ORGMODE:
+* TODO [#A] Orgmode-nvim agenda custom commands :NVIM:ORGMODE:
 DEADLINE: <2025-03-31 Mon 23:00>
 
 - Note taken on [2025-03-27 Thu 09:27] \\

@@ -7,6 +7,8 @@ Allocated space for archives
 
 ** Documents :DOC:
 
+/Documents archives/
+
 *** TODO Understanding git :GIT:
 
 /Understand the fundamentals of the git tool/
@@ -28,7 +30,7 @@ There are different strategies to merge two ~branches~:
 
 *Visit:* [[https://paulapivat.com/technical_notes/example_tech/git_stash/][Git Stash vs Git Commit]]
 
-*** DONE Orgmode Manual
+*** Orgmode Manual [85%] :ORGMODE:
 CLOSED: [2024-11-07 Thu 06:08]
 
 /Because ~orgzly-android~ is under development and features are limited some implementations will be a work around and possibly revisit in the future, check for request features/ [[https://github.com/orgzly-revived/orgzly-android-revived/issues/88][prioritized requested features]]

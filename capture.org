@@ -140,12 +140,12 @@ Replace ~vim-fugitive~ with ~lazygit~
   - [[https://github.com/TheR1D/shell_gpt][Shell_gpt@github]]
 
 * TODO [#D] Men eyebrows care :SELFCARE:
-DEADLINE: <2025-03-31 Mon 22:00>
+DEADLINE: <2025-04-02 Wed 22:00>
 
 - /Suggestions for eyebrows-care/
 
 * TODO [#C] Optimal sleep time :SELFCARE:
-DEADLINE: <2025-03-31 Mon 22:00 -2h>
+DEADLINE: <2025-04-01 Tue 22:00 -2h>
 :PROPERTIES:
 :ID:       b7abea60-bd6a-4bb4-9aa6-5e7ccfa0ace5
 :END:
@@ -154,7 +154,7 @@ DEADLINE: <2025-03-31 Mon 22:00 -2h>
 - *Visit:* [[https://youtube.com/watch?v=q7amXedTasQ][Sleep hygeines and habbits]]
 
 * TODO [#A] Orgmode-nvim agenda custom commands :NVIM:ORGMODE:
-DEADLINE: <2025-03-31 Mon 23:00>
+DEADLINE: <2025-04-01 Tue 23:00>
 
 - Note taken on [2025-03-27 Thu 09:27] \\
   check org_agenda_custom_commands
@@ -175,12 +175,12 @@ return {
 #+END_lua
 
 * TODO Qtile spawn keybind :QTILE:
-DEADLINE: <2025-03-31 Mon 22:00>
+DEADLINE: <2025-04-01 Tue 22:00>
 
 - /Create ~default_spawn~ keybind for qtile [[file:~/.config/qtile/settings/keymaps.py][~keymaps~]]/
 
-* DOING Orgmode desktop notification :ORGMODE:
-DEADLINE: <2025-03-31 Mon 22:00>
+* ABORTED Orgmode desktop notification :ORGMODE:
+DEADLINE: <2025-03-31 Mon 22:00> CLOSED: [2025-04-01 Tue 15:37]
 
 - Note taken on [2025-03-29 Sat 13:45] \\
   The following [[https://nvim-orgmode.github.io/configuration#cron][guide]] is written for ~cron~. Modify to work with ~systemd~
@@ -188,6 +188,6 @@ DEADLINE: <2025-03-31 Mon 22:00>
 - /Integrate ~orgmode-notification~ to ~system~/
 
 * TODO Qutebrowser profiles :QUTEBROWSER:
-DEADLINE: <2025-03-31 Mon 22:00>
+DEADLINE: <2025-04-02 Wed 22:00>
 
 - /Setup qutebrowser-profiles for better session managements/

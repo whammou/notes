@@ -58,7 +58,7 @@ CLOSED: [2025-03-29 Sat 09:54] DEADLINE: <2025-03-28 Fri 16:00>
 :END:
 
 *** TODO [#B] Buy razer
-DEADLINE: <2025-04-01 Tue 16:00>
+DEADLINE: <2025-04-02 Wed 16:00>
 :PROPERTIES:
 :ID:       6be721fe-3a0a-40c3-aea7-5aea736aed4e
 :END:
@@ -289,11 +289,12 @@ SCHEDULED: <2025-04-01 Tue 16:30 +1d>
 - /Journaling todays event/
 
 **** TODO [#A] Pick HER up! :DATING:ALARM:
-SCHEDULED: <2025-04-01 Tue 16:30 +1d>
+SCHEDULED: <2025-04-02 Wed 16:30 +1d>
 :PROPERTIES:
 :ID:       b50be36d-d0d6-445b-864f-058907694753
-:LAST_REPEAT: [2025-03-31 Mon 23:16]
+:LAST_REPEAT: [2025-04-01 Tue 21:58]
 :END:
+- State "DONE"       from "DOING"      [2025-04-01 Tue 21:58]
 - State "DONE"       from "DOING"      [2025-03-31 Mon 23:16]
 - State "ABORTED"    from "TODO"       [2025-03-29 Sat 09:56]
 - State "ABORTED"    from "TODO"       [2025-03-28 Fri 19:34]

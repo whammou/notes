@@ -9,7 +9,7 @@ Allocated space for archives
 
 /Documents archives/
 
-*** TODO Understanding git :GIT:
+*** PENDING Understanding git :GIT:
 
 /Understand the fundamentals of the git tool/
 

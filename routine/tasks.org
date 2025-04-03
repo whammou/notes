@@ -273,10 +273,11 @@ Meal-preps, cooking recipes and grocery planning
 - *Goal:* adding one extra meal per day
 
 **** TODO [#A] Dear diary :DATING:
-SCHEDULED: <2025-04-01 Tue 16:30 +1d>
+SCHEDULED: <2025-04-02 Wed 16:30 +1d>
 :PROPERTIES:
-:LAST_REPEAT: [2025-04-01 Tue 05:49]
+:LAST_REPEAT: [2025-04-01 Tue 04:14]
 :END:
+- State "ABORTED"    from "TODO"       [2025-04-02 Wed 04:14]
 - State "ABORTED"    from "TODO"       [2025-04-01 Tue 05:49]
 :LOGBOOK:
 - State "ABORTED"    from "TODO"       [2025-03-29 Sat 23:31]

@@ -57,8 +57,8 @@ CLOSED: [2025-03-29 Sat 09:54] DEADLINE: <2025-03-28 Fri 16:00>
 :ID:       ce78c56b-3c1c-4dc1-9b99-98f4a9a2e271
 :END:
 
-*** TODO [#B] Buy razer
-DEADLINE: <2025-04-02 Wed 16:00>
+*** DONE [#B] Buy razer
+DEADLINE: <2025-04-02 Wed 16:00> CLOSED: [2025-04-03 Thu 20:33]
 :PROPERTIES:
 :ID:       6be721fe-3a0a-40c3-aea7-5aea736aed4e
 :END:
@@ -273,10 +273,11 @@ Meal-preps, cooking recipes and grocery planning
 - *Goal:* adding one extra meal per day
 
 **** TODO [#A] Dear diary :DATING:
-SCHEDULED: <2025-04-02 Wed 16:30 +1d>
+SCHEDULED: <2025-04-03 Thu 16:30 +1d>
 :PROPERTIES:
-:LAST_REPEAT: [2025-04-01 Tue 04:14]
+:LAST_REPEAT: [2025-04-03 Thu 20:36]
 :END:
+- State "ABORTED"    from "TODO"       [2025-04-03 Thu 20:36]
 - State "ABORTED"    from "TODO"       [2025-04-02 Wed 04:14]
 - State "ABORTED"    from "TODO"       [2025-04-01 Tue 05:49]
 :LOGBOOK:
@@ -290,11 +291,12 @@ SCHEDULED: <2025-04-02 Wed 16:30 +1d>
 - /Journaling todays event/
 
 **** TODO [#A] Pick HER up! :DATING:ALARM:
-SCHEDULED: <2025-04-02 Wed 16:30 +1d>
+SCHEDULED: <2025-04-03 Thu 16:30 +1d>
 :PROPERTIES:
 :ID:       b50be36d-d0d6-445b-864f-058907694753
-:LAST_REPEAT: [2025-04-01 Tue 21:58]
+:LAST_REPEAT: [2025-04-03 Thu 20:31]
 :END:
+- State "DONE"       from "TODO"       [2025-04-03 Thu 20:31]
 - State "DONE"       from "DOING"      [2025-04-01 Tue 21:58]
 - State "DONE"       from "DOING"      [2025-03-31 Mon 23:16]
 - State "ABORTED"    from "TODO"       [2025-03-29 Sat 09:56]

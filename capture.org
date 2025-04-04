@@ -198,5 +198,6 @@ DEADLINE: <2025-04-04 Fri 23:00>
 
 * TODO Tmux title :TMUX:
 
-- /Change tmux title to same as =WMclass=/
+- /Change tmux title to same as/ ~WMclass~
+- *Visit:* [[https://o.iii.st/exchange/superuser.com/questions/1098077/how-to-keep-terminal-window-title-in-sync-with-tmux-window][tmux window title]]
 

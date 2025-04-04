@@ -1,0 +1,198 @@
+#+TITLE: Capture
+#+DESCRIPTION: Captures and Quick notes
+
+* PENDING Plain text music playlist :LINUX:
+
+*Goal:* Plain text music playlist that works with ~ytfzf~ and ~new pipe~
+
+* PENDING Config nvim-supertab and nvim-cmp :NVIM:
+
+- *Stumble upon:* [[https://github.com/hrsh7th/nvim-cmp/issues/179][issue@github]]
+- *Goal(s):* config nvim to work with nvim-cmp nvim-supertab
+
+* DOING Overhaul Note repo :GITHUB: [0%]
+DEADLINE: <2025-04-03 Thu 22:00>
+
+- *Goal(s):* update note repo structure for more optimal workflow
+- *NOTE:* checkout [[./README.org][README]] and find a suitable repo structure
+
+** TODO Modify README
+
+- *Goal(s):* modify and add README content
+  - [ ] modify [[./README.org::repo-hierarchy][Hierarchy]]
+  - [ ] add template structure
+
+** TODO Separate archive hierarchy
+- Note taken on [2025-01-23 Thu 00:09] \\
+  Separate ~Logs~ ~Lists~ and ~Documents~ to different files to avoid callbacks
+- *Goal:* optimize ~archive~ hierarchy
+
+* PENDING Config lua-snip and nvim-lsp :NVIM:
+
+- *Goal:* successfully replace ~ultil-snip~ and ~coc-nvim~ with ~lua-snip~ + ~lsp-zeo~
+- *Visit:* [[https://a.opnxng.com/exchange/vi.stackexchange.com/questions/41733/how-to-set-up-luasnip-in-neovim-w-lsp-zero][nvim-cmp#external-sources]]
+
+** Configure lua-snip
+
+- *Goal(s):* configure and learn ~lua-snip~ syntax
+- *Visit:*
+   - *Youtube:* [[https://youtube.com/watch?v=GxnBIRl9UmA][luasnip setup]]
+   - *Setup:* [[https://evesdropper.dev/files/luasnip/ultisnips-to-luasnip/][nvim luasnip setup]]
+   - [[https://sbulav.github.io/vim/neovim-setting-up-luasnip/][Neovim setting up snippets with luasnip]]
+   - [[https://code.visualstudio.com/docs/editor/userdefinedsnippets][Snippets in vscode]]
+
+** ABORTED Configure nvim-lsp
+CLOSED: [2025-03-16 Sun 20:23]
+
+- *Goal(s):* configure ~nvim-lsp~
+
+** ABORTED configure nvim-cmp
+CLOSED: [2025-03-16 Sun 20:23]
+
+- *Goal(s):* configure ~nvim-cmp~
+
+* TODO Config yazi :YAZI:
+
+- *Goal:* separate hotkeys into ~EDIT~ and ~VIEW~:
+  - [ ] Bind short-key to open ~EDIT~ such as: images, texts, docs
+  - [ ] Bind short-key to open ~VIEW~ - view only for images and texts/docs
+
+* TODO Pandoc font settings :PANDOC:
+
+Set conversion fonts from ~markdown~ to ~LaTex~
+*Visit:* [[https://a.opnxng.com/exchange/tex.stackexchange.com/questions/234786/how-to-set-a-font-family-with-pandoc][pandoc fonts]]
+
+* PENDING Organize Script repo :GITHUB:
+
+Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~
+  - [ ] Organize ~/scripts~
+  - [ ] Oragnize [[file:/home/whammou/notes/capture.org::*Qtile scripts][qtile]] scripts
+  - [ ] Oragnize ~$PATH~
+
+* PENDING System Proxy and DNS :SYSTEM:
+
+Access blocked websites via ~proxy~ or changeing ~DNS~
+
+* DOING Integrate lazygit [%] :GIT:
+
+Replace ~vim-fugitive~ with ~lazygit~
+
+** TODO Setup git
+
+/edit editor and diff-method in global config file/
+*Checkout:* [[file:/home/whammou/.gitconfig][gitconfig]]
+
+*** TODO Add git-deff method
+
+/insert use methods here/
+
+* TODO Understanding the ATS [%] :WORK:
+
+- [ ] What is an [[https://www.jobscan.co/blog/8-things-you-need-to-know-about-applicant-tracking-systems/][ATS]]
+- [ ] Impact of ATS on your ~application~
+- [ ] What to do
+
+* PENDING University of the people [0%] :UNIVERSITY:
+
+- /Closer look into the/ [[https://www.uopeople.edu/][University of the people]]
+
+** Education and tuition fees
+
+- /Information on providing courses and fees/
+
+** Education in Vietname
+
+- /Both locally and globally/
+
+* DOING Yazi fish integration [0%] :YAZI:
+
+- /Open yazi at typed dir in fish shell/
+
+* TODO Detect git repos from system :GIT:FZF:
+
+- /Detect system wise git repos the use fzf to open lazygit at repo location/
+
+* DOING [#B] Self-host AI [0%] :LINUX:AI:
+
+- /GTX 1050 ti AI self-host models/
+
+** TODO Linux-Windows dual boot
+
+- /Dual boot Windows and Linux on the same system/
+- *Visit:* [[https://wiki.archlinux.org/title/Dual_boot_with_Windows][Dual boot with Windows]]
+
+** TODO Self-host AI with Nvidia card
+- Note taken on [2025-03-28 Fri 22:13] \\
+  Modified version of ~ollama~ to work with GTX 1050 ti [[https://github.com/ollama/ollama/issues/2332][Ollama on legacy gpu]]
+
+- /Models compatible with ~GTX 1050 ti~/
+- *Visit:*
+  - [[https://discuss.techlore.tech/t/possible-to-use-nvidia-gtx-card-for-self-hosted-ai/8454/4][AI self-host nvidia card]]
+  - [[https://ollama.com/search][Ollama models]]
+
+** TODO Integrate AI into shell
+- Note taken on [2025-03-28 Fri 21:57] \\
+  Integrate ~Ollama~ into ~shell_gpt~ using this [[https://github.com/TheR1D/shell_gpt/wiki/Ollama][guide]] 
+
+- /Successfully integrate AI to shell/
+- *Visit:* 
+  - [[https://github.com/danielmiessler/fabric][Fabric@github]]
+  - [[https://github.com/TheR1D/shell_gpt][Shell_gpt@github]]
+
+* TODO [#D] Men eyebrows care :SELFCARE:
+DEADLINE: <2025-04-04 Fri 22:00>
+
+- /Suggestions for eyebrows-care/
+
+* TODO [#C] Optimal sleep time :SELFCARE:
+DEADLINE: <2025-04-03 Thu 22:00 -2h>
+:PROPERTIES:
+:ID:       b7abea60-bd6a-4bb4-9aa6-5e7ccfa0ace5
+:END:
+
+- /Research optimal sleep time/
+- *Visit:* [[https://youtube.com/watch?v=q7amXedTasQ][Sleep hygeines and habbits]]
+
+* TODO [#A] Orgmode-nvim agenda custom commands :NVIM:ORGMODE:
+DEADLINE: <2025-04-03 Thu 23:00>
+- Note taken on [2025-03-27 Thu 09:27] \\
+  check org_agenda_custom_commands
+
+- /Create org_agenda_custom_commands custom cammands/
+- *Visit:* [[https://nvim-orgmode.github.io/configuration][nvim-orgmode documentations]]
+
+* TODO Lazyvim disable plugins :NVIM:
+
+- /Disable unused plugins in ~lazyvim~/
+- *Visit:* [[https://www.lazyvim.org/configuration/plugins#-disabling-plugins][Disable plugins - Lazyvim]]
+
+#+BEGIN_lua
+return {
+  -- disable trouble
+  { "folke/trouble.nvim", enabled = false },
+}
+#+END_lua
+
+* TODO Qtile spawn keybind :QTILE:
+DEADLINE: <2025-04-04 Fri 22:00>
+
+- /Create ~default_spawn~ keybind for qtile [[file:~/.config/qtile/settings/keymaps.py][~keymaps~]]/
+
+* ABORTED Orgmode desktop notification :ORGMODE:
+CLOSED: [2025-04-01 Tue 15:37] DEADLINE: <2025-03-31 Mon 22:00>
+- Note taken on [2025-03-29 Sat 13:45] \\
+  The following [[https://nvim-orgmode.github.io/configuration#cron][guide]] is written for ~cron~. Modify to work with ~systemd~
+
+- /Integrate ~orgmode-notification~ to ~system~/
+
+* TODO Qutebrowser profiles :QUTEBROWSER:
+DEADLINE: <2025-04-04 Fri 22:00>
+
+- /Setup qutebrowser-profiles for better session managements/
+
+* TODO English doc :SOCIAL:
+DEADLINE: <2025-04-04 Fri 23:00>
+:PROPERTIES:
+:ID:       6aaa4c17-f24d-4c4b-8956-d2884a404563
+:END:
+

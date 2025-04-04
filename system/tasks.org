@@ -74,7 +74,6 @@ DEADLINE: <2025-04-05 Sat 22:00>
   - [ ] [[https://old.reddit.com/r/mpv/comments/fs8r80/jump_to_a_specific_time/][Jump-to-time]]
   - [ ] subtitles dont scale with windows - run: ~$ man mpv~
 
-
 **** TODO Hardware acceleration suport
 
 - /Which hardeware acceleration my system support to decode AV1 video file format/

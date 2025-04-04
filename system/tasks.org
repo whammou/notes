@@ -78,6 +78,7 @@ DEADLINE: <2025-04-05 Sat 22:00>
 
 - /Which hardeware acceleration my system support to decode AV1 video file format/
 - /Error: mpv - Your hardware does not support hardware acceleration decoding AV1 format/
+  - *Visit:* [[https://github.com/mpv-player/mpv/issues/13708][mpv-issue@github]]
 
 *** TODO [#C] Fish shell input dir :SHELL:
 DEADLINE: <2025-04-03 Thu 20:00>

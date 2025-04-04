@@ -31,7 +31,7 @@ CLOSED: [2025-03-25 Tue 09:16] DEADLINE: <2025-03-25 Tue 21:00>
 - /List of FOSS AI/
 
 *** TODO [#B] Qtile ssh-tmux method :LINUX:
-DEADLINE: <2025-04-02 Wed 18:00>
+DEADLINE: <2025-04-05 Sat 18:00>
 
 - /Add ssh-tmux keybind to qtile/
 - *File:* [[file:~/.config/qtile/settings/key/spawn.py][qtile-config]]
@@ -46,7 +46,7 @@ CLOSED: [2025-03-25 Tue 06:45] DEADLINE: <2025-03-24 Mon 17:00>
 - [ ] Add ~qtile~ [[file:~/.config/qtile/settings/key/spawn.py][keybinds]]
 
 *** TODO [#B] Notification through ssh :LINUX:
-DEADLINE: <2025-04-02 Wed 17:30>
+DEADLINE: <2025-04-04 Fri 17:30>
 
 - /Pipe notification socket through ssh/
 
@@ -65,8 +65,8 @@ CLOSED: [2025-03-22 Sat 06:17] DEADLINE: <2025-03-22 Sat 22:00>
 
 - /Contact [[tel:DuyTung][Duy Tung]] for API access/
 
-*** DOING MPV script :MPV:
-DEADLINE: <2025-04-02 Wed 22:00>
+*** DOING MPV script [%] :MPV:
+DEADLINE: <2025-04-05 Sat 22:00>
 
 - *Goal:* display ~chapter list~ on ~mpv~
 - *Scripts:*
@@ -74,8 +74,14 @@ DEADLINE: <2025-04-02 Wed 22:00>
   - [ ] [[https://old.reddit.com/r/mpv/comments/fs8r80/jump_to_a_specific_time/][Jump-to-time]]
   - [ ] subtitles dont scale with windows - run: ~$ man mpv~
 
+
+**** TODO Hardware acceleration suport
+
+- /Which hardeware acceleration my system support to decode AV1 video file format/
+- /Error: mpv - Your hardware does not support hardware acceleration decoding AV1 format/
+
 *** TODO [#C] Fish shell input dir :SHELL:
-DEADLINE: <2025-04-01 Tue 20:00>
+DEADLINE: <2025-04-03 Thu 20:00>
 
 - /Set input dir as a parameter/
 

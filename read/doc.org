@@ -1,13 +1,9 @@
 #+TITLE: Read Archive
 #+DESCRIPTION: Description for archive here
 
-* Archives :ARCHIVED:
+* Archives :READ:
 
 Allocated space for archives
 
 ** Documents :DOC:
-
-** Lists :LIST:
-
-** Logs :LOG:
 

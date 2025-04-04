@@ -1,0 +1,9 @@
+#+TITLE: Travel Archive
+#+DESCRIPTION: Description for archive here
+
+* Archives :ARCHIVED:
+
+Allocated space for archives
+
+** Documents :DOC:
+

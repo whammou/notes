@@ -1,19 +1,6 @@
-#+TITLE: University Archive
-#+DESCRIPTION: Description for archive here
+* Logs :LOG:
 
-* Archives :ARCHIVED:
-
-Allocated space for archives
-
-** Documents :DOC:
-
-
-
-** Lists :LIST:
-
-** Logs :LOG:
-
-*** ABORTED [#A] Write an appeal :URGENT:
+** ABORTED [#A] Write an appeal :URGENT:
 CLOSED: [2024-12-13 Fri 00:32] DEADLINE: <2024-12-12 Thu>
 :PROPERTIES:
 :LAST_REPEAT: [2024-12-12 Thu 16:06]

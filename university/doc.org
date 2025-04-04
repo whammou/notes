@@ -1,0 +1,9 @@
+#+TITLE: University Archive
+#+DESCRIPTION: Description for archive here
+
+* Archives :UNIVERSITY:
+
+Allocated space for archives
+
+** Documents :DOC:
+

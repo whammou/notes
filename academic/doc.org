@@ -1,11 +1,14 @@
-#+TITLE: Academic Archive
+#+TITLE: Academic Documents
 #+DESCRIPTION: Description for archive here
 
-* Archives :ARCHIVED:ACADEMIC:
+* Archives :ACADEMIC:
 
-Allocated space for archives
+- /Allocated space for archives/
 
 ** Documents :DOC:
+
+- /Documents for academic topics/
+
 *** PENDING Navigate LibreTexts
 
 - *Goal(s):* Learn to navigate LibreTexts database
@@ -20,11 +23,13 @@ LibreTexts features subject libraries organized in three ~resource~ types:
    - ~bookshelves~ also hold *text maps* - which are OER /(Open Education Sources)/
 2. *Learning Objects:* Ancillary content like laboratory experiments. *Interactive Visualizations*, math simulations, reference items, practice worksheets and assessment materials
 3. *Campus Bookshelves:* Customized, campus curated and mixed from existing content
+
 *** DONE [#B] English teaching
 CLOSED: [2024-12-02 Mon 11:59] SCHEDULED: <2024-12-01 Sun 20:00>
 
 - *Goal(s):* create lesson plan for English teaching
 - tel:[Khánh Vi]
+
 *** Note-taking
 
 - *Goal(s):* learn effective note-taking method form lecture slides
@@ -91,10 +96,9 @@ file:academic/assets/note-taking/SCR_33_2.png
   1. A *Unique identifier -* This gives your Zettel an unambiguous address
   2. The *Body -* This is where to write down ~capture~ (a piece of knowledge)
   3. *Reference -* reference the source of the knowledge or thought
-  
+
   file:academic/assets/note-taking/SCR_33_3.png
 
-<<<<<<< HEAD
 **** Hybrid Method
 
 - Better structure notes in *Commonplace Book* format via ~markdown~ and ~orgmode~
@@ -103,8 +107,7 @@ file:academic/assets/note-taking/SCR_33_2.png
 - Better use of ~org-agenda~ and ~org-todo~
 
 Example of *Hybrid Method* checkout: [[https://github.com/whammou/notes]]
-=======
->>>>>>> origin/main
+
 *** DONE Report Reading Guide
 CLOSED: [2024-08-30 Fri 20:55]
 :PROPERTIES:
@@ -249,8 +252,4 @@ Some Noton templates can be found here: [[https://www.notion.so/blog/tasks][temp
 CLOSED: [2024-10-07 Mon 04:29]
 
 - *Source(s):* [[https://l.opnxng.com/r/productivity/comments/1bzy57h/how_to_effectively_juggle_multiple_highpriority/]]
-
-** Lists :LIST:
-
-** Logs :LOG:
 

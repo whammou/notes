@@ -1,15 +1,17 @@
 #+TITLE: Language Archive
 #+DESCRIPTION: Description for archive here
 
-* Archives :ARCHIVED:LANGUAGE:
+* Archives :LANGUAGE:
 
-Allocated space for archives
+- /Allocated space for archives/
 
 ** Documents :DOC:
 
+- /Language learning documents/
+
 *** Learning German :GERMAN:
 
-Notebook on planning and learning German
+- /Notebook on planning and learning German/
 
 **** Introduction
 
@@ -50,27 +52,4 @@ file:language/assets/verb_form.png
 
 - *Book:*  [[https://libgen.li/edition.php?id=138543351][Auf geht's! beginning German language and culture 4th]] [[https://www.fluentu.com/blog/german/best-books-to-learn-german/][book-lists]]
 - *Reddit:*  [[https://www.reddit.com/r/German/comments/xtvvqd/best_german_self_study_books/][self-study]] [[https://www.reddit.com/r/German/comments/4b1ft7/best_resource_for_learning_german_free/][self-study resource]]
-
-** Lists :LIST:
-
-** Logs :LOG:
-
-*** Integrate tts :LINUX:
-
-- *Goal(s):*  Utilize tts and stt system in linux for better language learning experience
-
-**** DONE Speech to Text
-CLOSED: [2024-10-15 Tue 19:56]
-- Note taken on [2024-10-11 Fri 20:47] \\
-  Re-config nvim-orgmode for better tts experience
-- Note taken on [2024-10-07 Mon 03:10] \\
-  Test run Google Recorder android
-
-Linux speech to text package
-- *Goal:* Implement to @language topic that works with android
-- *Source:*  [[https://github.com/julius-speech/julius][julius]]  [[https://wiki.archlinux.org/title/Speech_dispatcher][voice_dispatcher@archwiki]]
-
-**** Youtube transcript
-
-- *Goal(s):* fast get youtube transcript and utilize tts system 
 

@@ -1,11 +1,14 @@
 #+TITLE: Finance Archive
 #+DESCRIPTION: Description for archive here
 
-* Archives :ARCHIVED:FINANCE:
+* Archives :FINANCE:
 
-Allocated space for archives
+- /Allocated space for archives/
 
 ** Documents :DOC:
+
+- /Documents on personal finance topics/
+
 *** Finance basic
 
 Double entry book keeping and accounting to manage personal finance situation in plain text
@@ -316,6 +319,7 @@ file:finance/assets/table-perspective2.png
 ****** Fave self-host via ssh
 
 - *Goal(s):* Config Home-lab for fave web interface
+
 *** Manage Finance with Big Data Languages
 CLOSED: [2024-09-28 Sat 11:44]
 
@@ -455,8 +459,4 @@ Transactions consists of ~debits~ (increase to asset or expense accounts or decr
 
 General rule: /The sum of ~Debit~ entries is equal to the sum of ~Credit~ entries/
 file:finance/assets/DEA1.jpg
-
-** Lists :LIST:
-
-** Logs :LOG:
 

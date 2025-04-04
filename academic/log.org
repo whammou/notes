@@ -1,0 +1,5 @@
+#+TITLE: Academic Logs
+#+DESCRIPTION: Stores finished tasks for later visit
+
+* Logs :LOG:
+

@@ -1,7 +1,7 @@
 #+TITLE: Work Archive
 #+DESCRIPTION: Description for archive here
 
-* Archives :ARCHIVED:
+* Archives :WORK:
 
 Allocated space for archives
 
@@ -15,8 +15,4 @@ Allocated space for archives
 *** Failure to launch (hikimori) :WORK:
 
 /A closer look at failure to launch in life/
-
-** Lists :LIST:
-
-** Logs :LOG:
 

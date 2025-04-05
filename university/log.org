@@ -1,4 +1,7 @@
-* Logs :LOG:
+#+TITLE: University Log
+#+DESCRIPTION: Logs of finished items
+
+* Logs :LOG:UNIVERSITY:
 
 ** ABORTED [#A] Write an appeal :URGENT:
 CLOSED: [2024-12-13 Fri 00:32] DEADLINE: <2024-12-12 Thu>

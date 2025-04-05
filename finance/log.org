@@ -1,2 +1,5 @@
-* Logs :LOG:
+#+TITLE: Finance Logs
+#+DESCRIPTION: Logs of finished items
+
+* Logs :LOG:FINANCE:
 

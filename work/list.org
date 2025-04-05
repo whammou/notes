@@ -1,2 +1,5 @@
-* Lists :LIST:
+#+TITLE: Work List
+#+DESCRIPTION: Lists of useful items
+
+* Lists :LIST:WORK:
 

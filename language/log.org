@@ -1,4 +1,7 @@
-* Logs :LOG:
+#+TITLE: Language Logs
+#+DESCRIPTION: Logs of finished items
+
+* Logs :LOG:LANGUAGE:
 
 ** Integrate tts :LINUX:
 

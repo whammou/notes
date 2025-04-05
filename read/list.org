@@ -1,2 +1,5 @@
-* Lists :LIST:
+#+TITLE: Read Lists
+#+DESCRIPTION: Lists of finished items
+
+* Lists :LIST:READ:
 

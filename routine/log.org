@@ -1,4 +1,7 @@
-* Logs :LOG:
+#+TITLE: Routine Log
+#+DESCRIPTION: Logs of finished items
+
+* Logs :LOG:ROUTINE:
 
 ** DONE Venom :MOVIE:
 CLOSED: [2024-11-03 Sun 04:56] DEADLINE: <2024-11-02 Sat 20:00>

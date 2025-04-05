@@ -1,7 +1,7 @@
 #+TITLE: Language
 #+DESCRIPTION: Add notebook description here
 
-* Tasks
+* Tasks :LANGUAGE:
 
 Allocated space for tasks/todos
 

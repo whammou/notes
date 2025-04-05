@@ -1,7 +1,7 @@
 #+TITLE: Finance
 #+DESCRIPTION: Add notebook description here
 
-* Tasks
+* Tasks :FINANCE:
 
 Allocated space for tasks/todos
 

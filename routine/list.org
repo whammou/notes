@@ -1,4 +1,7 @@
-* Lists :LIST:
+#+TITLE: Routine List
+#+DESCRIPTION: Lists of useful items
+
+* Lists :LIST:ROUTINE:
 
 ** Recipes :DOC:RECIPE:
 

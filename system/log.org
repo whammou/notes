@@ -1,7 +1,7 @@
 #+TITLE: System Logs
 #+DESCRIPTION: Description for archive here
 
-* Logs :LOG:ARCHIVE:
+* Logs :LOG:SYSTEM:
 
 - /Store finished tasks/
 

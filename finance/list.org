@@ -1,2 +1,5 @@
-* Lists :LIST:
+#+TITLE: Finance Lists
+#+DESCRIPTION: Lists of useful items
+
+* Lists :LIST:FINANCE:
 

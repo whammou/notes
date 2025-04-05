@@ -1,7 +1,7 @@
 #+TITLE: Travel Archive
 #+DESCRIPTION: Description for archive here
 
-* Archives :ARCHIVED:
+* Archives :TRAVEL:
 
 Allocated space for archives
 

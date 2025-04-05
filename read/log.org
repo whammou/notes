@@ -1,2 +1,5 @@
-* Logs :LOG:
+#+TITLE: Read Logs
+#+DESCRIPTION: Logs of finidhed items
+
+* Logs :LOG:READ:
 

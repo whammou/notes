@@ -1,4 +1,7 @@
-* Lists :LIST:
+#+TITLE: Travel List
+#+DESCRIPTION: Lists of useful items
+
+* Lists :LIST:TRAVEL:
 
 ** Local cuisine :CUISINE:
 

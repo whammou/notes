@@ -1,7 +1,7 @@
 #+TITLE: Academic
 #+DESCRIPTION: Add notebook description here
 
-* Tasks
+* Tasks :ACADEMIC:
 
 Allocated space for tasks/todos
 

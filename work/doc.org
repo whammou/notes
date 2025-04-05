@@ -1,4 +1,4 @@
-#+TITLE: Work Archive
+#+TITLE: Work Documents
 #+DESCRIPTION: Description for archive here
 
 * Archives :WORK:

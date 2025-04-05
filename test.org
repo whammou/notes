@@ -1,6 +1,0 @@
-#+TITLE: Test Notebook
-#+FILETAGS: :TEST:
-
-* TODO Test header :TAG:
-
-- /Test body/

@@ -1,7 +1,7 @@
 #+TITLE: Work
 #+DESCRIPTION: Add notebook description here
 
-* Tasks
+* Tasks :WORK:
 
 Allocated space for tasks/todos
 

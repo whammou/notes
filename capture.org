@@ -201,3 +201,8 @@ DEADLINE: <2025-04-04 Fri 23:00>
 - /Change tmux title to same as/ ~WMclass~
 - *Visit:* [[https://o.iii.st/exchange/superuser.com/questions/1098077/how-to-keep-terminal-window-title-in-sync-with-tmux-window][tmux window title]]
 
+* Test conflict
+:PROPERTIES:
+:ID:       35f3005f-2f50-40aa-8954-3e6d16d914cc
+:END:
+

@@ -1,3 +1,3 @@
 #+TITLE: Work Log
-#+DESCRIPTION: test
+#+DESCRIPTION: Logs of finished items
 

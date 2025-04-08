@@ -203,11 +203,16 @@ CLOSED: [2025-04-07 Mon 16:06]
 - *Visit:* [[https://o.iii.st/exchange/superuser.com/questions/1098077/how-to-keep-terminal-window-title-in-sync-with-tmux-window][tmux window title]]
 
 * TODO Config gitbare at dotfiles :GIT:
-
 - /Make/ ~dotfiles~ /.gitbare/
 
 * TODO The talk! :PERSONAL:
 SCHEDULED: <2025-04-09 Wed 13:00>
 
 - /Have the talk/
+
+* TODO Fetch yt-dl format :LINUX:
+
+- /fetch video decoding format/
+  - [ ] No support for av1 codec profile 0
+  - [ ] yt-dl [[file:~/.config/ytdl/conf][config]]
 

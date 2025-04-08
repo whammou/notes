@@ -304,20 +304,6 @@ SCHEDULED: <2025-04-08 Tue 16:30 +1d>
 :LOGBOOK:
 - State "ABORTED"    from "TODO"       [2025-04-08 Tue 15:47]
 :END:
-- State "ABORTED"    from "TODO"       [2025-04-07 Mon 10:40]
-- State "ABORTED"    from "TODO"       [2025-04-06 Sun 12:56]
-- State "ABORTED"    from "TODO"       [2025-04-04 Fri 17:11]
-- State "DONE"       from "TODO"       [2025-04-04 Fri 16:52]
-- State "DONE"       from "TODO"       [2025-04-03 Thu 20:31]
-- State "DONE"       from "DOING"      [2025-04-01 Tue 21:58]
-- State "DONE"       from "DOING"      [2025-03-31 Mon 23:16]
-- State "ABORTED"    from "TODO"       [2025-03-29 Sat 09:56]
-- State "ABORTED"    from "TODO"       [2025-03-28 Fri 19:34]
-- State "DONE"       from "TODO"       [2025-04-01 Tue 19:01]
-- State "ABORTED"    from "TODO"       [2025-03-30 Sun 22:50]
-- State "DONE"       from "TODO"       [2025-03-28 Fri 09:35
-- State "ABORTED"    from "TODO"       [2025-03-26 Wed 07:03]
-- State "DONE"       from "TODO"       [2025-03-24 Mon 23:41]
 
 - /Picking my girl up/
 - *Location:*  [[https://www.google.com/maps/place/A%2BC+Coffee+Experience,+230%2F18+Pasteur,+Ph%C6%B0%E1%BB%9Dng+6,+Qu%E1%BA%ADn+3,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7858949,106.6915706,16z/data=!4m6!3m5!1s0x31752f0079a094e1:0xa8800ca97260d786!8m2!3d10.7858949!4d106.6915706!16s%2Fg%2F11x1lhrz1t?force=pwa&source=mlapk][230/18 Pasteur, Phường 6, Quận 3]]

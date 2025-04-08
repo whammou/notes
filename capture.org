@@ -215,4 +215,4 @@ SCHEDULED: <2025-04-09 Wed 13:00>
 - /fetch video decoding format/
   - [ ] No support for av1 codec profile 0
   - [ ] yt-dl [[file:~/.config/ytdl/conf][config]]
-
+  - [ ] [[https://github.com/Benexl/yt-x?tab=readme-ov-file][yt-x yt-dl implement]]

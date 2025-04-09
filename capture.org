@@ -140,7 +140,7 @@ Replace ~vim-fugitive~ with ~lazygit~
   - [[https://github.com/TheR1D/shell_gpt][Shell_gpt@github]]
 
 * ABORTED [#D] Men eyebrows care :SELFCARE:
-DEADLINE: <2025-04-05 Sat 22:00> CLOSED: [2025-04-08 Tue 18:46]
+CLOSED: [2025-04-08 Tue 18:46] DEADLINE: <2025-04-05 Sat 22:00>
 
 - /Suggestions for eyebrows-care/
 
@@ -197,10 +197,23 @@ DEADLINE: <2025-04-09 Wed 23:00>
 :END:
 
 * TODO Config gitbare at dotfiles :GIT:
+
 - /Make/ ~dotfiles~ /.gitbare/
 
 * TODO The talk! :PERSONAL:
 SCHEDULED: <2025-04-09 Wed 13:00>
 
 - /Have the talk/
+
+* TODO Fetch yt-dl format :LINUX:
+
+- /fetch video decoding format/
+  - [ ] No support for av1 codec profile 0
+  - [ ] yt-dl [[file:~/.config/ytdl/conf][config]]
+  - [ ] [[https://github.com/Benexl/yt-x?tab=readme-ov-file][yt-x yt-dl implement]]
+
+* Search more efficiently
+:PROPERTIES:
+:ID:       995adf02-30af-429f-94ca-56e405e15914
+:END:
 

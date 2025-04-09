@@ -140,7 +140,7 @@ Replace ~vim-fugitive~ with ~lazygit~
   - [[https://github.com/TheR1D/shell_gpt][Shell_gpt@github]]
 
 * ABORTED [#D] Men eyebrows care :SELFCARE:
-DEADLINE: <2025-04-05 Sat 22:00> CLOSED: [2025-04-08 Tue 18:46]
+CLOSED: [2025-04-08 Tue 18:46] DEADLINE: <2025-04-05 Sat 22:00>
 
 - /Suggestions for eyebrows-care/
 
@@ -217,3 +217,9 @@ SCHEDULED: <2025-04-09 Wed 13:00>
   - [ ] No support for av1 codec profile 0
   - [ ] yt-dl [[file:~/.config/ytdl/conf][config]]
   - [ ] [[https://github.com/Benexl/yt-x?tab=readme-ov-file][yt-x yt-dl implement]]
+
+* Search more efficiently
+:PROPERTIES:
+:ID:       995adf02-30af-429f-94ca-56e405e15914
+:END:
+

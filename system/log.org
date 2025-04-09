@@ -558,4 +558,26 @@ CLOSED: [2025-01-23 Thu 00:03] DEADLINE: <2025-01-22 Wed 00:00>
 CLOSED: [2025-01-24 Fri 21:35]
 
 - *Goal(s):* config nvim-auto pairs hotkeys
+** DONE Tmux title :TMUX:
+CLOSED: [2025-04-07 Mon 16:06]
 
+- /Change tmux title to same as/ ~WMclass~
+- *Visit:* [[https://o.iii.st/exchange/superuser.com/questions/1098077/how-to-keep-terminal-window-title-in-sync-with-tmux-window][tmux window title]]
+
+- *Solution:* /Add these line to/ [[file:~/.tmux.conf][tmux.conf]]
+  #+BEGIN_conf
+  set-option -g set-titles on
+  set-option -g set-titles-string "[#S] #W"
+  #+END_conf
+** DONE Fetch yt-dl format :LINUX:
+DEADLINE: <2025-04-08 Tue 22:00> CLOSED: [2025-04-08 Tue 21:21]
+
+- /fetch video decoding format/
+  - [x] No support for av1 codec profile 0
+  - [x] yt-dl [[file:~/.config/ytdl/conf][config]]
+  - [x] [[https://github.com/Benexl/yt-x?tab=readme-ov-file][yt-x yt-dl implement]]
+
+- *Solution:* /Add this following line to/ [[~/.config/mpv/mpv.conf][mpv.conf]]
+  #+BEGIN_confini
+  ytdl-format = 'bestvideo[vcodec=h264][height<=720]+bestaudio/best[height<=720]' # Youtube format
+  #+END_confini

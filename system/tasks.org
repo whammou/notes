@@ -70,7 +70,7 @@ DEADLINE: <2025-04-08 Tue 22:00>
 
 - *Goal:* display ~chapter list~ on ~mpv~
 - *Scripts:*
-  - [ ] [[https://old.reddit.com/r/mpv/comments/j7czzx/displaying_chapter_titles/][chapter list script]]
+  - [x] [[https://old.reddit.com/r/mpv/comments/j7czzx/displaying_chapter_titles/][chapter list script]]
   - [ ] [[https://old.reddit.com/r/mpv/comments/fs8r80/jump_to_a_specific_time/][Jump-to-time]]
   - [ ] subtitles dont scale with windows - run: ~$ man mpv~
 

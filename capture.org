@@ -196,12 +196,6 @@ DEADLINE: <2025-04-09 Wed 23:00>
 :ID:       6aaa4c17-f24d-4c4b-8956-d2884a404563
 :END:
 
-* DONE Tmux title :TMUX:
-CLOSED: [2025-04-07 Mon 16:06]
-
-- /Change tmux title to same as/ ~WMclass~
-- *Visit:* [[https://o.iii.st/exchange/superuser.com/questions/1098077/how-to-keep-terminal-window-title-in-sync-with-tmux-window][tmux window title]]
-
 * TODO Config gitbare at dotfiles :GIT:
 - /Make/ ~dotfiles~ /.gitbare/
 
@@ -210,9 +204,3 @@ SCHEDULED: <2025-04-09 Wed 13:00>
 
 - /Have the talk/
 
-* TODO Fetch yt-dl format :LINUX:
-
-- /fetch video decoding format/
-  - [ ] No support for av1 codec profile 0
-  - [ ] yt-dl [[file:~/.config/ytdl/conf][config]]
-  - [ ] [[https://github.com/Benexl/yt-x?tab=readme-ov-file][yt-x yt-dl implement]]

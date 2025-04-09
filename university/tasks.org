@@ -57,6 +57,10 @@ Club meeting in weekly session on /Tue/ and /Thu/ from /3PM/ to /6PM/
 ***** Academic clubs
 
 Interesting academic related groups
+*** TODO University discussion :PERSONAL:
+SCHEDULED: <2025-04-10 Thu 13:00>
+
+- /Have the talk/
 
 ** Incidental :INCIDENTAL:
 

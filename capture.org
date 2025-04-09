@@ -200,20 +200,17 @@ DEADLINE: <2025-04-10 Thu 23:00>
 
 - /Make/ ~dotfiles~ /.gitbare/
 
-* TODO The talk! :PERSONAL:
-SCHEDULED: <2025-04-09 Wed 13:00>
-
-- /Have the talk/
-
-* TODO Fetch yt-dl format :LINUX:
+* DONE Fetch yt-dl format :LINUX:
+CLOSED: [2025-04-09 Wed 17:46]
 
 - /fetch video decoding format/
-  - [ ] No support for av1 codec profile 0
-  - [ ] yt-dl [[file:~/.config/ytdl/conf][config]]
-  - [ ] [[https://github.com/Benexl/yt-x?tab=readme-ov-file][yt-x yt-dl implement]]
+  - [x] No support for av1 codec profile 0
+  - [x] yt-dl [[file:~/.config/ytdl/conf][config]]
+  - [x] [[https://github.com/Benexl/yt-x?tab=readme-ov-file][yt-x yt-dl implement]]
 
-* Search more efficiently
+* Search more efficiently :LINUX:
 :PROPERTIES:
 :ID:       995adf02-30af-429f-94ca-56e405e15914
 :END:
 
+- /Use advances search methods in search engines/

@@ -58,6 +58,7 @@ Club meeting in weekly session on /Tue/ and /Thu/ from /3PM/ to /6PM/
 ***** Academic clubs
 
 Interesting academic related groups
+<<<<<<< HEAD
 
 *** DONE University discussion :PERSONAL:
 SCHEDULED: <2025-04-10 Thu 13:00> CLOSED: [2025-04-10 Thu 21:49]

@@ -61,7 +61,7 @@ Interesting academic related groups
 <<<<<<< HEAD
 
 *** DONE University discussion :PERSONAL:
-SCHEDULED: <2025-04-10 Thu 13:00> CLOSED: [2025-04-10 Thu 21:49]
+CLOSED: [2025-04-10 Thu 21:49] SCHEDULED: <2025-04-10 Thu 13:00>
 
 - /Have the talk/
 

@@ -31,7 +31,7 @@ CLOSED: [2025-03-25 Tue 09:16] DEADLINE: <2025-03-25 Tue 21:00>
 - /List of FOSS AI/
 
 *** TODO Qtile ssh-tmux method :LINUX:
-DEADLINE: <2025-04-12 Sat 18:00>
+DEADLINE: <2025-04-13 Sun 18:00>
 
 - /Add ssh-tmux keybind to qtile/
 - *File:* [[file:~/.config/qtile/settings/key/spawn.py][qtile-config]]
@@ -46,7 +46,7 @@ CLOSED: [2025-03-25 Tue 06:45] DEADLINE: <2025-03-24 Mon 17:00>
 - [ ] Add ~qtile~ [[file:~/.config/qtile/settings/key/spawn.py][keybinds]]
 
 *** TODO Notification through ssh :LINUX:
-DEADLINE: <2025-04-12 Sat 17:30>
+DEADLINE: <2025-04-13 Sun 17:30>
 
 - /Pipe notification socket through ssh/
 
@@ -65,8 +65,8 @@ CLOSED: [2025-03-22 Sat 06:17] DEADLINE: <2025-03-22 Sat 22:00>
 
 - /Contact [[tel:DuyTung][Duy Tung]] for API access/
 
-*** DOING [#C] MPV script [%] :MPV:
-DEADLINE: <2025-04-11 Fri 22:00>
+*** DONE [#C] MPV script [%] :MPV:
+DEADLINE: <2025-04-11 Fri 22:00> CLOSED: [2025-04-12 Sat 18:03]
 
 - *Goal:* display ~chapter list~ on ~mpv~
 - *Scripts:*
@@ -80,10 +80,12 @@ DEADLINE: <2025-04-11 Fri 22:00>
 - /Error: mpv - Your hardware does not support hardware acceleration decoding AV1 format/
   - *Visit:* [[https://github.com/mpv-player/mpv/issues/13708][mpv-issue@github]]
 
-*** TODO [#D] Fish shell input dir :SHELL:
-DEADLINE: <2025-04-11 Fri 20:00>
+*** TODO [#D] Fish shell directory preview :SHELL:
+DEADLINE: <2025-04-12 Sat 20:00>
 
 - /Set input dir as a parameter/
+- *Visit:* [[https://github.com/fish-shell/fish-shell/issues/6838][preview-shortcuts]]
+  - /commandline help:/ run ~man commandline~
 
 ** Incidental :INCIDENTAL:
 

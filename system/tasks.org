@@ -65,27 +65,40 @@ CLOSED: [2025-03-22 Sat 06:17] DEADLINE: <2025-03-22 Sat 22:00>
 
 - /Contact [[tel:DuyTung][Duy Tung]] for API access/
 
-*** DONE [#C] MPV script [%] :MPV:
+*** DONE [#C] MPV script [100%] :MPV:
 DEADLINE: <2025-04-11 Fri 22:00> CLOSED: [2025-04-12 Sat 18:03]
 
 - *Goal:* display ~chapter list~ on ~mpv~
 - *Scripts:*
   - [x] [[https://old.reddit.com/r/mpv/comments/j7czzx/displaying_chapter_titles/][chapter list script]]
-  - [ ] [[https://old.reddit.com/r/mpv/comments/fs8r80/jump_to_a_specific_time/][Jump-to-time]]
-  - [ ] subtitles dont scale with windows - run: ~$ man mpv~
+  - [x] [[https://old.reddit.com/r/mpv/comments/fs8r80/jump_to_a_specific_time/][Jump-to-time]]
+  - [x] subtitles dont scale with windows - run: ~$ man mpv~
 
-**** TODO Hardware acceleration suport
+**** DONE Hardware acceleration suport
+CLOSED: [2025-04-12 Sat 20:58]
 
 - /Which hardeware acceleration my system support to decode AV1 video file format/
 - /Error: mpv - Your hardware does not support hardware acceleration decoding AV1 format/
   - *Visit:* [[https://github.com/mpv-player/mpv/issues/13708][mpv-issue@github]]
 
-*** TODO [#D] Fish shell directory preview :SHELL:
-DEADLINE: <2025-04-12 Sat 20:00>
+*** Fish shell Configuration [50%] :FISH:
+
+- /Config/ ~fish~
+
+**** DONE Fish shell directory preview
+DEADLINE: <2025-04-12 Sat 20:00> CLOSED: [2025-04-12 Sat 22:34]
 
 - /Set input dir as a parameter/
 - *Visit:* [[https://github.com/fish-shell/fish-shell/issues/6838][preview-shortcuts]]
   - /commandline help:/ run ~man commandline~
+
+- [x] *READ!*List contents of current directory under cursor: [[file:/usr/share/fish/functions/__fish_list_current_token.fish][__fish_list_current_token.fish]]
+- [x] Modifiied ~__fish_list_current_token~ to run with ~yazi~ [[file:~/.config/fish/functions/_yazi_current_token.fish][_yazi_current_token.fish]]
+
+**** TODO Fish edit current token
+DEADLINE: <2025-04-13 Sun>
+
+- /Create function to edit current token/
 
 ** Incidental :INCIDENTAL:
 

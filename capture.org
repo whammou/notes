@@ -28,7 +28,7 @@ CLOSED: [2025-04-11 Fri 21:41]
   Separate ~Logs~ ~Lists~ and ~Documents~ to different files to avoid callbacks
 - *Goal:* optimize ~archive~ hierarchy
 
-* Config vim completion [50%] :NVIM:
+* DOING Config vim completion [50%] :NVIM:
 
 - *Goal:* successfully replace ~ultil-snip~ with ~blink-nvim~ and ~lua-snip~
 - *Visit:* [[https://a.opnxng.com/exchange/vi.stackexchange.com/questions/41733/how-to-set-up-luasnip-in-neovim-w-lsp-zero][nvim-cmp#external-sources]]
@@ -161,7 +161,7 @@ DEADLINE: <2025-04-13 Sun 22:00 -2h>
 - *Visit:* [[https://youtube.com/watch?v=q7amXedTasQ][Sleep hygeines and habbits]]
 
 * DONE [#B] Orgmode-nvim agenda custom commands :NVIM:ORGMODE:
-DEADLINE: <2025-04-12 Sat 23:00> CLOSED: [2025-04-13 Sun 17:51]
+CLOSED: [2025-04-13 Sun 17:51] DEADLINE: <2025-04-12 Sat 23:00>
 - Note taken on [2025-03-27 Thu 09:27] \\
   check org_agenda_custom_commands
 
@@ -221,3 +221,4 @@ CLOSED: [2025-04-09 Wed 17:46]
 :END:
 
 - /Use advances search methods in search engines/
+

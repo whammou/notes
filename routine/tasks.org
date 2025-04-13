@@ -203,12 +203,18 @@ Weekly and monthly bikes maintenance schedule
 
 - /Honda Airblade/
 
-**** Clean Bikes
+**** TODO Clean Bikes
+:PROPERTIES:
+:LAST_REPEAT: [2025-04-13 Sun 17:51]
+:END:
+:LOGBOOK:
+- State "ABORTED"    from "TODO"       [2025-04-13 Sun 17:51]
+:END:
 
 - /Clean up my bikes/
 
-***** Oil change
-SCHEDULED: <2025-04-12 Sat .+2m>
+*kj**** Oil change
+SCHEDULED: <2025-06-13 Fri .+2m>
 :PROPERTIES:
 :LAST_REPEAT: [2025-02-12 Wed 00:10]
 :END:
@@ -273,11 +279,12 @@ Meal-preps, cooking recipes and grocery planning
 - *Goal:* adding one extra meal per day
 
 **** TODO Dear diary :DATING:
-SCHEDULED: <2025-04-12 Sat 16:30 +1d>
+SCHEDULED: <2025-04-13 Sun 16:30 +1d>
 :PROPERTIES:
-:LAST_REPEAT: [2025-04-11 Fri 21:36]
+:LAST_REPEAT: [2025-04-13 Sun 17:48]
 :END:
 :LOGBOOK:
+- State "ABORTED"    from "TODO"       [2025-04-13 Sun 17:48]
 - State "ABORTED"    from "TODO"       [2025-04-11 Fri 21:36]
 - State "ABORTED"    from "TODO"       [2025-04-11 Fri 15:44]
 - State "ABORTED"    from "TODO"       [2025-04-10 Thu 21:41]
@@ -300,12 +307,13 @@ SCHEDULED: <2025-04-12 Sat 16:30 +1d>
 - /Journaling todays event/
 
 **** TODO Pick HER up! :DATING:ALARM:
-SCHEDULED: <2025-04-12 Sat 16:30 +1d>
+SCHEDULED: <2025-04-13 Sun 16:30 +1d>
 :PROPERTIES:
 :ID:       b50be36d-d0d6-445b-864f-058907694753
-:LAST_REPEAT: [2025-04-11 Fri 21:36]
+:LAST_REPEAT: [2025-04-13 Sun 17:48]
 :END:
 :LOGBOOK:
+- State "ABORTED"    from "TODO"       [2025-04-13 Sun 17:48]
 - State "DONE"       from "TODO"       [2025-04-11 Fri 21:36]
 - State "DONE"       from "TODO"       [2025-04-11 Fri 15:44]
 - State "ABORTED"    from "TODO"       [2025-04-09 Wed 20:33]

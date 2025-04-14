@@ -222,3 +222,14 @@ CLOSED: [2025-04-09 Wed 17:46]
 
 - /Use advances search methods in search engines/
 
+* TODO Auto commit repo :GIT:
+DEADLINE: <2025-04-15 Tue 17:00>
+:PROPERTIES:
+:ID:       1c814ec1-f296-4b5a-8631-2a0d970d14a0
+:END:
+
+- /Write scripts for:/
+  - [ ] Write auto commit message
+  - [ ] Auto pulling
+  - [ ] Auto pushing
+

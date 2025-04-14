@@ -226,6 +226,7 @@ CLOSED: [2025-04-09 Wed 17:46]
 DEADLINE: <2025-04-14 Mon 16:00>
 
 - /Enable hardware acceleration/
+- *Visit:* [[https://wiki.archlinux.org/title/Hardware_video_acceleration][Hardware acceleration doc]]
 
 * TODO Qutebrowser daemon :QUTEBROWSER:
 DEADLINE: <2025-04-15 Tue 22:00>

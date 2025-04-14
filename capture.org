@@ -232,10 +232,12 @@ DEADLINE: <2025-04-15 Tue 22:00>
 
 - /Check out Qutebrowser-daemon script/
 - *Visit:* [[https://gist.github.com/knatsakis/8cf329853330893cd2d7fa3dbd5692b0][qutebrowse-daemon script]]
+
 * TODO Ignore yt-x watchlist :YTX:
 DEADLINE: <2025-04-14 Mon 21:00>
 
 - /Add watchlist file to/ ~gitignore~
+
 * TODO Auto commit repo :GIT:
 DEADLINE: <2025-04-15 Tue 17:00>
 :PROPERTIES:
@@ -246,3 +248,4 @@ DEADLINE: <2025-04-15 Tue 17:00>
   - [ ] Write auto commit message
   - [ ] Auto pulling
   - [ ] Auto pushing
+

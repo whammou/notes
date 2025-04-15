@@ -581,3 +581,26 @@ DEADLINE: <2025-04-08 Tue 22:00> CLOSED: [2025-04-08 Tue 21:21]
   #+BEGIN_confini
   ytdl-format = 'bestvideo[vcodec=h264][height<=720]+bestaudio/best[height<=720]' # Youtube format
   #+END_confini
+* DONE [#C] MPV script [100%] :MPV:
+CLOSED: [2025-04-12 Sat 18:03] DEADLINE: <2025-04-11 Fri 22:00>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-04-15 Tue 21:21
+:ARCHIVE_FILE: /home/whammou/notes/system/tasks.org
+:ARCHIVE_OLPATH: Tasks/One-off
+:ARCHIVE_CATEGORY: tasks
+:ARCHIVE_TODO: DONE
+:END:
+
+- *Goal:* display ~chapter list~ on ~mpv~
+- *Scripts:*
+  - [x] [[https://old.reddit.com/r/mpv/comments/j7czzx/displaying_chapter_titles/][chapter list script]]
+  - [x] [[https://old.reddit.com/r/mpv/comments/fs8r80/jump_to_a_specific_time/][Jump-to-time]]
+  - [x] subtitles dont scale with windows - run: ~$ man mpv~
+
+** DONE Hardware acceleration suport
+CLOSED: [2025-04-12 Sat 20:58]
+
+- /Which hardeware acceleration my system support to decode AV1 video file format/
+- /Error: mpv - Your hardware does not support hardware acceleration decoding AV1 format/
+  - *Visit:* [[https://github.com/mpv-player/mpv/issues/13708][mpv-issue@github]]
+

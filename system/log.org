@@ -1,5 +1,6 @@
 #+TITLE: System Logs
 #+DESCRIPTION: Description for archive here
+#+FILETAGS: TEST
 
 * Logs :LOG:SYSTEM:
 

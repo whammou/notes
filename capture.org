@@ -47,6 +47,7 @@ DEADLINE: <2025-04-16 Wed 19:00>
 DEADLINE: <2025-04-16 Wed 19:00>
 
 - /Successfully source/ ~lua-snip~ /with/ ~blink.cmp~
+- *Visit:* [[https://cmp.saghen.dev/configuration/snippets#luasnip][source luasnip guide]]
 
 ** ABORTED Configure nvim-lsp
 CLOSED: [2025-03-16 Sun 20:23]

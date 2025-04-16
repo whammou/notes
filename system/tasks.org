@@ -31,7 +31,7 @@ CLOSED: [2025-03-25 Tue 09:16] DEADLINE: <2025-03-25 Tue 21:00>
 - /List of FOSS AI/
 
 *** TODO Qtile ssh-tmux method :LINUX:
-DEADLINE: <2025-04-16 Wed 18:00>
+DEADLINE: <2025-04-17 Thu 18:00>
 
 - /Add ssh-tmux keybind to qtile/
 - *File:* [[file:~/.config/qtile/settings/key/spawn.py][qtile-config]]
@@ -46,7 +46,7 @@ CLOSED: [2025-03-25 Tue 06:45] DEADLINE: <2025-03-24 Mon 17:00>
 - [ ] Add ~qtile~ [[file:~/.config/qtile/settings/key/spawn.py][keybinds]]
 
 *** TODO Notification through ssh :LINUX:
-DEADLINE: <2025-04-16 Wed 17:30>
+DEADLINE: <2025-04-17 Thu 17:30>
 
 - /Pipe notification socket through ssh/
 
@@ -96,7 +96,7 @@ CLOSED: [2025-04-12 Sat 22:34] DEADLINE: <2025-04-12 Sat 20:00>
 - [x] Modifiied ~__fish_list_current_token~ to run with ~yazi~ [[file:~/.config/fish/functions/_yazi_current_token.fish][_yazi_current_token.fish]]
 
 **** TODO Fish edit current token
-DEADLINE: <2025-04-16 Wed 20:30>
+DEADLINE: <2025-04-17 Thu 20:30>
 
 - /Create function to edit current token/
 

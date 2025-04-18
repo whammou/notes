@@ -279,7 +279,7 @@ Meal-preps, cooking recipes and grocery planning
 - *Goal:* adding one extra meal per day
 
 **** TODO Dear diary :DATING:
-SCHEDULED: <2025-04-19 Sat 16:30 +1d>
+SCHEDULED: <2025-04-19 Sat 15:00 +1d>
 :PROPERTIES:
 :LAST_REPEAT: [2025-04-18 Fri 14:18]
 :END:
@@ -313,7 +313,7 @@ SCHEDULED: <2025-04-19 Sat 16:30 +1d>
 - /Journaling todays event/
 
 **** TODO Pick HER up! :DATING:ALARM:
-SCHEDULED: <2025-04-18 Fri 16:30 +1d>
+SCHEDULED: <2025-04-18 Fri 16:00 +1d>
 :PROPERTIES:
 :ID:       b50be36d-d0d6-445b-864f-058907694753
 :LAST_REPEAT: [2025-04-18 Fri 13:03]

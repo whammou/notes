@@ -224,7 +224,7 @@ CLOSED: [2025-04-09 Wed 17:46]
 - /Use advances search methods in search engines/
 
 * DONE Hardware Acceleration :QUTEBROWSER:
-DEADLINE: <2025-04-16 Wed 16:00> CLOSED: [2025-04-18 Fri 14:16]
+CLOSED: [2025-04-18 Fri 14:16] DEADLINE: <2025-04-16 Wed 16:00>
 
 - /Enable hardware acceleration/
 - *Visit:* [[https://wiki.archlinux.org/title/Hardware_video_acceleration][Hardware acceleration doc]]

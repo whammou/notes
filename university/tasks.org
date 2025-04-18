@@ -66,7 +66,7 @@ CLOSED: [2025-04-10 Thu 21:49] SCHEDULED: <2025-04-10 Thu 13:00>
 - /Have the talk/
 
 *** TODO University attributes
-DEADLINE: <2025-04-16 Wed 23:00>
+DEADLINE: <2025-04-18 Fri 23:00>
 
 - /What should you look for in a university/
 - *Resources:* [[https://q.opnxng.com/What-should-I-be-looking-for-in-a-university][What should sudents look for in a college]]

@@ -39,10 +39,9 @@ DEADLINE: <2025-04-18 Fri 19:00> CLOSED: [2025-04-19 Sat 06:11]
 - *Goal(s):* configure and learn ~lua-snip~ syntax
 - *Visit:*
    - *Youtube:* [[https://youtube.com/watch?v=GxnBIRl9UmA][luasnip setup]]
-   - *Setup:* 
+   - *Setup:*
      - [[https://cmp.saghen.dev/configuration/snippets#luasnip][blink.cmp documentaion]]
      - [[https://github.com/Saghen/blink.cmp/discussions/1391][blink.cmp luasnip issue]]
-     - [[https://code.visualstudio.com/docs/editor/userdefinedsnippets][Snippets in vscode]]
      - [[https://evesdropper.dev/files/luasnip/ultisnips-to-luasnip/][nvim luasnip setup]]
      - [[https://sbulav.github.io/vim/neovim-setting-up-luasnip/][Neovim setting up snippets with luasnip]]
 
@@ -56,6 +55,8 @@ DEADLINE: <2025-04-19 Sat 19:00>
 DEADLINE: <2025-04-20 Sun 18:30>
 
 - /Write snippets in VSCode style or using/ ~luasnip~
+- *Visit:*
+   - [[https://code.visualstudio.com/docs/editor/userdefinedsnippets][Snippets in vscode]]
 
 ** ABORTED Configure nvim-lsp
 CLOSED: [2025-03-16 Sun 20:23]

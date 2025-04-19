@@ -186,7 +186,7 @@ Closes D2IQ-12345
 > [!NOTE]
 > The ensure that these committing conventions remain consistent across developers, commit message linting can be configured before changes are able to be pushed up. [[https://commitizen-tools.github.io/commitizen/][Commitizen]] is a great tool to enforce standards, sync up semantic versioning, along with other helpful features
 
-*** DOING [#C] Integrate Google AI :LINUX:
+*** PENDING [#C] Integrate Google AI [%] :LINUX:
 
 - *Goal:* integrate bard AI to workflow
 - *Resource:* [[https://www.reddit.com/r/ChatGPT/comments/1akynsv/any_free_alternatives_to_open_ai_api/][Google AI Studio]]  [[https://ai.google.dev/docs][Google AI docs]]
@@ -216,7 +216,7 @@ CLOSED: [2025-01-10 Fri 02:27]
   print(response.text)
   #+END_SRC
 
-**** DOING Shell Integration
+**** PENDING Shell Integration
 
 - *Goal(s):* working on integrate AI with ~kitty~
 
@@ -346,7 +346,7 @@ CLOSED: [2025-04-19 Sat 07:58]
 - *Goal(s):* chroot from a live usb
 
 **** DONE Arch Linux hibernation
- DEADLINE: <2025-01-06 Mon 03:00> CLOSED: [2025-04-19 Sat 07:55]
+CLOSED: [2025-04-19 Sat 07:55] DEADLINE: <2025-01-06 Mon 03:00>
 - Note taken on [2025-01-06 Mon 01:48] \\
   Hibernation for btrfs partitions
 
@@ -376,7 +376,6 @@ CLOSED: [2025-04-19 Sat 07:58]
 **** TODO Select io scheduler
 
 - /Change/ ~udev~ /rules for ioscheduler/
-
 
 **** TODO CPU and IRQ scheduler
 

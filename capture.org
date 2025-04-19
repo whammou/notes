@@ -11,7 +11,7 @@
 - *Goal(s):* config nvim to work with nvim-cmp nvim-supertab
 
 * DOING Overhaul Note repo [50%] :ORGMODE:GITHUB:
-DEADLINE: <2025-04-19 Sat 20:00>
+DEADLINE: <2025-04-19 Sat 22:00>
 
 - *Goal(s):* update note repo structure for more optimal workflow
 - *NOTE:* checkout [[./README.org][README]] and find a suitable repo structure
@@ -89,16 +89,19 @@ Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~
 
 Access blocked websites via ~proxy~ or changeing ~DNS~
 
-* DOING Integrate lazygit [%] :GIT:
+* DONE Integrate lazygit [100%] :GIT:
+CLOSED: [2025-04-19 Sat 17:50]
 
 Replace ~vim-fugitive~ with ~lazygit~
 
-** TODO Setup git
+** DONE Setup git
+CLOSED: [2025-04-19 Sat 17:50]
 
 /edit editor and diff-method in global config file/
 *Checkout:* [[file:/home/whammou/.gitconfig][gitconfig]]
 
-*** TODO Add git-deff method
+*** DONE Add git-deff method
+CLOSED: [2025-04-19 Sat 17:50]
 
 /insert use methods here/
 
@@ -120,7 +123,8 @@ Replace ~vim-fugitive~ with ~lazygit~
 
 - /Both locally and globally/
 
-* DOING Yazi fish integration [0%] :YAZI:
+* DONE Yazi fish integration [0%] :YAZI:
+DEADLINE: <2025-04-19 Sat 17:00> CLOSED: [2025-04-19 Sat 17:49]
 
 - /Open yazi at typed dir in fish shell/
 
@@ -128,16 +132,19 @@ Replace ~vim-fugitive~ with ~lazygit~
 
 - /Detect system wise git repos the use fzf to open lazygit at repo location/
 
-* DOING [#B] Self-host AI [0%] :LINUX:AI:
+* PENDING [#B] Self-host AI [100%] :LINUX:AI:
+CLOSED: [2025-04-19 Sat 17:51]
 
 - /GTX 1050 ti AI self-host models/
 
-** TODO Linux-Windows dual boot
+** PENDING Linux-Windows dual boot
+CLOSED: [2025-04-19 Sat 17:51]
 
 - /Dual boot Windows and Linux on the same system/
 - *Visit:* [[https://wiki.archlinux.org/title/Dual_boot_with_Windows][Dual boot with Windows]]
 
-** TODO Self-host AI with Nvidia card
+** PENDING Self-host AI with Nvidia card
+CLOSED: [2025-04-19 Sat 17:51]
 - Note taken on [2025-03-28 Fri 22:13] \\
   Modified version of ~ollama~ to work with GTX 1050 ti [[https://github.com/ollama/ollama/issues/2332][Ollama on legacy gpu]]
 
@@ -146,7 +153,8 @@ Replace ~vim-fugitive~ with ~lazygit~
   - [[https://discuss.techlore.tech/t/possible-to-use-nvidia-gtx-card-for-self-hosted-ai/8454/4][AI self-host nvidia card]]
   - [[https://ollama.com/search][Ollama models]]
 
-** TODO Integrate AI into shell
+** PENDING Integrate AI into shell
+CLOSED: [2025-04-19 Sat 17:52]
 - Note taken on [2025-03-28 Fri 21:57] \\
   Integrate ~Ollama~ into ~shell_gpt~ using this [[https://github.com/TheR1D/shell_gpt/wiki/Ollama][guide]] 
 
@@ -160,7 +168,7 @@ CLOSED: [2025-04-08 Tue 18:46] DEADLINE: <2025-04-05 Sat 22:00>
 
 - /Suggestions for eyebrows-care/
 
-* TODO [#E] Optimal sleep time :SELFCARE:
+* TODO Optimal sleep time :SELFCARE:
 DEADLINE: <2025-04-20 Sun 22:00 -2h>
 :PROPERTIES:
 :ID:       b7abea60-bd6a-4bb4-9aa6-5e7ccfa0ace5
@@ -249,7 +257,7 @@ CLOSED: [2025-04-14 Mon 21:53] DEADLINE: <2025-04-14 Mon 21:00>
 - /Add watchlist file to/ ~gitignore~
 
 * TODO Auto commit repo :GIT:
-DEADLINE: <2025-04-19 Sat 17:00>
+DEADLINE: <2025-04-19 Sat 20:00>
 :PROPERTIES:
 :ID:       1c814ec1-f296-4b5a-8631-2a0d970d14a0
 :END:

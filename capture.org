@@ -34,7 +34,7 @@ CLOSED: [2025-04-11 Fri 21:41]
 - *Visit:* [[https://a.opnxng.com/exchange/vi.stackexchange.com/questions/41733/how-to-set-up-luasnip-in-neovim-w-lsp-zero][nvim-cmp#external-sources]]
 
 ** DONE Configure lua-snip
-DEADLINE: <2025-04-18 Fri 19:00> CLOSED: [2025-04-19 Sat 06:11]
+CLOSED: [2025-04-19 Sat 06:11] DEADLINE: <2025-04-18 Fri 19:00>
 
 - *Goal(s):* configure and learn ~lua-snip~ syntax
 - *Visit:*

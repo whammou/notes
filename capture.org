@@ -11,7 +11,7 @@
 - *Goal(s):* config nvim to work with nvim-cmp nvim-supertab
 
 * DOING Overhaul Note repo [50%] :ORGMODE:GITHUB:
-DEADLINE: <2025-04-18 Fri 20:00>
+DEADLINE: <2025-04-19 Sat 20:00>
 
 - *Goal(s):* update note repo structure for more optimal workflow
 - *NOTE:* checkout [[./README.org][README]] and find a suitable repo structure
@@ -28,7 +28,7 @@ CLOSED: [2025-04-11 Fri 21:41]
   Separate ~Logs~ ~Lists~ and ~Documents~ to different files to avoid callbacks
 - *Goal:* optimize ~archive~ hierarchy
 
-* DOING Config vim completion [75%] :NVIM:
+* DOING Config vim completion [60%] :NVIM:
 
 - *Goal:* successfully replace ~ultil-snip~ with ~blink-nvim~ and ~lua-snip~
 - *Visit:* [[https://a.opnxng.com/exchange/vi.stackexchange.com/questions/41733/how-to-set-up-luasnip-in-neovim-w-lsp-zero][nvim-cmp#external-sources]]
@@ -47,10 +47,15 @@ DEADLINE: <2025-04-18 Fri 19:00> CLOSED: [2025-04-19 Sat 06:11]
      - [[https://sbulav.github.io/vim/neovim-setting-up-luasnip/][Neovim setting up snippets with luasnip]]
 
 ** TODO Configure blink.cmp
-DEADLINE: <2025-04-18 Fri 19:00>
+DEADLINE: <2025-04-19 Sat 19:00>
 
 - /Successfully source/ ~lua-snip~ /with/ ~blink.cmp~
 - *Visit:* [[https://cmp.saghen.dev/configuration/snippets#luasnip][source luasnip guide]]
+
+** TODO Write snippets
+DEADLINE: <2025-04-20 Sun 18:30>
+
+- /Write snippets in VSCode style or using/ ~luasnip~
 
 ** ABORTED Configure nvim-lsp
 CLOSED: [2025-03-16 Sun 20:23]
@@ -156,7 +161,7 @@ CLOSED: [2025-04-08 Tue 18:46] DEADLINE: <2025-04-05 Sat 22:00>
 - /Suggestions for eyebrows-care/
 
 * TODO [#E] Optimal sleep time :SELFCARE:
-DEADLINE: <2025-04-19 Sat 22:00 -2h>
+DEADLINE: <2025-04-20 Sun 22:00 -2h>
 :PROPERTIES:
 :ID:       b7abea60-bd6a-4bb4-9aa6-5e7ccfa0ace5
 :END:
@@ -185,7 +190,7 @@ return {
 #+END_lua
 
 * TODO Qtile spawn keybind :QTILE:
-DEADLINE: <2025-04-19 Sat 22:00>
+DEADLINE: <2025-04-20 Sun 22:00>
 
 - /Create ~default_spawn~ keybind for qtile [[file:~/.config/qtile/settings/keymaps.py][~keymaps~]]/
 
@@ -197,12 +202,12 @@ CLOSED: [2025-04-01 Tue 15:37] DEADLINE: <2025-03-31 Mon 22:00>
 - /Integrate ~orgmode-notification~ to ~system~/
 
 * TODO Qutebrowser profiles :QUTEBROWSER:
-DEADLINE: <2025-04-19 Sat 22:00>
+DEADLINE: <2025-04-20 Sun 22:00>
 
 - /Setup qutebrowser-profiles for better session managements/
 
 * TODO English doc :SOCIAL:
-DEADLINE: <2025-04-19 Sat 23:00>
+DEADLINE: <2025-04-20 Sun 23:00>
 :PROPERTIES:
 :ID:       6aaa4c17-f24d-4c4b-8956-d2884a404563
 :END:
@@ -233,7 +238,7 @@ CLOSED: [2025-04-18 Fri 14:16] DEADLINE: <2025-04-16 Wed 16:00>
 - *Visit:* [[https://wiki.archlinux.org/title/Hardware_video_acceleration][Hardware acceleration doc]]
 
 * TODO Qutebrowser daemon :QUTEBROWSER:
-DEADLINE: <2025-04-19 Sat 22:00>
+DEADLINE: <2025-04-20 Sun 22:00>
 
 - /Check out Qutebrowser-daemon script/
 - *Visit:* [[https://gist.github.com/knatsakis/8cf329853330893cd2d7fa3dbd5692b0][qutebrowse-daemon script]]
@@ -244,7 +249,7 @@ CLOSED: [2025-04-14 Mon 21:53] DEADLINE: <2025-04-14 Mon 21:00>
 - /Add watchlist file to/ ~gitignore~
 
 * TODO Auto commit repo :GIT:
-DEADLINE: <2025-04-18 Fri 17:00>
+DEADLINE: <2025-04-19 Sat 17:00>
 :PROPERTIES:
 :ID:       1c814ec1-f296-4b5a-8631-2a0d970d14a0
 :END:

@@ -346,7 +346,7 @@ CLOSED: [2025-04-19 Sat 07:58]
 - *Goal(s):* chroot from a live usb
 
 **** DONE Arch Linux hibernation
- DEADLINE: <2025-01-06 Mon 03:00> CLOSED: [2025-04-19 Sat 07:55]
+CLOSED: [2025-04-19 Sat 07:55] DEADLINE: <2025-01-06 Mon 03:00>
 - Note taken on [2025-01-06 Mon 01:48] \\
   Hibernation for btrfs partitions
 
@@ -376,7 +376,6 @@ CLOSED: [2025-04-19 Sat 07:58]
 **** TODO Select io scheduler
 
 - /Change/ ~udev~ /rules for ioscheduler/
-
 
 **** TODO CPU and IRQ scheduler
 

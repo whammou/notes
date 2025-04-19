@@ -387,7 +387,7 @@ Traditional GUI-centric accounting software:
 
 - *Goal(s):* Create simple personal ledger to manage flows i/o 
 
-**** DOING Accounting Basics
+**** PENDING Accounting Basics
 :PROPERTIES:
 :CUSTOM_ID: accounting_basics
 :END:
@@ -438,7 +438,7 @@ These two are called ~Income Statement accounts~. The balances they accumulate d
 
 Five numbers do not give 
 
-**** DOING Double-entry accounting
+**** PENDING Double-entry accounting
 
 ***** Resources
 

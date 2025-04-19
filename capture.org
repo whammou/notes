@@ -28,13 +28,13 @@ CLOSED: [2025-04-11 Fri 21:41]
   Separate ~Logs~ ~Lists~ and ~Documents~ to different files to avoid callbacks
 - *Goal:* optimize ~archive~ hierarchy
 
-* DOING Config vim completion [50%] :NVIM:
+* DOING Config vim completion [75%] :NVIM:
 
 - *Goal:* successfully replace ~ultil-snip~ with ~blink-nvim~ and ~lua-snip~
 - *Visit:* [[https://a.opnxng.com/exchange/vi.stackexchange.com/questions/41733/how-to-set-up-luasnip-in-neovim-w-lsp-zero][nvim-cmp#external-sources]]
 
-** TODO Configure lua-snip
-DEADLINE: <2025-04-18 Fri 19:00>
+** DONE Configure lua-snip
+DEADLINE: <2025-04-18 Fri 19:00> CLOSED: [2025-04-19 Sat 06:11]
 
 - *Goal(s):* configure and learn ~lua-snip~ syntax
 - *Visit:*

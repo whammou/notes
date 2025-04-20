@@ -71,7 +71,8 @@ Nhà hàng và buffet rau
 - *Contact:*  tel:0988145648
 - *Open:*  
 
-***** PENDING Unpaid 50K
+***** ABORTED Unpaid 50K
+CLOSED: [2025-04-20 Sun 16:53]
 
 - *Goal:* pay 50K to Hủ Tiếu Bà Mười
 
@@ -119,7 +120,7 @@ Nhà hàng và buffet rau
 Address:* [[https://www.google.com/maps/place/M%C3%AC+Cay+X%C3%ADu,+41%2F24+T%C3%B4n+Th%E1%BA%A5t+Thuy%E1%BA%BFt,+Ph%C6%B0%E1%BB%9Dng+16,+Qu%E1%BA%ADn+4,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7552661,106.7101667,16z/data=!4m6!3m5!1s0x31752f3dbb9bda11:0xbdf275cc94a0ed79!8m2!3d10.7552661!4d106.7101667!16s%2Fg%2F11ft4cyv2s?force=pwa&source=mlapk][41/24 Tôn Thất Thuyết, Phường 16, Quận 4]]
 - *Contact:* tel:0799147319
 
-**** PENDING Bún măng vịt
+**** Bún măng vịt
 :PROPERTIES:
 :ID:       fd95b2e2-16a5-4145-87a7-c49bef538e56
 :END:

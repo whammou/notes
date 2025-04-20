@@ -124,7 +124,7 @@ CLOSED: [2025-04-19 Sat 17:50]
 - /Both locally and globally/
 
 * DONE Yazi fish integration [0%] :YAZI:
-DEADLINE: <2025-04-19 Sat 17:00> CLOSED: [2025-04-19 Sat 17:49]
+CLOSED: [2025-04-19 Sat 17:49] DEADLINE: <2025-04-19 Sat 17:00>
 
 - /Open yazi at typed dir in fish shell/
 

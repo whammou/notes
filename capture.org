@@ -54,6 +54,7 @@ DEADLINE: <2025-04-20 Sun 19:00>
 
 ** TODO Write friendly-snippets
 DEADLINE: <2025-04-21 Mon 18:30>
+
 foo
 - /Write snippets in VSCode style or using/ ~luasnip~
 - *Visit:*
@@ -250,7 +251,7 @@ CLOSED: [2025-04-18 Fri 14:16] DEADLINE: <2025-04-16 Wed 16:00>
 - *Visit:* [[https://wiki.archlinux.org/title/Hardware_video_acceleration][Hardware acceleration doc]]
 
 * ABORTED Qutebrowser daemon :QUTEBROWSER:
-DEADLINE: <2025-04-21 Mon 22:00> CLOSED: [2025-04-20 Sun 23:39]
+CLOSED: [2025-04-20 Sun 23:39] DEADLINE: <2025-04-21 Mon 22:00>
 
 - /Check out Qutebrowser-daemon script/
 - *Visit:* [[https://gist.github.com/knatsakis/8cf329853330893cd2d7fa3dbd5692b0][qutebrowse-daemon script]]
@@ -271,3 +272,4 @@ DEADLINE: <2025-04-20 Sun 20:00>
   - [ ] Auto pulling
   - [ ] Auto pushing
 o
+

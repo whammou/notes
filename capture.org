@@ -276,3 +276,9 @@ DEADLINE: <2025-04-21 Mon 20:00>
 - /Connect to running/ ~nvim-server~ /apply to/ ~orgmode~
 - *Visit:* [[https://github.com/neovim/neovim/issues/5035][github.com#\:connect-to-nvim-server]]
 
+* TODO Working with youtube [%] :LINUX:YOUTUBE:
+
+- /Use youtube for documentation/
+  - Youtube [[https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file][cli-downloader]]
+  - Youtube [[https://developers.google.com/youtube/player_parameters?csw=1#Parameters][player-parameters]]
+

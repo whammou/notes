@@ -144,7 +144,6 @@ return {
 #+END_lua
 * TODO Qtile spawn keybind :QTILE:
 DEADLINE: <2025-04-22 Tue 22:00>
-
 - /Create ~default_spawn~ keybind for qtile [[file:~/.config/qtile/settings/keymaps.py][~keymaps~]]/
 * ABORTED Orgmode desktop notification :ORGMODE:
 CLOSED: [2025-04-01 Tue 15:37] DEADLINE: <2025-03-31 Mon 22:00>

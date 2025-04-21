@@ -200,3 +200,5 @@ DEADLINE: <2025-04-21 Mon 20:00>
 - /Use youtube for documentation/
   - Youtube [[https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file][cli-downloader]]
   - Youtube [[https://developers.google.com/youtube/player_parameters?csw=1#Parameters][player-parameters]]
+* TODO House-keeping notes repo :ORGMODE:ORGZLY:
+- /Cleaning unecessary spacing and tune in with orgzly/

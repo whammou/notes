@@ -454,6 +454,7 @@ CLOSED: [2025-03-20 Thu 22:09]
 *** Linux web-scrapping :LINUX:
 
 - /Find linux web-scrapping methods/
+
 *** Default-application open method [100%] :LINUX:
 
 - [[https://github.com/chmln/handlr][handlr]] /vs/ [[https://xyne.dev/projects/mimeo/][mimeo]] - at better ~xdg-utils~

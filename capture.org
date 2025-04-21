@@ -2,20 +2,16 @@
 #+DESCRIPTION: Captures and Quick notes
 
 * PENDING Plain text music playlist :LINUX:
-
 *Goal:* Plain text music playlist that works with ~ytfzf~ and ~new pipe~
 * PENDING Config nvim-supertab and nvim-cmp :NVIM:
-
 - *Stumble upon:* [[https://github.com/hrsh7th/nvim-cmp/issues/179][issue@github]]
 - *Goal(s):* config nvim to work with nvim-cmp nvim-supertab
 * DOING Overhaul Note repo [50%] :ORGMODE:GITHUB:
 DEADLINE: <2025-04-21 Mon 22:00>
-
 - *Goal(s):* update note repo structure for more optimal workflow
 - *NOTE:* checkout [[./README.org][README]] and find a suitable repo structure
 ** ABORTED Modify README
 CLOSED: [2025-04-11 Fri 21:41]
-
 - *Goal(s):* modify and add README content
   - [ ] modify [[./README.org::repo-hierarchy][Hierarchy]]
   - [ ] add template structure
@@ -24,12 +20,10 @@ CLOSED: [2025-04-11 Fri 21:41]
   Separate ~Logs~ ~Lists~ and ~Documents~ to different files to avoid callbacks
 - *Goal:* optimize ~archive~ hierarchy
 * DOING Config vim completion [60%] :NVIM:
-
 - *Goal:* successfully replace ~ultil-snip~ with ~blink-nvim~ and ~lua-snip~
 - *Visit:* [[https://a.opnxng.com/exchange/vi.stackexchange.com/questions/41733/how-to-set-up-luasnip-in-neovim-w-lsp-zero][nvim-cmp#external-sources]]
 ** DONE Configure lua-snip
 CLOSED: [2025-04-19 Sat 06:11] DEADLINE: <2025-04-18 Fri 19:00>
-
 - *Goal(s):* configure and learn ~lua-snip~ syntax
 - *Visit:*
    - *Youtube:* [[https://youtube.com/watch?v=GxnBIRl9UmA][luasnip setup]]
@@ -38,7 +32,6 @@ CLOSED: [2025-04-19 Sat 06:11] DEADLINE: <2025-04-18 Fri 19:00>
      - [[https://sbulav.github.io/vim/neovim-setting-up-luasnip/][Neovim setting up snippets with luasnip]]
 ** TODO Configure blink.cmp
 DEADLINE: <2025-04-21 Mon 19:00>
-
 - /Successfully source/ ~lua-snip~ /with/ ~blink.cmp~
 - *Visit:* 
    - [[https://cmp.saghen.dev/configuration/snippets#luasnip][source luasnip guide]]
@@ -46,52 +39,41 @@ DEADLINE: <2025-04-21 Mon 19:00>
    - [[https://github.com/Saghen/blink.cmp/discussions/1391][blink.cmp luasnip issue]]
 ** TODO Write friendly-snippets
 DEADLINE: <2025-04-22 Tue 18:30>
-foo
 - /Write snippets in VSCode style or using/ ~luasnip~
 - *Visit:*
    - [[https://code.visualstudio.com/docs/editor/userdefinedsnippets][Snippets in vscode]]
    - [[https://github.com/L3MON4D3/LuaSnip/issues/281][Importing custom vscode snippets stopped working]]
 ** ABORTED Configure nvim-lsp
 CLOSED: [2025-03-16 Sun 20:23]
-
 - *Goal(s):* configure ~nvim-lsp~
 ** ABORTED configure nvim-cmp
 CLOSED: [2025-03-16 Sun 20:23]
-
 - *Goal(s):* configure ~nvim-cmp~
 * TODO Config yazi :YAZI:
-
 - *Goal:* separate hotkeys into ~EDIT~ and ~VIEW~:
   - [ ] Bind short-key to open ~EDIT~ such as: images, texts, docs
   - [ ] Bind short-key to open ~VIEW~ - view only for images and texts/docs
 * TODO Pandoc font settings :PANDOC:
-
 Set conversion fonts from ~markdown~ to ~LaTex~
 *Visit:* [[https://a.opnxng.com/exchange/tex.stackexchange.com/questions/234786/how-to-set-a-font-family-with-pandoc][pandoc fonts]]
 * PENDING Organize Script repo :GITHUB:
-
 Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~
   - [ ] Organize ~/scripts~
   - [ ] Oragnize [[file:/home/whammou/notes/capture.org::*Qtile scripts][qtile]] scripts
   - [ ] Oragnize ~$PATH~
 * PENDING System Proxy and DNS :SYSTEM:
-
 Access blocked websites via ~proxy~ or changeing ~DNS~
 * DONE Integrate lazygit [100%] :GIT:
 CLOSED: [2025-04-19 Sat 17:50]
-
 Replace ~vim-fugitive~ with ~lazygit~
 ** DONE Setup git
 CLOSED: [2025-04-19 Sat 17:50]
-
 /edit editor and diff-method in global config file/
 *Checkout:* [[file:/home/whammou/.gitconfig][gitconfig]]
 *** DONE Add git-deff method
 CLOSED: [2025-04-19 Sat 17:50]
-
 /insert use methods here/
 * TODO Understanding the ATS [%] :WORK:
-
 - [ ] What is an [[https://www.jobscan.co/blog/8-things-you-need-to-know-about-applicant-tracking-systems/][ATS]]
 - [ ] Impact of ATS on your ~application~
 - [ ] What to do
@@ -106,25 +88,21 @@ CLOSED: [2025-04-19 Sat 17:50]
 - /Both locally and globally/
 * DONE Yazi fish integration [0%] :YAZI:
 CLOSED: [2025-04-19 Sat 17:49] DEADLINE: <2025-04-19 Sat 17:00>
-
 - /Open yazi at typed dir in fish shell/
 * TODO Detect git repos from system :GIT:FZF:
 
 - /Detect system wise git repos the use fzf to open lazygit at repo location/
 * PENDING [#B] Self-host AI [100%] :LINUX:AI:
 CLOSED: [2025-04-19 Sat 17:51]
-
 - /GTX 1050 ti AI self-host models/
 ** PENDING Linux-Windows dual boot
 CLOSED: [2025-04-19 Sat 17:51]
-
 - /Dual boot Windows and Linux on the same system/
 - *Visit:* [[https://wiki.archlinux.org/title/Dual_boot_with_Windows][Dual boot with Windows]]
 ** PENDING Self-host AI with Nvidia card
 CLOSED: [2025-04-19 Sat 17:51]
 - Note taken on [2025-03-28 Fri 22:13] \\
   Modified version of ~ollama~ to work with GTX 1050 ti [[https://github.com/ollama/ollama/issues/2332][Ollama on legacy gpu]]
-
 - /Models compatible with ~GTX 1050 ti~/
 - *Visit:*
   - [[https://discuss.techlore.tech/t/possible-to-use-nvidia-gtx-card-for-self-hosted-ai/8454/4][AI self-host nvidia card]]
@@ -133,21 +111,18 @@ CLOSED: [2025-04-19 Sat 17:51]
 CLOSED: [2025-04-19 Sat 17:52]
 - Note taken on [2025-03-28 Fri 21:57] \\
   Integrate ~Ollama~ into ~shell_gpt~ using this [[https://github.com/TheR1D/shell_gpt/wiki/Ollama][guide]] 
-
 - /Successfully integrate AI to shell/
 - *Visit:* 
   - [[https://github.com/danielmiessler/fabric][Fabric@github]]
   - [[https://github.com/TheR1D/shell_gpt][Shell_gpt@github]]
 * ABORTED [#D] Men eyebrows care :SELFCARE:
 CLOSED: [2025-04-08 Tue 18:46] DEADLINE: <2025-04-05 Sat 22:00>
-
 - /Suggestions for eyebrows-care/
 * TODO Optimal sleep time :SELFCARE:
 DEADLINE: <2025-04-22 Tue 22:00 -2h>
 :PROPERTIES:
 :ID:       b7abea60-bd6a-4bb4-9aa6-5e7ccfa0ace5
 :END:
-
 - /Research optimal sleep time/
 - *Visit:* [[https://youtube.com/watch?v=q7amXedTasQ][Sleep hygeines and habbits]]
 * DONE [#B] Orgmode-nvim agenda custom commands :NVIM:ORGMODE:
@@ -158,7 +133,6 @@ CLOSED: [2025-04-13 Sun 17:51] DEADLINE: <2025-04-12 Sat 23:00>
 - /Create org_agenda_custom_commands custom cammands/
 - *Visit:* [[https://nvim-orgmode.github.io/configuration][nvim-orgmode documentations]]
 * TODO Lazyvim disable plugins :NVIM:
-
 - /Disable unused plugins in ~lazyvim~/
 - *Visit:* [[https://www.lazyvim.org/configuration/plugins#-disabling-plugins][Disable plugins - Lazyvim]]
 
@@ -227,5 +201,3 @@ DEADLINE: <2025-04-21 Mon 20:00>
 - /Use youtube for documentation/
   - Youtube [[https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file][cli-downloader]]
   - Youtube [[https://developers.google.com/youtube/player_parameters?csw=1#Parameters][player-parameters]]
-* TODO Test headline
-- /body/

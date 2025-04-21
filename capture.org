@@ -54,6 +54,7 @@ DEADLINE: <2025-04-21 Mon 19:00>
 
 ** TODO Write friendly-snippets
 DEADLINE: <2025-04-22 Tue 18:30>
+
 foo
 - /Write snippets in VSCode style or using/ ~luasnip~
 - *Visit:*

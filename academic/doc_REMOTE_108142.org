@@ -26,14 +26,7 @@ CLOSED: [2024-12-02 Mon 11:59] SCHEDULED: <2024-12-01 Sun 20:00>
 
 Combine Zettelkasten method with the Outline method for seamless integration with digital notes
 **** Commonplace Book method format
-<<<<<<< HEAD
-*The Commonplace Book Method* is the most structured note-taking method, and visually looks very organized
-||||||| d85f50e
-
 ***The Commonplace Book Method* is the most structured note-taking method, and visually looks very organized
-=======
-***The Commonplace Book Method* is the most structured note-taking method, and visually looks very organized
->>>>>>> origin/merge-academic/doc.org-eef1777-2025-04-22_063604
 - Add main points as headers and elaborate them underneath
 - For each supporting information, create a nested bullet point below it
 - Outline method also works very well with ~markdown~ and ~orgmode~
@@ -152,8 +145,8 @@ Create your own informal system of organization. It doesn't have to be complicat
 ***** Reading for Citations
 Look to the literature review to identify the core references that relate to your topic. Literature reviews are typically organized by subtopic within a research 
 **** Resources
-*Youtube:* [[https://www.youtube.com/watch?v=Gv5ku0eoY6k&t=66]]
-*Resource:* [[https://libguides.brown.edu/evaluate/Read][Brown University Libarry]]
+***Youtube:* [[https://www.youtube.com/watch?v=Gv5ku0eoY6k&t=66]]
+***Resource:* [[https://libguides.brown.edu/evaluate/Read][Brown University Libarry]]
 *** PENDING Time Management
 **** Resources:
 :PROPERTIES:

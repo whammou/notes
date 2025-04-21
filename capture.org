@@ -78,19 +78,15 @@ CLOSED: [2025-04-19 Sat 17:50]
 - [ ] Impact of ATS on your ~application~
 - [ ] What to do
 * PENDING University of the people [0%] :UNIVERSITY:
-
 - /Closer look into the/ [[https://www.uopeople.edu/][University of the people]]
 ** Education and tuition fees
-
 - /Information on providing courses and fees/
 ** Education in Vietname
-
 - /Both locally and globally/
 * DONE Yazi fish integration [0%] :YAZI:
 CLOSED: [2025-04-19 Sat 17:49] DEADLINE: <2025-04-19 Sat 17:00>
 - /Open yazi at typed dir in fish shell/
 * TODO Detect git repos from system :GIT:FZF:
-
 - /Detect system wise git repos the use fzf to open lazygit at repo location/
 * PENDING [#B] Self-host AI [100%] :LINUX:AI:
 CLOSED: [2025-04-19 Sat 17:51]

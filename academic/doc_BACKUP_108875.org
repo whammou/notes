@@ -152,8 +152,17 @@ Create your own informal system of organization. It doesn't have to be complicat
 ***** Reading for Citations
 Look to the literature review to identify the core references that relate to your topic. Literature reviews are typically organized by subtopic within a research 
 **** Resources
+<<<<<<< HEAD
 *Youtube:* [[https://www.youtube.com/watch?v=Gv5ku0eoY6k&t=66]]
 *Resource:* [[https://libguides.brown.edu/evaluate/Read][Brown University Libarry]]
+||||||| d85f50e
+
+***Youtube:* [[https://www.youtube.com/watch?v=Gv5ku0eoY6k&t=66]]
+***Resource:* [[https://libguides.brown.edu/evaluate/Read][Brown University Libarry]]
+=======
+***Youtube:* [[https://www.youtube.com/watch?v=Gv5ku0eoY6k&t=66]]
+***Resource:* [[https://libguides.brown.edu/evaluate/Read][Brown University Libarry]]
+>>>>>>> origin/merge-academic/doc.org-eef1777-2025-04-22_063604
 *** PENDING Time Management
 **** Resources:
 :PROPERTIES:

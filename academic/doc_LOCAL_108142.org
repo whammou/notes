@@ -20,20 +20,14 @@ LibreTexts features subject libraries organized in three ~resource~ types:
 CLOSED: [2024-12-02 Mon 11:59] SCHEDULED: <2024-12-01 Sun 20:00>
 - *Goal(s):* create lesson plan for English teaching
 - tel:[Khánh Vi]
+
 *** Note-taking
 - *Goal(s):* learn effective note-taking method form lecture slides
 - *Stumble upon:* [[https://zettelkasten.de/overview/][zettelkasten method]]
 
 Combine Zettelkasten method with the Outline method for seamless integration with digital notes
 **** Commonplace Book method format
-<<<<<<< HEAD
 *The Commonplace Book Method* is the most structured note-taking method, and visually looks very organized
-||||||| d85f50e
-
-***The Commonplace Book Method* is the most structured note-taking method, and visually looks very organized
-=======
-***The Commonplace Book Method* is the most structured note-taking method, and visually looks very organized
->>>>>>> origin/merge-academic/doc.org-eef1777-2025-04-22_063604
 - Add main points as headers and elaborate them underneath
 - For each supporting information, create a nested bullet point below it
 - Outline method also works very well with ~markdown~ and ~orgmode~
@@ -71,6 +65,7 @@ file:academic/assets/note-taking/SCR_3_1.png
 :END:
 ***Principle of Atomicity -* each note record only one ~thought~ and each larger concept is the ~atom~ which includes a lot of individual ~thought~
 /This concept is hard to maintain and thus use markdown/orgmode ID to reference to a note is a better way to maintain the note and the structure of the note/
+
 ***** Anatomy of a Zettel
 file:academic/assets/note-taking/SCR_33_2.png
 
@@ -202,4 +197,6 @@ help by visually displaying tasks and events so you know what to prioritize and 
 Some Noton templates can be found here: [[https://www.notion.so/blog/tasks][templates]]
 **** DONE Effectively juggle tasks without burning out :ARCHIVE:
 CLOSED: [2024-10-07 Mon 04:29]
+
 - *Source(s):* [[https://l.opnxng.com/r/productivity/comments/1bzy57h/how_to_effectively_juggle_multiple_highpriority/]]
+

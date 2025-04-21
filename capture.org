@@ -250,7 +250,7 @@ CLOSED: [2025-04-18 Fri 14:16] DEADLINE: <2025-04-16 Wed 16:00>
 - *Visit:* [[https://wiki.archlinux.org/title/Hardware_video_acceleration][Hardware acceleration doc]]
 
 * ABORTED Qutebrowser daemon :QUTEBROWSER:
-DEADLINE: <2025-04-21 Mon 22:00> CLOSED: [2025-04-20 Sun 23:39]
+CLOSED: [2025-04-20 Sun 23:39] DEADLINE: <2025-04-21 Mon 22:00>
 
 - /Check out Qutebrowser-daemon script/
 - *Visit:* [[https://gist.github.com/knatsakis/8cf329853330893cd2d7fa3dbd5692b0][qutebrowse-daemon script]]
@@ -281,6 +281,7 @@ DEADLINE: <2025-04-21 Mon 20:00>
   - [ ] ~xdg-open~ specific ~cmd~ to open specific ~url~
     - [[https://a.opnxng.com/exchange/unix.stackexchange.com/questions/777237/open-specific-urls-in-certain-app][xdg-open limitations]]
     - [[https://wiki.archlinux.org/title/Default_applications#mimeo][Archwiki#mimeo]]
+
 * TODO Connect to running nvim server :NVIM:
 
 - /Connect to running/ ~nvim-server~ /apply to/ ~orgmode~

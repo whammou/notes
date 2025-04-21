@@ -198,3 +198,13 @@ DEADLINE: <2025-04-21 Mon 20:00>
   - Youtube [[https://developers.google.com/youtube/player_parameters?csw=1#Parameters][player-parameters]]
 * TODO House-keeping notes repo :ORGMODE:ORGZLY:
 - /Cleaning unecessary spacing and tune in with orgzly/
+  - [x] [[file:capture.org][capture]]
+  - [ ] [[./academic/][academic]]
+  - [ ] [[./finance/][finance]]
+  - [ ] [[./language/][language]]
+  - [ ] [[./read/][read]]
+  - [ ] [[./routine/][routine]]
+  - [ ] [[./system/][system]]
+  - [ ] [[./travel/][travel]]
+  - [ ] [[./university/][university]]
+  - [ ] [[./work/][work]]

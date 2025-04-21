@@ -271,17 +271,6 @@ DEADLINE: <2025-04-21 Mon 20:00>
   - [ ] Auto pulling
   - [ ] Auto pushing
 
-* TODO Integrate mpv youtube link :MPV:
-
-- /Yank/ ~mpv~ /current file/ ~yt-url~
-  - *Example:* [[https://www.youtube.com/watch?v=ryR2-jVjoeA&t=15][Trailer starts at 00:15]]
-
-- *Visit:* 
-  - [ ] [[https://youtu.be/aDkr1-GRbaY?si=p9S4ww8Ryv_u0NpH&t=517][mpv-yankstuff]]
-  - [ ] ~xdg-open~ specific ~cmd~ to open specific ~url~
-    - [[https://a.opnxng.com/exchange/unix.stackexchange.com/questions/777237/open-specific-urls-in-certain-app][xdg-open limitations]]
-    - [[https://wiki.archlinux.org/title/Default_applications#mimeo][Archwiki#mimeo]]
-
 * TODO Connect to running nvim server :NVIM:
 
 - /Connect to running/ ~nvim-server~ /apply to/ ~orgmode~

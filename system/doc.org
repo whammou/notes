@@ -2,39 +2,25 @@
 #+DESCRIPTION: Description for archive here
 
 * Archives :SYSTEM:
-
 - /System archives/
-
 ** Documents :DOC:
-
 /Documents archives/
-
 *** PENDING Understanding git :GIT:
-
 /Understand the fundamentals of the git tool/
-
 **** Git config
-
 There are two locations a git config file can exist:
  - *Local* git repo: in the repo itself (and ignored by ~.gitignore~)
  - *Global* exist outside of the repo e.g. [[file:/home/whammou/.gitconfig][gitconfig]]
-
 **** Git merge vs re-base vs squashing
-
 There are different strategies to merge two ~branches~:
  - *Merging:* Merge and ties together the ~history~ of both ~branches~
  - *Re-basing:* Merge the ~commits~ of a branch to the *tip* of ~main~ and then performs a ~fast-forward-merge~
  - *Squashing:* Squeeze all the ~commits~ of ~feature branch~ into one single ~commit~ and merge it with ~main~
-
 **** Git commit vs stash
-
 *Visit:* [[https://paulapivat.com/technical_notes/example_tech/git_stash/][Git Stash vs Git Commit]]
-
 *** Orgmode Manual [85%] :ORGMODE:
 CLOSED: [2024-11-07 Thu 06:08]
-
 /Because ~orgzly-android~ is under development and features are limited some implementations will be a work around and possibly revisit in the future, check for request features/ [[https://github.com/orgzly-revived/orgzly-android-revived/issues/88][prioritized requested features]]
-
 **** DONE Orgmode Include Files
 CLOSED: [2024-09-06 Fri 21:35]
 :PROPERTIES:
@@ -43,37 +29,26 @@ CLOSED: [2024-09-06 Fri 21:35]
 :ARCHIVE_CATEGORY: personal
 :ARCHIVE_TODO: TODO
 :END:
-
 - *Goal:* Include files from across org files
 - *Resources:* [[https://orgmode.org/manual/Include-Files.html][org manual]]
-
 **** DONE Orgmode Search
 CLOSED: [2024-09-30 Mon 03:38]
-
 ****Goal(s):* Learn to search in orgmode repo
 ****Stumble-upon:* [[https://www.orgzlyrevived.com/docs#search][orgzly-manual]]  [[https://orgmode.org/worg/org-tutorials/advanced-searching.html][nvim-orgmode]]
 
 /For now, ~orgzly-android~ does not support search by property, check/ [[https://github.com/orgzly/orgzly-android/issues/146][issue:search by property drawer]]
-
 **** DONE Orgmode Hyperlink
 CLOSED: [2024-10-08 Tue 22:58]
-
 **Visit:* [[https://github.com/nvim-orgmode/orgmode/blob/master/DOCS.md#hyperlinks][nvim-orgmode#hyperlink]] see how nvim-orgmode handle hyperlink
 **Note:* Cross file include
-
 **** DONE Orgmode Tag
 CLOSED: [2024-10-01 Tue 06:03]
-
 **Visit:* [[https://www.orgzly.com/docs#search][orgzly#search]] how orgzly handle headline ~tag~
 **Suggestion:* Use [[./README.org][README]] to generate a list of ~tags~ and its ~description~
-
 **** DONE Orgmode PROPERTIES
 CLOSED: [2024-10-01 Tue 06:03]
-
 - *Goal(s):* Read [[https://orgmode.org/manual/Properties-and-Columns.html][PROPERTIES@orgmanual]] 
-
 ***** Property Syntax
-
 A. Properties are key-value pairs. When they are associated with single entry or with a tree they need to inserted in to special drawer with the name ~:PROPERTIES:~, which has to located right below a headline, and its planning line
 
 B. Depend on the value of ~org-use-property-inheritance~, a property set this way is associated either with a single entry, or with the subtree defined by the entry
@@ -83,34 +58,24 @@ C. Properties can be inserted at the buffer level. That means they apply before 
 \Note that a property can only have one try per drawer\
 
 Property values set with the global variable ~org-global-properties~ can be inherited by all entries in all Org files
-
 ***** Special Properties
-
 Special properties provide an alternative access method to Org mode features, like the TODO sate or the priority of an entry:
 
 - ~#+FILETAG: :FOO:BAR:~: notebook tag
-
 **** PENDING Org2ical :ORGMODE:DATA:
-
 - *Goal:* Generate .ics files from .org files(use homelab for daily merge)
 - *Visit:*  [[https://pypi.org/project/org2ical/][org2ical package]] [[https://github.com/jacobmischka/ics-merger][icals merger]]
-
 **** DONE Orgmode social media integrate
 CLOSED: [2024-12-26 Thu 22:28]
-
 *** DONE Write better commit messages :GIT:
 CLOSED: [2024-09-21 Sat 22:31]
-
 - *Goal(s):* Write better and more comprehensive commit messages
 - *Stumble upon:* [[https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/]]
-
 **** The Anatomy of a Commit Message
-
 - *Basic:*
   ~git commit -m <message>~
 - *Detailed:*
   ~git commit -m <title> -m <description>~
-
 **** 5 Steps to write a better commit message
 - Note taken on [2024-09-21 Sat 21:37] \\
   To come up with thoughtful commits consider the following: 
@@ -134,9 +99,7 @@ CLOSED: [2024-09-21 Sat 22:31]
 
 5. *Content:*
    Be direct, try to eliminate fillers words and phrases in theses sentences (*Example:* though, maybe, I think, kind of), Think like a journalist
-
 **** Conventional Commits
-
 Conventional Commit is a formatting convention that provides as set of rules to formulate a consistent commit message structure like so:
 
 #+NAME: Conventional Commit structure
@@ -185,25 +148,19 @@ Closes D2IQ-12345
 
 > [!NOTE]
 > The ensure that these committing conventions remain consistent across developers, commit message linting can be configured before changes are able to be pushed up. [[https://commitizen-tools.github.io/commitizen/][Commitizen]] is a great tool to enforce standards, sync up semantic versioning, along with other helpful features
-
 *** PENDING [#C] Integrate Google AI [%] :LINUX:
-
 - *Goal:* integrate bard AI to workflow
 - *Resource:* [[https://www.reddit.com/r/ChatGPT/comments/1akynsv/any_free_alternatives_to_open_ai_api/][Google AI Studio]]  [[https://ai.google.dev/docs][Google AI docs]]
-
 **** DONE Create API
 CLOSED: [2025-01-10 Fri 02:28]
-
 - *Goal(s):* successfully obtain working API for Google Gemini
 - *Resource:* [[https://console.cloud.google.com/apis/credentials?pli=1&inv=1&invt=AbmaIA][Google cloud console]]
   - Obtain working API through google cloud console
   - NOTE: only 1 API per project
 
 - *Note:* looking up for platform free tier limitation
-
 **** DONE Make request
 CLOSED: [2025-01-10 Fri 02:27]
-
 - *Goal(s):* make request from terminal to Gemini
 - *Note:* use the [[https://ai.google.dev/api/generate-content#method:-models.generatecontent][~generateContent~]] to make request to Gemini API
   - #+NAME: Make request to Gemini API
@@ -215,59 +172,37 @@ CLOSED: [2025-01-10 Fri 02:27]
   response = model.generate_content("Explain how AI works")
   print(response.text)
   #+END_SRC
-
 **** PENDING Shell Integration
-
 - *Goal(s):* working on integrate AI with ~kitty~
-
 ***** Nvim integration :NVIM:
-
 - *Goal(s):* render response in markdown to take advantage of nvim markdown render
-
 ***** PENDING Shellgpt run-test :LINUX:
-
 - *Goal(s):* run test shellgpt with Gemini AI
 - *Stumble upon:* 
   - Github: [[https://github.com/TheR1D/shell_gpt/issues/514][discussion]]
-
 **** Working with Google AI
-
 - *Goal(s):* create workspace with [[https://pypi.org/project/google-generativeai/][google-generativeai sdk]]
 - *Resources:*  [[https://github.com/google-gemini/cookbook][cookbook]]  [[https://ai.google.dev][documentation]]
-
 *** Learn Docker
-
 - /Learn to operate dockers/
-
 *** Nvim-lsp :NVIM:
-
 Nvim supports the Language Server Protocol (LSP), which means it acts as a client to LSP servers and includes a Lua framework `vim.lsp` for building enhanced LSP tools
 - *Run:* ~:help lsp~ for nvim-lsp guide
 - Setup [[https://github.com/neovim/nvim-lspconfig][nvim-lspconfig]]
-
 **** Language sever
-
 The ~Language Server Protocol~ (LSP) is an open, JSON-RPC-based protocol for use between source code editors or ~integrated development environments~ (IDES) and ~servers~ that provides /language intelligence tools/
-
 **** Markup language server
-
 Generally a good markup language server is texlab
 - *Resources:* [[https://github.com/latex-lsp/texlab][texlab]]
-
 *** Nvim optimization :NVIM:
-
 - *Goal:* research ways to optimize nvim and manage new packages
-
 **** DONE Setup LazyVim :NVIM:
 CLOSED: [2025-01-24 Fri 21:31] DEADLINE: <2025-01-25 Sat 18:00>
-
 - *Goal(s):* convert [[~/dotfiles/nvim/.config/nvim/init.vim][init.vim]] to [[~/dotfiles/nvim-lua/.config/nvim/init.lua][init.lua]]
   - Run ~nvim +:help lua_guide"~ for built-in conversion guide from vim script to lua
 - *Checkout:* [[http://www.lazyvim.org/]]
 - *Stumble upon:* [[https://github.com/nanotee/nvim-lua-guide][nvim-lua-guide]]
-
 ***** LazyVim modular
-
 - *Goal(s):* convert singular ~init.vim~ to  [[https://www.kurtpeniket.tech/blog/neovim_lua_transition_vimplug_to_lazy][modular config]] with vim config structure
 
   #+NAME: overall stucture
@@ -285,13 +220,9 @@ CLOSED: [2025-01-24 Fri 21:31] DEADLINE: <2025-01-25 Sat 18:00>
       ├── en.utf-8.add
       └── en.utf-8.add.spl
   #+END_SRC
-
 ****** LazyVim plugins
-
 - *Goal:* adding and configuring plugins
-
 ****** LazyVim mappings
-
 - *Goal:* adding keymaps
 
 - Source ~kepmaps.lua~ from ~config/init.lua~:
@@ -301,21 +232,15 @@ CLOSED: [2025-01-24 Fri 21:31] DEADLINE: <2025-01-25 Sat 18:00>
   - Keymappings can be set using command: ~vim.keymap.set()~ method
   - Set ~map~ variable for clean format: ~local map = vim.keymap.set~
 	 - Consult ~:help vim.keymap.set()~ for more parameter information
-
 ***** Convert vim-script to LazyVim
-
 - *Goal(s):* replace plugin manager to [[https://github.com/folke/lazy.nvim][lazy.nvim]] for seamless integration with lua config
-
 ****** LazvyVim installation
-
 - *Structured Setup:*
   #+NAME: /.config/nvim/init.lua
   #+BEGIN_SRC lua
   require("config.lazy")
   #+END_SRC  
-
 ****** LazyVim add plugins
-
 - Plugins are installed under ~$HOME/.config/nvim/lua/plugins/*.lua~ - every lua files under this dir are auto-merged with the config file
 - Plugin spec example:
   #+NAME: spec example
@@ -327,24 +252,17 @@ CLOSED: [2025-01-24 Fri 21:31] DEADLINE: <2025-01-25 Sat 18:00>
   }
   #+END_SRC
 - More on plugin spec, visit: [[https://lazy.folke.io/spec]]
-
 **** DONE Switching nvim configs
 CLOSED: [2025-01-15 Wed 21:19] DEADLINE: <2025-01-14 Tue 22:00>
-
 - *Goal:* successfully switching between different config dir
 - *Resource:* [[https://michaeluloth.com/neovim-switch-configs/][switching config]]
-
 *** DONE Tweaking archlinux [71%] :LINUX:
 CLOSED: [2025-01-06 Mon 07:34] SCHEDULED: <2024-12-30 Mon 02:00-04:00>
-
 - *Goal:* recover linux from unexpected shutdown
 - *Stumble upon:*  [[https://www.reddit.com/r/archlinux/comments/m2wf1s/shutdown_during_update/][r/archlinux]]
-
 **** DONE Chroot from live USB
 CLOSED: [2025-04-19 Sat 07:58]
-
 - *Goal(s):* chroot from a live usb
-
 **** DONE Arch Linux hibernation
 CLOSED: [2025-04-19 Sat 07:55] DEADLINE: <2025-01-06 Mon 03:00>
 - Note taken on [2025-01-06 Mon 01:48] \\
@@ -352,38 +270,26 @@ CLOSED: [2025-04-19 Sat 07:55] DEADLINE: <2025-01-06 Mon 03:00>
 
 - *Goal(s):* setup ~hibernation~ for archlinux
 - *Source(s):* [[https://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate#Hibernation][hibernation@archwiki]]
-
 **** DONE Update grub parameters
 CLOSED: [2025-04-19 Sat 07:58]
-
 - *Goal(s):* update grub boot parameters to splash ~screen~ and hide grub ~menu~
   - Add ~splash~ parameter to kernel parameter: ~GRUB_CMDLINE_LINUX_DEFAULT="... splash"~
   - Add ~hidden~ parameter to ~GRUB_TIMEOUT_STYLE~: ~GRUB_TIMEOUT_STYLE=hidden~
-
 **** DONE Enable zswap
 CLOSED: [2025-04-19 Sat 07:58]
-
 - *Goal(s):* enable system zswap on boot
   - Add ~zswap.enable=1~ to kernel parameter: ~GRUB_CMDLINE_LINUX="... zswap.enabled=1"~
-
 **** DONE Config ~pacman~
 CLOSED: [2025-04-19 Sat 07:58]
-
 - *Goal(s):* config ~pacman~ to:
   - Output colors: ~Colors~
   - have a funny animation ~IloveCandy~
-
 **** TODO Select io scheduler
-
 - /Change/ ~udev~ /rules for ioscheduler/
-
 **** TODO CPU and IRQ scheduler
-
 - /Setup CPU and IRQ scheduler/ ~daemon~
-
 *** DONE Modular Qtile :QTILE:
 CLOSED: [2025-03-20 Thu 22:09]
-
 - *Goal:* successfully modularize ~qtile~ config
 - Config directory: 
   - [x] Keymaps config: /create ~keymaps.py~/dot_examples
@@ -450,31 +356,22 @@ CLOSED: [2025-03-20 Thu 22:09]
     ├── 󰂺 README.md -> ../../../dotfiles/qtile/.config/qtile/themes/README.md
     └──  rosepine.json -> ../../../dotfiles/qtile/.config/qtile/themes/rosepine.json
 #+END_text
-
 *** Linux web-scrapping :LINUX:
-
 - /Find linux web-scrapping methods/
 *** Default-application open method [100%] :LINUX:
-
 - [[https://github.com/chmln/handlr][handlr]] /vs/ [[https://xyne.dev/projects/mimeo/][mimeo]] - at better ~xdg-utils~
   - *Visit:* [[https://wiki.archlinux.org/title/Default_applications][default-opener methods]]
-
 **** DONE Open with handlr :HANDLR:
 CLOSED: [2025-04-22 Tue 03:09]
-
 - /A better xdg-utils/
   - *Project-link:* [[https://github.com/chmln/handlr][github.com@handlr]]
   - *Visit:* mimeo-style custom association style: [[https://github.com/chmln/handlr/issues/57][issue]]
-
 **** ABORTED Open with mimeo :MIMEO:
 CLOSED: [2025-04-22 Tue 03:09]
-
 - /Open files in mime types using regular expression/
   - *Project-link:* [[https://xyne.dev/projects/mimeo/][mineo documentation]]
-
 **** DONE Integrate mpv youtube link :MPV:
 CLOSED: [2025-04-22 Tue 03:08]
-
 - /Yank/ ~mpv~ /current file/ ~yt-url~
   - *Visit:* 
     - [ ] [[https://github.com/raphaeltannous/mpv-copyStuff][mpv-yankstuff]]
@@ -485,4 +382,3 @@ CLOSED: [2025-04-22 Tue 03:08]
     - [[https://www.youtube.com/watch?v=ryR2-jVjoeA&t=15][Trailer starts at 00:15]]
     - [[https://www.youtube.com/watch?v=jv4pDOKe7OE&t=30][Test video starts at 00:30]]
     - [[https://www.youtube.com/watch?v=jv4pDOKe7OE?start=53&end=59][Youtube link with start and end time]]
-

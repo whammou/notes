@@ -360,6 +360,9 @@ CLOSED: [2025-03-20 Thu 22:09]
 - /Find linux web-scrapping methods/
 
 *** Default-application open method [100%] :LINUX:
+:PROPERTIES:
+:ID: 0a3f8238-97cd-4aa2-a8dc-6ecea163efac
+:END:
 - [[https://github.com/chmln/handlr][handlr]] /vs/ [[https://xyne.dev/projects/mimeo/][mimeo]] - at better ~xdg-utils~
   - *Visit:* [[https://wiki.archlinux.org/title/Default_applications][default-opener methods]]
 **** DONE Open with handlr :HANDLR:
@@ -373,6 +376,9 @@ CLOSED: [2025-04-22 Tue 03:09]
   - *Project-link:* [[https://xyne.dev/projects/mimeo/][mineo documentation]]
 **** DONE Integrate mpv youtube link :MPV:
 CLOSED: [2025-04-22 Tue 03:08]
+:PROPERTIES:
+:ID: 20071104-5e85-4d24-82a5-cf897074ac96
+:END:
 - /Yank/ ~mpv~ /current file/ ~yt-url~
   - *Visit:* 
     - [ ] [[https://github.com/raphaeltannous/mpv-copyStuff][mpv-yankstuff]]

@@ -185,7 +185,6 @@ Meal-preps, cooking recipes and grocery planning
 *** PENDING Adding extra meal
 - *Goal:* adding one extra meal per day
 **** Dear diary :DATING:ALARM:
-DEADLINE: <2025-04-22 Tue 18:15>
 <2025-04-20 Sun 15:00 +1d>
 :PROPERTIES:
 :LAST_REPEAT: [2025-04-19 Sat 08:05]

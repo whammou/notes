@@ -2,49 +2,35 @@
 #+DESCRIPTION: Add notebook description here
 
 * Tasks :SYSTEM:
-
 Allocated space for tasks/todos
-
 ** One-off :ONEOFF:
-
 *** TODO Learn nvim-orgmode_capture :NVIM:
-
 - *Goal:* learn ~org_capture_template~ at [[https://github.com/nvim-orgmode/orgmode/blob/master/docs/configuration.org#org_capture_templates][nvim-orgmode-configuration]]
-
 *** Organize Script repo :GITHUB:ORGMODE:
-
 Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~
 - [ ] Organize ~/scripts~
 - [ ] Organize [[file:/home/whammou/notes/capture.org::*Qtile scripts][qtile]] scripts
 - [ ] Organize ~$PATH~
-
 *** ABORTED Orgzly nerdfont :ORGMODE:
 CLOSED: [2025-03-25 Tue 09:16] DEADLINE: <2025-03-25 Tue 21:00>
 :PROPERTIES:
 :ID:       c1fcc5ff-079a-40e9-950b-5f15210d08c6
 :END:
-
 - /Test nerdfont on Orgzly/
-
 *** TODO Open-source application :LINUX:
-
 - /List of FOSS AI/
-
 *** TODO Qtile ssh-tmux method :LINUX:
 DEADLINE: <2025-04-23 Wed 18:00>
 
 - /Add ssh-tmux keybind to qtile/
 - *File:* [[file:~/.config/qtile/settings/key/spawn.py][qtile-config]]
-
 *** DONE Connect to Samba drive :LINUX:
 CLOSED: [2025-03-25 Tue 06:45] DEADLINE: <2025-03-24 Mon 17:00>
-
 - /Create keybinds to connect to ~sambashare~/
 
 - [x] Remove aliases
 - [x] Update [[file:/usr/local/bin/smb-mount][smb-mount]]
 - [ ] Add ~qtile~ [[file:~/.config/qtile/settings/key/spawn.py][keybinds]]
-
 *** TODO Notification through ssh :LINUX:
 DEADLINE: <2025-04-23 Wed 17:30>
 
@@ -52,90 +38,60 @@ DEADLINE: <2025-04-23 Wed 17:30>
 
 *** DONE Update yazi plugins :YAZI:
 CLOSED: [2025-03-23 Sun 14:56] DEADLINE: <2025-03-23 Sun 20:00>
-
 - /Update yazi plugins:/
   - [ ] parent-arrows.lua 
   - [ ] checkout plugsin [[https://yazi-rs.github.io/docs/resources/][list]]
-
 *** ABORTED Openai API :SYSTEM:
 CLOSED: [2025-03-22 Sat 06:17] DEADLINE: <2025-03-22 Sat 22:00>
 :PROPERTIES:
 :ID:       4eb61678-1269-411e-ad54-efb16c040ba4
 :END:
-
 - /Contact [[tel:DuyTung][Duy Tung]] for API access/
-
 *** DONE [#C] MPV script [100%] :MPV:
 CLOSED: [2025-04-12 Sat 18:03] DEADLINE: <2025-04-11 Fri 22:00>
-
 - *Goal:* display ~chapter list~ on ~mpv~
 - *Scripts:*
   - [x] [[https://old.reddit.com/r/mpv/comments/j7czzx/displaying_chapter_titles/][chapter list script]]
   - [x] [[https://old.reddit.com/r/mpv/comments/fs8r80/jump_to_a_specific_time/][Jump-to-time]]
   - [x] subtitles dont scale with windows - run: ~$ man mpv~
-
 **** DONE Hardware acceleration suport
 CLOSED: [2025-04-12 Sat 20:58]
-
 - /Which hardeware acceleration my system support to decode AV1 video file format/
 - /Error: mpv - Your hardware does not support hardware acceleration decoding AV1 format/
   - *Visit:* [[https://github.com/mpv-player/mpv/issues/13708][mpv-issue@github]]
-
 *** Fish shell Configuration [50%] :FISH:
-
 - /Config/ ~fish~
-
 **** DONE Fish shell directory preview
 CLOSED: [2025-04-12 Sat 22:34] DEADLINE: <2025-04-12 Sat 20:00>
-
 - /Set input dir as a parameter/
 - *Visit:* [[https://github.com/fish-shell/fish-shell/issues/6838][preview-shortcuts]]
   - /commandline help:/ run ~man commandline~
 
 - [x] *READ!*List contents of current directory under cursor: [[file:/usr/share/fish/functions/__fish_list_current_token.fish][__fish_list_current_token.fish]]
 - [x] Modifiied ~__fish_list_current_token~ to run with ~yazi~ [[file:~/.config/fish/functions/_yazi_current_token.fish][_yazi_current_token.fish]]
-
 **** TODO Fish edit current token
 DEADLINE: <2025-04-23 Wed 20:30>
 
 - /Create function to edit current token/
 - *Run:* ~bat --color alwasy $arg &| less --color~
-
 ** Incidental :INCIDENTAL:
-
 *** PENDING Github repo updates track :GITHUB:
-
 - *Goal(s):* Find a way to keep track github repo updates and get notification from updates
-
 *** PENDING Termux ssh :LINUX:TERMUX:
-
 - *Goal:* ssh to the server via Termux
 - *Visit:*  [[https://wiki.termux.com/wiki/Remote_Access]]
-
 **** DONE SSH to Github :GITHUB:
 CLOSED: [2025-01-10 Fri 05:51] DEADLINE: <2025-01-09 Thu 05:00>
-
 - *Goal:* generate ssh key and successfully pull repos from github
-
 *** PENDING Automatic git sync :ORGMODE:
-
 - *Goal(s):* run automatic git sync on ~server~
 - *Stumble upon:* [[https://www.worthe-it.co.za/blog/2016-08-13-automated-syncing-with-git.html][git-sync-systemd]]
-
 *** PENDING Github wiki :GITHUB:
-
 - *Goal(s):* learn to write a github wiki page
-
 *** PENDING Control nvim instances
-
 - *Goal:* Control nvim instances from the ~terminal~ with ~command line~
 - *Resource:* [[https://github.com/chmln/nvim-ctrl][nvim-ctrl]]
-
 ** Coordinated :COORDINATED:
-
 ** Performance :PERFORMANCE:
-
 ** Urgent :URGENT:
-
 ** Recurring :RECURRING:
-

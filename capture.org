@@ -120,7 +120,9 @@ DEADLINE: <2025-04-22 Tue 22:00 -2h>
 :ID:       b7abea60-bd6a-4bb4-9aa6-5e7ccfa0ace5
 :END:
 - /Research optimal sleep time/
-- *Visit:* [[https://youtube.com/watch?v=q7amXedTasQ][Sleep hygeines and habbits]]
+- *Visit:* 
+  - [[https://youtube.com/watch?v=q7amXedTasQ][Sleep hygeines and habbits@Youtube]]
+  - [[https://www.youtube.com/watch?v=cyKEfejsVps][Why your sleeping habits arent healthy@Youtube]]
 * DONE [#B] Orgmode-nvim agenda custom commands :NVIM:ORGMODE:
 CLOSED: [2025-04-13 Sun 17:51] DEADLINE: <2025-04-12 Sat 23:00>
 - Note taken on [2025-03-27 Thu 09:27] \\
@@ -192,9 +194,24 @@ DEADLINE: <2025-04-22 Tue 20:00>
 * TODO Connect to running nvim server :NVIM:
 - /Connect to running/ ~nvim-server~ /apply to/ ~orgmode~
   - *Visit:* [[https://github.com/neovim/neovim/issues/5035][github.com#\:connect-to-nvim-server]]
-* TODO Working with youtube [%] :LINUX:YOUTUBE:
-- /Use youtube for documentation/
+* DOING Working with youtube [66%] :LINUX:YOUTUBE:
+- /Use youtube for documentation:/
+** DONE Config yt-dlp
+CLOSED: [2025-04-22 Tue 18:49]
+- Note taken on [2025-04-22 Tue 18:49] \\
+  yt-dlp download file format in mpv
+  #+BEGIN_SRC confini
+  ytdl-format = 'worstvideo[height>=720]+bestaudio'
+  #+END_SRC
   - Youtube [[https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file][cli-downloader]]
+** DONE Youtube workflow integration
+CLOSED: [2025-04-22 Tue 18:49]
+- /Sucessfully open/ ~yt-url~ /in/ ~mpv~ using:
+  - *handlr:* [[id:0a3f8238-97cd-4aa2-a8dc-6ecea163efac][Default-application open method]]
+  - *mpv:* [[id:20071104-5e85-4d24-82a5-cf897074ac96][Integrate mpv youtube link]]
+
+** TODO Youtube URL parameters
+- /Set parameters in/ ~URL~ to create video snippets:
   - Youtube [[https://developers.google.com/youtube/player_parameters?csw=1#Parameters][player-parameters]]
 * TODO House-keeping notes repo :ORGMODE:ORGZLY:
 - /Cleaning unecessary spacing and tune in with orgzly/

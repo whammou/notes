@@ -2,205 +2,139 @@
 #+DESCRIPTION: Add notebook description here
 
 * Tasks :ROUTINE:
-
 Allocated space for tasks/todos
-
 ** One-off :ONEOFF:
-
 *** Dating plans :DATING:
-
 /Insert dating ideas and planning/
-
 *** PENDING [#A] Contact Sacombank
-
 Contact local bank for physical credit card
 
 - *Address:*  [[https://www.google.com/maps/place/Ng%C3%A2n+h%C3%A0ng+Sacombank,+d7%2F204+QL50,+Phong+Ph%C3%BA,+B%C3%ACnh+Ch%C3%A1nh,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.696367,106.6546296,19z/data=!4m9!1m2!2m1!1ssacombank+phong+ph%C3%BA!3m5!1s0x31753168a9c85ee9:0x9bef7c753f7107be!8m2!3d10.6963808!4d106.6545208!16s%2Fg%2F11h_ts5c4r?force=pwa&source=mlapk][d7/204 QL50, Phong Phú, Bình Chánh]]
 - tel:02836364730
-
 *** PENDING Fix sneakers :ONEOFF:
-
 Glue back a hole on my sneakers
-
 *** DONE Buy Cotton
 CLOSED: [2025-02-24 Mon 11:11] DEADLINE: <2025-02-13 Thu 23:59>
 :PROPERTIES:
 :ID:       f139600e-35f9-4a70-af6a-cfde919326d5
 :END:
-
 /Buy cotton from Family Mart/
-
 *** DONE Grocery list
 CLOSED: [2025-03-21 Fri 08:29] DEADLINE: <2025-03-21 Fri 01:00>
-
 tel:mom
 - [ ] Má Đùi Gà (1.5kg)
 - [ ] Canh (3 Ngày)
-
 *** DONE Buy Cotton
 CLOSED: [2025-02-14 Fri 04:01] DEADLINE: <2025-02-13 Thu 23:59>
 :PROPERTIES:
 :ID:       f139600e-35f9-4a70-af6a-cfde919326d5
 :END:
-
 **** ABORTED Photobooth with her :DATING:
 CLOSED: [2025-03-29 Sat 09:56] SCHEDULED: <2025-03-29 Sat 18:00>
 :PROPERTIES:
 :ID:       91a7c22a-c12d-425e-94c2-a1a38010a16d
 :END:
-
 - /Photo-shooting with my girl/
-
 *** DONE [#B] Obtain IP
 CLOSED: [2025-03-29 Sat 09:54] DEADLINE: <2025-03-28 Fri 16:00>
 :PROPERTIES:
 :ID:       ce78c56b-3c1c-4dc1-9b99-98f4a9a2e271
 :END:
-
 *** DONE [#B] Buy razer
 CLOSED: [2025-04-03 Thu 20:33] DEADLINE: <2025-04-02 Wed 16:00>
 :PROPERTIES:
 :ID:       6be721fe-3a0a-40c3-aea7-5aea736aed4e
 :END:
-
 ** Incidental :INCIDENTAL:
-
 *** ABORTED [#A] Cúng ông táo
 CLOSED: [2025-01-25 Sat 15:38] DEADLINE: <2025-01-23 Thu 12:00 -3d>
-
 - [ ] Giấy cúng
 - Trái cây: 
   - [ ] Táo
-
 *** PENDING Bike repair :BIKE:
-
 Diagnose failure point
 *Visit:* [[https://vinfastauto.com/vn_vi/cu-de-xe-may][hư hỏng củ đề]]  [[https://3mp.vn/service/cu-de-xe-may-bao-nhieu-tien-nguyen-nhan-cu-de-hu-hon][giá tham khảo]]
-
 ** Coordinated :COORDINATED:
-
 ** Urgent :URGENT:
-
 ** Recurring :RECURRING:
-
 *** Dating routines :DATING:
-
 - /Dating routines/
-
 *** Self-care :SELFCARE:
 :PROPERTIES:
 :CUSTOM_ID: maintenance
 :END:
-
 **** Bodycare :BODYCARE:
-
 Topic related to taking care of my body and where to get the supplements
-
 ***** DONE Razor preservation
 CLOSED: [2024-04-20 Sat 08:47]
-
 Look up how to preserve a razor
-
 ***** DONE Get ear piercings
 CLOSED: [2024-09-11 Wed 21:14] DEADLINE: <2024-09-11 Wed 16:00>
-
 file:./assets/lobes.jpg
-
 ***** DONE Supplements :LIST:
 CLOSED: [2024-09-29 Sun 20:14] SCHEDULED: <2024-09-29 Sun 16:00>
-
 - [X] Q-tips
 - [X] L cystine
 - [X] Lips
-
 **** Skincare :SKINCARE:
-
 Skincare routines and documentation on improving efficiency of the schedule
-
 ***** Ingredients :LIST:
-
 List of ingredients using in my skincare routine and where to get them. Also include good deals
-
 ****** Azelaic Acid
-
 <2024-09-24 Tue 00:00 +1w>
-
 ****** Retinol
-
 <2024-09-19 Thu 00:00 +1w>
 <2024-09-22 Sun 00:00 +1w>
-
 ****** Niacinamide
-
 <2024-09-20 Fri 00:00 +1w>
 <2024-09-23 Mon 00:00 +1w>
-
 ****** Vitamin C
-
 <2024-09-18 Wed 00:00 +1w>
 <2024-09-21 Sat 00:00 +1w>
-
 ***** DONE Skincare overhaul :SKINCARE:DISCUSS:
 CLOSED: [2024-10-01 Tue 19:59] DEADLINE: <2024-10-01 Tue 04:00>
-
 - *Solution:*  Added Niacinamide to the AM
 
 Overhaul skincare routine:
 
 - *Goal:*  Reduce face oil
 - *Source:*  [[https://www.youtube.com/watch?v=hevaszImfJk&t=287][Doctorly@youtube]]
-
 ***** DONE [#B] Checkout this routine :DISCUSS:
 CLOSED: [2024-10-07 Mon 19:50] SCHEDULED: <2024-10-07 Mon 05:00>
-
 - *Source:*  [[https://www.reddit.com/r/SkincareAddiction/comments/tm9cw6/routine_help_is_it_safe_to_use_a_salicylic_acid/][skincare routine@reddit]]
-
 **** Haircare :HAIRCARE:
-
 ***** Haircut
-
 <2025-04-28 Mon 17:00 .+45d -1w>
 :PROPERTIES:
 :LAST_REPEAT: [2025-03-14 Fri 21:54]
 :END:
 
 - *Goal:* log a good cut
-
 ***** DONE Hair mask :ARTICLE:
 CLOSED: [2024-10-07 Mon 04:37]
-
 - *Goal(s):* choose a suitable product and schedule to improve hair quality
 - *Stumble upon:*  [[https://labmuffin.com/how-does-olaplex-hair-treatment-work/][Olaplex_treatment@muffinlab]]
-
 ***** Shampoo & Conditioner PM
-
 <2024-10-13 Sun 01:00 +1w>
 :PROPERTIES:
 :CUSTOM_ID: shampoo_day
 :END:
 
 Weekly shampoo schedule
-
 ***** Wash Day AM
 :PROPERTIES:
 :CUSTOM_ID: wash_day
 :END:
-
 <2024-10-07 Mon 14:00 +1w>
 <2024-10-09 Wed 14:00 +1w>
 <2024-10-11 Fri 14:00 +1w>
 
 
 Weekly conditioner schedule
-
 *** Bikes maintenance :BIKE:
-
 Weekly and monthly bikes maintenance schedule
-
 **** Honda Airblade
-
 - /Honda Airblade/
-
 **** Clean Bikes
 :PROPERTIES:
 :LAST_REPEAT: [2025-04-13 Sun 17:51]
@@ -210,83 +144,55 @@ Weekly and monthly bikes maintenance schedule
 :END:
 
 - /Clean up my bikes/
-
 ***** Oil change
 SCHEDULED: <2025-06-13 Fri .+2m>
 :PROPERTIES:
 :LAST_REPEAT: [2025-02-12 Wed 00:10]
 :END:
-
 ****** DONE Check engine oil
 CLOSED: [2025-02-12 Wed 00:10] DEADLINE: <2025-01-23 Thu 17:00>
-
 - *Goal:* evaluate bike engine oil condition
-
 **** Suzuki GN125
-
 ***** Clean Bikes
-
 - /Clean up my bikes/
-
 *** House chores :CHORE:
-
 House chord routine
-
 **** DONE Clothe washing
 CLOSED: [2024-10-10 Thu 21:00]
-
 Weekly clothe washing and techniques 
-
 ***** Black clothes
-
 <2024-10-08 Tue 23:00 +1w>
 
 /Technique to wash clothes of dark colors/
-
 ***** White clothes
-
 <2024-10-16 Wed 23:00 +1w>
 
 /Technique to wash clothes of bright colors/
-
 **** PENDING Sharpen knives :ONEOFF:
-
 **** PENDING Gardening :SCHEDULE:
-
 - *Goal(s):* come up with a consistent schedule for gardening
-
 *** Cooking :COOK:
-
 Meal-preps, cooking recipes and grocery planning  
-
 **** Food-preps :DIET:
-
 <2024-10-10 Thu 01:00 +1w>
 <2024-10-14 Mon 01:00 +1w>
 
 - *Goal(s):* Prepare food for next following days
   /Prepare food list/
-
 **** Grocery :GROCERY:
-
 <2024-10-22 Tue 17:00 +1w>
 <2024-10-26 Sat 17:00 +1w>
-
 *** PENDING Adding extra meal
-
 - *Goal:* adding one extra meal per day
-
-**** Dear diary :DATING:
-
+**** Dear diary :DATING:ALARM:
+DEADLINE: <2025-04-22 Tue 18:15>
 <2025-04-20 Sun 15:00 +1d>
 :PROPERTIES:
 :LAST_REPEAT: [2025-04-19 Sat 08:05]
 :END:
 
 - /Journaling todays event/
-
 **** Pick HER up! :DATING:ALARM:
-
 <2025-04-19 Sat 16:00 +1d>
 :PROPERTIES:
 :ID:       b50be36d-d0d6-445b-864f-058907694753
@@ -295,12 +201,9 @@ Meal-preps, cooking recipes and grocery planning
 
 - /Picking my girl up/
 - *Location:*  [[https://www.google.com/maps/place/A%2BC+Coffee+Experience,+230%2F18+Pasteur,+Ph%C6%B0%E1%BB%9Dng+6,+Qu%E1%BA%ADn+3,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7858949,106.6915706,16z/data=!4m6!3m5!1s0x31752f0079a094e1:0xa8800ca97260d786!8m2!3d10.7858949!4d106.6915706!16s%2Fg%2F11x1lhrz1t?force=pwa&source=mlapk][230/18 Pasteur, Phường 6, Quận 3]]
-
 *** TODO Movie Night!!! :DATING:
 DEADLINE: <2025-04-24 Thu 22:00-01:00>
-
 - *Địa Đạo: Mặt Trời Trong Bóng Tối* - [[https://app.smartmailcloud.com/web-share/BlQbbv2przPTgR9PbKk2IJkiLljqG_EgUVbcaBVJ][Ticket]]
 - *Threater:* HAATOPIA 2
 - *Seats:* F4, F5
 - *Address:* [[https://www.google.com/maps/place/Thiso+Mall+-+Sala,+10+%C4%90.+Mai+Ch%C3%AD+Th%E1%BB%8D,+Th%E1%BB%A7+Thi%C3%AAm,+Th%E1%BB%A7+%C4%90%E1%BB%A9c,+H%E1%BB%93+Ch%C3%AD+Minh+700000,+Vietnam/@10.7719509,106.7210782,17z/data=!4m6!3m5!1s0x31752f05b75511bb:0xf870937eb6a0aa97!8m2!3d10.7719509!4d106.7210782!16s%2Fg%2F11tjcw4b80?force=pwa&source=mlapk][Tầng 3, Thiso Mall Sala, 10 Mai Chí Thọ, Phường Thủ Thiêm]]
-

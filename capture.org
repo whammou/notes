@@ -210,7 +210,6 @@ CLOSED: [2025-04-22 Tue 18:49]
 - /Sucessfully open/ ~yt-url~ /in/ ~mpv~ using:
   - *handlr:* [[id:0a3f8238-97cd-4aa2-a8dc-6ecea163efac][Default-application open method]]
   - *mpv:* [[id:20071104-5e85-4d24-82a5-cf897074ac96][Integrate mpv youtube link]]
-
 ** TODO Youtube URL parameters
 - /Set parameters in/ ~URL~ to create video snippets:
   - Youtube [[https://developers.google.com/youtube/player_parameters?csw=1#Parameters][player-parameters]]

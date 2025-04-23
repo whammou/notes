@@ -220,8 +220,3 @@ CLOSED: [2025-04-22 Tue 18:49]
   - *Run:* ~echo $DEFAULT_FZF_OPTS~
 ** Function fzf
 - /Less keystrokes when using/ ~fzf~
-* Test headline
-:PROPERTIES:
-:ID:       d106b1de-3f53-4bb7-b004-b607d1dae898
-:END:
-- /body/

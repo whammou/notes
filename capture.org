@@ -7,7 +7,7 @@
 - *Stumble upon:* [[https://github.com/hrsh7th/nvim-cmp/issues/179][issue@github]]
 - *Goal(s):* config nvim to work with nvim-cmp nvim-supertab
 * DOING Overhaul Note repo [50%] :ORGMODE:GITHUB:
-DEADLINE: <2025-04-22 Tue 22:00>
+DEADLINE: <2025-04-23 Wed 22:00>
 - *Goal(s):* update note repo structure for more optimal workflow
 - *NOTE:* checkout [[./README.org][README]] and find a suitable repo structure
 ** ABORTED Modify README
@@ -30,15 +30,15 @@ CLOSED: [2025-04-19 Sat 06:11] DEADLINE: <2025-04-18 Fri 19:00>
    - *Setup:*
      - [[https://evesdropper.dev/files/luasnip/ultisnips-to-luasnip/][nvim luasnip setup]]
      - [[https://sbulav.github.io/vim/neovim-setting-up-luasnip/][Neovim setting up snippets with luasnip]]
-** TODO Configure blink.cmp
-DEADLINE: <2025-04-22 Tue 19:00>
+** DOING Configure blink.cmp
+DEADLINE: <2025-04-23 Wed 19:00>
 - /Successfully source/ ~lua-snip~ /with/ ~blink.cmp~
 - *Visit:* 
    - [[https://cmp.saghen.dev/configuration/snippets#luasnip][source luasnip guide]]
    - [[https://cmp.saghen.dev/configuration/snippets#luasnip][blink.cmp documentaion]]
    - [[https://github.com/Saghen/blink.cmp/discussions/1391][blink.cmp luasnip issue]]
 ** TODO Write friendly-snippets
-DEADLINE: <2025-04-23 Wed 18:30>
+DEADLINE: <2025-04-24 Thu 18:30>
 - /Write snippets in VSCode style or using/ ~luasnip~
 - *Visit:*
    - [[https://code.visualstudio.com/docs/editor/userdefinedsnippets][Snippets in vscode]]
@@ -114,15 +114,16 @@ CLOSED: [2025-04-19 Sat 17:52]
 * ABORTED [#D] Men eyebrows care :SELFCARE:
 CLOSED: [2025-04-08 Tue 18:46] DEADLINE: <2025-04-05 Sat 22:00>
 - /Suggestions for eyebrows-care/
-* TODO Optimal sleep time :SELFCARE:
-DEADLINE: <2025-04-22 Tue 22:00 -2h>
+* DOING Optimal sleep time :SELFCARE:
+DEADLINE: <2025-04-23 Wed 22:00 -2h>
 :PROPERTIES:
 :ID:       b7abea60-bd6a-4bb4-9aa6-5e7ccfa0ace5
 :END:
 - /Research optimal sleep time/
-- *Visit:* 
-  - [[https://youtube.com/watch?v=q7amXedTasQ][Sleep hygeines and habbits@Youtube]]
-  - [[https://www.youtube.com/watch?v=cyKEfejsVps][Why your sleeping habits arent healthy@Youtube]]
+- *Visit:*
+  - [[https://youtube.com/watch?v=q7amXedTasQ][Sleep hygeines and habbits @ Youtube]]
+  - [[https://www.youtube.com/watch?v=cyKEfejsVps][Why your sleeping habits arent healthy @ Youtube]]
+  - [[https://www.youtube.com/watch?v=pm0V_66IBvc][How to fix a degen sleep schedule @ Youtube]]
 * DONE [#B] Orgmode-nvim agenda custom commands :NVIM:ORGMODE:
 CLOSED: [2025-04-13 Sun 17:51] DEADLINE: <2025-04-12 Sat 23:00>
 - Note taken on [2025-03-27 Thu 09:27] \\
@@ -141,7 +142,7 @@ return {
 }
 #+END_lua
 * TODO Qtile spawn keybind :QTILE:
-DEADLINE: <2025-04-23 Wed 22:00>
+DEADLINE: <2025-04-24 Thu 22:00>
 - /Create ~default_spawn~ keybind for qtile [[file:~/.config/qtile/settings/keymaps.py][~keymaps~]]/
 * ABORTED Orgmode desktop notification :ORGMODE:
 CLOSED: [2025-04-01 Tue 15:37] DEADLINE: <2025-03-31 Mon 22:00>
@@ -153,7 +154,7 @@ CLOSED: [2025-04-01 Tue 15:37] DEADLINE: <2025-03-31 Mon 22:00>
 DEADLINE: <2025-04-23 Wed 22:00>
 - /Setup qutebrowser-profiles for better session managements/
 * TODO English doc :SOCIAL:
-DEADLINE: <2025-04-23 Wed 23:00>
+DEADLINE: <2025-04-24 Thu 23:00>
 :PROPERTIES:
 :ID:       6aaa4c17-f24d-4c4b-8956-d2884a404563
 :END:
@@ -183,7 +184,7 @@ CLOSED: [2025-04-20 Sun 23:39] DEADLINE: <2025-04-21 Mon 22:00>
 CLOSED: [2025-04-14 Mon 21:53] DEADLINE: <2025-04-14 Mon 21:00>
 - /Add watchlist file to/ ~gitignore~
 * TODO Auto commit repo :GIT:
-DEADLINE: <2025-04-22 Tue 20:00>
+DEADLINE: <2025-04-24 Thu 20:00>
 :PROPERTIES:
 :ID:       1c814ec1-f296-4b5a-8631-2a0d970d14a0
 :END:

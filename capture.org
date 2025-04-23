@@ -131,28 +131,16 @@ CLOSED: [2025-04-13 Sun 17:51] DEADLINE: <2025-04-12 Sat 23:00>
 
 - /Create org_agenda_custom_commands custom cammands/
 - *Visit:* [[https://nvim-orgmode.github.io/configuration][nvim-orgmode documentations]]
-* TODO Lazyvim disable plugins :NVIM:
-- /Disable unused plugins in ~lazyvim~/
-- *Visit:* [[https://www.lazyvim.org/configuration/plugins#-disabling-plugins][Disable plugins - Lazyvim]]
-
-#+BEGIN_lua
-return {
-  -- disable trouble
-  { "folke/trouble.nvim", enabled = false },
-}
-#+END_lua
-* TODO Qtile spawn keybind :QTILE:
-DEADLINE: <2025-04-24 Thu 22:00>
-- /Create ~default_spawn~ keybind for qtile [[file:~/.config/qtile/settings/keymaps.py][~keymaps~]]/
 * ABORTED Orgmode desktop notification :ORGMODE:
 CLOSED: [2025-04-01 Tue 15:37] DEADLINE: <2025-03-31 Mon 22:00>
 - Note taken on [2025-03-29 Sat 13:45] \\
   The following [[https://nvim-orgmode.github.io/configuration#cron][guide]] is written for ~cron~. Modify to work with ~systemd~
 
 - /Integrate ~orgmode-notification~ to ~system~/
-* TODO Qutebrowser profiles :QUTEBROWSER:
-DEADLINE: <2025-04-23 Wed 22:00>
+* PENDING Qutebrowser profiles :QUTEBROWSER:
+DEADLINE: <2025-04-23 Wed 22:00> CLOSED: [2025-04-23 Wed 22:44]
 - /Setup qutebrowser-profiles for better session managements/
+  - *Run* ~qutebrowser-profile --new --load "profile"~
 * TODO English doc :SOCIAL:
 DEADLINE: <2025-04-24 Thu 23:00>
 :PROPERTIES:

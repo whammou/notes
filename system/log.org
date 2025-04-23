@@ -612,5 +612,35 @@ CLOSED: [2025-04-12 Sat 20:58]
 - /Which hardeware acceleration my system support to decode AV1 video file format/
 - /Error: mpv - Your hardware does not support hardware acceleration decoding AV1 format/
   - *Visit:* [[https://github.com/mpv-player/mpv/issues/13708][mpv-issue@github]]
-
-
+** DONE Qtile spawn keybind :QTILE:
+DEADLINE: <2025-04-23 Wed 22:00> CLOSED: [2025-04-23 Wed 23:01]
+- /Create ~lazy.spawn~ keybind for qtile [[file:~/.config/qtile/settings/keymaps.py][~keymaps~]]/
+  - Created ~lazy.spawn~ method
+    #+BEGIN_SRC python
+    def spawn_new(mod, trigger, keymap, **spawn):
+    prefix_bind = []
+    for package in keymap:
+    cmd_bind = []
+    for p in package["prefix"]:
+    key_bind = []
+    for c in package["cmd"]:
+    # print(c[0], c[1], spawn)
+    key_bind.append(EzKey(c[0], lazy.spawn(c[1], **spawn)))
+    # print(p, key_bind)
+    cmd_bind.append(KeyChord([], p, key_bind))
+    # print(cmd_bind)
+    prefix_bind.extend(cmd_bind)
+    position_bind = KeyChord(mod, trigger, prefix_bind)
+    # print(position_bind)
+    return [position_bind]
+    #+END_SRC
+** DONE Lazyvim disable plugins :NVIM:
+CLOSED: [2025-04-23 Wed 23:03]
+- /Disable unused plugins in ~lazyvim~/
+  - *Visit:* [[https://www.lazyvim.org/configuration/plugins#-disabling-plugins][Disable plugins - Lazyvim]]
+    #+BEGIN_SRC lua
+    return {
+    -- disable trouble
+    { "folke/trouble.nvim", enabled = false },
+    }
+    #+END_SRC

@@ -70,10 +70,10 @@ CLOSED: [2025-04-12 Sat 22:34] DEADLINE: <2025-04-12 Sat 20:00>
 - [x] *READ!*List contents of current directory under cursor: [[file:/usr/share/fish/functions/__fish_list_current_token.fish][__fish_list_current_token.fish]]
 - [x] Modifiied ~__fish_list_current_token~ to run with ~yazi~ [[file:~/.config/fish/functions/_yazi_current_token.fish][_yazi_current_token.fish]]
 **** TODO Fish edit current token
-DEADLINE: <2025-04-24 Thu 20:30>
+DEADLINE: <2025-04-23 Wed 20:30>
 
 - /Create function to edit current token/
-- *Run:* ~bat --color alwasy $arg &| less --color~
+- *Run:* ~bat --color always $arg &| less --color~
 ** Incidental :INCIDENTAL:
 *** PENDING Github repo updates track :GITHUB:
 - *Goal(s):* Find a way to keep track github repo updates and get notification from updates

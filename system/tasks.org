@@ -68,7 +68,6 @@ CLOSED: [2025-04-12 Sat 22:34] DEADLINE: <2025-04-12 Sat 20:00>
 - [x] Modifiied ~__fish_list_current_token~ to run with ~yazi~ [[file:~/.config/fish/functions/_yazi_current_token.fish][_yazi_current_token.fish]]
 **** TODO Fish edit current token
 DEADLINE: <2025-04-23 Wed 20:30>
-
 - /Create function to edit current token/
 - *Run:* ~bat --color always $arg &| less --color~
 ** Incidental :INCIDENTAL:

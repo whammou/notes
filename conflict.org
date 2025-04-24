@@ -1,8 +1,0 @@
-<<<<<<< HEAD
-* LOCAL headline
-- body
-||||||| e51449c
-=======
-* REMOTE headline
-- body
->>>>>>> origin/main

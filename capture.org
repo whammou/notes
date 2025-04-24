@@ -220,3 +220,8 @@ CLOSED: [2025-04-22 Tue 18:49]
   - *Run:* ~echo $DEFAULT_FZF_OPTS~
 ** Function fzf
 - /Less keystrokes when using/ ~fzf~
+* TODO Download gui assets :YOUTUBE:
+:PROPERTIES:
+:ID:       e468780d-c925-4f35-b766-a00673cae38d
+:END:
+- *Gui assets:* [[https://www.flaticon.com/free-icons/ui][flaticon]]

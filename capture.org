@@ -221,6 +221,7 @@ CLOSED: [2025-04-22 Tue 18:49]
 ** Function fzf
 - /Less keystrokes when using/ ~fzf~
 * TODO Download gui assets :YOUTUBE:
+DEADLINE: <2025-04-24 Thu 21:00>
 :PROPERTIES:
 :ID:       e468780d-c925-4f35-b766-a00673cae38d
 :END:

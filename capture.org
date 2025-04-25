@@ -7,7 +7,7 @@
 - *Stumble upon:* [[https://github.com/hrsh7th/nvim-cmp/issues/179][issue@github]]
 - *Goal(s):* config nvim to work with nvim-cmp nvim-supertab
 * DOING Overhaul Note repo [50%] :ORGMODE:GITHUB:
-DEADLINE: <2025-04-24 Thu 22:00>
+DEADLINE: <2025-04-25 Fri 22:00>
 - *Goal(s):* update note repo structure for more optimal workflow
 - *NOTE:* checkout [[./README.org][README]] and find a suitable repo structure
 ** ABORTED Modify README
@@ -31,14 +31,14 @@ CLOSED: [2025-04-19 Sat 06:11] DEADLINE: <2025-04-18 Fri 19:00>
      - [[https://evesdropper.dev/files/luasnip/ultisnips-to-luasnip/][nvim luasnip setup]]
      - [[https://sbulav.github.io/vim/neovim-setting-up-luasnip/][Neovim setting up snippets with luasnip]]
 ** DOING Configure blink.cmp
-DEADLINE: <2025-04-24 Thu 19:00>
+DEADLINE: <2025-04-25 Fri 19:00>
 - /Successfully source/ ~lua-snip~ /with/ ~blink.cmp~
 - *Visit:* 
    - [[https://cmp.saghen.dev/configuration/snippets#luasnip][source luasnip guide]]
    - [[https://cmp.saghen.dev/configuration/snippets#luasnip][blink.cmp documentaion]]
    - [[https://github.com/Saghen/blink.cmp/discussions/1391][blink.cmp luasnip issue]]
 ** TODO Write friendly-snippets
-DEADLINE: <2025-04-25 Fri 18:30>
+DEADLINE: <2025-04-26 Sat 18:30>
 - /Write snippets in VSCode style or using/ ~luasnip~
 - *Visit:*
    - [[https://code.visualstudio.com/docs/editor/userdefinedsnippets][Snippets in vscode]]
@@ -115,7 +115,7 @@ CLOSED: [2025-04-19 Sat 17:52]
 CLOSED: [2025-04-08 Tue 18:46] DEADLINE: <2025-04-05 Sat 22:00>
 - /Suggestions for eyebrows-care/
 * DOING Optimal sleep time :SELFCARE:
-DEADLINE: <2025-04-24 Thu 22:00 -2h>
+DEADLINE: <2025-04-25 Fri 22:00 -2h>
 :PROPERTIES:
 :ID:       b7abea60-bd6a-4bb4-9aa6-5e7ccfa0ace5
 :END:
@@ -142,7 +142,7 @@ CLOSED: [2025-04-23 Wed 22:44] DEADLINE: <2025-04-23 Wed 22:00>
 - /Setup qutebrowser-profiles for better session managements/
   - *Run* ~qutebrowser-profile --new --load "profile"~
 * TODO English doc :SOCIAL:
-DEADLINE: <2025-04-25 Fri 23:00>
+DEADLINE: <2025-04-26 Sat 23:00>
 :PROPERTIES:
 :ID:       6aaa4c17-f24d-4c4b-8956-d2884a404563
 :END:
@@ -172,7 +172,7 @@ CLOSED: [2025-04-20 Sun 23:39] DEADLINE: <2025-04-21 Mon 22:00>
 CLOSED: [2025-04-14 Mon 21:53] DEADLINE: <2025-04-14 Mon 21:00>
 - /Add watchlist file to/ ~gitignore~
 * TODO Auto commit repo :GIT:
-DEADLINE: <2025-04-25 Fri 20:00>
+DEADLINE: <2025-04-26 Sat 20:00>
 :PROPERTIES:
 :ID:       1c814ec1-f296-4b5a-8631-2a0d970d14a0
 :END:

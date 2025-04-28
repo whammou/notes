@@ -115,7 +115,7 @@ CLOSED: [2025-04-19 Sat 17:52]
 CLOSED: [2025-04-08 Tue 18:46] DEADLINE: <2025-04-05 Sat 22:00>
 - /Suggestions for eyebrows-care/
 * DOING Optimal sleep time :SELFCARE:
-DEADLINE: <2025-04-28 Mon 21:00 -2h>
+DEADLINE: <2025-04-28 Mon 21:00>
 :PROPERTIES:
 :ID:       b7abea60-bd6a-4bb4-9aa6-5e7ccfa0ace5
 :END:

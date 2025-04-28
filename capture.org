@@ -183,7 +183,7 @@ DEADLINE: <2025-04-29 Tue 20:00>
 * TODO Connect to running nvim server :NVIM:
 - /Connect to running/ ~nvim-server~ /apply to/ ~orgmode~
   - *Visit:* [[https://github.com/neovim/neovim/issues/5035][github.com#\:connect-to-nvim-server]]
-* DOING Working with youtube [33%] :LINUX:YOUTUBE:
+* DOING Working with youtube [67%] :LINUX:YOUTUBE:
 - /Use youtube for documentation:/
 ** DOING Package configurations [50%]
 - /Configure packages for smoother experiences/
@@ -207,7 +207,8 @@ CLOSED: [2025-04-22 Tue 18:49]
 - /Sucessfully open/ ~yt-url~ /in/ ~mpv~ using:
   - *handlr:* [[id:0a3f8238-97cd-4aa2-a8dc-6ecea163efac][Default-application open method]]
   - *mpv:* [[id:20071104-5e85-4d24-82a5-cf897074ac96][Integrate mpv youtube link]]
-** TODO Youtube URL parameters
+** DONE Youtube URL parameters
+CLOSED: [2025-04-28 Mon 09:18]
 - /Set parameters in/ ~URL~ to create video snippets:
   - Youtube: [[https://developers.google.com/youtube/player_parameters?csw=1#Parameters][player-parameters]]
   - Reddit: [[https://l.opnxng.com/r/youtube/comments/2eu12t/modify_youtube_url_for_specific_start_and_stop/][youtube specify start AND stop time]]

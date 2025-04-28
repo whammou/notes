@@ -7,7 +7,7 @@
 - *Stumble upon:* [[https://github.com/hrsh7th/nvim-cmp/issues/179][issue@github]]
 - *Goal(s):* config nvim to work with nvim-cmp nvim-supertab
 * DOING Overhaul Note repo [50%] :ORGMODE:GITHUB:
-DEADLINE: <2025-04-28 Mon 22:00>
+DEADLINE: <2025-04-28 Mon 20:00>
 - *Goal(s):* update note repo structure for more optimal workflow
 - *NOTE:* checkout [[./README.org][README]] and find a suitable repo structure
 ** ABORTED Modify README
@@ -31,7 +31,7 @@ CLOSED: [2025-04-19 Sat 06:11] DEADLINE: <2025-04-18 Fri 19:00>
      - [[https://evesdropper.dev/files/luasnip/ultisnips-to-luasnip/][nvim luasnip setup]]
      - [[https://sbulav.github.io/vim/neovim-setting-up-luasnip/][Neovim setting up snippets with luasnip]]
 ** DOING Configure blink.cmp
-DEADLINE: <2025-04-28 Mon 19:00>
+DEADLINE: <2025-04-28 Mon 18:00>
 - /Successfully source/ ~lua-snip~ /with/ ~blink.cmp~
 - *Visit:* 
    - [[https://cmp.saghen.dev/configuration/snippets#luasnip][source luasnip guide]]
@@ -115,7 +115,7 @@ CLOSED: [2025-04-19 Sat 17:52]
 CLOSED: [2025-04-08 Tue 18:46] DEADLINE: <2025-04-05 Sat 22:00>
 - /Suggestions for eyebrows-care/
 * DOING Optimal sleep time :SELFCARE:
-DEADLINE: <2025-04-28 Mon 22:00 -2h>
+DEADLINE: <2025-04-28 Mon 21:00>
 :PROPERTIES:
 :ID:       b7abea60-bd6a-4bb4-9aa6-5e7ccfa0ace5
 :END:
@@ -183,7 +183,7 @@ DEADLINE: <2025-04-29 Tue 20:00>
 * TODO Connect to running nvim server :NVIM:
 - /Connect to running/ ~nvim-server~ /apply to/ ~orgmode~
   - *Visit:* [[https://github.com/neovim/neovim/issues/5035][github.com#\:connect-to-nvim-server]]
-* DOING Working with youtube [33%] :LINUX:YOUTUBE:
+* DOING Working with youtube [67%] :LINUX:YOUTUBE:
 - /Use youtube for documentation:/
 ** DOING Package configurations [50%]
 - /Configure packages for smoother experiences/
@@ -207,7 +207,8 @@ CLOSED: [2025-04-22 Tue 18:49]
 - /Sucessfully open/ ~yt-url~ /in/ ~mpv~ using:
   - *handlr:* [[id:0a3f8238-97cd-4aa2-a8dc-6ecea163efac][Default-application open method]]
   - *mpv:* [[id:20071104-5e85-4d24-82a5-cf897074ac96][Integrate mpv youtube link]]
-** TODO Youtube URL parameters
+** DONE Youtube URL parameters
+CLOSED: [2025-04-28 Mon 09:18]
 - /Set parameters in/ ~URL~ to create video snippets:
   - Youtube: [[https://developers.google.com/youtube/player_parameters?csw=1#Parameters][player-parameters]]
   - Reddit: [[https://l.opnxng.com/r/youtube/comments/2eu12t/modify_youtube_url_for_specific_start_and_stop/][youtube specify start AND stop time]]
@@ -232,7 +233,7 @@ CLOSED: [2025-04-22 Tue 18:49]
 ** Function fzf
 - /Less keystrokes when using/ ~fzf~
 * TODO Download gui assets :YOUTUBE:
-DEADLINE: <2025-04-28 Mon 21:00>
+DEADLINE: <2025-04-29 Tue 19:00>
 :PROPERTIES:
 :ID:       e468780d-c925-4f35-b766-a00673cae38d
 :END:

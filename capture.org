@@ -31,7 +31,7 @@ CLOSED: [2025-04-19 Sat 06:11] DEADLINE: <2025-04-18 Fri 19:00>
      - [[https://evesdropper.dev/files/luasnip/ultisnips-to-luasnip/][nvim luasnip setup]]
      - [[https://sbulav.github.io/vim/neovim-setting-up-luasnip/][Neovim setting up snippets with luasnip]]
 ** DOING Configure blink.cmp
-DEADLINE: <2025-04-28 Mon 19:00>
+DEADLINE: <2025-04-28 Mon 18:00>
 - /Successfully source/ ~lua-snip~ /with/ ~blink.cmp~
 - *Visit:* 
    - [[https://cmp.saghen.dev/configuration/snippets#luasnip][source luasnip guide]]
@@ -232,7 +232,7 @@ CLOSED: [2025-04-22 Tue 18:49]
 ** Function fzf
 - /Less keystrokes when using/ ~fzf~
 * TODO Download gui assets :YOUTUBE:
-DEADLINE: <2025-04-28 Mon 21:00>
+DEADLINE: <2025-04-28 Mon 19:00>
 :PROPERTIES:
 :ID:       e468780d-c925-4f35-b766-a00673cae38d
 :END:

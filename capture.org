@@ -38,7 +38,7 @@ DEADLINE: <2025-04-28 Mon 18:00>
    - [[https://cmp.saghen.dev/configuration/snippets#luasnip][blink.cmp documentaion]]
    - [[https://github.com/Saghen/blink.cmp/discussions/1391][blink.cmp luasnip issue]]
 ** TODO Write friendly-snippets
-DEADLINE: <2025-04-29 Tue 18:30>
+DEADLINE: <2025-04-28 Mon 18:30>
 - /Write snippets in VSCode style or using/ ~luasnip~
 - *Visit:*
    - [[https://code.visualstudio.com/docs/editor/userdefinedsnippets][Snippets in vscode]]

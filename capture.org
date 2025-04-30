@@ -19,7 +19,7 @@ CLOSED: [2025-04-11 Fri 21:41]
 - Note taken on [2025-01-23 Thu 00:09] \\
   Separate ~Logs~ ~Lists~ and ~Documents~ to different files to avoid callbacks
 - *Goal:* optimize ~archive~ hierarchy
-* DOING Config vim completion [80%] :NVIM:
+* DOING Config vim completion [100%] :NVIM:
 - *Goal:* successfully replace ~ultil-snip~ with ~blink-nvim~ and ~lua-snip~
 - *Visit:* [[https://a.opnxng.com/exchange/vi.stackexchange.com/questions/41733/how-to-set-up-luasnip-in-neovim-w-lsp-zero][nvim-cmp#external-sources]]
 ** DONE Configure lua-snip
@@ -30,15 +30,15 @@ CLOSED: [2025-04-19 Sat 06:11] DEADLINE: <2025-04-18 Fri 19:00>
    - *Setup:*
      - [[https://evesdropper.dev/files/luasnip/ultisnips-to-luasnip/][nvim luasnip setup]]
      - [[https://sbulav.github.io/vim/neovim-setting-up-luasnip/][Neovim setting up snippets with luasnip]]
-** DOING Configure blink.cmp
-DEADLINE: <2025-04-30 Wed 18:00>
+** DONE Configure blink.cmp
+DEADLINE: <2025-04-30 Wed 18:00> CLOSED: [2025-04-30 Wed 22:05]
 - /Successfully source/ ~lua-snip~ /with/ ~blink.cmp~
 - *Visit:* 
    - [[https://cmp.saghen.dev/configuration/snippets#luasnip][source luasnip guide]]
    - [[https://cmp.saghen.dev/configuration/snippets#luasnip][blink.cmp documentaion]]
    - [[https://github.com/Saghen/blink.cmp/discussions/1391][blink.cmp luasnip issue]]
-** TODO Write friendly-snippets
-DEADLINE: <2025-04-30 Wed 18:30>
+** DONE Write friendly-snippets
+DEADLINE: <2025-04-30 Wed 18:30> CLOSED: [2025-04-30 Wed 22:05]
 - /Write snippets in VSCode style or using/ ~luasnip~
 - *Visit:*
    - [[https://code.visualstudio.com/docs/editor/userdefinedsnippets][Snippets in vscode]]

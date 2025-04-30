@@ -246,7 +246,6 @@ DEADLINE: <2025-04-30 Wed 21:30>
   - *Visit:* 
     - [[https://wiki.archlinux.org/title/Systemd/User][Systemd/User @ archwiki]]
     - [[https://a.opnxng.com/exchange/unix.stackexchange.com/questions/224992/where-do-i-put-my-systemd-unit-file][Systemd user config explain]]
-
 * Manage windows spawn/layout :QTILE:
 - *Goal:* /Assign spawn grouping and layouts/
 ** TODO Manage floating windows
@@ -261,3 +260,11 @@ DEADLINE: <2025-04-30 Wed 18:00>
 * TODO System file-tag :LINUX:
 - *Goal:* /Assign attribute to a file/
   - *Visit:* [[https://a.opnxng.com/exchange/unix.stackexchange.com/questions/683017/how-to-tag-any-file-on-the-unix-system][File-tag @ Overflow]]
+* Remind her
+:PROPERTIES:
+:ID:       319890b9-4539-4ea1-9fcb-c34045f94d8c
+:END:
+- *Goal:* /To buy list/
+  - [ ] Tiramisu - Hỷ lâm mon
+  - [ ] Thuốc mề đay
+  - [ ] Dầu mề đay

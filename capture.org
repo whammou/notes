@@ -7,7 +7,7 @@
 - *Stumble upon:* [[https://github.com/hrsh7th/nvim-cmp/issues/179][issue@github]]
 - *Goal(s):* config nvim to work with nvim-cmp nvim-supertab
 * DOING Overhaul Note repo [50%] :ORGMODE:GITHUB:
-DEADLINE: <2025-04-30 Wed 20:00>
+DEADLINE: <2025-05-01 Thu 20:00>
 - *Goal(s):* update note repo structure for more optimal workflow
 - *NOTE:* checkout [[./README.org][README]] and find a suitable repo structure
 ** ABORTED Modify README
@@ -115,7 +115,7 @@ CLOSED: [2025-04-19 Sat 17:52]
 CLOSED: [2025-04-08 Tue 18:46] DEADLINE: <2025-04-05 Sat 22:00>
 - /Suggestions for eyebrows-care/
 * DOING Optimal sleep time :SELFCARE:
-DEADLINE: <2025-04-30 Wed 21:00>
+DEADLINE: <2025-05-01 Thu 21:00>
 :PROPERTIES:
 :ID:       b7abea60-bd6a-4bb4-9aa6-5e7ccfa0ace5
 :END:
@@ -142,7 +142,7 @@ CLOSED: [2025-04-23 Wed 22:44] DEADLINE: <2025-04-23 Wed 22:00>
 - /Setup qutebrowser-profiles for better session managements/
   - *Run* ~qutebrowser-profile --new --load "profile"~
 * TODO English doc :SOCIAL:
-DEADLINE: <2025-05-01 Thu 23:00>
+DEADLINE: <2025-05-02 Fri 23:00>
 :PROPERTIES:
 :ID:       6aaa4c17-f24d-4c4b-8956-d2884a404563
 :END:
@@ -172,7 +172,7 @@ CLOSED: [2025-04-20 Sun 23:39] DEADLINE: <2025-04-21 Mon 22:00>
 CLOSED: [2025-04-14 Mon 21:53] DEADLINE: <2025-04-14 Mon 21:00>
 - /Add watchlist file to/ ~gitignore~
 * TODO Auto commit repo :GIT:
-DEADLINE: <2025-05-01 Thu 20:00>
+DEADLINE: <2025-05-02 Fri 20:00>
 :PROPERTIES:
 :ID:       1c814ec1-f296-4b5a-8631-2a0d970d14a0
 :END:
@@ -235,13 +235,13 @@ CLOSED: [2025-04-28 Mon 09:18]
 ** Function fzf
 - /Less keystrokes when using/ ~fzf~
 * TODO Download gui assets :YOUTUBE:
-DEADLINE: <2025-05-01 Thu 19:00>
+DEADLINE: <2025-05-02 Fri 19:00>
 :PROPERTIES:
 :ID:       e468780d-c925-4f35-b766-a00673cae38d
 :END:
 - *Gui assets:* [[https://www.flaticon.com/free-icons/ui][flaticon]]
 * TODO Setup systemd user-config :SYSTEMD:
-DEADLINE: <2025-04-30 Wed 21:30>
+DEADLINE: <2025-05-01 Thu 21:30>
 - /Successfully translate current services to user-services/
   - *Visit:* 
     - [[https://wiki.archlinux.org/title/Systemd/User][Systemd/User @ archwiki]]
@@ -249,22 +249,24 @@ DEADLINE: <2025-04-30 Wed 21:30>
 * Manage windows spawn/layout :QTILE:
 - *Goal:* /Assign spawn grouping and layouts/
 ** TODO Manage floating windows
-DEADLINE: <2025-04-30 Wed 18:00>
+DEADLINE: <2025-05-01 Thu 18:00>
 - *Goal:* /Add floating windows for quick preview of media files/
   - *Visit:* [[https://github.com/qtile/qtile/issues/1260#issuecomment-913327960][floating window focus discussion @ Github]]
   - *Visit:* [[https://github.com/qtile/qtile/wiki/floating-windows][floating windows @ Github-wiki]]
 ** TODO Windows grouping
-DEADLINE: <2025-04-30 Wed 18:00>
+DEADLINE: <2025-05-01 Thu 18:00>
 - *Goal:* /Assign grouping for windows with the same wm_class/
   - *Visit:* [[https://github.com/aravinda0/qtile-bonsai/discussions/12#discussioncomment-11095207][new window grouping @ Github-discussion]]
 * TODO System file-tag :LINUX:
 - *Goal:* /Assign attribute to a file/
   - *Visit:* [[https://a.opnxng.com/exchange/unix.stackexchange.com/questions/683017/how-to-tag-any-file-on-the-unix-system][File-tag @ Overflow]]
-* Remind her
+* TODO Remind her :DATING:
+DEADLINE: <2025-05-01 Thu 14:00>
 :PROPERTIES:
 :ID:       319890b9-4539-4ea1-9fcb-c34045f94d8c
 :END:
 - *Goal:* /To buy list/
-  - [ ] Tiramisu - Hỷ lâm mon
+  - [ ] Tiramisu - Hỷ lâm Môn
   - [ ] Thuốc mề đay
   - [ ] Dầu mề đay
+

@@ -188,18 +188,18 @@ DEADLINE: <2025-05-02 Fri 20:00>
 * DOING Working with youtube [67%] :LINUX:YOUTUBE:
 - /Use youtube for documentation:/
 ** DOING Package configurations [50%]
-- /Configure packages for smoother experiences/
+- *Goal:* /Configure packages for smoother experiences/
 *** DONE Package - yt-dlp
 CLOSED: [2025-04-22 Tue 18:49]
 - Note taken on [2025-04-22 Tue 18:49] \\
   yt-dlp download file format in mpv
-  #+BEGIN_SRC confini
-  ytdl-format = 'worstvideo[height>=720]+bestaudio'
-  #+END_SRC
-  - Youtube [[https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file][cli-downloader]]
+      #+BEGIN_SRC confini
+      ytdl-format = 'worstvideo[height>=720]+bestaudio'
+      #+END_SRC
+  - Youtube [[https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file][Cli-youtube-downloader @ Github]]
 *** TODO Package - mpv
 - /Prioritize sub selection script/
-  - *Visit:* [[https://github.com/CogentRedTester/mpv-sub-select][mpv-sub-select @ github]]
+  - *Visit:* [[https://github.com/CogentRedTester/mpv-sub-select][Mpv-sub-select @ github]]
 ** DONE Youtube workflow integration
 :LOGBOOK:
 - Note taken on [2025-04-28 Mon 06:08] \\
@@ -211,10 +211,14 @@ CLOSED: [2025-04-22 Tue 18:49]
   - *mpv:* [[id:20071104-5e85-4d24-82a5-cf897074ac96][Integrate mpv youtube link]]
 ** DONE Youtube URL parameters
 CLOSED: [2025-04-28 Mon 09:18]
-- /Set parameters in/ ~URL~ to create video snippets:
-  - Youtube: [[https://developers.google.com/youtube/player_parameters?csw=1#Parameters][player-parameters]]
-  - Reddit: [[https://l.opnxng.com/r/youtube/comments/2eu12t/modify_youtube_url_for_specific_start_and_stop/][youtube specify start AND stop time]]
-    - Example: [[https://www.youtube.com/embed/WAm_S3K_zjg?start=01&end=51][omen-icebox-oneway]]
+- *Goal:* /Set parameters in/ ~URL~ to create video snippets:
+  - *Materials:*
+    - [[https://developers.google.com/youtube/player_parameters?csw=1#Parameters][Player-parameters @ Youtube-doc]]
+    - [[https://l.opnxng.com/r/youtube/comments/2eu12t/modify_youtube_url_for_specific_start_and_stop/][youtube specify start AND stop time @ Reddit]]
+    - [[https://a.opnxng.com/exchange/stackoverflow.com/questions/68169842/is-there-a-comment-character-for-urls][Comments in url @ Overflow]]
+  - *Examples:*
+    - [[https://www.youtube.com/embed/WAm_S3K_zjg?start=01&end=51][with ~embed~ attr]]
+    - [[https://www.youtube.com/watch?v=rP5V2CkHJfo#__preview][with comment]]
 * TODO House-keeping notes repo :ORGMODE:ORGZLY:
 - /Cleaning unecessary spacing and tune in with orgzly/
   - [x] [[file:capture.org][capture]]
@@ -251,8 +255,10 @@ DEADLINE: <2025-05-01 Thu 21:30>
 ** TODO Manage floating windows
 DEADLINE: <2025-05-01 Thu 18:00>
 - *Goal:* /Add floating windows for quick preview of media files/
-  - *Visit:* [[https://github.com/qtile/qtile/issues/1260#issuecomment-913327960][floating window focus discussion @ Github]]
-  - *Visit:* [[https://github.com/qtile/qtile/wiki/floating-windows][floating windows @ Github-wiki]]
+- *Materials:*
+  - [[https://github.com/qtile/qtile/issues/1260#issuecomment-913327960][floating window focus discussion @ Github]]
+  - [[https://github.com/qtile/qtile/wiki/floating-windows][floating windows @ Github-wiki]]
+  - [[https://l.opnxng.com/r/qtile/comments/w240e0/is_it_possible_to_move_around_floating_windows/][Resize floating windows @ Reddit]]
 ** TODO Windows grouping
 DEADLINE: <2025-05-01 Thu 18:00>
 - *Goal:* /Assign grouping for windows with the same wm_class/

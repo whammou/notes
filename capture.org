@@ -31,14 +31,14 @@ CLOSED: [2025-04-19 Sat 06:11] DEADLINE: <2025-04-18 Fri 19:00>
      - [[https://evesdropper.dev/files/luasnip/ultisnips-to-luasnip/][nvim luasnip setup]]
      - [[https://sbulav.github.io/vim/neovim-setting-up-luasnip/][Neovim setting up snippets with luasnip]]
 ** DONE Configure blink.cmp
-DEADLINE: <2025-04-30 Wed 18:00> CLOSED: [2025-04-30 Wed 22:05]
+CLOSED: [2025-04-30 Wed 22:05] DEADLINE: <2025-04-30 Wed 18:00>
 - /Successfully source/ ~lua-snip~ /with/ ~blink.cmp~
 - *Visit:* 
    - [[https://cmp.saghen.dev/configuration/snippets#luasnip][source luasnip guide]]
    - [[https://cmp.saghen.dev/configuration/snippets#luasnip][blink.cmp documentaion]]
    - [[https://github.com/Saghen/blink.cmp/discussions/1391][blink.cmp luasnip issue]]
 ** DONE Write friendly-snippets
-DEADLINE: <2025-04-30 Wed 18:30> CLOSED: [2025-04-30 Wed 22:05]
+CLOSED: [2025-04-30 Wed 22:05] DEADLINE: <2025-04-30 Wed 18:30>
 - /Write snippets in VSCode style or using/ ~luasnip~
 - *Visit:*
    - [[https://code.visualstudio.com/docs/editor/userdefinedsnippets][Snippets in vscode]]

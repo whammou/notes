@@ -189,7 +189,7 @@ DEADLINE: <2025-05-02 Fri 20:00>
 - /Use youtube for documentation:/
 ** DOING Package configurations [50%]
 - *Goal:* /Configure packages for smoother experiences/
-*** DONE Package - yt-dlp
+*** DONE Youtube downloader - yt-dlp :YTDLP:
 CLOSED: [2025-04-22 Tue 18:49]
 - Note taken on [2025-04-22 Tue 18:49] \\
   yt-dlp download file format in mpv
@@ -197,7 +197,7 @@ CLOSED: [2025-04-22 Tue 18:49]
       ytdl-format = 'worstvideo[height>=720]+bestaudio'
       #+END_SRC
   - Youtube [[https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file][Cli-youtube-downloader @ Github]]
-*** TODO Package - mpv
+*** TODO Youtube viewer - mpv :MPV:
 - /Prioritize sub selection script/
   - *Visit:* [[https://github.com/CogentRedTester/mpv-sub-select][Mpv-sub-select @ github]]
 ** DONE Youtube workflow integration
@@ -217,8 +217,12 @@ CLOSED: [2025-04-28 Mon 09:18]
     - [[https://l.opnxng.com/r/youtube/comments/2eu12t/modify_youtube_url_for_specific_start_and_stop/][youtube specify start AND stop time @ Reddit]]
     - [[https://a.opnxng.com/exchange/stackoverflow.com/questions/68169842/is-there-a-comment-character-for-urls][Comments in url @ Overflow]]
   - *Examples:*
-    - [[https://www.youtube.com/embed/WAm_S3K_zjg?start=01&end=51][with ~embed~ attr]]
-    - [[https://www.youtube.com/watch?v=rP5V2CkHJfo#__preview][with comment]]
+    - [x] [[https://www.youtube.com/embed/WAm_S3K_zjg?start=01&end=51][with ~embed~ attr]]
+    - [x] [[https://www.youtube.com/watch?v=rP5V2CkHJfo#__preview][with comment]]
+    - [x] [[https://www.youtube.com/embed/WAm_S3K_zjg?start=01&end=51#__preview][With ~embed~ and ~comment~ ]]
+*** Specify URL
+- *Goal:* /Specify normal url or preview url/
+- *Visit:* [[https://docs.mapp.com/v1/docs/url-encoding-and-what-characters-are-valid-in-a-uri][URL comment character @ Search]]
 * TODO House-keeping notes repo :ORGMODE:ORGZLY:
 - /Cleaning unecessary spacing and tune in with orgzly/
   - [x] [[file:capture.org][capture]]
@@ -238,8 +242,8 @@ CLOSED: [2025-04-28 Mon 09:18]
   - *Run:* ~echo $DEFAULT_FZF_OPTS~
 ** Function fzf
 - /Less keystrokes when using/ ~fzf~
-* TODO Download gui assets :YOUTUBE:
-DEADLINE: <2025-05-02 Fri 19:00>
+* ABORTED Download gui assets :YOUTUBE:
+DEADLINE: <2025-05-02 Fri 19:00> CLOSED: [2025-05-04 Sun 09:42]
 :PROPERTIES:
 :ID:       e468780d-c925-4f35-b766-a00673cae38d
 :END:
@@ -250,7 +254,7 @@ DEADLINE: <2025-05-01 Thu 21:30>
   - *Visit:* 
     - [[https://wiki.archlinux.org/title/Systemd/User][Systemd/User @ archwiki]]
     - [[https://a.opnxng.com/exchange/unix.stackexchange.com/questions/224992/where-do-i-put-my-systemd-unit-file][Systemd user config explain]]
-* Manage windows spawn/layout :QTILE:
+* Manage windows spawn/layout [%] :QTILE:
 - *Goal:* /Assign spawn grouping and layouts/
 ** TODO Manage floating windows
 DEADLINE: <2025-05-01 Thu 18:00>
@@ -259,6 +263,7 @@ DEADLINE: <2025-05-01 Thu 18:00>
   - [[https://github.com/qtile/qtile/issues/1260#issuecomment-913327960][floating window focus discussion @ Github]]
   - [[https://github.com/qtile/qtile/wiki/floating-windows][floating windows @ Github-wiki]]
   - [[https://l.opnxng.com/r/qtile/comments/w240e0/is_it_possible_to_move_around_floating_windows/][Resize floating windows @ Reddit]]
+  - [[https://l.opnxng.com/r/qtile/comments/tw9apn/spawn_a_terminal_with_command_and_make_it_floating/][Float rule per custom window(WM_CLASS) @ Reddit]]
 ** TODO Windows grouping
 DEADLINE: <2025-05-01 Thu 18:00>
 - *Goal:* /Assign grouping for windows with the same wm_class/
@@ -266,8 +271,8 @@ DEADLINE: <2025-05-01 Thu 18:00>
 * TODO System file-tag :LINUX:
 - *Goal:* /Assign attribute to a file/
   - *Visit:* [[https://a.opnxng.com/exchange/unix.stackexchange.com/questions/683017/how-to-tag-any-file-on-the-unix-system][File-tag @ Overflow]]
-* TODO Remind her :DATING:
-DEADLINE: <2025-05-01 Thu 14:00>
+* ABORTED Remind her :DATING:
+DEADLINE: <2025-05-01 Thu 14:00> CLOSED: [2025-05-04 Sun 09:42]
 :PROPERTIES:
 :ID:       319890b9-4539-4ea1-9fcb-c34045f94d8c
 :END:
@@ -275,3 +280,22 @@ DEADLINE: <2025-05-01 Thu 14:00>
   - [ ] Tiramisu - Hỷ lâm Môn
   - [ ] Thuốc mề đay
   - [ ] Dầu mề đay
+* Qutebrowser config [66%] :QUTEBROWSER:
+- *Goal:* implement text to speech to qutebrowser
+- *Stumble upon:* [[https://redlib.seasi.dev/r/qutebrowser/comments/w4pv2v/configpy_ideas/][qutebrowser tts config idea]]
+** DONE Rebind set-mark function
+CLOSED: [2025-01-28 Tue 03:19]
+- *Goal:* rebind set-mark func to match vim
+  
+#+NAME: config.py bind command
+#+BEGIN_SRC: python
+config.bind('m', 'mode-enter set_mark')
+#+END_SRC
+** DONE Qutebrowser start-page
+CLOSED: [2025-05-04 Sun 08:44]
+Add qutebrowser start-page
+Visit:* [[https://nimplex.github.io/Minimal-StartPage/][start-page]]
+** TODO Workaround window-bg
+- *Goal:* /Run new window in background (prevent focus stealing)/
+- *Visit:* [[https://github.com/qutebrowser/qutebrowser/issues/3819][Qutebrowser new window in background @ Github]]
+  

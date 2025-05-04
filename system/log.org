@@ -446,7 +446,7 @@ CLOSED: [2025-04-12 Sat 20:58]
 - /Error: mpv - Your hardware does not support hardware acceleration decoding AV1 format/
   - *Visit:* [[https://github.com/mpv-player/mpv/issues/13708][mpv-issue@github]]
 ** DONE Qtile spawn keybind :QTILE:
-DEADLINE: <2025-04-23 Wed 22:00> CLOSED: [2025-04-23 Wed 23:01]
+CLOSED: [2025-04-23 Wed 23:01] DEADLINE: <2025-04-23 Wed 22:00>
 - /Create ~lazy.spawn~ keybind for qtile [[file:~/.config/qtile/settings/keymaps.py][~keymaps~]]/
   - Created ~lazy.spawn~ method
     #+BEGIN_SRC python

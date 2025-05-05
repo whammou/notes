@@ -280,7 +280,7 @@ DEADLINE: <2025-05-01 Thu 14:00> CLOSED: [2025-05-04 Sun 09:42]
   - [ ] Tiramisu - Hỷ lâm Môn
   - [ ] Thuốc mề đay
   - [ ] Dầu mề đay
-* Qutebrowser config [66%] :QUTEBROWSER:
+* Qutebrowser config [100%] :QUTEBROWSER:
 - *Goal:* implement text to speech to qutebrowser
 - *Stumble upon:* [[https://redlib.seasi.dev/r/qutebrowser/comments/w4pv2v/configpy_ideas/][qutebrowser tts config idea]]
 ** DONE Rebind set-mark function
@@ -295,7 +295,17 @@ config.bind('m', 'mode-enter set_mark')
 CLOSED: [2025-05-04 Sun 08:44]
 Add qutebrowser start-page
 Visit:* [[https://nimplex.github.io/Minimal-StartPage/][start-page]]
-** TODO Workaround window-bg
+** DONE Workaround window-bg
+CLOSED: [2025-05-05 Mon 06:28]
+:LOGBOOK:
+- Note taken on [2025-05-05 Mon 07:26] \\
+  Workaround ~qutebrowser~ using ~xdotool~ to detect invisible ~windows~ and take advantage of ~tabs.tabs_are_windows~ to set every ~tabs~ to ~windows~ ~new_instance_open_target~ to set newly spawned ~windows~ to ~bg-windows~
+  *Commit:* [[https://github.com/whammou/dotfiles/commit/bd57d28a018468f17aa233bc31158da9730af7f4][Qutebrowser workaround @ Github]]
+:END:
 - *Goal:* /Run new window in background (prevent focus stealing)/
-- *Visit:* [[https://github.com/qutebrowser/qutebrowser/issues/3819][Qutebrowser new window in background @ Github]]
-  
+  - *Visit:* [[https://github.com/qutebrowser/qutebrowser/issues/3819][Qutebrowser new window in background @ Github]]
+  - *Visit:* [[https://stackoverflow.com/questions/9117507/linux-unix-command-to-determine-if-process-is-running][Determine if qutebrowser is running @ Overflow]]
+
+** Redirect URL
+- *Goal:* /Redirect URL via user-scripts/
+  - *Visit:* [[https://l.opnxng.com/r/qutebrowser/comments/mvd89k/is_there_a_way_to_implement_redirect_links_in/][Redirect URL @ Reddit]]

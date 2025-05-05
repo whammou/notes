@@ -7,7 +7,7 @@
 - *Stumble upon:* [[https://github.com/hrsh7th/nvim-cmp/issues/179][issue@github]]
 - *Goal(s):* config nvim to work with nvim-cmp nvim-supertab
 * DOING Overhaul Note repo [50%] :ORGMODE:GITHUB:
-DEADLINE: <2025-05-01 Thu 20:00>
+DEADLINE: <2025-05-05 Mon 20:00>
 - *Goal(s):* update note repo structure for more optimal workflow
 - *NOTE:* checkout [[./README.org][README]] and find a suitable repo structure
 ** ABORTED Modify README
@@ -115,7 +115,7 @@ CLOSED: [2025-04-19 Sat 17:52]
 CLOSED: [2025-04-08 Tue 18:46] DEADLINE: <2025-04-05 Sat 22:00>
 - /Suggestions for eyebrows-care/
 * DOING Optimal sleep time :SELFCARE:
-DEADLINE: <2025-05-01 Thu 21:00>
+DEADLINE: <2025-05-05 Mon 21:00>
 :PROPERTIES:
 :ID:       b7abea60-bd6a-4bb4-9aa6-5e7ccfa0ace5
 :END:
@@ -142,7 +142,7 @@ CLOSED: [2025-04-23 Wed 22:44] DEADLINE: <2025-04-23 Wed 22:00>
 - /Setup qutebrowser-profiles for better session managements/
   - *Run* ~qutebrowser-profile --new --load "profile"~
 * TODO English doc :SOCIAL:
-DEADLINE: <2025-05-02 Fri 23:00>
+DEADLINE: <2025-05-06 Tue 23:00>
 :PROPERTIES:
 :ID:       6aaa4c17-f24d-4c4b-8956-d2884a404563
 :END:
@@ -172,7 +172,7 @@ CLOSED: [2025-04-20 Sun 23:39] DEADLINE: <2025-04-21 Mon 22:00>
 CLOSED: [2025-04-14 Mon 21:53] DEADLINE: <2025-04-14 Mon 21:00>
 - /Add watchlist file to/ ~gitignore~
 * TODO Auto commit repo :GIT:
-DEADLINE: <2025-05-02 Fri 20:00>
+DEADLINE: <2025-05-06 Tue 20:00>
 :PROPERTIES:
 :ID:       1c814ec1-f296-4b5a-8631-2a0d970d14a0
 :END:
@@ -249,7 +249,7 @@ DEADLINE: <2025-05-02 Fri 19:00> CLOSED: [2025-05-04 Sun 09:42]
 :END:
 - *Gui assets:* [[https://www.flaticon.com/free-icons/ui][flaticon]]
 * TODO Setup systemd user-config :SYSTEMD:
-DEADLINE: <2025-05-01 Thu 21:30>
+DEADLINE: <2025-05-05 Mon 21:30>
 - /Successfully translate current services to user-services/
   - *Visit:* 
     - [[https://wiki.archlinux.org/title/Systemd/User][Systemd/User @ archwiki]]
@@ -257,7 +257,12 @@ DEADLINE: <2025-05-01 Thu 21:30>
 * Manage windows spawn/layout [%] :QTILE:
 - *Goal:* /Assign spawn grouping and layouts/
 ** TODO Manage floating windows
-DEADLINE: <2025-05-01 Thu 18:00>
+DEADLINE: <2025-05-05 Mon 18:00>
+:LOGBOOK:
+- Note taken on [2025-05-05 Mon 08:21] \\
+  - Added prevent *focus stealing hook* to ~qtile~
+     - *Visit:* [[https://github.com/whammou/dotfiles/commit/56ee9ce8c65ed7b2dba894a5ba294a285c2504f0][Added prevent_focus_stealing hook @ Commit]]
+:END:
 - *Goal:* /Add floating windows for quick preview of media files/
 - *Materials:*
   - [[https://github.com/qtile/qtile/issues/1260#issuecomment-913327960][floating window focus discussion @ Github]]
@@ -265,7 +270,7 @@ DEADLINE: <2025-05-01 Thu 18:00>
   - [[https://l.opnxng.com/r/qtile/comments/w240e0/is_it_possible_to_move_around_floating_windows/][Resize floating windows @ Reddit]]
   - [[https://l.opnxng.com/r/qtile/comments/tw9apn/spawn_a_terminal_with_command_and_make_it_floating/][Float rule per custom window(WM_CLASS) @ Reddit]]
 ** TODO Windows grouping
-DEADLINE: <2025-05-01 Thu 18:00>
+DEADLINE: <2025-05-05 Mon 18:00>
 - *Goal:* /Assign grouping for windows with the same wm_class/
   - *Visit:* [[https://github.com/aravinda0/qtile-bonsai/discussions/12#discussioncomment-11095207][new window grouping @ Github-discussion]]
 * TODO System file-tag :LINUX:

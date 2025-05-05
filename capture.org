@@ -265,10 +265,10 @@ DEADLINE: <2025-05-05 Mon 18:00>
 :END:
 - *Goal:* /Add floating windows for quick preview of media files/
 - *Materials:*
-  - [[https://github.com/qtile/qtile/issues/1260#issuecomment-913327960][floating window focus discussion @ Github]]
-  - [[https://github.com/qtile/qtile/wiki/floating-windows][floating windows @ Github-wiki]]
-  - [[https://l.opnxng.com/r/qtile/comments/w240e0/is_it_possible_to_move_around_floating_windows/][Resize floating windows @ Reddit]]
-  - [[https://l.opnxng.com/r/qtile/comments/tw9apn/spawn_a_terminal_with_command_and_make_it_floating/][Float rule per custom window(WM_CLASS) @ Reddit]]
+  - [ ]  [[https://github.com/qtile/qtile/issues/1260#issuecomment-913327960][floating window focus discussion @ Github]]
+  - [ ]  [[https://github.com/qtile/qtile/wiki/floating-windows][floating windows @ Github-wiki]]
+  - [ ]  [[https://l.opnxng.com/r/qtile/comments/w240e0/is_it_possible_to_move_around_floating_windows/][Resize floating windows @ Reddit]]
+  - [ ]  [[https://l.opnxng.com/r/qtile/comments/tw9apn/spawn_a_terminal_with_command_and_make_it_floating/][Float rule per custom window(WM_CLASS) @ Reddit]]
 ** TODO Windows grouping
 DEADLINE: <2025-05-05 Mon 18:00>
 - *Goal:* /Assign grouping for windows with the same wm_class/
@@ -310,7 +310,6 @@ CLOSED: [2025-05-05 Mon 06:28]
 - *Goal:* /Run new window in background (prevent focus stealing)/
   - *Visit:* [[https://github.com/qutebrowser/qutebrowser/issues/3819][Qutebrowser new window in background @ Github]]
   - *Visit:* [[https://stackoverflow.com/questions/9117507/linux-unix-command-to-determine-if-process-is-running][Determine if qutebrowser is running @ Overflow]]
-
 ** Redirect URL
 - *Goal:* /Redirect URL via user-scripts/
   - *Visit:* [[https://l.opnxng.com/r/qutebrowser/comments/mvd89k/is_there_a_way_to_implement_redirect_links_in/][Redirect URL @ Reddit]]

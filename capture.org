@@ -115,7 +115,7 @@ CLOSED: [2025-04-19 Sat 17:52]
 CLOSED: [2025-04-08 Tue 18:46] DEADLINE: <2025-04-05 Sat 22:00>
 - /Suggestions for eyebrows-care/
 * DONE Optimal sleep time :SELFCARE:
-DEADLINE: <2025-05-07 Wed 21:00> CLOSED: [2025-05-07 Wed 12:04]
+CLOSED: [2025-05-07 Wed 12:04] DEADLINE: <2025-05-07 Wed 21:00>
 :PROPERTIES:
 :ID:       b7abea60-bd6a-4bb4-9aa6-5e7ccfa0ace5
 :END:
@@ -237,7 +237,7 @@ CLOSED: [2025-05-04 Sun 09:42] DEADLINE: <2025-05-02 Fri 19:00>
 :END:
 - *Gui assets:* [[https://www.flaticon.com/free-icons/ui][flaticon]]
 * ABORTED Setup systemd user-config :SYSTEMD:
-DEADLINE: <2025-05-07 Wed 21:30> CLOSED: [2025-05-07 Wed 12:02]
+CLOSED: [2025-05-07 Wed 12:02] DEADLINE: <2025-05-07 Wed 21:30>
 - /Successfully translate current services to user-services/
   - *Visit:* 
     - [[https://wiki.archlinux.org/title/Systemd/User][Systemd/User @ archwiki]]
@@ -264,7 +264,7 @@ DEADLINE: <2025-05-07 Wed 18:00>
 - *Goal:* /Checkout hooks and custom functions e.g ~expose command~/
 - *Visit:* [[https://docs.qtile.org/en/latest/manual/config/hooks.html][Hooks and Commands @ Qtile-doc]]
 ** ABORTED Windows grouping
-DEADLINE: <2025-05-05 Mon 18:00> CLOSED: [2025-05-06 Tue 11:16]
+CLOSED: [2025-05-06 Tue 11:16] DEADLINE: <2025-05-05 Mon 18:00>
 - *Goal:* /Assign grouping for windows with the same wm_class/
   - *Visit:* [[https://github.com/aravinda0/qtile-bonsai/discussions/12#discussioncomment-11095207][new window grouping @ Github-discussion]]
 * TODO System file-tag :LINUX:
@@ -300,7 +300,7 @@ CLOSED: [2025-05-04 Sun 08:44]
 *** DONE Workaround window-bg
 CLOSED: [2025-05-07 Wed 12:28]
 :PROPERTIES:
-:ID: 7a4c8a36-bc6b-4050-9448-a2aa9403ad16
+:ID:       7a4c8a36-bc6b-4050-9448-a2aa9403ad16
 :END:
 :LOGBOOK:
 - Note taken on [2025-05-05 Mon 07:26] \\
@@ -330,7 +330,6 @@ DEADLINE: <2025-05-07 Wed 17:00>
 - *Goal:* /Redirect URL via user-scripts/
   - *Visit:* [[https://l.opnxng.com/r/qutebrowser/comments/mvd89k/is_there_a_way_to_implement_redirect_links_in/][Redirect URL @ Reddit]]
   - *Visit:* [[https://github.com/gicrisf/swapforqute][Redirect URL script @ Github]]
-
 ** DONE Hardware Acceleration
 CLOSED: [2025-04-18 Fri 14:16] DEADLINE: <2025-04-16 Wed 16:00>
 - *Goal:* /Enable hardware acceleration/

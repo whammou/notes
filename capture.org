@@ -115,7 +115,7 @@ CLOSED: [2025-04-19 Sat 17:52]
 CLOSED: [2025-04-08 Tue 18:46] DEADLINE: <2025-04-05 Sat 22:00>
 - /Suggestions for eyebrows-care/
 * DONE Optimal sleep time :SELFCARE:
-DEADLINE: <2025-05-07 Wed 21:00> CLOSED: [2025-05-07 Wed 12:04]
+CLOSED: [2025-05-07 Wed 12:04] DEADLINE: <2025-05-07 Wed 21:00>
 :PROPERTIES:
 :ID:       b7abea60-bd6a-4bb4-9aa6-5e7ccfa0ace5
 :END:
@@ -237,7 +237,7 @@ CLOSED: [2025-05-04 Sun 09:42] DEADLINE: <2025-05-02 Fri 19:00>
 :END:
 - *Gui assets:* [[https://www.flaticon.com/free-icons/ui][flaticon]]
 * ABORTED Setup systemd user-config :SYSTEMD:
-DEADLINE: <2025-05-07 Wed 21:30> CLOSED: [2025-05-07 Wed 12:02]
+CLOSED: [2025-05-07 Wed 12:02] DEADLINE: <2025-05-07 Wed 21:30>
 - /Successfully translate current services to user-services/
   - *Visit:* 
     - [[https://wiki.archlinux.org/title/Systemd/User][Systemd/User @ archwiki]]
@@ -276,3 +276,146 @@ DEADLINE: <2025-05-08 Thu 18:00>
 CLOSED: [2025-05-08 Thu 14:27]
 - *Goal:* /Assign attribute to a file/
   - *Visit:* [[https://a.opnxng.com/exchange/unix.stackexchange.com/questions/683017/how-to-tag-any-file-on-the-unix-system][File-tag @ Overflow]]
+<<<<<<< HEAD
+||||||| c221dbf
+* ABORTED Remind her :DATING:
+CLOSED: [2025-05-04 Sun 09:42] DEADLINE: <2025-05-01 Thu 14:00>
+:PROPERTIES:
+:ID:       319890b9-4539-4ea1-9fcb-c34045f94d8c
+:END:
+- *Goal:* /To buy list/
+  - [ ] Tiramisu - Hỷ lâm Môn
+  - [ ] Thuốc mề đay
+  - [ ] Dầu mề đay
+* Qutebrowser config [71%] :QUTEBROWSER:
+- *Goal:* implement text to speech to qutebrowser
+  - *Stumble upon:* [[https://redlib.seasi.dev/r/qutebrowser/comments/w4pv2v/configpy_ideas/][Qutebrowser tts config idea @ Reddit]]
+** DONE Rebind set-mark function
+CLOSED: [2025-01-28 Tue 03:19]
+- *Goal:* rebind set-mark func to match vim
+- Note taken on [2025-05-06 Tue 21:43] \\
+  - Bookmark bind
+      #+NAME: config.py bind command
+      #+BEGIN_SRC: python
+      config.bind('m', 'mode-enter set_mark')
+      #+END_SRC
+** DONE Qutebrowser start-page
+CLOSED: [2025-05-04 Sun 08:44]
+- *Goal:* /Add qutebrowser start-page/
+  - *Visit:* [[https://nimplex.github.io/Minimal-StartPage/][start-page @ Search]]
+** Qutebrowser with Qtile :QTILE:
+- *Goal:* /Integrate qutebrowser to qtile window manager/
+*** DONE Workaround window-bg
+CLOSED: [2025-05-07 Wed 12:28]
+:PROPERTIES:
+:ID: 7a4c8a36-bc6b-4050-9448-a2aa9403ad16
+:END:
+:LOGBOOK:
+- Note taken on [2025-05-05 Mon 07:26] \\
+Workaround ~qutebrowser~ using ~xdotool~ to detect invisible ~windows~ and take advantage of ~tabs.tabs_are_windows~ to set every ~tabs~ to ~windows~ ~new_instance_open_target~ to set newly spawned ~windows~ to ~bg-windows~
+*Commit:* [[https://github.com/whammou/dotfiles/commit/bd57d28a018468f17aa233bc31158da9730af7f4][Qutebrowser workaround @ Github]]
+:END:
+- *Goal:* /Run new window in background (prevent focus stealing)/
+  - *Visit:* [[https://github.com/qutebrowser/qutebrowser/issues/3819][Qutebrowser new window in background @ Github]]
+  - *Visit:* [[https://stackoverflow.com/questions/9117507/linux-unix-command-to-determine-if-process-is-running][Determine if qutebrowser is running @ Overflow]]
+**** DONE [BUG] Daemon messed up qtile focus
+CLOSED: [2025-04-20 Sun 23:39] DEADLINE: <2025-04-21 Mon 22:00>
+:LOGBOOK:
+- Note taken on [2025-05-07 Wed 12:17] \\
+*Run* ~qutebrowser --nowindow~ to create startup instance (faster access using ~qutebrowser_instance~ script) 
+- !NOTE: Daemon is dead after killing first instance via ~:q~
+:END:
+- *Goal:* /Check out Qutebrowser-daemon script/
+  - *Visit:* [[https://gist.github.com/knatsakis/8cf329853330893cd2d7fa3dbd5692b0][Qutebrowse-daemon script @ Github]]
+  - *Checkout:* [[Workaround window-bg][[BUG] Workaround daemon next window focus bug @ Org]]
+*** TODO Spawn layout commands
+DEADLINE: <2025-05-07 Wed 17:00>
+- *Goal:* /Create script to let qtile manage spawn position of new window/
+  - *Run:* ~qtile cmd-obj -o layout -f spawn_split -a "qb 'URL'" "x"~ 
+    - [ ] Create alias
+    - [ ] Crreate keybinds
+** TODO Redirect URL
+- *Goal:* /Redirect URL via user-scripts/
+  - *Visit:* [[https://l.opnxng.com/r/qutebrowser/comments/mvd89k/is_there_a_way_to_implement_redirect_links_in/][Redirect URL @ Reddit]]
+  - *Visit:* [[https://github.com/gicrisf/swapforqute][Redirect URL script @ Github]]
+
+** DONE Hardware Acceleration
+CLOSED: [2025-04-18 Fri 14:16] DEADLINE: <2025-04-16 Wed 16:00>
+- *Goal:* /Enable hardware acceleration/
+  - *Visit:* [[https://wiki.archlinux.org/title/Hardware_video_acceleration][Hardware acceleration doc @ Archwiki]]
+** ABORTED Create profiles
+CLOSED: [2025-04-23 Wed 22:44] DEADLINE: <2025-04-23 Wed 22:00>
+- *Goal:* /Setup qutebrowser-profiles for better session managements/
+  - *Run* ~qutebrowser-profile --new --load "profile"~
+** 
+=======
+* ABORTED Remind her :DATING:
+CLOSED: [2025-05-04 Sun 09:42] DEADLINE: <2025-05-01 Thu 14:00>
+:PROPERTIES:
+:ID:       319890b9-4539-4ea1-9fcb-c34045f94d8c
+:END:
+- *Goal:* /To buy list/
+  - [ ] Tiramisu - Hỷ lâm Môn
+  - [ ] Thuốc mề đay
+  - [ ] Dầu mề đay
+* Qutebrowser config [71%] :QUTEBROWSER:
+- *Goal:* implement text to speech to qutebrowser
+  - *Stumble upon:* [[https://redlib.seasi.dev/r/qutebrowser/comments/w4pv2v/configpy_ideas/][Qutebrowser tts config idea @ Reddit]]
+** DONE Rebind set-mark function
+CLOSED: [2025-01-28 Tue 03:19]
+- *Goal:* rebind set-mark func to match vim
+- Note taken on [2025-05-06 Tue 21:43] \\
+  - Bookmark bind
+      #+NAME: config.py bind command
+      #+BEGIN_SRC: python
+      config.bind('m', 'mode-enter set_mark')
+      #+END_SRC
+** DONE Qutebrowser start-page
+CLOSED: [2025-05-04 Sun 08:44]
+- *Goal:* /Add qutebrowser start-page/
+  - *Visit:* [[https://nimplex.github.io/Minimal-StartPage/][start-page @ Search]]
+** Qutebrowser with Qtile :QTILE:
+- *Goal:* /Integrate qutebrowser to qtile window manager/
+*** DONE Workaround window-bg
+CLOSED: [2025-05-07 Wed 12:28]
+:PROPERTIES:
+:ID:       7a4c8a36-bc6b-4050-9448-a2aa9403ad16
+:END:
+:LOGBOOK:
+- Note taken on [2025-05-05 Mon 07:26] \\
+Workaround ~qutebrowser~ using ~xdotool~ to detect invisible ~windows~ and take advantage of ~tabs.tabs_are_windows~ to set every ~tabs~ to ~windows~ ~new_instance_open_target~ to set newly spawned ~windows~ to ~bg-windows~
+*Commit:* [[https://github.com/whammou/dotfiles/commit/bd57d28a018468f17aa233bc31158da9730af7f4][Qutebrowser workaround @ Github]]
+:END:
+- *Goal:* /Run new window in background (prevent focus stealing)/
+  - *Visit:* [[https://github.com/qutebrowser/qutebrowser/issues/3819][Qutebrowser new window in background @ Github]]
+  - *Visit:* [[https://stackoverflow.com/questions/9117507/linux-unix-command-to-determine-if-process-is-running][Determine if qutebrowser is running @ Overflow]]
+**** DONE [BUG] Daemon messed up qtile focus
+CLOSED: [2025-04-20 Sun 23:39] DEADLINE: <2025-04-21 Mon 22:00>
+:LOGBOOK:
+- Note taken on [2025-05-07 Wed 12:17] \\
+*Run* ~qutebrowser --nowindow~ to create startup instance (faster access using ~qutebrowser_instance~ script) 
+- !NOTE: Daemon is dead after killing first instance via ~:q~
+:END:
+- *Goal:* /Check out Qutebrowser-daemon script/
+  - *Visit:* [[https://gist.github.com/knatsakis/8cf329853330893cd2d7fa3dbd5692b0][Qutebrowse-daemon script @ Github]]
+  - *Checkout:* [[Workaround window-bg][[BUG] Workaround daemon next window focus bug @ Org]]
+*** TODO Spawn layout commands
+DEADLINE: <2025-05-07 Wed 17:00>
+- *Goal:* /Create script to let qtile manage spawn position of new window/
+  - *Run:* ~qtile cmd-obj -o layout -f spawn_split -a "qb 'URL'" "x"~ 
+    - [ ] Create alias
+    - [ ] Crreate keybinds
+** TODO Redirect URL
+- *Goal:* /Redirect URL via user-scripts/
+  - *Visit:* [[https://l.opnxng.com/r/qutebrowser/comments/mvd89k/is_there_a_way_to_implement_redirect_links_in/][Redirect URL @ Reddit]]
+  - *Visit:* [[https://github.com/gicrisf/swapforqute][Redirect URL script @ Github]]
+** DONE Hardware Acceleration
+CLOSED: [2025-04-18 Fri 14:16] DEADLINE: <2025-04-16 Wed 16:00>
+- *Goal:* /Enable hardware acceleration/
+  - *Visit:* [[https://wiki.archlinux.org/title/Hardware_video_acceleration][Hardware acceleration doc @ Archwiki]]
+** ABORTED Create profiles
+CLOSED: [2025-04-23 Wed 22:44] DEADLINE: <2025-04-23 Wed 22:00>
+- *Goal:* /Setup qutebrowser-profiles for better session managements/
+  - *Run* ~qutebrowser-profile --new --load "profile"~
+** 
+>>>>>>> origin/merge-capture.org-8624710-2025-05-08_143322

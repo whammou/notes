@@ -6,7 +6,7 @@
 - *Stumble upon:* [[https://github.com/hrsh7th/nvim-cmp/issues/179][issue@github]]
 - *Goal(s):* config nvim to work with nvim-cmp nvim-supertab
 * DOING Overhaul Note repo [50%] :ORGMODE:GITHUB:
-DEADLINE: <2025-05-11 Sun 20:00>
+DEADLINE: <2025-05-12 Mon 20:00>
 - *Goal(s):* update note repo structure for more optimal workflow
 - *NOTE:* checkout [[./README.org][README]] and find a suitable repo structure
 ** ABORTED Modify README
@@ -131,12 +131,12 @@ CLOSED: [2025-04-13 Sun 17:51] DEADLINE: <2025-04-12 Sat 23:00>
 - /Create org_agenda_custom_commands custom cammands/
 - *Visit:* [[https://nvim-orgmode.github.io/configuration][nvim-orgmode documentations]]
 * TODO Orgmode desktop notification :ORGMODE:
- DEADLINE: <2025-05-10 Sat 21:20>
+ DEADLINE: <2025-05-11 Sun 19:30>
 - Note taken on [2025-03-29 Sat 13:45] \\
   The following [[https://nvim-orgmode.github.io/configuration#cron][guide]] is written for ~cron~. Modify to work with ~systemd~
 - *Goal:* /Integrate ~orgmode-notification~ to ~system~/
 * TODO English doc :SOCIAL:
-DEADLINE: <2025-05-11 Sun 23:00>
+DEADLINE: <2025-05-12 Mon 23:00>
 :PROPERTIES:
 :ID:       6aaa4c17-f24d-4c4b-8956-d2884a404563
 :END:
@@ -158,7 +158,7 @@ CLOSED: [2025-04-09 Wed 17:46]
 CLOSED: [2025-04-14 Mon 21:53] DEADLINE: <2025-04-14 Mon 21:00>
 - /Add watchlist file to/ ~gitignore~
 * TODO Auto commit repo :GIT:
-DEADLINE: <2025-05-10 Sat 20:00>
+DEADLINE: <2025-05-11 Sun 18:00>
 :PROPERTIES:
 :ID:       1c814ec1-f296-4b5a-8631-2a0d970d14a0
 :END:
@@ -252,7 +252,7 @@ CLOSED: [2025-05-07 Wed 12:02] DEADLINE: <2025-05-07 Wed 21:30>
 * DOING Manage windows spawn/layout [66%] :QTILE:
 - *Goal:* /Assign spawn grouping and layouts/
 ** TODO Manage floating windows
-DEADLINE: <2025-05-10 Sat 18:00>
+DEADLINE: <2025-05-11 Sun 17:00>
 :LOGBOOK:
 - Note taken on [2025-05-05 Mon 08:21] \\
   - Added prevent *focus_stealing_hook* to ~qtile~
@@ -268,11 +268,11 @@ DEADLINE: <2025-05-10 Sat 18:00>
     - [[https://github.com/qtile/qtile/discussions/4049][Keep window above all other windows @Github-issue]]
     - [[https://github.com/qtile/qtile/issues/1145#issuecomment-392771986][App layers @Github-issue]]
 *** TODO Cycle through floating windows
-DEADLINE: <2025-05-10 Sat 20:30>
+DEADLINE: <2025-05-11 Sun 18:30>
 - *Goal:* /Keybind to cycle focus through floating windows/
   - *Visit:* [[https://github.com/qtile/qtile/issues/794][Keybinds @Github-issue]]
 *** TODO Resize floating windows
-DEADLINE: <2025-05-10 Sat 20:20>
+DEADLINE: <2025-05-11 Sun 17:30>
 - *Goal:* /Create keybinds to resize floating windows/
   - [ ] Resize xy
   - [ ] Resize keep aspect ratio

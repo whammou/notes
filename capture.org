@@ -1,13 +1,12 @@
 #+TITLE: Capture
 #+DESCRIPTION: Captures and Quick notes
-
 * PENDING Plain text music playlist :LINUX:
 *Goal:* Plain text music playlist that works with ~ytfzf~ and ~new pipe~
 * PENDING Config nvim-supertab and nvim-cmp :NVIM:
 - *Stumble upon:* [[https://github.com/hrsh7th/nvim-cmp/issues/179][issue@github]]
 - *Goal(s):* config nvim to work with nvim-cmp nvim-supertab
 * DOING Overhaul Note repo [50%] :ORGMODE:GITHUB:
-DEADLINE: <2025-05-08 Thu 20:00>
+DEADLINE: <2025-05-11 Sun 20:00>
 - *Goal(s):* update note repo structure for more optimal workflow
 - *NOTE:* checkout [[./README.org][README]] and find a suitable repo structure
 ** ABORTED Modify README
@@ -121,9 +120,9 @@ CLOSED: [2025-05-07 Wed 12:04] DEADLINE: <2025-05-07 Wed 21:00>
 :END:
 - /Research optimal sleep time/
 - *Visit:*
-  - [[https://youtube.com/watch?v=q7amXedTasQ][Sleep hygeines and habbits @ Youtube]]
-  - [[https://www.youtube.com/watch?v=cyKEfejsVps][Why your sleeping habits arent healthy @ Youtube]]
-  - [[https://www.youtube.com/watch?v=pm0V_66IBvc][How to fix a degen sleep schedule @ Youtube]]
+  - [[https://youtube.com/watch?v=q7amXedTasQ][Sleep hygeines and habbits @Youtube]]
+  - [[https://www.youtube.com/watch?v=cyKEfejsVps][Why your sleeping habits arent healthy @Youtube]]
+  - [[https://www.youtube.com/watch?v=pm0V_66IBvc][How to fix a degen sleep schedule @Youtube]]
 * DONE [#B] Orgmode-nvim agenda custom commands :NVIM:ORGMODE:
 CLOSED: [2025-04-13 Sun 17:51] DEADLINE: <2025-04-12 Sat 23:00>
 - Note taken on [2025-03-27 Thu 09:27] \\
@@ -131,14 +130,13 @@ CLOSED: [2025-04-13 Sun 17:51] DEADLINE: <2025-04-12 Sat 23:00>
 
 - /Create org_agenda_custom_commands custom cammands/
 - *Visit:* [[https://nvim-orgmode.github.io/configuration][nvim-orgmode documentations]]
-* ABORTED Orgmode desktop notification :ORGMODE:
-CLOSED: [2025-04-01 Tue 15:37] DEADLINE: <2025-03-31 Mon 22:00>
+* TODO Orgmode desktop notification :ORGMODE:
+ DEADLINE: <2025-05-10 Sat 21:20>
 - Note taken on [2025-03-29 Sat 13:45] \\
   The following [[https://nvim-orgmode.github.io/configuration#cron][guide]] is written for ~cron~. Modify to work with ~systemd~
-
-- /Integrate ~orgmode-notification~ to ~system~/
+- *Goal:* /Integrate ~orgmode-notification~ to ~system~/
 * TODO English doc :SOCIAL:
-DEADLINE: <2025-05-08 Thu 23:00>
+DEADLINE: <2025-05-11 Sun 23:00>
 :PROPERTIES:
 :ID:       6aaa4c17-f24d-4c4b-8956-d2884a404563
 :END:
@@ -160,7 +158,7 @@ CLOSED: [2025-04-09 Wed 17:46]
 CLOSED: [2025-04-14 Mon 21:53] DEADLINE: <2025-04-14 Mon 21:00>
 - /Add watchlist file to/ ~gitignore~
 * TODO Auto commit repo :GIT:
-DEADLINE: <2025-05-08 Thu 20:00>
+DEADLINE: <2025-05-10 Sat 20:00>
 :PROPERTIES:
 :ID:       1c814ec1-f296-4b5a-8631-2a0d970d14a0
 :END:
@@ -169,25 +167,32 @@ DEADLINE: <2025-05-08 Thu 20:00>
   - [ ] Auto pulling
   - [ ] Auto pushing
 - *Goal:* /Auto commit repo via external packages/
-  - *Visit:* [[https://a.opnxng.com/exchange/stackoverflow.com/questions/420143/making-git-auto-commit][git auto commit @ Overflow]]
+  - *Visit:* [[https://a.opnxng.com/exchange/stackoverflow.com/questions/420143/making-git-auto-commit][git auto commit @Overflow]]
 * TODO Connect to running nvim server :NVIM:
 - *Goal:* /Connect to running/ ~nvim-server~ /apply to/ ~orgmode~
-  - *Visit:* [[https://github.com/neovim/neovim/issues/5035][github.com#\:connect-to-nvim-server]]
+  - *Visit:* [[https://github.com/neovim/neovim/issues/5035][github.com#\:connect-to-nvim-server @Github]]
 * DOING Working with youtube [67%] :LINUX:YOUTUBE:
 - /Use youtube for documentation:/
-** DOING Package configurations [50%]
+** DOING Package configurations [0%]
 - *Goal:* /Configure packages for smoother experiences/
-*** DONE Youtube downloader - yt-dlp :YTDLP:
-CLOSED: [2025-04-22 Tue 18:49]
+*** TODO Youtube downloader - yt-dlp :YTDLP:
+- *Goal:* /Increase yt-dlp downlaod speed/
+  - *Configuration:*
+      #+BEGIN_confini
+      --force-ipv4
+      --legacy-server-connect
+      --throttled-rate 500K
+      --concurrent-fragments 8
+      #+END_confini
 - Note taken on [2025-04-22 Tue 18:49] \\
   yt-dlp download file format in mpv
       #+BEGIN_SRC confini
       ytdl-format = 'worstvideo[height>=720]+bestaudio'
       #+END_SRC
-  - Youtube [[https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file][Cli-youtube-downloader @ Github]]
+  - Youtube [[https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file][Cli-youtube-downloader @Github]]
 *** TODO Youtube viewer - mpv :MPV:
 - /Prioritize sub selection script/
-  - *Visit:* [[https://github.com/CogentRedTester/mpv-sub-select][Mpv-sub-select @ github]]
+  - *Visit:* [[https://github.com/CogentRedTester/mpv-sub-select][Mpv-sub-select @Github]]
 ** DONE Youtube workflow integration
 :LOGBOOK:
 - Note taken on [2025-04-28 Mon 06:08] \\
@@ -201,9 +206,9 @@ CLOSED: [2025-04-22 Tue 18:49]
 CLOSED: [2025-04-28 Mon 09:18]
 - *Goal:* /Set parameters in/ ~URL~ to create video snippets:
   - *Materials:*
-    - [[https://developers.google.com/youtube/player_parameters?csw=1#Parameters][Player-parameters @ Youtube-doc]]
-    - [[https://l.opnxng.com/r/youtube/comments/2eu12t/modify_youtube_url_for_specific_start_and_stop/][youtube specify start AND stop time @ Reddit]]
-    - [[https://a.opnxng.com/exchange/stackoverflow.com/questions/68169842/is-there-a-comment-character-for-urls][Comments in url @ Overflow]]
+    - [[https://developers.google.com/youtube/player_parameters?csw=1#Parameters][Player-parameters @Youtube-doc]]
+    - [[https://l.opnxng.com/r/youtube/comments/2eu12t/modify_youtube_url_for_specific_start_and_stop/][youtube specify start AND stop time @Reddit]]
+    - [[https://a.opnxng.com/exchange/stackoverflow.com/questions/68169842/is-there-a-comment-character-for-urls][Comments in url @Overflow]]
   - *Examples:*
     - [x] [[https://www.youtube.com/embed/WAm_S3K_zjg?start=01&end=51][with ~embed~ attr]]
     - [x] [[https://www.youtube.com/watch?v=rP5V2CkHJfo#__preview][with comment]]
@@ -236,186 +241,60 @@ CLOSED: [2025-05-04 Sun 09:42] DEADLINE: <2025-05-02 Fri 19:00>
 :ID:       e468780d-c925-4f35-b766-a00673cae38d
 :END:
 - *Gui assets:* [[https://www.flaticon.com/free-icons/ui][flaticon]]
-* ABORTED Setup systemd user-config :SYSTEMD:
+* Systemd config :SYSTEMD:
+- *Goal:* /Config systemd/
+** ABORTED Setup systemd user-config
 CLOSED: [2025-05-07 Wed 12:02] DEADLINE: <2025-05-07 Wed 21:30>
 - /Successfully translate current services to user-services/
   - *Visit:* 
-    - [[https://wiki.archlinux.org/title/Systemd/User][Systemd/User @ archwiki]]
-    - [[https://a.opnxng.com/exchange/unix.stackexchange.com/questions/224992/where-do-i-put-my-systemd-unit-file][Systemd user config explain]]
-* DOING Manage windows spawn/layout [33%] :QTILE:
+    - [[https://wiki.archlinux.org/title/Systemd/User][Systemd/User @Archwiki]]
+    - [[https://a.opnxng.com/exchange/unix.stackexchange.com/questions/224992/where-do-i-put-my-systemd-unit-file][Systemd user config explain @Overflow]]
+* DOING Manage windows spawn/layout [66%] :QTILE:
 - *Goal:* /Assign spawn grouping and layouts/
 ** TODO Manage floating windows
-DEADLINE: <2025-05-08 Thu 18:00>
+DEADLINE: <2025-05-10 Sat 18:00>
 :LOGBOOK:
 - Note taken on [2025-05-05 Mon 08:21] \\
   - Added prevent *focus_stealing_hook* to ~qtile~
-     - *Visit:* [[https://github.com/whammou/dotfiles/commit/56ee9ce8c65ed7b2dba894a5ba294a285c2504f0][Added prevent_focus_stealing hook @ Commit]]
+     - *Visit:* [[https://github.com/whammou/dotfiles/commit/56ee9ce8c65ed7b2dba894a5ba294a285c2504f0][Added prevent_focus_stealing hook @Commit]]
 :END:
 - *Goal:* /Add floating windows for quick preview of media files/
 - *Materials:*
-  - [[https://github.com/qtile/qtile/issues/1260#issuecomment-913327960][floating window focus discussion @ Github]]
-  - [[https://github.com/qtile/qtile/wiki/floating-windows][floating windows @ Github-wiki]]
-  - [[https://l.opnxng.com/r/qtile/comments/w240e0/is_it_possible_to_move_around_floating_windows/][Resize floating windows @ Reddit]]
+  - [[https://github.com/qtile/qtile/issues/1260#issuecomment-913327960][floating window focus discussion @Github]]
+  - [[https://github.com/qtile/qtile/wiki/floating-windows][floating windows @Github-wiki]]
+  - [[https://l.opnxng.com/r/qtile/comments/w240e0/is_it_possible_to_move_around_floating_windows/][Resize floating windows @Reddit]]
   - *Topic:*
-    - [[https://l.opnxng.com/r/qtile/comments/tw9apn/spawn_a_terminal_with_command_and_make_it_floating/][Function per custom window(WM_CLASS) @ Reddit]]
-    - [[https://github.com/qtile/qtile/discussions/4049][Keep window above all other windows @ Github-issue]]
-    - [[https://github.com/qtile/qtile/issues/1145#issuecomment-392771986][App layers @ Github-issue]]
+    - [[https://l.opnxng.com/r/qtile/comments/tw9apn/spawn_a_terminal_with_command_and_make_it_floating/][Function per custom window(WM_CLASS) @Reddit]]
+    - [[https://github.com/qtile/qtile/discussions/4049][Keep window above all other windows @Github-issue]]
+    - [[https://github.com/qtile/qtile/issues/1145#issuecomment-392771986][App layers @Github-issue]]
 *** TODO Cycle through floating windows
+DEADLINE: <2025-05-10 Sat 20:30>
 - *Goal:* /Keybind to cycle focus through floating windows/
-  - *Visit:* [[https://github.com/qtile/qtile/issues/794][Keybinds @ Github-issue]]
+  - *Visit:* [[https://github.com/qtile/qtile/issues/794][Keybinds @Github-issue]]
+*** TODO Resize floating windows
+DEADLINE: <2025-05-10 Sat 20:20>
+- *Goal:* /Create keybinds to resize floating windows/
+  - [ ] Resize xy
+  - [ ] Resize keep aspect ratio
 ** PENDING Hooks and custom functions
 CLOSED: [2025-05-08 Thu 14:27]
 - *Goal:* /Checkout hooks and custom functions e.g ~expose command~/
-- *Visit:* [[https://docs.qtile.org/en/latest/manual/config/hooks.html][Hooks and Commands @ Qtile-doc]]
-** TODO Windows grouping
-DEADLINE: <2025-05-08 Thu 18:00>
+- *Visit:* [[https://docs.qtile.org/en/latest/manual/config/hooks.html][Hooks and Commands @Qtile-doc]]
+** PENDING Windows grouping
+DEADLINE: <2025-05-09 Fri 18:00> CLOSED: [2025-05-09 Fri 22:19]
 - [X] *Goal:* /Assign grouping for windows with the same wm_class/
-  - *Visit:* [[https://github.com/aravinda0/qtile-bonsai/discussions/12#discussioncomment-11095207][new window grouping @ Github-discussion]]
+  - *Visit:* [[https://github.com/aravinda0/qtile-bonsai/discussions/12#discussioncomment-11095207][new window grouping @Github-discussion]]
 - [ ] *Goal:* /Assign goruping for *specific* windows with the same wn_class/
 * PENDING System file-tag :LINUX:
 CLOSED: [2025-05-08 Thu 14:27]
 - *Goal:* /Assign attribute to a file/
-  - *Visit:* [[https://a.opnxng.com/exchange/unix.stackexchange.com/questions/683017/how-to-tag-any-file-on-the-unix-system][File-tag @ Overflow]]
-<<<<<<< HEAD
-||||||| c221dbf
-* ABORTED Remind her :DATING:
-CLOSED: [2025-05-04 Sun 09:42] DEADLINE: <2025-05-01 Thu 14:00>
-:PROPERTIES:
-:ID:       319890b9-4539-4ea1-9fcb-c34045f94d8c
-:END:
-- *Goal:* /To buy list/
-  - [ ] Tiramisu - Hỷ lâm Môn
-  - [ ] Thuốc mề đay
-  - [ ] Dầu mề đay
-* Qutebrowser config [71%] :QUTEBROWSER:
-- *Goal:* implement text to speech to qutebrowser
-  - *Stumble upon:* [[https://redlib.seasi.dev/r/qutebrowser/comments/w4pv2v/configpy_ideas/][Qutebrowser tts config idea @ Reddit]]
-** DONE Rebind set-mark function
-CLOSED: [2025-01-28 Tue 03:19]
-- *Goal:* rebind set-mark func to match vim
-- Note taken on [2025-05-06 Tue 21:43] \\
-  - Bookmark bind
-      #+NAME: config.py bind command
-      #+BEGIN_SRC: python
-      config.bind('m', 'mode-enter set_mark')
-      #+END_SRC
-** DONE Qutebrowser start-page
-CLOSED: [2025-05-04 Sun 08:44]
-- *Goal:* /Add qutebrowser start-page/
-  - *Visit:* [[https://nimplex.github.io/Minimal-StartPage/][start-page @ Search]]
-** Qutebrowser with Qtile :QTILE:
-- *Goal:* /Integrate qutebrowser to qtile window manager/
-*** DONE Workaround window-bg
-CLOSED: [2025-05-07 Wed 12:28]
-:PROPERTIES:
-:ID: 7a4c8a36-bc6b-4050-9448-a2aa9403ad16
-:END:
-:LOGBOOK:
-- Note taken on [2025-05-05 Mon 07:26] \\
-Workaround ~qutebrowser~ using ~xdotool~ to detect invisible ~windows~ and take advantage of ~tabs.tabs_are_windows~ to set every ~tabs~ to ~windows~ ~new_instance_open_target~ to set newly spawned ~windows~ to ~bg-windows~
-*Commit:* [[https://github.com/whammou/dotfiles/commit/bd57d28a018468f17aa233bc31158da9730af7f4][Qutebrowser workaround @ Github]]
-:END:
-- *Goal:* /Run new window in background (prevent focus stealing)/
-  - *Visit:* [[https://github.com/qutebrowser/qutebrowser/issues/3819][Qutebrowser new window in background @ Github]]
-  - *Visit:* [[https://stackoverflow.com/questions/9117507/linux-unix-command-to-determine-if-process-is-running][Determine if qutebrowser is running @ Overflow]]
-**** DONE [BUG] Daemon messed up qtile focus
-CLOSED: [2025-04-20 Sun 23:39] DEADLINE: <2025-04-21 Mon 22:00>
-:LOGBOOK:
-- Note taken on [2025-05-07 Wed 12:17] \\
-*Run* ~qutebrowser --nowindow~ to create startup instance (faster access using ~qutebrowser_instance~ script) 
-- !NOTE: Daemon is dead after killing first instance via ~:q~
-:END:
-- *Goal:* /Check out Qutebrowser-daemon script/
-  - *Visit:* [[https://gist.github.com/knatsakis/8cf329853330893cd2d7fa3dbd5692b0][Qutebrowse-daemon script @ Github]]
-  - *Checkout:* [[Workaround window-bg][[BUG] Workaround daemon next window focus bug @ Org]]
-*** TODO Spawn layout commands
-DEADLINE: <2025-05-07 Wed 17:00>
-- *Goal:* /Create script to let qtile manage spawn position of new window/
-  - *Run:* ~qtile cmd-obj -o layout -f spawn_split -a "qb 'URL'" "x"~ 
-    - [ ] Create alias
-    - [ ] Crreate keybinds
-** TODO Redirect URL
-- *Goal:* /Redirect URL via user-scripts/
-  - *Visit:* [[https://l.opnxng.com/r/qutebrowser/comments/mvd89k/is_there_a_way_to_implement_redirect_links_in/][Redirect URL @ Reddit]]
-  - *Visit:* [[https://github.com/gicrisf/swapforqute][Redirect URL script @ Github]]
-
-** DONE Hardware Acceleration
-CLOSED: [2025-04-18 Fri 14:16] DEADLINE: <2025-04-16 Wed 16:00>
-- *Goal:* /Enable hardware acceleration/
-  - *Visit:* [[https://wiki.archlinux.org/title/Hardware_video_acceleration][Hardware acceleration doc @ Archwiki]]
-** ABORTED Create profiles
-CLOSED: [2025-04-23 Wed 22:44] DEADLINE: <2025-04-23 Wed 22:00>
-- *Goal:* /Setup qutebrowser-profiles for better session managements/
-  - *Run* ~qutebrowser-profile --new --load "profile"~
-** 
-=======
-* ABORTED Remind her :DATING:
-CLOSED: [2025-05-04 Sun 09:42] DEADLINE: <2025-05-01 Thu 14:00>
-:PROPERTIES:
-:ID:       319890b9-4539-4ea1-9fcb-c34045f94d8c
-:END:
-- *Goal:* /To buy list/
-  - [ ] Tiramisu - Hỷ lâm Môn
-  - [ ] Thuốc mề đay
-  - [ ] Dầu mề đay
-* Qutebrowser config [71%] :QUTEBROWSER:
-- *Goal:* implement text to speech to qutebrowser
-  - *Stumble upon:* [[https://redlib.seasi.dev/r/qutebrowser/comments/w4pv2v/configpy_ideas/][Qutebrowser tts config idea @ Reddit]]
-** DONE Rebind set-mark function
-CLOSED: [2025-01-28 Tue 03:19]
-- *Goal:* rebind set-mark func to match vim
-- Note taken on [2025-05-06 Tue 21:43] \\
-  - Bookmark bind
-      #+NAME: config.py bind command
-      #+BEGIN_SRC: python
-      config.bind('m', 'mode-enter set_mark')
-      #+END_SRC
-** DONE Qutebrowser start-page
-CLOSED: [2025-05-04 Sun 08:44]
-- *Goal:* /Add qutebrowser start-page/
-  - *Visit:* [[https://nimplex.github.io/Minimal-StartPage/][start-page @ Search]]
-** Qutebrowser with Qtile :QTILE:
-- *Goal:* /Integrate qutebrowser to qtile window manager/
-*** DONE Workaround window-bg
-CLOSED: [2025-05-07 Wed 12:28]
-:PROPERTIES:
-:ID:       7a4c8a36-bc6b-4050-9448-a2aa9403ad16
-:END:
-:LOGBOOK:
-- Note taken on [2025-05-05 Mon 07:26] \\
-Workaround ~qutebrowser~ using ~xdotool~ to detect invisible ~windows~ and take advantage of ~tabs.tabs_are_windows~ to set every ~tabs~ to ~windows~ ~new_instance_open_target~ to set newly spawned ~windows~ to ~bg-windows~
-*Commit:* [[https://github.com/whammou/dotfiles/commit/bd57d28a018468f17aa233bc31158da9730af7f4][Qutebrowser workaround @ Github]]
-:END:
-- *Goal:* /Run new window in background (prevent focus stealing)/
-  - *Visit:* [[https://github.com/qutebrowser/qutebrowser/issues/3819][Qutebrowser new window in background @ Github]]
-  - *Visit:* [[https://stackoverflow.com/questions/9117507/linux-unix-command-to-determine-if-process-is-running][Determine if qutebrowser is running @ Overflow]]
-**** DONE [BUG] Daemon messed up qtile focus
-CLOSED: [2025-04-20 Sun 23:39] DEADLINE: <2025-04-21 Mon 22:00>
-:LOGBOOK:
-- Note taken on [2025-05-07 Wed 12:17] \\
-*Run* ~qutebrowser --nowindow~ to create startup instance (faster access using ~qutebrowser_instance~ script) 
-- !NOTE: Daemon is dead after killing first instance via ~:q~
-:END:
-- *Goal:* /Check out Qutebrowser-daemon script/
-  - *Visit:* [[https://gist.github.com/knatsakis/8cf329853330893cd2d7fa3dbd5692b0][Qutebrowse-daemon script @ Github]]
-  - *Checkout:* [[Workaround window-bg][[BUG] Workaround daemon next window focus bug @ Org]]
-*** TODO Spawn layout commands
-DEADLINE: <2025-05-07 Wed 17:00>
-- *Goal:* /Create script to let qtile manage spawn position of new window/
-  - *Run:* ~qtile cmd-obj -o layout -f spawn_split -a "qb 'URL'" "x"~ 
-    - [ ] Create alias
-    - [ ] Crreate keybinds
-** TODO Redirect URL
-- *Goal:* /Redirect URL via user-scripts/
-  - *Visit:* [[https://l.opnxng.com/r/qutebrowser/comments/mvd89k/is_there_a_way_to_implement_redirect_links_in/][Redirect URL @ Reddit]]
-  - *Visit:* [[https://github.com/gicrisf/swapforqute][Redirect URL script @ Github]]
-** DONE Hardware Acceleration
-CLOSED: [2025-04-18 Fri 14:16] DEADLINE: <2025-04-16 Wed 16:00>
-- *Goal:* /Enable hardware acceleration/
-  - *Visit:* [[https://wiki.archlinux.org/title/Hardware_video_acceleration][Hardware acceleration doc @ Archwiki]]
-** ABORTED Create profiles
-CLOSED: [2025-04-23 Wed 22:44] DEADLINE: <2025-04-23 Wed 22:00>
-- *Goal:* /Setup qutebrowser-profiles for better session managements/
-  - *Run* ~qutebrowser-profile --new --load "profile"~
-** 
->>>>>>> origin/merge-capture.org-8624710-2025-05-08_143322
+  - *Visit:* [[https://a.opnxng.com/exchange/unix.stackexchange.com/questions/683017/how-to-tag-any-file-on-the-unix-system][File-tag @Overflow]]
+* TODO Nvim-orgmode plugins :NVIM:
+- [ ] *Goal:* /Checkout nvim-orgmode plugins/
+  - *Visit:* [[https://nvim-orgmode.github.io/configuration#notifications][Orgmode notification @Nvim-orgmode-doc]]
+- [ ] *Goal:* /Implement iCal workflow with ~Khalorg~/
+  - *Visit:* [[https://nvim-orgmode.github.io/plugins][Nvim-orgmode plugins @Nvim-org-plugins]]
+* TODO Config system notification :DUNST:
+- *Goal:* /Config system notifications with dunst/
+  - *Run:* ~man dunst~
+  - *File:* [[file:~/.config/dunst/dunstrc][dunst config @Confini]]

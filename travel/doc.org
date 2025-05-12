@@ -2,8 +2,5 @@
 #+DESCRIPTION: Description for archive here
 
 * Archives :TRAVEL:
-
 Allocated space for archives
-
 ** Documents :DOC:
-

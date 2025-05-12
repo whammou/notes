@@ -2,17 +2,10 @@
 #+DESCRIPTION: Description for archive here
 
 * Archives :WORK:
-
 Allocated space for archives
-
 ** Documents :DOC:
-
 *** Career Guidance :WORK:
-
 /A guide to develope a career and to find a job/
 *Source:* [[https://old.reddit.com/r/careerguidance/][r/careerguidance]]
-
 *** Failure to launch (hikimori) :WORK:
-
 /A closer look at failure to launch in life/
-

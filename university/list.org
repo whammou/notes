@@ -1,5 +1,4 @@
 #+TITLE: University List
 #+DESCRIPTION: Lists of useful items
-
 * Lists :LIST:UNIVERSITY:
 

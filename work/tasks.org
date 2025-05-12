@@ -2,28 +2,17 @@
 #+DESCRIPTION: Add notebook description here
 
 * Tasks :WORK:
-
 Allocated space for tasks/todos
-
 ** One-off :ONEOFF:
-
 ** Incidental :INCIDENTAL:
-
 ** Coordinated :COORDINATED:
-
 ** Urgent :URGENT:
-
 *** PENDING ID verification :WORK:
-
 - *Goal(s):* update identification and update verify with the bank
 - *Address:* [[https://maps.app.goo.gl/2Fp6YFyGDrs26JAE8][MMV3+M3J, ĐH7, Phong Phú, Bình Chánh]]
 - *Contact:* tel:02838757253
-
 **** Bank ID verification
-
 - *Goal(s):* update new verification with the bank
 - *Address:* [[https://maps.app.goo.gl/HPc8YU7fWxvmYJvr8][d7/204 QL50, Phong Phú, Bình Chánh]]
 - *Contact:* tel:02836364730
-
 ** Recurring :RECURRING:
-

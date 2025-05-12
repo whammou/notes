@@ -2,16 +2,9 @@
 #+DESCRIPTION: Add notebook description here
 
 * Tasks :TRAVEL:
-
 Allocated space for tasks/todos
-
 ** One-off :ONEOFF:
-
 ** Incidental :INCIDENTAL:
-
 ** Coordinated :COORDINATED:
-
 ** Urgent :URGENT:
-
 ** Recurring :RECURRING:
-

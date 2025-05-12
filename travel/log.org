@@ -1,40 +1,26 @@
 #+TITLE: Travel Log
 #+DESCRIPTION: Logs of finished items
-
 * Logs :LOG:TRAVEL:
-
 ** Đà Lạt 13/09/24
-
 *** Visit
-
 **** Food
-
 **** Check-ins
-
 **** Cafe
-
 *** 130924
-
 Taxi: 146K
 Dinner: 50K
-
-Total: 196K
-
+*Total:* 196K
 *** 140924
-
-- Expense tracking:
-  Fuel: 50K*
-  Breakfast: 40K*
-  Xôi: 15K*
-  Bạc Sỉu: 20K*
-  Bánh: 29K~*
-  Nướng: 167.5K*
-  Đậu nành: 22K*
-
-Total: 344K*
-
+Expense tracking:
+Fuel: 50K*
+Breakfast: 40K*
+Xôi: 15K*
+Bạc Sỉu: 20K*
+Bánh: 29K~*
+Nướng: 167.5K*
+Đậu nành: 22K*
+*Total:* 344K*
 *** 150924
-
 Bánh Căn: 200K
 Cf: 260K
 Mì: 310K
@@ -42,22 +28,17 @@ Bánh: 62K
 Bakery: 468K
 lẩu bò: 336K
 Kem bơ: 50K
-
-Total: 1.686K
+*Total:* 1.686K
 
 *** 160924
-
 Cf: 60K*
 Bánh mì: 15K
 Xe máy: 500K
 Xe về: 290K*
 ks: 310K*
-
 ** ABORTED Phê La :ONEOFF:
 CLOSED: [2025-03-23 Sun 21:27] DEADLINE: <2025-03-23 Sun 21:30 -1h>
 :PROPERTIES:
 :ID:       c88e4695-3e14-4617-9912-369ce22e2d26
 :END:
-
 - [ ] Trà sữa Phong Lan size S, trân châu Ô Long
-

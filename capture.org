@@ -6,7 +6,7 @@
 - *Stumble upon:* [[https://github.com/hrsh7th/nvim-cmp/issues/179][issue@github]]
 - *Goal(s):* config nvim to work with nvim-cmp nvim-supertab
 * DOING Overhaul Note repo [50%] :ORGMODE:GITHUB:
-DEADLINE: <2025-05-12 Mon 20:00>
+DEADLINE: <2025-05-13 Tue 20:00>
 - *Goal(s):* update note repo structure for more optimal workflow
 - *NOTE:* checkout [[./README.org][README]] and find a suitable repo structure
 ** ABORTED Modify README
@@ -130,13 +130,13 @@ CLOSED: [2025-04-13 Sun 17:51] DEADLINE: <2025-04-12 Sat 23:00>
 
 - /Create org_agenda_custom_commands custom cammands/
 - *Visit:* [[https://nvim-orgmode.github.io/configuration][nvim-orgmode documentations]]
-* TODO Orgmode desktop notification :ORGMODE:
- DEADLINE: <2025-05-11 Sun 19:30>
+* DONE Orgmode desktop notification :ORGMODE:
+ DEADLINE: <2025-05-11 Sun 19:30> CLOSED: [2025-05-12 Mon 09:10]
 - Note taken on [2025-03-29 Sat 13:45] \\
   The following [[https://nvim-orgmode.github.io/configuration#cron][guide]] is written for ~cron~. Modify to work with ~systemd~
 - *Goal:* /Integrate ~orgmode-notification~ to ~system~/
 * TODO English doc :SOCIAL:
-DEADLINE: <2025-05-12 Mon 23:00>
+DEADLINE: <2025-05-13 Tue 23:00>
 :PROPERTIES:
 :ID:       6aaa4c17-f24d-4c4b-8956-d2884a404563
 :END:
@@ -158,7 +158,7 @@ CLOSED: [2025-04-09 Wed 17:46]
 CLOSED: [2025-04-14 Mon 21:53] DEADLINE: <2025-04-14 Mon 21:00>
 - /Add watchlist file to/ ~gitignore~
 * TODO Auto commit repo :GIT:
-DEADLINE: <2025-05-11 Sun 18:00>
+DEADLINE: <2025-05-12 Mon 18:00>
 :PROPERTIES:
 :ID:       1c814ec1-f296-4b5a-8631-2a0d970d14a0
 :END:
@@ -251,15 +251,15 @@ CLOSED: [2025-05-07 Wed 12:02] DEADLINE: <2025-05-07 Wed 21:30>
     - [[https://a.opnxng.com/exchange/unix.stackexchange.com/questions/224992/where-do-i-put-my-systemd-unit-file][Systemd user config explain @Overflow]]
 * DOING Manage windows spawn/layout [66%] :QTILE:
 - *Goal:* /Assign spawn grouping and layouts/
-** TODO Manage floating windows
-DEADLINE: <2025-05-11 Sun 17:00>
+** DOING Manage floating windows [50%]
+DEADLINE: <2025-05-13 Tue 12:30>
 :LOGBOOK:
 - Note taken on [2025-05-05 Mon 08:21] \\
   - Added prevent *focus_stealing_hook* to ~qtile~
      - *Visit:* [[https://github.com/whammou/dotfiles/commit/56ee9ce8c65ed7b2dba894a5ba294a285c2504f0][Added prevent_focus_stealing hook @Commit]]
 :END:
 - *Goal:* /Add floating windows for quick preview of media files/
-- *Materials:*
+- *References:*
   - [[https://github.com/qtile/qtile/issues/1260#issuecomment-913327960][floating window focus discussion @Github]]
   - [[https://github.com/qtile/qtile/wiki/floating-windows][floating windows @Github-wiki]]
   - [[https://l.opnxng.com/r/qtile/comments/w240e0/is_it_possible_to_move_around_floating_windows/][Resize floating windows @Reddit]]
@@ -267,12 +267,13 @@ DEADLINE: <2025-05-11 Sun 17:00>
     - [[https://l.opnxng.com/r/qtile/comments/tw9apn/spawn_a_terminal_with_command_and_make_it_floating/][Function per custom window(WM_CLASS) @Reddit]]
     - [[https://github.com/qtile/qtile/discussions/4049][Keep window above all other windows @Github-issue]]
     - [[https://github.com/qtile/qtile/issues/1145#issuecomment-392771986][App layers @Github-issue]]
-*** TODO Cycle through floating windows
-DEADLINE: <2025-05-11 Sun 18:30>
+*** DONE Cycle through floating windows
+DEADLINE: <2025-05-11 Sun 18:30> CLOSED: [2025-05-12 Mon 15:54]
 - *Goal:* /Keybind to cycle focus through floating windows/
   - *Visit:* [[https://github.com/qtile/qtile/issues/794][Keybinds @Github-issue]]
+  - *Visit:* [[https://github.com/qtile/qtile/issues?q=is%3Aissue%20multiple%20callbacks&page=1][multiple callbacks keybinding @Gtihub-issue]]
 *** TODO Resize floating windows
-DEADLINE: <2025-05-11 Sun 17:30>
+DEADLINE: <2025-05-12 Mon 17:30>
 - *Goal:* /Create keybinds to resize floating windows/
   - [ ] Resize xy
   - [ ] Resize keep aspect ratio
@@ -298,3 +299,11 @@ CLOSED: [2025-05-08 Thu 14:27]
 - *Goal:* /Config system notifications with dunst/
   - *Run:* ~man dunst~
   - *File:* [[file:~/.config/dunst/dunstrc][dunst config @Confini]]
+* PENDING Markdown folding :NVIM:MARKDOWN:
+CLOSED: [2025-05-12 Mon 09:04]
+- *Goal:* /Markdown folding folds incorretly when in a list/
+  - *References:*
+    - [[https://github.com/nvim-treesitter/nvim-treesitter/pull/3442][Fold sublists instead of lists in markdown @Github-issue]]
+    - [[https://github.com/nvim-treesitter/nvim-treesitter/issues/5366][Markdown folds don't work correctly with nested lists @Github-issue]]
+    - [[https://linkarzu.com/][Resources @Linkarzu]]
+

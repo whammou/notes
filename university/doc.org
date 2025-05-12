@@ -1,9 +1,6 @@
 #+TITLE: University Document
 #+DESCRIPTION: Description for archive here
-
 * Archives :UNIVERSITY:
-
 Allocated space for archives
-
 ** Documents :DOC:
 

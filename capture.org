@@ -1,5 +1,6 @@
 #+TITLE: Capture
 #+DESCRIPTION: Captures and Quick notes
+
 * PENDING Plain text music playlist :LINUX:
 *Goal:* Plain text music playlist that works with ~ytfzf~ and ~new pipe~
 * PENDING Config nvim-supertab and nvim-cmp :NVIM:
@@ -132,7 +133,7 @@ CLOSED: [2025-04-13 Sun 17:51] DEADLINE: <2025-04-12 Sat 23:00>
 - /Create org_agenda_custom_commands custom cammands/
 - *Visit:* [[https://nvim-orgmode.github.io/configuration][nvim-orgmode documentations]]
 * DONE Orgmode desktop notification :ORGMODE:
- DEADLINE: <2025-05-11 Sun 19:30> CLOSED: [2025-05-12 Mon 09:10]
+CLOSED: [2025-05-12 Mon 09:10] DEADLINE: <2025-05-11 Sun 19:30>
 - Note taken on [2025-03-29 Sat 13:45] \\
   The following [[https://nvim-orgmode.github.io/configuration#cron][guide]] is written for ~cron~. Modify to work with ~systemd~
 - *Goal:* /Integrate ~orgmode-notification~ to ~system~/
@@ -268,7 +269,7 @@ CLOSED: [2025-05-07 Wed 12:02] DEADLINE: <2025-05-07 Wed 21:30>
     - [[https://github.com/qtile/qtile/discussions/4049][Keep window above all other windows @Github-issue]]
     - [[https://github.com/qtile/qtile/issues/1145#issuecomment-392771986][App layers @Github-issue]]
 *** DONE Cycle through floating windows
-DEADLINE: <2025-05-11 Sun 18:30> CLOSED: [2025-05-12 Mon 15:54]
+CLOSED: [2025-05-12 Mon 15:54] DEADLINE: <2025-05-11 Sun 18:30>
 - *Goal:* /Keybind to cycle focus through floating windows/
   - *Visit:* [[https://github.com/qtile/qtile/issues/794][Keybinds @Github-issue]]
   - *Visit:* [[https://github.com/qtile/qtile/issues?q=is%3Aissue%20multiple%20callbacks&page=1][multiple callbacks keybinding @Gtihub-issue]]
@@ -282,7 +283,7 @@ CLOSED: [2025-05-08 Thu 14:27]
 - *Goal:* /Checkout hooks and custom functions e.g ~expose command~/
 - *Visit:* [[https://docs.qtile.org/en/latest/manual/config/hooks.html][Hooks and Commands @Qtile-doc]]
 ** PENDING Windows grouping
-DEADLINE: <2025-05-09 Fri 18:00> CLOSED: [2025-05-09 Fri 22:19]
+CLOSED: [2025-05-09 Fri 22:19] DEADLINE: <2025-05-09 Fri 18:00>
 - [X] *Goal:* /Assign grouping for windows with the same wm_class/
   - *Visit:* [[https://github.com/aravinda0/qtile-bonsai/discussions/12#discussioncomment-11095207][new window grouping @Github-discussion]]
 - [ ] *Goal:* /Assign goruping for *specific* windows with the same wn_class/
@@ -313,3 +314,9 @@ DEADLINE: <2025-05-14 Wed 18:00>
 * TODO Toggle program :BASH:
 - *Goal:* /Toggle command using bash script/
   - *References:* [[https://www.youtube.com/watch?v=eBzDiBAcIFo#__preview][A one line bash script to toggle programs on/off @Youtube-DistroTube]]
+* TODO Magic Tape sessions :MAGICTAPE:
+DEADLINE: <2025-05-14 Wed 17:00>
+:PROPERTIES:
+:ID:       8546e69f-f9ab-46d7-b9fc-13356175edbf
+:END:
+- *Goal:* /Create multiple magic-tape sessions using git/

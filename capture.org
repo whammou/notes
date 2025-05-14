@@ -6,8 +6,8 @@
 * PENDING Config nvim-supertab and nvim-cmp :NVIM:
 - *Stumble upon:* [[https://github.com/hrsh7th/nvim-cmp/issues/179][issue@github]]
 - *Goal(s):* config nvim to work with nvim-cmp nvim-supertab
-* DOING Overhaul Note repo [50%] :ORGMODE:GITHUB:
-DEADLINE: <2025-05-13 Tue 20:00>
+* DONE Overhaul Note repo [100%] :ORGMODE:GITHUB:
+DEADLINE: <2025-05-13 Tue 20:00> CLOSED: [2025-05-13 Tue 18:11]
 - *Goal(s):* update note repo structure for more optimal workflow
 - *NOTE:* checkout [[./README.org][README]] and find a suitable repo structure
 ** ABORTED Modify README
@@ -15,7 +15,8 @@ CLOSED: [2025-04-11 Fri 21:41]
 - *Goal(s):* modify and add README content
   - [ ] modify [[./README.org::repo-hierarchy][Hierarchy]]
   - [ ] add template structure
-** TODO Separate archive hierarchy
+** DONE Separate archive hierarchy
+CLOSED: [2025-05-13 Tue 18:11]
 - Note taken on [2025-01-23 Thu 00:09] \\
   Separate ~Logs~ ~Lists~ and ~Documents~ to different files to avoid callbacks
 - *Goal:* optimize ~archive~ hierarchy
@@ -137,7 +138,7 @@ CLOSED: [2025-05-12 Mon 09:10] DEADLINE: <2025-05-11 Sun 19:30>
   The following [[https://nvim-orgmode.github.io/configuration#cron][guide]] is written for ~cron~. Modify to work with ~systemd~
 - *Goal:* /Integrate ~orgmode-notification~ to ~system~/
 * TODO English doc :SOCIAL:
-DEADLINE: <2025-05-13 Tue 23:00>
+DEADLINE: <2025-05-15 Thu 23:00>
 :PROPERTIES:
 :ID:       6aaa4c17-f24d-4c4b-8956-d2884a404563
 :END:
@@ -159,7 +160,7 @@ CLOSED: [2025-04-09 Wed 17:46]
 CLOSED: [2025-04-14 Mon 21:53] DEADLINE: <2025-04-14 Mon 21:00>
 - /Add watchlist file to/ ~gitignore~
 * TODO Auto commit repo :GIT:
-DEADLINE: <2025-05-12 Mon 18:00>
+DEADLINE: <2025-05-15 Thu 18:00>
 :PROPERTIES:
 :ID:       1c814ec1-f296-4b5a-8631-2a0d970d14a0
 :END:
@@ -253,7 +254,6 @@ CLOSED: [2025-05-07 Wed 12:02] DEADLINE: <2025-05-07 Wed 21:30>
 * DOING Manage windows spawn/layout [66%] :QTILE:
 - *Goal:* /Assign spawn grouping and layouts/
 ** DOING Manage floating windows [50%]
-DEADLINE: <2025-05-13 Tue 12:30>
 :LOGBOOK:
 - Note taken on [2025-05-05 Mon 08:21] \\
   - Added prevent *focus_stealing_hook* to ~qtile~
@@ -274,7 +274,7 @@ CLOSED: [2025-05-12 Mon 15:54] DEADLINE: <2025-05-11 Sun 18:30>
   - *Visit:* [[https://github.com/qtile/qtile/issues/794][Keybinds @Github-issue]]
   - *Visit:* [[https://github.com/qtile/qtile/issues?q=is%3Aissue%20multiple%20callbacks&page=1][multiple callbacks keybinding @Gtihub-issue]]
 *** TODO Resize floating windows
-DEADLINE: <2025-05-12 Mon 17:30>
+DEADLINE: <2025-05-14 Wed 20:30>
 - *Goal:* /Create keybinds to resize floating windows/
   - [ ] Resize xy
   - [ ] Resize keep aspect ratio
@@ -307,8 +307,16 @@ CLOSED: [2025-05-12 Mon 09:04]
     - [[https://github.com/nvim-treesitter/nvim-treesitter/pull/3442][Fold sublists instead of lists in markdown @Github-issue]]
     - [[https://github.com/nvim-treesitter/nvim-treesitter/issues/5366][Markdown folds don't work correctly with nested lists @Github-issue]]
     - [[https://linkarzu.com/][Resources @Linkarzu]]
+* TODO Sync orgmode to CalDav :ORGMODE:CALDAV:
+DEADLINE: <2025-05-14 Wed 18:00>
+- *Goal:* /Succefully sync between orgmode and caldav for professional uses/
+  - *References:* [[https://github.com/BartSte/khalorg][khalorg @Github]]
+* TODO Toggle program :BASH:
+DEADLINE: <2025-05-14 Wed 19:30>
+- *Goal:* /Toggle command using bash script/
+  - *References:* [[https://www.youtube.com/watch?v=eBzDiBAcIFo#__preview][A one line bash script to toggle programs on/off @Youtube-DistroTube]]
 * TODO Magic Tape sessions :MAGICTAPE:
-DEADLINE: <2025-05-14 Wed 17:00>
+DEADLINE: <2025-05-14 Wed 20:00>
 :PROPERTIES:
 :ID:       8546e69f-f9ab-46d7-b9fc-13356175edbf
 :END:

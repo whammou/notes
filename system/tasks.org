@@ -68,8 +68,8 @@ CLOSED: [2025-04-12 Sat 22:34] DEADLINE: <2025-04-12 Sat 20:00>
 CLOSED: [2025-04-24 Thu 16:50] DEADLINE: <2025-04-24 Thu 20:30>
 - /Create function to edit current token/
 - *Run:* ~bat --color always $arg &| less --color~
-*** TODO Update systemd dotfiles :SYSTEMD:
-DEADLINE: <2025-05-14 Wed 18:30>
+*** Update systemd dotfiles :SYSTEMD:
+DEADLINE: <2025-05-16 Fri 18:30>
 - *Goal:* /Update systemd config to dotfiles repo/
 ** Incidental :INCIDENTAL:
 *** PENDING Github repo updates track :GITHUB:

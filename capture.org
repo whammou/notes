@@ -230,13 +230,13 @@ CLOSED: [2025-04-28 Mon 09:18]
   - [ ] [[./travel/][travel]]
   - [ ] [[./university/][university]]
   - [ ] [[./work/][work]]
-* TODO Config fzf [%] :FZF:
-- /Config/ ~fzf~ /theme and function//
-** Theme fzf
-- /Change theme to match/ ~nvim-fzf-lua~
+* DOING Config fzf [0%] :FZF:
+- *Goal:* /Config/ ~fzf~ /theme and function//
+** TODO Theme fzf
+- *Goal:* /Change theme to match/ ~nvim-fzf-lua~
   - *Run:* ~echo $DEFAULT_FZF_OPTS~
-** Function fzf
-- /Less keystrokes when using/ ~fzf~
+** TODO Function fzf
+- *Goal:* /Less keystrokes when using/ ~fzf~
 * ABORTED Download gui assets :YOUTUBE:
 CLOSED: [2025-05-04 Sun 09:42] DEADLINE: <2025-05-02 Fri 19:00>
 :PROPERTIES:

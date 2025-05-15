@@ -334,3 +334,9 @@ DEADLINE: <2025-05-16 Fri 20:00>
     - [[https://www.youtube.com/watch?v=UbDyjIIGaxQ#__preview][You've been using AI Wrong @Youtube]]
     - [[https://www.youtube.com/watch?v=5x4s2d3YWak#__preview][How My Projects Fit Together @Youtube]]
     - [[https://github.com/danielmiessler/fabric#Usage][Fabric @Github]]
+* DOING Working with AI [%] :AI:
+:PROPERTIES:
+:ID:       70251f65-3824-4391-94d3-5bb0d1885868
+:END:
+- *Goal:* /Working with AI and learning prompt engineering/
+  - *Visit:* [[https://github.com/danielmiessler/fabric][Fabric @Github]]

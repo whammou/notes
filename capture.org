@@ -327,7 +327,9 @@ DEADLINE: <2025-05-16 Fri 20:00>
 - *Goal:* /Create multiple magic-tape sessions using git/
 * TODO Setup shell ai :AI:
 - *Goal:* /Configure Shell AI using ~fabric~/
-  - *Visit:* [[https://ai.google.dev/gemini-api/docs/api-key][Get Gemini API @Google-studio]]
+  - *Visit:*
+    - [[https://ai.google.dev/gemini-api/docs/api-key][Get Gemini API @Google-studio]]
+    - [[https://github.com/danielmiessler/fabric][Fabric @Github]]
   - *References:* 
     - [[https://www.youtube.com/watch?v=UbDyjIIGaxQ#__preview][You've been using AI Wrong @Youtube]]
     - [[https://www.youtube.com/watch?v=5x4s2d3YWak#__preview][How My Projects Fit Together @Youtube]]

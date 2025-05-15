@@ -7,7 +7,7 @@
 - *Stumble upon:* [[https://github.com/hrsh7th/nvim-cmp/issues/179][issue@github]]
 - *Goal(s):* config nvim to work with nvim-cmp nvim-supertab
 * DONE Overhaul Note repo [100%] :ORGMODE:GITHUB:
-DEADLINE: <2025-05-13 Tue 20:00> CLOSED: [2025-05-13 Tue 18:11]
+CLOSED: [2025-05-13 Tue 18:11] DEADLINE: <2025-05-13 Tue 20:00>
 - *Goal(s):* update note repo structure for more optimal workflow
 - *NOTE:* checkout [[./README.org][README]] and find a suitable repo structure
 ** ABORTED Modify README

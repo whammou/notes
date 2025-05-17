@@ -311,9 +311,10 @@ CLOSED: [2025-05-12 Mon 09:04]
     - [[https://github.com/nvim-treesitter/nvim-treesitter/pull/3442][Fold sublists instead of lists in markdown @Github-issue]]
     - [[https://github.com/nvim-treesitter/nvim-treesitter/issues/5366][Markdown folds don't work correctly with nested lists @Github-issue]]
     - [[https://linkarzu.com/][Resources @Linkarzu]]
-* TODO Sync orgmode to CalDav :ORGMODE:CALDAV:
+* TODO Sync orgmode to CalDav :ORGMODE:KHALORG:
 DEADLINE: <2025-05-15 Thu 18:00>
 - *Goal:* /Succefully sync between orgmode and caldav for professional uses/
+  - *Visit:* [[file:/home/whammou/dots/BartSte/dotfiles/nvim/lua/config/orgmode.lua][orgmode config @Git]]
   - *References:* [[https://github.com/BartSte/khalorg][khalorg @Github]]
 * TODO Toggle program :BASH:
 DEADLINE: <2025-05-15 Thu 19:30>
@@ -331,12 +332,21 @@ DEADLINE: <2025-05-16 Fri 20:00>
 :END:
 - *Goal:* /Working with AI and learning prompt engineering/
   - *Visit:* [[https://github.com/danielmiessler/fabric][Fabric @Github]]
-** TODO Setup shell ai :AI:
+** TODO Setup shell ai
 - *Goal:* /Configure Shell AI using ~fabric~/
   - *Visit:*
-    - [[https://ai.google.dev/gemini-api/docs/api-key][Get Gemini API @Google-studio]]
     - [[https://github.com/danielmiessler/fabric][Fabric @Github]]
-  - *References:* 
+  - *References:*
     - [[https://www.youtube.com/watch?v=UbDyjIIGaxQ#__preview][You've been using AI Wrong @Youtube]]
     - [[https://www.youtube.com/watch?v=5x4s2d3YWak#__preview][How My Projects Fit Together @Youtube]]
     - [[https://github.com/danielmiessler/fabric#Usage][Fabric @Github]]
+*** Get Youtube API-key :YOUTUBE:
+- *Goal:* /Access youtube via api-key/
+  - *References:* [[https://blog.hubspot.com/website/how-to-get-youtube-api-key][Get Youtube API Key @Blog]]
+*** Get Gemini API-key :GEMINI:
+- *Goal:* /Access gemini-2.0-flash with api-key/
+  - [[https://ai.google.dev/gemini-api/docs/api-key][Get Gemini API @Google-studio]]
+** TODO Install code_helper extension
+- *Goal:* /Install code helper extension/
+  - *Visit:* [[https://github.com/danielmiessler/fabric?tab=readme-ov-file#code_helper][Code_helper @Github]]
+  - *References:* [[https://github.com/danielmiessler/fabric/blob/main/patterns/create_coding_feature/README.md][Create_code_pattern @Github-README]]

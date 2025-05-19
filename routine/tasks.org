@@ -1,5 +1,6 @@
 #+TITLE: Routine
 #+DESCRIPTION: Add notebook description here
+
 * Tasks :ROUTINE:
 Allocated space for tasks/todos
 ** One-off :ONEOFF:
@@ -44,6 +45,14 @@ CLOSED: [2025-04-03 Thu 20:33] DEADLINE: <2025-04-02 Wed 16:00>
 :PROPERTIES:
 :ID:       6be721fe-3a0a-40c3-aea7-5aea736aed4e
 :END:
+*** DONE New fits :SHOPPING:
+CLOSED: [2025-05-19 Mon 20:29] DEADLINE: <2025-05-19 Mon 19:00>
+:PROPERTIES:
+:ID:       92fb04d4-7621-4158-a6c6-f29ac013e599
+:END:
+- *Goal:* /New fits and new style/
+  - *List:*
+    - [ ] Ties (blank/pattern)
 ** Incidental :INCIDENTAL:
 *** ABORTED [#A] Cúng ông táo
 CLOSED: [2025-01-25 Sat 15:38] DEADLINE: <2025-01-23 Thu 12:00 -3d>
@@ -197,7 +206,7 @@ Meal-preps, cooking recipes and grocery planning
 - /Picking my girl up/
 - *Location:*  [[https://www.google.com/maps/place/A%2BC+Coffee+Experience,+230%2F18+Pasteur,+Ph%C6%B0%E1%BB%9Dng+6,+Qu%E1%BA%ADn+3,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7858949,106.6915706,16z/data=!4m6!3m5!1s0x31752f0079a094e1:0xa8800ca97260d786!8m2!3d10.7858949!4d106.6915706!16s%2Fg%2F11x1lhrz1t?force=pwa&source=mlapk][230/18 Pasteur, Phường 6, Quận 3]]
 *** DONE Movie Night!!! :DATING:
-DEADLINE: <2025-04-25 Fri 22:00-01:00> CLOSED: [2025-04-25 Fri 22:04]
+CLOSED: [2025-04-25 Fri 22:04] DEADLINE: <2025-04-25 Fri 22:00-01:00>
 - *Địa Đạo: Mặt Trời Trong Bóng Tối* - [[https://app.smartmailcloud.com/web-share/BlQbbv2przPTgR9PbKk2IJkiLljqG_EgUVbcaBVJ][Ticket]]
 - *Threater:* HAATOPIA 2
 - *Seats:* F4, F5

@@ -1,6 +1,5 @@
 #+TITLE: Capture
 #+DESCRIPTION: Captures and Quick notes
-
 * PENDING Plain text music playlist :LINUX:
 *Goal:* Plain text music playlist that works with ~ytfzf~ and ~new pipe~
 * PENDING Config nvim-supertab and nvim-cmp :NVIM:
@@ -50,10 +49,13 @@ CLOSED: [2025-03-16 Sun 20:23]
 ** ABORTED configure nvim-cmp
 CLOSED: [2025-03-16 Sun 20:23]
 - *Goal(s):* configure ~nvim-cmp~
-* TODO Config yazi :YAZI:
+* DOING Config yazi [0%] :YAZI:
 - *Goal:* separate hotkeys into ~EDIT~ and ~VIEW~:
   - [ ] Bind short-key to open ~EDIT~ such as: images, texts, docs
   - [ ] Bind short-key to open ~VIEW~ - view only for images and texts/docs
+** TODO Integration Lazygit :LAZYGIT:
+- *Goal:* /Successfully integrate ~lazygit~ in ~yazi~/
+  - *References:* [[https://github.com/sxyazi/yazi/discussions/1989][Integrate lazygit with yazi @Github-issue]]
 * TODO Pandoc font settings :PANDOC:
 Set conversion fonts from ~markdown~ to ~LaTex~
 *Visit:* [[https://a.opnxng.com/exchange/tex.stackexchange.com/questions/234786/how-to-set-a-font-family-with-pandoc][pandoc fonts]]
@@ -138,7 +140,7 @@ CLOSED: [2025-05-12 Mon 09:10] DEADLINE: <2025-05-11 Sun 19:30>
   The following [[https://nvim-orgmode.github.io/configuration#cron][guide]] is written for ~cron~. Modify to work with ~systemd~
 - *Goal:* /Integrate ~orgmode-notification~ to ~system~/
 * TODO English doc :SOCIAL:
-DEADLINE: <2025-05-17 Sat 23:00>
+DEADLINE: <2025-05-19 Mon 23:00>
 :PROPERTIES:
 :ID:       6aaa4c17-f24d-4c4b-8956-d2884a404563
 :END:
@@ -160,7 +162,7 @@ CLOSED: [2025-04-09 Wed 17:46]
 CLOSED: [2025-04-14 Mon 21:53] DEADLINE: <2025-04-14 Mon 21:00>
 - /Add watchlist file to/ ~gitignore~
 * TODO Auto commit repo :GIT:
-DEADLINE: <2025-05-16 Fri 18:00>
+DEADLINE: <2025-05-20 Tue 18:00>
 :PROPERTIES:
 :ID:       1c814ec1-f296-4b5a-8631-2a0d970d14a0
 :END:
@@ -274,12 +276,12 @@ CLOSED: [2025-05-12 Mon 15:54] DEADLINE: <2025-05-11 Sun 18:30>
   - *Visit:* [[https://github.com/qtile/qtile/issues/794][Keybinds @Github-issue]]
   - *Visit:* [[https://github.com/qtile/qtile/issues?q=is%3Aissue%20multiple%20callbacks&page=1][multiple callbacks keybinding @Gtihub-issue]]
 *** TODO Resize floating windows
-DEADLINE: <2025-05-15 Thu 20:30>
+DEADLINE: <2025-05-18 Sun 22:45>
 - *Goal:* /Create keybinds to resize floating windows/
   - [ ] Resize xy
   - [ ] Resize keep aspect ratio
 *** TODO Move floating windows
-DEADLINE: <2025-05-15 Thu 17:30>
+DEADLINE: <2025-05-19 Mon 20:30>
 - *Goal:* /Create move() floating windows keybinds/
   - *References:* [[https://l.opnxng.com/r/qtile/comments/18cjjlo/keybinds_to_resize_and_move_floating_window/][Move floating windows via @lazy.window.function @Reddit]]
 ** PENDING Hooks and custom functions
@@ -312,27 +314,28 @@ CLOSED: [2025-05-12 Mon 09:04]
     - [[https://github.com/nvim-treesitter/nvim-treesitter/issues/5366][Markdown folds don't work correctly with nested lists @Github-issue]]
     - [[https://linkarzu.com/][Resources @Linkarzu]]
 * TODO Sync orgmode to CalDav :ORGMODE:KHALORG:
-DEADLINE: <2025-05-15 Thu 18:00>
+DEADLINE: <2025-05-21 Wed 20:00>
 - *Goal:* /Succefully sync between orgmode and caldav for professional uses/
   - *Visit:* [[file:/home/whammou/dots/BartSte/dotfiles/nvim/lua/config/orgmode.lua][orgmode config @Git]]
   - *References:* [[https://github.com/BartSte/khalorg][khalorg @Github]]
 * TODO Toggle program :BASH:
-DEADLINE: <2025-05-15 Thu 19:30>
+DEADLINE: <2025-05-19 Mon 19:00>
 - *Goal:* /Toggle command using bash script/
   - *References:* [[https://www.youtube.com/watch?v=eBzDiBAcIFo#__preview][A one line bash script to toggle programs on/off @Youtube-DistroTube]]
 * TODO Magic Tape sessions :MAGICTAPE:
-DEADLINE: <2025-05-16 Fri 20:00>
+DEADLINE: <2025-05-20 Tue 20:00>
 :PROPERTIES:
 :ID:       8546e69f-f9ab-46d7-b9fc-13356175edbf
 :END:
 - *Goal:* /Create multiple magic-tape sessions using git/
-* DOING Working with AI [%] :AI:
+* DOING Working with AI [50%] :AI:
 :PROPERTIES:
 :ID:       70251f65-3824-4391-94d3-5bb0d1885868
 :END:
 - *Goal:* /Working with AI and learning prompt engineering/
   - *Visit:* [[https://github.com/danielmiessler/fabric][Fabric @Github]]
-** TODO Setup shell ai
+  - *Visit:* [[https://console.cloud.google.com/apis/dashboard?inv=1&invt=Abxqrg&project=testing-447317&pageState=(%22duration%22:(%22groupValue%22:%22P7D%22,%22customValue%22:null))][Token usage @Google-cloud]]
+** TODO Setup shell ai [75%]
 - *Goal:* /Configure Shell AI using ~fabric~/
   - *Visit:*
     - [[https://github.com/danielmiessler/fabric][Fabric @Github]]
@@ -340,13 +343,34 @@ DEADLINE: <2025-05-16 Fri 20:00>
     - [[https://www.youtube.com/watch?v=UbDyjIIGaxQ#__preview][You've been using AI Wrong @Youtube]]
     - [[https://www.youtube.com/watch?v=5x4s2d3YWak#__preview][How My Projects Fit Together @Youtube]]
     - [[https://github.com/danielmiessler/fabric#Usage][Fabric @Github]]
-*** Get Youtube API-key :YOUTUBE:
+*** DONE Get Youtube API-key :YOUTUBE:
+CLOSED: [2025-05-18 Sun 05:07]
 - *Goal:* /Access youtube via api-key/
   - *References:* [[https://blog.hubspot.com/website/how-to-get-youtube-api-key][Get Youtube API Key @Blog]]
-*** Get Gemini API-key :GEMINI:
+*** DONE Get Gemini API-key :GEMINI:
+CLOSED: [2025-05-18 Sun 05:07]
 - *Goal:* /Access gemini-2.0-flash with api-key/
-  - [[https://ai.google.dev/gemini-api/docs/api-key][Get Gemini API @Google-studio]]
-** TODO Install code_helper extension
+  - *References:* [[https://ai.google.dev/gemini-api/docs/api-key][Get Gemini API @Google-studio]]
+*** DONE Get Jina API-key :JINA:
+CLOSED: [2025-05-18 Sun 22:12]
+- *Goal:* /Access Jina AI via API key/
+  - *References:* [[https://jina.ai/][Get Jina-AI API key @Jina-AI]]
+*** TODO Separate project :GCLOUD:
+- [ ] *Goal:* /Seperate project and API keys to decrese quota/
+  - *Visit:* [[https://console.cloud.google.com/welcome?inv=1&invt=Abxqrg&project=testing-447317][Google Console @Google]]
+- [ ] *Goal:* /How to decrease quota/
+** ABORTED Install code_helper extension
+CLOSED: [2025-05-18 Sun 22:13]
 - *Goal:* /Install code helper extension/
   - *Visit:* [[https://github.com/danielmiessler/fabric?tab=readme-ov-file#code_helper][Code_helper @Github]]
   - *References:* [[https://github.com/danielmiessler/fabric/blob/main/patterns/create_coding_feature/README.md][Create_code_pattern @Github-README]]
+* TODO Migrate orgmode options to config
+- *Goal:* /Migrate settings to/ [[file:~/.config/nvim/lua/config/orgmode.lua][config.lua]]
+* ABORTED Simplify termial sessions :KITTY:TMUX:
+CLOSED: [2025-05-21 Wed 18:23]
+- *Goal:* /Simplify attach or re-attach using ~kitty~/
+  - *References:* [[https://l.opnxng.com/r/neovim/comments/1iyn321/i_made_kitty_config_to_replace_most_of_tmuxs/][Replace tmux with kitty @Reddit]]
+* TODO Dunst notification stacking :DUNST:
+- [ ] *Goal:* /Stack notifications/
+- [ ] *Goal:* /Interacte with stacked notifications/
+  - *References:* [[https://github.com/dunst-project/dunst/issues/321][Dunst notification stacking @Github-issue]]

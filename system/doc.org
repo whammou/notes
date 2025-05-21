@@ -461,7 +461,7 @@ CLOSED: [2025-05-21 Wed 18:01]
 **** DONE Intel TearFree :INTEL:
 CLOSED: [2025-05-20 Tue 16:34]
 :PROPERTIES:
-:ID: 263ea0db-b98c-4775-9628-220682a48918
+:ID:       263ea0db-b98c-4775-9628-220682a48918
 :END:
 - *Goal:* /Achieve Tearfree without using a ~compositor~/
   - *References:* 

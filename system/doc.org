@@ -249,7 +249,7 @@ CLOSED: [2025-01-24 Fri 21:31] DEADLINE: <2025-01-25 Sat 18:00>
 CLOSED: [2025-01-15 Wed 21:19] DEADLINE: <2025-01-14 Tue 22:00>
 - *Goal:* successfully switching between different config dir
 - *Resource:* [[https://michaeluloth.com/neovim-switch-configs/][switching config]]
-*** DONE Tweaking archlinux [71%] :LINUX:
+*** DONE Tweaking archlinux [75%] :LINUX:
 CLOSED: [2025-01-06 Mon 07:34] SCHEDULED: <2024-12-30 Mon 02:00-04:00>
 - *Goal:* recover linux from unexpected shutdown
 - *Stumble upon:*  [[https://www.reddit.com/r/archlinux/comments/m2wf1s/shutdown_during_update/][r/archlinux]]
@@ -281,6 +281,10 @@ CLOSED: [2025-04-19 Sat 07:58]
 - /Change/ ~udev~ /rules for ioscheduler/
 **** TODO CPU and IRQ scheduler
 - /Setup CPU and IRQ scheduler/ ~daemon~
+**** DONE Fix screen tearing
+CLOSED: [2025-05-21 Wed 18:21]
+- *Goal:* /Rock archlinux without a compositor/
+  - *References:* [[id:263ea0db-b98c-4775-9628-220682a48918][Intel TearFree @Orgmode]]
 *** DONE Modular Qtile :QTILE:
 CLOSED: [2025-03-20 Thu 22:09]
 - *Goal:* successfully modularize ~qtile~ config
@@ -448,3 +452,34 @@ CLOSED: [2025-04-18 Fri 14:16] DEADLINE: <2025-04-16 Wed 16:00>
 CLOSED: [2025-04-23 Wed 22:44] DEADLINE: <2025-04-23 Wed 22:00>
 - *Goal:* /Setup qutebrowser-profiles for better session managements/
   - *Run* ~qutebrowser-profile --new --load "profile"~
+*** DONE Linux tear-free [100%] :LINUX:
+CLOSED: [2025-05-21 Wed 18:01]
+- *Goal:* /Dicide to run with a ~compositor~ or without/
+  - *References:* 
+    - [[https://l.opnxng.com/r/archlinux/comments/bs1ban/compositor_or_no_compositor/][Compositor or not @Reddit]]
+    - [[https://www.dedoimedo.com/computers/linux-intel-graphics-video-tearing.html][Fix video tearing on linux @Blog]]
+**** DONE Intel TearFree :INTEL:
+CLOSED: [2025-05-20 Tue 16:34]
+:PROPERTIES:
+:ID: 263ea0db-b98c-4775-9628-220682a48918
+:END:
+- *Goal:* /Achieve Tearfree without using a ~compositor~/
+  - *References:* 
+    - [[https://bbs.archlinux.org/viewtopic.php?id=227609][TearFree doesn't work @Archforum]]
+    - [[https://wiki.archlinux.org/title/Intel_graphics#Tearing][Troubleshooting-tearing @Archwiki]]
+**** DONE Fix kitty tear free :KITTY:
+CLOSED: [2025-05-20 Tue 16:33]
+- *Goal:* /Achieve tearless with kitty/
+  - *Config:* Add this to your config file: [[file:~/.config/kitty/kitty.conf][config @kitty]]
+  - *Run:* ~sync_to_monitor = yes~
+**** DONE Fix qutebrowser tear free :QUTEBROWSER:
+CLOSED: [2025-05-21 Wed 18:01]
+- *Goal:* /Achieve tearless with qutebrowser/
+**** DONE Fix mpv tear free :MPV:
+CLOSED: [2025-05-21 Wed 18:15]
+- *Goal:* /Achieve flawless video playback/
+  - *Config:*
+    #+BEGIN_confini
+    video-sync=display-resample
+    interpolation=yes
+    #+END_confini

@@ -140,7 +140,7 @@ CLOSED: [2025-05-12 Mon 09:10] DEADLINE: <2025-05-11 Sun 19:30>
   The following [[https://nvim-orgmode.github.io/configuration#cron][guide]] is written for ~cron~. Modify to work with ~systemd~
 - *Goal:* /Integrate ~orgmode-notification~ to ~system~/
 * TODO English doc :SOCIAL:
-DEADLINE: <2025-05-19 Mon 23:00>
+DEADLINE: <2025-05-22 Thu 23:00>
 :PROPERTIES:
 :ID:       6aaa4c17-f24d-4c4b-8956-d2884a404563
 :END:
@@ -162,7 +162,7 @@ CLOSED: [2025-04-09 Wed 17:46]
 CLOSED: [2025-04-14 Mon 21:53] DEADLINE: <2025-04-14 Mon 21:00>
 - /Add watchlist file to/ ~gitignore~
 * TODO Auto commit repo :GIT:
-DEADLINE: <2025-05-20 Tue 18:00>
+DEADLINE: <2025-05-22 Thu 18:00>
 :PROPERTIES:
 :ID:       1c814ec1-f296-4b5a-8631-2a0d970d14a0
 :END:
@@ -253,46 +253,6 @@ CLOSED: [2025-05-07 Wed 12:02] DEADLINE: <2025-05-07 Wed 21:30>
   - *Visit:* 
     - [[https://wiki.archlinux.org/title/Systemd/User][Systemd/User @Archwiki]]
     - [[https://a.opnxng.com/exchange/unix.stackexchange.com/questions/224992/where-do-i-put-my-systemd-unit-file][Systemd user config explain @Overflow]]
-* DOING Manage windows spawn/layout [66%] :QTILE:
-- *Goal:* /Assign spawn grouping and layouts/
-** DOING Manage floating windows [33%]
-:LOGBOOK:
-- Note taken on [2025-05-05 Mon 08:21] \\
-  - Added prevent *focus_stealing_hook* to ~qtile~
-     - *Visit:* [[https://github.com/whammou/dotfiles/commit/56ee9ce8c65ed7b2dba894a5ba294a285c2504f0][Added prevent_focus_stealing hook @Commit]]
-:END:
-- *Goal:* /Add floating windows for quick preview of media files/
-- *References:*
-  - [[https://github.com/qtile/qtile/issues/1260#issuecomment-913327960][floating window focus discussion @Github]]
-  - [[https://github.com/qtile/qtile/wiki/floating-windows][floating windows @Github-wiki]]
-  - [[https://l.opnxng.com/r/qtile/comments/w240e0/is_it_possible_to_move_around_floating_windows/][Resize floating windows @Reddit]]
-  - *Topic:*
-    - [[https://l.opnxng.com/r/qtile/comments/tw9apn/spawn_a_terminal_with_command_and_make_it_floating/][Function per custom window(WM_CLASS) @Reddit]]
-    - [[https://github.com/qtile/qtile/discussions/4049][Keep window above all other windows @Github-issue]]
-    - [[https://github.com/qtile/qtile/issues/1145#issuecomment-392771986][App layers @Github-issue]]
-*** DONE Cycle through floating windows
-CLOSED: [2025-05-12 Mon 15:54] DEADLINE: <2025-05-11 Sun 18:30>
-- *Goal:* /Keybind to cycle focus through floating windows/
-  - *Visit:* [[https://github.com/qtile/qtile/issues/794][Keybinds @Github-issue]]
-  - *Visit:* [[https://github.com/qtile/qtile/issues?q=is%3Aissue%20multiple%20callbacks&page=1][multiple callbacks keybinding @Gtihub-issue]]
-*** TODO Resize floating windows
-DEADLINE: <2025-05-18 Sun 22:45>
-- *Goal:* /Create keybinds to resize floating windows/
-  - [ ] Resize xy
-  - [ ] Resize keep aspect ratio
-*** TODO Move floating windows
-DEADLINE: <2025-05-19 Mon 20:30>
-- *Goal:* /Create move() floating windows keybinds/
-  - *References:* [[https://l.opnxng.com/r/qtile/comments/18cjjlo/keybinds_to_resize_and_move_floating_window/][Move floating windows via @lazy.window.function @Reddit]]
-** PENDING Hooks and custom functions
-CLOSED: [2025-05-08 Thu 14:27]
-- *Goal:* /Checkout hooks and custom functions e.g ~expose command~/
-- *Visit:* [[https://docs.qtile.org/en/latest/manual/config/hooks.html][Hooks and Commands @Qtile-doc]]
-** PENDING Windows grouping
-CLOSED: [2025-05-09 Fri 22:19] DEADLINE: <2025-05-09 Fri 18:00>
-- [X] *Goal:* /Assign grouping for windows with the same wm_class/
-  - *Visit:* [[https://github.com/aravinda0/qtile-bonsai/discussions/12#discussioncomment-11095207][new window grouping @Github-discussion]]
-- [ ] *Goal:* /Assign goruping for *specific* windows with the same wn_class/
 * PENDING System file-tag :LINUX:
 CLOSED: [2025-05-08 Thu 14:27]
 - *Goal:* /Assign attribute to a file/
@@ -319,11 +279,11 @@ DEADLINE: <2025-05-21 Wed 20:00>
   - *Visit:* [[file:/home/whammou/dots/BartSte/dotfiles/nvim/lua/config/orgmode.lua][orgmode config @Git]]
   - *References:* [[https://github.com/BartSte/khalorg][khalorg @Github]]
 * TODO Toggle program :BASH:
-DEADLINE: <2025-05-19 Mon 19:00>
+DEADLINE: <2025-05-22 Thu 19:00>
 - *Goal:* /Toggle command using bash script/
   - *References:* [[https://www.youtube.com/watch?v=eBzDiBAcIFo#__preview][A one line bash script to toggle programs on/off @Youtube-DistroTube]]
 * TODO Magic Tape sessions :MAGICTAPE:
-DEADLINE: <2025-05-20 Tue 20:00>
+DEADLINE: <2025-05-22 Thu 20:00>
 :PROPERTIES:
 :ID:       8546e69f-f9ab-46d7-b9fc-13356175edbf
 :END:
@@ -374,3 +334,12 @@ CLOSED: [2025-05-21 Wed 18:23]
 - [ ] *Goal:* /Stack notifications/
 - [ ] *Goal:* /Interacte with stacked notifications/
   - *References:* [[https://github.com/dunst-project/dunst/issues/321][Dunst notification stacking @Github-issue]]
+* Python scripting [0%] :PYTHON:SCRIPTING:
+- *Goal:* /Learn to do some scrpiting with python/
+** TODO Passing shell arguments
+- *Goal:* /Passing argument from shell/
+  - *References:* [[https://ao.bloat.cat/exchange/stackoverflow.com/questions/39498702/passing-arguments-to-python-from-shell-script][Passing shell argument to python @Overflow]]
+* Qutebrowser modular configs [%] :QUTEBROWSER:
+- *Goal:* /Re-write qutebrowser and make it modular/
+  - *References:* [[https://qutebrowser.org/doc/help/commands.html][Documentation @Qutebrowser]]
+  - *File:* [[file:~/.config/qutebrowser/][config @Directory]]

@@ -3,7 +3,7 @@
 
 * PENDING Plain text music playlist :LINUX:
 *Goal:* Plain text music playlist that works with ~ytfzf~ and ~new pipe~
-* PENDING Config nvim-supertab and nvim-cmp :NVIM:
+* ABORTED Config nvim-supertab and nvim-cmp :NVIM:
 - *Stumble upon:* [[https://github.com/hrsh7th/nvim-cmp/issues/179][issue@github]]
 - *Goal(s):* config nvim to work with nvim-cmp nvim-supertab
 * DONE Overhaul Note repo [100%] :ORGMODE:GITHUB:
@@ -20,36 +20,6 @@ CLOSED: [2025-05-13 Tue 18:11]
 - Note taken on [2025-01-23 Thu 00:09] \\
   Separate ~Logs~ ~Lists~ and ~Documents~ to different files to avoid callbacks
 - *Goal:* optimize ~archive~ hierarchy
-* DOING Config vim completion [100%] :NVIM:
-- *Goal:* successfully replace ~ultil-snip~ with ~blink-nvim~ and ~lua-snip~
-- *Visit:* [[https://a.opnxng.com/exchange/vi.stackexchange.com/questions/41733/how-to-set-up-luasnip-in-neovim-w-lsp-zero][nvim-cmp#external-sources]]
-** DONE Configure lua-snip
-CLOSED: [2025-04-19 Sat 06:11] DEADLINE: <2025-04-18 Fri 19:00>
-- *Goal(s):* configure and learn ~lua-snip~ syntax
-- *Visit:*
-   - *Youtube:* [[https://youtube.com/watch?v=GxnBIRl9UmA][luasnip setup]]
-   - *Setup:*
-     - [[https://evesdropper.dev/files/luasnip/ultisnips-to-luasnip/][nvim luasnip setup]]
-     - [[https://sbulav.github.io/vim/neovim-setting-up-luasnip/][Neovim setting up snippets with luasnip]]
-** DONE Configure blink.cmp
-CLOSED: [2025-04-30 Wed 22:05] DEADLINE: <2025-04-30 Wed 18:00>
-- /Successfully source/ ~lua-snip~ /with/ ~blink.cmp~
-- *Visit:* 
-   - [[https://cmp.saghen.dev/configuration/snippets#luasnip][source luasnip guide]]
-   - [[https://cmp.saghen.dev/configuration/snippets#luasnip][blink.cmp documentaion]]
-   - [[https://github.com/Saghen/blink.cmp/discussions/1391][blink.cmp luasnip issue]]
-** DONE Write friendly-snippets
-CLOSED: [2025-04-30 Wed 22:05] DEADLINE: <2025-04-30 Wed 18:30>
-- /Write snippets in VSCode style or using/ ~luasnip~
-- *Visit:*
-   - [[https://code.visualstudio.com/docs/editor/userdefinedsnippets][Snippets in vscode]]
-   - [[https://github.com/L3MON4D3/LuaSnip/issues/281][Importing custom vscode snippets stopped working]]
-** ABORTED Configure nvim-lsp
-CLOSED: [2025-03-16 Sun 20:23]
-- *Goal(s):* configure ~nvim-lsp~
-** ABORTED configure nvim-cmp
-CLOSED: [2025-03-16 Sun 20:23]
-- *Goal(s):* configure ~nvim-cmp~
 * TODO Pandoc font settings :PANDOC:
 Set conversion fonts from ~markdown~ to ~LaTex~
 *Visit:* [[https://a.opnxng.com/exchange/tex.stackexchange.com/questions/234786/how-to-set-a-font-family-with-pandoc][pandoc fonts]]
@@ -249,10 +219,11 @@ CLOSED: [2025-05-07 Wed 12:02] DEADLINE: <2025-05-07 Wed 21:30>
 CLOSED: [2025-05-08 Thu 14:27]
 - *Goal:* /Assign attribute to a file/
   - *Visit:* [[https://a.opnxng.com/exchange/unix.stackexchange.com/questions/683017/how-to-tag-any-file-on-the-unix-system][File-tag @Overflow]]
-* TODO Nvim-orgmode plugins :NVIM:
-- [ ] *Goal:* /Checkout nvim-orgmode plugins/
+* DONE Nvim-orgmode plugins :NVIM:
+CLOSED: [2025-05-23 Fri 01:44]
+- [X] *Goal:* /Checkout nvim-orgmode plugins/
   - *Visit:* [[https://nvim-orgmode.github.io/configuration#notifications][Orgmode notification @Nvim-orgmode-doc]]
-- [ ] *Goal:* /Implement iCal workflow with ~Khalorg~/
+- [X] *Goal:* /Implement iCal workflow with ~Khalorg~/
   - *Visit:* [[https://nvim-orgmode.github.io/plugins][Nvim-orgmode plugins @Nvim-org-plugins]]
 * TODO Config system notification :DUNST:
 - *Goal:* /Config system notifications with dunst/
@@ -272,6 +243,7 @@ DEADLINE: <2025-05-22 Thu 20:30>
   - *References:* [[https://github.com/BartSte/khalorg][khalorg @Github]]
 ** TODO Config vdirsyncer :VDIRSYNCER:
 - *Goal:* /Config vdirsyncer to work sync calendar to google cal/
+  - *References:* [[http://vdirsyncer.pimutils.org/en/stable/when.html][Vdirsyncer documentation @Doc]]
 * TODO Toggle program :BASH:
 - *Goal:* /Toggle command using bash script/
   - *References:* [[https://www.youtube.com/watch?v=eBzDiBAcIFo#__preview][A one line bash script to toggle programs on/off @Youtube-DistroTube]]
@@ -336,3 +308,11 @@ CLOSED: [2025-05-21 Wed 18:23]
 - *Goal:* /Re-write qutebrowser and make it modular/
   - *References:* [[https://qutebrowser.org/doc/help/commands.html][Documentation @Qutebrowser]]
   - *File:* [[file:~/.config/qutebrowser/][config @Directory]]
+* TODO Nvim indent align :NVIM:
+- *Goal:* /Manage nvim virtual indentaion alignment in plugins:/
+  - [ ] ~nvim-orgmode~ 
+  - [ ] ~render-markdown~
+* TODO Testing orgmode ender math
+- *Goal:* /Render math in orgmode on Github/
+
+  $$x_1^2 = 4^2$$

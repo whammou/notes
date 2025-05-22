@@ -385,7 +385,7 @@ CLOSED: [2025-04-22 Tue 03:08]
     - [[https://www.youtube.com/watch?v=ryR2-jVjoeA&t=15][Trailer starts at 00:15]]
     - [[https://www.youtube.com/watch?v=jv4pDOKe7OE&t=30][Test video starts at 00:30]]
     - [[https://www.youtube.com/watch?v=jv4pDOKe7OE?start=53&end=59][Youtube link with start and end time]]
-*** DOING Qutebrowser configuration [83%] :QUTEBROWSER:
+*** DOING Qutebrowser configuration [85%] :QUTEBROWSER:
 - *Goal:* implement text to speech to qutebrowser
   - *Stumble upon:* [[https://redlib.seasi.dev/r/qutebrowser/comments/w4pv2v/configpy_ideas/][Qutebrowser tts config idea @ Reddit]]
 **** DONE Rebind set-mark function
@@ -401,7 +401,8 @@ CLOSED: [2025-01-28 Tue 03:19]
 CLOSED: [2025-05-04 Sun 08:44]
 - *Goal:* /Add qutebrowser start-page/
   - *Visit:* [[https://nimplex.github.io/Minimal-StartPage/][start-page @ Search]]
-**** DOING Qutebrowser with Qtile [100%] :QTILE:
+**** DONE Qutebrowser with Qtile [100%] :QTILE:
+CLOSED: [2025-05-22 Thu 06:03]
 - *Goal:* /Integrate qutebrowser to qtile window manager/
 ***** DONE Workaround window-bg
 CLOSED: [2025-05-07 Wed 12:28]
@@ -455,6 +456,12 @@ CLOSED: [2025-04-18 Fri 14:16] DEADLINE: <2025-04-16 Wed 16:00>
 CLOSED: [2025-04-23 Wed 22:44] DEADLINE: <2025-04-23 Wed 22:00>
 - *Goal:* /Setup qutebrowser-profiles for better session managements/
   - *Run* ~qutebrowser-profile --new --load "profile"~
+**** TODO Usserscripts
+- *Goal:* /Learn to write userscripts in qutebrowser/
+  - *References:*
+    - [[https://github.com/hiway/python-qutescript][python-qutescript @Github]]
+    - [[qute://help/settings.html#bindings.commands][Settings references @Qutebrowser-doc]]
+    - [[qute://help/configuring.html][Keybinds and configuring @Qutebrowser-doc]]
 *** DONE Linux tear-free [100%] :LINUX:
 CLOSED: [2025-05-21 Wed 18:01]
 - *Goal:* /Dicide to run with a ~compositor~ or without/
@@ -509,15 +516,15 @@ CLOSED: [2025-05-12 Mon 15:54] DEADLINE: <2025-05-11 Sun 18:30>
   - *Visit:* [[https://github.com/qtile/qtile/issues/794][Keybinds @Github-issue]]
   - *Visit:* [[https://github.com/qtile/qtile/issues?q=is%3Aissue%20multiple%20callbacks&page=1][multiple callbacks keybinding @Gtihub-issue]]
 ***** TODO Resize floating windows
-DEADLINE: <2025-05-22 Thu 22:45>
+DEADLINE: <2025-05-22 Thu 21:00>
 - *Goal:* /Create keybinds to resize floating windows/
   - [ ] Resize xy
   - [ ] Resize keep aspect ratio
 ***** TODO Move floating windows
-DEADLINE: <2025-05-22 Thu 20:30>
+DEADLINE: <2025-05-22 Thu 21:10>
 - *Goal:* /Create move() floating windows keybinds/
   - *References:* [[https://l.opnxng.com/r/qtile/comments/18cjjlo/keybinds_to_resize_and_move_floating_window/][Move floating windows via @lazy.window.function @Reddit]]
-**** PENDING Hooks and custom functions
+**** DONE Hooks and custom functions
 CLOSED: [2025-05-08 Thu 14:27]
 - *Goal:* /Checkout hooks and custom functions e.g ~expose command~/
 - *Visit:* [[https://docs.qtile.org/en/latest/manual/config/hooks.html][Hooks and Commands @Qtile-doc]]
@@ -526,3 +533,18 @@ CLOSED: [2025-05-09 Fri 22:19] DEADLINE: <2025-05-09 Fri 18:00>
 - [X] *Goal:* /Assign grouping for windows with the same wm_class/
   - *Visit:* [[https://github.com/aravinda0/qtile-bonsai/discussions/12#discussioncomment-11095207][new window grouping @Github-discussion]]
 - [ ] *Goal:* /Assign goruping for *specific* windows with the same wn_class/
+*** DONE Config yazi [100%] :YAZI:
+CLOSED: [2025-05-22 Thu 06:25]
+- *Goal:* /Better workflow with yazi/
+**** DONE Integration Lazygit :LAZYGIT:
+CLOSED: [2025-05-22 Thu 06:20]
+- *Goal:* /Successfully integrate ~lazygit~ in ~yazi~/
+  - *References:* [[https://github.com/sxyazi/yazi/discussions/1989][Integrate lazygit with yazi @Github-issue]]
+**** ABORTED Keybinds
+CLOSED: [2025-05-22 Thu 06:21]
+- *Goal:* separate hotkeys into ~EDIT~ and ~VIEW~:
+  - [ ] Bind short-key to open ~EDIT~ such as: images, texts, docs
+  - [ ] Bind short-key to open ~VIEW~ - view only for images and texts/docs
+**** DONE Yazi fish integration [0%] :YAZI:
+CLOSED: [2025-04-19 Sat 17:49] DEADLINE: <2025-04-19 Sat 17:00>
+- /Open yazi at typed dir in fish shell/

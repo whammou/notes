@@ -182,18 +182,19 @@ CLOSED: [2025-04-28 Mon 09:18]
 *** TODO Mark URL as preview
 - *Goal:* /Specify normal url or preview url/
 - *Visit:* [[https://docs.mapp.com/v1/docs/url-encoding-and-what-characters-are-valid-in-a-uri][URL comment character @ Search]]
-* TODO House-keeping notes repo :ORGMODE:ORGZLY:
+* DONE House-keeping notes repo :ORGMODE:ORGZLY:
+CLOSED: [2025-05-23 Fri 01:53]
 - /Cleaning unecessary spacing and tune in with orgzly/
   - [x] [[file:capture.org][capture]]
-  - [ ] [[./academic/][academic]]
-  - [ ] [[./finance/][finance]]
-  - [ ] [[./language/][language]]
-  - [ ] [[./read/][read]]
-  - [ ] [[./routine/][routine]]
-  - [ ] [[./system/][system]]
-  - [ ] [[./travel/][travel]]
-  - [ ] [[./university/][university]]
-  - [ ] [[./work/][work]]
+  - [X] [[./academic/][academic]]
+  - [X] [[./finance/][finance]]
+  - [X] [[./language/][language]]
+  - [X] [[./read/][read]]
+  - [X] [[./routine/][routine]]
+  - [X] [[./system/][system]]
+  - [X] [[./travel/][travel]]
+  - [X] [[./university/][university]]
+  - [X] [[./work/][work]]
 * DOING Config fzf [0%] :FZF:
 - *Goal:* /Config/ ~fzf~ /theme and function//
 ** TODO Theme fzf
@@ -312,7 +313,7 @@ CLOSED: [2025-05-21 Wed 18:23]
 - *Goal:* /Manage nvim virtual indentaion alignment in plugins:/
   - [ ] ~nvim-orgmode~ 
   - [ ] ~render-markdown~
-* TODO Testing orgmode ender math
+* TODO Testing orgmode render math
 - *Goal:* /Render math in orgmode on Github/
-
+  - Inline math: $x_0^2 = 9^2$
   $$x_1^2 = 4^2$$

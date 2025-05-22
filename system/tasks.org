@@ -4,7 +4,8 @@
 * Tasks :SYSTEM:
 Allocated space for tasks/todos
 ** One-off :ONEOFF:
-*** TODO Learn nvim-orgmode_capture :NVIM:
+*** DONE Learn nvim-orgmode_capture :NVIM:
+CLOSED: [2025-05-23 Fri 01:43]
 - *Goal:* learn ~org_capture_template~ at [[https://github.com/nvim-orgmode/orgmode/blob/master/docs/configuration.org#org_capture_templates][nvim-orgmode-configuration]]
 *** Organize Script repo :GITHUB:ORGMODE:
 Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~

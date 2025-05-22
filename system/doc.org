@@ -427,7 +427,7 @@ CLOSED: [2025-04-20 Sun 23:39] DEADLINE: <2025-04-21 Mon 22:00>
   - *Visit:* [[https://gist.github.com/knatsakis/8cf329853330893cd2d7fa3dbd5692b0][Qutebrowse-daemon script @ Github]]
   - *Checkout:* [[Workaround window-bg][[BUG] Workaround daemon next window focus bug @ Org]]
 ***** DONE Spawn layout commands
-DEADLINE: <2025-05-21 Wed 22:15> CLOSED: [2025-05-21 Wed 23:28]
+CLOSED: [2025-05-21 Wed 23:28] DEADLINE: <2025-05-21 Wed 22:15>
 - *Goal:* /Create script to let qtile manage spawn position of new window/
   - *Run:* ~qtile cmd-obj -o layout -f spawn_split -a "qb 'URL'" "x"~ 
     - [X] Create alias

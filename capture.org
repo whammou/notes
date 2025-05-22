@@ -1,5 +1,6 @@
 #+TITLE: Capture
 #+DESCRIPTION: Captures and Quick notes
+
 * PENDING Plain text music playlist :LINUX:
 *Goal:* Plain text music playlist that works with ~ytfzf~ and ~new pipe~
 * PENDING Config nvim-supertab and nvim-cmp :NVIM:

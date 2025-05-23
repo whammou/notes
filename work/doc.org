@@ -8,3 +8,7 @@ Allocated space for archives
 *Source:* [[https://old.reddit.com/r/careerguidance/][r/careerguidance]]
 *** Failure to launch (hikimori) :WORK:
 /A closer look at failure to launch in life/
+*** TODO Understanding the ATS [%] :WORK:
+- [ ] What is an [[https://www.jobscan.co/blog/8-things-you-need-to-know-about-applicant-tracking-systems/][ATS]]
+- [ ] Impact of ATS on your ~application~
+- [ ] What to do

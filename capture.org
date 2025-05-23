@@ -315,12 +315,16 @@ CLOSED: [2025-05-21 Wed 18:23]
   - [ ] ~render-markdown~
 * TODO Testing orgmode render math
 - *Goal:* /Render math in orgmode on Github/
-  - *References:* [[https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions#writing-expressions-as-blocks][Writting mathematical expression @Github-doc]]
   - Inline math: $x_0^2 = 9^2$
   $$x_1^2 = 4^2$$
+  - Math block:
+    ```math
+    x_i^2 = 3^4
+    ```
+- *References:* [[https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions#writing-expressions-as-blocks][Writting mathematical expression @Github-doc]]
 * TODO Github orgmode interpretation
 - *Goal:* /Dicover how github interprets orgmode/
-  - *References:* [[https://github.com/novoid/github-orgmode-tests?tab=readme-ov-file][test-repo @Github]]
+- *References:* [[https://github.com/novoid/github-orgmode-tests?tab=readme-ov-file][test-repo @Github]]
 * TODO Working with git :NVIM:GIT:
 - *Goal:* /Improve workflow with nvim, fugitive, lazygit/
-  - *References:* [[https://youtu.be/vtFXMni91Q4#__preview][Fugitive workflow @Youtube-preview]]
+- *References:* [[https://youtu.be/vtFXMni91Q4#__preview][Fugitive workflow @Youtube-preview]]

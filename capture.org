@@ -1,7 +1,5 @@
 #+TITLE: Capture
 #+DESCRIPTION: Captures and Quick notes
-#+attr_html: :width 100px
-#+attr_latex: :width 100px
 
 * PENDING Plain text music playlist :LINUX:
 *Goal:* Plain text music playlist that works with ~ytfzf~ and ~new pipe~
@@ -326,14 +324,11 @@ CLOSED: [2025-05-21 Wed 18:23]
 - *References:* [[https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions#writing-expressions-as-blocks][Writting mathematical expression @Github-doc]]
 ** Testing image rendering
 - *Goal:* /Testing images rendering capability/
-  [[file:assets/lobes.jpg]]
-  [[./assets/lobes.jpg]]
+  [[file:assets/lobes.jpg][image]]
+  [[./assets/lobes.jpg][image]]
   file:assets/lobes.jpg
-
-  - Testing image with attributes
-    #+attr_html: :width 80px
-    #+attr_latex: :width 80px
-    [[file:./assets/lobes.jpg]]
+  [[./assets/lobes.jpg][Test]{:height 222, :width 190}
+  [[./assets/lobes.jpg]{:height 222, :width 190}
 * TODO Github orgmode interpretation
 - *Goal:* /Dicover how github interprets orgmode/
 - *References:* [[https://github.com/novoid/github-orgmode-tests?tab=readme-ov-file][test-repo @Github]]

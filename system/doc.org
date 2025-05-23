@@ -18,61 +18,6 @@ There are different strategies to merge two ~branches~:
  - *Squashing:* Squeeze all the ~commits~ of ~feature branch~ into one single ~commit~ and merge it with ~main~
 **** Git commit vs stash
 *Visit:* [[https://paulapivat.com/technical_notes/example_tech/git_stash/][Git Stash vs Git Commit]]
-*** Orgmode Manual [85%] :ORGMODE:
-CLOSED: [2024-11-07 Thu 06:08]
-/Because ~orgzly-android~ is under development and features are limited some implementations will be a work around and possibly revisit in the future, check for request features/ [[https://github.com/orgzly-revived/orgzly-android-revived/issues/88][prioritized requested features]]
-**** DONE Orgmode Include Files
-CLOSED: [2024-09-06 Fri 21:35]
-:PROPERTIES:
-:ARCHIVE_TIME: 2024-09-11 Wed 04:59
-:ARCHIVE_FILE: /home/whammou/notes/personal.org
-:ARCHIVE_CATEGORY: personal
-:ARCHIVE_TODO: TODO
-:END:
-- *Goal:* Include files from across org files
-- *Resources:* [[https://orgmode.org/manual/Include-Files.html][org manual]]
-**** DONE Orgmode Search
-CLOSED: [2024-09-30 Mon 03:38]
-*Goal(s):* Learn to search in orgmode repo
-*Stumble-upon:* [[https://www.orgzlyrevived.com/docs#search][orgzly-manual]]  [[https://orgmode.org/worg/org-tutorials/advanced-searching.html][nvim-orgmode]]
-
-/For now, ~orgzly-android~ does not support search by property, check/ [[https://github.com/orgzly/orgzly-android/issues/146][issue:search by property drawer]]
-**** DONE Orgmode Hyperlink
-CLOSED: [2024-10-08 Tue 22:58]
-*Visit:* [[https://github.com/nvim-orgmode/orgmode/blob/master/DOCS.md#hyperlinks][nvim-orgmode#hyperlink]] see how nvim-orgmode handle hyperlink
-*Note:* Cross file include
-**** DONE Orgmode Tag
-CLOSED: [2024-10-01 Tue 06:03]
-*Visit:* [[https://www.orgzly.com/docs#search][orgzly#search]] how orgzly handle headline ~tag~
-*Suggestion:* Use [[./README.org][README]] to generate a list of ~tags~ and its ~description~
-**** DONE Orgmode PROPERTIES
-CLOSED: [2024-10-01 Tue 06:03]
-- *Goal(s):* Read [[https://orgmode.org/manual/Properties-and-Columns.html][PROPERTIES@orgmanual]] 
-***** Property Syntax
-A. Properties are key-value pairs. When they are associated with single entry or with a tree they need to inserted in to special drawer with the name ~:PROPERTIES:~, which has to located right below a headline, and its planning line
-B. Depend on the value of ~org-use-property-inheritance~, a property set this way is associated either with a single entry, or with the subtree defined by the entry
-C. Properties can be inserted at the buffer level. That means they apply before the first headline and can be inherited by all entries in a file. Property blocks defined before the first headline must be at the top of the buffer with only comments above them
-
-\Note that a property can only have one try per drawer\
-
-Property values set with the global variable ~org-global-properties~ can be inherited by all entries in all Org files
-***** Special Properties
-Special properties provide an alternative access method to Org mode features, like the TODO sate or the priority of an entry:
-
-- ~#+FILETAG: :FOO:BAR:~: notebook tag
-**** DOING Org2ical [%] :DATA:
-- *Goal:* Generate .ics files from .org files(use homelab for daily merge)
-- *Visit:*  [[https://pypi.org/project/org2ical/][org2ical package]] [[https://github.com/jacobmischka/ics-merger][icals merger]]
-***** DOING Sync orgmode to CalDav [0%] :KHALORG:
-DEADLINE: <2025-05-23 Fri 22:00>
-- *Goal:* /Succefully sync between orgmode and caldav for professional uses/
-  - *Visit:* [[file:/home/whammou/dots/BartSte/dotfiles/nvim/lua/config/orgmode.lua][orgmode config @Git]]
-  - *References:* [[https://github.com/BartSte/khalorg][khalorg @Github]]
-****** TODO Config vdirsyncer :VDIRSYNCER:
-- *Goal:* /Config vdirsyncer to work sync calendar to google cal/
-  - *References:* [[http://vdirsyncer.pimutils.org/en/stable/when.html][Vdirsyncer documentation @Doc]]
-**** DONE Orgmode social media integrate
-CLOSED: [2024-12-26 Thu 22:28]
 *** DONE Write better commit messages :GIT:
 CLOSED: [2024-09-21 Sat 22:31]
 - *Goal(s):* Write better and more comprehensive commit messages
@@ -184,9 +129,11 @@ CLOSED: [2025-01-10 Fri 02:27]
 **** Working with Google AI
 - *Goal(s):* create workspace with [[https://pypi.org/project/google-generativeai/][google-generativeai sdk]]
 - *Resources:*  [[https://github.com/google-gemini/cookbook][cookbook]]  [[https://ai.google.dev][documentation]]
-*** Learn Docker
+*** PENDING Learn Docker
+CLOSED: [2025-05-24 Sat 01:19]
 - /Learn to operate dockers/
-*** Nvim-lsp :NVIM:
+*** DONE Nvim-lsp :NVIM:
+CLOSED: [2025-05-24 Sat 01:19]
 Nvim supports the Language Server Protocol (LSP), which means it acts as a client to LSP servers and includes a Lua framework `vim.lsp` for building enhanced LSP tools
 - *Run:* ~:help lsp~ for nvim-lsp guide
 - Setup [[https://github.com/neovim/nvim-lspconfig][nvim-lspconfig]]
@@ -195,7 +142,8 @@ The ~Language Server Protocol~ (LSP) is an open, JSON-RPC-based protocol for use
 **** Markup language server
 Generally a good markup language server is texlab
 - *Resources:* [[https://github.com/latex-lsp/texlab][texlab]]
-*** Nvim optimization :NVIM:
+*** DONE Nvim optimization :NVIM:
+CLOSED: [2025-05-24 Sat 01:20]
 - *Goal:* research ways to optimize nvim and manage new packages
 **** DONE Setup LazyVim :NVIM:
 CLOSED: [2025-01-24 Fri 21:31] DEADLINE: <2025-01-25 Sat 18:00>
@@ -203,7 +151,8 @@ CLOSED: [2025-01-24 Fri 21:31] DEADLINE: <2025-01-25 Sat 18:00>
   - Run ~nvim +:help lua_guide"~ for built-in conversion guide from vim script to lua
 - *Checkout:* [[http://www.lazyvim.org/]]
 - *Stumble upon:* [[https://github.com/nanotee/nvim-lua-guide][nvim-lua-guide]]
-***** LazyVim modular
+***** DONE LazyVim modular
+CLOSED: [2025-05-24 Sat 01:20]
 - *Goal(s):* convert singular ~init.vim~ to  [[https://www.kurtpeniket.tech/blog/neovim_lua_transition_vimplug_to_lazy][modular config]] with vim config structure
 
   #+NAME: overall stucture
@@ -361,9 +310,11 @@ CLOSED: [2025-03-20 Thu 22:09]
         ├── 󰂺 README.md -> ../../../dotfiles/qtile/.config/qtile/themes/README.md
         └──  rosepine.json -> ../../../dotfiles/qtile/.config/qtile/themes/rosepine.json
     #+END_text
-*** Linux web-scrapping :LINUX:
+*** PENDING Linux web-scrapping :LINUX:
+CLOSED: [2025-05-24 Sat 01:20]
 - /Find linux web-scrapping methods/
-*** Default-application open method [100%] :LINUX:
+*** DONE Default-application open method [100%] :LINUX:
+CLOSED: [2025-05-24 Sat 01:20]
 :PROPERTIES:
 :ID:       0a3f8238-97cd-4aa2-a8dc-6ecea163efac
 :END:
@@ -393,83 +344,6 @@ CLOSED: [2025-04-22 Tue 03:08]
     - [[https://www.youtube.com/watch?v=ryR2-jVjoeA&t=15][Trailer starts at 00:15]]
     - [[https://www.youtube.com/watch?v=jv4pDOKe7OE&t=30][Test video starts at 00:30]]
     - [[https://www.youtube.com/watch?v=jv4pDOKe7OE?start=53&end=59][Youtube link with start and end time]]
-*** DOING Qutebrowser configuration [85%] :QUTEBROWSER:
-- *Goal:* implement text to speech to qutebrowser
-  - *Stumble upon:* [[https://redlib.seasi.dev/r/qutebrowser/comments/w4pv2v/configpy_ideas/][Qutebrowser tts config idea @ Reddit]]
-**** DONE Rebind set-mark function
-CLOSED: [2025-01-28 Tue 03:19]
-- *Goal:* rebind set-mark func to match vim
-- Note taken on [2025-05-06 Tue 21:43] \\
-  - Bookmark bind
-    #+NAME: config.py bind command
-    #+BEGIN_SRC: python
-    config.bind('m', 'mode-enter set_mark')
-    #+END_SRC
-**** DONE Qutebrowser start-page
-CLOSED: [2025-05-04 Sun 08:44]
-- *Goal:* /Add qutebrowser start-page/
-  - *Visit:* [[https://nimplex.github.io/Minimal-StartPage/][start-page @ Search]]
-**** DONE Qutebrowser with Qtile [100%] :QTILE:
-CLOSED: [2025-05-22 Thu 06:03]
-- *Goal:* /Integrate qutebrowser to qtile window manager/
-***** DONE Workaround window-bg
-CLOSED: [2025-05-07 Wed 12:28]
-:PROPERTIES:
-:ID:       7a4c8a36-bc6b-4050-9448-a2aa9403ad16
-:END:
-:LOGBOOK:
-- Note taken on [2025-05-05 Mon 07:26] \\
-Workaround ~qutebrowser~ using ~xdotool~ to detect invisible ~windows~ and take advantage of ~tabs.tabs_are_windows~ to set every ~tabs~ to ~windows~ ~new_instance_open_target~ to set newly spawned ~windows~ to ~bg-windows~
-***Commit:* [[https://github.com/whammou/dotfiles/commit/bd57d28a018468f17aa233bc31158da9730af7f4][Qutebrowser workaround @ Github]]
-:END:
-- *Goal:* /Run new window in background (prevent focus stealing)/
-  - *Visit:* [[https://github.com/qutebrowser/qutebrowser/issues/3819][Qutebrowser new window in background @ Github]]
-  - *Visit:* [[https://stackoverflow.com/questions/9117507/linux-unix-command-to-determine-if-process-is-running][Determine if qutebrowser is running @ Overflow]]
-****** DONE [BUG] Daemon messed up qtile focus
-CLOSED: [2025-04-20 Sun 23:39] DEADLINE: <2025-04-21 Mon 22:00>
-:LOGBOOK:
-- Note taken on [2025-05-07 Wed 12:17] \\
-***Run* ~qutebrowser --nowindow~ to create startup instance (faster access using ~qutebrowser_instance~ script) 
-- !NOTE: Daemon is dead after killing first instance via ~:q~
-:END:
-- *Goal:* /Check out Qutebrowser-daemon script/
-  - *Visit:* [[https://gist.github.com/knatsakis/8cf329853330893cd2d7fa3dbd5692b0][Qutebrowse-daemon script @ Github]]
-  - *Checkout:* [[Workaround window-bg][[BUG] Workaround daemon next window focus bug @ Org]]
-***** DONE Spawn layout commands
-CLOSED: [2025-05-21 Wed 23:28] DEADLINE: <2025-05-21 Wed 22:15>
-- *Goal:* /Create script to let qtile manage spawn position of new window/
-  - *Run:* ~qtile cmd-obj -o layout -f spawn_split -a "qb 'URL'" "x"~ 
-    - [X] Create alias
-    - [X] Crreate keybinds
-****** DONE Qtile spawn script
-CLOSED: [2025-05-21 Wed 23:28]
-1. *Goal:* /Create python script to run qtile cmd-obj with extra arguments/
-2. *Goal:* /Create script to let qtile manage spawn tab of new window/
-  - *Run:* ~qtile cmd-obj -o layout -f spawn_tab -a "qb 'URL' new_level=True"~
-  - *Problem:* Prasing error when using cmd-obj and argument is ~int~ or ~bool~
-  - *Visit:* [[https://github.com/qtile/qtile/issues/2433][Error using qtile cmd-obj when arg is int @ Github-issue]]
-    - [X] Create ~script~
-    - [X] Create alias
-    - [X] Crreate keybinds
-**** ABORTED Redirect URL
-CLOSED: [2025-05-07 Wed 23:34]
-- *Goal:* /Redirect URL via user-scripts/
-  - *Visit:* [[https://l.opnxng.com/r/qutebrowser/comments/mvd89k/is_there_a_way_to_implement_redirect_links_in/][Redirect URL @ Reddit]]
-  - *Visit:* [[https://github.com/gicrisf/swapforqute][Redirect URL script @ Github]]
-**** DONE Hardware Acceleration
-CLOSED: [2025-04-18 Fri 14:16] DEADLINE: <2025-04-16 Wed 16:00>
-- *Goal:* /Enable hardware acceleration/
-  - *Visit:* [[https://wiki.archlinux.org/title/Hardware_video_acceleration][Hardware acceleration doc @ Archwiki]]
-**** ABORTED Create profiles
-CLOSED: [2025-04-23 Wed 22:44] DEADLINE: <2025-04-23 Wed 22:00>
-- *Goal:* /Setup qutebrowser-profiles for better session managements/
-  - *Run* ~qutebrowser-profile --new --load "profile"~
-**** TODO Usserscripts
-- *Goal:* /Learn to write userscripts in qutebrowser/
-  - *References:*
-    - [[https://github.com/hiway/python-qutescript][python-qutescript @Github]]
-    - [[qute://help/settings.html#bindings.commands][Settings references @Qutebrowser-doc]]
-    - [[qute://help/configuring.html][Keybinds and configuring @Qutebrowser-doc]]
 *** DONE Linux tear-free [100%] :LINUX:
 CLOSED: [2025-05-21 Wed 18:01]
 - *Goal:* /Dicide to run with a ~compositor~ or without/
@@ -501,46 +375,6 @@ CLOSED: [2025-05-21 Wed 18:15]
     video-sync=display-resample
     interpolation=yes
     #+END_confini
-*** DOING Manage windows spawn/layout [66%] :QTILE:
-- *Goal:* /Assign spawn grouping and layouts/
-**** DOING Manage floating windows [100%]
-:LOGBOOK:
-- Note taken on [2025-05-05 Mon 08:21] \\
-- Added prevent *focus_stealing_hook* to ~qtile~
-- *Visit:* [[https://github.com/whammou/dotfiles/commit/56ee9ce8c65ed7b2dba894a5ba294a285c2504f0][Added prevent_focus_stealing hook @Commit]]
-:END:
-- *Goal:* /Add floating windows for quick preview of media files/
-- *References:*
-  - [[https://github.com/qtile/qtile/issues/1260#issuecomment-913327960][floating window focus discussion @Github]]
-  - [[https://github.com/qtile/qtile/wiki/floating-windows][floating windows @Github-wiki]]
-  - [[https://l.opnxng.com/r/qtile/comments/w240e0/is_it_possible_to_move_around_floating_windows/][Resize floating windows @Reddit]]
-  - *Topic:*
-    - [[https://l.opnxng.com/r/qtile/comments/tw9apn/spawn_a_terminal_with_command_and_make_it_floating/][Function per custom window(WM_CLASS) @Reddit]]
-    - [[https://github.com/qtile/qtile/discussions/4049][Keep window above all other windows @Github-issue]]
-    - [[https://github.com/qtile/qtile/issues/1145#issuecomment-392771986][App layers @Github-issue]]
-***** DONE Cycle through floating windows
-CLOSED: [2025-05-12 Mon 15:54] DEADLINE: <2025-05-11 Sun 18:30>
-- *Goal:* /Keybind to cycle focus through floating windows/
-  - *Visit:* [[https://github.com/qtile/qtile/issues/794][Keybinds @Github-issue]]
-  - *Visit:* [[https://github.com/qtile/qtile/issues?q=is%3Aissue%20multiple%20callbacks&page=1][multiple callbacks keybinding @Gtihub-issue]]
-***** PENDING Resize floating windows
-DEADLINE: <2025-05-22 Thu 21:00> CLOSED: [2025-05-23 Fri 18:56]
-- *Goal:* /Create keybinds to resize floating windows/
-  - [ ] Resize xy
-  - [ ] Resize keep aspect ratio
-***** PENDING Move floating windows
-DEADLINE: <2025-05-22 Thu 21:10> CLOSED: [2025-05-23 Fri 18:56]
-- *Goal:* /Create move() floating windows keybinds/
-  - *References:* [[https://l.opnxng.com/r/qtile/comments/18cjjlo/keybinds_to_resize_and_move_floating_window/][Move floating windows via @lazy.window.function @Reddit]]
-**** DONE Hooks and custom functions
-CLOSED: [2025-05-08 Thu 14:27]
-- *Goal:* /Checkout hooks and custom functions e.g ~expose command~/
-- *Visit:* [[https://docs.qtile.org/en/latest/manual/config/hooks.html][Hooks and Commands @Qtile-doc]]
-**** PENDING Windows grouping
-CLOSED: [2025-05-09 Fri 22:19] DEADLINE: <2025-05-09 Fri 18:00>
-- [X] *Goal:* /Assign grouping for windows with the same wm_class/
-  - *Visit:* [[https://github.com/aravinda0/qtile-bonsai/discussions/12#discussioncomment-11095207][new window grouping @Github-discussion]]
-- [ ] *Goal:* /Assign goruping for *specific* windows with the same wn_class/
 *** DONE Config yazi [100%] :YAZI:
 CLOSED: [2025-05-22 Thu 06:25]
 - *Goal:* /Better workflow with yazi/
@@ -587,3 +421,24 @@ CLOSED: [2025-03-16 Sun 20:23]
 **** ABORTED configure nvim-cmp
 CLOSED: [2025-03-16 Sun 20:23]
 - *Goal(s):* configure ~nvim-cmp~
+*** DONE Overhaul Note repo [100%] :ORGMODE:GITHUB:
+CLOSED: [2025-05-13 Tue 18:11] DEADLINE: <2025-05-13 Tue 20:00>
+- *Goal(s):* update note repo structure for more optimal workflow
+- *NOTE:* checkout [[./README.org][README]] and find a suitable repo structure
+**** ABORTED Modify README
+CLOSED: [2025-04-11 Fri 21:41]
+- *Goal(s):* modify and add README content
+  - [ ] modify [[./README.org::repo-hierarchy][Hierarchy]]
+  - [ ] add template structure
+**** DONE Separate archive hierarchy
+CLOSED: [2025-05-13 Tue 18:11]
+- Note taken on [2025-01-23 Thu 00:09] \\
+  Separate ~Logs~ ~Lists~ and ~Documents~ to different files to avoid callbacks
+- *Goal:* optimize ~archive~ hierarchy
+*** PENDING Organize Script repo :GITHUB:
+Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~
+- [ ] Organize ~/scripts~
+- [ ] Oragnize [[file:/home/whammou/notes/capture.org::*Qtile scripts][qtile]] scripts
+- [ ] Oragnize ~$PATH~
+*** PENDING System Proxy and DNS :SYSTEM:
+Access blocked websites via ~proxy~ or changeing ~DNS~

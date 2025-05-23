@@ -1,141 +1,195 @@
 #+TITLE: Capture
 #+DESCRIPTION: Captures and Quick notes
 
-* PENDING Plain text music playlist :LINUX:
-*Goal:* Plain text music playlist that works with ~ytfzf~ and ~new pipe~
-* ABORTED Config nvim-supertab and nvim-cmp :NVIM:
-- *Stumble upon:* [[https://github.com/hrsh7th/nvim-cmp/issues/179][issue@github]]
-- *Goal(s):* config nvim to work with nvim-cmp nvim-supertab
-* DONE Overhaul Note repo [100%] :ORGMODE:GITHUB:
-CLOSED: [2025-05-13 Tue 18:11] DEADLINE: <2025-05-13 Tue 20:00>
-- *Goal(s):* update note repo structure for more optimal workflow
-- *NOTE:* checkout [[./README.org][README]] and find a suitable repo structure
-** ABORTED Modify README
-CLOSED: [2025-04-11 Fri 21:41]
-- *Goal(s):* modify and add README content
-  - [ ] modify [[./README.org::repo-hierarchy][Hierarchy]]
-  - [ ] add template structure
-** DONE Separate archive hierarchy
-CLOSED: [2025-05-13 Tue 18:11]
-- Note taken on [2025-01-23 Thu 00:09] \\
-  Separate ~Logs~ ~Lists~ and ~Documents~ to different files to avoid callbacks
-- *Goal:* optimize ~archive~ hierarchy
-* TODO Pandoc font settings :PANDOC:
-Set conversion fonts from ~markdown~ to ~LaTex~
-*Visit:* [[https://a.opnxng.com/exchange/tex.stackexchange.com/questions/234786/how-to-set-a-font-family-with-pandoc][pandoc fonts]]
-* PENDING Organize Script repo :GITHUB:
-Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~
-  - [ ] Organize ~/scripts~
-  - [ ] Oragnize [[file:/home/whammou/notes/capture.org::*Qtile scripts][qtile]] scripts
-  - [ ] Oragnize ~$PATH~
-* PENDING System Proxy and DNS :SYSTEM:
-Access blocked websites via ~proxy~ or changeing ~DNS~
-* DONE Integrate lazygit [100%] :GIT:
-CLOSED: [2025-04-19 Sat 17:50]
-Replace ~vim-fugitive~ with ~lazygit~
-** DONE Setup git
-CLOSED: [2025-04-19 Sat 17:50]
-/edit editor and diff-method in global config file/
-*Checkout:* [[file:/home/whammou/.gitconfig][gitconfig]]
-*** DONE Add git-deff method
-CLOSED: [2025-04-19 Sat 17:50]
-/insert use methods here/
-* TODO Understanding the ATS [%] :WORK:
-- [ ] What is an [[https://www.jobscan.co/blog/8-things-you-need-to-know-about-applicant-tracking-systems/][ATS]]
-- [ ] Impact of ATS on your ~application~
-- [ ] What to do
-* PENDING University of the people [0%] :UNIVERSITY:
-- /Closer look into the/ [[https://www.uopeople.edu/][University of the people]]
-** Education and tuition fees
-- /Information on providing courses and fees/
-** Education in Vietname
-- /Both locally and globally/
-* TODO Detect git repos from system :GIT:FZF:
-- /Detect system wise git repos the use fzf to open lazygit at repo location/
-* PENDING [#B] Self-host AI [100%] :LINUX:AI:
-CLOSED: [2025-04-19 Sat 17:51]
-- /GTX 1050 ti AI self-host models/
-** PENDING Linux-Windows dual boot
-CLOSED: [2025-04-19 Sat 17:51]
-- /Dual boot Windows and Linux on the same system/
-- *Visit:* [[https://wiki.archlinux.org/title/Dual_boot_with_Windows][Dual boot with Windows]]
-** PENDING Self-host AI with Nvidia card
-CLOSED: [2025-04-19 Sat 17:51]
-- Note taken on [2025-03-28 Fri 22:13] \\
-  Modified version of ~ollama~ to work with GTX 1050 ti [[https://github.com/ollama/ollama/issues/2332][Ollama on legacy gpu]]
-- /Models compatible with ~GTX 1050 ti~/
-- *Visit:*
-  - [[https://discuss.techlore.tech/t/possible-to-use-nvidia-gtx-card-for-self-hosted-ai/8454/4][AI self-host nvidia card]]
-  - [[https://ollama.com/search][Ollama models]]
-** PENDING Integrate AI into shell
-CLOSED: [2025-04-19 Sat 17:52]
-- Note taken on [2025-03-28 Fri 21:57] \\
-  Integrate ~Ollama~ into ~shell_gpt~ using this [[https://github.com/TheR1D/shell_gpt/wiki/Ollama][guide]] 
-- /Successfully integrate AI to shell/
-- *Visit:* 
-  - [[https://github.com/danielmiessler/fabric][Fabric@github]]
-  - [[https://github.com/TheR1D/shell_gpt][Shell_gpt@github]]
-* ABORTED [#D] Men eyebrows care :SELFCARE:
-CLOSED: [2025-04-08 Tue 18:46] DEADLINE: <2025-04-05 Sat 22:00>
-- /Suggestions for eyebrows-care/
-* DONE Optimal sleep time :SELFCARE:
-CLOSED: [2025-05-07 Wed 12:04] DEADLINE: <2025-05-07 Wed 21:00>
-:PROPERTIES:
-:ID:       b7abea60-bd6a-4bb4-9aa6-5e7ccfa0ace5
-:END:
-- /Research optimal sleep time/
-- *Visit:*
-  - [[https://youtube.com/watch?v=q7amXedTasQ][Sleep hygeines and habbits @Youtube]]
-  - [[https://www.youtube.com/watch?v=cyKEfejsVps][Why your sleeping habits arent healthy @Youtube]]
-  - [[https://www.youtube.com/watch?v=pm0V_66IBvc][How to fix a degen sleep schedule @Youtube]]
-* DONE [#B] Orgmode-nvim agenda custom commands :NVIM:ORGMODE:
-CLOSED: [2025-04-13 Sun 17:51] DEADLINE: <2025-04-12 Sat 23:00>
-- Note taken on [2025-03-27 Thu 09:27] \\
-  check org_agenda_custom_commands
+* Working with python [0%] :PYTHON:
+- *Goal:* /Automantion documentation with python/
+** Python scripting [0%] :SCRIPTING:
+- *Goal:* /Learn to do some scrpiting with python/
+*** Passing shell arguments :SHELL:
+- *Goal:* /Passing argument from shell/
+  - *References:* [[https://ao.bloat.cat/exchange/stackoverflow.com/questions/39498702/passing-arguments-to-python-from-shell-script][Passing shell argument to python @Overflow]]
+** Python virutal enviroment
+- *Goal:* /Manage python virtual enviroments/
+  To initiate virtual environment, run ~python -m venv <name>~
 
-- /Create org_agenda_custom_commands custom cammands/
-- *Visit:* [[https://nvim-orgmode.github.io/configuration][nvim-orgmode documentations]]
-* DONE Orgmode desktop notification :ORGMODE:
-CLOSED: [2025-05-12 Mon 09:10] DEADLINE: <2025-05-11 Sun 19:30>
-- Note taken on [2025-03-29 Sat 13:45] \\
-  The following [[https://nvim-orgmode.github.io/configuration#cron][guide]] is written for ~cron~. Modify to work with ~systemd~
-- *Goal:* /Integrate ~orgmode-notification~ to ~system~/
-* TODO English doc :SOCIAL:
-DEADLINE: <2025-05-23 Fri 23:00>
+*** Manage packages
+- *Goal:* /Save virtual environemnt state/
+  - To create lock file, run (when inside virtual environment) ~pip freeze > requirements.txt~
+  - To install from ~requirements.txt~ run ~pip install -r requirements.txt~
+** Python as a tool for note-taking
+- *Goal:* /Create a tool ultilies python and latex in nvim to create similar workflow in this/ [[https://l.opnxng.com/r/neovim/comments/yfbfvu/sympy_luasnip_vimtex/][post]]
+* DOING Orgmode Manual [85%] :ORGMODE:
+CLOSED: [2024-11-07 Thu 06:08]
+/Because ~orgzly-android~ is under development and features are limited some implementations will be a work around and possibly revisit in the future, check for request features/ [[https://github.com/orgzly-revived/orgzly-android-revived/issues/88][prioritized requested features]]
+** DONE Orgmode Include Files
+CLOSED: [2024-09-06 Fri 21:35]
 :PROPERTIES:
-:ID:       6aaa4c17-f24d-4c4b-8956-d2884a404563
+:ARCHIVE_TIME: 2024-09-11 Wed 04:59
+:ARCHIVE_FILE: /home/whammou/notes/personal.org
+:ARCHIVE_CATEGORY: personal
+:ARCHIVE_TODO: TODO
 :END:
-* ABORTED Config gitbare at dotfiles :GIT:
-CLOSED: [2025-04-20 Sun 23:41]
-- /Make/ ~dotfiles~ /.gitbare/
-* DONE Fetch yt-dl format :LINUX:
-CLOSED: [2025-04-09 Wed 17:46]
-- /fetch video decoding format/
-  - [x] No support for av1 codec profile 0
-  - [x] yt-dl [[file:~/.config/ytdl/conf][config]]
-  - [x] [[https://github.com/Benexl/yt-x?tab=readme-ov-file][yt-x yt-dl implement]]
-* TODO Search more efficiently :LINUX:
+- *Goal:* Include files from across org files
+- *Resources:* [[https://orgmode.org/manual/Include-Files.html][org manual]]
+** DONE Orgmode Search
+CLOSED: [2024-09-30 Mon 03:38]
+- *Goal(s):* Learn to search in orgmode repo
+tumble-upon:* [[https://www.orgzlyrevived.com/docs#search][orgzly-manual]]  [[https://orgmode.org/worg/org-tutorials/advanced-searching.html][nvim-orgmode]]
+
+/For now, ~orgzly-android~ does not support search by property, check/ [[https://github.com/orgzly/orgzly-android/issues/146][issue:search by property drawer]]
+** DONE Orgmode Hyperlink
+CLOSED: [2024-10-08 Tue 22:58]
+- *Visit:* [[https://github.com/nvim-orgmode/orgmode/blob/master/DOCS.md#hyperlinks][nvim-orgmode#hyperlink]] see how nvim-orgmode handle hyperlink
+- *Note:* Cross file include
+** DONE Orgmode Tag
+CLOSED: [2024-10-01 Tue 06:03]
+- *Visit:* [[https://www.orgzly.com/docs#search][orgzly#search]] how orgzly handle headline ~tag~
+- *Suggestion:* Use [[./README.org][README]] to generate a list of ~tags~ and its ~description~
+** DONE Orgmode PROPERTIES
+CLOSED: [2024-10-01 Tue 06:03]
+- *Goal(s):* Read [[https://orgmode.org/manual/Properties-and-Columns.html][PROPERTIES@orgmanual]] 
+*** Property Syntax
+A. Properties are key-value pairs. When they are associated with single entry or with a tree they need to inserted in to special drawer with the name ~:PROPERTIES:~, which has to located right below a headline, and its planning line
+B. Depend on the value of ~org-use-property-inheritance~, a property set this way is associated either with a single entry, or with the subtree defined by the entry
+C. Properties can be inserted at the buffer level. That means they apply before the first headline and can be inherited by all entries in a file. Property blocks defined before the first headline must be at the top of the buffer with only comments above them
+   
+\Note that a property can only have one try per drawer\
+
+Property values set with the global variable ~org-global-properties~ can be inherited by all entries in all Org files
+*** Special Properties
+Special properties provide an alternative access method to Org mode features, like the TODO sate or the priority of an entry:
+
+- ~#+FILETAG: :FOO:BAR:~: notebook tag
+** DOING Org2ical [%] :DATA:
+- *Goal:* Generate .ics files from .org files(use homelab for daily merge)
+- *Visit:*  [[https://pypi.org/project/org2ical/][org2ical package]] [[https://github.com/jacobmischka/ics-merger][icals merger]]
+*** DOING Sync orgmode to CalDav [0%] :KHALORG:
+DEADLINE: <2025-05-23 Fri 22:25>
+- *Goal:* /Succefully sync between orgmode and caldav for professional uses/
+  - *Visit:* [[file:/home/whammou/dots/BartSte/dotfiles/nvim/lua/config/orgmode.lua][orgmode config @Git]]
+  - *References:* [[https://github.com/BartSte/khalorg][khalorg @Github]]
+**** TODO Config vdirsyncer :VDIRSYNCER:
+- *Goal:* /Config vdirsyncer to work sync calendar to google cal/
+  - *References:* [[http://vdirsyncer.pimutils.org/en/stable/when.html][Vdirsyncer documentation @Doc]]
+** DONE Orgmode social media integrate
+CLOSED: [2024-12-26 Thu 22:28]
+* DOING Qutebrowser configuration [85%] :QUTEBROWSER:
+- *Goal:* implement text to speech to qutebrowser
+  - *Stumble upon:* [[https://redlib.seasi.dev/r/qutebrowser/comments/w4pv2v/configpy_ideas/][Qutebrowser tts config idea @ Reddit]]
+** DONE Rebind set-mark function
+CLOSED: [2025-01-28 Tue 03:19]
+- *Goal:* rebind set-mark func to match vim
+- Note taken on [2025-05-06 Tue 21:43] \\
+  - Bookmark bind
+    #+NAME: config.py bind command
+    #+BEGIN_SRC: python
+    config.bind('m', 'mode-enter set_mark')
+    #+END_SRC
+** DONE Qutebrowser start-page
+CLOSED: [2025-05-04 Sun 08:44]
+- *Goal:* /Add qutebrowser start-page/
+  - *Visit:* [[https://nimplex.github.io/Minimal-StartPage/][start-page @ Search]]
+** DONE Qutebrowser with Qtile [100%] :QTILE:
+CLOSED: [2025-05-22 Thu 06:03]
+- *Goal:* /Integrate qutebrowser to qtile window manager/
+*** DONE Workaround window-bg
+CLOSED: [2025-05-07 Wed 12:28]
 :PROPERTIES:
-:ID:       995adf02-30af-429f-94ca-56e405e15914
+:ID:       7a4c8a36-bc6b-4050-9448-a2aa9403ad16
 :END:
-- /Use advances search methods in search engines/
-* DONE Ignore yt-x watchlist :YTX:
-CLOSED: [2025-04-14 Mon 21:53] DEADLINE: <2025-04-14 Mon 21:00>
-- /Add watchlist file to/ ~gitignore~
-* PENDING Auto commit repo :GIT:
-DEADLINE: <2025-05-23 Fri> CLOSED: [2025-05-23 Fri 18:56]
-:PROPERTIES:
-:ID:       1c814ec1-f296-4b5a-8631-2a0d970d14a0
+:LOGBOOK:
+- Note taken on [2025-05-05 Mon 07:26] \\
+Workaround ~qutebrowser~ using ~xdotool~ to detect invisible ~windows~ and take advantage of ~tabs.tabs_are_windows~ to set every ~tabs~ to ~windows~ ~new_instance_open_target~ to set newly spawned ~windows~ to ~bg-windows~
+*Commit:* [[https://github.com/whammou/dotfiles/commit/bd57d28a018468f17aa233bc31158da9730af7f4][Qutebrowser workaround @ Github]]
 :END:
-- *Goal:* /Write scripts for:/
-  - [ ] Write auto commit message
-  - [ ] Auto pulling
-  - [ ] Auto pushing
-- *Goal:* /Auto commit repo via external packages/
-  - *Visit:* [[https://a.opnxng.com/exchange/stackoverflow.com/questions/420143/making-git-auto-commit][git auto commit @Overflow]]
-* TODO Connect to running nvim server :NVIM:
-- *Goal:* /Connect to running/ ~nvim-server~ /apply to/ ~orgmode~
-  - *Visit:* [[https://github.com/neovim/neovim/issues/5035][github.com#\:connect-to-nvim-server @Github]]
+- *Goal:* /Run new window in background (prevent focus stealing)/
+  - *Visit:* [[https://github.com/qutebrowser/qutebrowser/issues/3819][Qutebrowser new window in background @ Github]]
+  - *Visit:* [[https://stackoverflow.com/questions/9117507/linux-unix-command-to-determine-if-process-is-running][Determine if qutebrowser is running @ Overflow]]
+**** DONE [BUG] Daemon messed up qtile focus
+CLOSED: [2025-04-20 Sun 23:39] DEADLINE: <2025-04-21 Mon 22:00>
+:LOGBOOK:
+- Note taken on [2025-05-07 Wed 12:17] \\
+*Run* ~qutebrowser --nowindow~ to create startup instance (faster access using ~qutebrowser_instance~ script) 
+- !NOTE: Daemon is dead after killing first instance via ~:q~
+:END:
+- *Goal:* /Check out Qutebrowser-daemon script/
+  - *Visit:* [[https://gist.github.com/knatsakis/8cf329853330893cd2d7fa3dbd5692b0][Qutebrowse-daemon script @ Github]]
+  - *Checkout:* [[Workaround window-bg][[BUG] Workaround daemon next window focus bug @ Org]]
+*** DONE Spawn layout commands
+CLOSED: [2025-05-21 Wed 23:28] DEADLINE: <2025-05-21 Wed 22:15>
+- *Goal:* /Create script to let qtile manage spawn position of new window/
+  - *Run:* ~qtile cmd-obj -o layout -f spawn_split -a "qb 'URL'" "x"~ 
+    - [X] Create alias
+    - [X] Crreate keybinds
+**** DONE Qtile spawn script
+CLOSED: [2025-05-21 Wed 23:28]
+1. *Goal:* /Create python script to run qtile cmd-obj with extra arguments/
+2. *Goal:* /Create script to let qtile manage spawn tab of new window/
+   - *Run:* ~qtile cmd-obj -o layout -f spawn_tab -a "qb 'URL' new_level=True"~
+   - *Problem:* Prasing error when using cmd-obj and argument is ~int~ or ~bool~
+   - *Visit:* [[https://github.com/qtile/qtile/issues/2433][Error using qtile cmd-obj when arg is int @ Github-issue]]
+    - [X] Create ~script~
+    - [X] Create alias
+    - [X] Crreate keybinds
+** ABORTED Redirect URL
+CLOSED: [2025-05-07 Wed 23:34]
+- *Goal:* /Redirect URL via user-scripts/
+  - *Visit:* [[https://l.opnxng.com/r/qutebrowser/comments/mvd89k/is_there_a_way_to_implement_redirect_links_in/][Redirect URL @ Reddit]]
+  - *Visit:* [[https://github.com/gicrisf/swapforqute][Redirect URL script @ Github]]
+** DONE Hardware Acceleration
+CLOSED: [2025-04-18 Fri 14:16] DEADLINE: <2025-04-16 Wed 16:00>
+- *Goal:* /Enable hardware acceleration/
+  - *Visit:* [[https://wiki.archlinux.org/title/Hardware_video_acceleration][Hardware acceleration doc @ Archwiki]]
+** ABORTED Create profiles
+CLOSED: [2025-04-23 Wed 22:44] DEADLINE: <2025-04-23 Wed 22:00>
+- *Goal:* /Setup qutebrowser-profiles for better session managements/
+  - *Run* ~qutebrowser-profile --new --load "profile"~
+** TODO Usserscripts
+- *Goal:* /Learn to write userscripts in qutebrowser/
+  - *References:*
+    - [[https://github.com/hiway/python-qutescript][python-qutescript @Github]]
+    - [[qute://help/settings.html#bindings.commands][Settings references @Qutebrowser-doc]]
+    - [[qute://help/configuring.html][Keybinds and configuring @Qutebrowser-doc]]
+* DOING Manage windows spawn/layout [66%] :QTILE:
+- *Goal:* /Assign spawn grouping and layouts/
+** DOING Manage floating windows [100%]
+:LOGBOOK:
+- Note taken on [2025-05-05 Mon 08:21] \\
+- Added prevent *focus_stealing_hook* to ~qtile~
+- *Visit:* [[https://github.com/whammou/dotfiles/commit/56ee9ce8c65ed7b2dba894a5ba294a285c2504f0][Added prevent_focus_stealing hook @Commit]]
+:END:
+- *Goal:* /Add floating windows for quick preview of media files/
+- *References:*
+  - [[https://github.com/qtile/qtile/issues/1260#issuecomment-913327960][floating window focus discussion @Github]]
+  - [[https://github.com/qtile/qtile/wiki/floating-windows][floating windows @Github-wiki]]
+  - [[https://l.opnxng.com/r/qtile/comments/w240e0/is_it_possible_to_move_around_floating_windows/][Resize floating windows @Reddit]]
+  - *Topic:*
+    - [[https://l.opnxng.com/r/qtile/comments/tw9apn/spawn_a_terminal_with_command_and_make_it_floating/][Function per custom window(WM_CLASS) @Reddit]]
+    - [[https://github.com/qtile/qtile/discussions/4049][Keep window above all other windows @Github-issue]]
+    - [[https://github.com/qtile/qtile/issues/1145#issuecomment-392771986][App layers @Github-issue]]
+*** DONE Cycle through floating windows
+CLOSED: [2025-05-12 Mon 15:54] DEADLINE: <2025-05-11 Sun 18:30>
+- *Goal:* /Keybind to cycle focus through floating windows/
+  - *Visit:* [[https://github.com/qtile/qtile/issues/794][Keybinds @Github-issue]]
+  - *Visit:* [[https://github.com/qtile/qtile/issues?q=is%3Aissue%20multiple%20callbacks&page=1][multiple callbacks keybinding @Gtihub-issue]]
+*** PENDING Resize floating windows
+DEADLINE: <2025-05-22 Thu 21:00> CLOSED: [2025-05-23 Fri 18:56]
+- *Goal:* /Create keybinds to resize floating windows/
+  - [ ] Resize xy
+  - [ ] Resize keep aspect ratio
+*** PENDING Move floating windows
+DEADLINE: <2025-05-22 Thu 21:10> CLOSED: [2025-05-23 Fri 18:56]
+- *Goal:* /Create move() floating windows keybinds/
+  - *References:* [[https://l.opnxng.com/r/qtile/comments/18cjjlo/keybinds_to_resize_and_move_floating_window/][Move floating windows via @lazy.window.function @Reddit]]
+** DONE Hooks and custom functions
+CLOSED: [2025-05-08 Thu 14:27]
+- *Goal:* /Checkout hooks and custom functions e.g ~expose command~/
+- *Visit:* [[https://docs.qtile.org/en/latest/manual/config/hooks.html][Hooks and Commands @Qtile-doc]]
+** PENDING Windows grouping
+CLOSED: [2025-05-09 Fri 22:19] DEADLINE: <2025-05-09 Fri 18:00>
+- [X] *Goal:* /Assign grouping for windows with the same wm_class/
+  - *Visit:* [[https://github.com/aravinda0/qtile-bonsai/discussions/12#discussioncomment-11095207][new window grouping @Github-discussion]]
+- [ ] *Goal:* /Assign goruping for *specific* windows with the same wn_class/
 * DOING Working with youtube [67%] :LINUX:YOUTUBE:
 - /Use youtube for documentation:/
 ** DOING Package configurations [50%]
@@ -144,17 +198,17 @@ DEADLINE: <2025-05-23 Fri> CLOSED: [2025-05-23 Fri 18:56]
 CLOSED: [2025-05-22 Thu 06:28]
 - *Goal:* /Increase yt-dlp downlaod speed/
   - *Configuration:*
-      #+BEGIN_confini
-      --force-ipv4
-      --legacy-server-connect
-      --throttled-rate 500K
-      --concurrent-fragments 8
-      #+END_confini
+    #+BEGIN_confini
+    --force-ipv4
+    --legacy-server-connect
+    --throttled-rate 500K
+    --concurrent-fragments 8
+    #+END_confini
 - Note taken on [2025-04-22 Tue 18:49] \\
   yt-dlp download file format in mpv
-      #+BEGIN_SRC confini
-      ytdl-format = 'worstvideo[height>=720]+bestaudio'
-      #+END_SRC
+  #+BEGIN_SRC confini
+  ytdl-format = 'worstvideo[height>=720]+bestaudio'
+  #+END_SRC
   - Youtube [[https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file][Cli-youtube-downloader @Github]]
 *** TODO Youtube viewer - mpv :MPV:
 - /Prioritize sub selection script/
@@ -162,7 +216,7 @@ CLOSED: [2025-05-22 Thu 06:28]
 ** DONE Youtube workflow integration
 :LOGBOOK:
 - Note taken on [2025-04-28 Mon 06:08] \\
-  Use ~xdg-utils-handlr~ along side with ~xdg-utils~ for extra features such as _regex-open_
+Use ~xdg-utils-handlr~ along side with ~xdg-utils~ for extra features such as _regex-open_
 :END:
 CLOSED: [2025-04-22 Tue 18:49]
 - /Sucessfully open/ ~yt-url~ /in/ ~mpv~ using:
@@ -182,129 +236,22 @@ CLOSED: [2025-04-28 Mon 09:18]
 *** TODO Mark URL as preview
 - *Goal:* /Specify normal url or preview url/
 - *Visit:* [[https://docs.mapp.com/v1/docs/url-encoding-and-what-characters-are-valid-in-a-uri][URL comment character @ Search]]
-* DONE House-keeping notes repo :ORGMODE:ORGZLY:
-CLOSED: [2025-05-23 Fri 01:53]
-- /Cleaning unecessary spacing and tune in with orgzly/
-  - [x] [[file:capture.org][capture]]
-  - [X] [[./academic/][academic]]
-  - [X] [[./finance/][finance]]
-  - [X] [[./language/][language]]
-  - [X] [[./read/][read]]
-  - [X] [[./routine/][routine]]
-  - [X] [[./system/][system]]
-  - [X] [[./travel/][travel]]
-  - [X] [[./university/][university]]
-  - [X] [[./work/][work]]
-* DOING Config fzf [0%] :FZF:
+* DOING Working with fzf [0%] :FZF:
 - *Goal:* /Config/ ~fzf~ /theme and function//
 ** TODO Theme fzf
 - *Goal:* /Change theme to match/ ~nvim-fzf-lua~
   - *Run:* ~echo $DEFAULT_FZF_OPTS~
 ** TODO Function fzf
 - *Goal:* /Less keystrokes when using/ ~fzf~
-* ABORTED Download gui assets :YOUTUBE:
-CLOSED: [2025-05-04 Sun 09:42] DEADLINE: <2025-05-02 Fri 19:00>
-:PROPERTIES:
-:ID:       e468780d-c925-4f35-b766-a00673cae38d
-:END:
-- *Gui assets:* [[https://www.flaticon.com/free-icons/ui][flaticon]]
-* Systemd config :SYSTEMD:
-- *Goal:* /Config systemd/
-** ABORTED Setup systemd user-config
-CLOSED: [2025-05-07 Wed 12:02] DEADLINE: <2025-05-07 Wed 21:30>
-- /Successfully translate current services to user-services/
-  - *Visit:* 
-    - [[https://wiki.archlinux.org/title/Systemd/User][Systemd/User @Archwiki]]
-    - [[https://a.opnxng.com/exchange/unix.stackexchange.com/questions/224992/where-do-i-put-my-systemd-unit-file][Systemd user config explain @Overflow]]
-* PENDING System file-tag :LINUX:
-CLOSED: [2025-05-08 Thu 14:27]
-- *Goal:* /Assign attribute to a file/
-  - *Visit:* [[https://a.opnxng.com/exchange/unix.stackexchange.com/questions/683017/how-to-tag-any-file-on-the-unix-system][File-tag @Overflow]]
-* DONE Nvim-orgmode plugins :NVIM:
-CLOSED: [2025-05-23 Fri 01:44]
-- [X] *Goal:* /Checkout nvim-orgmode plugins/
-  - *Visit:* [[https://nvim-orgmode.github.io/configuration#notifications][Orgmode notification @Nvim-orgmode-doc]]
-- [X] *Goal:* /Implement iCal workflow with ~Khalorg~/
-  - *Visit:* [[https://nvim-orgmode.github.io/plugins][Nvim-orgmode plugins @Nvim-org-plugins]]
 * TODO Config system notification :DUNST:
 - *Goal:* /Config system notifications with dunst/
   - *Run:* ~man dunst~
   - *File:* [[file:~/.config/dunst/dunstrc][dunst config @Confini]]
-* PENDING Markdown folding :NVIM:MARKDOWN:
-CLOSED: [2025-05-12 Mon 09:04]
-- *Goal:* /Markdown folding folds incorretly when in a list/
-  - *References:*
-    - [[https://github.com/nvim-treesitter/nvim-treesitter/pull/3442][Fold sublists instead of lists in markdown @Github-issue]]
-    - [[https://github.com/nvim-treesitter/nvim-treesitter/issues/5366][Markdown folds don't work correctly with nested lists @Github-issue]]
-    - [[https://linkarzu.com/][Resources @Linkarzu]]
-* TODO Toggle program :BASH:
-- *Goal:* /Toggle command using bash script/
-  - *References:* [[https://www.youtube.com/watch?v=eBzDiBAcIFo#__preview][A one line bash script to toggle programs on/off @Youtube-DistroTube]]
-* PENDING Magic Tape sessions :MAGICTAPE:
-DEADLINE: <2025-05-23 Fri> CLOSED: [2025-05-23 Fri 18:56]
-:PROPERTIES:
-:ID:       8546e69f-f9ab-46d7-b9fc-13356175edbf
-:END:
-- *Goal:* /Create multiple magic-tape sessions using git/
-* DOING Working with AI [50%] :AI:
-:PROPERTIES:
-:ID:       70251f65-3824-4391-94d3-5bb0d1885868
-:END:
-- *Goal:* /Working with AI and learning prompt engineering/
-  - *Visit:* [[https://github.com/danielmiessler/fabric][Fabric @Github]]
-  - *Visit:* [[https://console.cloud.google.com/apis/dashboard?inv=1&invt=Abxqrg&project=testing-447317&pageState=(%22duration%22:(%22groupValue%22:%22P7D%22,%22customValue%22:null))][Token usage @Google-cloud]]
-** DOING Setup shell ai [75%]
-- *Goal:* /Configure Shell AI using ~fabric~/
-  - *Visit:*
-    - [[https://github.com/danielmiessler/fabric][Fabric @Github]]
-  - *References:*
-    - [[https://www.youtube.com/watch?v=UbDyjIIGaxQ#__preview][You've been using AI Wrong @Youtube]]
-    - [[https://www.youtube.com/watch?v=5x4s2d3YWak#__preview][How My Projects Fit Together @Youtube]]
-    - [[https://github.com/danielmiessler/fabric#Usage][Fabric @Github]]
-*** DONE Get Youtube API-key :YOUTUBE:
-CLOSED: [2025-05-18 Sun 05:07]
-- *Goal:* /Access youtube via api-key/
-  - *References:* [[https://blog.hubspot.com/website/how-to-get-youtube-api-key][Get Youtube API Key @Blog]]
-*** DONE Get Gemini API-key :GEMINI:
-CLOSED: [2025-05-18 Sun 05:07]
-- *Goal:* /Access gemini-2.0-flash with api-key/
-  - *References:* [[https://ai.google.dev/gemini-api/docs/api-key][Get Gemini API @Google-studio]]
-*** DONE Get Jina API-key :JINA:
-CLOSED: [2025-05-18 Sun 22:12]
-- *Goal:* /Access Jina AI via API key/
-  - *References:* [[https://jina.ai/][Get Jina-AI API key @Jina-AI]]
-*** TODO Separate project :GCLOUD:
-- [ ] *Goal:* /Seperate project and API keys to decrese quota/
-  - *Visit:* [[https://console.cloud.google.com/welcome?inv=1&invt=Abxqrg&project=testing-447317][Google Console @Google]]
-- [ ] *Goal:* /How to decrease quota/
-** ABORTED Install code_helper extension
-CLOSED: [2025-05-18 Sun 22:13]
-- *Goal:* /Install code helper extension/
-  - *Visit:* [[https://github.com/danielmiessler/fabric?tab=readme-ov-file#code_helper][Code_helper @Github]]
-  - *References:* [[https://github.com/danielmiessler/fabric/blob/main/patterns/create_coding_feature/README.md][Create_code_pattern @Github-README]]
-* TODO Migrate orgmode options to config
-- *Goal:* /Migrate settings to/ [[file:~/.config/nvim/lua/config/orgmode.lua][config.lua]]
-* ABORTED Simplify termial sessions :KITTY:TMUX:
-CLOSED: [2025-05-21 Wed 18:23]
-- *Goal:* /Simplify attach or re-attach using ~kitty~/
-  - *References:* [[https://l.opnxng.com/r/neovim/comments/1iyn321/i_made_kitty_config_to_replace_most_of_tmuxs/][Replace tmux with kitty @Reddit]]
-* TODO Dunst notification stacking :DUNST:
-- [ ] *Goal:* /Stack notifications/
-- [ ] *Goal:* /Interacte with stacked notifications/
-  - *References:* [[https://github.com/dunst-project/dunst/issues/321][Dunst notification stacking @Github-issue]]
-* Python scripting [0%] :PYTHON:SCRIPTING:
-- *Goal:* /Learn to do some scrpiting with python/
-** TODO Passing shell arguments
-- *Goal:* /Passing argument from shell/
-  - *References:* [[https://ao.bloat.cat/exchange/stackoverflow.com/questions/39498702/passing-arguments-to-python-from-shell-script][Passing shell argument to python @Overflow]]
-* Qutebrowser modular configs [%] :QUTEBROWSER:
-- *Goal:* /Re-write qutebrowser and make it modular/
-  - *References:* [[https://qutebrowser.org/doc/help/commands.html][Documentation @Qutebrowser]]
-  - *File:* [[file:~/.config/qutebrowser/][config @Directory]]
-* TODO Nvim indent align :NVIM:
-- *Goal:* /Manage nvim virtual indentaion alignment in plugins:/
-  - [ ] ~nvim-orgmode~ 
-  - [ ] ~render-markdown~
 * TODO Working with git :NVIM:GIT:
 - *Goal:* /Improve workflow with nvim, fugitive, lazygit/
 - *References:* [[https://youtu.be/vtFXMni91Q4#__preview][Fugitive workflow @Youtube-preview]]
+* TODO Workign with pandoc :PANDOC:
+- *Goal:* /Develop workflow with pandoc to convert between files/
+** TODO Pandoc font settings :PANDOC:
+Set conversion fonts from ~markdown~ to ~LaTex~
+*Visit:* [[https://a.opnxng.com/exchange/tex.stackexchange.com/questions/234786/how-to-set-a-font-family-with-pandoc][pandoc fonts]]

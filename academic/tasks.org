@@ -4,6 +4,17 @@
 * Tasks :ACADEMIC:
 Allocated space for tasks/todos
 ** One-off :ONEOFF:
+*** PENDING University of the people [0%] :UNIVERSITY:
+- /Closer look into the/ [[https://www.uopeople.edu/][University of the people]]
+**** Education and tuition fees
+- /Information on providing courses and fees/
+**** Education in Vietname
+- /Both locally and globally/
+*** TODO English doc :SOCIAL:
+DEADLINE: <2025-05-23 Fri 23:25>
+:PROPERTIES:
+:ID:       6aaa4c17-f24d-4c4b-8956-d2884a404563
+:END:
 ** Incidental :INCIDENTAL:
 ** Coordinated :COORDINATED:
 ** Urgent :URGENT:

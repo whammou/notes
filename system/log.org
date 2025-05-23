@@ -481,3 +481,66 @@ Complex math expression does not render correctly
 CLOSED: [2025-05-23 Fri 17:49]
 - *Goal:* /Dicover how github interprets orgmode/
 - *References:* [[https://github.com/novoid/github-orgmode-tests?tab=readme-ov-file][test-repo @Github]]
+** ABORTED Config nvim-supertab and nvim-cmp :NVIM:
+- *Stumble upon:* [[https://github.com/hrsh7th/nvim-cmp/issues/179][issue@github]]
+- *Goal(s):* config nvim to work with nvim-cmp nvim-supertab
+** DONE Integrate lazygit [100%] :GIT:
+CLOSED: [2025-04-19 Sat 17:50]
+Replace ~vim-fugitive~ with ~lazygit~
+*** DONE Setup git
+CLOSED: [2025-04-19 Sat 17:50]
+/edit editor and diff-method in global config file/
+**Checkout:* [[file:/home/whammou/.gitconfig][gitconfig]]
+**** DONE Add git-deff method
+CLOSED: [2025-04-19 Sat 17:50]
+/insert use methods here/
+** ABORTED [#B] Self-host AI [100%] :LINUX:AI:
+CLOSED: [2025-04-19 Sat 17:51]
+- /GTX 1050 ti AI self-host models/
+*** ABORTED Linux-Windows dual boot
+CLOSED: [2025-04-19 Sat 17:51]
+- /Dual boot Windows and Linux on the same system/
+- *Visit:* [[https://wiki.archlinux.org/title/Dual_boot_with_Windows][Dual boot with Windows]]
+*** ABORTED Self-host AI with Nvidia card
+CLOSED: [2025-04-19 Sat 17:51]
+- Note taken on [2025-03-28 Fri 22:13] \\
+  Modified version of ~ollama~ to work with GTX 1050 ti [[https://github.com/ollama/ollama/issues/2332][Ollama on legacy gpu]]
+- /Models compatible with ~GTX 1050 ti~/
+- *Visit:*
+  - [[https://discuss.techlore.tech/t/possible-to-use-nvidia-gtx-card-for-self-hosted-ai/8454/4][AI self-host nvidia card]]
+  - [[https://ollama.com/search][Ollama models]]
+*** ABORTED Integrate AI into shell
+CLOSED: [2025-04-19 Sat 17:52]
+- Note taken on [2025-03-28 Fri 21:57] \\
+  Integrate ~Ollama~ into ~shell_gpt~ using this [[https://github.com/TheR1D/shell_gpt/wiki/Ollama][guide]] 
+- /Successfully integrate AI to shell/
+- *Visit:* 
+  - [[https://github.com/danielmiessler/fabric][Fabric@github]]
+  - [[https://github.com/TheR1D/shell_gpt][Shell_gpt@github]]
+** DONE [#B] Orgmode-nvim agenda custom commands :NVIM:ORGMODE:
+CLOSED: [2025-04-13 Sun 17:51] DEADLINE: <2025-04-12 Sat 23:00>
+- Note taken on [2025-03-27 Thu 09:27] \\
+  check org_agenda_custom_commands
+  
+- /Create org_agenda_custom_commands custom cammands/
+- *Visit:* [[https://nvim-orgmode.github.io/configuration][nvim-orgmode documentations]]
+** DONE Orgmode desktop notification :ORGMODE:
+CLOSED: [2025-05-12 Mon 09:10] DEADLINE: <2025-05-11 Sun 19:30>
+- Note taken on [2025-03-29 Sat 13:45] \\
+  The following [[https://nvim-orgmode.github.io/configuration#cron][guide]] is written for ~cron~. Modify to work with ~systemd~
+- *Goal:* /Integrate ~orgmode-notification~ to ~system~/
+** DONE Fetch yt-dl format :LINUX:
+CLOSED: [2025-04-09 Wed 17:46]
+- /fetch video decoding format/
+  - [x] No support for av1 codec profile 0
+  - [x] yt-dl [[file:~/.config/ytdl/conf][config]]
+  - [x] [[https://github.com/Benexl/yt-x?tab=readme-ov-file][yt-x yt-dl implement]]
+** ABORTED Systemd config :SYSTEMD:
+CLOSED: [2025-05-24 Sat 01:13]
+- *Goal:* /Config systemd/
+*** ABORTED Setup systemd user-config
+CLOSED: [2025-05-07 Wed 12:02] DEADLINE: <2025-05-07 Wed 21:30>
+- /Successfully translate current services to user-services/
+  - *Visit:* 
+    - [[https://wiki.archlinux.org/title/Systemd/User][Systemd/User @Archwiki]]
+    - [[https://a.opnxng.com/exchange/unix.stackexchange.com/questions/224992/where-do-i-put-my-systemd-unit-file][Systemd user config explain @Overflow]]

@@ -237,14 +237,6 @@ CLOSED: [2025-05-12 Mon 09:04]
     - [[https://github.com/nvim-treesitter/nvim-treesitter/pull/3442][Fold sublists instead of lists in markdown @Github-issue]]
     - [[https://github.com/nvim-treesitter/nvim-treesitter/issues/5366][Markdown folds don't work correctly with nested lists @Github-issue]]
     - [[https://linkarzu.com/][Resources @Linkarzu]]
-* DOING Sync orgmode to CalDav [0%] :ORGMODE:KHALORG:
-DEADLINE: <2025-05-23 Fri 22:00>
-- *Goal:* /Succefully sync between orgmode and caldav for professional uses/
-  - *Visit:* [[file:/home/whammou/dots/BartSte/dotfiles/nvim/lua/config/orgmode.lua][orgmode config @Git]]
-  - *References:* [[https://github.com/BartSte/khalorg][khalorg @Github]]
-** TODO Config vdirsyncer :VDIRSYNCER:
-- *Goal:* /Config vdirsyncer to work sync calendar to google cal/
-  - *References:* [[http://vdirsyncer.pimutils.org/en/stable/when.html][Vdirsyncer documentation @Doc]]
 * TODO Toggle program :BASH:
 - *Goal:* /Toggle command using bash script/
   - *References:* [[https://www.youtube.com/watch?v=eBzDiBAcIFo#__preview][A one line bash script to toggle programs on/off @Youtube-DistroTube]]

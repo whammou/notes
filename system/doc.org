@@ -60,9 +60,17 @@ Property values set with the global variable ~org-global-properties~ can be inhe
 Special properties provide an alternative access method to Org mode features, like the TODO sate or the priority of an entry:
 
 - ~#+FILETAG: :FOO:BAR:~: notebook tag
-**** PENDING Org2ical :ORGMODE:DATA:
+**** DOING Org2ical [%] :DATA:
 - *Goal:* Generate .ics files from .org files(use homelab for daily merge)
 - *Visit:*  [[https://pypi.org/project/org2ical/][org2ical package]] [[https://github.com/jacobmischka/ics-merger][icals merger]]
+***** DOING Sync orgmode to CalDav [0%] :KHALORG:
+DEADLINE: <2025-05-23 Fri 22:00>
+- *Goal:* /Succefully sync between orgmode and caldav for professional uses/
+  - *Visit:* [[file:/home/whammou/dots/BartSte/dotfiles/nvim/lua/config/orgmode.lua][orgmode config @Git]]
+  - *References:* [[https://github.com/BartSte/khalorg][khalorg @Github]]
+****** TODO Config vdirsyncer :VDIRSYNCER:
+- *Goal:* /Config vdirsyncer to work sync calendar to google cal/
+  - *References:* [[http://vdirsyncer.pimutils.org/en/stable/when.html][Vdirsyncer documentation @Doc]]
 **** DONE Orgmode social media integrate
 CLOSED: [2024-12-26 Thu 22:28]
 *** DONE Write better commit messages :GIT:

@@ -1,5 +1,7 @@
 #+TITLE: Capture
 #+DESCRIPTION: Captures and Quick notes
+#+attr_html: :width 100px
+#+attr_latex: :width 100px
 
 * PENDING Plain text music playlist :LINUX:
 *Goal:* Plain text music playlist that works with ~ytfzf~ and ~new pipe~

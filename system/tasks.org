@@ -72,6 +72,66 @@ CLOSED: [2025-04-24 Thu 16:50] DEADLINE: <2025-04-24 Thu 20:30>
 *** TODO Update systemd dotfiles :SYSTEMD:
 DEADLINE: <2025-05-23 Fri>
 - *Goal:* /Update systemd config to dotfiles repo/
+*** Clean-up capture :HOUSEKEEPING:
+DEADLINE: <2025-05-24 Sat 01:15>
+- *Goal:* /Clean up/ [[file:../capture.org][capture.org]]
+*** PENDING Plain text music playlist :LINUX:
+***Goal:* Plain text music playlist that works with ~ytfzf~ and ~new pipe~
+*** TODO Detect git repos from system :GIT:FZF:
+- /Detect system wise git repos the use fzf to open lazygit at repo location/
+*** TODO Search more efficiently :LINUX:
+:PROPERTIES:
+:ID:       995adf02-30af-429f-94ca-56e405e15914
+:END:
+- /Use advances search methods in search engines/
+*** PENDING Auto commit repo :GIT:
+DEADLINE: <2025-05-23 Fri> CLOSED: [2025-05-23 Fri 18:56]
+:PROPERTIES:
+:ID:       1c814ec1-f296-4b5a-8631-2a0d970d14a0
+:END:
+- *Goal:* /Write scripts for:/
+  - [ ] Write auto commit message
+  - [ ] Auto pulling
+  - [ ] Auto pushing
+- *Goal:* /Auto commit repo via external packages/
+  - *Visit:* [[https://a.opnxng.com/exchange/stackoverflow.com/questions/420143/making-git-auto-commit][git auto commit @Overflow]]
+*** TODO Connect to running nvim server :NVIM:
+- *Goal:* /Connect to running/ ~nvim-server~ /apply to/ ~orgmode~
+  - *Visit:* [[https://github.com/neovim/neovim/issues/5035][github.com#\:connect-to-nvim-server @Github]]
+*** PENDING System file-tag :LINUX:
+CLOSED: [2025-05-08 Thu 14:27]
+- *Goal:* /Assign attribute to a file/
+  - *Visit:* [[https://a.opnxng.com/exchange/unix.stackexchange.com/questions/683017/how-to-tag-any-file-on-the-unix-system][File-tag @Overflow]]
+*** PENDING Markdown folding :NVIM:MARKDOWN:
+CLOSED: [2025-05-12 Mon 09:04]
+- *Goal:* /Markdown folding folds incorretly when in a list/
+  - *References:*
+    - [[https://github.com/nvim-treesitter/nvim-treesitter/pull/3442][Fold sublists instead of lists in markdown @Github-issue]]
+    - [[https://github.com/nvim-treesitter/nvim-treesitter/issues/5366][Markdown folds don't work correctly with nested lists @Github-issue]]
+    - [[https://linkarzu.com/][Resources @Linkarzu]]
+*** TODO Toggle program :BASH:
+- *Goal:* /Toggle command using bash script/
+  - *References:* [[https://www.youtube.com/watch?v=eBzDiBAcIFo#__preview][A one line bash script to toggle programs on/off @Youtube-DistroTube]]
+*** PENDING Magic Tape sessions :MAGICTAPE:
+DEADLINE: <2025-05-23 Fri> CLOSED: [2025-05-23 Fri 18:56]
+:PROPERTIES:
+:ID:       8546e69f-f9ab-46d7-b9fc-13356175edbf
+:END:
+- *Goal:* /Create multiple magic-tape sessions using git/
+*** TODO Migrate orgmode options to config :ORGMODE:
+- *Goal:* /Migrate settings to/ [[file:~/.config/nvim/lua/config/orgmode.lua][config.lua]]
+*** TODO Dunst notification stacking :DUNST:
+- [ ] *Goal:* /Stack notifications/
+- [ ] *Goal:* /Interacte with stacked notifications/
+  - *References:* [[https://github.com/dunst-project/dunst/issues/321][Dunst notification stacking @Github-issue]]
+*** Qutebrowser modular configs [%] :QUTEBROWSER:
+- *Goal:* /Re-write qutebrowser and make it modular/
+  - *References:* [[https://qutebrowser.org/doc/help/commands.html][Documentation @Qutebrowser]]
+  - *File:* [[file:~/.config/qutebrowser/][config @Directory]]
+*** TODO Nvim indent align :NVIM:
+- *Goal:* /Manage nvim virtual indentaion alignment in plugins:/
+  - [ ] ~nvim-orgmode~ 
+  - [ ] ~render-markdown~
 ** Incidental :INCIDENTAL:
 *** PENDING Github repo updates track :GITHUB:
 - *Goal(s):* Find a way to keep track github repo updates and get notification from updates

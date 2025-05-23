@@ -324,7 +324,7 @@ CLOSED: [2025-05-21 Wed 18:23]
 - *References:* [[https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions#writing-expressions-as-blocks][Writting mathematical expression @Github-doc]]
 ** Testing image rendering
 - *Goal:* /Testing images rendering capability/
-  [[file:./assets/lobes.jpg][image]]
+  [[file:assets/lobes.jpg][image]]
 * TODO Github orgmode interpretation
 - *Goal:* /Dicover how github interprets orgmode/
 - *References:* [[https://github.com/novoid/github-orgmode-tests?tab=readme-ov-file][test-repo @Github]]

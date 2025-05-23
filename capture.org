@@ -317,18 +317,12 @@ CLOSED: [2025-05-21 Wed 18:23]
 - *Goal:* /Render math in orgmode on Github/
   - Inline math: $x_0^2 = 9^2$
   $$x_1^2 = 4^2$$
+  $$\omega_{av} = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}$$
   - Math block:
     ```math
     x_i^2 = 3^4
     ```
 - *References:* [[https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions#writing-expressions-as-blocks][Writting mathematical expression @Github-doc]]
-** Testing image rendering
-- *Goal:* /Testing images rendering capability/
-  [[file:assets/lobes.jpg]]
-  [[./assets/lobes.jpg]]
-  file:assets/lobes.jpg
-  [[./assets/lobes.jpg][Test]]{:height 222, :width 190}
-  [[./assets/lobes.jpg]]{:height 222, :width 190}
 * TODO Github orgmode interpretation
 - *Goal:* /Dicover how github interprets orgmode/
 - *References:* [[https://github.com/novoid/github-orgmode-tests?tab=readme-ov-file][test-repo @Github]]

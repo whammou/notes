@@ -101,7 +101,7 @@ CLOSED: [2025-05-12 Mon 09:10] DEADLINE: <2025-05-11 Sun 19:30>
   The following [[https://nvim-orgmode.github.io/configuration#cron][guide]] is written for ~cron~. Modify to work with ~systemd~
 - *Goal:* /Integrate ~orgmode-notification~ to ~system~/
 * TODO English doc :SOCIAL:
-DEADLINE: <2025-05-23 Fri>
+DEADLINE: <2025-05-23 Fri 23:00>
 :PROPERTIES:
 :ID:       6aaa4c17-f24d-4c4b-8956-d2884a404563
 :END:
@@ -122,8 +122,8 @@ CLOSED: [2025-04-09 Wed 17:46]
 * DONE Ignore yt-x watchlist :YTX:
 CLOSED: [2025-04-14 Mon 21:53] DEADLINE: <2025-04-14 Mon 21:00>
 - /Add watchlist file to/ ~gitignore~
-* TODO Auto commit repo :GIT:
-DEADLINE: <2025-05-23 Fri>
+* PENDING Auto commit repo :GIT:
+DEADLINE: <2025-05-23 Fri> CLOSED: [2025-05-23 Fri 18:56]
 :PROPERTIES:
 :ID:       1c814ec1-f296-4b5a-8631-2a0d970d14a0
 :END:
@@ -238,7 +238,7 @@ CLOSED: [2025-05-12 Mon 09:04]
     - [[https://github.com/nvim-treesitter/nvim-treesitter/issues/5366][Markdown folds don't work correctly with nested lists @Github-issue]]
     - [[https://linkarzu.com/][Resources @Linkarzu]]
 * DOING Sync orgmode to CalDav [0%] :ORGMODE:KHALORG:
-DEADLINE: <2025-05-22 Thu 20:30>
+DEADLINE: <2025-05-23 Fri 22:00>
 - *Goal:* /Succefully sync between orgmode and caldav for professional uses/
   - *Visit:* [[file:/home/whammou/dots/BartSte/dotfiles/nvim/lua/config/orgmode.lua][orgmode config @Git]]
   - *References:* [[https://github.com/BartSte/khalorg][khalorg @Github]]
@@ -248,8 +248,8 @@ DEADLINE: <2025-05-22 Thu 20:30>
 * TODO Toggle program :BASH:
 - *Goal:* /Toggle command using bash script/
   - *References:* [[https://www.youtube.com/watch?v=eBzDiBAcIFo#__preview][A one line bash script to toggle programs on/off @Youtube-DistroTube]]
-* TODO Magic Tape sessions :MAGICTAPE:
-DEADLINE: <2025-05-23 Fri>
+* PENDING Magic Tape sessions :MAGICTAPE:
+DEADLINE: <2025-05-23 Fri> CLOSED: [2025-05-23 Fri 18:56]
 :PROPERTIES:
 :ID:       8546e69f-f9ab-46d7-b9fc-13356175edbf
 :END:
@@ -313,21 +313,6 @@ CLOSED: [2025-05-21 Wed 18:23]
 - *Goal:* /Manage nvim virtual indentaion alignment in plugins:/
   - [ ] ~nvim-orgmode~ 
   - [ ] ~render-markdown~
-* TODO Testing orgmode render math
-- *Goal:* /Render math in orgmode on Github/
-  - Inline math: $x_0^2 = 9^2$
-  $$x_1^2 = 4^2$$
-
-  $$\omega_{av} = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}$$
-
-  - Math block:
-    ```math
-    x_i^2 = 3^4
-    ```
-- *References:* [[https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions#writing-expressions-as-blocks][Writting mathematical expression @Github-doc]]
-* TODO Github orgmode interpretation
-- *Goal:* /Dicover how github interprets orgmode/
-- *References:* [[https://github.com/novoid/github-orgmode-tests?tab=readme-ov-file][test-repo @Github]]
 * TODO Working with git :NVIM:GIT:
 - *Goal:* /Improve workflow with nvim, fugitive, lazygit/
 - *References:* [[https://youtu.be/vtFXMni91Q4#__preview][Fugitive workflow @Youtube-preview]]

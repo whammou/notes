@@ -1,7 +1,7 @@
 #+TITLE: Systems
 #+DESCRIPTION: Add notebook description here
 
-* Tasks :SYSTEM:
+* Tasks :SYSTEM:TASK:
 Allocated space for tasks/todos
 ** One-off :ONEOFF:
 *** DONE Learn nvim-orgmode_capture :NVIM:
@@ -70,10 +70,9 @@ CLOSED: [2025-04-24 Thu 16:50] DEADLINE: <2025-04-24 Thu 20:30>
 - /Create function to edit current token/
 - *Run:* ~bat --color always $arg &| less --color~
 *** TODO Update systemd dotfiles :SYSTEMD:
-DEADLINE: <2025-05-23 Fri>
 - *Goal:* /Update systemd config to dotfiles repo/
-*** Clean-up capture :HOUSEKEEPING:
-DEADLINE: <2025-05-24 Sat 01:15>
+*** DONE Clean-up capture :HOUSEKEEPING:
+DEADLINE: <2025-05-24 Sat 01:15> CLOSED: [2025-05-24 Sat 21:11]
 - *Goal:* /Clean up/ [[file:../capture.org][capture.org]]
 *** PENDING Plain text music playlist :LINUX:
 ***Goal:* Plain text music playlist that works with ~ytfzf~ and ~new pipe~
@@ -120,10 +119,6 @@ CLOSED: [2025-05-23 Fri 18:56] DEADLINE: <2025-05-23 Fri>
 - *Goal:* /Create multiple magic-tape sessions using git/
 *** TODO Migrate orgmode options to config :ORGMODE:
 - *Goal:* /Migrate settings to/ [[file:~/.config/nvim/lua/config/orgmode.lua][config.lua]]
-*** TODO Dunst notification stacking :DUNST:
-- [ ] *Goal:* /Stack notifications/
-- [ ] *Goal:* /Interacte with stacked notifications/
-  - *References:* [[https://github.com/dunst-project/dunst/issues/321][Dunst notification stacking @Github-issue]]
 *** Qutebrowser modular configs [%] :QUTEBROWSER:
 - *Goal:* /Re-write qutebrowser and make it modular/
   - *References:* [[https://qutebrowser.org/doc/help/commands.html][Documentation @Qutebrowser]]
@@ -132,6 +127,93 @@ CLOSED: [2025-05-23 Fri 18:56] DEADLINE: <2025-05-23 Fri>
 - *Goal:* /Manage nvim virtual indentaion alignment in plugins:/
   - [ ] ~nvim-orgmode~ 
   - [ ] ~render-markdown~
+*** TODO Faster navigate files :NVIM:YAZI:
+- *Goal:* /navigate faster with nvim and yazi/
+- *References:* [[https://www.youtube.com/watch?v=xy9sSVx2cfk#__preview][How I navigate my files @Youtube-preview]]
+*** TODO Icon packs :LINUX:
+DEADLINE: <2025-05-25 Sun 14:00>
+:PROPERTIES:
+:ID: 45d7010b-dd20-44c8-a271-51ac24ba840e
+:END:
+- *Goal:* /Update system icons for ~notifications~ and ~systray~/
+- *References:*
+  - [[https://l.opnxng.com/r/linuxmint/comments/pcmpwh/cool_icon_packs/][Icon packs suggestions @Reddit]]
+  - [[https://github.com/gusbemacbe/suru-plus-aspromauros][Suru-plus icon pack @Github]]
+*** TODO Write better commit messages :GIT:
+- *Goal(s):* Write better and more comprehensive commit messages
+- *Stumble upon:* [[https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/]]
+**** The Anatomy of a Commit Message
+- *Basic:*
+  ~git commit -m <message>~
+- *Detailed:*
+  ~git commit -m <title> -m <description>~
+**** 5 Steps to write a better commit message
+- Note taken on [2024-09-21 Sat 21:37] \\
+  To come up with thoughtful commits consider the following: 
+  - Why have I made these changes?
+  - What effect have my changes made?
+  - Why was the change needed?
+  - What are the changes in reference?
+    
+1. *Capitalization and Punctuation:*
+   Capitalize the first word and do not end in punctuation. If using /Convention Commits/, remember to use all lowercase
+2. *Mood:*
+   Use imperative mood in the subject line. *Example -* ~Add fix~ for ~dark mode toggle state~. Imperative mood fives the tone you are giving in /order/ or /request/
+3. *Type of Commit:*
+   Specify the type of commit. It is recommended and can be even more beneficial to have consistent set of words to describe your changes. *Example:* /Bugfix/, /Update/, /Retractor/, /Bump/, and so on.
+4. *Length:*
+   The first line should ideally be no longer than 50 chars, and the body should be restricted to 72 chars
+5. *Content:*
+   Be direct, try to eliminate fillers words and phrases in theses sentences (*Example:* though, maybe, I think, kind of), Think like a journalist
+**** Conventional Commits
+Conventional Commit is a formatting convention that provides as set of rules to formulate a consistent commit message structure like so:
+
+#+NAME: Conventional Commit structure
+#+BEGIN_SRC
+<type>[option scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+#+END_SRC
+
+The commit ~type~ can include the following:
+
+- ~feat~ -a new feature is introduces with the changes
+- ~fix~ -a bug fix has occurred
+- ~chore~ -changes that do not relate to a fix or feature and don't modify src or test files (for example updating dependencies)
+- ~refractor~ -refactored code that neither fixes a bug nor adds a feature
+- ~doc~ - updates to documentation such as the README or other markdown files
+- ~style~ -changes that do not affect the meaning of the code, likely realted to code formatting such as white-space, missing semi-colons, and so on
+- ~test~ -including new or correcting previous tests
+- ~perf~ -performance improvements
+- ~ci~ -continuous integration related
+- ~build~ -changes tha affect the build system or external dependencies
+- ~revert~ -reverts a previous commit
+  
+/The commit type subject line should be all lowercase with a character limit to encourage succinct descriptions/
+
+The ~[optional commit body]~ should be used to provide detail that cannot fit within the character limitations of the subject line description
+
+It is also good location to utilize ~BREAKING CHANGE: <description>~ to note the reason for a breaking change within the commit
+
+The ~[footer]~ is also optional. We use the footer to link the JIRA story what would be closed with these changes for example:
+~Closes D2!I-<JIRA #>~
+
+#+NAME: Full Conventional Commit Example
+#+BEGIN_SRC
+fix: fix foo to enable bar
+
+This fixes the broken behavior of the component by doing xyz. 
+
+BREAKING CHANGE
+Before this fix foo wasn't enabled at all, behavior changes from <old> to <new>
+
+Closes D2IQ-12345
+#+END_SRC
+
+> [!NOTE]
+> The ensure that these committing conventions remain consistent across developers, commit message linting can be configured before changes are able to be pushed up. [[https://commitizen-tools.github.io/commitizen/][Commitizen]] is a great tool to enforce standards, sync up semantic versioning, along with other helpful features
 ** Incidental :INCIDENTAL:
 *** PENDING Github repo updates track :GITHUB:
 - *Goal(s):* Find a way to keep track github repo updates and get notification from updates

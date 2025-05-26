@@ -1,7 +1,7 @@
 #+TITLE: Capture
 #+DESCRIPTION: Captures and Quick notes
 
-* Working with python [0%] :PYTHON:
+* DOING Working with python [0%] :PYTHON:
 - *Goal:* /Automantion documentation with python/
 ** Python scripting [0%] :SCRIPTING:
 - *Goal:* /Learn to do some scrpiting with python/
@@ -15,8 +15,10 @@
 - *Goal:* /Save virtual environemnt state/
   - To create lock file, run (when inside virtual environment) ~pip freeze > requirements.txt~
   - To install from ~requirements.txt~ run ~pip install -r requirements.txt~
-** Python as a tool for note-taking
+** Python as a tool for note-taking :WORFLOW:
+DEADLINE: <2025-05-25 Sun 18:00>
 - *Goal:* /Create a tool ultilies python and latex in nvim to create similar workflow in this/ [[https://l.opnxng.com/r/neovim/comments/yfbfvu/sympy_luasnip_vimtex/][post]]
+- *References:* [[https://castel.dev/post/lecture-notes-1/][How I take math notes with LaTex @Blog]]
 * DOING Orgmode Manual [85%] :ORGMODE:
 CLOSED: [2024-11-07 Thu 06:08]
 /Because ~orgzly-android~ is under development and features are limited some implementations will be a work around and possibly revisit in the future, check for request features/ [[https://github.com/orgzly-revived/orgzly-android-revived/issues/88][prioritized requested features]]
@@ -63,7 +65,7 @@ Special properties provide an alternative access method to Org mode features, li
 - *Goal:* Generate .ics files from .org files(use homelab for daily merge)
 - *Visit:*  [[https://pypi.org/project/org2ical/][org2ical package]] [[https://github.com/jacobmischka/ics-merger][icals merger]]
 *** DOING Sync orgmode to CalDav [0%] :KHALORG:
-DEADLINE: <2025-05-23 Fri 22:25>
+DEADLINE: <2025-05-25 Sun 22:15>
 - *Goal:* /Succefully sync between orgmode and caldav for professional uses/
   - *Visit:* [[file:/home/whammou/dots/BartSte/dotfiles/nvim/lua/config/orgmode.lua][orgmode config @Git]]
   - *References:* [[https://github.com/BartSte/khalorg][khalorg @Github]]
@@ -138,7 +140,8 @@ CLOSED: [2025-05-07 Wed 23:34]
 ** DONE Hardware Acceleration
 CLOSED: [2025-04-18 Fri 14:16] DEADLINE: <2025-04-16 Wed 16:00>
 - *Goal:* /Enable hardware acceleration/
-  - *Visit:* [[https://wiki.archlinux.org/title/Hardware_video_acceleration][Hardware acceleration doc @ Archwiki]]
+- *Visit:* [[https://wiki.archlinux.org/title/Hardware_video_acceleration][Hardware acceleration doc @ Archwiki]]
+- *References:* [[https://l.opnxng.com/r/qutebrowser/comments/s60a78/what_chromium_flags_do_you_use/][chromium flags @Reddit]]
 ** ABORTED Create profiles
 CLOSED: [2025-04-23 Wed 22:44] DEADLINE: <2025-04-23 Wed 22:00>
 - *Goal:* /Setup qutebrowser-profiles for better session managements/
@@ -242,10 +245,17 @@ CLOSED: [2025-04-28 Mon 09:18]
   - *Run:* ~echo $DEFAULT_FZF_OPTS~
 ** TODO Function fzf
 - *Goal:* /Less keystrokes when using/ ~fzf~
-* TODO Config system notification :DUNST:
+* TODO Config system notification :NOTIFICATION:
 - *Goal:* /Config system notifications with dunst/
   - *Run:* ~man dunst~
   - *File:* [[file:~/.config/dunst/dunstrc][dunst config @Confini]]
+  - *Visit:* [[id:45d7010b-dd20-44c8-a271-51ac24ba840e][Icon packs @Orgmode]]
+** TODO Dunst notification stacking :DUNST:
+- [ ] *Goal:* /Stack notifications/
+- [ ] *Goal:* /Interacte with stacked notifications/
+- *References:*
+  - [[https://github.com/dunst-project/dunst/issues/321][Dunst notification stacking @Github-issue]]
+  - [[https://dunst-project.org/documentation/][Documentaion @Dunst-doc]]
 * TODO Working with git :NVIM:GIT:
 - *Goal:* /Improve workflow with nvim, fugitive, lazygit/
 - *References:* [[https://youtu.be/vtFXMni91Q4#__preview][Fugitive workflow @Youtube-preview]]
@@ -254,3 +264,10 @@ CLOSED: [2025-04-28 Mon 09:18]
 ** TODO Pandoc font settings :PANDOC:
 Set conversion fonts from ~markdown~ to ~LaTex~
 *Visit:* [[https://a.opnxng.com/exchange/tex.stackexchange.com/questions/234786/how-to-set-a-font-family-with-pandoc][pandoc fonts]]
+* TODO Update repo hierarchy :ORGMODE:
+DEADLINE: <2025-05-26 Mon 14:00>
+- *Goal:* /Adding new hierarchy to this repo/
+  - [ ] Adding ~TASK~ tag (including all type of tasks)
+  - [ ] Adding ~LIB~ and remove ~Archives~ headline
+  - [ ] Create new template
+

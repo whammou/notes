@@ -11,7 +11,6 @@
 ** Python virutal enviroment
 - *Goal:* /Manage python virtual enviroments/
   To initiate virtual environment, run ~python -m venv <name>~
-
 *** Manage packages
 - *Goal:* /Save virtual environemnt state/
   - To create lock file, run (when inside virtual environment) ~pip freeze > requirements.txt~
@@ -173,12 +172,12 @@ CLOSED: [2025-05-12 Mon 15:54] DEADLINE: <2025-05-11 Sun 18:30>
   - *Visit:* [[https://github.com/qtile/qtile/issues/794][Keybinds @Github-issue]]
   - *Visit:* [[https://github.com/qtile/qtile/issues?q=is%3Aissue%20multiple%20callbacks&page=1][multiple callbacks keybinding @Gtihub-issue]]
 *** PENDING Resize floating windows
-DEADLINE: <2025-05-22 Thu 21:00> CLOSED: [2025-05-23 Fri 18:56]
+CLOSED: [2025-05-23 Fri 18:56] DEADLINE: <2025-05-22 Thu 21:00>
 - *Goal:* /Create keybinds to resize floating windows/
   - [ ] Resize xy
   - [ ] Resize keep aspect ratio
 *** PENDING Move floating windows
-DEADLINE: <2025-05-22 Thu 21:10> CLOSED: [2025-05-23 Fri 18:56]
+CLOSED: [2025-05-23 Fri 18:56] DEADLINE: <2025-05-22 Thu 21:10>
 - *Goal:* /Create move() floating windows keybinds/
   - *References:* [[https://l.opnxng.com/r/qtile/comments/18cjjlo/keybinds_to_resize_and_move_floating_window/][Move floating windows via @lazy.window.function @Reddit]]
 ** DONE Hooks and custom functions

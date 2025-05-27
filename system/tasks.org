@@ -72,7 +72,7 @@ CLOSED: [2025-04-24 Thu 16:50] DEADLINE: <2025-04-24 Thu 20:30>
 *** TODO Update systemd dotfiles :SYSTEMD:
 - *Goal:* /Update systemd config to dotfiles repo/
 *** DONE Clean-up capture :HOUSEKEEPING:
-DEADLINE: <2025-05-24 Sat 01:15> CLOSED: [2025-05-24 Sat 21:11]
+CLOSED: [2025-05-24 Sat 21:11] DEADLINE: <2025-05-24 Sat 01:15>
 - *Goal:* /Clean up/ [[file:../capture.org][capture.org]]
 *** PENDING Plain text music playlist :LINUX:
 ***Goal:* Plain text music playlist that works with ~ytfzf~ and ~new pipe~
@@ -133,7 +133,7 @@ CLOSED: [2025-05-23 Fri 18:56] DEADLINE: <2025-05-23 Fri>
 *** TODO Icon packs :LINUX:
 DEADLINE: <2025-05-25 Sun 14:00>
 :PROPERTIES:
-:ID: 45d7010b-dd20-44c8-a271-51ac24ba840e
+:ID:       45d7010b-dd20-44c8-a271-51ac24ba840e
 :END:
 - *Goal:* /Update system icons for ~notifications~ and ~systray~/
 - *References:*

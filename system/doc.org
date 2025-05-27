@@ -233,7 +233,7 @@ CLOSED: [2025-05-20 Tue 16:33]
 **** DONE Fix qutebrowser tear free :QUTEBROWSER:
 CLOSED: [2025-05-21 Wed 18:01]
 - *Goal:* /Achieve tearless with qutebrowser/
-**** DONE Fix mpv tear free :MPV:
+**** DONE Fix mpv tear :MPV:
 CLOSED: [2025-05-21 Wed 18:15]
 - *Goal:* /Achieve flawless video playback/
   - *Config:*

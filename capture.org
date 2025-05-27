@@ -264,9 +264,3 @@ CLOSED: [2025-04-28 Mon 09:18]
 ** TODO Pandoc font settings :PANDOC:
 Set conversion fonts from ~markdown~ to ~LaTex~
 *Visit:* [[https://a.opnxng.com/exchange/tex.stackexchange.com/questions/234786/how-to-set-a-font-family-with-pandoc][pandoc fonts]]
-* TODO [#B] Update repo hierarchy :ORGMODE:
-DEADLINE: <2025-05-27 Tue 14:00>
-- *Goal:* /Adding new hierarchy to this repo/
-  - [ ] Adding ~TASK~ tag (including all type of tasks)
-  - [ ] Adding ~LIB~ and remove ~Archives~ headline
-  - [ ] Create new template

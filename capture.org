@@ -270,3 +270,9 @@ DEADLINE: <2025-05-26 Mon 14:00>
   - [ ] Adding ~TASK~ tag (including all type of tasks)
   - [ ] Adding ~LIB~ and remove ~Archives~ headline
   - [ ] Create new template
+* TODO DNS speed test :DNS:
+:PROPERTIES:
+:ID:       a5ef0120-9e5c-49ce-acbf-8c04b6d4cb4f
+:END:
+- *Goal:* /Benchmark DNS look up speed/
+- *Reference:* [[https://serverfault.com/questions/91063/how-do-i-benchmark-performance-of-external-dns-lookups][Benchmark external DNC @Overflow]]

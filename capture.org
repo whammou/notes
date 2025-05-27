@@ -270,4 +270,3 @@ DEADLINE: <2025-05-26 Mon 14:00>
   - [ ] Adding ~TASK~ tag (including all type of tasks)
   - [ ] Adding ~LIB~ and remove ~Archives~ headline
   - [ ] Create new template
-

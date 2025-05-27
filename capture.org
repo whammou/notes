@@ -16,7 +16,7 @@
   - To create lock file, run (when inside virtual environment) ~pip freeze > requirements.txt~
   - To install from ~requirements.txt~ run ~pip install -r requirements.txt~
 ** Python as a tool for note-taking :WORFLOW:
-DEADLINE: <2025-05-25 Sun 18:00>
+DEADLINE: <2025-05-27 Tue 18:00>
 - *Goal:* /Create a tool ultilies python and latex in nvim to create similar workflow in this/ [[https://l.opnxng.com/r/neovim/comments/yfbfvu/sympy_luasnip_vimtex/][post]]
 - *References:* [[https://castel.dev/post/lecture-notes-1/][How I take math notes with LaTex @Blog]]
 * DOING Orgmode Manual [85%] :ORGMODE:
@@ -65,7 +65,7 @@ Special properties provide an alternative access method to Org mode features, li
 - *Goal:* Generate .ics files from .org files(use homelab for daily merge)
 - *Visit:*  [[https://pypi.org/project/org2ical/][org2ical package]] [[https://github.com/jacobmischka/ics-merger][icals merger]]
 *** DOING Sync orgmode to CalDav [0%] :KHALORG:
-DEADLINE: <2025-05-25 Sun 22:15>
+DEADLINE: <2025-05-27 Tue 22:15>
 - *Goal:* /Succefully sync between orgmode and caldav for professional uses/
   - *Visit:* [[file:/home/whammou/dots/BartSte/dotfiles/nvim/lua/config/orgmode.lua][orgmode config @Git]]
   - *References:* [[https://github.com/BartSte/khalorg][khalorg @Github]]
@@ -264,10 +264,3 @@ CLOSED: [2025-04-28 Mon 09:18]
 ** TODO Pandoc font settings :PANDOC:
 Set conversion fonts from ~markdown~ to ~LaTex~
 *Visit:* [[https://a.opnxng.com/exchange/tex.stackexchange.com/questions/234786/how-to-set-a-font-family-with-pandoc][pandoc fonts]]
-* TODO Update repo hierarchy :ORGMODE:
-DEADLINE: <2025-05-26 Mon 14:00>
-- *Goal:* /Adding new hierarchy to this repo/
-  - [ ] Adding ~TASK~ tag (including all type of tasks)
-  - [ ] Adding ~LIB~ and remove ~Archives~ headline
-  - [ ] Create new template
-

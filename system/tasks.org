@@ -211,7 +211,7 @@ CLOSED: [2025-05-27 Tue 09:07] DEADLINE: <2025-05-27 Tue>
     [Network]
     DNS=
     #+END_confini
-*** TODO Update repo hierarchy :ORGMODE:
+*** TODO [#B] Update repo hierarchy :ORGMODE:
 DEADLINE: <2025-05-27 Tue 14:00>
 - *Goal:* /Adding new hierarchy to this repo/
   - [ ] Adding ~TASK~ tag (including all type of tasks)

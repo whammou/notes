@@ -264,3 +264,10 @@ CLOSED: [2025-04-28 Mon 09:18]
 ** TODO Pandoc font settings :PANDOC:
 Set conversion fonts from ~markdown~ to ~LaTex~
 *Visit:* [[https://a.opnxng.com/exchange/tex.stackexchange.com/questions/234786/how-to-set-a-font-family-with-pandoc][pandoc fonts]]
+* TODO Order supply :SKINCARE:
+DEADLINE: <2025-05-27 Tue 20:00>
+:PROPERTIES:
+:ID:       81780c7a-4228-4dd6-b10e-92a91ee387da
+:END:
+- *Goal:* /Order supply for skincare/
+- *Visit:* [[https://shopee.vn/cart][Shoppee cart]]

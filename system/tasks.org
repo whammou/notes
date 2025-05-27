@@ -72,7 +72,7 @@ DEADLINE: <2025-05-24 Sat 01:15> CLOSED: [2025-05-24 Sat 21:11]
 :END:
 - /Use advances search methods in search engines/
 *** PENDING Auto commit repo :GIT:
-DEADLINE: <2025-05-23 Fri> CLOSED: [2025-05-23 Fri 18:56]
+CLOSED: [2025-05-23 Fri 18:56] DEADLINE: <2025-05-23 Fri>
 :PROPERTIES:
 :ID:       1c814ec1-f296-4b5a-8631-2a0d970d14a0
 :END:
@@ -100,7 +100,7 @@ CLOSED: [2025-05-12 Mon 09:04]
 - *Goal:* /Toggle command using bash script/
   - *References:* [[https://www.youtube.com/watch?v=eBzDiBAcIFo#__preview][A one line bash script to toggle programs on/off @Youtube-DistroTube]]
 *** PENDING Magic Tape sessions :MAGICTAPE:
-DEADLINE: <2025-05-23 Fri> CLOSED: [2025-05-23 Fri 18:56]
+CLOSED: [2025-05-23 Fri 18:56] DEADLINE: <2025-05-23 Fri>
 :PROPERTIES:
 :ID:       8546e69f-f9ab-46d7-b9fc-13356175edbf
 :END:

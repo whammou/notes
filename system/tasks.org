@@ -43,18 +43,6 @@ CLOSED: [2025-03-22 Sat 06:17] DEADLINE: <2025-03-22 Sat 22:00>
 :ID:       4eb61678-1269-411e-ad54-efb16c040ba4
 :END:
 - /Contact [[tel:DuyTung][Duy Tung]] for API access/
-*** DONE [#C] MPV script [100%] :MPV:
-CLOSED: [2025-04-12 Sat 18:03] DEADLINE: <2025-04-11 Fri 22:00>
-- *Goal:* display ~chapter list~ on ~mpv~
-- *Scripts:*
-  - [x] [[https://old.reddit.com/r/mpv/comments/j7czzx/displaying_chapter_titles/][chapter list script]]
-  - [x] [[https://old.reddit.com/r/mpv/comments/fs8r80/jump_to_a_specific_time/][Jump-to-time]]
-  - [x] subtitles dont scale with windows - run: ~$ man mpv~
-**** DONE Hardware acceleration suport
-CLOSED: [2025-04-12 Sat 20:58]
-- /Which hardeware acceleration my system support to decode AV1 video file format/
-- /Error: mpv - Your hardware does not support hardware acceleration decoding AV1 format/
-  - *Visit:* [[https://github.com/mpv-player/mpv/issues/13708][mpv-issue@github]]
 *** Fish shell Configuration [100%] :FISH:
 - /Config/ ~fish~
 **** DONE Fish shell directory preview
@@ -130,8 +118,8 @@ DEADLINE: <2025-05-23 Fri> CLOSED: [2025-05-23 Fri 18:56]
 *** TODO Faster navigate files :NVIM:YAZI:
 - *Goal:* /navigate faster with nvim and yazi/
 - *References:* [[https://www.youtube.com/watch?v=xy9sSVx2cfk#__preview][How I navigate my files @Youtube-preview]]
-*** TODO Icon packs :LINUX:
-DEADLINE: <2025-05-25 Sun 14:00>
+*** DONE Icon packs :LINUX:
+DEADLINE: <2025-05-25 Sun 14:00> CLOSED: [2025-05-27 Tue 05:15]
 :PROPERTIES:
 :ID: 45d7010b-dd20-44c8-a271-51ac24ba840e
 :END:
@@ -214,6 +202,24 @@ Closes D2IQ-12345
 
 > [!NOTE]
 > The ensure that these committing conventions remain consistent across developers, commit message linting can be configured before changes are able to be pushed up. [[https://commitizen-tools.github.io/commitizen/][Commitizen]] is a great tool to enforce standards, sync up semantic versioning, along with other helpful features
+*** DONE Bypass geo-blocking :ARCH:DNS:
+DEADLINE: <2025-05-27 Tue> CLOSED: [2025-05-27 Tue 09:07]
+- *Goal:* /Bypass geo block system wise/
+- *References:* [[https://wiki.archlinux.org/title/Domain_name_resolution][Domain name resolution (DNS) @Archwiki]]
+- *Solution:* Specify ~DNS=~ in configuration file for the local network interface [[file:/etc/systemd/network/][configs]]
+    #+BEGIN_confini 
+    [Network]
+    DNS=
+    #+END_confini
+*** TODO Update repo hierarchy :ORGMODE:
+DEADLINE: <2025-05-27 Tue 14:00>
+- *Goal:* /Adding new hierarchy to this repo/
+  - [ ] Adding ~TASK~ tag (including all type of tasks)
+  - [ ] Adding ~LIB~ and remove ~Archives~ headline
+  - [ ] Create new template
+*** Re-write smb-mount command
+- *Goal:* /Re-write smb-mount command to quickly toggle server on/off/
+- *File:* [[file:~/dotfiles/scripts/smb-mount][smb-mount]]
 ** Incidental :INCIDENTAL:
 *** PENDING Github repo updates track :GITHUB:
 - *Goal(s):* Find a way to keep track github repo updates and get notification from updates

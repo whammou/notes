@@ -15,7 +15,7 @@
 - *Goal:* /Save virtual environemnt state/
   - To create lock file, run (when inside virtual environment) ~pip freeze > requirements.txt~
   - To install from ~requirements.txt~ run ~pip install -r requirements.txt~
-** DOING Python as a tool for note-taking :WORFLOW:
+** DOING [#C] Python as a tool for note-taking :WORFLOW:
 DEADLINE: <2025-05-27 Tue 18:00>
 - *Goal:* /Create a tool ultilies python and latex in nvim to create similar workflow in this/ [[https://l.opnxng.com/r/neovim/comments/yfbfvu/sympy_luasnip_vimtex/][post]]
 - *References:* [[https://castel.dev/post/lecture-notes-1/][How I take math notes with LaTex @Blog]]

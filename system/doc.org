@@ -18,41 +18,6 @@ There are different strategies to merge two ~branches~:
  - *Squashing:* Squeeze all the ~commits~ of ~feature branch~ into one single ~commit~ and merge it with ~main~
 **** Git commit vs stash
 *Visit:* [[https://paulapivat.com/technical_notes/example_tech/git_stash/][Git Stash vs Git Commit]]
-*** PENDING [#C] Integrate Google AI [%] :LINUX:
-- *Goal:* integrate bard AI to workflow
-- *Resource:* [[https://www.reddit.com/r/ChatGPT/comments/1akynsv/any_free_alternatives_to_open_ai_api/][Google AI Studio]]  [[https://ai.google.dev/docs][Google AI docs]]
-**** DONE Create API
-CLOSED: [2025-01-10 Fri 02:28]
-- *Goal(s):* successfully obtain working API for Google Gemini
-- *Resource:* [[https://console.cloud.google.com/apis/credentials?pli=1&inv=1&invt=AbmaIA][Google cloud console]]
-  - Obtain working API through google cloud console
-  - NOTE: only 1 API per project
-
-- *Note:* looking up for platform free tier limitation
-**** DONE Make request
-CLOSED: [2025-01-10 Fri 02:27]
-- *Goal(s):* make request from terminal to Gemini
-- *Note:* use the [[https://ai.google.dev/api/generate-content#method:-models.generatecontent][~generateContent~]] to make request to Gemini API
-  - #+NAME: Make request to Gemini API
-  #+BEGIN_SRC python
-  import google.generativeai as genai
-
-  genai.configure(api_key="YOUR_API_KEY")
-  model = genai.GenerativeModel("gemini-1.5-flash")
-  response = model.generate_content("Explain how AI works")
-  print(response.text)
-  #+END_SRC
-**** PENDING Shell Integration
-- *Goal(s):* working on integrate AI with ~kitty~
-***** Nvim integration :NVIM:
-- *Goal(s):* render response in markdown to take advantage of nvim markdown render
-***** PENDING Shellgpt run-test :LINUX:
-- *Goal(s):* run test shellgpt with Gemini AI
-- *Stumble upon:* 
-  - Github: [[https://github.com/TheR1D/shell_gpt/issues/514][discussion]]
-**** Working with Google AI
-- *Goal(s):* create workspace with [[https://pypi.org/project/google-generativeai/][google-generativeai sdk]]
-- *Resources:*  [[https://github.com/google-gemini/cookbook][cookbook]]  [[https://ai.google.dev][documentation]]
 *** PENDING Learn Docker
 CLOSED: [2025-05-24 Sat 01:19]
 - /Learn to operate dockers/

@@ -259,8 +259,55 @@ CLOSED: [2025-04-28 Mon 09:18]
 * TODO Working with git :NVIM:GIT:
 - *Goal:* /Improve workflow with nvim, fugitive, lazygit/
 - *References:* [[https://youtu.be/vtFXMni91Q4#__preview][Fugitive workflow @Youtube-preview]]
-* TODO Workign with pandoc :PANDOC:
+* TODO Working with pandoc :PANDOC:
 - *Goal:* /Develop workflow with pandoc to convert between files/
 ** TODO Pandoc font settings :PANDOC:
 Set conversion fonts from ~markdown~ to ~LaTex~
 *Visit:* [[https://a.opnxng.com/exchange/tex.stackexchange.com/questions/234786/how-to-set-a-font-family-with-pandoc][pandoc fonts]]
+* DOING Integrate AI [66%] :AI:
+- *Goal:* /Integrate AI to current workflow/
+- *Resource:*
+  - [[https://www.reddit.com/r/ChatGPT/comments/1akynsv/any_free_alternatives_to_open_ai_api/][Google AI Studio @Google-studio]]
+  - [[https://ai.google.dev/docs][Google AI docs @Google-dev]]
+** DONE Working with Google AI :GEMINI:
+CLOSED: [2025-05-28 Wed 03:24]
+- *Goal(s):* create workspace with [[https://pypi.org/project/google-generativeai/][google-generativeai sdk @Pypi]]
+- *Resources:*
+  - [[https://github.com/google-gemini/cookbook][Cookbook @Github]]
+  - [[https://ai.google.dev][Documentation @Google-dev]]
+*** DONE Requesting API
+CLOSED: [2025-01-10 Fri 02:28]
+- *Goal(s):* successfully obtain working API for Google Gemini
+- *Resource:* [[https://console.cloud.google.com/apis/credentials?pli=1&inv=1&invt=AbmaIA][Google cloud console]]
+  - Obtain working API through google cloud console
+  - NOTE: only 1 API per project
+- *Note:* looking up for platform free tier limitation
+**** DONE Making request via script
+CLOSED: [2025-01-10 Fri 02:27]
+- *Goal(s):* make request from terminal to Gemini
+- *Note:* use the [[https://ai.google.dev/api/generate-content#method:-models.generatecontent][~generateContent~]] to make request to Gemini API
+  #+NAME: Make request to Gemini API
+  #+BEGIN_SRC python
+  import google.generativeai as genai
+  
+  genai.configure(api_key="YOUR_API_KEY")
+  model = genai.GenerativeModel("gemini-1.5-flash")
+  response = model.generate_content("Explain how AI works")
+  print(response.text)
+  #+END_SRC
+** TODO Working with fabric :FABRIC:
+- *Goal:* /Integrate fabric to current workflow/
+- *References:*
+  - [[https://github.com/danielmiessler/fabric][Fabric @Gtihub]]
+  - [[https://www.reddit.com/r/PromptEngineering/][r/PromptEngineering @Reddit]]
+** PENDING Shell Integrations :SHELL:
+CLOSED: [2025-05-28 Wed 03:24]
+- *Goal(s):* working on integrate AI with ~kitty~
+** PENDING Nvim integration :NVIM:
+CLOSED: [2025-05-28 Wed 04:03]
+- *Goal(s):* render response in markdown to take advantage of nvim markdown render
+* Prompt engineering :AI:
+- *Goal:* /Learn to create prompts/
+- *References:* [[https://l.opnxng.com/r/PromptEngineering/comments/1kggmh0/google_dropped_a_68page_prompt_engineering_guide/][Google 68-page prompt engineering guide @Reddit]]
+- *Document:* [[file:~/Documents/guides/prompt-engineering-overview.md][prompt-engineering-overview @Markdown]]
+

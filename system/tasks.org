@@ -57,8 +57,10 @@ CLOSED: [2025-04-12 Sat 22:34] DEADLINE: <2025-04-12 Sat 20:00>
 CLOSED: [2025-04-24 Thu 16:50] DEADLINE: <2025-04-24 Thu 20:30>
 - /Create function to edit current token/
 - *Run:* ~bat --color always $arg &| less --color~
-*** TODO Update systemd dotfiles :SYSTEMD:
-- *Goal:* /Update systemd config to dotfiles repo/
+*** TODO Backup systemd services :SYSTEMD:
+DEADLINE: <2025-05-27 Tue 23:00>
+- *Goal:* /Backup systemd across systems/
+- *Reference:* [[https://www.reddit.com/r/linuxquestions/comments/18hep9r/how_to_back_up_export_import_the_usercreated/][Auto backing up systemd services @Reddit]]
 *** DONE Clean-up capture :HOUSEKEEPING:
 CLOSED: [2025-05-24 Sat 21:11] DEADLINE: <2025-05-24 Sat 01:15>
 - *Goal:* /Clean up/ [[file:../capture.org][capture.org]]
@@ -119,7 +121,7 @@ CLOSED: [2025-05-23 Fri 18:56] DEADLINE: <2025-05-23 Fri>
 - *Goal:* /navigate faster with nvim and yazi/
 - *References:* [[https://www.youtube.com/watch?v=xy9sSVx2cfk#__preview][How I navigate my files @Youtube-preview]]
 *** DONE Icon packs :LINUX:
-DEADLINE: <2025-05-25 Sun 14:00> CLOSED: [2025-05-27 Tue 05:15]
+CLOSED: [2025-05-27 Tue 05:15] DEADLINE: <2025-05-25 Sun 14:00>
 :PROPERTIES:
 :ID:       45d7010b-dd20-44c8-a271-51ac24ba840e
 :END:
@@ -203,7 +205,7 @@ Closes D2IQ-12345
 > [!NOTE]
 > The ensure that these committing conventions remain consistent across developers, commit message linting can be configured before changes are able to be pushed up. [[https://commitizen-tools.github.io/commitizen/][Commitizen]] is a great tool to enforce standards, sync up semantic versioning, along with other helpful features
 *** DONE Bypass geo-blocking :ARCH:DNS:
-DEADLINE: <2025-05-27 Tue> CLOSED: [2025-05-27 Tue 09:07]
+CLOSED: [2025-05-27 Tue 09:07] DEADLINE: <2025-05-27 Tue>
 - *Goal:* /Bypass geo block system wise/
 - *References:* [[https://wiki.archlinux.org/title/Domain_name_resolution][Domain name resolution (DNS) @Archwiki]]
 - *Solution:* Specify ~DNS=~ in configuration file for the local network interface [[file:/etc/systemd/network/][configs]]
@@ -211,7 +213,7 @@ DEADLINE: <2025-05-27 Tue> CLOSED: [2025-05-27 Tue 09:07]
     [Network]
     DNS=
     #+END_confini
-*** TODO Update repo hierarchy :ORGMODE:
+*** TODO [#B] Update repo hierarchy :ORGMODE:
 DEADLINE: <2025-05-27 Tue 14:00>
 - *Goal:* /Adding new hierarchy to this repo/
   - [ ] Adding ~TASK~ tag (including all type of tasks)
@@ -220,6 +222,12 @@ DEADLINE: <2025-05-27 Tue 14:00>
 *** Re-write smb-mount command
 - *Goal:* /Re-write smb-mount command to quickly toggle server on/off/
 - *File:* [[file:~/dotfiles/scripts/smb-mount][smb-mount]]
+*** TODO DNS speed test :DNS:
+:PROPERTIES:
+:ID:       a5ef0120-9e5c-49ce-acbf-8c04b6d4cb4f
+:END:
+- *Goal:* /Benchmark DNS look up speed/
+- *Reference:* [[https://serverfault.com/questions/91063/how-do-i-benchmark-performance-of-external-dns-lookups][Benchmark external DNC @Overflow]]
 ** Incidental :INCIDENTAL:
 *** PENDING Github repo updates track :GITHUB:
 - *Goal(s):* Find a way to keep track github repo updates and get notification from updates

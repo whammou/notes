@@ -11,7 +11,7 @@ Allocated space for tasks/todos
 **** Education in Vietname
 - /Both locally and globally/
 *** TODO University doc :SOCIAL:
-DEADLINE: <2025-05-28 Wed 19:00>
+DEADLINE: <2025-05-29 Thu>
 :PROPERTIES:
 :ID:       6aaa4c17-f24d-4c4b-8956-d2884a404563
 :END:

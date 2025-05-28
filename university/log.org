@@ -8,3 +8,7 @@ CLOSED: [2024-12-13 Fri 00:32] DEADLINE: <2024-12-12 Thu>
 :END:
 - *Goal:* write an appeal for my course
 - *Visit:*  [[https://app.smartmailcloud.com/web-share/NVsBkDfROwtXT2bftC_y6y7TaC-zFy9OOCbWpVUf][@email]] [[https://app.smartmailcloud.com/web-share/zd_MEw-3KGni2S-H1FnEEjpu8Qp4yvaL7UgmEHPh][urgent]]
+** DONE University attributes
+DEADLINE: <2025-05-27 Tue 01:00> CLOSED: [2025-05-28 Wed 20:43]
+- /What should you look for in a university/
+- *Resources:* [[https://q.opnxng.com/What-should-I-be-looking-for-in-a-university][What should sudents look for in a college]]

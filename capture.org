@@ -264,7 +264,7 @@ CLOSED: [2025-04-28 Mon 09:18]
 ** TODO Pandoc font settings :PANDOC:
 Set conversion fonts from ~markdown~ to ~LaTex~
 *Visit:* [[https://a.opnxng.com/exchange/tex.stackexchange.com/questions/234786/how-to-set-a-font-family-with-pandoc][pandoc fonts]]
-* DOING Integrate AI [66%] :AI:
+* DOING Integrating AI [75%] :AI:
 - *Goal:* /Integrate AI to current workflow/
 - *Resource:*
   - [[https://www.reddit.com/r/ChatGPT/comments/1akynsv/any_free_alternatives_to_open_ai_api/][Google AI Studio @Google-studio]]
@@ -313,4 +313,9 @@ CLOSED: [2025-05-28 Wed 04:03]
 * TODO Android linux sync :ANDROID:ARCH:
 - *Goal:* /Android and linux sync-up workflow/
 - *References:* [[https://bbs.archlinux.org/viewtopic.php?id=231050][Archlinux android sync @Archforum]]
-
+* Working with gsuit :GSUIT:
+:PROPERTIES:
+:ID:       26de28b6-a86c-46eb-a91f-81a01d31115f
+:END:
+- *Goal:* /Editing office files with gsuit/
+- *Reference:* [[https://reddit.com/comments/1dcpg93/comment/l7zrycr][rclone google drive @Reddit]]

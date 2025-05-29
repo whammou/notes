@@ -238,13 +238,30 @@ CLOSED: [2025-04-28 Mon 09:18]
 *** TODO Mark URL as preview
 - *Goal:* /Specify normal url or preview url/
 - *Visit:* [[https://docs.mapp.com/v1/docs/url-encoding-and-what-characters-are-valid-in-a-uri][URL comment character @ Search]]
-* DOING Working with fzf [0%] :FZF:
+* DOING Working with fzf [50%] :FZF:
 - *Goal:* /Config/ ~fzf~ /theme and function//
-** TODO Theme fzf
+** DONE Theme fzf
+CLOSED: [2025-05-29 Thu 22:09]
 - *Goal:* /Change theme to match/ ~nvim-fzf-lua~
   - *Run:* ~echo $DEFAULT_FZF_OPTS~
-** TODO Function fzf
-- *Goal:* /Less keystrokes when using/ ~fzf~
+** DOING Config fzf functions [33%]
+:PROPERTIES:
+:ID: f0e11344-5210-4709-b5df-f6de28e7ee7a
+:END:
+- *Goal:* /Make fzf a working menu like rofi or dmenu/
+- *References:* [[https://www.youtube.com/watch?v=HrY6Gz1UiE0#__preview][Three ways fzf rofi and dmenu @Youtube-DistroTube]]
+*** TODO Manage system clipboard :XCLIP:
+- *Goal:* /Output desired clipboard history/
+- *Visit:* [[id:4ea908dd-2335-4742-b44d-aeb1cad09506][Clipboard config @Orgmode]]
+*** TODO Integrate with fabric and kitty :FABRIC:KITTY:
+- *Idea:* Implement printing outputs for fabric
+- *Visit:*
+  - [[id:90a03e2c-edb3-4afd-8252-462b6d912cbe][Improve kitty worflow @Ormode]]
+  - [[id:4af0707d-93ed-4689-b971-15c9ebfebdd8][Shell Integrations @Orgmode]]
+*** ABORTED Window switcher :QTILE:ROFI:
+CLOSED: [2025-05-30 Fri 04:33]
+- *Goal:* /Implement rofi like window swticher/
+- *Visit:* [[https://github.com/qtile/qtile/issues/1945][Qtile rofi window swticher @Github-issue]]
 * TODO Config system notification :NOTIFICATION:
 - *Goal:* /Config system notifications with dunst/
   - *Run:* ~man dunst~
@@ -264,7 +281,7 @@ CLOSED: [2025-04-28 Mon 09:18]
 ** TODO Pandoc font settings :PANDOC:
 Set conversion fonts from ~markdown~ to ~LaTex~
 *Visit:* [[https://a.opnxng.com/exchange/tex.stackexchange.com/questions/234786/how-to-set-a-font-family-with-pandoc][pandoc fonts]]
-* DOING Integrating AI [75%] :AI:
+* DOING Integrating AI [50%] :AI:
 - *Goal:* /Integrate AI to current workflow/
 - *Resource:*
   - [[https://www.reddit.com/r/ChatGPT/comments/1akynsv/any_free_alternatives_to_open_ai_api/][Google AI Studio @Google-studio]]
@@ -300,27 +317,54 @@ CLOSED: [2025-01-10 Fri 02:27]
 - *References:*
   - [[https://github.com/danielmiessler/fabric][Fabric @Gtihub]]
   - [[https://www.reddit.com/r/PromptEngineering/][r/PromptEngineering @Reddit]]
-** PENDING Shell Integrations :SHELL:
-CLOSED: [2025-05-28 Wed 03:24]
+** TODO Shell Integrations :SHELL:
+:PROPERTIES:
+:ID: 4af0707d-93ed-4689-b971-15c9ebfebdd8
+:END:
 - *Goal(s):* working on integrate AI with ~kitty~
+- [IDEA] Run fabric with current hint-url
+  - To implement, run: ~fabric -uy <hint-url> | fabric -p <pattern> -o <output>~
+    - [ ] Query  [[file:~/.config/fabric/patterns/][~<patterns>~]] with ~fzf-menu~
+    - [ ] Create output ~hierarchy~
+- *Visit:*
+  - [[id:90a03e2c-edb3-4afd-8252-462b6d912cbe][Improve kitty worflow @Orgmode]]
+  - [[id:f0e11344-5210-4709-b5df-f6de28e7ee7a::*Function fzf][Fzf menu @Orgmode]]
 ** PENDING Nvim integration :NVIM:
 CLOSED: [2025-05-28 Wed 04:03]
 - *Goal(s):* render response in markdown to take advantage of nvim markdown render
-* Prompt engineering :AI:
-- *Goal:* /Learn to create prompts/
-- *References:* [[https://l.opnxng.com/r/PromptEngineering/comments/1kggmh0/google_dropped_a_68page_prompt_engineering_guide/][Google 68-page prompt engineering guide @Reddit]]
-- *Document:* [[file:~/Documents/guides/prompt-engineering-overview.md][prompt-engineering-overview @Markdown]]
 * TODO Android linux sync :ANDROID:ARCH:
 - *Goal:* /Android and linux sync-up workflow/
 - *References:* [[https://bbs.archlinux.org/viewtopic.php?id=231050][Archlinux android sync @Archforum]]
-* Working with gsuit :GSUIT:
+* DOING Working with gsuit [0%] :GSUIT:
 :PROPERTIES:
 :ID:       26de28b6-a86c-46eb-a91f-81a01d31115f
 :END:
 - *Goal:* /Editing office files with gsuit/
 - *Reference:* [[https://reddit.com/comments/1dcpg93/comment/l7zrycr][rclone google drive @Reddit]]
-* TODO Update github profile :GITHUB:
+** TODO Config rclone :RCLONE:
+- *Goal:* /Config rclone to sync with google-drive/
+** TODO Obtain Gdrive API key :GDRIVE:
+- *Goal:* /Obtain gdrive API for rclone/
+- *Visit:* [[https://support.google.com/googleapi/answer/6158862?hl=en][Setting up API keys @Doc-google]]
+* TODO Improve kitty worflow :SHELL:KITTY:
 :PROPERTIES:
-:ID:       2b2eaa80-2103-4ecb-b5d2-4e1f8893d901
+:ID: 90a03e2c-edb3-4afd-8252-462b6d912cbe
 :END:
-- *Goal:* /Update my github profile/
+- *Goal:* /Improve workflow by openning url using fabric/
+- *References:* [[https://sw.kovidgoyal.net/kitty/shell-integration/][Kitty shell integration @Doc-kitty]]
+* TODO Clipboard config :XCLIP:
+:PROPERTIES:
+:ID: 4ea908dd-2335-4742-b44d-aeb1cad09506
+:END:
+- *Goal:* /Manage system clipboard/
+- *Visit:* [[https://github.com/xrelkd/clipcat][Clipcat @Github]]
+- *References:*
+  - [[https://mpov.timmorgan.org/super-simple-clipboard-history-for-linux/][Super simple clipboard history @Blog]]
+  - [[https://www.reddit.com/r/archlinux/comments/bg53as/cool_uses_for_dmenurofifzf/][Cool use for rofi/dmenu/fzf @Reddit]]
+  - [[https://github.com/spikegrobstein/fzf-menu][fzf-menu @Github]]
+* DOING Working with rofi [0%] :ROFI:
+- *Goal:* /Implement rofi to workflow/
+- *Visit:* [[https://davatorium.github.io/rofi/][Rofi official page @Doc-rofi]]
+** TODO Implement window switcher
+- *Goal:* /Quickly switch to a widow/
+  - To launch rofi window-switcher, run: ~rofi -show window~

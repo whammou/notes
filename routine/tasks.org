@@ -5,7 +5,10 @@
 Allocated space for tasks/todos
 ** One-off :ONEOFF:
 *** Dating plans :DATING:
-/Insert dating ideas and planning/
+- *Goal:* /Insert dating ideas and planning/
+**** Lilo and Stitch :MOVIE:
+SCHEDULED: <2025-05-30 Fri 21:00>
+- *Goal:* /Watch Lilo and Stitch/
 *** PENDING [#A] Contact Sacombank
 Contact local bank for physical credit card
 

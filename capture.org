@@ -319,3 +319,8 @@ CLOSED: [2025-05-28 Wed 04:03]
 :END:
 - *Goal:* /Editing office files with gsuit/
 - *Reference:* [[https://reddit.com/comments/1dcpg93/comment/l7zrycr][rclone google drive @Reddit]]
+* TODO Update github profile :GITHUB:
+:PROPERTIES:
+:ID:       2b2eaa80-2103-4ecb-b5d2-4e1f8893d901
+:END:
+- *Goal:* /Update my github profile/

@@ -2,8 +2,5 @@
 #+DESCRIPTION: Description for archive here
 
 * Archives :READ:
-
 Allocated space for archives
-
 ** Documents :DOC:
-

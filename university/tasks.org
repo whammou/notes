@@ -44,7 +44,7 @@ CLOSED: [2025-04-10 Thu 21:49] SCHEDULED: <2025-04-10 Thu 13:00>
 - /Have the talk/
 ** Incidental :INCIDENTAL:
 ** Coordinated :COORDINATED:
-*** DOING RMIT admission :RMIT:
+*** DOING RMIT admission [0%] :RMIT:
 :PROPERTIES:
 :ID:       af088589-ee54-4e1d-b095-8afbb832297f
 :END:

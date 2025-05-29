@@ -249,3 +249,10 @@ CLOSED: [2025-01-10 Fri 05:51] DEADLINE: <2025-01-09 Thu 05:00>
 ** Performance :PERFORMANCE:
 ** Urgent :URGENT:
 ** Recurring :RECURRING:
+* TODO Remove wnctrl :PARU:
+DEADLINE: <2025-05-30 Fri>
+:PROPERTIES:
+:ID:       b6962de7-c74c-4ed5-9581-8f60d55614b6
+:END:
+- *Goal* /Remove unused package/
+  - Run: ~paru -Rncsv winctrl~

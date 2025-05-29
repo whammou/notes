@@ -124,6 +124,9 @@ CLOSED: [2025-05-21 Wed 23:28] DEADLINE: <2025-05-21 Wed 22:15>
     - [X] Crreate keybinds
 **** DONE Qtile spawn script
 CLOSED: [2025-05-21 Wed 23:28]
+:PROPERTIES:
+:ID: 6e617a42-37ec-4cb9-b951-7a09650ea068
+:END:
 1. *Goal:* /Create python script to run qtile cmd-obj with extra arguments/
 2. *Goal:* /Create script to let qtile manage spawn tab of new window/
    - *Run:* ~qtile cmd-obj -o layout -f spawn_tab -a "qb 'URL' new_level=True"~
@@ -264,7 +267,7 @@ CLOSED: [2025-04-28 Mon 09:18]
 ** TODO Pandoc font settings :PANDOC:
 Set conversion fonts from ~markdown~ to ~LaTex~
 *Visit:* [[https://a.opnxng.com/exchange/tex.stackexchange.com/questions/234786/how-to-set-a-font-family-with-pandoc][pandoc fonts]]
-* DOING Integrating AI [75%] :AI:
+* DOING Integrating AI [50%] :AI:
 - *Goal:* /Integrate AI to current workflow/
 - *Resource:*
   - [[https://www.reddit.com/r/ChatGPT/comments/1akynsv/any_free_alternatives_to_open_ai_api/][Google AI Studio @Google-studio]]
@@ -296,20 +299,22 @@ CLOSED: [2025-01-10 Fri 02:27]
   print(response.text)
   #+END_SRC
 ** TODO Working with fabric :FABRIC:
+:PROPERTIES:
+:ID: 838bbec1-757e-481b-ad4c-1046f8e8c043
+:END:
 - *Goal:* /Integrate fabric to current workflow/
 - *References:*
   - [[https://github.com/danielmiessler/fabric][Fabric @Gtihub]]
   - [[https://www.reddit.com/r/PromptEngineering/][r/PromptEngineering @Reddit]]
-** PENDING Shell Integrations :SHELL:
-CLOSED: [2025-05-28 Wed 03:24]
-- *Goal(s):* working on integrate AI with ~kitty~
+** TODO Shell Integrations :SHELL:
+- *Goal(s):* /working on integrate AI with ~kitty~/
+  - Using ~fabric~ and URL to extract or analyze a web-page
+- *Visit:*
+  - [[id:61f7246c-f262-4e22-88b1-e87fe9279436][Open url with kitty @Orgmode]]
+  - [[id:838bbec1-757e-481b-ad4c-1046f8e8c043][Working with fabric @Orgmode]]
 ** PENDING Nvim integration :NVIM:
 CLOSED: [2025-05-28 Wed 04:03]
 - *Goal(s):* render response in markdown to take advantage of nvim markdown render
-* TODO Prompt engineering :AI:
-- *Goal:* /Learn to create prompts/
-- *References:* [[https://l.opnxng.com/r/PromptEngineering/comments/1kggmh0/google_dropped_a_68page_prompt_engineering_guide/][Google 68-page prompt engineering guide @Reddit]]
-- *Document:* [[file:~/Documents/guides/prompt-engineering-overview.md][prompt-engineering-overview @Markdown]]
 * TODO Android linux sync :ANDROID:ARCH:
 - *Goal:* /Android and linux sync-up workflow/
 - *References:* [[https://bbs.archlinux.org/viewtopic.php?id=231050][Archlinux android sync @Archforum]]
@@ -327,5 +332,14 @@ CLOSED: [2025-05-28 Wed 04:03]
 ** TODO Google-drive API key :GDRIVE:
 - *Goal:* /Obtain google drive api key/
 - *References:* [[https://www.merge.dev/blog/google-drive-api-key][Google drive api key obtain @Blog]]
-* Open url with kitty :SHELL:KITTY:
+* DOING Working with kitty [0%] :SHELL:KITTY:
+- *Goal:* /Configure kitty to improve workflow/
+- *References:*
+  - [[https://sw.kovidgoyal.net/kitty/][Kitty documentation @Doc-kitty]]
+** TODO Open url with kitty
+:PROPERTIES:
+:ID: 61f7246c-f262-4e22-88b1-e87fe9279436
+:END:
 - [IDEA] /Open URL and path to pre-define window with kitty/
+- *Visit:* [[id:6e617a42-37ec-4cb9-b951-7a09650ea068][Qtile spawn script @Orgmode]]
+- *References:* [[https://sw.kovidgoyal.net/kitty/shell-integration/#shell-integration][Kitty shell integration @Doc-kitty]]

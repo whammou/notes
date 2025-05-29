@@ -44,13 +44,13 @@ CLOSED: [2025-04-10 Thu 21:49] SCHEDULED: <2025-04-10 Thu 13:00>
 - /Have the talk/
 ** Incidental :INCIDENTAL:
 ** Coordinated :COORDINATED:
-*** DOING RMIT admission :RMIT:
+*** DOING RMIT admission [0%] :RMIT:
 :PROPERTIES:
 :ID:       af088589-ee54-4e1d-b095-8afbb832297f
 :END:
 - *Goal:* /Prepare paperwork for rmit/
 **** TODO University documents :PAPERWORK:
-DEADLINE: <2025-05-29 Thu>
+DEADLINE: <2025-05-30 Fri>
 :PROPERTIES:
 :ID:       6aaa4c17-f24d-4c4b-8956-d2884a404563
 :END:

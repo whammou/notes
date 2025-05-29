@@ -306,16 +306,26 @@ CLOSED: [2025-05-28 Wed 03:24]
 ** PENDING Nvim integration :NVIM:
 CLOSED: [2025-05-28 Wed 04:03]
 - *Goal(s):* render response in markdown to take advantage of nvim markdown render
-* Prompt engineering :AI:
+* TODO Prompt engineering :AI:
 - *Goal:* /Learn to create prompts/
 - *References:* [[https://l.opnxng.com/r/PromptEngineering/comments/1kggmh0/google_dropped_a_68page_prompt_engineering_guide/][Google 68-page prompt engineering guide @Reddit]]
 - *Document:* [[file:~/Documents/guides/prompt-engineering-overview.md][prompt-engineering-overview @Markdown]]
 * TODO Android linux sync :ANDROID:ARCH:
 - *Goal:* /Android and linux sync-up workflow/
 - *References:* [[https://bbs.archlinux.org/viewtopic.php?id=231050][Archlinux android sync @Archforum]]
-* Working with gsuit :GSUIT:
+* DOING Working with gsuit [0%] :GSUIT:
 :PROPERTIES:
 :ID:       26de28b6-a86c-46eb-a91f-81a01d31115f
 :END:
 - *Goal:* /Editing office files with gsuit/
 - *Reference:* [[https://reddit.com/comments/1dcpg93/comment/l7zrycr][rclone google drive @Reddit]]
+** TODO Setup rclone config :RCLONE:
+- *Goal:* /Setup configuration file for rclone/
+  - To set up rclone, run: ~rclone config~
+- *References:* [[https://rclone.org/drive/][Setup drive @Doc-rclone]]
+
+** TODO Google-drive API key :GDRIVE:
+- *Goal:* /Obtain google drive api key/
+- *References:* [[https://www.merge.dev/blog/google-drive-api-key][Google drive api key obtain @Blog]]
+* Open url with kitty :SHELL:KITTY:
+- [IDEA] /Open URL and path to pre-define window with kitty/

@@ -74,7 +74,8 @@ DEADLINE: <2025-05-30 Fri>
   - *References:* [[http://vdirsyncer.pimutils.org/en/stable/when.html][Vdirsyncer documentation @Doc]]
 ** DONE Orgmode social media integrate
 CLOSED: [2024-12-26 Thu 22:28]
-* DOING Qutebrowser configuration [85%] :QUTEBROWSER:
+* DONE Qutebrowser configuration [100%] :QUTEBROWSER:
+CLOSED: [2025-05-30 Fri 06:06]
 - *Goal:* implement text to speech to qutebrowser
   - *Stumble upon:* [[https://redlib.seasi.dev/r/qutebrowser/comments/w4pv2v/configpy_ideas/][Qutebrowser tts config idea @ Reddit]]
 ** DONE Rebind set-mark function
@@ -146,15 +147,18 @@ CLOSED: [2025-04-18 Fri 14:16] DEADLINE: <2025-04-16 Wed 16:00>
 CLOSED: [2025-04-23 Wed 22:44] DEADLINE: <2025-04-23 Wed 22:00>
 - *Goal:* /Setup qutebrowser-profiles for better session managements/
   - *Run* ~qutebrowser-profile --new --load "profile"~
-** TODO Usserscripts
+** PENDING Userscripts
+CLOSED: [2025-05-30 Fri 06:06]
 - *Goal:* /Learn to write userscripts in qutebrowser/
   - *References:*
     - [[https://github.com/hiway/python-qutescript][python-qutescript @Github]]
     - [[qute://help/settings.html#bindings.commands][Settings references @Qutebrowser-doc]]
     - [[qute://help/configuring.html][Keybinds and configuring @Qutebrowser-doc]]
-* DOING Manage windows spawn/layout [66%] :QTILE:
+* DONE Manage windows spawn/layout [100%] :QTILE:
+CLOSED: [2025-05-30 Fri 06:06]
 - *Goal:* /Assign spawn grouping and layouts/
-** DOING Manage floating windows [100%]
+** DONE Manage floating windows [100%]
+CLOSED: [2025-05-30 Fri 06:05]
 :LOGBOOK:
 - Note taken on [2025-05-05 Mon 08:21] \\
 - Added prevent *focus_stealing_hook* to ~qtile~
@@ -324,6 +328,12 @@ CLOSED: [2025-01-10 Fri 02:27]
 - *References:*
   - [[https://github.com/danielmiessler/fabric][Fabric @Gtihub]]
   - [[https://www.reddit.com/r/PromptEngineering/][r/PromptEngineering @Reddit]]
+*** TODO Fzf menu script :FZF:
+:PROPERTIES:
+:ID:       36141277-e892-4034-a47e-468c825e188b
+:END:
+- *Goal:* /Use fzf menu to quickly output notes from ai/
+- *Reference:* [[https://www.youtube.com/watch?v=qwpK4rqAZwA&t=57#__preview][notekami @Youtube-gotbletu]]
 ** TODO Shell Integrations :SHELL:
 :PROPERTIES:
 :ID:       4af0707d-93ed-4689-b971-15c9ebfebdd8

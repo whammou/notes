@@ -42,6 +42,15 @@ Interesting academic related groups
 *** DONE University discussion :PERSONAL:
 CLOSED: [2025-04-10 Thu 21:49] SCHEDULED: <2025-04-10 Thu 13:00>
 - /Have the talk/
+*** TODO University doc :SOCIAL:
+DEADLINE: <2025-05-29 Thu>
+:PROPERTIES:
+:ID:       6aaa4c17-f24d-4c4b-8956-d2884a404563
+:END:
+- *Goal:* /Finishing up university documentation/
+  - [ ] University form
+  - [ ] IETLS certificate
+  - [ ] Credit transfer
 ** Incidental :INCIDENTAL:
 ** Coordinated :COORDINATED:
 ** Urgent :URGENT:

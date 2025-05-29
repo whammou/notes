@@ -2,9 +2,7 @@
 #+DESCRIPTION: Description for archive here
 
 * Archives :READ:
-
 Allocated space for archives
-
 ** Documents :DOC:
 *** TODO Research rompt engineering :RESEARCH:AI:
 - *Goal:* /Learn to create prompts/

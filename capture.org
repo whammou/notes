@@ -242,7 +242,7 @@ CLOSED: [2025-04-28 Mon 09:18]
 *** TODO Mark URL as preview
 - *Goal:* /Specify normal url or preview url/
 - *Visit:* [[https://docs.mapp.com/v1/docs/url-encoding-and-what-characters-are-valid-in-a-uri][URL comment character @ Search]]
-* DOING Working with fzf [33%] :FZF:
+* DOING Working with fzf [66%] :FZF:
 - *Goal:* /Config/ ~fzf~ /theme and function//
 ** DONE Theming fzf
 CLOSED: [2025-05-29 Thu 22:09]
@@ -266,7 +266,8 @@ CLOSED: [2025-05-29 Thu 22:09]
 CLOSED: [2025-05-30 Fri 04:33]
 - *Goal:* /Implement rofi like window swticher/
 - *Visit:* [[https://github.com/qtile/qtile/issues/1945][Qtile rofi window swticher @Github-issue]]
-** TODO Adding fzf-nova :FZF:
+** DONE Adding fzf-nova :FZF:
+CLOSED: [2025-05-30 Fri 07:28]
 :PROPERTIES:
 :ID:       231fff19-ca63-4a20-b02d-c6b48800af9d
 :END:
@@ -385,3 +386,6 @@ CLOSED: [2025-05-28 Wed 04:03]
 ** TODO Implement window switcher
 - *Goal:* /Quickly switch to a widow/
   - To launch rofi window-switcher, run: ~rofi -show window~
+** TODO Theming rofi
+- *Goal:* /Theme rofi to match system/
+- *References:* [[https://github.com/davatorium/rofi/blob/next/doc/rofi-theme.5.markdown][Rofi theme @Github]]

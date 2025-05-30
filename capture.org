@@ -388,4 +388,6 @@ CLOSED: [2025-05-28 Wed 04:03]
   - To launch rofi window-switcher, run: ~rofi --show window~
 ** TODO Theming rofi
 - *Goal:* /Theme rofi to match system/
-- *References:* [[https://github.com/davatorium/rofi/blob/next/doc/rofi-theme.5.markdown][Rofi theme @Github]]
+- *References:*
+  - [[https://github.com/davatorium/rofi/blob/next/doc/rofi-theme.5.markdown][Rofi theme @Github]]
+  - [[https://github.com/newmanls/rofi-themes-collection?tab=readme-ov-file][Extra themes @Github]]

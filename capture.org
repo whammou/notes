@@ -385,7 +385,7 @@ CLOSED: [2025-05-28 Wed 04:03]
 - *Visit:* [[https://davatorium.github.io/rofi/][Rofi official page @Doc-rofi]]
 ** TODO Implement window switcher
 - *Goal:* /Quickly switch to a widow/
-  - To launch rofi window-switcher, run: ~rofi -show window~
+  - To launch rofi window-switcher, run: ~rofi --show window~
 ** TODO Theming rofi
 - *Goal:* /Theme rofi to match system/
 - *References:* [[https://github.com/davatorium/rofi/blob/next/doc/rofi-theme.5.markdown][Rofi theme @Github]]

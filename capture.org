@@ -380,13 +380,17 @@ CLOSED: [2025-05-28 Wed 04:03]
   - [[https://mpov.timmorgan.org/super-simple-clipboard-history-for-linux/][Super simple clipboard history @Blog]]
   - [[https://www.reddit.com/r/archlinux/comments/bg53as/cool_uses_for_dmenurofifzf/][Cool use for rofi/dmenu/fzf @Reddit]]
   - [[https://github.com/spikegrobstein/fzf-menu][fzf-menu @Github]]
-* DOING Working with rofi [0%] :ROFI:
+* DOING Working with rofi [66%] :ROFI:
 - *Goal:* /Implement rofi to workflow/
 - *Visit:* [[https://davatorium.github.io/rofi/][Rofi official page @Doc-rofi]]
-** TODO Implement window switcher
+** TODO Implement rofi scripts
+- *Goal:* /Adding rofi scripts for more optimal workflow/
+*** DONE Implement window switcher
+CLOSED: [2025-05-30 Fri 16:50]
 - *Goal:* /Quickly switch to a widow/
   - To launch rofi window-switcher, run: ~rofi --show window~
-** TODO Theming rofi
+** DONE Theming rofi
+CLOSED: [2025-05-30 Fri 16:50]
 - *Goal:* /Theme rofi to match system/
 - *References:*
   - [[https://github.com/davatorium/rofi/blob/next/doc/rofi-theme.5.markdown][Rofi theme @Github]]

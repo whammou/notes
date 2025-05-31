@@ -196,7 +196,7 @@ CLOSED: [2025-05-09 Fri 22:19] DEADLINE: <2025-05-09 Fri 18:00>
 - [X] *Goal:* /Assign grouping for windows with the same wm_class/
   - *Visit:* [[https://github.com/aravinda0/qtile-bonsai/discussions/12#discussioncomment-11095207][new window grouping @Github-discussion]]
 - [ ] *Goal:* /Assign goruping for *specific* windows with the same wn_class/
-* DOING Working with youtube [67%] :LINUX:YOUTUBE:
+* DOING Working with youtube [67%] :YOUTUBE:
 -  *Goal:* /Use youtube for documentation:/
 ** DOING Package configurations [50%]
 - *Goal:* /Configure packages for smoother experiences/

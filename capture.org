@@ -16,7 +16,7 @@
   - To create lock file, run (when inside virtual environment) ~pip freeze > requirements.txt~
   - To install from ~requirements.txt~ run ~pip install -r requirements.txt~
 ** DOING [#C] Python as a tool for note-taking :WORFLOW:
-DEADLINE: <2025-05-31 Sat>
+DEADLINE: <2025-06-01 Sun>
 - *Goal:* /Create a tool ultilies python and latex in nvim to create similar workflow in this/ [[https://l.opnxng.com/r/neovim/comments/yfbfvu/sympy_luasnip_vimtex/][post]]
 - *References:* [[https://castel.dev/post/lecture-notes-1/][How I take math notes with LaTex @Blog]]
 * DOING Orgmode Manual [85%] :ORGMODE:
@@ -65,7 +65,7 @@ Special properties provide an alternative access method to Org mode features, li
 - *Goal:* Generate .ics files from .org files(use homelab for daily merge)
 - *Visit:*  [[https://pypi.org/project/org2ical/][org2ical package]] [[https://github.com/jacobmischka/ics-merger][icals merger]]
 *** DOING [#B] Sync orgmode to CalDav [0%] :KHALORG:
-DEADLINE: <2025-05-31 Sat>
+DEADLINE: <2025-06-01 Sun>
 - *Goal:* /Succefully sync between orgmode and caldav for professional uses/
   - *Visit:* [[file:/home/whammou/dots/BartSte/dotfiles/nvim/lua/config/orgmode.lua][orgmode config @Git]]
   - *References:* [[https://github.com/BartSte/khalorg][khalorg @Github]]
@@ -242,38 +242,6 @@ CLOSED: [2025-04-28 Mon 09:18]
 *** TODO Mark URL as preview
 - *Goal:* /Specify normal url or preview url/
 - *Visit:* [[https://docs.mapp.com/v1/docs/url-encoding-and-what-characters-are-valid-in-a-uri][URL comment character @ Search]]
-* DOING Working with fzf [66%] :FZF:
-- *Goal:* /Config/ ~fzf~ /theme and function//
-** DONE Theming fzf
-CLOSED: [2025-05-29 Thu 22:09]
-- *Goal:* /Change theme to match/ ~nvim-fzf-lua~
-  - *Run:* ~echo $DEFAULT_FZF_OPTS~
-** DOING Config fzf functions [33%]
-:PROPERTIES:
-:ID:       f0e11344-5210-4709-b5df-f6de28e7ee7a
-:END:
-- *Goal:* /Make fzf a working menu like rofi or dmenu/
-- *References:* [[https://www.youtube.com/watch?v=HrY6Gz1UiE0#__preview][Three ways fzf rofi and dmenu @Youtube-DistroTube]]
-*** TODO Manage system clipboard :XCLIP:
-- *Goal:* /Output desired clipboard history/
-- *Visit:* [[id:4ea908dd-2335-4742-b44d-aeb1cad09506][Clipboard config @Orgmode]]
-*** TODO Integrate with fabric and kitty :FABRIC:KITTY:
-- *Idea:* Implement printing outputs for fabric
-- *Visit:*
-  - [[id:90a03e2c-edb3-4afd-8252-462b6d912cbe][Improve kitty worflow @Ormode]]
-  - [[id:4af0707d-93ed-4689-b971-15c9ebfebdd8][Shell Integrations @Orgmode]]
-*** ABORTED Window switcher :QTILE:ROFI:
-CLOSED: [2025-05-30 Fri 04:33]
-- *Goal:* /Implement rofi like window swticher/
-- *Visit:* [[https://github.com/qtile/qtile/issues/1945][Qtile rofi window swticher @Github-issue]]
-** DONE Adding fzf-nova :FZF:
-CLOSED: [2025-05-30 Fri 07:28]
-:PROPERTIES:
-:ID:       231fff19-ca63-4a20-b02d-c6b48800af9d
-:END:
-- *Goal:* /Check out fzf-nova script library/
-- *Visit:* [[https://github.com/gotbletu/fzf-nova][fzf-nova Github]]
-- *Reference:* [[https://github.com/gotbletu/shownotes?tab=readme-ov-file][Some useful tools from gotbletu @Github]]
 * TODO Config system notification :NOTIFICATION:
 - *Goal:* /Config system notifications with dunst/
   - *Run:* ~man dunst~
@@ -425,6 +393,11 @@ CLOSED: [2025-01-10 Fri 02:27]
 - *Visit:*
   - [[id:90a03e2c-edb3-4afd-8252-462b6d912cbe][Improve kitty worflow @Orgmode]]
   - [[id:f0e11344-5210-4709-b5df-f6de28e7ee7a::*Function fzf][Fzf menu @Orgmode]]
+*** TODO Integrate with fabric and kitty :FABRIC:KITTY:
+- *Idea:* Implement printing outputs for fabric
+- *Visit:*
+  - [[id:90a03e2c-edb3-4afd-8252-462b6d912cbe][Improve kitty worflow @Ormode]]
+  - [[id:4af0707d-93ed-4689-b971-15c9ebfebdd8][Shell Integrations @Orgmode]]
 ** PENDING Nvim integration :NVIM:
 CLOSED: [2025-05-28 Wed 04:03]
 - *Goal(s):* render response in markdown to take advantage of nvim markdown render
@@ -439,53 +412,10 @@ CLOSED: [2025-05-28 Wed 04:03]
 - *Reference:* [[https://reddit.com/comments/1dcpg93/comment/l7zrycr][rclone google drive @Reddit]]
 ** TODO Config rclone :RCLONE:
 - *Goal:* /Config rclone to sync with google-drive/
-** TODO Obtain Gdrive API key :GDRIVE:
+  - [ ] [[https://rclone.org/drive/#making-your-own-client-id][Make your own client-id @Doc-rclone]]
+** TODO Obtain google-drive API key :GDRIVE:
 - *Goal:* /Obtain gdrive API for rclone/
 - *Visit:* [[https://support.google.com/googleapi/answer/6158862?hl=en][Setting up API keys @Doc-google]]
-* TODO Improve kitty worflow :SHELL:KITTY:
-:PROPERTIES:
-:ID:       90a03e2c-edb3-4afd-8252-462b6d912cbe
-:END:
-- *Goal:* /Improve workflow by openning url using fabric/
-- *References:* [[https://sw.kovidgoyal.net/kitty/shell-integration/][Kitty shell integration @Doc-kitty]]
-* TODO Clipboard config :XCLIP:
-:PROPERTIES:
-:ID:       4ea908dd-2335-4742-b44d-aeb1cad09506
-:END:
-- *Goal:* /Manage system clipboard/
-- *Visit:* [[https://github.com/xrelkd/clipcat][Clipcat @Github]]
-- *References:*
-  - [[https://mpov.timmorgan.org/super-simple-clipboard-history-for-linux/][Super simple clipboard history @Blog]]
-  - [[https://www.reddit.com/r/archlinux/comments/bg53as/cool_uses_for_dmenurofifzf/][Cool use for rofi/dmenu/fzf @Reddit]]
-  - [[https://github.com/spikegrobstein/fzf-menu][fzf-menu @Github]]
-* DOING Working with rofi [33%] :ROFI:
-- *Goal:* /Implement rofi to workflow/
-- *Visit:* [[https://davatorium.github.io/rofi/][Rofi official page @Doc-rofi]]
-** DONE Implement rofi scripts [100%]
-CLOSED: [2025-05-31 Sat 07:20]
-- *Goal:* /Adding rofi scripts for more optimal workflow/
-*** DONE Implement window switcher
-CLOSED: [2025-05-30 Fri 16:50]
-- *Goal:* /Quickly switch to a widow/
-  - To launch rofi window-switcher, run: ~rofi --show window~
-*** DONE Implement power-menu
-CLOSED: [2025-05-31 Sat 07:17]
-- *Goal:* /Choose power option quickly with rofi/
-- *References:* [[https://wiki.archlinux.org/title/Rofi][Rofi power management @Archwiki]]
-  - To launch rofi power-menu, run: ~rofi -show power-menu -modi power-menu:/sbin/rofi-power-menu~
-*** DONE Implement clipboard history :GREENCLIP:
-CLOSED: [2025-05-31 Sat 07:20]
-- *Goal:* /Quickly choose clipboard history with rofi/
-- *References:* [[https://wiki.archlinux.org/title/Rofi][Rofi clipboard-history @Archwiki]]
-  - To launch rofi clipboard-history, run ~rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'~
-** DOING Theming rofi [0%]
-- *Goal:* /Theme rofi to match system/
-- *References:*
-  - [[https://github.com/davatorium/rofi/blob/next/doc/rofi-theme.5.markdown][Rofi theme @Github]]
-  - [[https://github.com/newmanls/rofi-themes-collection?tab=readme-ov-file][Extra themes @Github]]
-*** TODO Custom theme
-- *Goal:* /Make rofi size as small as ~qtile-bar~/
-- *References:* [[https://github.com/davatorium/rofi/blob/next/doc/rofi-theme.5.markdown][Rofi-theme @Github]]
 * TODO Config terminal app titles :UI:
 - *Goal:* /Config terminal app titles/
   - Config title to look the same: ~<content> - <appname>~

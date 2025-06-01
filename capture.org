@@ -422,8 +422,14 @@ CLOSED: [2025-05-28 Wed 04:03]
 * TODO Config terminal app titles :UI:
 - *Goal:* /Config terminal app titles/
   - Config title to look the same: ~<content> - <appname>~
-* TODO Working with Latex :LATEX:
+* DOING Working with Latex [0%] :LATEX:
 :PROPERTIES:
 :ID:       bcf659a7-1e46-4a4b-b8e0-b237c7f1f8aa
 :END:
 - *Goal:* /Convert files to latex and from latex/
+** TODO LLM pdf to latex :AI:
+:PROPERTIES:
+:ID:       0fba82ab-0863-4292-838e-bee27fb27153
+:END:
+- *Goal:* /Convert documents from PDF to latex using AI/
+- *Reference:* [[https://www.reddit.com/r/Bard/comments/1bgstvx/suddenly_discovered_latex_on_gemini_web/][Latex on Gemini @Reddit]]

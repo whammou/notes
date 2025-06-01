@@ -298,7 +298,7 @@ CLOSED: [2025-05-31 Sat 07:17]
 ***** DONE Implement clipboard history :GREENCLIP:
 CLOSED: [2025-05-31 Sat 23:57]
 :PROPERTIES:
-:ID: d17ebad8-7524-43b8-b6be-0b3f808a9aaa
+:ID:       d17ebad8-7524-43b8-b6be-0b3f808a9aaa
 :END:
 - *Goal:* /Quickly choose clipboard history with rofi/
 - *References:* [[https://wiki.archlinux.org/title/Rofi][Rofi clipboard-history @Archwiki]]

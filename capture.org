@@ -17,7 +17,7 @@
   - To create lock file, run (when inside virtual environment) ~pip freeze > requirements.txt~
   - To install from ~requirements.txt~ run ~pip install -r requirements.txt~
 ** DOING [#C] Python as a tool for note-taking :WORFLOW:
-DEADLINE: <2025-06-01 Sun>
+DEADLINE: <2025-06-02 Mon>
 - *Goal:* /Create a tool ultilies python and latex in nvim to create similar workflow in this/ [[https://l.opnxng.com/r/neovim/comments/yfbfvu/sympy_luasnip_vimtex/][post]]
 - *References:* [[https://castel.dev/post/lecture-notes-1/][How I take math notes with LaTex @Blog]]
 * DOING Orgmode Manual [85%] :ORGMODE:
@@ -66,7 +66,7 @@ Special properties provide an alternative access method to Org mode features, li
 - *Goal:* Generate .ics files from .org files(use homelab for daily merge)
 - *Visit:*  [[https://pypi.org/project/org2ical/][org2ical package]] [[https://github.com/jacobmischka/ics-merger][icals merger]]
 *** DOING [#B] Sync orgmode to CalDav [0%] :KHALORG:
-DEADLINE: <2025-06-01 Sun>
+DEADLINE: <2025-06-02 Mon>
 - *Goal:* /Succefully sync between orgmode and caldav for professional uses/
   - *Visit:* [[file:/home/whammou/dots/BartSte/dotfiles/nvim/lua/config/orgmode.lua][orgmode config @Git]]
   - *References:* [[https://github.com/BartSte/khalorg][khalorg @Github]]
@@ -407,18 +407,15 @@ CLOSED: [2025-05-28 Wed 04:03]
 * TODO Android linux sync :ANDROID:ARCH:
 - *Goal:* /Android and linux sync-up workflow/
 - *References:* [[https://bbs.archlinux.org/viewtopic.php?id=231050][Archlinux android sync @Archforum]]
-* DOING Working with gsuit [0%] :GSUIT:
+* DOING Working with gsuit [50%] :GSUIT:
 :PROPERTIES:
 :ID:       26de28b6-a86c-46eb-a91f-81a01d31115f
 :END:
-- *Goal:* /Editing office files with gsuit/
-- *Reference:* [[https://reddit.com/comments/1dcpg93/comment/l7zrycr][rclone google drive @Reddit]]
-** TODO Config rclone :RCLONE:
-- *Goal:* /Config rclone to sync with google-drive/
-  - [ ] [[https://rclone.org/drive/#making-your-own-client-id][Make your own client-id @Doc-rclone]]
-** TODO Obtain google-drive API key :GDRIVE:
-- *Goal:* /Obtain gdrive API for rclone/
-- *Visit:* [[https://support.google.com/googleapi/answer/6158862?hl=en][Setting up API keys @Doc-google]]
+1. [X] *Goal:* /Edditing documents using google documents suits/
+2. [ ] *Goal:* /Mount cloud-drive to edit documents locally/
+- *Reference:*
+  - [[https://reddit.com/comments/1dcpg93/comment/l7zrycr][Rclone google drive @Reddit]]
+  - [[id:882b4f23-d2f9-4274-87e5-fb041e4a0c48][Working with cloud-drives @Orgmode]]
 * TODO Config terminal app titles :UI:
 - *Goal:* /Config terminal app titles/
   - Config title to look the same: ~<content> - <appname>~
@@ -433,3 +430,62 @@ CLOSED: [2025-05-28 Wed 04:03]
 :END:
 - *Goal:* /Convert documents from PDF to latex using AI/
 - *Reference:* [[https://www.reddit.com/r/Bard/comments/1bgstvx/suddenly_discovered_latex_on_gemini_web/][Latex on Gemini @Reddit]]
+* Working with cloud-drives [66%] :REMOTE:DRIVE:
+:PROPERTIES:
+:ID: 882b4f23-d2f9-4274-87e5-fb041e4a0c48
+:END:
+- *Goal:* /Manage data in cloud drives/
+** DONE Config rclone [100%] :RCLONE:
+CLOSED: [2025-06-01 Sun 23:02]
+- *Goal:* /Config rclone to sync with google-drive/
+  - [X] [[https://rclone.org/drive/#making-your-own-client-id][Make your own client-id @Doc-rclone]]
+** DONE Obtain google-drive API key :GDRIVE:
+CLOSED: [2025-06-01 Sun 22:46]
+- *Goal:* /Obtain gdrive API for rclone/
+- *Visit:* [[https://support.google.com/googleapi/answer/6158862?hl=en][Setting up API keys @Doc-google]]
+** TODO Quickly toggle drive :ROFI:
+- *Goal:* /Write script to quickly toggle drive/
+- *References:* [[id:657f70b1-56fe-4503-93cb-3a2987f002e8][Mount dir menu @Orgmode]]
+* DOING Working with rofi [66%] :ROFI:
+- *Goal:* /Implement rofi to workflow/
+- *Visit:* [[https://davatorium.github.io/rofi/][Rofi official page @Doc-rofi]]
+** DONE Implement rofi scripts [100%]
+CLOSED: [2025-05-31 Sat 07:20]
+- *Goal:* /Adding rofi scripts for more optimal workflow/
+*** DONE Implement window switcher
+CLOSED: [2025-05-30 Fri 16:50]
+- *Goal:* /Quickly switch to a widow/
+  - To launch rofi window-switcher, run: ~rofi --show window~
+*** DONE Implement power-menu
+CLOSED: [2025-05-31 Sat 07:17]
+- *Goal:* /Choose power option quickly with rofi/
+- *References:* [[https://wiki.archlinux.org/title/Rofi][Rofi power management @Archwiki]]
+  - To launch rofi power-menu, run: ~rofi -show power-menu -modi power-menu:/sbin/rofi-power-menu~
+*** DONE Implement clipboard history :GREENCLIP:
+CLOSED: [2025-05-31 Sat 23:57]
+:PROPERTIES:
+:ID: d17ebad8-7524-43b8-b6be-0b3f808a9aaa
+:END:
+- *Goal:* /Quickly choose clipboard history with rofi/
+- *References:* [[https://wiki.archlinux.org/title/Rofi][Rofi clipboard-history @Archwiki]]
+  - To launch rofi clipboard-history, run ~rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'~
+**** DONE Enable clipmenu daemon
+CLOSED: [2025-05-31 Sat 23:57]
+- *Goal:* /Enable greenclip daemon/
+- *Reference:* [[https://github.com/erebe/greenclip][Clipmenu @Github]]
+  - To enable clipmenu daemon, run: ~greenclip --daemon &~ in [[file:~/.config/qtile/autostart.sh][autostart.sh]]
+** DONE Theming rofi [100%]
+CLOSED: [2025-06-01 Sun 00:29]
+- *Goal:* /Theme rofi to match system/
+- *References:*
+  - [[https://github.com/davatorium/rofi/blob/next/doc/rofi-theme.5.markdown][Rofi theme @Github]]
+  - [[https://github.com/newmanls/rofi-themes-collection?tab=readme-ov-file][Extra themes @Github]]
+*** DONE Custom theme
+CLOSED: [2025-06-01 Sun 00:29]
+- *Goal:* /Make rofi size as small as ~qtile-bar~/
+- *References:* [[https://github.com/davatorium/rofi/blob/next/doc/rofi-theme.5.markdown][Rofi-theme @Github]]
+** TODO Mount dir menu :ROFI:
+:PROPERTIES:
+:ID: 657f70b1-56fe-4503-93cb-3a2987f002e8
+:END:
+- *Goal:* /Mount directories via rofi menu/

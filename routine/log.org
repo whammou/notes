@@ -14,3 +14,9 @@ CLOSED: [2025-03-25 Tue 19:50] SCHEDULED: <2025-03-25 Tue 18:30>
 :ID:       1747ccdd-ef85-4093-9d46-5788aaca0d29
 :END:
 - /Stop by a Ministop/
+** ABORTED Wedding night :SOCIAL:
+DEADLINE: <2025-06-01 Sun> CLOSED: [2025-06-02 Mon 05:14]
+:PROPERTIES:
+:ID:       7f59db07-4fba-4843-a61a-ea39d0bc695d
+:END:
+- *Goal:* /Attend Trans wedding/

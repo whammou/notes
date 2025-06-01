@@ -58,7 +58,6 @@ CLOSED: [2025-04-24 Thu 16:50] DEADLINE: <2025-04-24 Thu 20:30>
 - /Create function to edit current token/
 - *Run:* ~bat --color always $arg &| less --color~
 *** DOING Backup systemd services :SYSTEMD:
-DEADLINE: <2025-06-02 Mon>
 - *Goal:* /Backup systemd across systems/
 - *Reference:* [[https://www.reddit.com/r/linuxquestions/comments/18hep9r/how_to_back_up_export_import_the_usercreated/][Auto backing up systemd services @Reddit]]
 *** DONE Clean-up capture :HOUSEKEEPING:
@@ -131,7 +130,6 @@ CLOSED: [2025-05-27 Tue 05:15] DEADLINE: <2025-05-25 Sun 14:00>
   - [[https://l.opnxng.com/r/linuxmint/comments/pcmpwh/cool_icon_packs/][Icon packs suggestions @Reddit]]
   - [[https://github.com/gusbemacbe/suru-plus-aspromauros][Suru-plus icon pack @Github]]
 *** DOING [#B] Update repo hierarchy :ORGMODE:
-DEADLINE: <2025-06-02 Mon>
 - *Goal:* /Adding new hierarchy to this repo/
   - [ ] Adding ~TASK~ tag (including all type of tasks)
   - [ ] Adding ~LIB~ and remove ~Archives~ headline

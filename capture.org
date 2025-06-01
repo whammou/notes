@@ -10,7 +10,8 @@
   - *References:* [[https://ao.bloat.cat/exchange/stackoverflow.com/questions/39498702/passing-arguments-to-python-from-shell-script][Passing shell argument to python @Overflow]]
 ** Python virutal enviroment
 - *Goal:* /Manage python virtual enviroments/
-  To initiate virtual environment, run ~python -m venv <name>~
+  - To initiate virtual environment, run ~python -m venv <name>~
+- *Reference:* [[https://www.youtube.com/watch?v=IYcTaZfjODg#__preview][Understand python vm @Youtube]]
 *** Manage packages
 - *Goal:* /Save virtual environemnt state/
   - To create lock file, run (when inside virtual environment) ~pip freeze > requirements.txt~

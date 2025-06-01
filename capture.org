@@ -3,12 +3,12 @@
 
 * DOING Working with python [0%] :PYTHON:
 - *Goal:* /Automantion documentation with python/
-** Python scripting [0%] :SCRIPTING:
+** Python scripting :SCRIPTING:
 - *Goal:* /Learn to do some scrpiting with python/
 *** Passing shell arguments :SHELL:
 - *Goal:* /Passing argument from shell/
   - *References:* [[https://ao.bloat.cat/exchange/stackoverflow.com/questions/39498702/passing-arguments-to-python-from-shell-script][Passing shell argument to python @Overflow]]
-** Python virutal enviroment
+** TODO Python virutal enviroment
 - *Goal:* /Manage python virtual enviroments/
   - To initiate virtual environment, run ~python -m venv <name>~
 - *Visit:* [[https://www.youtube.com/watch?v=IYcTaZfjODg#__preview][Understand python vm @Youtube]]

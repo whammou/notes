@@ -279,45 +279,6 @@ Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~
 - [ ] Oragnize ~$PATH~
 *** PENDING System Proxy and DNS :SYSTEM:
 Access blocked websites via ~proxy~ or changeing ~DNS~
-*** DONE Working with rofi [100%] :ROFI:
-CLOSED: [2025-06-01 Sun 00:29]
-- *Goal:* /Implement rofi to workflow/
-- *Visit:* [[https://davatorium.github.io/rofi/][Rofi official page @Doc-rofi]]
-**** DONE Implement rofi scripts [100%]
-CLOSED: [2025-05-31 Sat 07:20]
-- *Goal:* /Adding rofi scripts for more optimal workflow/
-***** DONE Implement window switcher
-CLOSED: [2025-05-30 Fri 16:50]
-- *Goal:* /Quickly switch to a widow/
-  - To launch rofi window-switcher, run: ~rofi --show window~
-***** DONE Implement power-menu
-CLOSED: [2025-05-31 Sat 07:17]
-- *Goal:* /Choose power option quickly with rofi/
-- *References:* [[https://wiki.archlinux.org/title/Rofi][Rofi power management @Archwiki]]
-  - To launch rofi power-menu, run: ~rofi -show power-menu -modi power-menu:/sbin/rofi-power-menu~
-***** DONE Implement clipboard history :GREENCLIP:
-CLOSED: [2025-05-31 Sat 23:57]
-:PROPERTIES:
-:ID: d17ebad8-7524-43b8-b6be-0b3f808a9aaa
-:END:
-- *Goal:* /Quickly choose clipboard history with rofi/
-- *References:* [[https://wiki.archlinux.org/title/Rofi][Rofi clipboard-history @Archwiki]]
-  - To launch rofi clipboard-history, run ~rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'~
-****** DONE Enable clipmenu daemon
-CLOSED: [2025-05-31 Sat 23:57]
-- *Goal:* /Enable greenclip daemon/
-- *Reference:* [[https://github.com/erebe/greenclip][Clipmenu @Github]]
-  - To enable clipmenu daemon, run: ~greenclip --daemon &~ in [[file:~/.config/qtile/autostart.sh][autostart.sh]]
-**** DONE Theming rofi [100%]
-CLOSED: [2025-06-01 Sun 00:29]
-- *Goal:* /Theme rofi to match system/
-- *References:*
-  - [[https://github.com/davatorium/rofi/blob/next/doc/rofi-theme.5.markdown][Rofi theme @Github]]
-  - [[https://github.com/newmanls/rofi-themes-collection?tab=readme-ov-file][Extra themes @Github]]
-***** DONE Custom theme
-CLOSED: [2025-06-01 Sun 00:29]
-- *Goal:* /Make rofi size as small as ~qtile-bar~/
-- *References:* [[https://github.com/davatorium/rofi/blob/next/doc/rofi-theme.5.markdown][Rofi-theme @Github]]
 *** DONE Working with fzf [100%] :FZF:
 CLOSED: [2025-06-01 Sun 09:31]
 - *Goal:* /Config/ ~fzf~ /theme and function//

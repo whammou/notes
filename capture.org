@@ -254,9 +254,11 @@ CLOSED: [2025-04-28 Mon 09:18]
 - *References:*
   - [[https://github.com/dunst-project/dunst/issues/321][Dunst notification stacking @Github-issue]]
   - [[https://dunst-project.org/documentation/][Documentaion @Dunst-doc]]
-* TODO Working with git [%] :GIT:
+* TODO Working with git [0%] :GIT:
 - *Goal:* /Improve workflow with nvim, fugitive, lazygit/
-- *References:* [[https://youtu.be/vtFXMni91Q4#__preview][Fugitive workflow @Youtube-preview]]
+- *References:*
+  - [[https://youtu.be/vtFXMni91Q4#__preview][Fugitive workflow @Youtube-preview]]
+  - [[https://www.youtube.com/watch?v=G3NJzFX6XhY#__preview][Config your git @Youtube]]
 ** TODO Write better commit messages
 - *Goal(s):* Write better and more comprehensive commit messages
 - *Stumble upon:* [[https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/]]

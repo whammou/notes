@@ -56,12 +56,6 @@ CLOSED: [2025-05-19 Mon 20:29] DEADLINE: <2025-05-19 Mon 19:00>
 - *Goal:* /New fits and new style/
   - *List:*
     - [ ] Ties (blank/pattern)
-*** TODO Wedding night :SOCIAL:
-DEADLINE: <2025-06-01 Sun>
-:PROPERTIES:
-:ID:       7f59db07-4fba-4843-a61a-ea39d0bc695d
-:END:
-- *Goal:* /Attend Trans wedding/
 ** Incidental :INCIDENTAL:
 *** ABORTED [#A] Cúng ông táo
 CLOSED: [2025-01-25 Sat 15:38] DEADLINE: <2025-01-23 Thu 12:00 -3d>

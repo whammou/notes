@@ -422,3 +422,8 @@ CLOSED: [2025-05-28 Wed 04:03]
 * TODO Config terminal app titles :UI:
 - *Goal:* /Config terminal app titles/
   - Config title to look the same: ~<content> - <appname>~
+* TODO Working with Latex :LATEX:
+:PROPERTIES:
+:ID:       bcf659a7-1e46-4a4b-b8e0-b237c7f1f8aa
+:END:
+- *Goal:* /Convert files to latex and from latex/

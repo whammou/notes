@@ -551,3 +551,4 @@ DEADLINE: <2025-06-03 Tue>
 - *References:* 
   - [[https://i.imgur.com/ujOHTu4.png][Onedark  @Imgur]]
   - [[https://hdqwalls.com/one-dark-cubes-4k-wallpaper][Onedark cube @Reddit]]
+  - [[https://github.com/Narmis-E/onedark-wallpapers?tab=readme-ov-file][Onedark collection @Github]]

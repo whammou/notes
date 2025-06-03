@@ -430,7 +430,7 @@ CLOSED: [2025-05-28 Wed 04:03]
 - *Reference:* [[https://www.reddit.com/r/Bard/comments/1bgstvx/suddenly_discovered_latex_on_gemini_web/][Latex on Gemini @Reddit]]
 * Working with cloud-drives [66%] :REMOTE:DRIVE:
 :PROPERTIES:
-:ID: 882b4f23-d2f9-4274-87e5-fb041e4a0c48
+:ID:       882b4f23-d2f9-4274-87e5-fb041e4a0c48
 :END:
 - *Goal:* /Manage data in cloud drives/
 ** DONE Config rclone [100%] :RCLONE:
@@ -462,7 +462,7 @@ CLOSED: [2025-05-31 Sat 07:17]
 *** DONE Implement clipboard history :GREENCLIP:
 CLOSED: [2025-05-31 Sat 23:57]
 :PROPERTIES:
-:ID: d17ebad8-7524-43b8-b6be-0b3f808a9aaa
+:ID:       d17ebad8-7524-43b8-b6be-0b3f808a9aaa
 :END:
 - *Goal:* /Quickly choose clipboard history with rofi/
 - *References:* [[https://wiki.archlinux.org/title/Rofi][Rofi clipboard-history @Archwiki]]
@@ -484,7 +484,7 @@ CLOSED: [2025-06-01 Sun 00:29]
 - *References:* [[https://github.com/davatorium/rofi/blob/next/doc/rofi-theme.5.markdown][Rofi-theme @Github]]
 ** TODO Mount dir menu :ROFI:
 :PROPERTIES:
-:ID: 657f70b1-56fe-4503-93cb-3a2987f002e8
+:ID:       657f70b1-56fe-4503-93cb-3a2987f002e8
 :END:
 - *Goal:* /Mount directories via rofi menu/
 - *References:* [[https://l.opnxng.com/r/archlinux/comments/15mz7rj/bash_script_to_mountunmount_rclone_affiliated/?tl=zh-hant][Script mount/umount rclone mount points @Reddit]]

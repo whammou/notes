@@ -543,6 +543,7 @@ CLOSED: [2025-06-03 Tue 07:43]
 - *Goal:* /Create note block with today inserted/
 - *References:* [[https://l.opnxng.com/r/neovim/comments/wi4uf3/how_do_i_insert_current_date_or_time/][Insert today date in friendly snippet @Reddit]]
 * TODO Update wallpaper :UI:
+DEADLINE: <2025-06-03 Tue>
 :PROPERTIES:
 :ID:       7842dd9f-f1fd-4931-aae0-e464ee90089c
 :END:

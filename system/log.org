@@ -568,3 +568,13 @@ CLOSED: [2025-06-01 Sun 09:42]
   - *Implemented:* Kitty open url in ~qutebrowser-split-mode~
   - *Checkout:* [[https://github.com/whammou/dotfiles/commit/3542d910c61772da06dffd3e80e0b3d8a709f599][Kitty open in qutebrowser-split-mode @Commit]]
 - *References:* [[https://sw.kovidgoyal.net/kitty/shell-integration/][Kitty shell integration @Doc-kitty]]
+* DONE Update wallpaper :UI:
+DEADLINE: <2025-06-03 Tue> CLOSED: [2025-06-03 Tue 11:59]
+:PROPERTIES:
+:ID:       7842dd9f-f1fd-4931-aae0-e464ee90089c
+:END:
+- *Goal:* /Update wallpaper to match system theme/
+- *References:* 
+  - [[https://i.imgur.com/ujOHTu4.png][Onedark  @Imgur]]
+  - [[https://hdqwalls.com/one-dark-cubes-4k-wallpaper][Onedark cube @Reddit]]
+  - [[https://github.com/Narmis-E/onedark-wallpapers?tab=readme-ov-file][Onedark collection @Github]]

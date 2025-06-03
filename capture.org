@@ -73,8 +73,7 @@ Special properties provide an alternative access method to Org mode features, li
   - *References:* [[http://vdirsyncer.pimutils.org/en/stable/when.html][Vdirsyncer documentation @Doc]]
 ** DONE Orgmode social media integrate
 CLOSED: [2024-12-26 Thu 22:28]
-* DONE Qutebrowser configuration [100%] :QUTEBROWSER:
-CLOSED: [2025-05-30 Fri 06:06]
+* DOING Qutebrowser configuration [100%] :QUTEBROWSER:
 - *Goal:* implement text to speech to qutebrowser
   - *Stumble upon:* [[https://redlib.seasi.dev/r/qutebrowser/comments/w4pv2v/configpy_ideas/][Qutebrowser tts config idea @ Reddit]]
 ** DONE Rebind set-mark function
@@ -142,10 +141,11 @@ CLOSED: [2025-04-18 Fri 14:16] DEADLINE: <2025-04-16 Wed 16:00>
 - *Goal:* /Enable hardware acceleration/
 - *Visit:* [[https://wiki.archlinux.org/title/Hardware_video_acceleration][Hardware acceleration doc @ Archwiki]]
 - *References:* [[https://l.opnxng.com/r/qutebrowser/comments/s60a78/what_chromium_flags_do_you_use/][chromium flags @Reddit]]
-** ABORTED Create profiles
-CLOSED: [2025-04-23 Wed 22:44] DEADLINE: <2025-04-23 Wed 22:00>
-- *Goal:* /Setup qutebrowser-profiles for better session managements/
-  - *Run* ~qutebrowser-profile --new --load "profile"~
+** DONE Create new-instance [100%]
+DEADLINE: <2025-06-02 Mon 19:00> CLOSED: [2025-06-03 Tue 10:14]
+- [X] *Goal:* /Setup qutebrowser-profiles for better session managements/ [100%]
+  - [X] *Run:* ~qutebrowser-profile --new --load "profile"~
+  - [X] *Run:* ~qutebrowser --basedir=<base-dir> --config-py=path/to/config~
 ** PENDING Userscripts
 CLOSED: [2025-05-30 Fri 06:06]
 - *Goal:* /Learn to write userscripts in qutebrowser/
@@ -153,25 +153,38 @@ CLOSED: [2025-05-30 Fri 06:06]
     - [[https://github.com/hiway/python-qutescript][python-qutescript @Github]]
     - [[qute://help/settings.html#bindings.commands][Settings references @Qutebrowser-doc]]
     - [[qute://help/configuring.html][Keybinds and configuring @Qutebrowser-doc]]
-* DONE Manage windows spawn/layout [100%] :QTILE:
+* DONE Manage windows spawn/layout [66%] :QTILE:
 CLOSED: [2025-05-30 Fri 06:06]
 - *Goal:* /Assign spawn grouping and layouts/
-** DONE Manage floating windows [100%]
-CLOSED: [2025-05-30 Fri 06:05]
+** TODO Manage floating windows [100%]
 :LOGBOOK:
 - Note taken on [2025-05-05 Mon 08:21] \\
-- Added prevent *focus_stealing_hook* to ~qtile~
-- *Visit:* [[https://github.com/whammou/dotfiles/commit/56ee9ce8c65ed7b2dba894a5ba294a285c2504f0][Added prevent_focus_stealing hook @Commit]]
 :END:
 - *Goal:* /Add floating windows for quick preview of media files/
+  - [X] prevent *focus_stealing_hook* to ~qtile~
+    - *FMI:* [[https://github.com/whammou/dotfiles/commit/56ee9ce8c65ed7b2dba894a5ba294a285c2504f0][Added prevent_focus_stealing hook @Commit]]
+  - [NOTE] taken on [2025-06-03 09:58]:
+    - [ ] IDEA: ~focus_nth_floating~ by a double hook ~lazy.function~ then bring current window to front via ~lazy.window.bring_to_front~
+      #+NAME: ~/.config/qtile/settings/key/windows.py
+      #+BEGIN_SRC: python
+      @hook.lazy.window
+      @hook.lazy.layout
+      def focus_nth_float():
+          bring_floats_to_front()
+          for range(1, index):
+            if not window.floating:
+              layout.next_window()
+            else
+              window.bring_to_front()
+              window.focus()
+      #+END_SRC
 - *References:*
   - [[https://github.com/qtile/qtile/issues/1260#issuecomment-913327960][floating window focus discussion @Github]]
   - [[https://github.com/qtile/qtile/wiki/floating-windows][floating windows @Github-wiki]]
   - [[https://l.opnxng.com/r/qtile/comments/w240e0/is_it_possible_to_move_around_floating_windows/][Resize floating windows @Reddit]]
-  - *Topic:*
-    - [[https://l.opnxng.com/r/qtile/comments/tw9apn/spawn_a_terminal_with_command_and_make_it_floating/][Function per custom window(WM_CLASS) @Reddit]]
-    - [[https://github.com/qtile/qtile/discussions/4049][Keep window above all other windows @Github-issue]]
-    - [[https://github.com/qtile/qtile/issues/1145#issuecomment-392771986][App layers @Github-issue]]
+  - [[https://l.opnxng.com/r/qtile/comments/tw9apn/spawn_a_terminal_with_command_and_make_it_floating/][Function per custom window(WM_CLASS) @Reddit]]
+  - [[https://github.com/qtile/qtile/discussions/4049][Keep window above all other windows @Github-issue]]
+  - [[https://github.com/qtile/qtile/issues/1145#issuecomment-392771986][App layers @Github-issue]]
 *** DONE Cycle through floating windows
 CLOSED: [2025-05-12 Mon 15:54] DEADLINE: <2025-05-11 Sun 18:30>
 - *Goal:* /Keybind to cycle focus through floating windows/
@@ -402,9 +415,13 @@ CLOSED: [2025-01-10 Fri 02:27]
 ** PENDING Nvim integration :NVIM:
 CLOSED: [2025-05-28 Wed 04:03]
 - *Goal(s):* render response in markdown to take advantage of nvim markdown render
-* TODO Android linux sync :ANDROID:ARCH:
+* PARTIAL Android linux sync :ANDROID:ARCH:LINUX:
+CLOSED: [2025-06-03 Tue 02:03]
 - *Goal:* /Android and linux sync-up workflow/
-- *References:* [[https://bbs.archlinux.org/viewtopic.php?id=231050][Archlinux android sync @Archforum]]
+- *References:*
+  - [[https://bbs.archlinux.org/viewtopic.php?id=231050][Archlinux android sync @Archforum]]
+  - [[https://l.opnxng.com/r/linuxmasterrace/comments/100gz0z/whats_the_best_way_to_transfer_files_between/][Transfer file between android and linux @Reddit]]
+- *Workaround:* Sync using cloud drives
 * DOING Working with gsuit [50%] :GSUIT:
 :PROPERTIES:
 :ID:       26de28b6-a86c-46eb-a91f-81a01d31115f
@@ -437,6 +454,7 @@ CLOSED: [2025-05-28 Wed 04:03]
 CLOSED: [2025-06-01 Sun 23:02]
 - *Goal:* /Config rclone to sync with google-drive/
   - [X] [[https://rclone.org/drive/#making-your-own-client-id][Make your own client-id @Doc-rclone]]
+- *References:* [[id:3700b025-3d42-4516-a17d-0eb37366d087][Working with rclone @Orgmode]]
 ** DONE Obtain google-drive API key :GDRIVE:
 CLOSED: [2025-06-01 Sun 22:46]
 - *Goal:* /Obtain gdrive API for rclone/
@@ -482,9 +500,49 @@ CLOSED: [2025-06-01 Sun 00:29]
 CLOSED: [2025-06-01 Sun 00:29]
 - *Goal:* /Make rofi size as small as ~qtile-bar~/
 - *References:* [[https://github.com/davatorium/rofi/blob/next/doc/rofi-theme.5.markdown][Rofi-theme @Github]]
-** TODO Mount dir menu :ROFI:
+* TODO Working with virtual machines :VM:
+- *Keypoint:* /Virutal machine on linux/
+- *References:*
+  - [[https://l.opnxng.com/r/docker/comments/q6ykxa/when_should_you_choose_vms_over_docker/][Docker vs Vms when @Reddit]]
+  - [[https://www.atlassian.com/microservices/cloud-computing/containers-vs-vms][VMs vs Dockers differences @Atlassian]]
+* DOING Working with rclone [66%] :RCLONE:
+:PROPERTIES:
+:ID: 3700b025-3d42-4516-a17d-0eb37366d087
+:END:
+- *Goal:* /Config rclone for optimal workflow/
+** ABORTED Mount as a systemd service :SYSTEMD:
+CLOSED: [2025-06-03 Tue 07:45]
+- *Goal:* /Running rclone mount as a systemd service/
+- *References:* [[https://rclone.org/commands/rclone_mount/][Rclone mount @Doc-rclone]]
+
+** DOING Mount dir menu [66%] :ROFI:
 :PROPERTIES:
 :ID: 657f70b1-56fe-4503-93cb-3a2987f002e8
 :END:
-- *Goal:* /Mount directories via rofi menu/
+- [X] *Goal:* /Mount directories via rofi menu/
+- [X] *Goal:* /Config mount point dest/
+- [ ] *Goal:* /Change icons in qtile bar accordingly/
+  - *Checkout:* related files
+    - [[file:~/.config/qtile/settings/widgets.py][widgets.py @Qtile-config]]
+    - [[file:~/dotfiles/scripts/rofi-mount][rofi-mount @Rofi-script]]
 - *References:* [[https://l.opnxng.com/r/archlinux/comments/15mz7rj/bash_script_to_mountunmount_rclone_affiliated/?tl=zh-hant][Script mount/umount rclone mount points @Reddit]]
+** DONE Workaround rclone cache mode
+CLOSED: [2025-06-03 Tue 07:43]
+- *Goal:* /Cache mode takes a lot of space, workaround this issue/
+- *Checkout:* [[https://forum.rclone.org/t/why-arent-cache-rclone-files-being-removed/28948/8][Vfs cache explain @Forum-rclone]]
+- *References:* [[https://l.opnxng.com/r/rclone/comments/xnbhsx/rclone_mount_with_vfs_cache_mode_full_is_using_up/][Cache mode using up space @Reddit]]
+* Files hierarchy :FILE:
+- *Goal:* /Manage files with better hierarchy/
+- *References:* [[https://l.opnxng.com/r/linux/comments/om150l/personal_file_hierarchy_under_home/][Home hierarchy @Reddit]]
+* Pacman lock-file :PACMAN:BACKUP:
+- *Goal:* /Create pacman lock-file/
+* TODO Config feh [%] :FEH:
+1. [ ] *Goal:* /Config feh to work as an image preview/
+2. [ ] *Goal:* /Deprecated vimiv/
+3. [ ] *Goal:* /Config feh vim-keybinds/
+   - *Visit:* [[file:/usr/share/applications/feh.desktop][feh.desktop]]
+- *References:* [[https://github.com/derf/feh/blob/master/examples/keys][Feh vim keymap @Github]]
+* TODO Friendly snippet insert date :NVIM:SNIPPET:
+- *Goal:* /Create note block with today inserted/
+- *References:* [[https://l.opnxng.com/r/neovim/comments/wi4uf3/how_do_i_insert_current_date_or_time/][Insert today date in friendly snippet @Reddit]]
+

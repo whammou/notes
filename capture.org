@@ -142,7 +142,7 @@ CLOSED: [2025-04-18 Fri 14:16] DEADLINE: <2025-04-16 Wed 16:00>
 - *Visit:* [[https://wiki.archlinux.org/title/Hardware_video_acceleration][Hardware acceleration doc @ Archwiki]]
 - *References:* [[https://l.opnxng.com/r/qutebrowser/comments/s60a78/what_chromium_flags_do_you_use/][chromium flags @Reddit]]
 ** DONE Create new-instance [100%]
-DEADLINE: <2025-06-02 Mon 19:00> CLOSED: [2025-06-03 Tue 10:14]
+CLOSED: [2025-06-03 Tue 10:14] DEADLINE: <2025-06-02 Mon 19:00>
 - [X] *Goal:* /Setup qutebrowser-profiles for better session managements/ [100%]
   - [X] *Run:* ~qutebrowser-profile --new --load "profile"~
   - [X] *Run:* ~qutebrowser --basedir=<base-dir> --config-py=path/to/config~
@@ -507,14 +507,13 @@ CLOSED: [2025-06-01 Sun 00:29]
   - [[https://www.atlassian.com/microservices/cloud-computing/containers-vs-vms][VMs vs Dockers differences @Atlassian]]
 * DOING Working with rclone [66%] :RCLONE:
 :PROPERTIES:
-:ID: 3700b025-3d42-4516-a17d-0eb37366d087
+:ID:       3700b025-3d42-4516-a17d-0eb37366d087
 :END:
 - *Goal:* /Config rclone for optimal workflow/
 ** ABORTED Mount as a systemd service :SYSTEMD:
 CLOSED: [2025-06-03 Tue 07:45]
 - *Goal:* /Running rclone mount as a systemd service/
 - *References:* [[https://rclone.org/commands/rclone_mount/][Rclone mount @Doc-rclone]]
-
 ** DOING Mount dir menu [66%] :ROFI:
 :PROPERTIES:
 :ID:       657f70b1-56fe-4503-93cb-3a2987f002e8
@@ -545,4 +544,3 @@ CLOSED: [2025-06-03 Tue 07:43]
 * TODO Friendly snippet insert date :NVIM:SNIPPET:
 - *Goal:* /Create note block with today inserted/
 - *References:* [[https://l.opnxng.com/r/neovim/comments/wi4uf3/how_do_i_insert_current_date_or_time/][Insert today date in friendly snippet @Reddit]]
-

@@ -157,9 +157,7 @@ CLOSED: [2025-05-30 Fri 06:06]
 CLOSED: [2025-05-30 Fri 06:06]
 - *Goal:* /Assign spawn grouping and layouts/
 ** TODO Manage floating windows [100%]
-:LOGBOOK:
-- Note taken on [2025-05-05 Mon 08:21] \\
-:END:
+DEADLINE: <2025-06-03 Tue>
 - *Goal:* /Add floating windows for quick preview of media files/
   - [X] prevent *focus_stealing_hook* to ~qtile~
     - *FMI:* [[https://github.com/whammou/dotfiles/commit/56ee9ce8c65ed7b2dba894a5ba294a285c2504f0][Added prevent_focus_stealing hook @Commit]]
@@ -447,7 +445,7 @@ CLOSED: [2025-06-03 Tue 02:03]
 - *Reference:* [[https://www.reddit.com/r/Bard/comments/1bgstvx/suddenly_discovered_latex_on_gemini_web/][Latex on Gemini @Reddit]]
 * Working with cloud-drives [66%] :REMOTE:DRIVE:
 :PROPERTIES:
-:ID:       882b4f23-d2f9-4274-87e5-fb041e4a0c48
+:ID: 882b4f23-d2f9-4274-87e5-fb041e4a0c48
 :END:
 - *Goal:* /Manage data in cloud drives/
 ** DONE Config rclone [100%] :RCLONE:
@@ -480,7 +478,7 @@ CLOSED: [2025-05-31 Sat 07:17]
 *** DONE Implement clipboard history :GREENCLIP:
 CLOSED: [2025-05-31 Sat 23:57]
 :PROPERTIES:
-:ID:       d17ebad8-7524-43b8-b6be-0b3f808a9aaa
+:ID: d17ebad8-7524-43b8-b6be-0b3f808a9aaa
 :END:
 - *Goal:* /Quickly choose clipboard history with rofi/
 - *References:* [[https://wiki.archlinux.org/title/Rofi][Rofi clipboard-history @Archwiki]]
@@ -516,7 +514,7 @@ CLOSED: [2025-06-03 Tue 07:45]
 - *References:* [[https://rclone.org/commands/rclone_mount/][Rclone mount @Doc-rclone]]
 ** DOING Mount dir menu [66%] :ROFI:
 :PROPERTIES:
-:ID:       657f70b1-56fe-4503-93cb-3a2987f002e8
+:ID: 657f70b1-56fe-4503-93cb-3a2987f002e8
 :END:
 - [X] *Goal:* /Mount directories via rofi menu/
 - [X] *Goal:* /Config mount point dest/

@@ -167,7 +167,7 @@ DEADLINE: <2025-06-03 Tue>
   - [[https://github.com/qtile/qtile/discussions/4049][Keep window above all other windows @Github-issue]]
   - [[https://github.com/qtile/qtile/issues/1145#issuecomment-392771986][App layers @Github-issue]]
 *** TODO Cycle through floating windows
- DEADLINE: <2025-05-11 Sun 18:30>
+DEADLINE: <2025-05-11 Sun 18:30>
 - [-] /*Objective:*/ /Keybind to cycle focus through floating windows/ [66%]
   - [X] +*Visit:* [[https://github.com/qtile/qtile/issues/794][Keybinds @Github-issue]]+
   - [X] +*Visit:* [[https://github.com/qtile/qtile/issues?q=is%3Aissue%20multiple%20callbacks&page=1][multiple callbacks keybinding @Gtihub-issue]]+

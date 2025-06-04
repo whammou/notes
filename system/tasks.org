@@ -6,7 +6,7 @@ Allocated space for tasks/todos
 ** One-off :ONEOFF:
 *** DONE Learn nvim-orgmode_capture :NVIM:
 CLOSED: [2025-05-23 Fri 01:43]
-- *Goal:* learn ~org_capture_template~ at [[https://github.com/nvim-orgmode/orgmode/blob/master/docs/configuration.org#org_capture_templates][nvim-orgmode-configuration]]
+- *Objective:* learn ~org_capture_template~ at [[https://github.com/nvim-orgmode/orgmode/blob/master/docs/configuration.org#org_capture_templates][nvim-orgmode-configuration]]
 *** Organize Script repo :GITHUB:ORGMODE:
 Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~
 - [ ] Organize ~/scripts~
@@ -58,13 +58,13 @@ CLOSED: [2025-04-24 Thu 16:50] DEADLINE: <2025-04-24 Thu 20:30>
 - /Create function to edit current token/
 - *Run:* ~bat --color always $arg &| less --color~
 *** DOING Backup systemd services :SYSTEMD:
-- *Goal:* /Backup systemd across systems/
+- *Objective:* /Backup systemd across systems/
 - *Reference:* [[https://www.reddit.com/r/linuxquestions/comments/18hep9r/how_to_back_up_export_import_the_usercreated/][Auto backing up systemd services @Reddit]]
 *** DONE Clean-up capture :HOUSEKEEPING:
 CLOSED: [2025-05-24 Sat 21:11] DEADLINE: <2025-05-24 Sat 01:15>
-- *Goal:* /Clean up/ [[file:../capture.org][capture.org]]
+- *Objective:* /Clean up/ [[file:../capture.org][capture.org]]
 *** PENDING Plain text music playlist :LINUX:
-***Goal:* Plain text music playlist that works with ~ytfzf~ and ~new pipe~
+***Objective:* Plain text music playlist that works with ~ytfzf~ and ~new pipe~
 *** TODO Detect git repos from system :GIT:FZF:
 - /Detect system wise git repos the use fzf to open lazygit at repo location/
 *** TODO Search more efficiently :LINUX:
@@ -77,101 +77,101 @@ CLOSED: [2025-05-23 Fri 18:56] DEADLINE: <2025-05-23 Fri>
 :PROPERTIES:
 :ID:       1c814ec1-f296-4b5a-8631-2a0d970d14a0
 :END:
-- *Goal:* /Write scripts for:/
+- *Objective:* /Write scripts for:/
   - [ ] Write auto commit message
   - [ ] Auto pulling
   - [ ] Auto pushing
-- *Goal:* /Auto commit repo via external packages/
+- *Objective:* /Auto commit repo via external packages/
   - *Visit:* [[https://a.opnxng.com/exchange/stackoverflow.com/questions/420143/making-git-auto-commit][git auto commit @Overflow]]
 *** TODO Connect to running nvim server :NVIM:
-- *Goal:* /Connect to running/ ~nvim-server~ /apply to/ ~orgmode~
+- *Objective:* /Connect to running/ ~nvim-server~ /apply to/ ~orgmode~
   - *Visit:* [[https://github.com/neovim/neovim/issues/5035][github.com#\:connect-to-nvim-server @Github]]
 *** PENDING System file-tag :LINUX:
 CLOSED: [2025-05-08 Thu 14:27]
-- *Goal:* /Assign attribute to a file/
+- *Objective:* /Assign attribute to a file/
   - *Visit:* [[https://a.opnxng.com/exchange/unix.stackexchange.com/questions/683017/how-to-tag-any-file-on-the-unix-system][File-tag @Overflow]]
 *** PENDING Markdown folding :NVIM:MARKDOWN:
 CLOSED: [2025-05-12 Mon 09:04]
-- *Goal:* /Markdown folding folds incorretly when in a list/
+- *Objective:* /Markdown folding folds incorretly when in a list/
   - *References:*
     - [[https://github.com/nvim-treesitter/nvim-treesitter/pull/3442][Fold sublists instead of lists in markdown @Github-issue]]
     - [[https://github.com/nvim-treesitter/nvim-treesitter/issues/5366][Markdown folds don't work correctly with nested lists @Github-issue]]
     - [[https://linkarzu.com/][Resources @Linkarzu]]
 *** TODO Toggle program :BASH:
-- *Goal:* /Toggle command using bash script/
+- *Objective:* /Toggle command using bash script/
   - *References:* [[https://www.youtube.com/watch?v=eBzDiBAcIFo#__preview][A one line bash script to toggle programs on/off @Youtube-DistroTube]]
 *** PENDING Magic Tape sessions :MAGICTAPE:
 CLOSED: [2025-05-23 Fri 18:56] DEADLINE: <2025-05-23 Fri>
 :PROPERTIES:
 :ID:       8546e69f-f9ab-46d7-b9fc-13356175edbf
 :END:
-- *Goal:* /Create multiple magic-tape sessions using git/
+- *Objective:* /Create multiple magic-tape sessions using git/
 *** TODO Migrate orgmode options to config :ORGMODE:
-- *Goal:* /Migrate settings to/ [[file:~/.config/nvim/lua/config/orgmode.lua][config.lua]]
+- *Objective:* /Migrate settings to/ [[file:~/.config/nvim/lua/config/orgmode.lua][config.lua]]
 *** Qutebrowser modular configs [%] :QUTEBROWSER:
-- *Goal:* /Re-write qutebrowser and make it modular/
+- *Objective:* /Re-write qutebrowser and make it modular/
   - *References:* [[https://qutebrowser.org/doc/help/commands.html][Documentation @Qutebrowser]]
   - *File:* [[file:~/.config/qutebrowser/][config @Directory]]
 *** TODO Nvim indent align :NVIM:
-- *Goal:* /Manage nvim virtual indentaion alignment in plugins:/
+- *Objective:* /Manage nvim virtual indentaion alignment in plugins:/
   - [ ] ~nvim-orgmode~ 
   - [ ] ~render-markdown~
 *** DONE Faster navigate files :NVIM:YAZI:
 CLOSED: [2025-06-01 Sun 01:31]
-- *Goal:* /navigate faster with nvim and yazi/
+- *Objective:* /navigate faster with nvim and yazi/
 - *References:* [[https://www.youtube.com/watch?v=xy9sSVx2cfk#__preview][How I navigate my files @Youtube-preview]]
 *** DONE Icon packs :LINUX:
 CLOSED: [2025-05-27 Tue 05:15] DEADLINE: <2025-05-25 Sun 14:00>
 :PROPERTIES:
 :ID:       45d7010b-dd20-44c8-a271-51ac24ba840e
 :END:
-- *Goal:* /Update system icons for ~notifications~ and ~systray~/
+- *Objective:* /Update system icons for ~notifications~ and ~systray~/
 - *References:*
   - [[https://l.opnxng.com/r/linuxmint/comments/pcmpwh/cool_icon_packs/][Icon packs suggestions @Reddit]]
   - [[https://github.com/gusbemacbe/suru-plus-aspromauros][Suru-plus icon pack @Github]]
 *** DOING [#B] Update repo hierarchy :ORGMODE:
-- *Goal:* /Adding new hierarchy to this repo/
+- *Objective:* /Adding new hierarchy to this repo/
   - [ ] Adding ~TASK~ tag (including all type of tasks)
   - [ ] Adding ~LIB~ and remove ~Archives~ headline
   - [ ] Create new template
 *** Re-write smb-mount command
-- *Goal:* /Re-write smb-mount command to quickly toggle server on/off/
+- *Objective:* /Re-write smb-mount command to quickly toggle server on/off/
 - *File:* [[file:~/dotfiles/scripts/smb-mount][smb-mount]]
 *** TODO DNS speed test :DNS:
 :PROPERTIES:
 :ID:       a5ef0120-9e5c-49ce-acbf-8c04b6d4cb4f
 :END:
-- *Goal:* /Benchmark DNS look up speed/
+- *Objective:* /Benchmark DNS look up speed/
 - *Reference:* [[https://serverfault.com/questions/91063/how-do-i-benchmark-performance-of-external-dns-lookups][Benchmark external DNC @Overflow]]
 *** Json database :JSON:
 :PROPERTIES:
 :ID: 27fdd8c2-5435-466b-9856-407ade06d893
 :END:
-- *Goal:* /Learn json database syntax/
+- *Objective:* /Learn json database syntax/
 *** Qtile keymap in json :QTILE:
-- *Keypoint:* /Write key map and run in python/
+- *Idea:* /Write key map and run in python/
 **** Encode keymap json :JSON:
-- *Goal:* /Encode [[file:~/.config/qtile/settings/keymaps.py][keymaps.py]] in json/
+- *Objective:* /Encode [[file:~/.config/qtile/settings/keymaps.py][keymaps.py]] in json/
 - *References:* [[id:27fdd8c2-5435-466b-9856-407ade06d893][Json database @Orgmode]]
 **** Decode json files :PYTHON:
-- *Goal:* /Deocde [[file:~/.config/qtile/settings/keymaps.py][keymaps.py]] using python/
+- *Objective:* /Deocde [[file:~/.config/qtile/settings/keymaps.py][keymaps.py]] using python/
 - *References:* [[https://docs.python.org/3/library/json.html][Json encoder and decoder using python @Python-doc]]
 ** Incidental :INCIDENTAL:
 *** PENDING Github repo updates track :GITHUB:
 - *Goal(s):* Find a way to keep track github repo updates and get notification from updates
 *** PENDING Termux ssh :LINUX:TERMUX:
-- *Goal:* ssh to the server via Termux
+- *Objective:* ssh to the server via Termux
 - *Visit:*  [[https://wiki.termux.com/wiki/Remote_Access]]
 **** DONE SSH to Github :GITHUB:
 CLOSED: [2025-01-10 Fri 05:51] DEADLINE: <2025-01-09 Thu 05:00>
-- *Goal:* generate ssh key and successfully pull repos from github
+- *Objective:* generate ssh key and successfully pull repos from github
 *** PENDING Automatic git sync :ORGMODE:
 - *Goal(s):* run automatic git sync on ~server~
 - *Stumble upon:* [[https://www.worthe-it.co.za/blog/2016-08-13-automated-syncing-with-git.html][git-sync-systemd]]
 *** PENDING Github wiki :GITHUB:
 - *Goal(s):* learn to write a github wiki page
 *** PENDING Control nvim instances
-- *Goal:* Control nvim instances from the ~terminal~ with ~command line~
+- *Objective:* Control nvim instances from the ~terminal~ with ~command line~
 - *Resource:* [[https://github.com/chmln/nvim-ctrl][nvim-ctrl]]
 ** Coordinated :COORDINATED:
 ** Performance :PERFORMANCE:

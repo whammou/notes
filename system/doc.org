@@ -32,7 +32,7 @@ The ~Language Server Protocol~ (LSP) is an open, JSON-RPC-based protocol for use
 Generally a good markup language server is texlab
 - *Resources:* [[https://github.com/latex-lsp/texlab][texlab]]
 *** DOING Nvim optimization [66%] :NVIM:
-- *Goal:* research ways to optimize nvim and manage new packages
+- *Objective:* research ways to optimize nvim and manage new packages
 **** DONE Setup LazyVim :NVIM:
 CLOSED: [2025-01-24 Fri 21:31] DEADLINE: <2025-01-25 Sat 18:00>
 - *Goal(s):* convert [[~/dotfiles/nvim/.config/nvim/init.vim][init.vim]] to [[~/dotfiles/nvim-lua/.config/nvim/init.lua][init.lua]]
@@ -59,9 +59,9 @@ CLOSED: [2025-05-24 Sat 01:20]
       └── en.utf-8.add.spl
   #+END_SRC
 ****** LazyVim plugins
-- *Goal:* adding and configuring plugins
+- *Objective:* adding and configuring plugins
 ****** LazyVim mappings
-- *Goal:* adding keymaps
+- *Objective:* adding keymaps
 
 - Source ~kepmaps.lua~ from ~config/init.lua~:
   - In ~config/init.lua~:
@@ -92,18 +92,18 @@ CLOSED: [2025-05-24 Sat 01:20]
 - More on plugin spec, visit: [[https://lazy.folke.io/spec]]
 **** DONE Switching nvim configs
 CLOSED: [2025-01-15 Wed 21:19] DEADLINE: <2025-01-14 Tue 22:00>
-- *Goal:* successfully switching between different config dir
+- *Objective:* successfully switching between different config dir
 - *Resource:* [[https://michaeluloth.com/neovim-switch-configs/][switching config]]
 **** DOING Disable when file is large [0%] :NVIM:
-- *Goal:* /Disable some features when dealing with large files/
+- *Objective:* /Disable some features when dealing with large files/
 - *References:* [[https://l.opnxng.com/r/neovim/comments/1fy7jln/treesitter_slow_on_big_files_yet_am_i_the_only/][Nvim largefile hack @Reddit]]
 - *Local-file:* [[file:~/.config/nvim/lua/plugins/xtras.lua][xtras.lua]]
 ***** TODO Config bigfile-nvim
-- *Goal:* /Config bigfile-nvim for better typing experience/
+- *Objective:* /Config bigfile-nvim for better typing experience/
 - *References:* [[https://github.com/LunarVim/bigfile.nvim][nvim-bigfile @Github]]
 *** DONE Tweaking archlinux [75%] :LINUX:
 CLOSED: [2025-01-06 Mon 07:34] SCHEDULED: <2024-12-30 Mon 02:00-04:00>
-- *Goal:* recover linux from unexpected shutdown
+- *Objective:* recover linux from unexpected shutdown
 - *Stumble upon:*  [[https://www.reddit.com/r/archlinux/comments/m2wf1s/shutdown_during_update/][r/archlinux]]
 **** DONE Chroot from live USB
 CLOSED: [2025-04-19 Sat 07:58]
@@ -135,11 +135,11 @@ CLOSED: [2025-04-19 Sat 07:58]
 - /Setup CPU and IRQ scheduler/ ~daemon~
 **** DONE Fix screen tearing
 CLOSED: [2025-05-21 Wed 18:21]
-- *Goal:* /Rock archlinux without a compositor/
+- *Objective:* /Rock archlinux without a compositor/
   - *References:* [[id:263ea0db-b98c-4775-9628-220682a48918][Intel TearFree @Orgmode]]
 *** DONE Modular Qtile :QTILE:
 CLOSED: [2025-03-20 Thu 22:09]
-- *Goal:* successfully modularize ~qtile~ config
+- *Objective:* successfully modularize ~qtile~ config
 - Config directory: 
   - [x] Keymaps config: /create ~keymaps.py~/dot_examples
   - [x] Colorscheme config: /create ~colorschemes.py~/
@@ -159,6 +159,9 @@ CLOSED: [2025-05-24 Sat 01:20]
   - *Visit:* [[https://wiki.archlinux.org/title/Default_applications][default-opener methods]]
 **** DONE Open with handlr :HANDLR:
 CLOSED: [2025-04-22 Tue 03:09]
+:PROPERTIES:
+:ID: 670f557e-c6f4-4392-aa0c-be18d7ae49a9
+:END:
 - /A better xdg-utils/
   - *Project-link:* [[https://github.com/chmln/handlr][github.com@handlr]]
   - *Visit:* mimeo-style custom association style: [[https://github.com/chmln/handlr/issues/57][issue]]
@@ -183,7 +186,7 @@ CLOSED: [2025-04-22 Tue 03:08]
     - [[https://www.youtube.com/watch?v=jv4pDOKe7OE?start=53&end=59][Youtube link with start and end time]]
 *** DONE Linux tear-free [100%] :LINUX:
 CLOSED: [2025-05-21 Wed 18:01]
-- *Goal:* /Dicide to run with a ~compositor~ or without/
+- *Objective:* /Dicide to run with a ~compositor~ or without/
   - *References:* 
     - [[https://l.opnxng.com/r/archlinux/comments/bs1ban/compositor_or_no_compositor/][Compositor or not @Reddit]]
     - [[https://www.dedoimedo.com/computers/linux-intel-graphics-video-tearing.html][Fix video tearing on linux @Blog]]
@@ -192,21 +195,21 @@ CLOSED: [2025-05-20 Tue 16:34]
 :PROPERTIES:
 :ID:       263ea0db-b98c-4775-9628-220682a48918
 :END:
-- *Goal:* /Achieve Tearfree without using a ~compositor~/
+- *Objective:* /Achieve Tearfree without using a ~compositor~/
   - *References:* 
     - [[https://bbs.archlinux.org/viewtopic.php?id=227609][TearFree doesn't work @Archforum]]
     - [[https://wiki.archlinux.org/title/Intel_graphics#Tearing][Troubleshooting-tearing @Archwiki]]
 **** DONE Fix kitty tear free :KITTY:
 CLOSED: [2025-05-20 Tue 16:33]
-- *Goal:* /Achieve tearless with kitty/
+- *Objective:* /Achieve tearless with kitty/
   - *Config:* Add this to your config file: [[file:~/.config/kitty/kitty.conf][config @kitty]]
   - *Run:* ~sync_to_monitor = yes~
 **** DONE Fix qutebrowser tear free :QUTEBROWSER:
 CLOSED: [2025-05-21 Wed 18:01]
-- *Goal:* /Achieve tearless with qutebrowser/
+- *Objective:* /Achieve tearless with qutebrowser/
 **** DONE Fix mpv tear :MPV:
 CLOSED: [2025-05-21 Wed 18:15]
-- *Goal:* /Achieve flawless video playback/
+- *Objective:* /Achieve flawless video playback/
   - *Config:*
     #+BEGIN_confini
     video-sync=display-resample
@@ -214,14 +217,14 @@ CLOSED: [2025-05-21 Wed 18:15]
     #+END_confini
 *** DONE Config yazi [100%] :YAZI:
 CLOSED: [2025-05-22 Thu 06:25]
-- *Goal:* /Better workflow with yazi/
+- *Objective:* /Better workflow with yazi/
 **** DONE Integration Lazygit :LAZYGIT:
 CLOSED: [2025-05-22 Thu 06:20]
-- *Goal:* /Successfully integrate ~lazygit~ in ~yazi~/
+- *Objective:* /Successfully integrate ~lazygit~ in ~yazi~/
   - *References:* [[https://github.com/sxyazi/yazi/discussions/1989][Integrate lazygit with yazi @Github-issue]]
 **** ABORTED Keybinds
 CLOSED: [2025-05-22 Thu 06:21]
-- *Goal:* separate hotkeys into ~EDIT~ and ~VIEW~:
+- *Objective:* separate hotkeys into ~EDIT~ and ~VIEW~:
   - [ ] Bind short-key to open ~EDIT~ such as: images, texts, docs
   - [ ] Bind short-key to open ~VIEW~ - view only for images and texts/docs
 **** DONE Yazi fish integration [0%] :YAZI:
@@ -229,7 +232,7 @@ CLOSED: [2025-04-19 Sat 17:49] DEADLINE: <2025-04-19 Sat 17:00>
 - /Open yazi at typed dir in fish shell/
 *** DONE Config vim completion [100%] :NVIM:
 CLOSED: [2025-05-23 Fri 01:44]
-- *Goal:* successfully replace ~ultil-snip~ with ~blink-nvim~ and ~lua-snip~
+- *Objective:* successfully replace ~ultil-snip~ with ~blink-nvim~ and ~lua-snip~
 - *Visit:* [[https://a.opnxng.com/exchange/vi.stackexchange.com/questions/41733/how-to-set-up-luasnip-in-neovim-w-lsp-zero][nvim-cmp#external-sources]]
 **** DONE Configure lua-snip
 CLOSED: [2025-04-19 Sat 06:11] DEADLINE: <2025-04-18 Fri 19:00>
@@ -271,7 +274,7 @@ CLOSED: [2025-04-11 Fri 21:41]
 CLOSED: [2025-05-13 Tue 18:11]
 - Note taken on [2025-01-23 Thu 00:09] \\
   Separate ~Logs~ ~Lists~ and ~Documents~ to different files to avoid callbacks
-- *Goal:* optimize ~archive~ hierarchy
+- *Objective:* optimize ~archive~ hierarchy
 *** PENDING Organize Script repo :GITHUB:
 Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~
 - [ ] Organize ~/scripts~
@@ -281,28 +284,28 @@ Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~
 Access blocked websites via ~proxy~ or changeing ~DNS~
 *** DONE Working with fzf [100%] :FZF:
 CLOSED: [2025-06-01 Sun 09:31]
-- *Goal:* /Config/ ~fzf~ /theme and function//
+- *Objective:* /Config/ ~fzf~ /theme and function//
 **** DONE Theming fzf
 CLOSED: [2025-05-29 Thu 22:09]
-- *Goal:* /Change theme to match/ ~nvim-fzf-lua~
+- *Objective:* /Change theme to match/ ~nvim-fzf-lua~
   - *Run:* ~echo $DEFAULT_FZF_OPTS~
 **** DONE Config fzf functions [100%]
 CLOSED: [2025-06-01 Sun 09:31]
 :PROPERTIES:
 :ID:       f0e11344-5210-4709-b5df-f6de28e7ee7a
 :END:
-- *Goal:* /Make fzf a working menu like rofi or dmenu/
+- *Objective:* /Make fzf a working menu like rofi or dmenu/
 - *References:* [[https://www.youtube.com/watch?v=HrY6Gz1UiE0#__preview][Three ways fzf rofi and dmenu @Youtube-DistroTube]]
 ***** DONE Manage system clipboard :XCLIP:
 CLOSED: [2025-06-01 Sun 09:31]
-- *Goal:* /Output desired clipboard history/
+- *Objective:* /Output desired clipboard history/
 - *Visit:* [[id:4ea908dd-2335-4742-b44d-aeb1cad09506][Clipboard config @Orgmode]]
 ****** DONE Clipboard config
 CLOSED: [2025-06-01 Sun 09:25]
 :PROPERTIES:
 :ID:       4ea908dd-2335-4742-b44d-aeb1cad09506
 :END:
-- *Goal:* /Manage system clipboard/
+- *Objective:* /Manage system clipboard/
   - *Implemented:* Manage system clipboard using ~rofi~ + ~greenclip~
   - *Checkout:* [[id:d17ebad8-7524-43b8-b6be-0b3f808a9aaa][Implement clipboard history @Orgmode]]
 - *Visit:* [[https://github.com/xrelkd/clipcat][Clipcat @Github]]
@@ -312,13 +315,13 @@ CLOSED: [2025-06-01 Sun 09:25]
   - [[https://github.com/spikegrobstein/fzf-menu][fzf-menu @Github]]
 ***** DONE Window switcher :QTILE:ROFI:
 CLOSED: [2025-05-30 Fri 04:33]
-- *Goal:* /Implement rofi like window swticher/
+- *Objective:* /Implement rofi like window swticher/
 - *Visit:* [[https://github.com/qtile/qtile/issues/1945][Qtile rofi window swticher @Github-issue]]
 **** DONE Adding fzf-nova :FZF:
 CLOSED: [2025-05-30 Fri 07:28]
 :PROPERTIES:
 :ID:       231fff19-ca63-4a20-b02d-c6b48800af9d
 :END:
-- *Goal:* /Check out fzf-nova script library/
+- *Objective:* /Check out fzf-nova script library/
 - *Visit:* [[https://github.com/gotbletu/fzf-nova][fzf-nova Github]]
 - *Reference:* [[https://github.com/gotbletu/shownotes?tab=readme-ov-file][Some useful tools from gotbletu @Github]]

@@ -145,7 +145,7 @@ CLOSED: [2025-05-27 Tue 05:15] DEADLINE: <2025-05-25 Sun 14:00>
 - *Reference:* [[https://serverfault.com/questions/91063/how-do-i-benchmark-performance-of-external-dns-lookups][Benchmark external DNC @Overflow]]
 *** Json database :JSON:
 :PROPERTIES:
-:ID: 27fdd8c2-5435-466b-9856-407ade06d893
+:ID:       27fdd8c2-5435-466b-9856-407ade06d893
 :END:
 - *Goal:* /Learn json database syntax/
 *** Qtile keymap in json :QTILE:

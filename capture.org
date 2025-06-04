@@ -2,22 +2,22 @@
 #+DESCRIPTION: Captures and Quick notes
 
 * DOING Working with python [0%] :PYTHON:
-- *Goal:* /Automantion documentation with python/
+- /*Objective:*/ /Automantion documentation with python/
 ** Python scripting :SCRIPTING:
-- *Goal:* /Learn to do some scrpiting with python/
+- /*Objective:*/ /Learn to do some scrpiting with python/
 *** Passing shell arguments :SHELL:
-- *Goal:* /Passing argument from shell/
+- /*Objective:*/ /Passing argument from shell/
   - *References:* [[https://ao.bloat.cat/exchange/stackoverflow.com/questions/39498702/passing-arguments-to-python-from-shell-script][Passing shell argument to python @Overflow]]
 ** TODO Python virutal enviroment
-- *Goal:* /Manage python virtual enviroments/
+- /*Objective:*/ /Manage python virtual enviroments/
   - To initiate virtual environment, run ~python -m venv <name>~
 - *Visit:* [[https://www.youtube.com/watch?v=IYcTaZfjODg#__preview][Understand python vm @Youtube]]
 *** Manage packages
-- *Goal:* /Save virtual environemnt state/
+- /*Objective:*/ /Save virtual environemnt state/
   - To create lock file, run (when inside virtual environment) ~pip freeze > requirements.txt~
   - To install from ~requirements.txt~ run ~pip install -r requirements.txt~
 ** DOING [#C] Python as a tool for note-taking :WORFLOW:
-- *Goal:* /Create a tool ultilies python and latex in nvim to create similar workflow in this/ [[https://l.opnxng.com/r/neovim/comments/yfbfvu/sympy_luasnip_vimtex/][post]]
+- /*Objective:*/ /Create a tool ultilies python and latex in nvim to create similar workflow in this/ [[https://l.opnxng.com/r/neovim/comments/yfbfvu/sympy_luasnip_vimtex/][post]]
 - *References:* [[https://castel.dev/post/lecture-notes-1/][How I take math notes with LaTex @Blog]]
 * DOING Orgmode Manual [85%] :ORGMODE:
 CLOSED: [2024-11-07 Thu 06:08]
@@ -30,7 +30,7 @@ CLOSED: [2024-09-06 Fri 21:35]
 :ARCHIVE_CATEGORY: personal
 :ARCHIVE_TODO: TODO
 :END:
-- *Goal:* Include files from across org files
+- /*Objective:*/ Include files from across org files
 - *Resources:* [[https://orgmode.org/manual/Include-Files.html][org manual]]
 ** DONE Orgmode Search
 CLOSED: [2024-09-30 Mon 03:38]
@@ -62,23 +62,23 @@ Special properties provide an alternative access method to Org mode features, li
 
 - ~#+FILETAG: :FOO:BAR:~: notebook tag
 ** DOING Org2ical [%] :DATA:
-- *Goal:* Generate .ics files from .org files(use homelab for daily merge)
+- /*Objective:*/ Generate .ics files from .org files(use homelab for daily merge)
 - *Visit:*  [[https://pypi.org/project/org2ical/][org2ical package]] [[https://github.com/jacobmischka/ics-merger][icals merger]]
 *** DOING [#B] Sync orgmode to CalDav [0%] :KHALORG:
-- *Goal:* /Succefully sync between orgmode and caldav for professional uses/
+- /*Objective:*/ /Succefully sync between orgmode and caldav for professional uses/
   - *Visit:* [[file:/home/whammou/dots/BartSte/dotfiles/nvim/lua/config/orgmode.lua][orgmode config @Git]]
   - *References:* [[https://github.com/BartSte/khalorg][khalorg @Github]]
 **** TODO Config vdirsyncer :VDIRSYNCER:
-- *Goal:* /Config vdirsyncer to work sync calendar to google cal/
+- /*Objective:*/ /Config vdirsyncer to work sync calendar to google cal/
   - *References:* [[http://vdirsyncer.pimutils.org/en/stable/when.html][Vdirsyncer documentation @Doc]]
 ** DONE Orgmode social media integrate
 CLOSED: [2024-12-26 Thu 22:28]
 * DOING Qutebrowser configuration [100%] :QUTEBROWSER:
-- *Goal:* implement text to speech to qutebrowser
+- /*Objective:*/ implement text to speech to qutebrowser
   - *Stumble upon:* [[https://redlib.seasi.dev/r/qutebrowser/comments/w4pv2v/configpy_ideas/][Qutebrowser tts config idea @ Reddit]]
 ** DONE Rebind set-mark function
 CLOSED: [2025-01-28 Tue 03:19]
-- *Goal:* rebind set-mark func to match vim
+- /*Objective:*/ rebind set-mark func to match vim
 - Note taken on [2025-05-06 Tue 21:43] \\
   - Bookmark bind
     #+NAME: config.py bind command
@@ -87,11 +87,11 @@ CLOSED: [2025-01-28 Tue 03:19]
     #+END_SRC
 ** DONE Qutebrowser start-page
 CLOSED: [2025-05-04 Sun 08:44]
-- *Goal:* /Add qutebrowser start-page/
+- /*Objective:*/ /Add qutebrowser start-page/
   - *Visit:* [[https://nimplex.github.io/Minimal-StartPage/][start-page @ Search]]
 ** DONE Qutebrowser with Qtile [100%] :QTILE:
 CLOSED: [2025-05-22 Thu 06:03]
-- *Goal:* /Integrate qutebrowser to qtile window manager/
+- /*Objective:*/ /Integrate qutebrowser to qtile window manager/
 *** DONE Workaround window-bg
 CLOSED: [2025-05-07 Wed 12:28]
 :PROPERTIES:
@@ -102,7 +102,7 @@ CLOSED: [2025-05-07 Wed 12:28]
 Workaround ~qutebrowser~ using ~xdotool~ to detect invisible ~windows~ and take advantage of ~tabs.tabs_are_windows~ to set every ~tabs~ to ~windows~ ~new_instance_open_target~ to set newly spawned ~windows~ to ~bg-windows~
 *Commit:* [[https://github.com/whammou/dotfiles/commit/bd57d28a018468f17aa233bc31158da9730af7f4][Qutebrowser workaround @ Github]]
 :END:
-- *Goal:* /Run new window in background (prevent focus stealing)/
+- /*Objective:*/ /Run new window in background (prevent focus stealing)/
   - *Visit:* [[https://github.com/qutebrowser/qutebrowser/issues/3819][Qutebrowser new window in background @ Github]]
   - *Visit:* [[https://stackoverflow.com/questions/9117507/linux-unix-command-to-determine-if-process-is-running][Determine if qutebrowser is running @ Overflow]]
 **** DONE [BUG] Daemon messed up qtile focus
@@ -112,19 +112,19 @@ CLOSED: [2025-04-20 Sun 23:39] DEADLINE: <2025-04-21 Mon 22:00>
 *Run* ~qutebrowser --nowindow~ to create startup instance (faster access using ~qutebrowser_instance~ script) 
 - !NOTE: Daemon is dead after killing first instance via ~:q~
 :END:
-- *Goal:* /Check out Qutebrowser-daemon script/
+- /*Objective:*/ /Check out Qutebrowser-daemon script/
   - *Visit:* [[https://gist.github.com/knatsakis/8cf329853330893cd2d7fa3dbd5692b0][Qutebrowse-daemon script @ Github]]
   - *Checkout:* [[Workaround window-bg][[BUG] Workaround daemon next window focus bug @ Org]]
 *** DONE Spawn layout commands
 CLOSED: [2025-05-21 Wed 23:28] DEADLINE: <2025-05-21 Wed 22:15>
-- *Goal:* /Create script to let qtile manage spawn position of new window/
+- /*Objective:*/ /Create script to let qtile manage spawn position of new window/
   - *Run:* ~qtile cmd-obj -o layout -f spawn_split -a "qb 'URL'" "x"~ 
     - [X] Create alias
     - [X] Crreate keybinds
 **** DONE Qtile spawn script
 CLOSED: [2025-05-21 Wed 23:28]
-1. *Goal:* /Create python script to run qtile cmd-obj with extra arguments/
-2. *Goal:* /Create script to let qtile manage spawn tab of new window/
+1. /*Objective:*/ /Create python script to run qtile cmd-obj with extra arguments/
+2. /*Objective:*/ /Create script to let qtile manage spawn tab of new window/
    - *Run:* ~qtile cmd-obj -o layout -f spawn_tab -a "qb 'URL' new_level=True"~
    - *Problem:* Prasing error when using cmd-obj and argument is ~int~ or ~bool~
    - *Visit:* [[https://github.com/qtile/qtile/issues/2433][Error using qtile cmd-obj when arg is int @ Github-issue]]
@@ -133,49 +133,32 @@ CLOSED: [2025-05-21 Wed 23:28]
     - [X] Crreate keybinds
 ** ABORTED Redirect URL
 CLOSED: [2025-05-07 Wed 23:34]
-- *Goal:* /Redirect URL via user-scripts/
+- /*Objective:*/ /Redirect URL via user-scripts/
   - *Visit:* [[https://l.opnxng.com/r/qutebrowser/comments/mvd89k/is_there_a_way_to_implement_redirect_links_in/][Redirect URL @ Reddit]]
   - *Visit:* [[https://github.com/gicrisf/swapforqute][Redirect URL script @ Github]]
 ** DONE Hardware Acceleration
 CLOSED: [2025-04-18 Fri 14:16] DEADLINE: <2025-04-16 Wed 16:00>
-- *Goal:* /Enable hardware acceleration/
+- /*Objective:*/ /Enable hardware acceleration/
 - *Visit:* [[https://wiki.archlinux.org/title/Hardware_video_acceleration][Hardware acceleration doc @ Archwiki]]
 - *References:* [[https://l.opnxng.com/r/qutebrowser/comments/s60a78/what_chromium_flags_do_you_use/][chromium flags @Reddit]]
 ** DONE Create new-instance [100%]
 CLOSED: [2025-06-03 Tue 10:14] DEADLINE: <2025-06-02 Mon 19:00>
-- [X] *Goal:* /Setup qutebrowser-profiles for better session managements/ [100%]
+- [X] /*Objective:*/ /Setup qutebrowser-profiles for better session managements/ [100%]
   - [X] *Run:* ~qutebrowser-profile --new --load "profile"~
   - [X] *Run:* ~qutebrowser --basedir=<base-dir> --config-py=path/to/config~
 ** PENDING Userscripts
 CLOSED: [2025-05-30 Fri 06:06]
-- *Goal:* /Learn to write userscripts in qutebrowser/
+- /*Objective:*/ /Learn to write userscripts in qutebrowser/
   - *References:*
     - [[https://github.com/hiway/python-qutescript][python-qutescript @Github]]
     - [[qute://help/settings.html#bindings.commands][Settings references @Qutebrowser-doc]]
     - [[qute://help/configuring.html][Keybinds and configuring @Qutebrowser-doc]]
-* DONE Manage windows spawn/layout [66%] :QTILE:
-CLOSED: [2025-05-30 Fri 06:06]
-- *Goal:* /Assign spawn grouping and layouts/
-** TODO Manage floating windows [100%]
+* DOING Manage windows spawn/layout [50%] :QTILE:
+- /*Objective:*/ /Assign spawn grouping and layouts/
+** DOING Manage floating windows [33%]
 DEADLINE: <2025-06-03 Tue>
-- *Goal:* /Add floating windows for quick preview of media files/
-  - [X] prevent *focus_stealing_hook* to ~qtile~
-    - *FMI:* [[https://github.com/whammou/dotfiles/commit/56ee9ce8c65ed7b2dba894a5ba294a285c2504f0][Added prevent_focus_stealing hook @Commit]]
-  - [NOTE] taken on [2025-06-03 09:58]:
-    - [ ] IDEA: ~focus_nth_floating~ by a double hook ~lazy.function~ then bring current window to front via ~lazy.window.bring_to_front~
-      #+NAME: ~/.config/qtile/settings/key/windows.py
-      #+BEGIN_SRC: python
-      @hook.lazy.window
-      @hook.lazy.layout
-      def focus_nth_float():
-          bring_floats_to_front()
-          for range(1, index):
-            if not window.floating:
-              layout.next_window()
-            else
-              window.bring_to_front()
-              window.focus()
-      #+END_SRC
+- /*Objective:*/ /Add floating windows for quick preview of media files/
+  - To prevent *focus_stealing_hook* in ~qtile~: [[https://github.com/whammou/dotfiles/commit/56ee9ce8c65ed7b2dba894a5ba294a285c2504f0][Added prevent_focus_stealing hook @Commit]]
 - *References:*
   - [[https://github.com/qtile/qtile/issues/1260#issuecomment-913327960][floating window focus discussion @Github]]
   - [[https://github.com/qtile/qtile/wiki/floating-windows][floating windows @Github-wiki]]
@@ -183,36 +166,58 @@ DEADLINE: <2025-06-03 Tue>
   - [[https://l.opnxng.com/r/qtile/comments/tw9apn/spawn_a_terminal_with_command_and_make_it_floating/][Function per custom window(WM_CLASS) @Reddit]]
   - [[https://github.com/qtile/qtile/discussions/4049][Keep window above all other windows @Github-issue]]
   - [[https://github.com/qtile/qtile/issues/1145#issuecomment-392771986][App layers @Github-issue]]
-*** DONE Cycle through floating windows
-CLOSED: [2025-05-12 Mon 15:54] DEADLINE: <2025-05-11 Sun 18:30>
-- *Goal:* /Keybind to cycle focus through floating windows/
-  - *Visit:* [[https://github.com/qtile/qtile/issues/794][Keybinds @Github-issue]]
-  - *Visit:* [[https://github.com/qtile/qtile/issues?q=is%3Aissue%20multiple%20callbacks&page=1][multiple callbacks keybinding @Gtihub-issue]]
-*** PENDING Resize floating windows
+*** TODO Cycle through floating windows
+ DEADLINE: <2025-05-11 Sun 18:30>
+- [-] /*Objective:*/ /Keybind to cycle focus through floating windows/ [66%]
+  - [X] +*Visit:* [[https://github.com/qtile/qtile/issues/794][Keybinds @Github-issue]]+
+  - [X] +*Visit:* [[https://github.com/qtile/qtile/issues?q=is%3Aissue%20multiple%20callbacks&page=1][multiple callbacks keybinding @Gtihub-issue]]+
+  - [ ] *[NOTE]* taken on [2025-06-03 09:58]:
+    *IDEA:* ~focus_nth_floating~ by a double hook ~lazy.function~ then bring current window to front via ~lazy.window.bring_to_front~
+    #+NAME: ~/.config/qtile/settings/key/windows.py
+    #+BEGIN_SRC: python
+    @hook.lazy.window
+    @hook.lazy.layout
+    def focus_nth_float():
+        bring_floats_to_front()
+        for range(1, index):
+          if not window.floating:
+            layout.next_window()
+          else
+            window.bring_to_front()
+            window.focus()
+    #+END_SRC
+*** PARTIAL Resize floating windows
 CLOSED: [2025-05-23 Fri 18:56] DEADLINE: <2025-05-22 Thu 21:00>
-- *Goal:* /Create keybinds to resize floating windows/
-  - [ ] Resize xy
+- [-] /*Objective:*/ /Create keybinds to resize floating windows/ [50%]
+  - [X] Resize xy
   - [ ] Resize keep aspect ratio
 *** PENDING Move floating windows
-CLOSED: [2025-05-23 Fri 18:56] DEADLINE: <2025-05-22 Thu 21:10>
-- *Goal:* /Create move() floating windows keybinds/
-  - *References:* [[https://l.opnxng.com/r/qtile/comments/18cjjlo/keybinds_to_resize_and_move_floating_window/][Move floating windows via @lazy.window.function @Reddit]]
+- /*Objective:*/ /Create move() floating windows keybinds/
+- *References:* [[https://l.opnxng.com/r/qtile/comments/18cjjlo/keybinds_to_resize_and_move_floating_window/][Move floating windows via @lazy.window.function @Reddit]]
 ** DONE Hooks and custom functions
 CLOSED: [2025-05-08 Thu 14:27]
-- *Goal:* /Checkout hooks and custom functions e.g ~expose command~/
-- *Visit:* [[https://docs.qtile.org/en/latest/manual/config/hooks.html][Hooks and Commands @Qtile-doc]]
-** PENDING Windows grouping
+- /*Objective:*/ /Checkout hooks and custom functions e.g ~expose command~/
+  - *Visit:* [[https://docs.qtile.org/en/latest/manual/config/hooks.html][Hooks and Commands @Qtile-doc]]
+** ABORTED Windows grouping
 CLOSED: [2025-05-09 Fri 22:19] DEADLINE: <2025-05-09 Fri 18:00>
-- [X] *Goal:* /Assign grouping for windows with the same wm_class/
+- [X] /*Objective:*/ /Assign grouping for windows with the same wm_class/
   - *Visit:* [[https://github.com/aravinda0/qtile-bonsai/discussions/12#discussioncomment-11095207][new window grouping @Github-discussion]]
-- [ ] *Goal:* /Assign goruping for *specific* windows with the same wn_class/
+- +[ ] /*Objective:*/ /Assign goruping for *specific* windows with the same wn_class/+
+** TODO Spawn window from links
+- /*Objective:*/ /Successfully show window in pre-defined layout/
+*** Determine spawn filetype :HANDLR:KITTY:
+- /*Objective:*/ /Determine which program to open a filetype/
+  - *!Complication:* ~qtile~ fails to parse ~file path~ for ~handlr~ to open in new-window
+    - *Solution:* Workaround - Replace ~xdg-open~ for ~nvim.desktop~ entry with ~kitty nvim <url/path>~
+      Use ~hanlr get~ to determine entry type
+- *References:* [[id:670f557e-c6f4-4392-aa0c-be18d7ae49a9][Open with handlr @Orgmode]]
 * DOING Working with youtube [67%] :YOUTUBE:
--  *Goal:* /Use youtube for documentation:/
+-  /*Objective:*/ /Use youtube for documentation:/
 ** DOING Package configurations [50%]
-- *Goal:* /Configure packages for smoother experiences/
+- /*Objective:*/ /Configure packages for smoother experiences/
 *** DONE Youtube downloader - yt-dlp :YTDLP:
 CLOSED: [2025-05-22 Thu 06:28]
-- *Goal:* /Increase yt-dlp downlaod speed/
+- /*Objective:*/ /Increase yt-dlp downlaod speed/
   - *Configuration:*
     #+BEGIN_confini
     --force-ipv4
@@ -240,7 +245,7 @@ CLOSED: [2025-04-22 Tue 18:49]
   - *mpv:* [[id:20071104-5e85-4d24-82a5-cf897074ac96][Integrate mpv youtube link]]
 ** DONE Youtube URL parameters
 CLOSED: [2025-04-28 Mon 09:18]
-- *Goal:* /Set parameters in/ ~URL~ to create video snippets:
+- /*Objective:*/ /Set parameters in/ ~URL~ to create video snippets:
   - *Materials:*
     - [[https://developers.google.com/youtube/player_parameters?csw=1#Parameters][Player-parameters @Youtube-doc]]
     - [[https://l.opnxng.com/r/youtube/comments/2eu12t/modify_youtube_url_for_specific_start_and_stop/][youtube specify start AND stop time @Reddit]]
@@ -250,21 +255,21 @@ CLOSED: [2025-04-28 Mon 09:18]
     - [x] [[https://www.youtube.com/watch?v=rP5V2CkHJfo#__preview][with comment]]
     - [x] [[https://www.youtube.com/embed/WAm_S3K_zjg?start=01&end=51#__preview][With ~embed~ and ~comment~ ]]
 *** TODO Mark URL as preview
-- *Goal:* /Specify normal url or preview url/
+- /*Objective:*/ /Specify normal url or preview url/
 - *Visit:* [[https://docs.mapp.com/v1/docs/url-encoding-and-what-characters-are-valid-in-a-uri][URL comment character @ Search]]
 * TODO Config system notification :NOTIFICATION:
-- *Goal:* /Config system notifications with dunst/
+- /*Objective:*/ /Config system notifications with dunst/
   - *Run:* ~man dunst~
   - *File:* [[file:~/.config/dunst/dunstrc][dunst config @Confini]]
   - *Visit:* [[id:45d7010b-dd20-44c8-a271-51ac24ba840e][Icon packs @Orgmode]]
 ** TODO Dunst notification stacking :DUNST:
-- [ ] *Goal:* /Stack notifications/
-- [ ] *Goal:* /Interacte with stacked notifications/
+- [ ] /*Objective:*/ /Stack notifications/
+- [ ] /*Objective:*/ /Interacte with stacked notifications/
 - *References:*
   - [[https://github.com/dunst-project/dunst/issues/321][Dunst notification stacking @Github-issue]]
   - [[https://dunst-project.org/documentation/][Documentaion @Dunst-doc]]
 * TODO Working with git [0%] :GIT:
-- *Goal:* /Improve workflow with nvim, fugitive, lazygit/
+- /*Objective:*/ /Improve workflow with nvim, fugitive, lazygit/
 - *References:*
   - [[https://youtu.be/vtFXMni91Q4#__preview][Fugitive workflow @Youtube-preview]]
   - [[https://www.youtube.com/watch?v=G3NJzFX6XhY#__preview][Config your git @Youtube]]
@@ -344,15 +349,15 @@ Closes D2IQ-12345
 > [!NOTE]
 > The ensure that these committing conventions remain consistent across developers, commit message linting can be configured before changes are able to be pushed up. [[https://commitizen-tools.github.io/commitizen/][Commitizen]] is a great tool to enforce standards, sync up semantic versioning, along with other helpful features
 ** TODO Git automation
-- *Goal:* /Automate tasks with git/
+- /*Objective:*/ /Automate tasks with git/
 - *References:* [[https://www.reddit.com/r/git/comments/xvz4he/automating_git_tasks_best_practices/][Automation with git @Reddit]]
 * TODO Working with pandoc :PANDOC:
-- *Goal:* /Develop workflow with pandoc to convert between files/
+- /*Objective:*/ /Develop workflow with pandoc to convert between files/
 ** TODO Pandoc font settings :PANDOC:
 Set conversion fonts from ~markdown~ to ~LaTex~
 *Visit:* [[https://a.opnxng.com/exchange/tex.stackexchange.com/questions/234786/how-to-set-a-font-family-with-pandoc][pandoc fonts]]
 * DOING Integrating AI [50%] :AI:
-- *Goal:* /Integrate AI to current workflow/
+- /*Objective:*/ /Integrate AI to current workflow/
 - *Resource:*
   - [[https://www.reddit.com/r/ChatGPT/comments/1akynsv/any_free_alternatives_to_open_ai_api/][Google AI Studio @Google-studio]]
   - [[https://ai.google.dev/docs][Google AI docs @Google-dev]]
@@ -383,7 +388,7 @@ CLOSED: [2025-01-10 Fri 02:27]
   print(response.text)
   #+END_SRC
 ** TODO Working with fabric :FABRIC:
-- *Goal:* /Integrate fabric to current workflow/
+- /*Objective:*/ /Integrate fabric to current workflow/
 - *References:*
   - [[https://github.com/danielmiessler/fabric][Fabric @Gtihub]]
   - [[https://www.reddit.com/r/PromptEngineering/][r/PromptEngineering @Reddit]]
@@ -391,7 +396,7 @@ CLOSED: [2025-01-10 Fri 02:27]
 :PROPERTIES:
 :ID:       36141277-e892-4034-a47e-468c825e188b
 :END:
-- *Goal:* /Use fzf menu to quickly output notes from ai/
+- /*Objective:*/ /Use fzf menu to quickly output notes from ai/
 - *Reference:* [[https://www.youtube.com/watch?v=qwpK4rqAZwA&t=57#__preview][notekami @Youtube-gotbletu]]
 ** TODO Shell Integrations :SHELL:
 :PROPERTIES:
@@ -415,7 +420,7 @@ CLOSED: [2025-05-28 Wed 04:03]
 - *Goal(s):* render response in markdown to take advantage of nvim markdown render
 * PARTIAL Android linux sync :ANDROID:ARCH:LINUX:
 CLOSED: [2025-06-03 Tue 02:03]
-- *Goal:* /Android and linux sync-up workflow/
+- /*Objective:*/ /Android and linux sync-up workflow/
 - *References:*
   - [[https://bbs.archlinux.org/viewtopic.php?id=231050][Archlinux android sync @Archforum]]
   - [[https://l.opnxng.com/r/linuxmasterrace/comments/100gz0z/whats_the_best_way_to_transfer_files_between/][Transfer file between android and linux @Reddit]]
@@ -424,55 +429,55 @@ CLOSED: [2025-06-03 Tue 02:03]
 :PROPERTIES:
 :ID:       26de28b6-a86c-46eb-a91f-81a01d31115f
 :END:
-1. [X] *Goal:* /Edditing documents using google documents suits/
-2. [ ] *Goal:* /Mount cloud-drive to edit documents locally/
+1. [X] /*Objective:*/ /Edditing documents using google documents suits/
+2. [ ] /*Objective:*/ /Mount cloud-drive to edit documents locally/
 - *Reference:*
   - [[https://reddit.com/comments/1dcpg93/comment/l7zrycr][Rclone google drive @Reddit]]
   - [[id:882b4f23-d2f9-4274-87e5-fb041e4a0c48][Working with cloud-drives @Orgmode]]
 * TODO Config terminal app titles :UI:
-- *Goal:* /Config terminal app titles/
+- /*Objective:*/ /Config terminal app titles/
   - Config title to look the same: ~<content> - <appname>~
 * DOING Working with Latex [0%] :LATEX:
 :PROPERTIES:
 :ID:       bcf659a7-1e46-4a4b-b8e0-b237c7f1f8aa
 :END:
-- *Goal:* /Convert files to latex and from latex/
+- /*Objective:*/ /Convert files to latex and from latex/
 ** TODO LLM pdf to latex :AI:
 :PROPERTIES:
 :ID:       0fba82ab-0863-4292-838e-bee27fb27153
 :END:
-- *Goal:* /Convert documents from PDF to latex using AI/
+- /*Objective:*/ /Convert documents from PDF to latex using AI/
 - *Reference:* [[https://www.reddit.com/r/Bard/comments/1bgstvx/suddenly_discovered_latex_on_gemini_web/][Latex on Gemini @Reddit]]
 * Working with cloud-drives [66%] :REMOTE:DRIVE:
 :PROPERTIES:
 :ID:       882b4f23-d2f9-4274-87e5-fb041e4a0c48
 :END:
-- *Goal:* /Manage data in cloud drives/
+- /*Objective:*/ /Manage data in cloud drives/
 ** DONE Config rclone [100%] :RCLONE:
 CLOSED: [2025-06-01 Sun 23:02]
-- *Goal:* /Config rclone to sync with google-drive/
+- /*Objective:*/ /Config rclone to sync with google-drive/
   - [X] [[https://rclone.org/drive/#making-your-own-client-id][Make your own client-id @Doc-rclone]]
 - *References:* [[id:3700b025-3d42-4516-a17d-0eb37366d087][Working with rclone @Orgmode]]
 ** DONE Obtain google-drive API key :GDRIVE:
 CLOSED: [2025-06-01 Sun 22:46]
-- *Goal:* /Obtain gdrive API for rclone/
+- /*Objective:*/ /Obtain gdrive API for rclone/
 - *Visit:* [[https://support.google.com/googleapi/answer/6158862?hl=en][Setting up API keys @Doc-google]]
 ** TODO Quickly toggle drive :ROFI:
-- *Goal:* /Write script to quickly toggle drive/
+- /*Objective:*/ /Write script to quickly toggle drive/
 - *References:* [[id:657f70b1-56fe-4503-93cb-3a2987f002e8][Mount dir menu @Orgmode]]
 * DOING Working with rofi [66%] :ROFI:
-- *Goal:* /Implement rofi to workflow/
+- /*Objective:*/ /Implement rofi to workflow/
 - *Visit:* [[https://davatorium.github.io/rofi/][Rofi official page @Doc-rofi]]
 ** DONE Implement rofi scripts [100%]
 CLOSED: [2025-05-31 Sat 07:20]
-- *Goal:* /Adding rofi scripts for more optimal workflow/
+- /*Objective:*/ /Adding rofi scripts for more optimal workflow/
 *** DONE Implement window switcher
 CLOSED: [2025-05-30 Fri 16:50]
-- *Goal:* /Quickly switch to a widow/
+- /*Objective:*/ /Quickly switch to a widow/
   - To launch rofi window-switcher, run: ~rofi --show window~
 *** DONE Implement power-menu
 CLOSED: [2025-05-31 Sat 07:17]
-- *Goal:* /Choose power option quickly with rofi/
+- /*Objective:*/ /Choose power option quickly with rofi/
 - *References:* [[https://wiki.archlinux.org/title/Rofi][Rofi power management @Archwiki]]
   - To launch rofi power-menu, run: ~rofi -show power-menu -modi power-menu:/sbin/rofi-power-menu~
 *** DONE Implement clipboard history :GREENCLIP:
@@ -480,23 +485,23 @@ CLOSED: [2025-05-31 Sat 23:57]
 :PROPERTIES:
 :ID:       d17ebad8-7524-43b8-b6be-0b3f808a9aaa
 :END:
-- *Goal:* /Quickly choose clipboard history with rofi/
+- /*Objective:*/ /Quickly choose clipboard history with rofi/
 - *References:* [[https://wiki.archlinux.org/title/Rofi][Rofi clipboard-history @Archwiki]]
   - To launch rofi clipboard-history, run ~rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'~
 **** DONE Enable clipmenu daemon
 CLOSED: [2025-05-31 Sat 23:57]
-- *Goal:* /Enable greenclip daemon/
+- /*Objective:*/ /Enable greenclip daemon/
 - *Reference:* [[https://github.com/erebe/greenclip][Clipmenu @Github]]
   - To enable clipmenu daemon, run: ~greenclip --daemon &~ in [[file:~/.config/qtile/autostart.sh][autostart.sh]]
 ** DONE Theming rofi [100%]
 CLOSED: [2025-06-01 Sun 00:29]
-- *Goal:* /Theme rofi to match system/
+- /*Objective:*/ /Theme rofi to match system/
 - *References:*
   - [[https://github.com/davatorium/rofi/blob/next/doc/rofi-theme.5.markdown][Rofi theme @Github]]
   - [[https://github.com/newmanls/rofi-themes-collection?tab=readme-ov-file][Extra themes @Github]]
 *** DONE Custom theme
 CLOSED: [2025-06-01 Sun 00:29]
-- *Goal:* /Make rofi size as small as ~qtile-bar~/
+- /*Objective:*/ /Make rofi size as small as ~qtile-bar~/
 - *References:* [[https://github.com/davatorium/rofi/blob/next/doc/rofi-theme.5.markdown][Rofi-theme @Github]]
 * TODO Working with virtual machines :VM:
 - *Keypoint:* /Virutal machine on linux/
@@ -507,38 +512,38 @@ CLOSED: [2025-06-01 Sun 00:29]
 :PROPERTIES:
 :ID:       3700b025-3d42-4516-a17d-0eb37366d087
 :END:
-- *Goal:* /Config rclone for optimal workflow/
+- /*Objective:*/ /Config rclone for optimal workflow/
 ** ABORTED Mount as a systemd service :SYSTEMD:
 CLOSED: [2025-06-03 Tue 07:45]
-- *Goal:* /Running rclone mount as a systemd service/
+- /*Objective:*/ /Running rclone mount as a systemd service/
 - *References:* [[https://rclone.org/commands/rclone_mount/][Rclone mount @Doc-rclone]]
 ** DOING Mount dir menu [66%] :ROFI:
 :PROPERTIES:
 :ID:       657f70b1-56fe-4503-93cb-3a2987f002e8
 :END:
-- [X] *Goal:* /Mount directories via rofi menu/
-- [X] *Goal:* /Config mount point dest/
-- [ ] *Goal:* /Change icons in qtile bar accordingly/
+- [X] /*Objective:*/ /Mount directories via rofi menu/
+- [X] /*Objective:*/ /Config mount point dest/
+- [ ] /*Objective:*/ /Change icons in qtile bar accordingly/
   - *Checkout:* related files
     - [[file:~/.config/qtile/settings/widgets.py][widgets.py @Qtile-config]]
     - [[file:~/dotfiles/scripts/rofi-mount][rofi-mount @Rofi-script]]
 - *References:* [[https://l.opnxng.com/r/archlinux/comments/15mz7rj/bash_script_to_mountunmount_rclone_affiliated/?tl=zh-hant][Script mount/umount rclone mount points @Reddit]]
 ** DONE Workaround rclone cache mode
 CLOSED: [2025-06-03 Tue 07:43]
-- *Goal:* /Cache mode takes a lot of space, workaround this issue/
+- /*Objective:*/ /Cache mode takes a lot of space, workaround this issue/
 - *Checkout:* [[https://forum.rclone.org/t/why-arent-cache-rclone-files-being-removed/28948/8][Vfs cache explain @Forum-rclone]]
 - *References:* [[https://l.opnxng.com/r/rclone/comments/xnbhsx/rclone_mount_with_vfs_cache_mode_full_is_using_up/][Cache mode using up space @Reddit]]
 * Files hierarchy :FILE:
-- *Goal:* /Manage files with better hierarchy/
+- /*Objective:*/ /Manage files with better hierarchy/
 - *References:* [[https://l.opnxng.com/r/linux/comments/om150l/personal_file_hierarchy_under_home/][Home hierarchy @Reddit]]
 * Pacman lock-file :PACMAN:BACKUP:
-- *Goal:* /Create pacman lock-file/
+- /*Objective:*/ /Create pacman lock-file/
 * TODO Config feh [%] :FEH:
-1. [ ] *Goal:* /Config feh to work as an image preview/
-2. [ ] *Goal:* /Deprecated vimiv/
-3. [ ] *Goal:* /Config feh vim-keybinds/
+1. [ ] /*Objective:*/ /Config feh to work as an image preview/
+2. [ ] /*Objective:*/ /Deprecated vimiv/
+3. [ ] /*Objective:*/ /Config feh vim-keybinds/
    - *Visit:* [[file:/usr/share/applications/feh.desktop][feh.desktop]]
 - *References:* [[https://github.com/derf/feh/blob/master/examples/keys][Feh vim keymap @Github]]
 * TODO Friendly snippet insert date :NVIM:SNIPPET:
-- *Goal:* /Create note block with today inserted/
+- /*Objective:*/ /Create note block with today inserted/
 - *References:* [[https://l.opnxng.com/r/neovim/comments/wi4uf3/how_do_i_insert_current_date_or_time/][Insert today date in friendly snippet @Reddit]]

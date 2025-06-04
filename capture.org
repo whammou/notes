@@ -73,7 +73,8 @@ Special properties provide an alternative access method to Org mode features, li
   - *References:* [[http://vdirsyncer.pimutils.org/en/stable/when.html][Vdirsyncer documentation @Doc]]
 ** DONE Orgmode social media integrate
 CLOSED: [2024-12-26 Thu 22:28]
-* DOING Qutebrowser configuration [100%] :QUTEBROWSER:
+* PARTIAL Qutebrowser configuration [85%] :QUTEBROWSER:
+CLOSED: [2025-06-04 Wed 07:37]
 - /*Objective:*/ implement text to speech to qutebrowser
   - *Stumble upon:* [[https://redlib.seasi.dev/r/qutebrowser/comments/w4pv2v/configpy_ideas/][Qutebrowser tts config idea @ Reddit]]
 ** DONE Rebind set-mark function
@@ -117,20 +118,20 @@ CLOSED: [2025-04-20 Sun 23:39] DEADLINE: <2025-04-21 Mon 22:00>
   - *Checkout:* [[Workaround window-bg][[BUG] Workaround daemon next window focus bug @ Org]]
 *** DONE Spawn layout commands
 CLOSED: [2025-05-21 Wed 23:28] DEADLINE: <2025-05-21 Wed 22:15>
+:PROPERTIES:
+:ID: 88bbe7c3-ba9a-4bad-adf8-b523dd0c1c26
+:END:
 - /*Objective:*/ /Create script to let qtile manage spawn position of new window/
-  - *Run:* ~qtile cmd-obj -o layout -f spawn_split -a "qb 'URL'" "x"~ 
-    - [X] Create alias
-    - [X] Crreate keybinds
+  - *Run:* ~$ qtile cmd-obj -o layout -f spawn_split -a "qb 'URL'" "x"~ 
 **** DONE Qtile spawn script
 CLOSED: [2025-05-21 Wed 23:28]
-1. /*Objective:*/ /Create python script to run qtile cmd-obj with extra arguments/
-2. /*Objective:*/ /Create script to let qtile manage spawn tab of new window/
-   - *Run:* ~qtile cmd-obj -o layout -f spawn_tab -a "qb 'URL' new_level=True"~
-   - *Problem:* Prasing error when using cmd-obj and argument is ~int~ or ~bool~
-   - *Visit:* [[https://github.com/qtile/qtile/issues/2433][Error using qtile cmd-obj when arg is int @ Github-issue]]
-    - [X] Create ~script~
-    - [X] Create alias
-    - [X] Crreate keybinds
+- [X] /*Objective:*/ /Create script to let qtile manage spawn tab of new window/ [100%]
+  - [X] Create ~script~
+    - *Run:* ~$ qtile cmd-obj -o layout -f spawn_tab -a "qb 'URL' new_level=True"~
+    - *Problem:* Prasing error when using cmd-obj and argument is ~int~ or ~bool~
+      - *Solution:* [[https://github.com/qtile/qtile/issues/2433][Implement using python script for bash @Github-issue]]
+  - [X] Create alias
+  - [X] Crreate keybinds
 ** ABORTED Redirect URL
 CLOSED: [2025-05-07 Wed 23:34]
 - /*Objective:*/ /Redirect URL via user-scripts/
@@ -141,7 +142,7 @@ CLOSED: [2025-04-18 Fri 14:16] DEADLINE: <2025-04-16 Wed 16:00>
 - /*Objective:*/ /Enable hardware acceleration/
 - *Visit:* [[https://wiki.archlinux.org/title/Hardware_video_acceleration][Hardware acceleration doc @ Archwiki]]
 - *References:* [[https://l.opnxng.com/r/qutebrowser/comments/s60a78/what_chromium_flags_do_you_use/][chromium flags @Reddit]]
-** DONE Create new-instance [100%]
+** DONE Create new-instance
 CLOSED: [2025-06-03 Tue 10:14] DEADLINE: <2025-06-02 Mon 19:00>
 - [X] /*Objective:*/ /Setup qutebrowser-profiles for better session managements/ [100%]
   - [X] *Run:* ~qutebrowser-profile --new --load "profile"~
@@ -156,7 +157,6 @@ CLOSED: [2025-05-30 Fri 06:06]
 * DOING Manage windows spawn/layout [50%] :QTILE:
 - /*Objective:*/ /Assign spawn grouping and layouts/
 ** DOING Manage floating windows [33%]
-DEADLINE: <2025-06-03 Tue>
 - /*Objective:*/ /Add floating windows for quick preview of media files/
   - To prevent *focus_stealing_hook* in ~qtile~: [[https://github.com/whammou/dotfiles/commit/56ee9ce8c65ed7b2dba894a5ba294a285c2504f0][Added prevent_focus_stealing hook @Commit]]
 - *References:*
@@ -167,7 +167,6 @@ DEADLINE: <2025-06-03 Tue>
   - [[https://github.com/qtile/qtile/discussions/4049][Keep window above all other windows @Github-issue]]
   - [[https://github.com/qtile/qtile/issues/1145#issuecomment-392771986][App layers @Github-issue]]
 *** TODO Cycle through floating windows
- DEADLINE: <2025-05-11 Sun 18:30>
 - [-] /*Objective:*/ /Keybind to cycle focus through floating windows/ [66%]
   - [X] +*Visit:* [[https://github.com/qtile/qtile/issues/794][Keybinds @Github-issue]]+
   - [X] +*Visit:* [[https://github.com/qtile/qtile/issues?q=is%3Aissue%20multiple%20callbacks&page=1][multiple callbacks keybinding @Gtihub-issue]]+
@@ -203,14 +202,17 @@ CLOSED: [2025-05-09 Fri 22:19] DEADLINE: <2025-05-09 Fri 18:00>
 - [X] /*Objective:*/ /Assign grouping for windows with the same wm_class/
   - *Visit:* [[https://github.com/aravinda0/qtile-bonsai/discussions/12#discussioncomment-11095207][new window grouping @Github-discussion]]
 - +[ ] /*Objective:*/ /Assign goruping for *specific* windows with the same wn_class/+
-** TODO Spawn window from links
+** DOING Spawn window from links [0%]
 - /*Objective:*/ /Successfully show window in pre-defined layout/
-*** Determine spawn filetype :HANDLR:KITTY:
+*** TODO Determine spawn filetype :HANDLR:KITTY:
 - /*Objective:*/ /Determine which program to open a filetype/
   - *!Complication:* ~qtile~ fails to parse ~file path~ for ~handlr~ to open in new-window
     - *Solution:* Workaround - Replace ~xdg-open~ for ~nvim.desktop~ entry with ~kitty nvim <url/path>~
       Use ~hanlr get~ to determine entry type
 - *References:* [[id:670f557e-c6f4-4392-aa0c-be18d7ae49a9][Open with handlr @Orgmode]]
+*** TODO Determine window layout
+- /*Objective:* Tell qtile which layout to spawn the window in/
+- *Reference:* [[id:88bbe7c3-ba9a-4bad-adf8-b523dd0c1c26][Spawn layout commands @Orgmode]]
 * DOING Working with youtube [67%] :YOUTUBE:
 -  /*Objective:*/ /Use youtube for documentation:/
 ** DOING Package configurations [50%]
@@ -547,3 +549,7 @@ CLOSED: [2025-06-03 Tue 07:43]
 * TODO Friendly snippet insert date :NVIM:SNIPPET:
 - /*Objective:*/ /Create note block with today inserted/
 - *References:* [[https://l.opnxng.com/r/neovim/comments/wi4uf3/how_do_i_insert_current_date_or_time/][Insert today date in friendly snippet @Reddit]]
+* TODO Kitty hint path error :KITTY:
+DEADLINE: <2025-06-04 Wed>
+- /*Objective:* Find solution to kitty hint returns wrong format/
+  /When use ~map <key> kitten hints --type hyperlink --type path --program "program~ kitty returns the wrong format of hinted hyperlink/

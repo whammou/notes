@@ -119,7 +119,7 @@ CLOSED: [2025-04-20 Sun 23:39] DEADLINE: <2025-04-21 Mon 22:00>
 *** DONE Spawn layout commands
 CLOSED: [2025-05-21 Wed 23:28] DEADLINE: <2025-05-21 Wed 22:15>
 :PROPERTIES:
-:ID: 88bbe7c3-ba9a-4bad-adf8-b523dd0c1c26
+:ID:       88bbe7c3-ba9a-4bad-adf8-b523dd0c1c26
 :END:
 - /*Objective:*/ /Create script to let qtile manage spawn position of new window/
   - *Run:* ~$ qtile cmd-obj -o layout -f spawn_split -a "qb 'URL'" "x"~ 
@@ -259,17 +259,23 @@ CLOSED: [2025-04-28 Mon 09:18]
 *** TODO Mark URL as preview
 - /*Objective:*/ /Specify normal url or preview url/
 - *Visit:* [[https://docs.mapp.com/v1/docs/url-encoding-and-what-characters-are-valid-in-a-uri][URL comment character @ Search]]
-* TODO Config system notification :NOTIFICATION:
+* TODO Config system notification [50%] :NOTIFICATION:
 - /*Objective:*/ /Config system notifications with dunst/
   - *Run:* ~man dunst~
   - *File:* [[file:~/.config/dunst/dunstrc][dunst config @Confini]]
   - *Visit:* [[id:45d7010b-dd20-44c8-a271-51ac24ba840e][Icon packs @Orgmode]]
-** TODO Dunst notification stacking :DUNST:
-- [ ] /*Objective:*/ /Stack notifications/
-- [ ] /*Objective:*/ /Interacte with stacked notifications/
+** DONE Dunst notification stacking [100%] :DUNST:
+CLOSED: [2025-06-04 Wed 09:07]
+- [X] /*Objective:*/ /Stack notifications/
+- +[ ] /*Objective:*/ /Interacte with stacked+ notifications/
 - *References:*
   - [[https://github.com/dunst-project/dunst/issues/321][Dunst notification stacking @Github-issue]]
   - [[https://dunst-project.org/documentation/][Documentaion @Dunst-doc]]
+** TODO Notification colorscheme
+:PROPERTIES:
+:ID:       f8ffc50b-03a6-4be9-842a-2c6278a62b86
+:END:
+- /*Objective:* Create a comprehensive colorscheme to notifications/
 * TODO Working with git [0%] :GIT:
 - /*Objective:*/ /Improve workflow with nvim, fugitive, lazygit/
 - *References:*
@@ -422,10 +428,9 @@ CLOSED: [2025-05-28 Wed 04:03]
 - *Goal(s):* render response in markdown to take advantage of nvim markdown render
 * PARTIAL Android linux sync :ANDROID:ARCH:LINUX:
 CLOSED: [2025-06-03 Tue 02:03]
-- /*Objective:*/ /Android and linux sync-up workflow/
-- *References:*
-  - [[https://bbs.archlinux.org/viewtopic.php?id=231050][Archlinux android sync @Archforum]]
-  - [[https://l.opnxng.com/r/linuxmasterrace/comments/100gz0z/whats_the_best_way_to_transfer_files_between/][Transfer file between android and linux @Reddit]]
+- [ ] /*Objective:*/ /Android and linux sync-up workflow/ [%]
+  - [ ]  [[https://bbs.archlinux.org/viewtopic.php?id=231050][Archlinux android sync @Archforum]]
+  - [ ]  [[https://l.opnxng.com/r/linuxmasterrace/comments/100gz0z/whats_the_best_way_to_transfer_files_between/][Transfer file between android and linux @Reddit]]
 - *Workaround:* Sync using cloud drives
 * DOING Working with gsuit [50%] :GSUIT:
 :PROPERTIES:

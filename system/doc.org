@@ -160,7 +160,7 @@ CLOSED: [2025-05-24 Sat 01:20]
 **** DONE Open with handlr :HANDLR:
 CLOSED: [2025-04-22 Tue 03:09]
 :PROPERTIES:
-:ID: 670f557e-c6f4-4392-aa0c-be18d7ae49a9
+:ID:       670f557e-c6f4-4392-aa0c-be18d7ae49a9
 :END:
 - /A better xdg-utils/
   - *Project-link:* [[https://github.com/chmln/handlr][github.com@handlr]]

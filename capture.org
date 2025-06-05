@@ -73,8 +73,7 @@ Special properties provide an alternative access method to Org mode features, li
   - *References:* [[http://vdirsyncer.pimutils.org/en/stable/when.html][Vdirsyncer documentation @Doc]]
 ** DONE Orgmode social media integrate
 CLOSED: [2024-12-26 Thu 22:28]
-* PARTIAL Qutebrowser configuration [85%] :QUTEBROWSER:
-CLOSED: [2025-06-04 Wed 07:37]
+* DOING Qutebrowser configuration [75%] :QUTEBROWSER:
 - /*Objective:*/ implement text to speech to qutebrowser
   - *Stumble upon:* [[https://redlib.seasi.dev/r/qutebrowser/comments/w4pv2v/configpy_ideas/][Qutebrowser tts config idea @ Reddit]]
 ** DONE Rebind set-mark function
@@ -143,10 +142,15 @@ CLOSED: [2025-04-18 Fri 14:16] DEADLINE: <2025-04-16 Wed 16:00>
 - *Visit:* [[https://wiki.archlinux.org/title/Hardware_video_acceleration][Hardware acceleration doc @ Archwiki]]
 - *References:* [[https://l.opnxng.com/r/qutebrowser/comments/s60a78/what_chromium_flags_do_you_use/][chromium flags @Reddit]]
 ** DONE Create new-instance
-CLOSED: [2025-06-03 Tue 10:14] DEADLINE: <2025-06-02 Mon 19:00>
+CLOSED: [2025-06-05 Thu 05:02]
 - [X] /*Objective:*/ /Setup qutebrowser-profiles for better session managements/ [100%]
-  - [X] *Run:* ~qutebrowser-profile --new --load "profile"~
+  +- [X] *Run:* ~qutebrowser-profile --new --load "profile"~+
   - [X] *Run:* ~qutebrowser --basedir=<base-dir> --config-py=path/to/config~
+    - *Complication:* New window with the same base dir failed to open in ~qtile-scratchpad~
+    - *Solution:* [[https://github.com/whammou/dotfiles/commit/d894e08216b9e78ddb27f76b7a5e4367ee88ea7e][Workaround qtile not spawning window in scratchpad @Commit]]
+** TODO Yazi as file chooser
+- /*Objective:* Launch yazi as qutebrowser file chooser/
+- *Reference:* [[https://www.youtube.com/watch?v=ce2NOmTBWfo#__preview][Ranger as qutebrowser file chooser @Youtube]]
 ** PENDING Userscripts
 CLOSED: [2025-05-30 Fri 06:06]
 - /*Objective:*/ /Learn to write userscripts in qutebrowser/
@@ -156,7 +160,7 @@ CLOSED: [2025-05-30 Fri 06:06]
     - [[qute://help/configuring.html][Keybinds and configuring @Qutebrowser-doc]]
 * DOING Manage windows spawn/layout [50%] :QTILE:
 - /*Objective:*/ /Assign spawn grouping and layouts/
-** DOING Manage floating windows [33%]
+** DOING Manage floating windows [66%]
 - /*Objective:*/ /Add floating windows for quick preview of media files/
   - To prevent *focus_stealing_hook* in ~qtile~: [[https://github.com/whammou/dotfiles/commit/56ee9ce8c65ed7b2dba894a5ba294a285c2504f0][Added prevent_focus_stealing hook @Commit]]
 - *References:*
@@ -185,14 +189,18 @@ CLOSED: [2025-05-30 Fri 06:06]
             window.bring_to_front()
             window.focus()
     #+END_SRC
-*** PARTIAL Resize floating windows
-CLOSED: [2025-05-23 Fri 18:56] DEADLINE: <2025-05-22 Thu 21:00>
-- [-] /*Objective:*/ /Create keybinds to resize floating windows/ [50%]
+    - *Solution:* [[https://github.com/whammou/dotfiles/commit/63517e3a5bf6ada9834eb3fc2681596a34b5892c][win_next/prev now only work with floating windows @Commit]]
+*** DONE Resize floating windows
+ DEADLINE: <2025-05-22 Thu 21:00> CLOSED: [2025-06-05 Thu 07:09]
+- [X] /*Objective:*/ /Create keybinds to resize floating windows/ [100%]
   - [X] Resize xy
-  - [ ] Resize keep aspect ratio
-*** PENDING Move floating windows
+  - [X] Resize keep aspect ratio
+    - *Solution:* [[https://github.com/whammou/dotfiles/commit/8a2ff6a3c8340c22ce68873315b8d551f3f854fe][Added ability to resize and move floating windows @Commit]]
+*** DONE Move floating windows
+CLOSED: [2025-06-05 Thu 07:09]
 - /*Objective:*/ /Create move() floating windows keybinds/
 - *References:* [[https://l.opnxng.com/r/qtile/comments/18cjjlo/keybinds_to_resize_and_move_floating_window/][Move floating windows via @lazy.window.function @Reddit]]
+  - *Solution:* [[https://github.com/whammou/dotfiles/commit/8a2ff6a3c8340c22ce68873315b8d551f3f854fe][Added ability to resize and move floating windows @Commit]]
 ** DONE Hooks and custom functions
 CLOSED: [2025-05-08 Thu 14:27]
 - /*Objective:*/ /Checkout hooks and custom functions e.g ~expose command~/
@@ -213,9 +221,10 @@ CLOSED: [2025-05-09 Fri 22:19] DEADLINE: <2025-05-09 Fri 18:00>
 *** TODO Determine window layout
 - /*Objective:* Tell qtile which layout to spawn the window in/
 - *Reference:* [[id:88bbe7c3-ba9a-4bad-adf8-b523dd0c1c26][Spawn layout commands @Orgmode]]
-* DOING Working with youtube [67%] :YOUTUBE:
+* PARTIAL Working with youtube [66%] :YOUTUBE:
+CLOSED: [2025-06-05 Thu 02:01]
 -  /*Objective:*/ /Use youtube for documentation:/
-** DOING Package configurations [50%]
+** PENDING Package configurations [50%]
 - /*Objective:*/ /Configure packages for smoother experiences/
 *** DONE Youtube downloader - yt-dlp :YTDLP:
 CLOSED: [2025-05-22 Thu 06:28]
@@ -233,7 +242,7 @@ CLOSED: [2025-05-22 Thu 06:28]
   ytdl-format = 'worstvideo[height>=720]+bestaudio'
   #+END_SRC
   - Youtube [[https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file][Cli-youtube-downloader @Github]]
-*** TODO Youtube viewer - mpv :MPV:
+*** PENDING Youtube viewer - mpv :MPV:
 - /Prioritize sub selection script/
   - *Visit:* [[https://github.com/CogentRedTester/mpv-sub-select][Mpv-sub-select @Github]]
 ** DONE Youtube workflow integration
@@ -256,9 +265,11 @@ CLOSED: [2025-04-28 Mon 09:18]
     - [x] [[https://www.youtube.com/embed/WAm_S3K_zjg?start=01&end=51][with ~embed~ attr]]
     - [x] [[https://www.youtube.com/watch?v=rP5V2CkHJfo#__preview][with comment]]
     - [x] [[https://www.youtube.com/embed/WAm_S3K_zjg?start=01&end=51#__preview][With ~embed~ and ~comment~ ]]
-*** TODO Mark URL as preview
+*** DONE Mark URL as preview
+CLOSED: [2025-06-05 Thu 02:00]
 - /*Objective:*/ /Specify normal url or preview url/
-- *Visit:* [[https://docs.mapp.com/v1/docs/url-encoding-and-what-characters-are-valid-in-a-uri][URL comment character @ Search]]
+  - *Visit:* [[id:20071104-5e85-4d24-82a5-cf897074ac96][Integrate mpv youtube link @Orgmode]]
+- *Reference:* [[https://docs.mapp.com/v1/docs/url-encoding-and-what-characters-are-valid-in-a-uri][URL comment character @Search]]
 * TODO Config system notification :NOTIFICATION:
 - /*Objective:*/ /Config system notifications with dunst/
   - *Run:* ~man dunst~
@@ -433,6 +444,7 @@ CLOSED: [2025-06-03 Tue 02:03]
 :END:
 1. [X] /*Objective:*/ /Edditing documents using google documents suits/
 2. [ ] /*Objective:*/ /Mount cloud-drive to edit documents locally/
+   - *Checkout:* [[id:b1c36c41-af26-452e-9bca-002fc835cc5f][Workaround rclone cache mode @Orgmode]]
 - *Reference:*
   - [[https://reddit.com/comments/1dcpg93/comment/l7zrycr][Rclone google drive @Reddit]]
   - [[id:882b4f23-d2f9-4274-87e5-fb041e4a0c48][Working with cloud-drives @Orgmode]]
@@ -524,14 +536,18 @@ CLOSED: [2025-06-03 Tue 07:45]
 :ID:       657f70b1-56fe-4503-93cb-3a2987f002e8
 :END:
 - [X] /*Objective:*/ /Mount directories via rofi menu/
-- [X] /*Objective:*/ /Config mount point dest/
-- [ ] /*Objective:*/ /Change icons in qtile bar accordingly/
   - *Checkout:* related files
     - [[file:~/.config/qtile/settings/widgets.py][widgets.py @Qtile-config]]
     - [[file:~/dotfiles/scripts/rofi-mount][rofi-mount @Rofi-script]]
+- +[X] /*Objective:*/ /Config mount point dest/+
+- [ ] /*Objective:*/ /Change icons in qtile bar accordingly/
+  - *Complication:* Icons for mulitple clouds
 - *References:* [[https://l.opnxng.com/r/archlinux/comments/15mz7rj/bash_script_to_mountunmount_rclone_affiliated/?tl=zh-hant][Script mount/umount rclone mount points @Reddit]]
 ** DONE Workaround rclone cache mode
 CLOSED: [2025-06-03 Tue 07:43]
+:PROPERTIES:
+:ID: b1c36c41-af26-452e-9bca-002fc835cc5f
+:END:
 - /*Objective:*/ /Cache mode takes a lot of space, workaround this issue/
 - *Checkout:* [[https://forum.rclone.org/t/why-arent-cache-rclone-files-being-removed/28948/8][Vfs cache explain @Forum-rclone]]
 - *References:* [[https://l.opnxng.com/r/rclone/comments/xnbhsx/rclone_mount_with_vfs_cache_mode_full_is_using_up/][Cache mode using up space @Reddit]]
@@ -540,10 +556,11 @@ CLOSED: [2025-06-03 Tue 07:43]
 - *References:* [[https://l.opnxng.com/r/linux/comments/om150l/personal_file_hierarchy_under_home/][Home hierarchy @Reddit]]
 * Pacman lock-file :PACMAN:BACKUP:
 - /*Objective:*/ /Create pacman lock-file/
-* TODO Config feh [%] :FEH:
-1. [ ] /*Objective:*/ /Config feh to work as an image preview/
-2. [ ] /*Objective:*/ /Deprecated vimiv/
-3. [ ] /*Objective:*/ /Config feh vim-keybinds/
+* DONE Config feh [100%] :FEH:
+CLOSED: [2025-06-04 Wed 23:04]
+1. [X] /*Objective:*/ /Config feh to work as an image preview/
+2. [X] /*Objective:*/ /Deprecated vimiv/
+3. [X] /*Objective:*/ /Config feh vim-keybinds/
    - *Visit:* [[file:/usr/share/applications/feh.desktop][feh.desktop]]
 - *References:* [[https://github.com/derf/feh/blob/master/examples/keys][Feh vim keymap @Github]]
 * TODO Friendly snippet insert date :NVIM:SNIPPET:
@@ -553,3 +570,17 @@ CLOSED: [2025-06-03 Tue 07:43]
 DEADLINE: <2025-06-04 Wed>
 - /*Objective:* Find solution to kitty hint returns wrong format/
   /When use ~map <key> kitten hints --type hyperlink --type path --program "program~ kitty returns the wrong format of hinted hyperlink/
+* Working with latex [0%] :LATEX:
+- /*Objective:* Develop a framwork for latex format/
+- *Reference:* Tutorial documentation for latex
+  - [[https://www.learnlatex.org/en/][Latex for beginner @Learntex]]
+  - [[https://www.overleaf.com/learn][Overleaf latex tutorial for beginner @Overleaf]]
+** TODO Setup editor for latex :NVIM:
+- /*Objective:* Setup nvim to env to write latex in/
+  - *Visit:* [[https://github.com/lervag/vimtex][Vimtex plugin @Github]]
+** TODO Files conversion :PANDOC:GEMINI:
+- [-] /*Objective:* Convert documents from and to latex/ [50%]
+  - [ ] Convert from pdf to latex - Use ~Gemini-2.5-pro~
+    - *Complication:* Workflow integration
+      Having to log on [[https://gemini.google.com/app][Google gemini @Google]] is not ideal - Integrate to shell or nvim
+  - [X] Convert from latex to pdf - Use ~latexmk~ or ~pandoc~

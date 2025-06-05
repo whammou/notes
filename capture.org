@@ -191,7 +191,7 @@ CLOSED: [2025-05-30 Fri 06:06]
     #+END_SRC
     - *Solution:* [[https://github.com/whammou/dotfiles/commit/63517e3a5bf6ada9834eb3fc2681596a34b5892c][win_next/prev now only work with floating windows @Commit]]
 *** DONE Resize floating windows
- DEADLINE: <2025-05-22 Thu 21:00> CLOSED: [2025-06-05 Thu 07:09]
+CLOSED: [2025-06-05 Thu 07:09] DEADLINE: <2025-05-22 Thu 21:00>
 - [X] /*Objective:*/ /Create keybinds to resize floating windows/ [100%]
   - [X] Resize xy
   - [X] Resize keep aspect ratio
@@ -551,7 +551,7 @@ CLOSED: [2025-06-03 Tue 07:45]
 ** DONE Workaround rclone cache mode
 CLOSED: [2025-06-03 Tue 07:43]
 :PROPERTIES:
-:ID: b1c36c41-af26-452e-9bca-002fc835cc5f
+:ID:       b1c36c41-af26-452e-9bca-002fc835cc5f
 :END:
 - /*Objective:*/ /Cache mode takes a lot of space, workaround this issue/
 - *Checkout:* [[https://forum.rclone.org/t/why-arent-cache-rclone-files-being-removed/28948/8][Vfs cache explain @Forum-rclone]]
@@ -575,6 +575,7 @@ CLOSED: [2025-06-04 Wed 23:04]
 DEADLINE: <2025-06-04 Wed>
 - /*Objective:* Find solution to kitty hint returns wrong format/
   /When use ~map <key> kitten hints --type hyperlink --type path --program "program~ kitty returns the wrong format of hinted hyperlink/
+- *Reference:* [[https://sw.kovidgoyal.net/kitty/kittens/hints/#source-code-for-hints][Kitty hint documentation @Doc-kittt]]
 * Working with latex [0%] :LATEX:
 - /*Objective:* Develop a framwork for latex format/
 - *Reference:* Tutorial documentation for latex

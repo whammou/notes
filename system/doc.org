@@ -31,7 +31,8 @@ The ~Language Server Protocol~ (LSP) is an open, JSON-RPC-based protocol for use
 **** Markup language server
 Generally a good markup language server is texlab
 - *Resources:* [[https://github.com/latex-lsp/texlab][texlab]]
-*** DOING Nvim optimization [66%] :NVIM:
+*** DONE Nvim optimization [100%] :NVIM:
+CLOSED: [2025-06-06 Fri 11:08]
 - *Objective:* research ways to optimize nvim and manage new packages
 **** DONE Setup LazyVim :NVIM:
 CLOSED: [2025-01-24 Fri 21:31] DEADLINE: <2025-01-25 Sat 18:00>
@@ -94,11 +95,13 @@ CLOSED: [2025-05-24 Sat 01:20]
 CLOSED: [2025-01-15 Wed 21:19] DEADLINE: <2025-01-14 Tue 22:00>
 - *Objective:* successfully switching between different config dir
 - *Resource:* [[https://michaeluloth.com/neovim-switch-configs/][switching config]]
-**** DOING Disable when file is large [0%] :NVIM:
+**** ABORTED Disable when file is large [100%] :NVIM:
+CLOSED: [2025-06-06 Fri 11:08]
 - *Objective:* /Disable some features when dealing with large files/
 - *References:* [[https://l.opnxng.com/r/neovim/comments/1fy7jln/treesitter_slow_on_big_files_yet_am_i_the_only/][Nvim largefile hack @Reddit]]
 - *Local-file:* [[file:~/.config/nvim/lua/plugins/xtras.lua][xtras.lua]]
-***** TODO Config bigfile-nvim
+***** ABORTED Config bigfile-nvim
+CLOSED: [2025-06-06 Fri 11:08]
 - *Objective:* /Config bigfile-nvim for better typing experience/
 - *References:* [[https://github.com/LunarVim/bigfile.nvim][nvim-bigfile @Github]]
 *** DONE Tweaking archlinux [75%] :LINUX:

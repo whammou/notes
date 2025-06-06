@@ -73,9 +73,9 @@ Special properties provide an alternative access method to Org mode features, li
   - *References:* [[http://vdirsyncer.pimutils.org/en/stable/when.html][Vdirsyncer documentation @Doc]]
 ** DONE Orgmode social media integrate
 CLOSED: [2024-12-26 Thu 22:28]
-* DOING Qutebrowser configuration [75%] :QUTEBROWSER:
+* DOING Qutebrowser configuration [70%] :QUTEBROWSER:
 - /*Objective:*/ implement text to speech to qutebrowser
-  - *Stumble upon:* [[https://redlib.seasi.dev/r/qutebrowser/comments/w4pv2v/configpy_ideas/][Qutebrowser tts config idea @ Reddit]]
+  - *Visit:* [[https://redlib.seasi.dev/r/qutebrowser/comments/w4pv2v/configpy_ideas/][Qutebrowser tts config idea @ Reddit]]
 ** DONE Rebind set-mark function
 CLOSED: [2025-01-28 Tue 03:19]
 - /*Objective:*/ rebind set-mark func to match vim
@@ -158,9 +158,19 @@ CLOSED: [2025-05-30 Fri 06:06]
     - [[https://github.com/hiway/python-qutescript][python-qutescript @Github]]
     - [[qute://help/settings.html#bindings.commands][Settings references @Qutebrowser-doc]]
     - [[qute://help/configuring.html][Keybinds and configuring @Qutebrowser-doc]]
-* DOING Manage windows spawn/layout [50%] :QTILE:
+** DONE Qutebrowser modular configs
+CLOSED: [2025-06-06 Fri 05:12]
+- *Objective:* /Re-write qutebrowser and make it modular/
+  - *File:* [[file:~/.config/qutebrowser/][config @Directory]]
+  - *Checkout:* [[https://github.com/whammou/dotfiles/commit/8f1d1a0c68f3c7f3de95d91896047db420495bfa][Modularize qutebrowser config @Commit]]
+- *References:* [[https://qutebrowser.org/doc/help/commands.html][Documentation @Qutebrowser]]
+** PENDING Change highlight colors using patch
+- /*Objective:* Change chromium default highlight colors/
+- *Reference:* [[https://github.com/qutebrowser/qutebrowser/discussions/5978][Change highlight colors with system patch @Github-issue]]
+* DOING Manage windows spawn/layout [75%] :QTILE:
 - /*Objective:*/ /Assign spawn grouping and layouts/
-** DOING Manage floating windows [66%]
+** DONE Manage floating windows [100%]
+CLOSED: [2025-06-06 Fri 11:02]
 - /*Objective:*/ /Add floating windows for quick preview of media files/
   - To prevent *focus_stealing_hook* in ~qtile~: [[https://github.com/whammou/dotfiles/commit/56ee9ce8c65ed7b2dba894a5ba294a285c2504f0][Added prevent_focus_stealing hook @Commit]]
 - *References:*
@@ -170,11 +180,12 @@ CLOSED: [2025-05-30 Fri 06:06]
   - [[https://l.opnxng.com/r/qtile/comments/tw9apn/spawn_a_terminal_with_command_and_make_it_floating/][Function per custom window(WM_CLASS) @Reddit]]
   - [[https://github.com/qtile/qtile/discussions/4049][Keep window above all other windows @Github-issue]]
   - [[https://github.com/qtile/qtile/issues/1145#issuecomment-392771986][App layers @Github-issue]]
-*** TODO Cycle through floating windows
-- [-] /*Objective:*/ /Keybind to cycle focus through floating windows/ [66%]
+*** DONE Cycle through floating windows
+CLOSED: [2025-06-06 Fri 11:01]
+- [X] /*Objective:*/ /Keybind to cycle focus through floating windows/ [100%]
   - [X] +*Visit:* [[https://github.com/qtile/qtile/issues/794][Keybinds @Github-issue]]+
   - [X] +*Visit:* [[https://github.com/qtile/qtile/issues?q=is%3Aissue%20multiple%20callbacks&page=1][multiple callbacks keybinding @Gtihub-issue]]+
-  - [ ] *[NOTE]* taken on [2025-06-03 09:58]:
+  +- [X] [NOTE] taken on [2025-06-03 09:58]:+
     *IDEA:* ~focus_nth_floating~ by a double hook ~lazy.function~ then bring current window to front via ~lazy.window.bring_to_front~
     #+NAME: ~/.config/qtile/settings/key/windows.py
     #+BEGIN_SRC: python
@@ -189,7 +200,10 @@ CLOSED: [2025-05-30 Fri 06:06]
             window.bring_to_front()
             window.focus()
     #+END_SRC
-    - *Solution:* [[https://github.com/whammou/dotfiles/commit/63517e3a5bf6ada9834eb3fc2681596a34b5892c][win_next/prev now only work with floating windows @Commit]]
+    - *Solution:* [[https://github.com/whammou/dotfiles/commit/63517e3a5bf6ada9834eb3fc2681596a34b5892c][Win_next/prev now only work with floating windows @Commit]]
+  - [X] [NOTE] taken on [2025-06-06 10:58]:
+    Add ability to jump to ~floating withdows~ with the same keybind as ~titling windows~
+    - *Checkout:* [[https://github.com/whammou/dotfiles/commit/488b0fef5754048087bfb02712cfa34dc480e9a9][Added ability to jump to floating windows @Commit]]
 *** DONE Resize floating windows
 CLOSED: [2025-06-05 Thu 07:09] DEADLINE: <2025-05-22 Thu 21:00>
 - [X] /*Objective:*/ /Create keybinds to resize floating windows/ [100%]
@@ -545,9 +559,9 @@ CLOSED: [2025-06-03 Tue 07:45]
     - [[file:~/.config/qtile/settings/widgets.py][widgets.py @Qtile-config]]
     - [[file:~/dotfiles/scripts/rofi-mount][rofi-mount @Rofi-script]]
 - +[X] /*Objective:*/ /Config mount point dest/+
-- [ ] /*Objective:*/ /Change icons in qtile bar accordingly/
-  - *Complication:* Icons for mulitple clouds
 - *References:* [[https://l.opnxng.com/r/archlinux/comments/15mz7rj/bash_script_to_mountunmount_rclone_affiliated/?tl=zh-hant][Script mount/umount rclone mount points @Reddit]]
+*** TODO Change icons in qtile bar accordingly
+- *Complication:* Icons for mulitple clouds
 ** DONE Workaround rclone cache mode
 CLOSED: [2025-06-03 Tue 07:43]
 :PROPERTIES:
@@ -572,11 +586,11 @@ CLOSED: [2025-06-04 Wed 23:04]
 - /*Objective:*/ /Create note block with today inserted/
 - *References:* [[https://l.opnxng.com/r/neovim/comments/wi4uf3/how_do_i_insert_current_date_or_time/][Insert today date in friendly snippet @Reddit]]
 * TODO Kitty hint path error :KITTY:
-DEADLINE: <2025-06-04 Wed>
+DEADLINE: <2025-06-06 Fri>
 - /*Objective:* Find solution to kitty hint returns wrong format/
   /When use ~map <key> kitten hints --type hyperlink --type path --program "program~ kitty returns the wrong format of hinted hyperlink/
 - *Reference:* [[https://sw.kovidgoyal.net/kitty/kittens/hints/#source-code-for-hints][Kitty hint documentation @Doc-kittt]]
-* Working with latex [0%] :LATEX:
+* TODO Working with latex [0%] :LATEX:
 - /*Objective:* Develop a framwork for latex format/
 - *Reference:* Tutorial documentation for latex
   - [[https://www.learnlatex.org/en/][Latex for beginner @Learntex]]
@@ -590,3 +604,6 @@ DEADLINE: <2025-06-04 Wed>
     - *Complication:* Workflow integration
       Having to log on [[https://gemini.google.com/app][Google gemini @Google]] is not ideal - Integrate to shell or nvim
   - [X] Convert from latex to pdf - Use ~latexmk~ or ~pandoc~
+* TODO Create scripted tmux session :TMUX:
+- /*Objective:* Create a persist session for orgmode notes/
+- *Reference:* [[https://ryan.himmelwright.net/post/scripting-tmux-workspaces/][Scripting tmux workspace @Blog]]

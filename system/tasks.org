@@ -106,10 +106,6 @@ CLOSED: [2025-05-12 Mon 09:04]
 - *Objective:* /Create multiple magic-tape sessions using git/
 *** TODO Migrate orgmode options to config :ORGMODE:
 - *Objective:* /Migrate settings to/ [[file:~/.config/nvim/lua/config/orgmode.lua][config.lua]]
-*** PENDING Qutebrowser modular configs [%] :QUTEBROWSER:
-- *Objective:* /Re-write qutebrowser and make it modular/
-  - *References:* [[https://qutebrowser.org/doc/help/commands.html][Documentation @Qutebrowser]]
-  - *File:* [[file:~/.config/qutebrowser/][config @Directory]]
 *** TODO Nvim indent align :NVIM:
 - *Objective:* /Manage nvim virtual indentaion alignment in plugins:/
   - [ ] ~nvim-orgmode~ 

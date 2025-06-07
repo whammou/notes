@@ -586,7 +586,7 @@ CLOSED: [2025-06-04 Wed 23:04]
 - /*Objective:*/ /Create note block with today inserted/
 - *References:* [[https://l.opnxng.com/r/neovim/comments/wi4uf3/how_do_i_insert_current_date_or_time/][Insert today date in friendly snippet @Reddit]]
 * TODO Kitty hint path error :KITTY:
-DEADLINE: <2025-06-06 Fri>
+DEADLINE: <2025-06-07 Sat>
 - /*Objective:* Find solution to kitty hint returns wrong format/
   /When use ~map <key> kitten hints --type hyperlink --type path --program "program~ kitty returns the wrong format of hinted hyperlink/
 - *Reference:* [[https://sw.kovidgoyal.net/kitty/kittens/hints/#source-code-for-hints][Kitty hint documentation @Doc-kittt]]
@@ -601,9 +601,10 @@ DEADLINE: <2025-06-06 Fri>
 ** TODO Files conversion :PANDOC:GEMINI:
 - [-] /*Objective:* Convert documents from and to latex/ [50%]
   - [ ] Convert from pdf to latex - Use ~Gemini-2.5-pro~
-    - *Complication:* Workflow integration
-      Having to log on [[https://gemini.google.com/app][Google gemini @Google]] is not ideal - Integrate to shell or nvim
   - [X] Convert from latex to pdf - Use ~latexmk~ or ~pandoc~
+- *Complication:* Workflow integration
+  Having to log on [[https://gemini.google.com/app][Google gemini @Google]] is not ideal - Integrate to shell or nvim
 * TODO Create scripted tmux session :TMUX:
 - /*Objective:* Create a persist session for orgmode notes/
+- *Complication:* nvim does not allow edit if multiple session are running
 - *Reference:* [[https://ryan.himmelwright.net/post/scripting-tmux-workspaces/][Scripting tmux workspace @Blog]]

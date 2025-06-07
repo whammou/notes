@@ -167,7 +167,7 @@ CLOSED: [2025-06-06 Fri 05:12]
 ** PENDING Change highlight colors using patch
 - /*Objective:* Change chromium default highlight colors/
 - *Reference:* [[https://github.com/qutebrowser/qutebrowser/discussions/5978][Change highlight colors with system patch @Github-issue]]
-* DOING Manage windows spawn/layout [75%] :QTILE:
+* DOING Hacking on with qtile [4/5] :QTILE:
 - /*Objective:*/ /Assign spawn grouping and layouts/
 ** DONE Manage floating windows [100%]
 CLOSED: [2025-06-06 Fri 11:02]
@@ -220,21 +220,38 @@ CLOSED: [2025-05-08 Thu 14:27]
 - /*Objective:*/ /Checkout hooks and custom functions e.g ~expose command~/
   - *Visit:* [[https://docs.qtile.org/en/latest/manual/config/hooks.html][Hooks and Commands @Qtile-doc]]
 ** ABORTED Windows grouping
-CLOSED: [2025-05-09 Fri 22:19] DEADLINE: <2025-05-09 Fri 18:00>
+ DEADLINE: <2025-05-09 Fri 18:00> CLOSED: [2025-06-08 Sun 05:07]
 - [X] /*Objective:*/ /Assign grouping for windows with the same wm_class/
   - *Visit:* [[https://github.com/aravinda0/qtile-bonsai/discussions/12#discussioncomment-11095207][new window grouping @Github-discussion]]
 - +[ ] /*Objective:*/ /Assign goruping for *specific* windows with the same wn_class/+
-** DOING Spawn window from links [0%]
+** DOING Spawn window from links [1/2]
 - /*Objective:*/ /Successfully show window in pre-defined layout/
-*** TODO Determine spawn filetype :HANDLR:KITTY:
+*** TODO Determine spawn filetype :HANDLR:KITTY: [1/1]
 - /*Objective:*/ /Determine which program to open a filetype/
-  - *!Complication:* ~qtile~ fails to parse ~file path~ for ~handlr~ to open in new-window
-    - *Solution:* Workaround - Replace ~xdg-open~ for ~nvim.desktop~ entry with ~kitty nvim <url/path>~
-      Use ~hanlr get~ to determine entry type
-- *References:* [[id:670f557e-c6f4-4392-aa0c-be18d7ae49a9][Open with handlr @Orgmode]]
-*** TODO Determine window layout
+  1. [X] Write script to open if text file then ~nvim.desktop~ else fall back to ~xdg-open~
+  2. [X] Exclude pattern "[[" "[" with flag --hint path
+- *Complication:*
+  1. ~qtile~ fails to parse ~file path~ for ~handlr~ to open in new-window
+  2. Kitty Return wrong URL/path format
+- *Solution:*
+  1. Replace ~xdg-open~ for ~nvim.desktop~ entry with ~kitty nvim <url/path>~
+    - TIPS: Use ~hanlr get~ to determine entry type
+- *References:*
+  - [[id:670f557e-c6f4-4392-aa0c-be18d7ae49a9][CONSULT Open with handlr @Orgmode]]
+  - [[id:19cf96c7-877d-4504-b6fd-1db0310af1a6][ERROR Kitty hint path error @Orgmode]]
+*** DONE Determine window layout
+CLOSED: [2025-06-08 Sun 05:02]
 - /*Objective:* Tell qtile which layout to spawn the window in/
 - *Reference:* [[id:88bbe7c3-ba9a-4bad-adf8-b523dd0c1c26][Spawn layout commands @Orgmode]]
+** DONE Hide background floating windows :PICOM:
+CLOSED: [2025-06-08 Sun 00:02]
+- [X] /*Objective:* Hide and unhide floating windows to de-cluster desktop/ [4/4]
+  - [X] Setting up picom for the task
+  - [X] Integrate hide method into related floating funcitons
+  - [X] Bind hide all floating window
+  - [X] Keybind for when toggle ~scratchpad~
+- *Complication:* Qtile does not support hidding windows
+- *Solution:* - Workaround: use a compositor to set opacity to lowest (hide) and highest(unhide)
 * PARTIAL Working with youtube [66%] :YOUTUBE:
 CLOSED: [2025-06-05 Thu 02:01]
 -  /*Objective:*/ /Use youtube for documentation:/
@@ -586,10 +603,13 @@ CLOSED: [2025-06-04 Wed 23:04]
 - /*Objective:*/ /Create note block with today inserted/
 - *References:* [[https://l.opnxng.com/r/neovim/comments/wi4uf3/how_do_i_insert_current_date_or_time/][Insert today date in friendly snippet @Reddit]]
 * TODO Kitty hint path error :KITTY:
-DEADLINE: <2025-06-07 Sat>
+DEADLINE: <2025-06-08 Sun>
+:PROPERTIES:
+:ID: 19cf96c7-877d-4504-b6fd-1db0310af1a6
+:END:
 - /*Objective:* Find solution to kitty hint returns wrong format/
   /When use ~map <key> kitten hints --type hyperlink --type path --program "program~ kitty returns the wrong format of hinted hyperlink/
-- *Reference:* [[https://sw.kovidgoyal.net/kitty/kittens/hints/#source-code-for-hints][Kitty hint documentation @Doc-kittt]]
+- *Reference:* [[https://sw.kovidgoyal.net/kitty/kittens/hints/#source-code-for-hints][Kitty hint documentation @Doc-kitty]]
 * TODO Working with latex [0%] :LATEX:
 - /*Objective:* Develop a framwork for latex format/
 - *Reference:* Tutorial documentation for latex

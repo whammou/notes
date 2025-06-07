@@ -139,7 +139,7 @@ CLOSED: [2024-09-27 Fri 01:16] DEADLINE: <2024-09-26 Thu 22:00>
 **Stumble upon:* [[https://github.com/junegunn/fzf/issues/70][Using fzf as selection menu@github]]
 ***** Passing shell variables
 ~fzf~ uses ~FZF_DEFAULT_OPTS~ as config, run ~export~ to pass variable to sub-shells
-** DONE Vim-fugitive workflow :GIT:NVIM:ARCHIVE:
+** DONE Vim-fugitive workflow :GIT:NVIM:
 CLOSED: [2024-10-07 Mon 22:27]
 - *Goal:* Improve git workflow and merge conflicts
 - *Stumble upon:* [[https://www.youtube.com/playlist?list=PLmcTCfaoOo_jP2mViI_3d1aZrbueLyArh][DevOps git playlist]]
@@ -164,6 +164,12 @@ a. ~ca~ to amend the last commit
 b. ~cw~ to reword the last commit
 c. ~cf~ to create a fixup commit
 d. ~crc~ to revert the commit under the cursor
+*** TODO Better nvim and git workflow
+:PROPERTIES:
+:ID:       99f670ec-a946-4bb3-8aeb-80ecc09c6c5f
+:END:
+- /*Objective: Better git workflow with nvim/
+- *References:* [[https://www.youtube.com/watch?v=zOQMwWqdp9w&t=1#__preview][Nvim git workflow]]
 ** DONE Git workflow keybind :GIT:ARCHIVE:
 CLOSED: [2024-10-07 Mon 22:27]
 - *Goal(s):* Add vim-fugitive keybinds to optimize workflow
@@ -569,7 +575,7 @@ CLOSED: [2025-06-01 Sun 09:42]
   - *Checkout:* [[https://github.com/whammou/dotfiles/commit/3542d910c61772da06dffd3e80e0b3d8a709f599][Kitty open in qutebrowser-split-mode @Commit]]
 - *References:* [[https://sw.kovidgoyal.net/kitty/shell-integration/][Kitty shell integration @Doc-kitty]]
 * DONE Update wallpaper :UI:
-DEADLINE: <2025-06-03 Tue> CLOSED: [2025-06-03 Tue 11:59]
+CLOSED: [2025-06-03 Tue 11:59] DEADLINE: <2025-06-03 Tue>
 :PROPERTIES:
 :ID:       7842dd9f-f1fd-4931-aae0-e464ee90089c
 :END:

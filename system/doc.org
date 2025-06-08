@@ -327,3 +327,93 @@ CLOSED: [2025-05-30 Fri 07:28]
 - *Objective:* /Check out fzf-nova script library/
 - *Visit:* [[https://github.com/gotbletu/fzf-nova][fzf-nova Github]]
 - *Reference:* [[https://github.com/gotbletu/shownotes?tab=readme-ov-file][Some useful tools from gotbletu @Github]]
+*** DONE Hacking on with qtile [5/5] :QTILE:
+CLOSED: [2025-06-08 Sun 05:14]
+- /*Objective:*/ /Assign spawn grouping and layouts/
+**** DONE Manage floating windows [100%]
+CLOSED: [2025-06-06 Fri 11:02]
+- /*Objective:*/ /Add floating windows for quick preview of media files/
+  - To prevent *focus_stealing_hook* in ~qtile~: [[https://github.com/whammou/dotfiles/commit/56ee9ce8c65ed7b2dba894a5ba294a285c2504f0][Added prevent_focus_stealing hook @Commit]]
+- *References:*
+  - [[https://github.com/qtile/qtile/issues/1260#issuecomment-913327960][floating window focus discussion @Github]]
+  - [[https://github.com/qtile/qtile/wiki/floating-windows][floating windows @Github-wiki]]
+  - [[https://l.opnxng.com/r/qtile/comments/w240e0/is_it_possible_to_move_around_floating_windows/][Resize floating windows @Reddit]]
+  - [[https://l.opnxng.com/r/qtile/comments/tw9apn/spawn_a_terminal_with_command_and_make_it_floating/][Function per custom window(WM_CLASS) @Reddit]]
+  - [[https://github.com/qtile/qtile/discussions/4049][Keep window above all other windows @Github-issue]]
+  - [[https://github.com/qtile/qtile/issues/1145#issuecomment-392771986][App layers @Github-issue]]
+***** DONE Cycle through floating windows
+CLOSED: [2025-06-06 Fri 11:01]
+- [X] /*Objective:*/ /Keybind to cycle focus through floating windows/ [100%]
+  - [X] +*Visit:* [[https://github.com/qtile/qtile/issues/794][Keybinds @Github-issue]]+
+  - [X] +*Visit:* [[https://github.com/qtile/qtile/issues?q=is%3Aissue%20multiple%20callbacks&page=1][multiple callbacks keybinding @Gtihub-issue]]+
+  +- [X] [NOTE] taken on [2025-06-03 09:58]:+
+  *IDEA:* ~focus_nth_floating~ by a double hook ~lazy.function~ then bring current window to front via ~lazy.window.bring_to_front~
+  #+NAME: ~/.config/qtile/settings/key/windows.py
+    #+BEGIN_SRC: python
+    @hook.lazy.window
+    @hook.lazy.layout
+    def focus_nth_float():
+    bring_floats_to_front()
+    for range(1, index):
+    if not window.floating:
+    layout.next_window()
+    else
+    window.bring_to_front()
+    window.focus()
+  #+END_SRC
+  - *Solution:* [[https://github.com/whammou/dotfiles/commit/63517e3a5bf6ada9834eb3fc2681596a34b5892c][Win_next/prev now only work with floating windows @Commit]]
+  - [X] [NOTE] taken on [2025-06-06 10:58]:
+    Add ability to jump to ~floating withdows~ with the same keybind as ~titling windows~
+    - *Checkout:* [[https://github.com/whammou/dotfiles/commit/488b0fef5754048087bfb02712cfa34dc480e9a9][Added ability to jump to floating windows @Commit]]
+***** DONE Resize floating windows
+CLOSED: [2025-06-05 Thu 07:09] DEADLINE: <2025-05-22 Thu 21:00>
+- [X] /*Objective:*/ /Create keybinds to resize floating windows/ [100%]
+  - [X] Resize xy
+  - [X] Resize keep aspect ratio
+    - *Solution:* [[https://github.com/whammou/dotfiles/commit/8a2ff6a3c8340c22ce68873315b8d551f3f854fe][Added ability to resize and move floating windows @Commit]]
+***** DONE Move floating windows
+CLOSED: [2025-06-05 Thu 07:09]
+- /*Objective:*/ /Create move() floating windows keybinds/
+- *References:* [[https://l.opnxng.com/r/qtile/comments/18cjjlo/keybinds_to_resize_and_move_floating_window/][Move floating windows via @lazy.window.function @Reddit]]
+  - *Solution:* [[https://github.com/whammou/dotfiles/commit/8a2ff6a3c8340c22ce68873315b8d551f3f854fe][Added ability to resize and move floating windows @Commit]]
+**** DONE Hooks and custom functions
+CLOSED: [2025-05-08 Thu 14:27]
+- /*Objective:*/ /Checkout hooks and custom functions e.g ~expose command~/
+  - *Visit:* [[https://docs.qtile.org/en/latest/manual/config/hooks.html][Hooks and Commands @Qtile-doc]]
+**** ABORTED Windows grouping
+DEADLINE: <2025-05-09 Fri 18:00> CLOSED: [2025-06-08 Sun 05:07]
+- [X] /*Objective:*/ /Assign grouping for windows with the same wm_class/
+  - *Visit:* [[https://github.com/aravinda0/qtile-bonsai/discussions/12#discussioncomment-11095207][new window grouping @Github-discussion]]
+- +[ ] /*Objective:*/ /Assign goruping for *specific* windows with the same wn_class/+
+**** DONE Spawn window from links [2/2]
+CLOSED: [2025-06-08 Sun 05:14]
+- /*Objective:*/ /Successfully show window in pre-defined layout/
+***** DONE Determine spawn filetype :HANDLR:KITTY: [1/1]
+CLOSED: [2025-06-08 Sun 05:14]
+- /*Objective:*/ /Determine which program to open a filetype/
+  1. [X] Write script to open if text file then ~nvim.desktop~ else fall back to ~xdg-open~
+  2. [X] Exclude pattern "[[" "[" with flag --hint path
+- *Complication:*
+  1. ~qtile~ fails to parse ~file path~ for ~handlr~ to open in new-window
+  2. Kitty Return wrong URL/path format
+- *Solution:*
+  1. Replace ~xdg-open~ for ~nvim.desktop~ entry with ~kitty nvim <url/path>~
+     - TIPS: Use ~hanlr get~ to determine entry type
+     - CHECKOUT: [[https://github.com/whammou/dotfiles/commit/8074febb127a7d91e1c8c1704c921e373840944b][Added ability to open dynamically open file from link to split @Commit]]
+  2. [[https://github.com/whammou/dotfiles/commit/8074febb127a7d91e1c8c1704c921e373840944b][Added regex in hint mode to get the correct file @Commit]]
+- *References:*
+  - [[id:670f557e-c6f4-4392-aa0c-be18d7ae49a9][CONSULT Open with handlr @Orgmode]]
+  - [[id:19cf96c7-877d-4504-b6fd-1db0310af1a6][ERROR Kitty hint path error @Orgmode]]
+***** DONE Determine window layout
+CLOSED: [2025-06-08 Sun 05:02]
+- /*Objective:* Tell qtile which layout to spawn the window in/
+- *Reference:* [[id:88bbe7c3-ba9a-4bad-adf8-b523dd0c1c26][Spawn layout commands @Orgmode]]
+**** DONE Hide background floating windows :PICOM:
+CLOSED: [2025-06-08 Sun 00:02]
+- [X] /*Objective:* Hide and unhide floating windows to de-cluster desktop/ [4/4]
+  - [X] Setting up picom for the task
+  - [X] Integrate hide method into related floating funcitons
+  - [X] Bind hide all floating window
+  - [X] Keybind for when toggle ~scratchpad~
+- *Complication:* Qtile does not support hidding windows
+- *Solution:* - Workaround: use a compositor to set opacity to lowest (hide) and highest(unhide)

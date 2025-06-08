@@ -574,6 +574,13 @@ CLOSED: [2025-06-01 Sun 09:42]
   - *Implemented:* Kitty open url in ~qutebrowser-split-mode~
   - *Checkout:* [[https://github.com/whammou/dotfiles/commit/3542d910c61772da06dffd3e80e0b3d8a709f599][Kitty open in qutebrowser-split-mode @Commit]]
 - *References:* [[https://sw.kovidgoyal.net/kitty/shell-integration/][Kitty shell integration @Doc-kitty]]
+** DONE Config feh [100%] :FEH:
+CLOSED: [2025-06-08 Sun 05:17]
+1. [X] /*Objective:*/ /Config feh to work as an image preview/
+2. [X] /*Objective:*/ /Deprecated vimiv/
+3. [X] /*Objective:*/ /Config feh vim-keybinds/
+   - *Visit:* [[file:/usr/share/applications/feh.desktop][feh.desktop]]
+- *References:* [[https://github.com/derf/feh/blob/master/examples/keys][Feh vim keymap @Github]]
 * DONE Update wallpaper :UI:
 CLOSED: [2025-06-03 Tue 11:59] DEADLINE: <2025-06-03 Tue>
 :PROPERTIES:

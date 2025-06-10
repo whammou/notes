@@ -73,149 +73,6 @@ Special properties provide an alternative access method to Org mode features, li
   - *References:* [[http://vdirsyncer.pimutils.org/en/stable/when.html][Vdirsyncer documentation @Doc]]
 ** DONE Orgmode social media integrate
 CLOSED: [2024-12-26 Thu 22:28]
-* DOING Qutebrowser configuration [70%] :QUTEBROWSER:
-- /*Objective:*/ implement text to speech to qutebrowser
-  - *Visit:* [[https://redlib.seasi.dev/r/qutebrowser/comments/w4pv2v/configpy_ideas/][Qutebrowser tts config idea @ Reddit]]
-** DONE Rebind set-mark function
-CLOSED: [2025-01-28 Tue 03:19]
-- /*Objective:*/ rebind set-mark func to match vim
-- Note taken on [2025-05-06 Tue 21:43] \\
-  - Bookmark bind
-    #+NAME: config.py bind command
-    #+BEGIN_SRC: python
-    config.bind('m', 'mode-enter set_mark')
-    #+END_SRC
-** DONE Qutebrowser start-page
-CLOSED: [2025-05-04 Sun 08:44]
-- /*Objective:*/ /Add qutebrowser start-page/
-  - *Visit:* [[https://nimplex.github.io/Minimal-StartPage/][start-page @ Search]]
-** DONE Qutebrowser with Qtile [100%] :QTILE:
-CLOSED: [2025-05-22 Thu 06:03]
-- /*Objective:*/ /Integrate qutebrowser to qtile window manager/
-*** DONE Workaround window-bg
-CLOSED: [2025-05-07 Wed 12:28]
-:PROPERTIES:
-:ID:       7a4c8a36-bc6b-4050-9448-a2aa9403ad16
-:END:
-:LOGBOOK:
-- Note taken on [2025-05-05 Mon 07:26] \\
-Workaround ~qutebrowser~ using ~xdotool~ to detect invisible ~windows~ and take advantage of ~tabs.tabs_are_windows~ to set every ~tabs~ to ~windows~ ~new_instance_open_target~ to set newly spawned ~windows~ to ~bg-windows~
-*Commit:* [[https://github.com/whammou/dotfiles/commit/bd57d28a018468f17aa233bc31158da9730af7f4][Qutebrowser workaround @ Github]]
-:END:
-- /*Objective:*/ /Run new window in background (prevent focus stealing)/
-  - *Visit:* [[https://github.com/qutebrowser/qutebrowser/issues/3819][Qutebrowser new window in background @ Github]]
-  - *Visit:* [[https://stackoverflow.com/questions/9117507/linux-unix-command-to-determine-if-process-is-running][Determine if qutebrowser is running @ Overflow]]
-**** DONE [BUG] Daemon messed up qtile focus
-CLOSED: [2025-04-20 Sun 23:39] DEADLINE: <2025-04-21 Mon 22:00>
-:LOGBOOK:
-- Note taken on [2025-05-07 Wed 12:17] \\
-*Run* ~qutebrowser --nowindow~ to create startup instance (faster access using ~qutebrowser_instance~ script) 
-- !NOTE: Daemon is dead after killing first instance via ~:q~
-:END:
-- /*Objective:*/ /Check out Qutebrowser-daemon script/
-  - *Visit:* [[https://gist.github.com/knatsakis/8cf329853330893cd2d7fa3dbd5692b0][Qutebrowse-daemon script @ Github]]
-  - *Checkout:* [[Workaround window-bg][[BUG] Workaround daemon next window focus bug @ Org]]
-*** DONE Spawn layout commands
-CLOSED: [2025-05-21 Wed 23:28] DEADLINE: <2025-05-21 Wed 22:15>
-:PROPERTIES:
-:ID:       88bbe7c3-ba9a-4bad-adf8-b523dd0c1c26
-:END:
-- /*Objective:*/ /Create script to let qtile manage spawn position of new window/
-  - *Run:* ~$ qtile cmd-obj -o layout -f spawn_split -a "qb 'URL'" "x"~ 
-**** DONE Qtile spawn script
-CLOSED: [2025-05-21 Wed 23:28]
-- [X] /*Objective:*/ /Create script to let qtile manage spawn tab of new window/ [100%]
-  - [X] Create ~script~
-    - *Run:* ~$ qtile cmd-obj -o layout -f spawn_tab -a "qb 'URL' new_level=True"~
-    - *Problem:* Prasing error when using cmd-obj and argument is ~int~ or ~bool~
-      - *Solution:* [[https://github.com/qtile/qtile/issues/2433][Implement using python script for bash @Github-issue]]
-  - [X] Create alias
-  - [X] Crreate keybinds
-** ABORTED Redirect URL
-CLOSED: [2025-05-07 Wed 23:34]
-- /*Objective:*/ /Redirect URL via user-scripts/
-  - *Visit:* [[https://l.opnxng.com/r/qutebrowser/comments/mvd89k/is_there_a_way_to_implement_redirect_links_in/][Redirect URL @ Reddit]]
-  - *Visit:* [[https://github.com/gicrisf/swapforqute][Redirect URL script @ Github]]
-** DONE Hardware Acceleration
-CLOSED: [2025-04-18 Fri 14:16] DEADLINE: <2025-04-16 Wed 16:00>
-- /*Objective:*/ /Enable hardware acceleration/
-- *Visit:* [[https://wiki.archlinux.org/title/Hardware_video_acceleration][Hardware acceleration doc @ Archwiki]]
-- *References:* [[https://l.opnxng.com/r/qutebrowser/comments/s60a78/what_chromium_flags_do_you_use/][chromium flags @Reddit]]
-** DONE Create new-instance
-CLOSED: [2025-06-05 Thu 05:02]
-- [X] /*Objective:*/ /Setup qutebrowser-profiles for better session managements/ [100%]
-  +- [X] *Run:* ~qutebrowser-profile --new --load "profile"~+
-  - [X] *Run:* ~qutebrowser --basedir=<base-dir> --config-py=path/to/config~
-    - *Complication:* New window with the same base dir failed to open in ~qtile-scratchpad~
-    - *Solution:* [[https://github.com/whammou/dotfiles/commit/d894e08216b9e78ddb27f76b7a5e4367ee88ea7e][Workaround qtile not spawning window in scratchpad @Commit]]
-** TODO Yazi as file chooser
-- /*Objective:* Launch yazi as qutebrowser file chooser/
-- *Reference:* [[https://www.youtube.com/watch?v=ce2NOmTBWfo#__preview][Ranger as qutebrowser file chooser @Youtube]]
-** PENDING Userscripts
-CLOSED: [2025-05-30 Fri 06:06]
-- /*Objective:*/ /Learn to write userscripts in qutebrowser/
-  - *References:*
-    - [[https://github.com/hiway/python-qutescript][python-qutescript @Github]]
-    - [[qute://help/settings.html#bindings.commands][Settings references @Qutebrowser-doc]]
-    - [[qute://help/configuring.html][Keybinds and configuring @Qutebrowser-doc]]
-** DONE Qutebrowser modular configs
-CLOSED: [2025-06-06 Fri 05:12]
-- *Objective:* /Re-write qutebrowser and make it modular/
-  - *File:* [[file:~/.config/qutebrowser/][config @Directory]]
-  - *Checkout:* [[https://github.com/whammou/dotfiles/commit/8f1d1a0c68f3c7f3de95d91896047db420495bfa][Modularize qutebrowser config @Commit]]
-- *References:* [[https://qutebrowser.org/doc/help/commands.html][Documentation @Qutebrowser]]
-** PENDING Change highlight colors using patch
-- /*Objective:* Change chromium default highlight colors/
-- *Reference:* [[https://github.com/qutebrowser/qutebrowser/discussions/5978][Change highlight colors with system patch @Github-issue]]
-* PARTIAL Working with youtube [66%] :YOUTUBE:
-CLOSED: [2025-06-05 Thu 02:01]
--  /*Objective:*/ /Use youtube for documentation:/
-** PENDING Package configurations [50%]
-- /*Objective:*/ /Configure packages for smoother experiences/
-*** DONE Youtube downloader - yt-dlp :YTDLP:
-CLOSED: [2025-05-22 Thu 06:28]
-- /*Objective:*/ /Increase yt-dlp downlaod speed/
-  - *Configuration:*
-    #+BEGIN_confini
-    --force-ipv4
-    --legacy-server-connect
-    --throttled-rate 500K
-    --concurrent-fragments 8
-    #+END_confini
-- Note taken on [2025-04-22 Tue 18:49] \\
-  yt-dlp download file format in mpv
-  #+BEGIN_SRC confini
-  ytdl-format = 'worstvideo[height>=720]+bestaudio'
-  #+END_SRC
-  - Youtube [[https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file][Cli-youtube-downloader @Github]]
-*** PENDING Youtube viewer - mpv :MPV:
-- /Prioritize sub selection script/
-  - *Visit:* [[https://github.com/CogentRedTester/mpv-sub-select][Mpv-sub-select @Github]]
-** DONE Youtube workflow integration
-:LOGBOOK:
-- Note taken on [2025-04-28 Mon 06:08] \\
-Use ~xdg-utils-handlr~ along side with ~xdg-utils~ for extra features such as _regex-open_
-:END:
-CLOSED: [2025-04-22 Tue 18:49]
-- /Sucessfully open/ ~yt-url~ /in/ ~mpv~ using:
-  - *handlr:* [[id:0a3f8238-97cd-4aa2-a8dc-6ecea163efac][Default-application open method]]
-  - *mpv:* [[id:20071104-5e85-4d24-82a5-cf897074ac96][Integrate mpv youtube link]]
-** DONE Youtube URL parameters
-CLOSED: [2025-04-28 Mon 09:18]
-- /*Objective:*/ /Set parameters in/ ~URL~ to create video snippets:
-  - *Materials:*
-    - [[https://developers.google.com/youtube/player_parameters?csw=1#Parameters][Player-parameters @Youtube-doc]]
-    - [[https://l.opnxng.com/r/youtube/comments/2eu12t/modify_youtube_url_for_specific_start_and_stop/][youtube specify start AND stop time @Reddit]]
-    - [[https://a.opnxng.com/exchange/stackoverflow.com/questions/68169842/is-there-a-comment-character-for-urls][Comments in url @Overflow]]
-  - *Examples:*
-    - [x] [[https://www.youtube.com/embed/WAm_S3K_zjg?start=01&end=51][with ~embed~ attr]]
-    - [x] [[https://www.youtube.com/watch?v=rP5V2CkHJfo#__preview][with comment]]
-    - [x] [[https://www.youtube.com/embed/WAm_S3K_zjg?start=01&end=51#__preview][With ~embed~ and ~comment~ ]]
-*** DONE Mark URL as preview
-CLOSED: [2025-06-05 Thu 02:00]
-- /*Objective:*/ /Specify normal url or preview url/
-  - *Visit:* [[id:20071104-5e85-4d24-82a5-cf897074ac96][Integrate mpv youtube link @Orgmode]]
-- *Reference:* [[https://docs.mapp.com/v1/docs/url-encoding-and-what-characters-are-valid-in-a-uri][URL comment character @Search]]
 * TODO Config system notification :NOTIFICATION:
 - /*Objective:*/ /Config system notifications with dunst/
   - *Run:* ~man dunst~
@@ -383,19 +240,14 @@ CLOSED: [2025-01-10 Fri 02:27]
 ** PENDING Nvim integration :NVIM:
 CLOSED: [2025-05-28 Wed 04:03]
 - *Goal(s):* render response in markdown to take advantage of nvim markdown render
-* PARTIAL Android linux sync :ANDROID:ARCH:LINUX:
-CLOSED: [2025-06-03 Tue 02:03]
-- [ ] /*Objective:*/ /Android and linux sync-up workflow/ [%]
-  - [ ]  [[https://bbs.archlinux.org/viewtopic.php?id=231050][Archlinux android sync @Archforum]]
-  - [ ]  [[https://l.opnxng.com/r/linuxmasterrace/comments/100gz0z/whats_the_best_way_to_transfer_files_between/][Transfer file between android and linux @Reddit]]
-- *Workaround:* Sync using cloud drives
-* DOING Working with gsuit [50%] :GSUIT:
+* DONE Working with gsuit [100%] :GSUIT:
+CLOSED: [2025-06-09 Mon 23:53]
 :PROPERTIES:
 :ID:       26de28b6-a86c-46eb-a91f-81a01d31115f
 :END:
 1. [X] /*Objective:*/ /Edditing documents using google documents suits/
-2. [ ] /*Objective:*/ /Mount cloud-drive to edit documents locally/
-   - *Checkout:* [[id:b1c36c41-af26-452e-9bca-002fc835cc5f][Workaround rclone cache mode @Orgmode]]
+2. [X] /*Objective:*/ /Mount cloud-drive to edit documents locally/
+- *Checkout:* [[id:b1c36c41-af26-452e-9bca-002fc835cc5f][Workaround rclone cache mode @Orgmode]]
 - *Reference:*
   - [[https://reddit.com/comments/1dcpg93/comment/l7zrycr][Rclone google drive @Reddit]]
   - [[id:882b4f23-d2f9-4274-87e5-fb041e4a0c48][Working with cloud-drives @Orgmode]]
@@ -413,23 +265,6 @@ CLOSED: [2025-06-03 Tue 02:03]
 :END:
 - /*Objective:*/ /Convert documents from PDF to latex using AI/
 - *Reference:* [[https://www.reddit.com/r/Bard/comments/1bgstvx/suddenly_discovered_latex_on_gemini_web/][Latex on Gemini @Reddit]]
-* Working with cloud-drives [66%] :REMOTE:DRIVE:
-:PROPERTIES:
-:ID:       882b4f23-d2f9-4274-87e5-fb041e4a0c48
-:END:
-- /*Objective:*/ /Manage data in cloud drives/
-** DONE Config rclone [100%] :RCLONE:
-CLOSED: [2025-06-01 Sun 23:02]
-- /*Objective:*/ /Config rclone to sync with google-drive/
-  - [X] [[https://rclone.org/drive/#making-your-own-client-id][Make your own client-id @Doc-rclone]]
-- *References:* [[id:3700b025-3d42-4516-a17d-0eb37366d087][Working with rclone @Orgmode]]
-** DONE Obtain google-drive API key :GDRIVE:
-CLOSED: [2025-06-01 Sun 22:46]
-- /*Objective:*/ /Obtain gdrive API for rclone/
-- *Visit:* [[https://support.google.com/googleapi/answer/6158862?hl=en][Setting up API keys @Doc-google]]
-** TODO Quickly toggle drive :ROFI:
-- /*Objective:*/ /Write script to quickly toggle drive/
-- *References:* [[id:657f70b1-56fe-4503-93cb-3a2987f002e8][Mount dir menu @Orgmode]]
 * DOING Working with rofi [66%] :ROFI:
 - /*Objective:*/ /Implement rofi to workflow/
 - *Visit:* [[https://davatorium.github.io/rofi/][Rofi official page @Doc-rofi]]
@@ -482,15 +317,15 @@ CLOSED: [2025-06-01 Sun 00:29]
 CLOSED: [2025-06-03 Tue 07:45]
 - /*Objective:*/ /Running rclone mount as a systemd service/
 - *References:* [[https://rclone.org/commands/rclone_mount/][Rclone mount @Doc-rclone]]
-** DOING Mount dir menu [66%] :ROFI:
+** DOING Mount dir menu [50%] :ROFI:
 :PROPERTIES:
 :ID:       657f70b1-56fe-4503-93cb-3a2987f002e8
 :END:
 - [X] /*Objective:*/ /Mount directories via rofi menu/
-  - *Checkout:* related files
-    - [[file:~/.config/qtile/settings/widgets.py][widgets.py @Qtile-config]]
-    - [[file:~/dotfiles/scripts/rofi-mount][rofi-mount @Rofi-script]]
-- +[X] /*Objective:*/ /Config mount point dest/+
++- [ ] /*Objective:*/ /Config mount point dest/+
+- *Checkout:* related files
+  - [[file:~/.config/qtile/settings/widgets.py][widgets.py @Qtile-config]]
+  - [[file:~/dotfiles/scripts/rofi-mount][rofi-mount @Rofi-script]]
 - *References:* [[https://l.opnxng.com/r/archlinux/comments/15mz7rj/bash_script_to_mountunmount_rclone_affiliated/?tl=zh-hant][Script mount/umount rclone mount points @Reddit]]
 *** TODO Change icons in qtile bar accordingly
 - *Complication:* Icons for mulitple clouds
@@ -502,22 +337,14 @@ CLOSED: [2025-06-03 Tue 07:43]
 - /*Objective:*/ /Cache mode takes a lot of space, workaround this issue/
 - *Checkout:* [[https://forum.rclone.org/t/why-arent-cache-rclone-files-being-removed/28948/8][Vfs cache explain @Forum-rclone]]
 - *References:* [[https://l.opnxng.com/r/rclone/comments/xnbhsx/rclone_mount_with_vfs_cache_mode_full_is_using_up/][Cache mode using up space @Reddit]]
-* Files hierarchy :FILE:
+* TODO Files hierarchy :FILE:
 - /*Objective:*/ /Manage files with better hierarchy/
 - *References:* [[https://l.opnxng.com/r/linux/comments/om150l/personal_file_hierarchy_under_home/][Home hierarchy @Reddit]]
-* Pacman lock-file :PACMAN:BACKUP:
+* TODO Pacman lock-file :PACMAN:BACKUP:
 - /*Objective:*/ /Create pacman lock-file/
 * TODO Friendly snippet insert date :NVIM:SNIPPET:
 - /*Objective:*/ /Create note block with today inserted/
 - *References:* [[https://l.opnxng.com/r/neovim/comments/wi4uf3/how_do_i_insert_current_date_or_time/][Insert today date in friendly snippet @Reddit]]
-* PARTIAL Kitty hint path error :KITTY:
-DEADLINE: <2025-06-08 Sun> CLOSED: [2025-06-08 Sun 05:17]
-:PROPERTIES:
-:ID: 19cf96c7-877d-4504-b6fd-1db0310af1a6
-:END:
-- /*Objective:* Find solution to kitty hint returns wrong format/
-  /When use ~map <key> kitten hints --type hyperlink --type path --program "program~ kitty returns the wrong format of hinted hyperlink/
-- *Reference:* [[https://sw.kovidgoyal.net/kitty/kittens/hints/#source-code-for-hints][Kitty hint documentation @Doc-kitty]]
 * TODO Working with latex [0%] :LATEX:
 - /*Objective:* Develop a framwork for latex format/
 - *Reference:* Tutorial documentation for latex

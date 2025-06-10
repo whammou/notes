@@ -327,11 +327,15 @@ CLOSED: [2025-05-30 Fri 07:28]
 - *Objective:* /Check out fzf-nova script library/
 - *Visit:* [[https://github.com/gotbletu/fzf-nova][fzf-nova Github]]
 - *Reference:* [[https://github.com/gotbletu/shownotes?tab=readme-ov-file][Some useful tools from gotbletu @Github]]
-*** DONE Hacking on with qtile [5/5] :QTILE:
+*** DONE Hacking on with qtile [100%] :QTILE:
 CLOSED: [2025-06-08 Sun 05:14]
 - /*Objective:*/ /Assign spawn grouping and layouts/
+**** DONE Hooks and custom functions
+CLOSED: [2025-05-08 Thu 14:27]
+- /*Objective:*/ /Checkout hooks and custom functions e.g ~expose command~/
+  - *Visit:* [[https://docs.qtile.org/en/latest/manual/config/hooks.html][Hooks and Commands @Qtile-doc]]
 **** DONE Manage floating windows [100%]
-CLOSED: [2025-06-06 Fri 11:02]
+CLOSED: [2025-06-10 Tue 14:57]
 - /*Objective:*/ /Add floating windows for quick preview of media files/
   - To prevent *focus_stealing_hook* in ~qtile~: [[https://github.com/whammou/dotfiles/commit/56ee9ce8c65ed7b2dba894a5ba294a285c2504f0][Added prevent_focus_stealing hook @Commit]]
 - *References:*
@@ -376,20 +380,31 @@ CLOSED: [2025-06-05 Thu 07:09]
 - /*Objective:*/ /Create move() floating windows keybinds/
 - *References:* [[https://l.opnxng.com/r/qtile/comments/18cjjlo/keybinds_to_resize_and_move_floating_window/][Move floating windows via @lazy.window.function @Reddit]]
   - *Solution:* [[https://github.com/whammou/dotfiles/commit/8a2ff6a3c8340c22ce68873315b8d551f3f854fe][Added ability to resize and move floating windows @Commit]]
-**** DONE Hooks and custom functions
-CLOSED: [2025-05-08 Thu 14:27]
-- /*Objective:*/ /Checkout hooks and custom functions e.g ~expose command~/
-  - *Visit:* [[https://docs.qtile.org/en/latest/manual/config/hooks.html][Hooks and Commands @Qtile-doc]]
+***** PARTIAL Hide background floating windows [50%]
+CLOSED: [2025-06-10 Tue 15:01]
+- /*Objective:* Hide floating windows/
+****** DONE Using Picom to set transparency [100%]
+CLOSED: [2025-06-08 Sun 00:02]
+- [X] /*Objective:* Hide and unhide floating windows to de-cluster desktop/ [4/4]
+  - [X] Setting up picom for the task
+  - [X] Integrate hide method into related floating funcitons
+  - [X] Bind hide all floating window
+  - [X] Keybind for when toggle ~scratchpad~
+- *Complication:* Qtile does not support hidding windows
+- *Solution:* - Workaround: use a compositor to set opacity to lowest (hide) and highest(unhide)
+****** PENDING Hide floating window in different group [%]
+- [ ] /*Objective:* Create a hidden group to for floating windows/
+- [ ] /*Objective:* Call hidden windows to current screen/
 **** ABORTED Windows grouping
 CLOSED: [2025-06-08 Sun 05:07] DEADLINE: <2025-05-09 Fri 18:00>
 - [X] /*Objective:*/ /Assign grouping for windows with the same wm_class/
   - *Visit:* [[https://github.com/aravinda0/qtile-bonsai/discussions/12#discussioncomment-11095207][new window grouping @Github-discussion]]
 - +[ ] /*Objective:*/ /Assign goruping for *specific* windows with the same wn_class/+
-**** DONE Spawn window from links [2/2]
+**** DONE Spawn window from links [100%]
 CLOSED: [2025-06-08 Sun 05:14]
 - /*Objective:*/ /Successfully show window in pre-defined layout/
-***** DONE Determine spawn filetype :HANDLR:KITTY: [1/1]
-CLOSED: [2025-06-08 Sun 05:14]
+***** DONE Determine spawn filetype :HANDLR:KITTY: [100%]
+CLOSED: [2025-06-10 Tue 14:59]
 - /*Objective:*/ /Determine which program to open a filetype/
   1. [X] Write script to open if text file then ~nvim.desktop~ else fall back to ~xdg-open~
   2. [X] Exclude pattern "[[" "[" with flag --hint path
@@ -408,12 +423,182 @@ CLOSED: [2025-06-08 Sun 05:14]
 CLOSED: [2025-06-08 Sun 05:02]
 - /*Objective:* Tell qtile which layout to spawn the window in/
 - *Reference:* [[id:88bbe7c3-ba9a-4bad-adf8-b523dd0c1c26][Spawn layout commands @Orgmode]]
-**** DONE Hide background floating windows :PICOM:
-CLOSED: [2025-06-08 Sun 00:02]
-- [X] /*Objective:* Hide and unhide floating windows to de-cluster desktop/ [4/4]
-  - [X] Setting up picom for the task
-  - [X] Integrate hide method into related floating funcitons
-  - [X] Bind hide all floating window
-  - [X] Keybind for when toggle ~scratchpad~
-- *Complication:* Qtile does not support hidding windows
-- *Solution:* - Workaround: use a compositor to set opacity to lowest (hide) and highest(unhide)
+*** PARTIAL Qutebrowser configuration [80%] :QUTEBROWSER:
+CLOSED: [2025-06-10 Tue 01:04]
+- /*Objective:*/ implement text to speech to qutebrowser
+  - *Visit:* [[https://redlib.seasi.dev/r/qutebrowser/comments/w4pv2v/configpy_ideas/][Qutebrowser tts config idea @ Reddit]]
+**** DONE Rebind set-mark function
+CLOSED: [2025-01-28 Tue 03:19]
+- /*Objective:*/ rebind set-mark func to match vim
+- Note taken on [2025-05-06 Tue 21:43] \\
+  - Bookmark bind
+    #+NAME: config.py bind command
+    #+BEGIN_SRC: python
+    config.bind('m', 'mode-enter set_mark')
+    #+END_SRC
+**** DONE Qutebrowser start-page
+CLOSED: [2025-05-04 Sun 08:44]
+- /*Objective:*/ /Add qutebrowser start-page/
+  - *Visit:* [[https://nimplex.github.io/Minimal-StartPage/][start-page @ Search]]
+**** DONE Qutebrowser with Qtile [100%] :QTILE:
+CLOSED: [2025-05-22 Thu 06:03]
+- /*Objective:*/ /Integrate qutebrowser to qtile window manager/
+***** DONE Workaround window-bg
+CLOSED: [2025-05-07 Wed 12:28]
+:PROPERTIES:
+:ID:       7a4c8a36-bc6b-4050-9448-a2aa9403ad16
+:END:
+:LOGBOOK:
+- Note taken on [2025-05-05 Mon 07:26] \\
+Workaround ~qutebrowser~ using ~xdotool~ to detect invisible ~windows~ and take advantage of ~tabs.tabs_are_windows~ to set every ~tabs~ to ~windows~ ~new_instance_open_target~ to set newly spawned ~windows~ to ~bg-windows~
+***Commit:* [[https://github.com/whammou/dotfiles/commit/bd57d28a018468f17aa233bc31158da9730af7f4][Qutebrowser workaround @ Github]]
+:END:
+- /*Objective:*/ /Run new window in background (prevent focus stealing)/
+  - *Visit:* [[https://github.com/qutebrowser/qutebrowser/issues/3819][Qutebrowser new window in background @ Github]]
+  - *Visit:* [[https://stackoverflow.com/questions/9117507/linux-unix-command-to-determine-if-process-is-running][Determine if qutebrowser is running @ Overflow]]
+****** DONE [BUG] Daemon messed up qtile focus
+CLOSED: [2025-04-20 Sun 23:39] DEADLINE: <2025-04-21 Mon 22:00>
+:LOGBOOK:
+- Note taken on [2025-05-07 Wed 12:17] \\
+***Run* ~qutebrowser --nowindow~ to create startup instance (faster access using ~qutebrowser_instance~ script) 
+- !NOTE: Daemon is dead after killing first instance via ~:q~
+:END:
+- /*Objective:*/ /Check out Qutebrowser-daemon script/
+  - *Visit:* [[https://gist.github.com/knatsakis/8cf329853330893cd2d7fa3dbd5692b0][Qutebrowse-daemon script @ Github]]
+  - *Checkout:* [[Workaround window-bg][[BUG] Workaround daemon next window focus bug @ Org]]
+***** DONE Spawn layout commands
+CLOSED: [2025-05-21 Wed 23:28] DEADLINE: <2025-05-21 Wed 22:15>
+:PROPERTIES:
+:ID:       88bbe7c3-ba9a-4bad-adf8-b523dd0c1c26
+:END:
+- /*Objective:*/ /Create script to let qtile manage spawn position of new window/
+  - *Run:* ~$ qtile cmd-obj -o layout -f spawn_split -a "qb 'URL'" "x"~ 
+****** DONE Qtile spawn script
+CLOSED: [2025-05-21 Wed 23:28]
+- [X] /*Objective:*/ /Create script to let qtile manage spawn tab of new window/ [100%]
+  - [X] Create ~script~
+    - *Run:* ~$ qtile cmd-obj -o layout -f spawn_tab -a "qb 'URL' new_level=True"~
+    - *Problem:* Prasing error when using cmd-obj and argument is ~int~ or ~bool~
+      - *Solution:* [[https://github.com/qtile/qtile/issues/2433][Implement using python script for bash @Github-issue]]
+  - [X] Create alias
+  - [X] Crreate keybinds
+**** ABORTED Redirect URL
+CLOSED: [2025-05-07 Wed 23:34]
+- /*Objective:*/ /Redirect URL via user-scripts/
+  - *Visit:* [[https://l.opnxng.com/r/qutebrowser/comments/mvd89k/is_there_a_way_to_implement_redirect_links_in/][Redirect URL @ Reddit]]
+  - *Visit:* [[https://github.com/gicrisf/swapforqute][Redirect URL script @ Github]]
+**** DONE Hardware Acceleration
+CLOSED: [2025-04-18 Fri 14:16] DEADLINE: <2025-04-16 Wed 16:00>
+- /*Objective:*/ /Enable hardware acceleration/
+- *Visit:* [[https://wiki.archlinux.org/title/Hardware_video_acceleration][Hardware acceleration doc @ Archwiki]]
+- *References:* [[https://l.opnxng.com/r/qutebrowser/comments/s60a78/what_chromium_flags_do_you_use/][chromium flags @Reddit]]
+**** DONE Create new-instance
+CLOSED: [2025-06-05 Thu 05:02]
+- [X] /*Objective:*/ /Setup qutebrowser-profiles for better session managements/ [100%]
+  +- [X] *Run:* ~qutebrowser-profile --new --load "profile"~+
+  - [X] *Run:* ~qutebrowser --basedir=<base-dir> --config-py=path/to/config~
+    - *Complication:* New window with the same base dir failed to open in ~qtile-scratchpad~
+    - *Solution:* [[https://github.com/whammou/dotfiles/commit/d894e08216b9e78ddb27f76b7a5e4367ee88ea7e][Workaround qtile not spawning window in scratchpad @Commit]]
+**** DONE Yazi as file chooser
+CLOSED: [2025-06-10 Tue 01:04]
+- /*Objective:* Launch yazi as qutebrowser file chooser/
+- *Checkout:* [[https://github.com/whammou/dotfiles/commit/30eabb566bf99855b962062abb685109482f9ef7][Set yazi as default file picker @Commit]]
+- *Reference:* [[https://www.youtube.com/watch?v=ce2NOmTBWfo#__preview][Ranger as qutebrowser file chooser @Youtube]]
+**** PENDING Userscripts
+CLOSED: [2025-05-30 Fri 06:06]
+- /*Objective:*/ /Learn to write userscripts in qutebrowser/
+  - *References:*
+    - [[https://github.com/hiway/python-qutescript][python-qutescript @Github]]
+    - [[qute://help/settings.html#bindings.commands][Settings references @Qutebrowser-doc]]
+    - [[qute://help/configuring.html][Keybinds and configuring @Qutebrowser-doc]]
+**** DONE Qutebrowser modular configs
+CLOSED: [2025-06-06 Fri 05:12]
+- *Objective:* /Re-write qutebrowser and make it modular/
+  - *File:* [[file:~/.config/qutebrowser/][config @Directory]]
+  - *Checkout:* [[https://github.com/whammou/dotfiles/commit/8f1d1a0c68f3c7f3de95d91896047db420495bfa][Modularize qutebrowser config @Commit]]
+- *References:* [[https://qutebrowser.org/doc/help/commands.html][Documentation @Qutebrowser]]
+**** PENDING Change highlight colors using patch
+- /*Objective:* Change chromium default highlight colors/
+- *Reference:* [[https://github.com/qutebrowser/qutebrowser/discussions/5978][Change highlight colors with system patch @Github-issue]]
+*** PARTIAL Working with youtube [66%] :YOUTUBE:
+CLOSED: [2025-06-05 Thu 02:01]
+-  /*Objective:*/ /Use youtube for documentation:/
+**** PENDING Package configurations [50%]
+- /*Objective:*/ /Configure packages for smoother experiences/
+***** DONE Youtube downloader - yt-dlp :YTDLP:
+CLOSED: [2025-05-22 Thu 06:28]
+- /*Objective:*/ /Increase yt-dlp downlaod speed/
+  - *Configuration:*
+    #+BEGIN_confini
+    --force-ipv4
+    --legacy-server-connect
+    --throttled-rate 500K
+    --concurrent-fragments 8
+    #+END_confini
+- Note taken on [2025-04-22 Tue 18:49] \\
+  yt-dlp download file format in mpv
+  #+BEGIN_SRC confini
+  ytdl-format = 'worstvideo[height>=720]+bestaudio'
+  #+END_SRC
+  - Youtube [[https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file][Cli-youtube-downloader @Github]]
+***** PENDING Youtube viewer - mpv :MPV:
+- /Prioritize sub selection script/
+  - *Visit:* [[https://github.com/CogentRedTester/mpv-sub-select][Mpv-sub-select @Github]]
+**** DONE Youtube workflow integration
+:LOGBOOK:
+- Note taken on [2025-04-28 Mon 06:08] \\
+Use ~xdg-utils-handlr~ along side with ~xdg-utils~ for extra features such as _regex-open_
+:END:
+CLOSED: [2025-04-22 Tue 18:49]
+- /Sucessfully open/ ~yt-url~ /in/ ~mpv~ using:
+  - *handlr:* [[id:0a3f8238-97cd-4aa2-a8dc-6ecea163efac][Default-application open method]]
+  - *mpv:* [[id:20071104-5e85-4d24-82a5-cf897074ac96][Integrate mpv youtube link]]
+**** DONE Youtube URL parameters
+CLOSED: [2025-04-28 Mon 09:18]
+- /*Objective:*/ /Set parameters in/ ~URL~ to create video snippets:
+  - *Materials:*
+    - [[https://developers.google.com/youtube/player_parameters?csw=1#Parameters][Player-parameters @Youtube-doc]]
+    - [[https://l.opnxng.com/r/youtube/comments/2eu12t/modify_youtube_url_for_specific_start_and_stop/][youtube specify start AND stop time @Reddit]]
+    - [[https://a.opnxng.com/exchange/stackoverflow.com/questions/68169842/is-there-a-comment-character-for-urls][Comments in url @Overflow]]
+  - *Examples:*
+    - [x] [[https://www.youtube.com/embed/WAm_S3K_zjg?start=01&end=51][with ~embed~ attr]]
+    - [x] [[https://www.youtube.com/watch?v=rP5V2CkHJfo#__preview][with comment]]
+    - [x] [[https://www.youtube.com/embed/WAm_S3K_zjg?start=01&end=51#__preview][With ~embed~ and ~comment~ ]]
+***** DONE Mark URL as preview
+CLOSED: [2025-06-05 Thu 02:00]
+- /*Objective:*/ /Specify normal url or preview url/
+  - *Visit:* [[id:20071104-5e85-4d24-82a5-cf897074ac96][Integrate mpv youtube link @Orgmode]]
+- *Reference:* [[https://docs.mapp.com/v1/docs/url-encoding-and-what-characters-are-valid-in-a-uri][URL comment character @Search]]
+*** PARTIAL Android linux sync :ANDROID:ARCH:LINUX:
+CLOSED: [2025-06-03 Tue 02:03]
+- [ ] /*Objective:*/ /Android and linux sync-up workflow/ [%]
+  - [ ]  [[https://bbs.archlinux.org/viewtopic.php?id=231050][Archlinux android sync @Archforum]]
+  - [ ]  [[https://l.opnxng.com/r/linuxmasterrace/comments/100gz0z/whats_the_best_way_to_transfer_files_between/][Transfer file between android and linux @Reddit]]
+- *Workaround:* Sync using cloud drives
+*** PARTIAL Kitty hint path error :KITTY:
+DEADLINE: <2025-06-08 Sun> CLOSED: [2025-06-08 Sun 05:17]
+:PROPERTIES:
+:ID: 19cf96c7-877d-4504-b6fd-1db0310af1a6
+:END:
+- /*Objective:* Find solution to kitty hint returns wrong format/
+  /When use ~map <key> kitten hints --type hyperlink --type path --program "program~ kitty returns the wrong format of hinted hyperlink/
+- *Reference:* [[https://sw.kovidgoyal.net/kitty/kittens/hints/#source-code-for-hints][Kitty hint documentation @Doc-kitty]]
+*** DONE Working with cloud-drives [100%] :REMOTE:DRIVE:
+CLOSED: [2025-06-10 Tue 01:10]
+:PROPERTIES:
+:ID:       882b4f23-d2f9-4274-87e5-fb041e4a0c48
+:END:
+- /*Objective:*/ /Manage data in cloud drives/
+**** DONE Config rclone [100%] :RCLONE:
+CLOSED: [2025-06-01 Sun 23:02]
+- /*Objective:*/ /Config rclone to sync with google-drive/
+  - [X] [[https://rclone.org/drive/#making-your-own-client-id][Make your own client-id @Doc-rclone]]
+- *References:* [[id:3700b025-3d42-4516-a17d-0eb37366d087][Working with rclone @Orgmode]]
+**** DONE Obtain google-drive API key :GDRIVE:
+CLOSED: [2025-06-01 Sun 22:46]
+- /*Objective:*/ /Obtain gdrive API for rclone/
+- *Visit:* [[https://support.google.com/googleapi/answer/6158862?hl=en][Setting up API keys @Doc-google]]
+**** DONE Quickly toggle drive :ROFI:
+CLOSED: [2025-06-10 Tue 01:10]
+- /*Objective:*/ /Write script to quickly toggle drive/
+- *References:* [[id:657f70b1-56fe-4503-93cb-3a2987f002e8][Mount dir menu @Orgmode]]

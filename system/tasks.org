@@ -98,7 +98,7 @@ CLOSED: [2025-05-12 Mon 09:04]
     - [[https://linkarzu.com/][Resources @Linkarzu]]
 *** TODO Toggle program :BASH:
 - *Objective:* /Toggle command using bash script/
-  - *References:* [[https://www.youtube.com/watch?v=eBzDiBAcIFo#__preview][A one line bash script to toggle programs on/off @Youtube-DistroTube]]
+- *References:* [[https://www.youtube.com/watch?v=eBzDiBAcIFo#__preview][A one line bash script to toggle programs on/off @Youtube-DistroTube]]
 *** PENDING Magic Tape sessions :MAGICTAPE:
 :PROPERTIES:
 :ID:       8546e69f-f9ab-46d7-b9fc-13356175edbf

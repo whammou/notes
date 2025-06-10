@@ -511,9 +511,9 @@ CLOSED: [2025-06-03 Tue 07:43]
 - /*Objective:*/ /Create note block with today inserted/
 - *References:* [[https://l.opnxng.com/r/neovim/comments/wi4uf3/how_do_i_insert_current_date_or_time/][Insert today date in friendly snippet @Reddit]]
 * PARTIAL Kitty hint path error :KITTY:
-DEADLINE: <2025-06-08 Sun> CLOSED: [2025-06-08 Sun 05:17]
+CLOSED: [2025-06-08 Sun 05:17] DEADLINE: <2025-06-08 Sun>
 :PROPERTIES:
-:ID: 19cf96c7-877d-4504-b6fd-1db0310af1a6
+:ID:       19cf96c7-877d-4504-b6fd-1db0310af1a6
 :END:
 - /*Objective:* Find solution to kitty hint returns wrong format/
   /When use ~map <key> kitten hints --type hyperlink --type path --program "program~ kitty returns the wrong format of hinted hyperlink/

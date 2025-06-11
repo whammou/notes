@@ -365,7 +365,13 @@ CLOSED: [2025-06-03 Tue 07:43]
 - *Reference:* [[https://ryan.himmelwright.net/post/scripting-tmux-workspaces/][Scripting tmux workspace @Blog]]
 * Test github render :GITHUB:
 - /*Objective:* Test github orgmode render capability for math equations/
-** Polynomial function with symbols :LATEX:
+** Render math equations :LATEX:
 $$\theta = \frac{s}{r} \text{ with } 360 \textdegree = 2 \pi \text{ } rad$$
 $$\omega_{av} = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}$$
 $$\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$$
+** Render html
+
+<details>
+  <summary><b>Example</b></summary>
+  As an example, imagine that the preferred design option you have been working on with your design team is a rainwater capture system, one of the components is a tank to store the rainwater. During Preliminary Design you have determined that to take into consideration how climate change will affect future rainfall patterns you will need a greater tank volume. This means a larger tank which will add cost and may require a larger physical footprint. With the new cost calculated and footprint determined the design can be verified against the design constraints (which let’s assume included budget and maximum sizing).
+</details>

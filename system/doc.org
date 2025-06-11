@@ -396,7 +396,7 @@ CLOSED: [2025-06-08 Sun 00:02]
 - [ ] /*Objective:* Create a hidden group to for floating windows/
 - [ ] /*Objective:* Call hidden windows to current screen/
 **** ABORTED Windows grouping
-DEADLINE: <2025-05-09 Fri 18:00> CLOSED: [2025-06-08 Sun 05:07]
+CLOSED: [2025-06-08 Sun 05:07] DEADLINE: <2025-05-09 Fri 18:00>
 - [X] /*Objective:*/ /Assign grouping for windows with the same wm_class/
   - *Visit:* [[https://github.com/aravinda0/qtile-bonsai/discussions/12#discussioncomment-11095207][new window grouping @Github-discussion]]
 - +[ ] /*Objective:*/ /Assign goruping for *specific* windows with the same wn_class/+

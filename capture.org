@@ -387,6 +387,6 @@ CLOSED: [2025-06-11 Wed 16:21]
 - /*Objective:* See how github render orgmode embedded images/
 #+BEGIN_HTML
 <p align="center">
-  <IMG src="/home/whammou/notes/assets/lobes.jpg" alt="centripetal force" width=50%/>
+  <IMG src="./assets/lobes.jpg" alt="centripetal force" width=50%/>
 </p>
 #+END_HTML

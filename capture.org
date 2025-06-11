@@ -334,7 +334,7 @@ $$\theta = \frac{s}{r} \text{ with } 360 \textdegree = 2 \pi \text{ } rad$$
 $$\omega_{av} = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}$$
 $$\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$$
 
-This is a inline math block \omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}
+This is a inline math block \omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t} <br/>
 This is another inline mathblock $\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$
 ** DONE Render html
 CLOSED: [2025-06-11 Wed 16:21]

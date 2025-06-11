@@ -363,3 +363,7 @@ CLOSED: [2025-06-03 Tue 07:43]
 - /*Objective:* Create a persist session for orgmode notes/
 - *Complication:* nvim does not allow edit if multiple session are running
 - *Reference:* [[https://ryan.himmelwright.net/post/scripting-tmux-workspaces/][Scripting tmux workspace @Blog]]
+* Math equations render :LATEX:
+- /*Objective:* Test github orgmode render capability for math equations/
+** Polynomial function with symbols
+$$\theta = \frac{s}{r} \text{ with } 360 \textdegree = 2 \pi \text{ } rad$$

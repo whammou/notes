@@ -334,9 +334,12 @@ $$\theta = \frac{s}{r} \text{ with } 360 \textdegree = 2 \pi \text{ } rad$$
 $$\omega_{av} = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}$$
 $$\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$$
 
-This is a inline math block \omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}  
+This is a inline math block \omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}
+
 This is another inline mathblock $\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$
+
 This is yet another inline mathblock $`\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}`$
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
 
 ```math
 \left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)

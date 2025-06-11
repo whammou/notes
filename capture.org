@@ -336,7 +336,7 @@ $$\omega_{av} = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\De
 
 $$\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$$
 
-$$\omega = \lim\_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$$
+$$\omega = {\lim_{\Delta t \to 0}} \frac{\Delta \theta}{\Delta t}$$
 
 This is a inline math block \omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}
 
@@ -349,6 +349,8 @@ $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \
 ```math
 \left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
 ```
+- *Complication:* Mathjax unable to expand "_"
+- *Reference:* [[https://ao.bloat.cat/exchange/tex.stackexchange.com/questions/269701/are-there-alternative-methods-to-for-subscripting-in-math-mode][Mathjax subscript superscript workaround @Overflow]]
 ** DONE Render html
 CLOSED: [2025-06-11 Wed 16:21]
 - /*Objective:* See how github render orgmode html fragment/

@@ -338,7 +338,9 @@ $$\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$$
 
 $$\alpha_{av} = \frac{\omega_f - \omega_i}{t_f - t_i} = \frac{\Delta \omega}{\Delta t}$$
 
-$$e^{x^2}_i$$
+$$e^{x^2}$$
+
+$$e_i^{x^2}$$
 
 This is a inline math block \omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}
 

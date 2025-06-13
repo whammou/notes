@@ -576,9 +576,9 @@ CLOSED: [2025-06-03 Tue 02:03]
   - [ ]  [[https://l.opnxng.com/r/linuxmasterrace/comments/100gz0z/whats_the_best_way_to_transfer_files_between/][Transfer file between android and linux @Reddit]]
 - *Workaround:* Sync using cloud drives
 *** PARTIAL Kitty hint path error :KITTY:
-DEADLINE: <2025-06-08 Sun> CLOSED: [2025-06-08 Sun 05:17]
+CLOSED: [2025-06-08 Sun 05:17] DEADLINE: <2025-06-08 Sun>
 :PROPERTIES:
-:ID: 19cf96c7-877d-4504-b6fd-1db0310af1a6
+:ID:       19cf96c7-877d-4504-b6fd-1db0310af1a6
 :END:
 - /*Objective:* Find solution to kitty hint returns wrong format/
   /When use ~map <key> kitten hints --type hyperlink --type path --program "program~ kitty returns the wrong format of hinted hyperlink/

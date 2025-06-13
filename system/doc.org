@@ -602,3 +602,42 @@ CLOSED: [2025-06-01 Sun 22:46]
 CLOSED: [2025-06-10 Tue 01:10]
 - /*Objective:*/ /Write script to quickly toggle drive/
 - *References:* [[id:657f70b1-56fe-4503-93cb-3a2987f002e8][Mount dir menu @Orgmode]]
+*** DONE Working with rofi [100%] :ROFI:
+CLOSED: [2025-06-11 Wed 23:45]
+- /*Objective:*/ /Implement rofi to workflow/
+- *Visit:* [[https://davatorium.github.io/rofi/][Rofi official page @Doc-rofi]]
+**** DONE Implement rofi scripts [100%]
+CLOSED: [2025-06-11 Wed 23:45]
+- /*Objective:*/ /Adding rofi scripts for more optimal workflow/
+***** DONE Implement window switcher
+CLOSED: [2025-05-30 Fri 16:50]
+- /*Objective:*/ /Quickly switch to a widow/
+  - To launch rofi window-switcher, run: ~rofi --show window~
+***** DONE Implement power-menu
+CLOSED: [2025-05-31 Sat 07:17]
+- /*Objective:*/ /Choose power option quickly with rofi/
+- *References:* [[https://wiki.archlinux.org/title/Rofi][Rofi power management @Archwiki]]
+  - To launch rofi power-menu, run: ~rofi -show power-menu -modi power-menu:/sbin/rofi-power-menu~
+***** DONE Implement clipboard history :GREENCLIP:
+CLOSED: [2025-05-31 Sat 23:57]
+:PROPERTIES:
+:ID:       d17ebad8-7524-43b8-b6be-0b3f808a9aaa
+:END:
+- /*Objective:*/ /Quickly choose clipboard history with rofi/
+- *References:* [[https://wiki.archlinux.org/title/Rofi][Rofi clipboard-history @Archwiki]]
+  - To launch rofi clipboard-history, run ~rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}'~
+****** DONE Enable clipmenu daemon
+CLOSED: [2025-05-31 Sat 23:57]
+- /*Objective:*/ /Enable greenclip daemon/
+- *Reference:* [[https://github.com/erebe/greenclip][Clipmenu @Github]]
+  - To enable clipmenu daemon, run: ~greenclip --daemon &~ in [[file:~/.config/qtile/autostart.sh][autostart.sh]]
+**** DONE Theming rofi [100%]
+CLOSED: [2025-06-01 Sun 00:29]
+- /*Objective:*/ /Theme rofi to match system/
+- *References:*
+  - [[https://github.com/davatorium/rofi/blob/next/doc/rofi-theme.5.markdown][Rofi theme @Github]]
+  - [[https://github.com/newmanls/rofi-themes-collection?tab=readme-ov-file][Extra themes @Github]]
+***** DONE Custom theme
+CLOSED: [2025-06-01 Sun 00:29]
+- /*Objective:*/ /Make rofi size as small as ~qtile-bar~/
+- *References:* [[https://github.com/davatorium/rofi/blob/next/doc/rofi-theme.5.markdown][Rofi-theme @Github]]

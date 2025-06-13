@@ -240,17 +240,6 @@ CLOSED: [2025-01-10 Fri 02:27]
 ** PENDING Nvim integration :NVIM:
 CLOSED: [2025-05-28 Wed 04:03]
 - *Goal(s):* render response in markdown to take advantage of nvim markdown render
-* DONE Working with gsuit [100%] :GSUIT:
-CLOSED: [2025-06-09 Mon 23:53]
-:PROPERTIES:
-:ID:       26de28b6-a86c-46eb-a91f-81a01d31115f
-:END:
-1. [X] /*Objective:*/ /Edditing documents using google documents suits/
-2. [X] /*Objective:*/ /Mount cloud-drive to edit documents locally/
-- *Checkout:* [[id:b1c36c41-af26-452e-9bca-002fc835cc5f][Workaround rclone cache mode @Orgmode]]
-- *Reference:*
-  - [[https://reddit.com/comments/1dcpg93/comment/l7zrycr][Rclone google drive @Reddit]]
-  - [[id:882b4f23-d2f9-4274-87e5-fb041e4a0c48][Working with cloud-drives @Orgmode]]
 * TODO Config terminal app titles :UI:
 - /*Objective:*/ /Config terminal app titles/
   - Config title to look the same: ~<content> - <appname>~
@@ -265,11 +254,22 @@ CLOSED: [2025-06-09 Mon 23:53]
 :END:
 - /*Objective:*/ /Convert documents from PDF to latex using AI/
 - *Reference:* [[https://www.reddit.com/r/Bard/comments/1bgstvx/suddenly_discovered_latex_on_gemini_web/][Latex on Gemini @Reddit]]
-* TODO Working with virtual machines :VM:
+* TODO Windows software on linux :WINDOWS:LINUX:
+- /*Objective:* Running windows exclusive software on linux e.g., cad, offices, pts/
+** Running Virtual machines :VM:
 - *Keypoint:* /Virutal machine on linux/
 - *References:*
   - [[https://l.opnxng.com/r/docker/comments/q6ykxa/when_should_you_choose_vms_over_docker/][Docker vs Vms when @Reddit]]
   - [[https://www.atlassian.com/microservices/cloud-computing/containers-vs-vms][VMs vs Dockers differences @Atlassian]]
+  - [[https://l.opnxng.com/r/linuxquestions/comments/144nvkt/how_viable_is_it_to_use_a_windows_virtual_machine/][How viable is using wm wind on linux @Reddit]]
+*** CAD softwares :CAD:SOLIDWORKS:
+- /*Objective:* Running CAD Software on linux/
+- *Reference:* [[https://github.com/cryinkfly/SOLIDWORKS-for-Linux][Soliworks on linux @Github]]
+** Running remote software
+- /*Objective:* Connect to a running remote desktop from linux/
+- *Reference:*
+  - [[https://l.opnxng.com/r/linux4noobs/comments/148dko9/looking_for_remote_software_for_linux_laptop_to/][Remote software for linux desktop @Reddit]]
+  - [[https://www.youtube.com/watch?v=EXL8mMUXs88#__preview][Remote desktops foss @Youtube-preview]]
 * DOING Working with rclone [66%] :RCLONE:
 :PROPERTIES:
 :ID:       3700b025-3d42-4516-a17d-0eb37366d087
@@ -325,51 +325,3 @@ CLOSED: [2025-06-03 Tue 07:43]
 - /*Objective:* Create a persist session for orgmode notes/
 - *Complication:* nvim does not allow edit if multiple session are running
 - *Reference:* [[https://ryan.himmelwright.net/post/scripting-tmux-workspaces/][Scripting tmux workspace @Blog]]
-* DOING Test github render [66%] :GITHUB:
-- /*Objective:* Test github orgmode render capability for math equations/
-** DONE Render math equations :LATEX:
-CLOSED: [2025-06-11 Wed 16:21]
-- /*Objective:* See Github render orgmode latex fragment/
-$$\theta = \frac{s}{r} \text{ with } 360 \textdegree = 2 \pi \text{ } rad$$
-
-$$\omega_{av} = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}$$
-
-$$\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$$
-
-$$\alpha_{av} = \frac{\omega_f - \omega_i}{t_f - t_i} = \frac{\Delta \omega}{\Delta t}$$
-
-  - Testing subscript and superscript $e^{x^2}$ and $e_i^{x^2}$ and e_i^{x^2} and e^{x^2}
-
-$$e^{x^2}$$
-
-$$e_i^{x^2}$$
-
-This is a inline math block \omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}
-
-This is another inline mathblock $\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$
-
-This is yet another inline mathblock $`\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}`$
-
-$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
-
-```math
-\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
-```
-- *Complication:* Mathjax unable to expand "_"
-- *Reference:* [[https://ao.bloat.cat/exchange/tex.stackexchange.com/questions/269701/are-there-alternative-methods-to-for-subscripting-in-math-mode][Mathjax subscript superscript workaround @Overflow]]
-** DONE Render html
-CLOSED: [2025-06-11 Wed 16:21]
-- /*Objective:* See how github render orgmode html fragment/
-#+BEGIN_HTML
-<details>
-  <summary><b>Example</b></summary>
-  As an example, imagine that the preferred design option you have been working on with your design team is a rainwater capture system, one of the components is a tank to store the rainwater. During Preliminary Design you have determined that to take into consideration how climate change will affect future rainfall patterns you will need a greater tank volume. This means a larger tank which will add cost and may require a larger physical footprint. With the new cost calculated and footprint determined the design can be verified against the design constraints (which let’s assume included budget and maximum sizing).
-</details>
-#+END_HTML
-** TODO Render embedded images
-- /*Objective:* See how github render orgmode embedded images/
-#+BEGIN_HTML
-<p align="center">
-  <IMG src="./assets/lobes.jpg" alt="centripetal force" width=50%/>
-</p>
-#+END_HTML

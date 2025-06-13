@@ -581,6 +581,67 @@ CLOSED: [2025-06-08 Sun 05:17]
 3. [X] /*Objective:*/ /Config feh vim-keybinds/
    - *Visit:* [[file:/usr/share/applications/feh.desktop][feh.desktop]]
 - *References:* [[https://github.com/derf/feh/blob/master/examples/keys][Feh vim keymap @Github]]
+** DONE Test github render [100%] :GITHUB:
+CLOSED: [2025-06-12 Thu 05:01]
+- /*Objective:* Test github orgmode render capability for math equations/
+*** ABORTED Render math equations :LATEX:
+CLOSED: [2025-06-11 Wed 16:21]
+- /*Objective:* See Github render orgmode latex fragment/
+$$\theta = \frac{s}{r} \text{ with } 360 \textdegree = 2 \pi \text{ } rad$$
+
+$$\omega_{av} = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}$$
+
+$$\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$$
+
+$$\alpha_{av} = \frac{\omega_f - \omega_i}{t_f - t_i} = \frac{\Delta \omega}{\Delta t}$$
+
+- Testing subscript and superscript $e^{x^2}$ and $e_i^{x^2}$ and e_i^{x^2} and e^{x^2}
+  
+$$e^{x^2}$$
+
+$$e_i^{x^2}$$
+
+This is a inline math block \omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}
+
+This is another inline mathblock $\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$
+
+This is yet another inline mathblock $`\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}`$
+
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+
+```math
+\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+```
+- *Complication:* Mathjax unable to expand "_"
+- *Reference:* [[https://ao.bloat.cat/exchange/tex.stackexchange.com/questions/269701/are-there-alternative-methods-to-for-subscripting-in-math-mode][Mathjax subscript superscript workaround @Overflow]]
+*** DONE Render html
+CLOSED: [2025-06-11 Wed 16:21]
+- /*Objective:* See how github render orgmode html fragment/
+#+BEGIN_HTML
+<details>
+  <summary><b>Example</b></summary>
+  As an example, imagine that the preferred design option you have been working on with your design team is a rainwater capture system, one of the components is a tank to store the rainwater. During Preliminary Design you have determined that to take into consideration how climate change will affect future rainfall patterns you will need a greater tank volume. This means a larger tank which will add cost and may require a larger physical footprint. With the new cost calculated and footprint determined the design can be verified against the design constraints (which let’s assume included budget and maximum sizing).
+</details>
+#+END_HTML
+*** DONE Render embedded images
+CLOSED: [2025-06-12 Thu 05:00]
+- /*Objective:* See how github render orgmode embedded images/
+#+BEGIN_HTML
+<p align="center">
+  <IMG src="./assets/lobes.jpg" alt="centripetal force" width=50%/>
+</p>
+#+END_HTML
+** DONE Working with gsuit [100%] :GSUIT:
+CLOSED: [2025-06-09 Mon 23:53]
+:PROPERTIES:
+:ID:       26de28b6-a86c-46eb-a91f-81a01d31115f
+:END:
+1. [X] /*Objective:*/ /Edditing documents using google documents suits/
+2. [X] /*Objective:*/ /Mount cloud-drive to edit documents locally/
+- *Checkout:* [[id:b1c36c41-af26-452e-9bca-002fc835cc5f][Workaround rclone cache mode @Orgmode]]
+- *Reference:*
+  - [[https://reddit.com/comments/1dcpg93/comment/l7zrycr][Rclone google drive @Reddit]]
+  - [[id:882b4f23-d2f9-4274-87e5-fb041e4a0c48][Working with cloud-drives @Orgmode]]
 * DONE Update wallpaper :UI:
 CLOSED: [2025-06-03 Tue 11:59] DEADLINE: <2025-06-03 Tue>
 :PROPERTIES:

@@ -11,18 +11,18 @@
   - *References:* [[https://ao.bloat.cat/exchange/stackoverflow.com/questions/39498702/passing-arguments-to-python-from-shell-script][Passing shell argument to python @Overflow]]
 ** TODO Python virutal enviroment
 - *OBJECTIVE:* /Manage python virtual enviroments/
-  - To initiate virtual environment, run ~python -m venv <name>~
+  - To initiate virtual environment, run =python -m venv <name>=
 - *Visit:* [[https://www.youtube.com/watch?v=IYcTaZfjODg#__preview][Understand python vm @Youtube]]
 *** Manage packages
 - *OBJECTIVE:* /Save virtual environemnt state/
-  - To create lock file, run (when inside virtual environment) ~pip freeze > requirements.txt~
-  - To install from ~requirements.txt~ run ~pip install -r requirements.txt~
+  - To create lock file, run (when inside virtual environment) =pip freeze > requirements.txt=
+  - To install from =requirements.txt= run =pip install -r requirements.txt=
 ** DOING [#C] Python as a tool for note-taking :WORFLOW:
 - *OBJECTIVE:* /Create a tool ultilies python and latex in nvim to create similar workflow in this/ [[https://l.opnxng.com/r/neovim/comments/yfbfvu/sympy_luasnip_vimtex/][post]]
 - *References:* [[https://castel.dev/post/lecture-notes-1/][How I take math notes with LaTex @Blog]]
 * DOING Orgmode Manual [85%] :ORGMODE:
 CLOSED: [2024-11-07 Thu 06:08]
-/Because ~orgzly-android~ is under development and features are limited some implementations will be a work around and possibly revisit in the future, check for request features/ [[https://github.com/orgzly-revived/orgzly-android-revived/issues/88][prioritized requested features]]
+/Because =orgzly-android= is under development and features are limited some implementations will be a work around and possibly revisit in the future, check for request features/ [[https://github.com/orgzly-revived/orgzly-android-revived/issues/88][prioritized requested features]]
 ** DONE Orgmode Include Files
 CLOSED: [2024-09-06 Fri 21:35]
 :PROPERTIES:
@@ -38,30 +38,30 @@ CLOSED: [2024-09-30 Mon 03:38]
 - *Goal(s):* Learn to search in orgmode repo
 tumble-upon:* [[https://www.orgzlyrevived.com/docs#search][orgzly-manual]]  [[https://orgmode.org/worg/org-tutorials/advanced-searching.html][nvim-orgmode]]
 
-/For now, ~orgzly-android~ does not support search by property, check/ [[https://github.com/orgzly/orgzly-android/issues/146][issue:search by property drawer]]
+/For now, =orgzly-android= does not support search by property, check/ [[https://github.com/orgzly/orgzly-android/issues/146][issue:search by property drawer]]
 ** DONE Orgmode Hyperlink
 CLOSED: [2024-10-08 Tue 22:58]
 - *Visit:* [[https://github.com/nvim-orgmode/orgmode/blob/master/DOCS.md#hyperlinks][nvim-orgmode#hyperlink]] see how nvim-orgmode handle hyperlink
 - *Note:* Cross file include
 ** DONE Orgmode Tag
 CLOSED: [2024-10-01 Tue 06:03]
-- *Visit:* [[https://www.orgzly.com/docs#search][orgzly#search]] how orgzly handle headline ~tag~
-- *Suggestion:* Use [[./README.org][README]] to generate a list of ~tags~ and its ~description~
+- *Visit:* [[https://www.orgzly.com/docs#search][orgzly#search]] how orgzly handle headline =tag=
+- *Suggestion:* Use [[./README.org][README]] to generate a list of =tags= and its =description=
 ** DONE Orgmode PROPERTIES
 CLOSED: [2024-10-01 Tue 06:03]
 - *Goal(s):* Read [[https://orgmode.org/manual/Properties-and-Columns.html][PROPERTIES@orgmanual]] 
 *** Property Syntax
-A. Properties are key-value pairs. When they are associated with single entry or with a tree they need to inserted in to special drawer with the name ~:PROPERTIES:~, which has to located right below a headline, and its planning line
-B. Depend on the value of ~org-use-property-inheritance~, a property set this way is associated either with a single entry, or with the subtree defined by the entry
+A. Properties are key-value pairs. When they are associated with single entry or with a tree they need to inserted in to special drawer with the name =:PROPERTIES:=, which has to located right below a headline, and its planning line
+B. Depend on the value of =org-use-property-inheritance=, a property set this way is associated either with a single entry, or with the subtree defined by the entry
 C. Properties can be inserted at the buffer level. That means they apply before the first headline and can be inherited by all entries in a file. Property blocks defined before the first headline must be at the top of the buffer with only comments above them
    
 \Note that a property can only have one try per drawer\
 
-Property values set with the global variable ~org-global-properties~ can be inherited by all entries in all Org files
+Property values set with the global variable =org-global-properties= can be inherited by all entries in all Org files
 *** Special Properties
 Special properties provide an alternative access method to Org mode features, like the TODO sate or the priority of an entry:
 
-- ~#+FILETAG: :FOO:BAR:~: notebook tag
+- =#+FILETAG: :FOO:BAR:=: notebook tag
 ** DOING Org2ical [%] :DATA:
 - *OBJECTIVE:* Generate .ics files from .org files(use homelab for daily merge)
 - *Visit:*  [[https://pypi.org/project/org2ical/][org2ical package]] [[https://github.com/jacobmischka/ics-merger][icals merger]]
@@ -76,8 +76,8 @@ Special properties provide an alternative access method to Org mode features, li
 CLOSED: [2024-12-26 Thu 22:28]
 * TODO Config system notification :NOTIFICATION:
 - *OBJECTIVE:* /Config system notifications with dunst/
-  - *Run:* ~man dunst~
-  - *File:* [[file:~/.config/dunst/dunstrc][dunst config @Confini]]
+  - *Run:* =man dunst=
+  - *File:* [[file:=/.config/dunst/dunstrc][dunst config @Confini]]
   - *Visit:* [[id:45d7010b-dd20-44c8-a271-51ac24ba840e][Icon packs @Orgmode]]
 ** DONE Dunst notification stacking [100%] :DUNST:
 CLOSED: [2025-06-04 Wed 09:07]
@@ -101,9 +101,9 @@ CLOSED: [2025-06-04 Wed 09:07]
 - *Stumble upon:* [[https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/]]
 *** The Anatomy of a Commit Message
 - *Basic:*
-  ~git commit -m <message>~
+  =git commit -m <message>=
 - *Detailed:*
-  ~git commit -m <title> -m <description>~
+  =git commit -m <title> -m <description>=
 *** 5 Steps to write a better commit message
 - Note taken on [2024-09-21 Sat 21:37] \\
   To come up with thoughtful commits consider the following: 
@@ -115,7 +115,7 @@ CLOSED: [2025-06-04 Wed 09:07]
 1. *Capitalization and Punctuation:*
    Capitalize the first word and do not end in punctuation. If using /Convention Commits/, remember to use all lowercase
 2. *Mood:*
-   Use imperative mood in the subject line. *Example -* ~Add fix~ for ~dark mode toggle state~. Imperative mood fives the tone you are giving in /order/ or /request/
+   Use imperative mood in the subject line. *Example -* =Add fix= for =dark mode toggle state=. Imperative mood fives the tone you are giving in /order/ or /request/
 3. *Type of Commit:*
    Specify the type of commit. It is recommended and can be even more beneficial to have consistent set of words to describe your changes. *Example:* /Bugfix/, /Update/, /Retractor/, /Bump/, and so on.
 4. *Length:*
@@ -134,28 +134,28 @@ Conventional Commit is a formatting convention that provides as set of rules to 
 [optional footer(s)]
 #+END_SRC
 
-The commit ~type~ can include the following:
+The commit =type= can include the following:
 
-- ~feat~ -a new feature is introduces with the changes
-- ~fix~ -a bug fix has occurred
-- ~chore~ -changes that do not relate to a fix or feature and don't modify src or test files (for example updating dependencies)
-- ~refractor~ -refactored code that neither fixes a bug nor adds a feature
-- ~doc~ - updates to documentation such as the README or other markdown files
-- ~style~ -changes that do not affect the meaning of the code, likely realted to code formatting such as white-space, missing semi-colons, and so on
-- ~test~ -including new or correcting previous tests
-- ~perf~ -performance improvements
-- ~ci~ -continuous integration related
-- ~build~ -changes tha affect the build system or external dependencies
-- ~revert~ -reverts a previous commit
+- =feat= -a new feature is introduces with the changes
+- =fix= -a bug fix has occurred
+- =chore= -changes that do not relate to a fix or feature and don't modify src or test files (for example updating dependencies)
+- =refractor= -refactored code that neither fixes a bug nor adds a feature
+- =doc= - updates to documentation such as the README or other markdown files
+- =style= -changes that do not affect the meaning of the code, likely realted to code formatting such as white-space, missing semi-colons, and so on
+- =test= -including new or correcting previous tests
+- =perf= -performance improvements
+- =ci= -continuous integration related
+- =build= -changes tha affect the build system or external dependencies
+- =revert= -reverts a previous commit
   
 /The commit type subject line should be all lowercase with a character limit to encourage succinct descriptions/
 
-The ~[optional commit body]~ should be used to provide detail that cannot fit within the character limitations of the subject line description
+The =[optional commit body]= should be used to provide detail that cannot fit within the character limitations of the subject line description
 
-It is also good location to utilize ~BREAKING CHANGE: <description>~ to note the reason for a breaking change within the commit
+It is also good location to utilize =BREAKING CHANGE: <description>= to note the reason for a breaking change within the commit
 
-The ~[footer]~ is also optional. We use the footer to link the JIRA story what would be closed with these changes for example:
-~Closes D2!I-<JIRA #>~
+The =[footer]= is also optional. We use the footer to link the JIRA story what would be closed with these changes for example:
+=Closes D2!I-<JIRA #>=
 
 #+NAME: Full Conventional Commit Example
 #+BEGIN_SRC
@@ -177,7 +177,7 @@ Closes D2IQ-12345
 * TODO Working with pandoc :PANDOC:
 - *OBJECTIVE:* /Develop workflow with pandoc to convert between files/
 ** TODO Pandoc font settings :PANDOC:
-Set conversion fonts from ~markdown~ to ~LaTex~
+Set conversion fonts from =markdown= to =LaTex=
 *Visit:* [[https://a.opnxng.com/exchange/tex.stackexchange.com/questions/234786/how-to-set-a-font-family-with-pandoc][pandoc fonts]]
 * DOING Integrating AI [50%] :AI:
 - *OBJECTIVE:* /Integrate AI to current workflow/
@@ -200,7 +200,7 @@ CLOSED: [2025-01-10 Fri 02:28]
 **** DONE Making request via script
 CLOSED: [2025-01-10 Fri 02:27]
 - *Goal(s):* make request from terminal to Gemini
-- *Note:* use the [[https://ai.google.dev/api/generate-content#method:-models.generatecontent][~generateContent~]] to make request to Gemini API
+- *Note:* use the [[https://ai.google.dev/api/generate-content#method:-models.generatecontent][=generateContent=]] to make request to Gemini API
   #+NAME: Make request to Gemini API
   #+BEGIN_SRC python
   import google.generativeai as genai
@@ -225,11 +225,11 @@ CLOSED: [2025-01-10 Fri 02:27]
 :PROPERTIES:
 :ID:       4af0707d-93ed-4689-b971-15c9ebfebdd8
 :END:
-- *Goal(s):* working on integrate AI with ~kitty~
+- *Goal(s):* working on integrate AI with =kitty=
 - [IDEA] Run fabric with current hint-url
-  - To implement, run: ~fabric -uy <hint-url> | fabric -p <pattern> -o <output>~
-    - [ ] Query  [[file:~/.config/fabric/patterns/][~<patterns>~]] with ~fzf-menu~
-    - [ ] Create output ~hierarchy~
+  - To implement, run: =fabric -uy <hint-url> | fabric -p <pattern> -o <output>=
+    - [ ] Query  [[file:=/.config/fabric/patterns/][=<patterns>=]] with =fzf-menu=
+    - [ ] Create output =hierarchy=
 - *Visit:*
   - [[id:90a03e2c-edb3-4afd-8252-462b6d912cbe][Improve kitty worflow @Orgmode]]
   - [[id:f0e11344-5210-4709-b5df-f6de28e7ee7a::*Function fzf][Fzf menu @Orgmode]]
@@ -243,7 +243,7 @@ CLOSED: [2025-05-28 Wed 04:03]
 - *Goal(s):* render response in markdown to take advantage of nvim markdown render
 * TODO Config terminal app titles :UI:
 - *OBJECTIVE:* /Config terminal app titles/
-  - Config title to look the same: ~<content> - <appname>~
+  - Config title to look the same: =<content> - <appname>=
 * DOING Working with Latex [0%] :LATEX:
 :PROPERTIES:
 :ID:       bcf659a7-1e46-4a4b-b8e0-b237c7f1f8aa
@@ -289,8 +289,8 @@ CLOSED: [2025-06-03 Tue 07:45]
 - [X] *OBJECTIVE:* /Mount directories via rofi menu/
 +- [ ] *OBJECTIVE:* /Config mount point dest/+
 - *Checkout:* related files
-  - [[file:~/.config/qtile/settings/widgets.py][widgets.py @Qtile-config]]
-  - [[file:~/dotfiles/scripts/rofi-mount][rofi-mount @Rofi-script]]
+  - [[file:=/.config/qtile/settings/widgets.py][widgets.py @Qtile-config]]
+  - [[file:=/dotfiles/scripts/rofi-mount][rofi-mount @Rofi-script]]
 - *References:* [[https://l.opnxng.com/r/archlinux/comments/15mz7rj/bash_script_to_mountunmount_rclone_affiliated/?tl=zh-hant][Script mount/umount rclone mount points @Reddit]]
 *** TODO Change icons in qtile bar accordingly
 - *Complication:* Icons for mulitple clouds
@@ -320,8 +320,8 @@ CLOSED: [2025-06-03 Tue 07:43]
   - *Visit:* [[https://github.com/lervag/vimtex][Vimtex plugin @Github]]
 ** TODO Files conversion :PANDOC:GEMINI:
 - [-] *OBJECTIVE:* Convert documents from and to latex/ [50%]
-  - [ ] Convert from pdf to latex - Use ~Gemini-2.5-pro~
-  - [X] Convert from latex to pdf - Use ~latexmk~ or ~pandoc~
+  - [ ] Convert from pdf to latex - Use =Gemini-2.5-pro=
+  - [X] Convert from latex to pdf - Use =latexmk= or =pandoc=
 - *Complication:* Workflow integration
   Having to log on [[https://gemini.google.com/app][Google gemini @Google]] is not ideal - Integrate to shell or nvim
 * TODO Create scripted tmux session :TMUX:
@@ -335,9 +335,11 @@ CLOSED: [2025-06-03 Tue 07:43]
   - [[https://l.opnxng.com/r/learnpython/comments/stfbow/how_to_tell_python_to_ignore_list_out_of_index/][Ignore list out of index @Reddit]]
 * PENDING Qtile notification bug :QTILE:
 - *OBJECTIVE:* Notification disappear when fire/ =hide_floating()=
-* Prettify orgmode documents :ORGMODE:
+* DOING Prettify orgmode documents [%] :ORGMODE:
 - *OBJECTIVE:* Prettify my org documents
-** Testing math render :GITHUB:
+- *Reference:* [[https://github.com/noncog/github-org-mode-hacks][Github orgmode hacks @Github]]
+** DONE Testing math render :GITHUB:
+CLOSED: [2025-06-15 Sun 01:21]
 - *OBJECTIVE:* Testing markup and math render on github
   - This is inline math block: $\omega_{av} = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}$
   $$\omega_av = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}$$
@@ -346,5 +348,5 @@ CLOSED: [2025-06-03 Tue 07:43]
   - This is inline math block: \omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}
   $$\omega = \lim^2_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$$\\
 - *Reference:* [[https://ao.bloat.cat/exchange/stackoverflow.com/questions/31534084/how-can-i-get-github-to-display-inline-math-in-readme-org-file#79302884][State of orgmode in github @Overflow]]
-** Config orgmode documents :GITHUB:
+** TODO Config orgmode documents :GITHUB:
 - *OBJECTIVE:* Config orgmode for better document render on github

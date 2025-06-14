@@ -248,12 +248,14 @@ CLOSED: [2025-05-28 Wed 04:03]
 :ID:       bcf659a7-1e46-4a4b-b8e0-b237c7f1f8aa
 :END:
 - /*Objective:*/ /Convert files to latex and from latex/
-** TODO LLM pdf to latex :AI:
+** TODO Convert PDF to latex :AI:
 :PROPERTIES:
 :ID:       0fba82ab-0863-4292-838e-bee27fb27153
 :END:
 - /*Objective:*/ /Convert documents from PDF to latex using AI/
 - *Reference:* [[https://www.reddit.com/r/Bard/comments/1bgstvx/suddenly_discovered_latex_on_gemini_web/][Latex on Gemini @Reddit]]
+** Convert PDF to markdown
+- /*Objective:* Convert pdf to markdown/
 * TODO Windows software on linux :WINDOWS:LINUX:
 - /*Objective:* Running windows exclusive software on linux e.g., cad, offices, pts/
 ** Running Virtual machines :VM:
@@ -325,3 +327,20 @@ CLOSED: [2025-06-03 Tue 07:43]
 - /*Objective:* Create a persist session for orgmode notes/
 - *Complication:* nvim does not allow edit if multiple session are running
 - *Reference:* [[https://ryan.himmelwright.net/post/scripting-tmux-workspaces/][Scripting tmux workspace @Blog]]
+* TODO Handle exception in python :PYTHON:
+- /*Objective:* Handle exceptions error from populating logs/
+- *Reference:*
+  - [[https://m.opnxng.com/@akulahemanth/pythons-contextlib-suppress-a-clean-way-to-handle-exceptions-db7439e32025][Clean way to handle error exception @Blog]]
+  - [[https://l.opnxng.com/r/learnpython/comments/stfbow/how_to_tell_python_to_ignore_list_out_of_index/][Ignore list out of index @Reddit]]
+* PENDING Qtile notification bug :QTILE:
+- /*Objective:* Notification disappear when fire/ =hide_floating()=
+* Testing math render
+- _*Objective:* Testing markup and math render_
+- \omega_{av} = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}
+- \omega^2 = \omega^2_i + 2 \alpha \Delta \theta
+
+$$\omega^2 = \omega^2_i + 2 \alpha \Delta \theta$$
+
+\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}
+
+$$\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$$

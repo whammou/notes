@@ -341,7 +341,7 @@ CLOSED: [2025-06-03 Tue 07:43]
 
 $$\omega_{av} = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}$$
 
-\omega_{av} = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}
+\omega_av = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}
 
 - This is inline math block: \omega^2 = \omega^2_i + 2 \alpha \Delta \theta
 
@@ -353,4 +353,4 @@ $$\omega^2 = \omega^2_i + 2 \alpha \Delta \theta$$
 
 $$\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$$
 
-\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}
+\omega = \lim^2_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}

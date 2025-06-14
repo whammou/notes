@@ -1,5 +1,6 @@
 #+TITLE: Capture
 #+DESCRIPTION: Captures and Quick notes
+#+options: ^:nil
 
 * DOING Working with python [0%] :PYTHON:
 - /*Objective:*/ /Automantion documentation with python/

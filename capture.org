@@ -169,7 +169,7 @@ Before this fix foo wasn't enabled at all, behavior changes from <old> to <new>
 Closes D2IQ-12345
 #+END_SRC
 
-> [!NOTE]
+> *NOTE*
 > The ensure that these committing conventions remain consistent across developers, commit message linting can be configured before changes are able to be pushed up. [[https://commitizen-tools.github.io/commitizen/][Commitizen]] is a great tool to enforce standards, sync up semantic versioning, along with other helpful features
 ** TODO Git automation
 - *OBJECTIVE:* /Automate tasks with git/
@@ -337,13 +337,13 @@ CLOSED: [2025-06-03 Tue 07:43]
 - *OBJECTIVE:* Notification disappear when fire/ =hide_floating()=
 * Testing math render
 - *OBJECTIVE:* _Testing markup and math render_
-- This is inline math block: $\omega_{av} = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}$\\
-$$\omega_av = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}$$\\
-\omega_av = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}\\
-- This is inline math block: $\omega^2 = \omega^2_i + 2 \alpha \Delta \theta$\\
-$$\omega^2 = \omega^2_i + 2 \alpha \Delta \theta$$\\
-\omega^{2} = \omega^{2}_i + 2 \alpha \Delta \theta\\
-- This is inline math block: \omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}\\
-$$\omega = \lim^2_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$$\\
-\omega = \lim^2_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}\\
+- This is inline math block: $\omega_{av} = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}$\\\\
+$$\omega_av = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}$$\\\\
+\omega_av = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}\\\\
+- This is inline math block: $\omega^2 = \omega^2_i + 2 \alpha \Delta \theta$\\\\
+$$\omega^2 = \omega^2_i + 2 \alpha \Delta \theta$$\\\\
+\omega^{2} = \omega^{2}_i + 2 \alpha \Delta \theta\\\\
+- This is inline math block: \omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}\\\\
+$$\omega = \lim^2_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$$\\\\
+\omega = \lim^2_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}\\\\
 - *Reference:* [[https://ao.bloat.cat/exchange/stackoverflow.com/questions/31534084/how-can-i-get-github-to-display-inline-math-in-readme-org-file#79302884][State of orgmode in github @Overflow]]

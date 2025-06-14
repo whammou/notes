@@ -335,12 +335,22 @@ CLOSED: [2025-06-03 Tue 07:43]
 * PENDING Qtile notification bug :QTILE:
 - /*Objective:* Notification disappear when fire/ =hide_floating()=
 * Testing math render
-- _*Objective:* Testing markup and math render_
-- \omega_{av} = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}
-- \omega^2 = \omega^2_i + 2 \alpha \Delta \theta
+- *Objective:* _Testing markup and math render_
+
+- This is inline math block: \omega_{av} = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}
+
+$$\omega_{av} = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}$$
+
+\omega_{av} = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}
+
+- This is inline math block: \omega^2 = \omega^2_i + 2 \alpha \Delta \theta
 
 $$\omega^2 = \omega^2_i + 2 \alpha \Delta \theta$$
 
-\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}
+\omega^2 = \omega^2_i + 2 \alpha \Delta \theta
+
+- This is inline math block: \omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}
 
 $$\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$$
+
+\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}

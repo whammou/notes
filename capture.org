@@ -335,18 +335,25 @@ CLOSED: [2025-06-03 Tue 07:43]
   - [[https://l.opnxng.com/r/learnpython/comments/stfbow/how_to_tell_python_to_ignore_list_out_of_index/][Ignore list out of index @Reddit]]
 * PENDING Qtile notification bug :QTILE:
 - *OBJECTIVE:* Notification disappear when fire/ =hide_floating()=
-* DOING Prettify orgmode documents [%] :ORGMODE:
+* DOING Prettify orgmode documents [0%] :ORGMODE:
 - *OBJECTIVE:* Prettify my org documents
-- *Reference:* [[https://github.com/noncog/github-org-mode-hacks][Github orgmode hacks @Github]]
-** DONE Testing math render :GITHUB:
+- *Reference:*
+  - [[https://github.com/noncog/github-org-mode-hacks][Github orgmode hacks @Github]]
+  - [[https://orgmode.org/manual/Export-Settings.html][Export settings @Orgmode-document]]
+
+** DOING Github render tests [50%] :GITHUB:
+- *OBJECTIVE:* Testing github render for orgmode
+*** DONE Testing math render
 CLOSED: [2025-06-15 Sun 01:21]
 - *OBJECTIVE:* Testing markup and math render on github
   - This is inline math block: $\omega_{av} = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}$
-  $$\omega_av = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}$$
+$$\omega_av = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}$$
   - This is inline math block: $\omega^2 = \omega^2_i + 2 \alpha \Delta \theta$
-  $$\omega^2 = \omega^2_i + 2 \alpha \Delta \theta$$
+$$\omega^2 = \omega^2_i + 2 \alpha \Delta \theta$$
   - This is inline math block: \omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}
-  $$\omega = \lim^2_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$$\\
+$$\omega = \lim^2_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$$\\
 - *Reference:* [[https://ao.bloat.cat/exchange/stackoverflow.com/questions/31534084/how-can-i-get-github-to-display-inline-math-in-readme-org-file#79302884][State of orgmode in github @Overflow]]
-** TODO Config orgmode documents :GITHUB:
+*** TODO Testing html render
+- *OBJECTIVE:* Testing html render with math on github render
+** TODO Org-ruby document config
 - *OBJECTIVE:* Config orgmode for better document render on github

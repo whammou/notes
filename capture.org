@@ -335,7 +335,7 @@ CLOSED: [2025-06-03 Tue 07:43]
 * PENDING Qtile notification bug :QTILE:
 - /*Objective:* Notification disappear when fire/ =hide_floating()=
 * Testing math render
-- *Objective:* _Testing markup and math render_
+- *OBJECTIVE:* _Testing markup and math render_
 
 - This is inline math block: \omega_{av} = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}
 
@@ -354,3 +354,5 @@ $$\omega^2 = \omega^2_i + 2 \alpha \Delta \theta$$
 $$\omega = \lim^2_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$$
 
 \omega = \lim^2_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}
+
+- *Reference:* [[https://ao.bloat.cat/exchange/stackoverflow.com/questions/31534084/how-can-i-get-github-to-display-inline-math-in-readme-org-file#79302884][State of orgmode in github @Overflow]]

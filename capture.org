@@ -346,7 +346,7 @@ CLOSED: [2025-06-03 Tue 07:43]
 
 ** DOING Github render tests [50%] :GITHUB:
 - *OBJECTIVE:* Testing github render for orgmode
-*** DONE Testing math render
+*** DONE Testing math render :LATEX:
 CLOSED: [2025-06-15 Sun 01:21]
 - *OBJECTIVE:* Testing markup and math render on github
   - This is inline math block: $\omega_{av} = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}$
@@ -363,13 +363,18 @@ $$\omega = \lim^2_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$$
 
 $$m_1 v_{1ix} + m_2 v_{2ix} = m_1 v_{1 \mathord{\mathit{f}} x} + m_2 v_{2 \mathord{\mathit{f}} x}$$
 - *Reference:* [[https://ao.bloat.cat/exchange/stackoverflow.com/questions/31534084/how-can-i-get-github-to-display-inline-math-in-readme-org-file#79302884][State of orgmode in github @Overflow]]
-*** TODO Testing html render
+*** TODO Testing html render :HTML:
 DEADLINE: <2025-06-15 Sun>
-- *OBJECTIVE:* Testing html render with math on github render
+- [X] *OBJECTIVE:* Testing html render with math on github render [3/3]
+  - [X] Center images
+  - [X] Math block html nest
+  - [X] Hide iamges
 #+begin_html
 <p align="center">
   <IMG src="./assets/snoopy/IMG_20241026_002110.jpg" alt="test image" width=50%/>
 </p>
+#+end_html
+#+begin_html
 <details>
   <summary>Example</summary>
   <p align="center">
@@ -383,7 +388,17 @@ DEADLINE: <2025-06-15 Sun>
   <IMG src="./assets/lobes.jpg" alt="test image" width=50%/>
 </details>
 #+end_html
-- *Reference:* [[id:6440266f-57df-40e2-a9e2-8d0867fcf9f2][Working with html @Orgmode]]
+#+BEGIN_SRC html
+<details>
+  <summary>Example</summary>
+  <p align="center">
+    $$\omega = \lim^2_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$$
+  </p>
+</details>
+#+END_SRC
+- *Reference:*
+  - [[id:6440266f-57df-40e2-a9e2-8d0867fcf9f2][Working with html @Orgmode]]
+  - [[id:8506cc5d-a3e8-4d18-94aa-87ceb7a8c932][Treesitter highlight @Orgmode]]
 ** TODO Org-ruby document config
 DEADLINE: <2025-06-15 Sun>
 - *OBJECTIVE:* Config orgmode for better document render on github
@@ -396,3 +411,8 @@ DEADLINE: <2025-06-15 Sun>
 
 * Orgmode quicknote script :ORGMODE:
 - *OBJECTIVE:* Quickly output new note directory
+* Treesitter highlight :NVIM:
+:PROPERTIES:
+:ID: 8506cc5d-a3e8-4d18-94aa-87ceb7a8c932
+:END:
+- *OBJECTIVE:* Highlight html and latex inside orgmode

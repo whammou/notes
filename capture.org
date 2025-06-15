@@ -372,7 +372,9 @@ DEADLINE: <2025-06-15 Sun>
 </p>
 <details>
   <summary>Example</summary>
-  $$\omega = \lim^2_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$$
+  <p align="center">
+    $$\omega = \lim^2_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$$
+  </p>
 </details>
 #+end_html
 #+begin_html

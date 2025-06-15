@@ -350,10 +350,13 @@ CLOSED: [2025-06-15 Sun 01:21]
 $$\omega_av = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}$$\\
   - This is inline math block: $\omega^2 = \omega^2_i + 2 \alpha \Delta \theta$
 $$\omega^2 = \omega^2_i + 2 \alpha \Delta \theta$$\\
-  - This is inline math block: \omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}
+  - This is inline math block: $\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$
 $$\omega = \lim^2_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$$\\
+$$R^*=\underset{RR^t=I,\det(R)=1}{\operatorname{argmin}}\sum_{i=1}^n|RX_i-Y_i\|^2_2,$$
 - *Reference:* [[https://ao.bloat.cat/exchange/stackoverflow.com/questions/31534084/how-can-i-get-github-to-display-inline-math-in-readme-org-file#79302884][State of orgmode in github @Overflow]]
 *** TODO Testing html render
+DEADLINE: <2025-06-15 Sun>
 - *OBJECTIVE:* Testing html render with math on github render
 ** TODO Org-ruby document config
+DEADLINE: <2025-06-15 Sun>
 - *OBJECTIVE:* Config orgmode for better document render on github

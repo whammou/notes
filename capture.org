@@ -174,6 +174,9 @@ Closes D2IQ-12345
 ** TODO Git automation
 - *OBJECTIVE:* /Automate tasks with git/
 - *References:* [[https://www.reddit.com/r/git/comments/xvz4he/automating_git_tasks_best_practices/][Automation with git @Reddit]]
+** TODO Clean commit history
+- *OBJECTIVE:* Clean up git commit history
+- *Reference:* [[https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History][Git tools rewrite history @Doc-git]]
 * TODO Working with pandoc :PANDOC:
 - *OBJECTIVE:* /Develop workflow with pandoc to convert between files/
 ** TODO Pandoc font settings :PANDOC:
@@ -363,6 +366,22 @@ $$m_1 v_{1ix} + m_2 v_{2ix} = m_1 v_{1 \mathord{\mathit{f}} x} + m_2 v_{2 \matho
 *** TODO Testing html render
 DEADLINE: <2025-06-15 Sun>
 - *OBJECTIVE:* Testing html render with math on github render
+#+begin_html
+<details>
+  <summary>Example</summary>
+  <IMG src="./assets/lobes.jpg" alt="test image" width=100%/>
+</details>
+#+end_html
+- *Reference:* [[id:6440266f-57df-40e2-a9e2-8d0867fcf9f2][Working with html @Orgmode]]
 ** TODO Org-ruby document config
 DEADLINE: <2025-06-15 Sun>
 - *OBJECTIVE:* Config orgmode for better document render on github
+* Working with html :HTML:
+:PROPERTIES:
+:ID: 6440266f-57df-40e2-a9e2-8d0867fcf9f2
+:END:
+- *OBJECTIVE:* Learn basic html
+- *Reference:* [[https://github.com/Asabeneh/30-Days-Of-HTML][30 days of html @Github]]
+
+* Orgmode quicknote script :ORGMODE:
+- *OBJECTIVE:* Quickly output new note directory

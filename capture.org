@@ -367,6 +367,15 @@ $$m_1 v_{1ix} + m_2 v_{2ix} = m_1 v_{1 \mathord{\mathit{f}} x} + m_2 v_{2 \matho
 DEADLINE: <2025-06-15 Sun>
 - *OBJECTIVE:* Testing html render with math on github render
 #+begin_html
+<p align="center">
+  <IMG src="./assets/snoopy/IMG_20241026_002110.jpg" alt="test image" width=50%/>
+</p>
+<details>
+  <summary>Example</summary>
+  $$\omega = \lim^2_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$$
+</details>
+#+end_html
+#+begin_html
 <details>
   <summary>Example</summary>
   <IMG src="./assets/lobes.jpg" alt="test image" width=50%/>

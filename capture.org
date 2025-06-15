@@ -369,7 +369,7 @@ DEADLINE: <2025-06-15 Sun>
 #+begin_html
 <details>
   <summary>Example</summary>
-  <IMG src="./assets/lobes.jpg" alt="test image" width=100%/>
+  <IMG src="./assets/lobes.jpg" alt="test image" width=50%/>
 </details>
 #+end_html
 - *Reference:* [[id:6440266f-57df-40e2-a9e2-8d0867fcf9f2][Working with html @Orgmode]]

@@ -365,7 +365,7 @@ $$\omega = \lim^2_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$$
 $$m_1 v_{1ix} + m_2 v_{2ix} = m_1 v_{1 \mathord{\mathit{f}} x} + m_2 v_{2 \mathord{\mathit{f}} x}$$
 - *Reference:* [[https://ao.bloat.cat/exchange/stackoverflow.com/questions/31534084/how-can-i-get-github-to-display-inline-math-in-readme-org-file#79302884][State of orgmode in github @Overflow]]
 *** DONE Testing html render :HTML:
-DEADLINE: <2025-06-15 Sun> CLOSED: [2025-06-15 Sun 21:32]
+CLOSED: [2025-06-15 Sun 21:32] DEADLINE: <2025-06-15 Sun>
 - [X] *OBJECTIVE:* Testing html render with math on github render [3/3]
   - [X] Center images
   - [X] Math block html nest
@@ -409,7 +409,6 @@ DEADLINE: <2025-06-15 Sun>
 :END:
 - *OBJECTIVE:* Learn basic html
 - *Reference:* [[https://github.com/Asabeneh/30-Days-Of-HTML][30 days of html @Github]]
-
 * TODO Orgmode quicknote script :ORGMODE:
 - *OBJECTIVE:* Quickly output new note directory
 * TODO Treesitter highlight :NVIM:

@@ -344,7 +344,7 @@ CLOSED: [2025-06-03 Tue 07:43]
   - [[https://github.com/noncog/github-org-mode-hacks][Github orgmode hacks @Github]]
   - [[https://orgmode.org/manual/Export-Settings.html][Export settings @Orgmode-document]]
 
-** DOING Github render tests [50%] :GITHUB:
+** DOING Github render tests [100%] :GITHUB:
 - *OBJECTIVE:* Testing github render for orgmode
 *** DONE Testing math render :LATEX:
 CLOSED: [2025-06-15 Sun 01:21]
@@ -363,15 +363,15 @@ $$\omega = \lim^2_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$$
 
 $$m_1 v_{1ix} + m_2 v_{2ix} = m_1 v_{1 \mathord{\mathit{f}} x} + m_2 v_{2 \mathord{\mathit{f}} x}$$
 - *Reference:* [[https://ao.bloat.cat/exchange/stackoverflow.com/questions/31534084/how-can-i-get-github-to-display-inline-math-in-readme-org-file#79302884][State of orgmode in github @Overflow]]
-*** TODO Testing html render :HTML:
-DEADLINE: <2025-06-15 Sun>
+*** DONE Testing html render :HTML:
+DEADLINE: <2025-06-15 Sun> CLOSED: [2025-06-15 Sun 21:32]
 - [X] *OBJECTIVE:* Testing html render with math on github render [3/3]
   - [X] Center images
   - [X] Math block html nest
   - [X] Hide iamges
 #+begin_html
 <p align="center">
-  <IMG src="./assets/snoopy/IMG_20241026_002110.jpg" alt="test image" width=50%/>
+  <IMG src="./design/EEET2603/assets/LAB_03/LAB_3_1.svg" alt="test image" width=50%/>
 </p>
 #+end_html
 #+begin_html
@@ -385,7 +385,7 @@ DEADLINE: <2025-06-15 Sun>
 #+begin_html
 <details>
   <summary>Example</summary>
-  <IMG src="./assets/lobes.jpg" alt="test image" width=50%/>
+  <IMG src="./design/EEET2603/assets/LAB_03/LAB_1_2.svg" alt="test image" width=50%/>
 </details>
 #+end_html
 #+BEGIN_SRC html
@@ -402,17 +402,18 @@ DEADLINE: <2025-06-15 Sun>
 ** TODO Org-ruby document config
 DEADLINE: <2025-06-15 Sun>
 - *OBJECTIVE:* Config orgmode for better document render on github
-* Working with html :HTML:
+* TODO Working with html :HTML:
 :PROPERTIES:
 :ID: 6440266f-57df-40e2-a9e2-8d0867fcf9f2
 :END:
 - *OBJECTIVE:* Learn basic html
 - *Reference:* [[https://github.com/Asabeneh/30-Days-Of-HTML][30 days of html @Github]]
 
-* Orgmode quicknote script :ORGMODE:
+* TODO Orgmode quicknote script :ORGMODE:
 - *OBJECTIVE:* Quickly output new note directory
-* Treesitter highlight :NVIM:
+* TODO Treesitter highlight :NVIM:
 :PROPERTIES:
 :ID: 8506cc5d-a3e8-4d18-94aa-87ceb7a8c932
 :END:
 - *OBJECTIVE:* Highlight html and latex inside orgmode
+- *Reference:* [[https://g.co/gemini/share/39ccfb7bdab6][Inject custom block with tresitter @Gemini]]

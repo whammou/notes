@@ -404,7 +404,7 @@ DEADLINE: <2025-06-15 Sun>
 - *OBJECTIVE:* Config orgmode for better document render on github
 * TODO Working with html :HTML:
 :PROPERTIES:
-:ID: 6440266f-57df-40e2-a9e2-8d0867fcf9f2
+:ID:       6440266f-57df-40e2-a9e2-8d0867fcf9f2
 :END:
 - *OBJECTIVE:* Learn basic html
 - *Reference:* [[https://github.com/Asabeneh/30-Days-Of-HTML][30 days of html @Github]]
@@ -413,7 +413,7 @@ DEADLINE: <2025-06-15 Sun>
 - *OBJECTIVE:* Quickly output new note directory
 * TODO Treesitter highlight :NVIM:
 :PROPERTIES:
-:ID: 8506cc5d-a3e8-4d18-94aa-87ceb7a8c932
+:ID:       8506cc5d-a3e8-4d18-94aa-87ceb7a8c932
 :END:
 - *OBJECTIVE:* Highlight html and latex inside orgmode
 - *Reference:* [[https://g.co/gemini/share/39ccfb7bdab6][Inject custom block with tresitter @Gemini]]

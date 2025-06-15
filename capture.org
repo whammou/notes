@@ -338,13 +338,14 @@ CLOSED: [2025-06-03 Tue 07:43]
   - [[https://l.opnxng.com/r/learnpython/comments/stfbow/how_to_tell_python_to_ignore_list_out_of_index/][Ignore list out of index @Reddit]]
 * PENDING Qtile notification bug :QTILE:
 - *OBJECTIVE:* Notification disappear when fire/ =hide_floating()=
-* DOING Prettify orgmode documents [0%] :ORGMODE:
+* DOING Prettify orgmode documents [50%] :ORGMODE:
 - *OBJECTIVE:* Prettify my org documents
 - *Reference:*
   - [[https://github.com/noncog/github-org-mode-hacks][Github orgmode hacks @Github]]
   - [[https://orgmode.org/manual/Export-Settings.html][Export settings @Orgmode-document]]
 
-** DOING Github render tests [100%] :GITHUB:
+** DONE Github render tests [100%] :GITHUB:
+CLOSED: [2025-06-15 Sun 21:41]
 - *OBJECTIVE:* Testing github render for orgmode
 *** DONE Testing math render :LATEX:
 CLOSED: [2025-06-15 Sun 01:21]

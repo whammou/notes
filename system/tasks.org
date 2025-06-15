@@ -104,7 +104,8 @@ CLOSED: [2025-05-12 Mon 09:04]
 :ID:       8546e69f-f9ab-46d7-b9fc-13356175edbf
 :END:
 - *Objective:* /Create multiple magic-tape sessions using git/
-*** TODO Migrate orgmode options to config :ORGMODE:
+*** DONE Migrate orgmode options to config :ORGMODE:
+CLOSED: [2025-06-15 Sun 15:27]
 - *Objective:* /Migrate settings to/ [[file:~/.config/nvim/lua/config/orgmode.lua][config.lua]]
 *** TODO Nvim indent align :NVIM:
 - *Objective:* /Manage nvim virtual indentaion alignment in plugins:/

@@ -1,7 +1,7 @@
 #+TITLE: System Documents
 #+DESCRIPTION: Description for archive here
 
-* Archives :SYSTEM:LIB:
+* Archives :LIB:SYSTEM:
 - /System archives/
 ** Documents :DOC:
 /Documents archives/
@@ -18,9 +18,6 @@ There are different strategies to merge two ~branches~:
  - *Squashing:* Squeeze all the ~commits~ of ~feature branch~ into one single ~commit~ and merge it with ~main~
 **** Git commit vs stash
 *Visit:* [[https://paulapivat.com/technical_notes/example_tech/git_stash/][Git Stash vs Git Commit]]
-*** PENDING Learn Docker
-CLOSED: [2025-05-24 Sat 01:19]
-- /Learn to operate dockers/
 *** DONE Nvim-lsp :NVIM:
 CLOSED: [2025-05-24 Sat 01:19]
 Nvim supports the Language Server Protocol (LSP), which means it acts as a client to LSP servers and includes a Lua framework `vim.lsp` for building enhanced LSP tools

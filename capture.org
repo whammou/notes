@@ -333,6 +333,7 @@ CLOSED: [2025-06-03 Tue 07:43]
   - [X] Convert from latex to pdf - Use =latexmk= or =pandoc=
 - *Complication:* Workflow integration
   Having to log on [[https://gemini.google.com/app][Google gemini @Google]] is not ideal - Integrate to shell or nvim
+- *Reference:* [[id:7c0ce0b0-4d7d-4468-8263-c3b28cd3af1b][File conversions @Orgmode]]
 * TODO Create scripted tmux session :TMUX:
 - *OBJECTIVE:* Create a persist session for orgmode notes/
 - *Complication:* nvim does not allow edit if multiple session are running
@@ -424,6 +425,15 @@ DEADLINE: <2025-06-17 Tue>
   - [[https://github.com/rhelmstedter/Zettelkasten/blob/main/zettel/202101241731.md][Zettlekasten example repo @Github]]
   - [[https://m.opnxng.com/@fairylights_io/the-zettelkasten-method-examples-to-help-you-get-started-8f8a44fa9ae6][Getting started with zettlekasten @Blog]]
   - [[https://thoughtfulatlas.substack.com/p/a-new-identifier-system-for-zettelkasten][New indentifier for zettlekasten @Blog]]
+  - [[https://yannherklotz.com/zettelkasten/][zettelkasten in orgmode @Blog]]
 * Learning Lua :LUA:
 - *OBJECTIVE:* Learn basic lua language
 - *Reference:* [[https://github.com/pohka/Lua-Beginners-Guide][Lua beginners guide @Github]]
+* File conversions
+:PROPERTIES:
+:ID: 7c0ce0b0-4d7d-4468-8263-c3b28cd3af1b
+:END:
+- *OBJECTIVE:* Convert different filetype
+** Pandoc conversion
+- *OBJECTIVE:* Convert filetype using pandoc
+- *Reference:* [[https://ao.bloat.cat/exchange/stackoverflow.com/questions/56828128/pandoc-is-tex-output-with-dollar-sign-math-possible][Pandoc math filter @Overflow]]

@@ -643,7 +643,7 @@ CLOSED: [2025-06-09 Mon 23:53]
   - [[https://reddit.com/comments/1dcpg93/comment/l7zrycr][Rclone google drive @Reddit]]
   - [[id:882b4f23-d2f9-4274-87e5-fb041e4a0c48][Working with cloud-drives @Orgmode]]
 ** ABORTED Qutebrowser edit-text :QUTEBROWSER:
-DEADLINE: <2025-06-14 Sat 21:21> CLOSED: [2025-06-14 Sat 21:23]
+CLOSED: [2025-06-14 Sat 21:23] DEADLINE: <2025-06-14 Sat 21:21>
 :LOGBOOK:
 CLOCK: [2025-06-14 Sat 21:19]--[2025-06-14 Sat 21:22] => 0:03
 :END:
@@ -651,6 +651,16 @@ CLOCK: [2025-06-14 Sat 21:19]--[2025-06-14 Sat 21:22] => 0:03
 - *Reference:*
   - [[qute://help/settings.html#bindings.commands][Qutebrowser binding commend documentation @Qute]]
   - [[https://l.opnxng.com/r/qutebrowser/comments/jdu8co/use_case_of_open_editor/][Edit-txt does not work parameter @Reddit]]
+** ABORTED Treesitter highlight :NVIM:
+CLOSED: [2025-06-16 Mon 01:36]
+:PROPERTIES:
+:ID:       8506cc5d-a3e8-4d18-94aa-87ceb7a8c932
+:END:
+- *OBJECTIVE:* Highlight html and latex inside orgmode
+- *Reference:*
+  - [[https://g.co/gemini/share/39ccfb7bdab6][Inject custom block with tresitter @Gemini]]
+  - [[https://github.com/nvim-orgmode/orgmode/issues/36#issuecomment-885766008][Nvim-orgmode implement of TS is in-progress @Github-issue]]
+    
 * DONE Update wallpaper :UI:
 CLOSED: [2025-06-03 Tue 11:59] DEADLINE: <2025-06-03 Tue>
 :PROPERTIES:

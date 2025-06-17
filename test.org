@@ -1,3 +1,5 @@
+#+OPTIONS: ^:nil
+
 * Circular Motion
 :PROPERTIES:
 :CUSTOM_ID: circular-motion

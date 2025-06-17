@@ -643,7 +643,7 @@ CLOSED: [2025-06-09 Mon 23:53]
   - [[https://reddit.com/comments/1dcpg93/comment/l7zrycr][Rclone google drive @Reddit]]
   - [[id:882b4f23-d2f9-4274-87e5-fb041e4a0c48][Working with cloud-drives @Orgmode]]
 ** ABORTED Qutebrowser edit-text :QUTEBROWSER:
-DEADLINE: <2025-06-14 Sat 21:21> CLOSED: [2025-06-14 Sat 21:23]
+CLOSED: [2025-06-14 Sat 21:23] DEADLINE: <2025-06-14 Sat 21:21>
 :LOGBOOK:
 CLOCK: [2025-06-14 Sat 21:19]--[2025-06-14 Sat 21:22] => 0:03
 :END:

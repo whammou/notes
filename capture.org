@@ -343,7 +343,6 @@ CLOSED: [2025-06-03 Tue 07:43]
 - *Reference:*
   - [[https://github.com/noncog/github-org-mode-hacks][Github orgmode hacks @Github]]
   - [[https://orgmode.org/manual/Export-Settings.html][Export settings @Orgmode-document]]
-
 ** DONE Github render tests [100%] :GITHUB:
 CLOSED: [2025-06-15 Sun 21:41]
 - *OBJECTIVE:* Testing github render for orgmode

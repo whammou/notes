@@ -1,0 +1,266 @@
+* Circular Motion
+:PROPERTIES:
+:CUSTOM_ID: circular-motion
+:END:
+
+** Angular Position
+:PROPERTIES:
+:CUSTOM_ID: angular-position
+:END:
+
+#+begin_html
+  <details>
+#+end_html
+
+#+begin_html
+  <summary>
+#+end_html
+
+Example
+
+#+begin_html
+  </summary>
+#+end_html
+
+#+begin_html
+  </details>
+#+end_html
+
+1. The point P on a rotating compact disc at $t=0$
+2. As the disc rotate, P move through an arc length $s$
+
+- The angle /theta/ is called the =angular position= (subtended by an
+  =arc length= $s$ along a circle of radius r, measured in radians
+  counterclockwise from the (+) x-axis) and is analogous to the linear
+  position
+
+$$\theta = \frac{s}{r} \text{ with } 360 \textdegree = 2 \pi \text{ } rad$$
+
+** Angular Displacement
+:PROPERTIES:
+:CUSTOM_ID: angular-displacement
+:END:
+- As a point on the compact disc moves from A to B, the disc rotates
+  through the angle which is call =angular displacement=
+  - The difference in its final and initial angles
+
+$$\Delta \theta = \theta_f - \theta_i$$
+
+** Angular Velocity (Speed)
+:PROPERTIES:
+:CUSTOM_ID: angular-velocity-speed
+:END:
+The =average angular velocity= is the average rate of change of the
+angular displacement
+
+$$\omega_{av} = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}$$
+
+If we let the time interval $\Delta t$ become shorter and shorter, we
+are averaging over smaller and smaller time intervals, then the average
+angular velocity becomes the =instataneous angular velocity=
+
+$$\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$$
+
+** Angular Acceleration
+:PROPERTIES:
+:CUSTOM_ID: angular-acceleration
+:END:
+An object's =sverage acceleration= during the time interval is the
+change in its =angular speed= divided by time interval
+
+$$\alpha_{av} = \frac{\omega_f - \omega_i}{t_f - t_i} = \frac{\Delta \omega}{\Delta t}$$
+
+The =instataneous angular acceleration= is the limit of the average
+angular acceleration as the time interval approaches zero
+
+$$\alpha = \lim_{\Delta t \to 0}\frac{\Delta \omega}{\Delta t}$$
+
+** Angular Quantities and Vectors
+:PROPERTIES:
+:CUSTOM_ID: angular-quantities-and-vectors
+:END:
+
+#+begin_html
+  <p align="center">
+#+end_html
+
+#+begin_html
+  </p>
+#+end_html
+
+- The =direction= of the angular velocity vector can be found with the
+  [[./assets/w4-circular/example41.jpg][Right Hand Rule]]
+- The =direction= of the angular =acceleration= and the angular
+  =velocity= are
+  - *Same* if the angular =speed= is /increasing/ with /time/
+  - *Opposite* if the angular =speed= is /decreasing/ with /time/
+
+** Rotation Motion Under Constant Angular Acceleration
+:PROPERTIES:
+:CUSTOM_ID: rotation-motion-under-constant-angular-acceleration
+:END:
+=If the object undergoes rotation motion about a fixed axis under a constant angular accerleration, its motion can be described with the following set of equations which are in the similar manner to the linear 1D motion with constant accerleration:=
+
+- Linear Motion with $a$ Constant
+
+#+begin_quote
+$$v = v_i + at$$
+
+$$\Delta x = v_i t + \frac{1}{2} a t^2$$
+
+$$v^2 = v^2_i + 2a \Delta x$$
+#+end_quote
+
+- Rotation Motion About a Fixed Axis with $\alpha$ Constant
+
+#+begin_quote
+$$\omega = \omega_i + \alpha t$$
+
+$$\Delta \theta = \omega_i t + \frac{1}{2} \alpha t^2$$
+
+$$\omega^2 = \omega^2_i + 2 \alpha \Delta \theta$$
+#+end_quote
+
+** Relations between Angular and Linear Quantities
+:PROPERTIES:
+:CUSTOM_ID: relations-between-angular-and-linear-quantities
+:END:
+
+#+begin_html
+  <p align="center">
+#+end_html
+
+#+begin_html
+  </p>
+#+end_html
+
+*** Tangential Velocity
+:PROPERTIES:
+:CUSTOM_ID: tangential-velocity
+:END:
+- The =tangential velocity= of a point on a rotating object equals the
+  =distance= of that point from the axis of rotation /multiplied/ by the
+  =angular velocity= $$v_t = r \omega$$
+
+*** Tangential Acceleration
+:PROPERTIES:
+:CUSTOM_ID: tangential-acceleration
+:END:
+- The =tangential acceleration= of a point on a rotating object equals
+  to the =distance= of that point from the axis of rotation multiplied
+  by the =angular acceleration=
+
+$$a_t = r \alpha$$
+
+** Centripetal Acceleration
+:PROPERTIES:
+:CUSTOM_ID: centripetal-acceleration
+:END:
+*** Constant Speed
+:PROPERTIES:
+:CUSTOM_ID: constant-speed
+:END:
+- Consider /the circular motion of an object with constant speed/
+  - (+) The =velocity vectors= have the same magnitude, corresponding
+    for the same speed
+  - (-) BUT =directions= are different
+    - ==>= There exists an =accerleration vector= pointing inwards
+      (towards the center of the circle), called
+      =centripetal acceleration= (center-seeking) acceleration .Its
+      magnitude is given by
+
+#+begin_html
+  <details>
+#+end_html
+
+#+begin_html
+  <summary>
+#+end_html
+
+PROOF
+
+#+begin_html
+  </summary>
+#+end_html
+
+- As the particle moves counterclockwise in time $\Delta t$ on the
+  circular path
+  - The =position vector= moves from
+    $\vec{r}(t) \text{ to } \vec{r}(t + \Delta t)$
+  - The =velocity vector= has constant magnitude and its tangent to the
+    path as it changes from $\vec{v}(t)$ to \(\vec{v}(t + \Delta t)$,
+    changing its direction only
+  - Since =velocity vector= $\vec{v}(t)$ is /perpendicular/ to the
+    =position vector= $\vec{r}(t)$. The triangle form from the
+    =position vector= $\vec{\Delta r}$, and =velocity vector= and
+    $\vec{v}$ are similar
+  - Since $|\vec{r}(t)| = |\vec{r}(t + \Delta t)|$ and
+    $|\vec{v}(t)| = |\vec{v}(t + \Delta t)|$
+    - ==>=the two triangles are /isosceles/
+
+#+begin_html
+  <p align="center">
+#+end_html
+
+#+begin_html
+  </p>
+#+end_html
+
+Thus,
+
+$$\frac{\Delta v}{v}  = \frac{\Delta r}{r} \text{ or } \Delta v = \frac{v}{r} \Delta r$$
+
+$$a = \lim_{\Delta t \to 0} \frac{\Delta v}{\Delta t} = \frac{v}{r} \left( \frac{\Delta v}{\Delta t} \right) = \frac{v^2}{r}$$
+
+#+begin_html
+  </details>
+#+end_html
+
+$$a_c  = \frac{v^2}{r} \text{ and } a_c = \frac{r^2 \omega^2}{r} = r \omega^2$$
+
+*** Varying Speed
+:PROPERTIES:
+:CUSTOM_ID: varying-speed
+:END:
+- When an object moves in a circle but is /speeding up/ or /slowing
+  down/
+  - A =tangential component= of acceleration is also present
+  - This =tangential component= and the =centripetal components= of
+    acceleration are /perpendicular/ to each other
+
+$$a = \sqrt{a^2_t + a^2_c}$$
+
+*** Centripetal Force
+:PROPERTIES:
+:CUSTOM_ID: centripetal-force
+:END:
+- Any object moving in a =circular= path must have a =net force= exerted
+  on it that is directed toward the center of the path
+
+#+begin_html
+  <p align="center">
+#+end_html
+
+#+begin_html
+  </p>
+#+end_html
+
+** Course Resources
+:PROPERTIES:
+:CUSTOM_ID: course-resources
+:END:
+- *Lecture Slides*
+  1. [[https://mega.nz/file/bSoRWbgJ#ifyBIVGMqXRal9JgcyMMlA8-7AjODqh2XUfPvLnG0KI][Circular
+     Motion]]
+
+** Additional Resources
+:PROPERTIES:
+:CUSTOM_ID: additional-resources
+:END:
+- *Reading Resources*
+  1. [[https://collection.bccampus.ca/textbooks/university-physics-353/][OpenStax]]
+  2. [[https://rmitlibraryvn.rmit.edu.vn/permalink/84RVI_INST/1kigfja/alma991001154609006821][Physics
+     for scientiests and engineering with modern physics]]
+- *Watching Resources*
+  1. [[https://youtu.be/bpFK2VCRHUs][Uniform Circular Motion]]
+  2. [[https://youtu.be/fmXFWi-WfyU][Rotational Motion]]

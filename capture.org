@@ -312,9 +312,13 @@ CLOSED: [2025-06-03 Tue 07:43]
 - *References:* [[https://l.opnxng.com/r/linux/comments/om150l/personal_file_hierarchy_under_home/][Home hierarchy @Reddit]]
 * TODO Pacman lock-file :PACMAN:BACKUP:
 - *OBJECTIVE:* /Create pacman lock-file/
-* TODO Friendly snippet insert date :NVIM:SNIPPET:
+* Working with nvim snippets :NVIM:SNIPPET:
+- *OBJECTIVE:* Custom snippets to boost productivity
+** TODO Friendly snippet insert date :FRIENDLYSNIP:
 - *OBJECTIVE:* /Create note block with today inserted/
 - *References:* [[https://l.opnxng.com/r/neovim/comments/wi4uf3/how_do_i_insert_current_date_or_time/][Insert today date in friendly snippet @Reddit]]
+** Setting up luasnip :LUASNIP:
+- *OBJECTIVE:* Writing custom luasnip snippets
 * TODO Working with latex [0%] :LATEX:
 - *OBJECTIVE:* Develop a framwork for latex format/
 - *Reference:* Tutorial documentation for latex
@@ -419,3 +423,8 @@ DEADLINE: <2025-06-17 Tue>
 - *Reference:*
   - [[https://www.youtube.com/watch?v=Q2zY7l2tzoQ#__preview][Zettlekasten system explain @Youtube]]
   - [[https://github.com/rhelmstedter/Zettelkasten/blob/main/zettel/202101241731.md][Zettlekasten example repo @Github]]
+  - [[https://m.opnxng.com/@fairylights_io/the-zettelkasten-method-examples-to-help-you-get-started-8f8a44fa9ae6][Getting started with zettlekasten @Blog]]
+  - [[https://thoughtfulatlas.substack.com/p/a-new-identifier-system-for-zettelkasten][New indentifier for zettlekasten @Blog]]
+* Learning Lua :LUA:
+- *OBJECTIVE:* Learn basic lua language
+- *Reference:* [[https://github.com/pohka/Lua-Beginners-Guide][Lua beginners guide @Github]]

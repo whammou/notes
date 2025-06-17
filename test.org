@@ -2,12 +2,10 @@
 :PROPERTIES:
 :CUSTOM_ID: circular-motion
 :END:
-
 ** Angular Position
 :PROPERTIES:
 :CUSTOM_ID: angular-position
 :END:
-
 #+begin_html
   <details>
 #+end_html
@@ -35,7 +33,6 @@ Example
   position
 
 $$\theta = \frac{s}{r} \text{ with } 360 \textdegree = 2 \pi \text{ } rad$$
-
 ** Angular Displacement
 :PROPERTIES:
 :CUSTOM_ID: angular-displacement
@@ -45,7 +42,6 @@ $$\theta = \frac{s}{r} \text{ with } 360 \textdegree = 2 \pi \text{ } rad$$
   - The difference in its final and initial angles
 
 $$\Delta \theta = \theta_f - \theta_i$$
-
 ** Angular Velocity (Speed)
 :PROPERTIES:
 :CUSTOM_ID: angular-velocity-speed
@@ -60,7 +56,6 @@ are averaging over smaller and smaller time intervals, then the average
 angular velocity becomes the =instataneous angular velocity=
 
 $$\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$$
-
 ** Angular Acceleration
 :PROPERTIES:
 :CUSTOM_ID: angular-acceleration
@@ -74,12 +69,10 @@ The =instataneous angular acceleration= is the limit of the average
 angular acceleration as the time interval approaches zero
 
 $$\alpha = \lim_{\Delta t \to 0}\frac{\Delta \omega}{\Delta t}$$
-
 ** Angular Quantities and Vectors
 :PROPERTIES:
 :CUSTOM_ID: angular-quantities-and-vectors
 :END:
-
 #+begin_html
   <p align="center">
 #+end_html
@@ -94,7 +87,6 @@ $$\alpha = \lim_{\Delta t \to 0}\frac{\Delta \omega}{\Delta t}$$
   =velocity= are
   - *Same* if the angular =speed= is /increasing/ with /time/
   - *Opposite* if the angular =speed= is /decreasing/ with /time/
-
 ** Rotation Motion Under Constant Angular Acceleration
 :PROPERTIES:
 :CUSTOM_ID: rotation-motion-under-constant-angular-acceleration
@@ -120,12 +112,10 @@ $$\Delta \theta = \omega_i t + \frac{1}{2} \alpha t^2$$
 
 $$\omega^2 = \omega^2_i + 2 \alpha \Delta \theta$$
 #+end_quote
-
 ** Relations between Angular and Linear Quantities
 :PROPERTIES:
 :CUSTOM_ID: relations-between-angular-and-linear-quantities
 :END:
-
 #+begin_html
   <p align="center">
 #+end_html
@@ -133,7 +123,6 @@ $$\omega^2 = \omega^2_i + 2 \alpha \Delta \theta$$
 #+begin_html
   </p>
 #+end_html
-
 *** Tangential Velocity
 :PROPERTIES:
 :CUSTOM_ID: tangential-velocity
@@ -141,7 +130,6 @@ $$\omega^2 = \omega^2_i + 2 \alpha \Delta \theta$$
 - The =tangential velocity= of a point on a rotating object equals the
   =distance= of that point from the axis of rotation /multiplied/ by the
   =angular velocity= $$v_t = r \omega$$
-
 *** Tangential Acceleration
 :PROPERTIES:
 :CUSTOM_ID: tangential-acceleration
@@ -151,7 +139,6 @@ $$\omega^2 = \omega^2_i + 2 \alpha \Delta \theta$$
   by the =angular acceleration=
 
 $$a_t = r \alpha$$
-
 ** Centripetal Acceleration
 :PROPERTIES:
 :CUSTOM_ID: centripetal-acceleration
@@ -217,7 +204,6 @@ $$a = \lim_{\Delta t \to 0} \frac{\Delta v}{\Delta t} = \frac{v}{r} \left( \frac
 #+end_html
 
 $$a_c  = \frac{v^2}{r} \text{ and } a_c = \frac{r^2 \omega^2}{r} = r \omega^2$$
-
 *** Varying Speed
 :PROPERTIES:
 :CUSTOM_ID: varying-speed
@@ -229,7 +215,6 @@ $$a_c  = \frac{v^2}{r} \text{ and } a_c = \frac{r^2 \omega^2}{r} = r \omega^2$$
     acceleration are /perpendicular/ to each other
 
 $$a = \sqrt{a^2_t + a^2_c}$$
-
 *** Centripetal Force
 :PROPERTIES:
 :CUSTOM_ID: centripetal-force
@@ -244,7 +229,6 @@ $$a = \sqrt{a^2_t + a^2_c}$$
 #+begin_html
   </p>
 #+end_html
-
 ** Course Resources
 :PROPERTIES:
 :CUSTOM_ID: course-resources
@@ -252,7 +236,6 @@ $$a = \sqrt{a^2_t + a^2_c}$$
 - *Lecture Slides*
   1. [[https://mega.nz/file/bSoRWbgJ#ifyBIVGMqXRal9JgcyMMlA8-7AjODqh2XUfPvLnG0KI][Circular
      Motion]]
-
 ** Additional Resources
 :PROPERTIES:
 :CUSTOM_ID: additional-resources

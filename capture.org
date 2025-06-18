@@ -1,24 +1,6 @@
 #+TITLE: Capture
 #+DESCRIPTION: Captures and Quick notes
 #+OPTIONS: ^:nil
-* DOING Working with python [0%] :PYTHON:
-- *OBJECTIVE:* /Automantion documentation with python/
-** Python scripting :SCRIPTING:
-- *OBJECTIVE:* /Learn to do some scrpiting with python/
-*** Passing shell arguments :SHELL:
-- *OBJECTIVE:* /Passing argument from shell/
-  - *References:* [[https://ao.bloat.cat/exchange/stackoverflow.com/questions/39498702/passing-arguments-to-python-from-shell-script][Passing shell argument to python @Overflow]]
-** TODO Python virutal enviroment
-- *OBJECTIVE:* /Manage python virtual enviroments/
-  - To initiate virtual environment, run =python -m venv <name>=
-- *Visit:* [[https://www.youtube.com/watch?v=IYcTaZfjODg#__preview][Understand python vm @Youtube]]
-*** Manage packages
-- *OBJECTIVE:* /Save virtual environemnt state/
-  - To create lock file, run (when inside virtual environment) =pip freeze > requirements.txt=
-  - To install from =requirements.txt= run =pip install -r requirements.txt=
-** DOING [#C] Python as a tool for note-taking :WORFLOW:
-- *OBJECTIVE:* /Create a tool ultilies python and latex in nvim to create similar workflow in this/ [[https://l.opnxng.com/r/neovim/comments/yfbfvu/sympy_luasnip_vimtex/][post]]
-- *References:* [[https://castel.dev/post/lecture-notes-1/][How I take math notes with LaTex @Blog]]
 * DOING Orgmode Manual [85%] :ORGMODE:
 CLOSED: [2024-11-07 Thu 06:08]
 /Because =orgzly-android= is under development and features are limited some implementations will be a work around and possibly revisit in the future, check for request features/ [[https://github.com/orgzly-revived/orgzly-android-revived/issues/88][prioritized requested features]]
@@ -248,19 +230,6 @@ CLOSED: [2025-05-28 Wed 04:03]
 * TODO Config terminal app titles :UI:
 - *OBJECTIVE:* /Config terminal app titles/
   - Config title to look the same: =<content> - <appname>=
-* DOING Working with Latex [0%] :LATEX:
-:PROPERTIES:
-:ID:       bcf659a7-1e46-4a4b-b8e0-b237c7f1f8aa
-:END:
-- *OBJECTIVE:* /Convert files to latex and from latex/
-** TODO Convert PDF to latex :AI:
-:PROPERTIES:
-:ID:       0fba82ab-0863-4292-838e-bee27fb27153
-:END:
-- *OBJECTIVE:* /Convert documents from PDF to latex using AI/
-- *Reference:* [[https://www.reddit.com/r/Bard/comments/1bgstvx/suddenly_discovered_latex_on_gemini_web/][Latex on Gemini @Reddit]]
-** Convert PDF to markdown
-- *OBJECTIVE:* Convert pdf to markdown/
 * TODO Windows software on linux :WINDOWS:LINUX:
 - *OBJECTIVE:* Running windows exclusive software on linux e.g., cad, offices, pts/
 ** Running Virtual machines :VM:
@@ -318,21 +287,6 @@ CLOSED: [2025-06-03 Tue 07:43]
 - *References:* [[https://l.opnxng.com/r/neovim/comments/wi4uf3/how_do_i_insert_current_date_or_time/][Insert today date in friendly snippet @Reddit]]
 ** Setting up luasnip :LUASNIP:
 - *OBJECTIVE:* Writing custom luasnip snippets
-* TODO Working with latex [0%] :LATEX:
-- *OBJECTIVE:* Develop a framwork for latex format/
-- *Reference:* Tutorial documentation for latex
-  - [[https://www.learnlatex.org/en/][Latex for beginner @Learntex]]
-  - [[https://www.overleaf.com/learn][Overleaf latex tutorial for beginner @Overleaf]]
-** TODO Setup editor for latex :NVIM:
-- *OBJECTIVE:* Setup nvim to env to write latex in/
-  - *Visit:* [[https://github.com/lervag/vimtex][Vimtex plugin @Github]]
-** TODO Files conversion :PANDOC:GEMINI:
-- [-] *OBJECTIVE:* Convert documents from and to latex/ [50%]
-  - [ ] Convert from pdf to latex - Use =Gemini-2.5-pro=
-  - [X] Convert from latex to pdf - Use =latexmk= or =pandoc=
-- *Complication:* Workflow integration
-  Having to log on [[https://gemini.google.com/app][Google gemini @Google]] is not ideal - Integrate to shell or nvim
-- *Reference:* [[id:7c0ce0b0-4d7d-4468-8263-c3b28cd3af1b][File conversions @Orgmode]]
 * TODO Create scripted tmux session :TMUX:
 - *OBJECTIVE:* Create a persist session for orgmode notes/
 - *Complication:* nvim does not allow edit if multiple session are running
@@ -365,7 +319,7 @@ $$\omega^2 = \omega^2_i + 2 \alpha \Delta \theta$$
 
   - This is inline math block: $\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$
 
-$$\omega = \lim^2_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$$
+$$\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$$
 
 $$m_1 v_{1ix} + m_2 v_{2ix} = m_1 v_{1 \mathord{\mathit{f}} x} + m_2 v_{2 \mathord{\mathit{f}} x}$$
 - *Reference:* [[https://ao.bloat.cat/exchange/stackoverflow.com/questions/31534084/how-can-i-get-github-to-display-inline-math-in-readme-org-file#79302884][State of orgmode in github @Overflow]]
@@ -408,12 +362,6 @@ CLOSED: [2025-06-15 Sun 21:32] DEADLINE: <2025-06-15 Sun>
 ** TODO Org-ruby document config
 - *OBJECTIVE:* Config orgmode for better document render on github
 - *Reference:* [[https://orgmode.org/worg/org-tutorials/org-ruby.html][Org-ruby documentation @Doc-orgmode-ruby]]
-* TODO Working with html :HTML:
-:PROPERTIES:
-:ID:       6440266f-57df-40e2-a9e2-8d0867fcf9f2
-:END:
-- *OBJECTIVE:* Learn basic html
-- *Reference:* [[https://github.com/Asabeneh/30-Days-Of-HTML][30 days of html @Github]]
 * TODO Orgmode quicknote script :ORGMODE:
 - *OBJECTIVE:* Quickly output new note directory
 * TODO Zettlekasten system :ZETTEL:
@@ -429,14 +377,3 @@ CLOSED: [2025-06-15 Sun 21:32] DEADLINE: <2025-06-15 Sun>
 - *Reference:*
   - [[https://www.youtube.com/watch?v=AyhPmypHDEw#__preview][Getting started with orgroam @Youtube]]
   - [[https://github.com/chipsenkbeil/org-roam.nvim][Org-roam nvim plugin @Github]]
-* Learning Lua :LUA:
-- *OBJECTIVE:* Learn basic lua language
-- *Reference:* [[https://github.com/pohka/Lua-Beginners-Guide][Lua beginners guide @Github]]
-* File conversions
-:PROPERTIES:
-:ID: 7c0ce0b0-4d7d-4468-8263-c3b28cd3af1b
-:END:
-- *OBJECTIVE:* Convert different filetype
-** Pandoc conversion
-- *OBJECTIVE:* Convert filetype using pandoc
-- *Reference:* [[https://ao.bloat.cat/exchange/stackoverflow.com/questions/56828128/pandoc-is-tex-output-with-dollar-sign-math-possible][Pandoc math filter @Overflow]]

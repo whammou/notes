@@ -1,7 +1,6 @@
 #+TITLE: Capture
 #+DESCRIPTION: Captures and Quick notes
 #+OPTIONS: ^:nil
-
 * DOING Working with python [0%] :PYTHON:
 - *OBJECTIVE:* /Automantion documentation with python/
 ** Python scripting :SCRIPTING:
@@ -418,7 +417,7 @@ DEADLINE: <2025-06-17 Tue>
 - *Reference:* [[https://github.com/Asabeneh/30-Days-Of-HTML][30 days of html @Github]]
 * TODO Orgmode quicknote script :ORGMODE:
 - *OBJECTIVE:* Quickly output new note directory
-* Zettlekasten system :ZETTEL:
+* TODO Zettlekasten system :ZETTEL:
 - *OBJECTIVE:* Develop a zettl system for note repo
 - *Reference:*
   - [[https://www.youtube.com/watch?v=Q2zY7l2tzoQ#__preview][Zettlekasten system explain @Youtube]]
@@ -426,6 +425,11 @@ DEADLINE: <2025-06-17 Tue>
   - [[https://m.opnxng.com/@fairylights_io/the-zettelkasten-method-examples-to-help-you-get-started-8f8a44fa9ae6][Getting started with zettlekasten @Blog]]
   - [[https://thoughtfulatlas.substack.com/p/a-new-identifier-system-for-zettelkasten][New indentifier for zettlekasten @Blog]]
   - [[https://yannherklotz.com/zettelkasten/][zettelkasten in orgmode @Blog]]
+** Orgroam extension :ORGROAM:
+- *OBJECTIVE:* Using orgroam as solution
+- *Reference:*
+  - [[https://www.youtube.com/watch?v=AyhPmypHDEw#__preview][Getting started with orgroam @Youtube]]
+  - [[https://github.com/chipsenkbeil/org-roam.nvim][Org-roam nvim plugin @Github]]
 * Learning Lua :LUA:
 - *OBJECTIVE:* Learn basic lua language
 - *Reference:* [[https://github.com/pohka/Lua-Beginners-Guide][Lua beginners guide @Github]]

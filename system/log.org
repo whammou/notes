@@ -95,12 +95,12 @@ CLOSED: [2024-09-10 Tue 20:33]
 ** DONE Config system themes
 CLOSED: [2024-09-27 Fri 03:17]
 Re-config system theme for better aesthetic
-*** Parse ~bat~ as ~man~ pager
+*** Parse ~bat~ as ~man~ pager :BAT:
 Setting ~bat~ as ~man~ output pager, run the following commands:
 ~set -U MANPAGER "sh -c 'col -bx | bat -l man -p'"~
 Might also need to run:
 ~set -U MANROFFOPT "-c"~
-*** Config ~fzf~ theme
+*** Config ~fzf~ theme :FZF:
 Modify [[https://github.com/catppuccin/fzf][catpuccin-fzf]] theme
 
 #+NAME: catpuccin-fzf theme
@@ -556,14 +556,14 @@ CLOSED: [2025-05-27 Tue 09:07] DEADLINE: <2025-05-27 Tue>
 - *References:* [[https://wiki.archlinux.org/title/Domain_name_resolution][Domain name resolution (DNS) @Archwiki]]
 - *Solution:* Specify ~DNS=~ in configuration file for the local network interface [[file:/etc/systemd/network/][configs]]
   #+NAME: /etc/systemd/network/10-wlan0.network
-  #+BEGIN_confini
+  #+BEGIN_SRC confini
   [Match]
   Name=wlan0
 
   [Network]
   DHCP=yes
   DNS=<DNS>
-  #+END_confini
+  #+END_SRC
 ** DONE Improve kitty worflow :SHELL:KITTY:
 CLOSED: [2025-06-01 Sun 09:42]
 :PROPERTIES:

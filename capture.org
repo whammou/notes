@@ -406,7 +406,6 @@ CLOSED: [2025-06-15 Sun 21:32] DEADLINE: <2025-06-15 Sun>
   - [[id:6440266f-57df-40e2-a9e2-8d0867fcf9f2][Working with html @Orgmode]]
   - [[id:8506cc5d-a3e8-4d18-94aa-87ceb7a8c932][Treesitter highlight @Orgmode]]
 ** TODO Org-ruby document config
-DEADLINE: <2025-06-17 Tue>
 - *OBJECTIVE:* Config orgmode for better document render on github
 - *Reference:* [[https://orgmode.org/worg/org-tutorials/org-ruby.html][Org-ruby documentation @Doc-orgmode-ruby]]
 * TODO Working with html :HTML:

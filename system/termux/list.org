@@ -1,5 +1,0 @@
-#+TITLE: System Lists
-#+DESCRIPTION: Description for archive here
-#+OPTIONS: ^:nil
-* Lists :LIST:TERMUX:
-- /Stores system lists/

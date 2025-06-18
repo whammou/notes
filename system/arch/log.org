@@ -1,7 +1,0 @@
-
-#+TITLE: System Logs
-#+DESCRIPTION: Description for archive here
-#+OPTIONS: ^:nil
-#+FILETAGS: TEST
-* Logs :LOG:ARCH:
-- /Store finished tasks/

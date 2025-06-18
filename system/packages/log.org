@@ -3,5 +3,5 @@
 #+DESCRIPTION: Description for archive here
 #+OPTIONS: ^:nil
 #+FILETAGS: TEST
-* Logs :LOG:PACKAGE:
+* Logs :LOG:SYSTEM:PACKAGE:
 - /Store finished tasks/

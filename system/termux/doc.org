@@ -1,8 +1,0 @@
-
-#+TITLE: System Documents
-#+DESCRIPTION: Description for archive here
-#+OPTIONS: ^:nil
-* Archives :LIB:TERMUX:
-- /System archives/
-** Documents :DOC:
-/Documents archives/

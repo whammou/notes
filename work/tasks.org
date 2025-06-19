@@ -4,11 +4,6 @@
 * Tasks :WORK:
 Allocated space for tasks/todos
 ** One-off :ONEOFF:
-*** TODO Update github profile :GITHUB:
-:PROPERTIES:
-:ID:       2b2eaa80-2103-4ecb-b5d2-4e1f8893d901
-:END:
-- *Goal:* /Update my github profile/
 ** Incidental :INCIDENTAL:
 ** Coordinated :COORDINATED:
 ** Urgent :URGENT:

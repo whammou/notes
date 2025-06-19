@@ -1,14 +1,9 @@
-#+TITLE: Template Notebook
+#+TITLE: Package Notebook
 #+DESCRIPTION: Add notebook description here
 #+OPTIONS: ^:nil
 * Tasks :TASK:SYSTEM:PACKAGE:
 Allocated space for tasks/todos
 ** One-off :ONEOFF:
-*** PENDING Organize Script repo :GITHUB:
-Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~
-- [ ] Organize ~/scripts~
-- [ ] Oragnize [[file:/home/whammou/notes/capture.org::*Qtile scripts][qtile]] scripts
-- [ ] Oragnize ~$PATH~
 ** Incidental :INCIDENTAL:
 ** Coordinated :COORDINATED:
 ** Urgent :URGENT:

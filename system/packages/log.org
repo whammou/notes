@@ -1,7 +1,9 @@
-
-#+TITLE: System Logs
+#+TITLE: Package Logs
 #+DESCRIPTION: Description for archive here
 #+OPTIONS: ^:nil
 #+FILETAGS: TEST
 * Logs :LOG:SYSTEM:PACKAGE:
 - /Store finished tasks/
+** DONE SSH to Github :GITHUB:
+CLOSED: [2025-01-10 Fri 05:51] DEADLINE: <2025-01-09 Thu 05:00>
+- *Objective:* generate ssh key and successfully pull repos from github

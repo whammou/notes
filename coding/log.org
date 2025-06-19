@@ -1,5 +1,4 @@
-
-#+TITLE: System Logs
+#+TITLE: Coding Logs
 #+DESCRIPTION: Description for archive here
 #+OPTIONS: ^:nil
 #+FILETAGS: TEST

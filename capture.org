@@ -298,16 +298,15 @@ CLOSED: [2025-06-03 Tue 07:43]
   - [[https://l.opnxng.com/r/learnpython/comments/stfbow/how_to_tell_python_to_ignore_list_out_of_index/][Ignore list out of index @Reddit]]
 * PENDING Qtile notification bug :QTILE:
 - *OBJECTIVE:* Notification disappear when fire/ =hide_floating()=
-* DOING Prettify orgmode documents [50%] :ORGMODE:
+* DOING Prettify orgmode documents [0%] :ORGMODE:
 - *OBJECTIVE:* Prettify my org documents
 - *Reference:*
   - [[https://github.com/noncog/github-org-mode-hacks][Github orgmode hacks @Github]]
   - [[https://orgmode.org/manual/Export-Settings.html][Export settings @Orgmode-document]]
-** DONE Github render tests [100%] :GITHUB:
-CLOSED: [2025-06-15 Sun 21:41]
+** DOING Github render tests [66%] :GITHUB:
 - *OBJECTIVE:* Testing github render for orgmode
-*** DONE Testing math render :LATEX:
-CLOSED: [2025-06-15 Sun 01:21]
+*** PARTIAL Testing math render :LATEX:
+CLOSED: [2025-06-19 Thu 02:07]
 - *OBJECTIVE:* Testing markup and math render on github
   - This is inline math block: $\omega_{av} = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}$
 
@@ -322,6 +321,8 @@ $$\omega^2 = \omega^2_i + 2 \alpha \Delta \theta$$
 $$\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$$
 
 $$m_1 v_{1ix} + m_2 v_{2ix} = m_1 v_{1 \mathord{\mathit{f}} x} + m_2 v_{2 \mathord{\mathit{f}} x}$$
+- *Complication:* Render orgmode mathmode error
+  - [[https://ao.bloat.cat/exchange/tex.stackexchange.com/questions/74969/how-to-make-the-limit-mathematics-sign][latex display mode @Overflow]]
 - *Reference:* [[https://ao.bloat.cat/exchange/stackoverflow.com/questions/31534084/how-can-i-get-github-to-display-inline-math-in-readme-org-file#79302884][State of orgmode in github @Overflow]]
 *** DONE Testing html render :HTML:
 CLOSED: [2025-06-15 Sun 21:32] DEADLINE: <2025-06-15 Sun>
@@ -359,6 +360,8 @@ CLOSED: [2025-06-15 Sun 21:32] DEADLINE: <2025-06-15 Sun>
 - *Reference:*
   - [[id:6440266f-57df-40e2-a9e2-8d0867fcf9f2][Working with html @Orgmode]]
   - [[id:8506cc5d-a3e8-4d18-94aa-87ceb7a8c932][Treesitter highlight @Orgmode]]
+*** TODO Relative links
+- *OBJECTIVE:* Determine how to link between notes on github page
 ** TODO Org-ruby document config
 - *OBJECTIVE:* Config orgmode for better document render on github
 - *Reference:* [[https://orgmode.org/worg/org-tutorials/org-ruby.html][Org-ruby documentation @Doc-orgmode-ruby]]
@@ -371,9 +374,21 @@ CLOSED: [2025-06-15 Sun 21:32] DEADLINE: <2025-06-15 Sun>
   - [[https://github.com/rhelmstedter/Zettelkasten/blob/main/zettel/202101241731.md][Zettlekasten example repo @Github]]
   - [[https://m.opnxng.com/@fairylights_io/the-zettelkasten-method-examples-to-help-you-get-started-8f8a44fa9ae6][Getting started with zettlekasten @Blog]]
   - [[https://thoughtfulatlas.substack.com/p/a-new-identifier-system-for-zettelkasten][New indentifier for zettlekasten @Blog]]
-  - [[https://yannherklotz.com/zettelkasten/][zettelkasten in orgmode @Blog]]
+  - [[https://forum.zettelkasten.de/][Zattelkasten forum @Forum]]
 ** Orgroam extension :ORGROAM:
 - *OBJECTIVE:* Using orgroam as solution
 - *Reference:*
   - [[https://www.youtube.com/watch?v=AyhPmypHDEw#__preview][Getting started with orgroam @Youtube]]
   - [[https://github.com/chipsenkbeil/org-roam.nvim][Org-roam nvim plugin @Github]]
+  - [[https://yannherklotz.com/zettelkasten/][zettelkasten in orgmode @Blog]]
+  - [[https://l.opnxng.com/r/emacs/comments/u10j69/org_mode_how_do_you_keep_your_daily_agenda_to_a/][How do you keep your daily agenda @Reddit]]
+** Daily notes in zettlekasten
+- *OBJECTIVE:* How to keep daily agenda and notes in a zettlekasten system
+- *Reference:*
+  - [[https://forum.zettelkasten.de/discussion/2037/daily-notes-in-a-zettelkasten][Daily notes in a zettlekasten @Forum-zettlekasten]]
+  - [[https://forum.zettelkasten.de/discussion/100/zettels-and-org-mode][Orgmode and zettle @Forum-zattlekasten]]
+* Change snack.nvim border style :NVIM:
+- *OBJECTIVE:* Replace rounded border style in snack.nvim with static style for more aesthetic
+- *Reference:* 
+  - [[http://www.lazyvim.org/plugins][Lazyvim core plugins @Doc-lazyvim]]
+  - [[https://github.com/LazyVim/LazyVim/issues/1942#issuecomment-1793438952][Changing border with nvim-lspconfig @Github-issue]]

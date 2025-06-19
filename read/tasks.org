@@ -7,6 +7,10 @@ Allocated space for tasks/todos
 
 ** One-off :ONEOFF:
 
+*** TODO Podcast on procastination
+DEADLINE: <2025-06-19 Thu>
+- *OBJECTIVE:* Understand why we procratinate and how to fix it
+- *Reference:* [[https://www.youtube.com/watch?v=VBifDZwPiI4#__preview][How to defuse procrastination @Youtbe]]
 ** Incidental :INCIDENTAL:
 
 ** Coordinated :COORDINATED:

@@ -1,4 +1,4 @@
-#+TITLE: System Documents
+#+TITLE: Package Documents
 #+DESCRIPTION: Description for archive here
 #+OPTIONS: ^:nil
 * Archives :LIB:SYSTEM:PACKAGE:
@@ -157,20 +157,6 @@ CLOSED: [2025-03-16 Sun 20:23]
 **** ABORTED configure nvim-cmp
 CLOSED: [2025-03-16 Sun 20:23]
 - *Goal(s):* configure ~nvim-cmp~
-*** DONE Overhaul Note repo [100%] :ORGMODE:GITHUB:
-CLOSED: [2025-05-13 Tue 18:11] DEADLINE: <2025-05-13 Tue 20:00>
-- *Goal(s):* update note repo structure for more optimal workflow
-- *NOTE:* checkout [[./README.org][README]] and find a suitable repo structure
-**** ABORTED Modify README
-CLOSED: [2025-04-11 Fri 21:41]
-- *Goal(s):* modify and add README content
-  - [ ] modify [[./README.org::repo-hierarchy][Hierarchy]]
-  - [ ] add template structure
-**** DONE Separate archive hierarchy
-CLOSED: [2025-05-13 Tue 18:11]
-- Note taken on [2025-01-23 Thu 00:09] \\
-  Separate ~Logs~ ~Lists~ and ~Documents~ to different files to avoid callbacks
-- *Objective:* optimize ~archive~ hierarchy
 *** DONE Working with fzf [100%] :FZF:
 CLOSED: [2025-06-01 Sun 09:31]
 - *Objective:* /Config/ ~fzf~ /theme and function//

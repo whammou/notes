@@ -1,4 +1,4 @@
-#+TITLE: Read Archive
+#+TITLE: Read Document
 #+DESCRIPTION: Description for archive here
 
 * Archives :READ:

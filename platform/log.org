@@ -1,0 +1,6 @@
+#+TITLE: Platform Logs
+#+DESCRIPTION: Description for archive here
+#+OPTIONS: ^:nil
+#+FILETAGS: TEST
+* Logs :LOG:PLATFORM:
+- /Store finished tasks/

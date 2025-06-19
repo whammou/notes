@@ -1,4 +1,4 @@
-#+TITLE: System Lists
+#+TITLE: Package Lists
 #+DESCRIPTION: Description for archive here
 #+OPTIONS: ^:nil
 * Lists :LIST:SYSTEM:PACKAGE:

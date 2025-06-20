@@ -1,21 +1,46 @@
-#+TITLE: Read
+#+TITLE: Read Tasks
 #+DESCRIPTION: Add notebook description here
 
 * Tasks :READ:
-
 Allocated space for tasks/todos
-
 ** One-off :ONEOFF:
-
 *** TODO Podcast on procastination
-DEADLINE: <2025-06-19 Thu>
+DEADLINE: <2025-06-20 Fri>
 - *OBJECTIVE:* Understand why we procratinate and how to fix it
 - *Reference:* [[https://www.youtube.com/watch?v=VBifDZwPiI4#__preview][How to defuse procrastination @Youtbe]]
+*** DOING PARA vs Zettlekasten :PKM:
+- *OBJECTIVE:* Determine which =PKM= is more compatible with current workflow
+- *Reference:* [[https://l.opnxng.com/r/PKMS/comments/1ae7spf/what_is_pkm/][What is a PKM @Reddit]]
+**** TODO Learn PARA system :PARA:
+DEADLINE: <2025-06-20 Fri 20:00>
+- *OBJECTIVE:* Learn para system and compare it to curent workflow
+- *Reference:* [[https://fortelabs.com/blog/para/][What is para method @Blog]]
+**** TODO Learn Zettlekasten system :ZETTEL:
+DEADLINE: <2025-06-20 Fri 20:00>
+:PROPERTIES:
+:ID: ad309d55-fe5c-4d83-9a8c-42106cadce43
+:END:
+- *OBJECTIVE:* Develop a zettel system for note repo
+- *Reference:*
+  - [[https://www.youtube.com/watch?v=Q2zY7l2tzoQ#__preview][Zettlekasten system explain @Youtube]]
+  - [[https://github.com/rhelmstedter/Zettelkasten/blob/main/zettel/202101241731.md][Zettlekasten example repo @Github]]
+  - [[https://m.opnxng.com/@fairylights_io/the-zettelkasten-method-examples-to-help-you-get-started-8f8a44fa9ae6][Getting started with zettlekasten @Blog]]
+  - [[https://thoughtfulatlas.substack.com/p/a-new-identifier-system-for-zettelkasten][New indentifier for zettlekasten @Blog]]
+  - [[https://forum.zettelkasten.de/][Zattelkasten forum @Forum]]
+***** Daily notes in zettlekasten
+- *OBJECTIVE:* How to keep daily agenda and notes in a zettlekasten system
+- *Complication:* How to manage daily tasks with zettlekasten
+- *Reference:*
+  - [[https://forum.zettelkasten.de/discussion/2037/daily-notes-in-a-zettelkasten][Daily notes in a zettlekasten @Forum-zettlekasten]]
+  - [[https://forum.zettelkasten.de/discussion/100/zettels-and-org-mode][Orgmode and zettle @Forum-zattlekasten]]
+***** Orgroam extension :ORGROAM:
+- *OBJECTIVE:* Using orgroam as solution
+- *Reference:*
+  - [[https://www.youtube.com/watch?v=AyhPmypHDEw#__preview][Getting started with orgroam @Youtube]]
+  - [[https://github.com/chipsenkbeil/org-roam.nvim][Org-roam nvim plugin @Github]]
+  - [[https://yannherklotz.com/zettelkasten/][zettelkasten in orgmode @Blog]]
+  - [[https://l.opnxng.com/r/emacs/comments/u10j69/org_mode_how_do_you_keep_your_daily_agenda_to_a/][How do you keep your daily agenda @Reddit]]
 ** Incidental :INCIDENTAL:
-
 ** Coordinated :COORDINATED:
-
 ** Urgent :URGENT:
-
 ** Recurring :RECURRING:
-

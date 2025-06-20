@@ -1,5 +1,5 @@
-#+TITLE: Platoform Lists
+#+TITLE: Platform Lists
 #+DESCRIPTION: Description for archive here
 #+OPTIONS: ^:nil
 * Lists :LIST:PLATFORM:
-- /Stores system lists/
+- /Stores platform lists/

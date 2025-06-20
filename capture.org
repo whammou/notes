@@ -303,31 +303,15 @@ CLOSED: [2025-06-03 Tue 07:43]
 - *Reference:*
   - [[https://github.com/noncog/github-org-mode-hacks][Github orgmode hacks @Github]]
   - [[https://orgmode.org/manual/Export-Settings.html][Export settings @Orgmode-document]]
+** DONE Github orgmode feature
+CLOSED: [2025-06-19 Thu 23:36]
+- *OBJECTIVE:* Testing github render and feature for org notes
+- *Checkout:* [[id:7fd3eabc-0cd2-43bb-b3b3-a31c018163b2][Github render tests [100%] @Orgmode]]
 ** TODO Org-ruby document config
 - *OBJECTIVE:* Config orgmode for better document render on github
 - *Reference:* [[https://orgmode.org/worg/org-tutorials/org-ruby.html][Org-ruby documentation @Doc-orgmode-ruby]]
 * TODO Orgmode quicknote script :ORGMODE:
 - *OBJECTIVE:* Quickly output new note directory
-* TODO Zettlekasten system :ZETTEL:
-- *OBJECTIVE:* Develop a zettl system for note repo
-- *Reference:*
-  - [[https://www.youtube.com/watch?v=Q2zY7l2tzoQ#__preview][Zettlekasten system explain @Youtube]]
-  - [[https://github.com/rhelmstedter/Zettelkasten/blob/main/zettel/202101241731.md][Zettlekasten example repo @Github]]
-  - [[https://m.opnxng.com/@fairylights_io/the-zettelkasten-method-examples-to-help-you-get-started-8f8a44fa9ae6][Getting started with zettlekasten @Blog]]
-  - [[https://thoughtfulatlas.substack.com/p/a-new-identifier-system-for-zettelkasten][New indentifier for zettlekasten @Blog]]
-  - [[https://forum.zettelkasten.de/][Zattelkasten forum @Forum]]
-** Orgroam extension :ORGROAM:
-- *OBJECTIVE:* Using orgroam as solution
-- *Reference:*
-  - [[https://www.youtube.com/watch?v=AyhPmypHDEw#__preview][Getting started with orgroam @Youtube]]
-  - [[https://github.com/chipsenkbeil/org-roam.nvim][Org-roam nvim plugin @Github]]
-  - [[https://yannherklotz.com/zettelkasten/][zettelkasten in orgmode @Blog]]
-  - [[https://l.opnxng.com/r/emacs/comments/u10j69/org_mode_how_do_you_keep_your_daily_agenda_to_a/][How do you keep your daily agenda @Reddit]]
-** Daily notes in zettlekasten
-- *OBJECTIVE:* How to keep daily agenda and notes in a zettlekasten system
-- *Reference:*
-  - [[https://forum.zettelkasten.de/discussion/2037/daily-notes-in-a-zettelkasten][Daily notes in a zettlekasten @Forum-zettlekasten]]
-  - [[https://forum.zettelkasten.de/discussion/100/zettels-and-org-mode][Orgmode and zettle @Forum-zattlekasten]]
 * Change snack.nvim border style :NVIM:
 - *OBJECTIVE:* Replace rounded border style in snack.nvim with static style for more aesthetic
 - *Reference:* 

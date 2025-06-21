@@ -1,7 +1,7 @@
-
-#+TITLE: System Documents
+#+TITLE: Template  Documents
 #+DESCRIPTION: Description for archive here
 #+OPTIONS: ^:nil
+
 * Archives :LIB:TEMPLATE:
 - /System archives/
 ** Documents :DOC:

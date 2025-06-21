@@ -1,6 +1,7 @@
 #+TITLE: Template Notebook
 #+DESCRIPTION: Add notebook description here
 #+OPTIONS: ^:nil
+
 * Tasks :TASK:TEMPLATE:
 Allocated space for tasks/todos
 ** One-off :ONEOFF:

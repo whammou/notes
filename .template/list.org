@@ -1,5 +1,6 @@
-#+TITLE: System Lists
+#+TITLE: Template  Lists
 #+DESCRIPTION: Description for archive here
 #+OPTIONS: ^:nil
+
 * Lists :LIST:TEMPLATE:
 - /Stores system lists/

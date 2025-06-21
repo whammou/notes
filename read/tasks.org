@@ -35,7 +35,8 @@ DEADLINE: <2025-06-21 Sat 20:00>
   - [[https://github.com/rhelmstedter/Zettelkasten/blob/main/zettel/202101241731.md][zettelkasten example repo @Github]]
   - [[https://m.opnxng.com/@fairylights_io/the-zettelkasten-method-examples-to-help-you-get-started-8f8a44fa9ae6][Getting started with zettelkasten @Blog]]
   - [[https://thoughtfulatlas.substack.com/p/a-new-identifier-system-for-zettelkasten][New identifier for zettelkasten @Blog]]
-  - [[https://forum.zettelkasten.de/][Zattelkasten forum @Forum]]
+  - [[https://forum.zettelkasten.de/][Zettelkasten forum @Forum]]
+  - [[https://publish.obsidian.md/myquantumwell/Welcome+to+The+Quantum+Well!][Zettelkasten example: Quantum Well @Obsidian]]
 ***** Zettelkasten note search and access
 :PROPERTIES:
 :ID: 64a2f52f-b16c-454b-92b9-9de7a9d431f0
@@ -60,12 +61,16 @@ CLOSED: [2025-06-21 Sat 15:15]
   - [[https://forum.zettelkasten.de/discussion/100/zettels-and-org-mode][Orgmode and zettle @Forum-zettlekasten]]
 **** TODO Ease of accessing information
 - *OBJECTIVE:* How to easily access information from this system
-- *Complication:*
+- [-] *Issue:* [1/2]
   1. Zettelkasten notes are not easy to access via directory (the nature of the method)
-  2. Github does not support =id-link= e.g. =[[id:<uuid>]]=
+  2. [X] Github does not support =id-link= e.g. =[[id:<uuid>]]=
+- *[NOTE]* taken on [2025-06-22 02:46]:
+  2. Workaround using =anchor links=
 - *Reference:* [[id:64a2f52f-b16c-454b-92b9-9de7a9d431f0][Zettelkasten note search and access @Orgmode]]
 **** TODO Notes structure
 - *OBJECTIVE:* Consider Ease of access for notes then develop a structure to access information from both systems
+***** Note template
+- *OBJECTIVE:* How should a note looks like
 *** Take a look at Quantum Well
 - *OBJECTIVE:* Learn about this interesting topic on PKM in mathematics/physics field
 - *Reference:* [[https://publish.obsidian.md/myquantumwell/Welcome+to+The+Quantum+Well!][Quantum well example @Blog-obsidian]]

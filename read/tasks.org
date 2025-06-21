@@ -14,7 +14,7 @@ Allocated space for tasks/todos
   PARA and Zettelkasten are very different in nature. While one excel in structural and coordinated notes the other is very chaotic and flexible. However a PKM does not obligated to just one method. There are attempts to mix these methods to create a suitable PKM system for ones knowledge and/or tasks management
 - *Reference:* [[https://l.opnxng.com/r/PKMS/comments/1ae7spf/what_is_pkm/][What is a PKM @Reddit]]
 **** DONE Learn PARA system :PARA:
-DEADLINE: <2025-06-21 Sat 20:00> CLOSED: [2025-06-21 Sat 13:23]
+CLOSED: [2025-06-21 Sat 13:23] DEADLINE: <2025-06-21 Sat 20:00>
 - *OBJECTIVE:* Learn para system and compare it to current workflow
 - *[NOTE]* taken on [2025-06-21 13:26]:
   PARA system is very similar to current =pkm= system with some key differences:
@@ -44,7 +44,7 @@ DEADLINE: <2025-06-21 Sat 20:00>
 - *Reference:* [[https://l.opnxng.com/r/Zettelkasten/comments/1ejuwtj/how_to_find_my_notes_in_the_zettelkasten/][How do I access my notes in zettelkasten @Reddit]]
 *** DOING Develop a hybrid PKM system [33%] :PKM:
 :PROPERTIES:
-:ID: 08c4ff53-dd44-419b-b305-23ccccba4250
+:ID:       08c4ff53-dd44-419b-b305-23ccccba4250
 :END:
 - *OBJECTIVE:* Taking advantage of orderly nature of PARA method and chaotic nature of zettelkasten methodologies simultaneously
 - *Reference:* [[https://forum.obsidian.md/t/taking-advantage-of-orderly-para-and-chaotic-zettelkasten-methodologies-simultaneously/47786][Zettel PARA hybrid system discussion @Forum-Obsidian]]

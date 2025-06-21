@@ -4,42 +4,61 @@
 * Tasks :READ:
 Allocated space for tasks/todos
 ** One-off :ONEOFF:
-*** TODO Podcast on procastination
-DEADLINE: <2025-06-20 Fri>
-- *OBJECTIVE:* Understand why we procratinate and how to fix it
-- *Reference:* [[https://www.youtube.com/watch?v=VBifDZwPiI4#__preview][How to defuse procrastination @Youtbe]]
-*** DOING PARA vs Zettlekasten :PKM:
+*** TODO Podcast on procrastination
+DEADLINE: <2025-06-21 Sat>
+- *OBJECTIVE:* Understand why we procrastinate and how to fix it
+- *Reference:* [[https://www.youtube.com/watch?v=VBifDZwPiI4#__preview][How to defuse procrastination @Youtube]]
+*** DOING PARA vs zettelkasten :PKM:
 - *OBJECTIVE:* Determine which =PKM= is more compatible with current workflow
+- *Visit:* [[id:08c4ff53-dd44-419b-b305-23ccccba4250][Develop a hybrid PKM system @Orgmode]]
+- *[NOTE]* taken on [2025-06-20 20:42]:
+  PARA and Zettelkasten are very different in nature. While one excel in structural and coordinated notes the other is very chaotic and flexible. However a PKM does not obligated to just one method. There are attempts to mix these methods to create a suitable PKM system for ones knowledge and/or tasks management
 - *Reference:* [[https://l.opnxng.com/r/PKMS/comments/1ae7spf/what_is_pkm/][What is a PKM @Reddit]]
-**** TODO Learn PARA system :PARA:
-DEADLINE: <2025-06-20 Fri 20:00>
-- *OBJECTIVE:* Learn para system and compare it to curent workflow
+**** DONE Learn PARA system :PARA:
+DEADLINE: <2025-06-21 Sat 20:00> CLOSED: [2025-06-21 Sat 13:23]
+- *OBJECTIVE:* Learn para system and compare it to current workflow
+- *[NOTE]* taken on [2025-06-21 13:26]:
+  PARA system is very similar to current =pkm= system with some key differences:
+   - PARA notes live in a master directory wheres current system notes live sub-directories
+   - PARA is not scalable with very large amount of notes and lack of cross referencing between notes
+   - PARA is easy to setup but hard to maintain
+   - PARA system is very suitable for tracking tasks and ideas
 - *Reference:* [[https://fortelabs.com/blog/para/][What is para method @Blog]]
-**** TODO Learn Zettlekasten system :ZETTEL:
-DEADLINE: <2025-06-20 Fri 20:00>
+**** TODO Learn zettelkasten system :ZETTEL:
+DEADLINE: <2025-06-21 Sat 20:00>
 :PROPERTIES:
 :ID: ad309d55-fe5c-4d83-9a8c-42106cadce43
 :END:
 - *OBJECTIVE:* Develop a zettel system for note repo
+- *Complication:* How to access information in zettelkasten
 - *Reference:*
-  - [[https://www.youtube.com/watch?v=Q2zY7l2tzoQ#__preview][Zettlekasten system explain @Youtube]]
-  - [[https://github.com/rhelmstedter/Zettelkasten/blob/main/zettel/202101241731.md][Zettlekasten example repo @Github]]
-  - [[https://m.opnxng.com/@fairylights_io/the-zettelkasten-method-examples-to-help-you-get-started-8f8a44fa9ae6][Getting started with zettlekasten @Blog]]
-  - [[https://thoughtfulatlas.substack.com/p/a-new-identifier-system-for-zettelkasten][New indentifier for zettlekasten @Blog]]
+  - [[https://www.youtube.com/watch?v=Q2zY7l2tzoQ#__preview][zettelkasten system explain @Youtube]]
+  - [[https://github.com/rhelmstedter/Zettelkasten/blob/main/zettel/202101241731.md][zettelkasten example repo @Github]]
+  - [[https://m.opnxng.com/@fairylights_io/the-zettelkasten-method-examples-to-help-you-get-started-8f8a44fa9ae6][Getting started with zettelkasten @Blog]]
+  - [[https://thoughtfulatlas.substack.com/p/a-new-identifier-system-for-zettelkasten][New identifier for zettelkasten @Blog]]
   - [[https://forum.zettelkasten.de/][Zattelkasten forum @Forum]]
-***** Daily notes in zettlekasten
-- *OBJECTIVE:* How to keep daily agenda and notes in a zettlekasten system
-- *Complication:* How to manage daily tasks with zettlekasten
+*** Develop a hybrid PKM system :PKM:
+:PROPERTIES:
+:ID: 08c4ff53-dd44-419b-b305-23ccccba4250
+:END:
+- *OBJECTIVE:* Taking advantage of orderly nature of PARA method and chaotic nature of zettelkasten methodologies simultaneously
+- *Reference:* [[https://forum.obsidian.md/t/taking-advantage-of-orderly-para-and-chaotic-zettelkasten-methodologies-simultaneously/47786][Zettel PARA hybrid system discussion @Forum-Obsidian]]
+**** Tasks management
+- *OBJECTIVE:* How to keep daily agenda and notes in a zettelkasten system
+- *Complication:* How to manage daily tasks with zettelkasten
+- *[NOTE]* taken on [2025-06-21 14:00]:
+  - Using PARA system to track and develop tasks
+  - PARA acting as an index node for zettelkasten
 - *Reference:*
-  - [[https://forum.zettelkasten.de/discussion/2037/daily-notes-in-a-zettelkasten][Daily notes in a zettlekasten @Forum-zettlekasten]]
-  - [[https://forum.zettelkasten.de/discussion/100/zettels-and-org-mode][Orgmode and zettle @Forum-zattlekasten]]
-***** Orgroam extension :ORGROAM:
-- *OBJECTIVE:* Using orgroam as solution
-- *Reference:*
-  - [[https://www.youtube.com/watch?v=AyhPmypHDEw#__preview][Getting started with orgroam @Youtube]]
-  - [[https://github.com/chipsenkbeil/org-roam.nvim][Org-roam nvim plugin @Github]]
-  - [[https://yannherklotz.com/zettelkasten/][zettelkasten in orgmode @Blog]]
-  - [[https://l.opnxng.com/r/emacs/comments/u10j69/org_mode_how_do_you_keep_your_daily_agenda_to_a/][How do you keep your daily agenda @Reddit]]
+  - [[https://forum.zettelkasten.de/discussion/2037/daily-notes-in-a-zettelkasten][Daily notes in a zettelkasten @Forum-zettlekasten]]
+  - [[https://forum.zettelkasten.de/discussion/100/zettels-and-org-mode][Orgmode and zettle @Forum-zettlekasten]]
+**** Ease of accessing information
+- *OBJECTIVE:* How to easily access information from this system
+**** Notes structure
+- *OBJECTIVE:* Consider Ease of access for notes then develop a structure to access information from both systems
+*** Take a look at Quantum Well
+- *OBJECTIVE:* Learn about this interesting topic on PKM in mathematics/physics field
+- *Reference:* [[https://publish.obsidian.md/myquantumwell/Welcome+to+The+Quantum+Well!][Quantum well example @Blog-obsidian]]
 ** Incidental :INCIDENTAL:
 ** Coordinated :COORDINATED:
 ** Urgent :URGENT:

@@ -1,6 +1,7 @@
 #+TITLE: Capture
 #+DESCRIPTION: Captures and Quick notes
 #+OPTIONS: ^:nil
+
 * DOING Orgmode Manual [85%] :ORGMODE:
 CLOSED: [2024-11-07 Thu 06:08]
 /Because =orgzly-android= is under development and features are limited some implementations will be a work around and possibly revisit in the future, check for request features/ [[https://github.com/orgzly-revived/orgzly-android-revived/issues/88][prioritized requested features]]

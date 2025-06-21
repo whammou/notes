@@ -18,7 +18,7 @@ DEADLINE: <2025-06-20 Fri 20:00>
 **** TODO Learn Zettlekasten system :ZETTEL:
 DEADLINE: <2025-06-20 Fri 20:00>
 :PROPERTIES:
-:ID: ad309d55-fe5c-4d83-9a8c-42106cadce43
+:ID:       ad309d55-fe5c-4d83-9a8c-42106cadce43
 :END:
 - *OBJECTIVE:* Develop a zettel system for note repo
 - *Reference:*

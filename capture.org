@@ -1,6 +1,7 @@
 #+TITLE: Capture
 #+DESCRIPTION: Captures and Quick notes
 #+OPTIONS: ^:nil
+
 * DOING Orgmode Manual [85%] :ORGMODE:
 CLOSED: [2024-11-07 Thu 06:08]
 /Because =orgzly-android= is under development and features are limited some implementations will be a work around and possibly revisit in the future, check for request features/ [[https://github.com/orgzly-revived/orgzly-android-revived/issues/88][prioritized requested features]]
@@ -317,3 +318,10 @@ CLOSED: [2025-06-19 Thu 23:36]
 - *Reference:* 
   - [[http://www.lazyvim.org/plugins][Lazyvim core plugins @Doc-lazyvim]]
   - [[https://github.com/LazyVim/LazyVim/issues/1942#issuecomment-1793438952][Changing border with nvim-lspconfig @Github-issue]]
+* Orgroam extension :ORGROAM:
+- *OBJECTIVE:* Using orgroam as solution
+- *Reference:*
+  - [[https://www.youtube.com/watch?v=AyhPmypHDEw#__preview][Getting started with orgroam @Youtube]]
+  - [[https://github.com/chipsenkbeil/org-roam.nvim][Org-roam nvim plugin @Github]]
+  - [[https://yannherklotz.com/zettelkasten/][zettelkasten in orgmode @Blog]]
+  - [[https://l.opnxng.com/r/emacs/comments/u10j69/org_mode_how_do_you_keep_your_daily_agenda_to_a/][How do you keep your daily agenda @Reddit]]

@@ -29,7 +29,7 @@ DEADLINE: <2025-06-21 Sat 20:00>
   - There are 4 different kind of notes in a ZK system:
     1. [[id:0f060514-2ddf-46c9-8239-bec214900da7][Literature Note]]
     2. [[id:75718488-5cd3-46f7-abbb-e691be72d4b0][Permanent Note]]
-    3. [[id:fe01f997-0aef-4081-9b5b-33e20019f9d0][Hub Note]]
+    3. [[id:fe01f997-0aef-4081-9b5b-33e20019f9d0][Hub Note]] [[https://github.com/whammou/notes/blob/main/read/doc.org#hub-note][link]]
     4. [[id:c7bcfdc5-883f-4e63-8a70-76249d314e21][Fleeting Note]]
   - Extra notes for managing a ZK system
     1. [[id:9649ee21-9cb6-4c6c-bfc8-d4481f33f272][Project Note]]

@@ -37,6 +37,19 @@ DEADLINE: <2025-06-21 Sat 20:00>
   - [[https://thoughtfulatlas.substack.com/p/a-new-identifier-system-for-zettelkasten][New identifier for zettelkasten @Blog]]
   - [[https://forum.zettelkasten.de/][Zettelkasten forum @Forum]]
   - [[https://publish.obsidian.md/myquantumwell/Welcome+to+The+Quantum+Well!][Zettelkasten example: Quantum Well @Obsidian]]
+***** The Zettelkasten system
+- *OBJECTIVE:* Learn the struture of a zettelkasten system
+****** Types of notes
+- *OBJECTIVE:* Differenciate different types of notes
+****** Adress of each note
+- *OBJECTIVE:* Determine which adress structure to use in a ZK system
+- *[NOTE]* taken on [2025-06-22 23:14]:
+#+begin_html
+<p align="center">
+<IMG src="https://zettelkasten.de/introduction/2020-08-13_folgezettel-sequence.png" alt="test image" width=50%/>
+</p>
+#+end_html
+- *Reference:* [[https://zettelkasten.de/introduction/#the-fixed-address-of-each-note][The fixed adredd of each note @Zettlekasten.de]]
 ***** Zettelkasten note search and access
 :PROPERTIES:
 :ID: 64a2f52f-b16c-454b-92b9-9de7a9d431f0

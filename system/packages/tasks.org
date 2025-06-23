@@ -5,7 +5,7 @@
 * Tasks :TASK:SYSTEM:PACKAGE:
 Allocated space for tasks/todos
 ** One-off :ONEOFF:
-*** Create qtile widget :QTILE:
+*** PENDING Create qtile widget :QTILE:
 - *OBJECTIVE:* Create a custom qtile widget
 - *Reference:* [[https://docs.qtile.org/en/latest/manual/howto/widget.html][Create a qtile widget @Doc-qtile]]
 *** Orgroam extension :ORGROAM:

@@ -1,6 +1,7 @@
 #+TITLE: System Logs
 #+DESCRIPTION: Description for archive here
 #+FILETAGS: TEST
+
 * Logs :LOG:SYSTEM:
 - /Store finished tasks/
 ** DONE Vim buffer workflow :VIM:
@@ -466,23 +467,6 @@ CLOSED: [2025-04-23 Wed 23:03]
     { "folke/trouble.nvim", enabled = false },
     }
     #+END_SRC
-** DONE Testing orgmode render math :GITHUB:ORGMODE:
-CLOSED: [2025-05-23 Fri 17:48]
-:LOGBOOK:
-- Note taken on [2025-05-23 Fri 17:48] \\
-Complex math expression does not render correctly
-:END:
-- *Goal:* /Render math in orgmode on Github/
-  - Inline math: $x_0^2 = 9^2$
-  $$x_1^2 = 4^2$$
-  
-  $$\omega_{av} = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}$$
-  
-  - Math block:
-    ```math
-    x_i^2 = 3^4
-    ```
-- *References:* [[https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions#writing-expressions-as-blocks][Writting mathematical expression @Github-doc]]
 ** DONE Github orgmode interpretation
 CLOSED: [2025-05-23 Fri 17:49]
 - *Goal:* /Dicover how github interprets orgmode/
@@ -659,7 +643,6 @@ CLOSED: [2025-06-16 Mon 01:36]
 - *Reference:*
   - [[https://g.co/gemini/share/39ccfb7bdab6][Inject custom block with tresitter @Gemini]]
   - [[https://github.com/nvim-orgmode/orgmode/issues/36#issuecomment-885766008][Nvim-orgmode implement of TS is in-progress @Github-issue]]
-    
 ** DONE Update wallpaper :UI:
 CLOSED: [2025-06-03 Tue 11:59] DEADLINE: <2025-06-03 Tue>
 :PROPERTIES:

@@ -201,15 +201,14 @@ CLOSED: [2025-05-30 Fri 07:28]
 - *Objective:* /Check out fzf-nova script library/
 - *Visit:* [[https://github.com/gotbletu/fzf-nova][fzf-nova Github]]
 - *Reference:* [[https://github.com/gotbletu/shownotes?tab=readme-ov-file][Some useful tools from gotbletu @Github]]
-*** DONE Hacking on with qtile [100%] :QTILE:
-CLOSED: [2025-06-08 Sun 05:14]
+*** DOING Hacking on with qtile [80%] :QTILE:
 - *OBJECTIVE:* /Assign spawn grouping and layouts/
 **** DONE Hooks and custom functions
 CLOSED: [2025-05-08 Thu 14:27]
 - *OBJECTIVE:* /Checkout hooks and custom functions e.g ~expose command~/
   - *Visit:* [[https://docs.qtile.org/en/latest/manual/config/hooks.html][Hooks and Commands @Qtile-doc]]
 **** DONE Manage floating windows [100%]
-CLOSED: [2025-06-10 Tue 14:57]
+CLOSED: [2025-06-23 Mon 16:27]
 - *OBJECTIVE:* /Add floating windows for quick preview of media files/
   - To prevent *focus_stealing_hook* in ~qtile~: [[https://github.com/whammou/dotfiles/commit/56ee9ce8c65ed7b2dba894a5ba294a285c2504f0][Added prevent_focus_stealing hook @Commit]]
 - *References:*
@@ -254,7 +253,7 @@ CLOSED: [2025-06-05 Thu 07:09]
 - *OBJECTIVE:* /Create move() floating windows keybinds/
 - *References:* [[https://l.opnxng.com/r/qtile/comments/18cjjlo/keybinds_to_resize_and_move_floating_window/][Move floating windows via @lazy.window.function @Reddit]]
   - *Solution:* [[https://github.com/whammou/dotfiles/commit/8a2ff6a3c8340c22ce68873315b8d551f3f854fe][Added ability to resize and move floating windows @Commit]]
-***** PARTIAL Hide background floating windows [50%]
+***** PARTIAL Hide background floating windows [100%]
 CLOSED: [2025-06-10 Tue 15:01]
 - /*Objective:* Hide floating windows/
 ****** DONE Using Picom to set transparency [100%]
@@ -266,9 +265,15 @@ CLOSED: [2025-06-08 Sun 00:02]
   - [X] Keybind for when toggle ~scratchpad~
 - *Complication:* Qtile does not support hidding windows
 - *Solution:* - Workaround: use a compositor to set opacity to lowest (hide) and highest(unhide)
-****** PENDING Hide floating window in different group [%]
+****** ABORTED Hide floating window in different group [%]
+CLOSED: [2025-06-23 Mon 16:23]
 - [ ] /*Objective:* Create a hidden group to for floating windows/
 - [ ] /*Objective:* Call hidden windows to current screen/
+***** DONE Qtile notification bug
+CLOSED: [2025-06-23 Mon 16:23]
+- *OBJECTIVE:* Notification disappear when fire/ =hide_floating()=
+- *[NOTE]* taken on [2025-06-23 16:24]:
+  Using =move_to_top= and =move-to_bottom= instead of =keep_above= or =keep_below= solved the issue
 **** ABORTED Windows grouping
 CLOSED: [2025-06-08 Sun 05:07] DEADLINE: <2025-05-09 Fri 18:00>
 - [X] *OBJECTIVE:* /Assign grouping for windows with the same wm_class/
@@ -297,6 +302,10 @@ CLOSED: [2025-06-10 Tue 14:59]
 CLOSED: [2025-06-08 Sun 05:02]
 - /*Objective:* Tell qtile which layout to spawn the window in/
 - *Reference:* [[id:88bbe7c3-ba9a-4bad-adf8-b523dd0c1c26][Spawn layout commands @Orgmode]]
+**** TODO Qtile toggle fullscreen floating :QTILE:
+DEADLINE: <2025-06-23 Mon>
+- *OBJECTIVE:* Toggle between fullscreen and floating window
+- *Issue:* Toggle fullscreen to floating causes qtile to crash
 *** PARTIAL Qutebrowser configuration [80%] :QUTEBROWSER:
 CLOSED: [2025-06-10 Tue 01:04]
 - *OBJECTIVE:* implement text to speech to qutebrowser

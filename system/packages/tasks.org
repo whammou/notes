@@ -5,7 +5,7 @@
 * Tasks :TASK:SYSTEM:PACKAGE:
 Allocated space for tasks/todos
 ** One-off :ONEOFF:
-*** Create qtile widget :QTILE:
+*** PENDING Create qtile widget :QTILE:
 - *OBJECTIVE:* Create a custom qtile widget
 - *Reference:* [[https://docs.qtile.org/en/latest/manual/howto/widget.html][Create a qtile widget @Doc-qtile]]
 *** Orgroam extension :ORGROAM:
@@ -15,10 +15,10 @@ Allocated space for tasks/todos
   - [[https://github.com/chipsenkbeil/org-roam.nvim][Org-roam nvim plugin @Github]]
   - [[https://l.opnxng.com/r/emacs/comments/u10j69/org_mode_how_do_you_keep_your_daily_agenda_to_a/][How do you keep your daily agenda @Reddit]]
 **** TODO Orgroam zettelkasten :ZETTELKASTEN:
-DEADLINE: <2025-06-21 Sat>
+DEADLINE: <2025-06-23 Mon>
 - *OBJECTIVE:* Apply zettelkasten with orgroam
 - *Reference:*
-  - [[https://www.youtube.com/watch?v=-TpWahIzueg][Orgroam zettelkasten @Youtube]]
+  - [[https://www.youtube.com/watch?v=-TpWahIzueg#__preview][Orgroam zettelkasten @Youtube]]
   - [[https://yannherklotz.com/zettelkasten/][zettelkasten in orgmode @Blog]]
 ** Incidental :INCIDENTAL:
 ** Coordinated :COORDINATED:

@@ -6,7 +6,7 @@
 - /System archives/
 ** Documents :DOC:
 /Documents archives/
-*** DONE Github render tests [100%] :GITHUB:
+*** DONE Github render tests [100%] :GITHUB:ORGMODE:
 CLOSED: [2025-06-19 Thu 20:52]
 :PROPERTIES:
 :ID:       7fd3eabc-0cd2-43bb-b3b3-a31c018163b2

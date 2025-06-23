@@ -319,3 +319,6 @@ CLOSED: [2025-06-19 Thu 23:36]
 - *Reference:* 
   - [[http://www.lazyvim.org/plugins][Lazyvim core plugins @Doc-lazyvim]]
   - [[https://github.com/LazyVim/LazyVim/issues/1942#issuecomment-1793438952][Changing border with nvim-lspconfig @Github-issue]]
+* TODO Orgmode toggle archived items :ORGMODE:
+- *OBJECTIVE:* Toggle archive view in =orgmode-nvim= and =orgzly=
+- *Reference:* [[https://nvim-orgmode.github.io/configuration#org_agenda_archive][Archiving in nvim-orgmode @Doc-orgmode]]

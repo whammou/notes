@@ -1,6 +1,7 @@
 #+TITLE: System Logs
 #+DESCRIPTION: Description for archive here
 #+FILETAGS: TEST
+
 * Logs :LOG:SYSTEM:
 - /Store finished tasks/
 ** DONE Vim buffer workflow :VIM:
@@ -642,7 +643,6 @@ CLOSED: [2025-06-16 Mon 01:36]
 - *Reference:*
   - [[https://g.co/gemini/share/39ccfb7bdab6][Inject custom block with tresitter @Gemini]]
   - [[https://github.com/nvim-orgmode/orgmode/issues/36#issuecomment-885766008][Nvim-orgmode implement of TS is in-progress @Github-issue]]
-    
 ** DONE Update wallpaper :UI:
 CLOSED: [2025-06-03 Tue 11:59] DEADLINE: <2025-06-03 Tue>
 :PROPERTIES:

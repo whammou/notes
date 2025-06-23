@@ -200,7 +200,8 @@ CLOSED: [2025-05-30 Fri 07:28]
 - *Objective:* /Check out fzf-nova script library/
 - *Visit:* [[https://github.com/gotbletu/fzf-nova][fzf-nova Github]]
 - *Reference:* [[https://github.com/gotbletu/shownotes?tab=readme-ov-file][Some useful tools from gotbletu @Github]]
-*** DOING Hacking on with qtile [80%] :QTILE:
+*** DONE Hacking on with qtile [100%] :QTILE:
+CLOSED: [2025-06-23 Mon 21:23]
 - *OBJECTIVE:* /Assign spawn grouping and layouts/
 **** DONE Hooks and custom functions
 CLOSED: [2025-05-08 Thu 14:27]
@@ -279,7 +280,7 @@ CLOSED: [2025-06-08 Sun 05:07] DEADLINE: <2025-05-09 Fri 18:00>
   - *Visit:* [[https://github.com/aravinda0/qtile-bonsai/discussions/12#discussioncomment-11095207][new window grouping @Github-discussion]]
 - +[ ] *OBJECTIVE:* /Assign goruping for *specific* windows with the same wn_class/+
 **** DONE Spawn window from links [100%]
-CLOSED: [2025-06-08 Sun 05:14]
+CLOSED: [2025-06-23 Mon 21:24]
 - *OBJECTIVE:* /Successfully show window in pre-defined layout/
 ***** DONE Determine spawn filetype :HANDLR:KITTY: [100%]
 CLOSED: [2025-06-10 Tue 14:59]
@@ -301,10 +302,6 @@ CLOSED: [2025-06-10 Tue 14:59]
 CLOSED: [2025-06-08 Sun 05:02]
 - /*Objective:* Tell qtile which layout to spawn the window in/
 - *Reference:* [[id:88bbe7c3-ba9a-4bad-adf8-b523dd0c1c26][Spawn layout commands @Orgmode]]
-**** TODO Qtile toggle fullscreen floating :QTILE:
-DEADLINE: <2025-06-23 Mon>
-- *OBJECTIVE:* Toggle between fullscreen and floating window
-- *Issue:* Toggle fullscreen to floating causes qtile to crash
 *** PARTIAL Qutebrowser configuration [80%] :QUTEBROWSER:
 CLOSED: [2025-06-10 Tue 01:04]
 - *OBJECTIVE:* implement text to speech to qutebrowser

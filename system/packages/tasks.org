@@ -20,6 +20,10 @@ DEADLINE: <2025-06-23 Mon>
 - *Reference:*
   - [[https://www.youtube.com/watch?v=-TpWahIzueg#__preview][Orgroam zettelkasten @Youtube]]
   - [[https://yannherklotz.com/zettelkasten/][zettelkasten in orgmode @Blog]]
+*** TODO Qtile toggle fullscreen floating :QTILE:
+DEADLINE: <2025-06-23 Mon>
+- *OBJECTIVE:* Toggle between fullscreen and floating window
+- *Issue:* Toggle fullscreen to floating causes qtile to crash
 ** Incidental :INCIDENTAL:
 ** Coordinated :COORDINATED:
 ** Urgent :URGENT:

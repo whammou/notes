@@ -3,28 +3,12 @@
 
 * Documents :READ:LIB:DOC:
 Allocated space for archives
-** TODO Research prompt engineering :RESEARCH:AI:
-- *Goal:* /Learn to create prompts/
-- *References:* [[https://l.opnxng.com/r/PromptEngineering/comments/1kggmh0/google_dropped_a_68page_prompt_engineering_guide/][Google 68-page prompt engineering guide @Reddit]]
-- *Document:* [[file:~/Documents/guides/prompt-engineering-overview.md][prompt-engineering-overview @Markdown]]
-** TODO Learn zettelkasten system :ZETTELKASTEN:
-DEADLINE: <2025-06-23 Mon>
+** The Zettelkasten system :PKM:ZETTELKASTEN:
 :PROPERTIES:
-:ID:       ad309d55-fe5c-4d83-9a8c-42106cadce43
+:ID: 705d42e4-c980-4d53-ad38-029f28d503dc
 :END:
-- *OBJECTIVE:* Develop a zettel system for note repo
-- *Complication:* How to access information in zettelkasten
-- *Reference:*
-  - [[https://www.youtube.com/watch?v=Q2zY7l2tzoQ#__preview][zettelkasten system explain @Youtube]]
-  - [[https://github.com/KasperZutterman/Second-Brain][A curated list public zettelkasten @Github]]
-  - [[https://github.com/rhelmstedter/Zettelkasten/blob/main/zettel/202101241731.md][zettelkasten example repo @Github]]
-  - [[https://m.opnxng.com/@fairylights_io/the-zettelkasten-method-examples-to-help-you-get-started-8f8a44fa9ae6][Getting started with zettelkasten @Blog]]
-  - [[https://thoughtfulatlas.substack.com/p/a-new-identifier-system-for-zettelkasten][New identifier for zettelkasten @Blog]]
-  - [[https://forum.zettelkasten.de/][Zettelkasten forum @Forum]]
-  - [[https://publish.obsidian.md/myquantumwell/Welcome+to+The+Quantum+Well!][Zettelkasten example: Quantum Well @Obsidian]]
-*** The Zettelkasten system
 - *OBJECTIVE:* Learn the structure of a zettelkasten system
-**** Types of notes
+*** Types of notes
 - *OBJECTIVE:* Differences different types of notes
 - *[NOTE]* taken on [2025-06-23 01:07]:
   - There are 4 different kind of notes in a ZK system:
@@ -34,33 +18,46 @@ DEADLINE: <2025-06-23 Mon>
     4. [[id:c7bcfdc5-883f-4e63-8a70-76249d314e21][Fleeting Note]]
   - Extra notes for managing a ZK system
     1. [[id:9649ee21-9cb6-4c6c-bfc8-d4481f33f272][Project Note]]
-***** Literature Note
+**** Literature Note
 :PROPERTIES:
 :ID:       0f060514-2ddf-46c9-8239-bec214900da7
 :END:
-***** Permanent Note
+- *[NOTE]* taken on [2025-06-23 22:47]:
+  - Notes that contain contains page number or index from a blurb of a literature piece e.g. books, article etc, for later use
+**** Permanent Note
 :PROPERTIES:
 :ID:       75718488-5cd3-46f7-abbb-e691be72d4b0
 :END:
-***** Hub Note
+- *[NOTE]* taken on [2025-06-23 22:03]:
+  - Notes that are meant to be kept forever
+  - Each note are focus on a single idea written in full prose but *SHORT!*
+  - Permanent notes are given a alphanumeric [[id:0ce0544c-320b-4aef-9bad-14564ee61474][identifier]]
+    - These =ids= help identify clusters of notes since they share the same prefix
+**** Hub Note
 :PROPERTIES:
 :ID:       fe01f997-0aef-4081-9b5b-33e20019f9d0
 :END:
 - *[NOTE]* taken on [2025-06-23 01:22]:
   - =Hub= or =Structure note= is a =Meta-note= of the other notes
   - Serve as a tracker or a way to navigate through the note web
-***** Fleeting Note
+**** Fleeting Note
 :PROPERTIES:
 :ID:       c7bcfdc5-883f-4e63-8a70-76249d314e21
 :END:
-***** Project Note
+- *[NOTE]* taken on [2025-06-23 22:00]:
+  - Capturing notes, ideas, todos throughout the day
+  - Fleeting notes are meant to be discarded after being processed
+**** Project Note
 :PROPERTIES:
 :ID:       9649ee21-9cb6-4c6c-bfc8-d4481f33f272
 :END:
 - *[NOTE]* taken on [2025-06-23 01:55]:
   - Serve as a pointer to the current on going project
   - Live only for the lifetime of said project
-**** Address of each note
+*** Address of each note
+:PROPERTIES:
+:ID: 0ce0544c-320b-4aef-9bad-14564ee61474
+:END:
 - *OBJECTIVE:* Determine which address structure to use in a ZK system
 - *[NOTE]* taken on [2025-06-22 23:14]:
   #+begin_html

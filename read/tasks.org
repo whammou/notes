@@ -38,7 +38,7 @@ DEADLINE: <2025-06-21 Sat 20:00>
   - [[https://forum.zettelkasten.de/][Zattelkasten forum @Forum]]
 ***** Zettelkasten note search and access
 :PROPERTIES:
-:ID: 64a2f52f-b16c-454b-92b9-9de7a9d431f0
+:ID:       64a2f52f-b16c-454b-92b9-9de7a9d431f0
 :END:
 - *OBJECTIVE:* How to search and access notes in a Zettelkasten system
 - *Reference:* [[https://l.opnxng.com/r/Zettelkasten/comments/1ejuwtj/how_to_find_my_notes_in_the_zettelkasten/][How do I access my notes in zettelkasten @Reddit]]

@@ -18,7 +18,7 @@ Allocated space for tasks/todos
 DEADLINE: <2025-06-21 Sat>
 - *OBJECTIVE:* Apply zettelkasten with orgroam
 - *Reference:*
-  - [[https://www.youtube.com/watch?v=-TpWahIzueg][Orgroam zettelkasten @Youtube]]
+  - [[https://www.youtube.com/watch?v=-TpWahIzueg#__preview][Orgroam zettelkasten @Youtube]]
   - [[https://yannherklotz.com/zettelkasten/][zettelkasten in orgmode @Blog]]
 ** Incidental :INCIDENTAL:
 ** Coordinated :COORDINATED:

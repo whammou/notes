@@ -24,10 +24,12 @@ Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~
 :ID:       2b2eaa80-2103-4ecb-b5d2-4e1f8893d901
 :END:
 - *OBJECTIVE:* /Update my github profile/
-*** TODO Workaround id link :GITHUB:ORGMODE:
-DEADLINE: <2025-06-21 Sat>
+*** PENDING Workaround id link :GITHUB:ORGMODE:
 - *OBJECTIVE:* Workaround github render does not support for id link like in orgmode
 - *Reference:* [[https://l.opnxng.com/r/emacs/comments/1fdt3bf/a_quick_hack_to_convert_orgorgroam_links_from_id/][Workaround id link on github orgmode @Reddit]]
+*** PENDING Advanced search Github :GITHUB:
+- *OBJECTIVE:* Learn avanced search technique on github
+- *Reference:* [[https://www.freecodecamp.org/news/github-search-tips/][Github advanced search tips @Freecodecamp]]
 ** Incidental :INCIDENTAL:
 ** Coordinated :COORDINATED:
 ** Urgent :URGENT:

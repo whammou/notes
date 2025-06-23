@@ -36,26 +36,26 @@ DEADLINE: <2025-06-23 Mon>
     1. [[id:9649ee21-9cb6-4c6c-bfc8-d4481f33f272][Project Note]]
 ***** Literature Note
 :PROPERTIES:
-:ID: 0f060514-2ddf-46c9-8239-bec214900da7
+:ID:       0f060514-2ddf-46c9-8239-bec214900da7
 :END:
 ***** Permanent Note
 :PROPERTIES:
-:ID: 75718488-5cd3-46f7-abbb-e691be72d4b0
+:ID:       75718488-5cd3-46f7-abbb-e691be72d4b0
 :END:
 ***** Hub Note
 :PROPERTIES:
-:ID: fe01f997-0aef-4081-9b5b-33e20019f9d0
+:ID:       fe01f997-0aef-4081-9b5b-33e20019f9d0
 :END:
 - *[NOTE]* taken on [2025-06-23 01:22]:
   - =Hub= or =Structure note= is a =Meta-note= of the other notes
   - Serve as a tracker or a way to navigate through the note web
 ***** Fleeting Note
 :PROPERTIES:
-:ID: c7bcfdc5-883f-4e63-8a70-76249d314e21
+:ID:       c7bcfdc5-883f-4e63-8a70-76249d314e21
 :END:
 ***** Project Note
 :PROPERTIES:
-:ID: 9649ee21-9cb6-4c6c-bfc8-d4481f33f272
+:ID:       9649ee21-9cb6-4c6c-bfc8-d4481f33f272
 :END:
 - *[NOTE]* taken on [2025-06-23 01:55]:
   - Serve as a pointer to the current on going project
@@ -72,7 +72,7 @@ DEADLINE: <2025-06-23 Mon>
 - *Reference:* [[https://zettelkasten.de/introduction/#the-fixed-address-of-each-note][The fixed address of each note @Zettlekasten.de]]
 *** Zettelkasten note search and access
 :PROPERTIES:
-:ID: 64a2f52f-b16c-454b-92b9-9de7a9d431f0
+:ID:       64a2f52f-b16c-454b-92b9-9de7a9d431f0
 :END:
 - *OBJECTIVE:* How to search and access notes in a Zettelkasten system
 - *Reference:* [[https://l.opnxng.com/r/Zettelkasten/comments/1ejuwtj/how_to_find_my_notes_in_the_zettelkasten/][How do I access my notes in zettelkasten @Reddit]]

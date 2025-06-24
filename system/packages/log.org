@@ -2,8 +2,23 @@
 #+DESCRIPTION: Description for archive here
 #+OPTIONS: ^:nil
 #+FILETAGS: TEST
+
 * Logs :LOG:SYSTEM:PACKAGE:
 - /Store finished tasks/
 ** DONE SSH to Github :GITHUB:
 CLOSED: [2025-01-10 Fri 05:51] DEADLINE: <2025-01-09 Thu 05:00>
 - *Objective:* generate ssh key and successfully pull repos from github
+** DONE Qtile toggle fullscreen floating :QTILE:
+DEADLINE: <2025-06-24 Tue> CLOSED: [2025-06-24 Tue 22:44]
+- *OBJECTIVE:* Toggle between fullscreen and floating window
+- *Issue:* Toggle fullscreen to floating causes qtile to crash
+  - *Checkout:* [[https://github.com/whammou/dotfiles/commit/e99f96a1349c58e4954de83477c67dc384b4454d][Fixed toogle fullscreen crash @Commit]]
+** DONE Update yazi plugins :YAZI:
+CLOSED: [2025-03-23 Sun 14:56] DEADLINE: <2025-03-23 Sun 20:00>
+- /Update yazi plugins:/
+  - [X] parent-arrows.lua 
+  - [X] checkout plugsin [[https://yazi-rs.github.io/docs/resources/][list]]
+** DONE Faster navigate files :NVIM:YAZI:
+CLOSED: [2025-06-01 Sun 01:31]
+- *Objective:* /navigate faster with nvim and yazi/
+- *References:* [[https://www.youtube.com/watch?v=xy9sSVx2cfk#__preview][How I navigate my files @Youtube-preview]]

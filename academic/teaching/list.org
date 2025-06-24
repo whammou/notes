@@ -1,0 +1,6 @@
+#+TITLE: Teaching Lists
+#+DESCRIPTION: Description for archive here
+#+OPTIONS: ^:nil
+
+* Lists :LIST:ACADEMIC:TEACHING:
+- /Stores system lists/

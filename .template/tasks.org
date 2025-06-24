@@ -1,4 +1,4 @@
-#+TITLE: Template Notebook
+#+TITLE: Template Tasks
 #+DESCRIPTION: Add notebook description here
 #+OPTIONS: ^:nil
 

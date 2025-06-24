@@ -2,7 +2,5 @@
 #+DESCRIPTION: Description for archive here
 #+OPTIONS: ^:nil
 
-* Archives :LIB:TEMPLATE:
-- /System archives/
-** Documents :DOC:
+* Documents :LIB:DOC:TEMPLATE:
 /Documents archives/

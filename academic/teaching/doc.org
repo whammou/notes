@@ -1,0 +1,18 @@
+#+TITLE: Teaching  Documents
+#+DESCRIPTION: Description for archive here
+#+OPTIONS: ^:nil
+
+* Documents :LIB:DOC:ACADEMIC:TEACHING:
+/Documents archives/
+** IELTS syllabus :IELTS:
+:PROPERTIES:
+:ID: 237192a4-e192-438d-87ad-9e5df105a5c8
+:END:
+- *OBJECTIVE:* Compose an ielts syllabus for teaching review purpose
+*** Testing healine
+:PROPERTIES:
+:ID: 95caf913-6aae-42ed-96b9-0383ac370ac4
+:END:
+- *OBJECTIVE:* This is a test headline
+- *Reference:* [[id:237192a4-e192-438d-87ad-9e5df105a5c8][IELTS syllabus]]
+

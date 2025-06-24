@@ -1,0 +1,26 @@
+#+TITLE: Teaching Tasks
+#+DESCRIPTION: Add notebook description here
+#+OPTIONS: ^:nil
+
+* Tasks :TASK:ACADEMIC:TEACHING:
+Allocated space for tasks/todos
+** One-off :ONEOFF:
+*** TODO Teaching IELTS :IELTS:
+DEADLINE: <2025-06-25 Wed 22:45>
+:PROPERTIES:
+:Effort: 30:00
+:ID: 07a3cbb5-704c-4ced-9bd6-7911918ec01b
+:END:
+:LOGBOOK:
+CLOCK: [2025-06-24 Tue 22:47]
+:END:
+- *OBJECTIVE:* Setup a teaching syllabus
+- *Reference:*
+  - [[https://www.ieltsadvantage.com/ielts-syllabus/][IETLS teaching syllabus @Blog]]
+  - [[https://www.youtube.com/playlist?list=PL-oYKB0D9-E20WQvE1PQviuqf_VdLdnd0][How to teach IELTS @Youtube]]
+- *Reference links:*
+  - [[id:237192a4-e192-438d-87ad-9e5df105a5c8][IELTS syllabus @Org]]
+** Incidental :INCIDENTAL:
+** Coordinated :COORDINATED:
+** Urgent :URGENT:
+** Recurring :RECURRING:

@@ -27,31 +27,12 @@ CLOSED: [2025-03-25 Tue 06:45] DEADLINE: <2025-03-24 Mon 17:00>
 - [ ] Add ~qtile~ [[file:~/.config/qtile/settings/key/spawn.py][keybinds]]
 *** TODO Notification through ssh :LINUX:
 - /Pipe notification socket through ssh/
-*** DONE Update yazi plugins :YAZI:
-CLOSED: [2025-03-23 Sun 14:56] DEADLINE: <2025-03-23 Sun 20:00>
-- /Update yazi plugins:/
-  - [X] parent-arrows.lua 
-  - [X] checkout plugsin [[https://yazi-rs.github.io/docs/resources/][list]]
 *** ABORTED Openai API :SYSTEM:
 CLOSED: [2025-03-22 Sat 06:17] DEADLINE: <2025-03-22 Sat 22:00>
 :PROPERTIES:
 :ID:       4eb61678-1269-411e-ad54-efb16c040ba4
 :END:
 - /Contact [[tel:DuyTung][Duy Tung]] for API access/
-*** Fish shell Configuration [100%] :FISH:
-- /Config/ ~fish~
-**** DONE Fish shell directory preview
-CLOSED: [2025-04-12 Sat 22:34] DEADLINE: <2025-04-12 Sat 20:00>
-- /Set input dir as a parameter/
-- *Visit:* [[https://github.com/fish-shell/fish-shell/issues/6838][preview-shortcuts]]
-  - /commandline help:/ run ~man commandline~
-
-- [x] *READ!*List contents of current directory under cursor: [[file:/usr/share/fish/functions/__fish_list_current_token.fish][__fish_list_current_token.fish]]
-- [x] Modifiied ~__fish_list_current_token~ to run with ~yazi~ [[file:~/.config/fish/functions/_yazi_current_token.fish][_yazi_current_token.fish]]
-**** DONE Fish edit current token
-CLOSED: [2025-04-24 Thu 16:50] DEADLINE: <2025-04-24 Thu 20:30>
-- /Create function to edit current token/
-- *Run:* ~bat --color always $arg &| less --color~
 *** DOING Backup systemd services :SYSTEMD:
 - *Objective:* /Backup systemd across systems/
 - *Reference:* [[https://www.reddit.com/r/linuxquestions/comments/18hep9r/how_to_back_up_export_import_the_usercreated/][Auto backing up systemd services @Reddit]]
@@ -60,8 +41,6 @@ CLOSED: [2025-05-24 Sat 21:11] DEADLINE: <2025-05-24 Sat 01:15>
 - *Objective:* /Clean up/ [[file:../capture.org][capture.org]]
 *** PENDING Plain text music playlist :LINUX:
 ***Objective:* Plain text music playlist that works with ~ytfzf~ and ~new pipe~
-*** TODO Detect git repos from system :GIT:FZF:
-- /Detect system wise git repos the use fzf to open lazygit at repo location/
 *** TODO Search more efficiently :LINUX:
 :PROPERTIES:
 :ID:       995adf02-30af-429f-94ca-56e405e15914
@@ -77,9 +56,6 @@ CLOSED: [2025-05-24 Sat 21:11] DEADLINE: <2025-05-24 Sat 01:15>
   - [ ] Auto pushing
 - *Objective:* /Auto commit repo via external packages/
   - *Visit:* [[https://a.opnxng.com/exchange/stackoverflow.com/questions/420143/making-git-auto-commit][git auto commit @Overflow]]
-*** TODO Connect to running nvim server :NVIM:
-- *Objective:* /Connect to running/ ~nvim-server~ /apply to/ ~orgmode~
-  - *Visit:* [[https://github.com/neovim/neovim/issues/5035][github.com#\:connect-to-nvim-server @Github]]
 *** PENDING System file-tag :LINUX:
 CLOSED: [2025-05-08 Thu 14:27]
 - *Objective:* /Assign attribute to a file/
@@ -102,14 +78,6 @@ CLOSED: [2025-05-12 Mon 09:04]
 *** DONE Migrate orgmode options to config :ORGMODE:
 CLOSED: [2025-06-15 Sun 15:27]
 - *Objective:* /Migrate settings to/ [[file:~/.config/nvim/lua/config/orgmode.lua][config.lua]]
-*** TODO Nvim indent align :NVIM:
-- *Objective:* /Manage nvim virtual indentaion alignment in plugins:/
-  - [ ] ~nvim-orgmode~ 
-  - [ ] ~render-markdown~
-*** DONE Faster navigate files :NVIM:YAZI:
-CLOSED: [2025-06-01 Sun 01:31]
-- *Objective:* /navigate faster with nvim and yazi/
-- *References:* [[https://www.youtube.com/watch?v=xy9sSVx2cfk#__preview][How I navigate my files @Youtube-preview]]
 *** DONE Icon packs :LINUX:
 CLOSED: [2025-05-27 Tue 05:15] DEADLINE: <2025-05-25 Sun 14:00>
 :PROPERTIES:
@@ -127,25 +95,18 @@ CLOSED: [2025-05-27 Tue 05:15] DEADLINE: <2025-05-25 Sun 14:00>
 *** Re-write smb-mount command
 - *Objective:* /Re-write smb-mount command to quickly toggle server on/off/
 - *File:* [[file:~/dotfiles/scripts/smb-mount][smb-mount]]
-*** TODO DNS speed test :DNS:
+*** ABORTED DNS speed test :DNS:
+CLOSED: [2025-06-24 Tue 22:51]
 :PROPERTIES:
 :ID:       a5ef0120-9e5c-49ce-acbf-8c04b6d4cb4f
 :END:
 - *Objective:* /Benchmark DNS look up speed/
-- *Reference:* [[https://serverfault.com/questions/91063/how-do-i-benchmark-performance-of-external-dns-lookups][Benchmark external DNC @Overflow]]
+- *Reference:* []
 *** Json database :JSON:
 :PROPERTIES:
 :ID:       27fdd8c2-5435-466b-9856-407ade06d893
 :END:
 - *Objective:* /Learn json database syntax/
-*** Qtile keymap in json :QTILE:
-- *Idea:* /Write key map and run in python/
-**** Encode keymap json :JSON:
-- *Objective:* /Encode [[file:~/.config/qtile/settings/keymaps.py][keymaps.py]] in json/
-- *References:* [[id:27fdd8c2-5435-466b-9856-407ade06d893][Json database @Orgmode]]
-**** Decode json files :PYTHON:
-- *Objective:* /Deocde [[file:~/.config/qtile/settings/keymaps.py][keymaps.py]] using python/
-- *References:* [[https://docs.python.org/3/library/json.html][Json encoder and decoder using python @Python-doc]]
 *** PENDING Learn Docker :DOCKER:
 CLOSED: [2025-05-24 Sat 01:19]
 - /Learn to operate dockers/

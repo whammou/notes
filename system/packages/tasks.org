@@ -15,15 +15,32 @@ Allocated space for tasks/todos
   - [[https://github.com/chipsenkbeil/org-roam.nvim][Org-roam nvim plugin @Github]]
   - [[https://l.opnxng.com/r/emacs/comments/u10j69/org_mode_how_do_you_keep_your_daily_agenda_to_a/][How do you keep your daily agenda @Reddit]]
 **** TODO Orgroam zettelkasten :ZETTELKASTEN:
-DEADLINE: <2025-06-23 Mon>
+DEADLINE: <2025-06-25 Wed>
 - *OBJECTIVE:* Apply zettelkasten with orgroam
 - *Reference:*
   - [[https://www.youtube.com/watch?v=-TpWahIzueg#__preview][Orgroam zettelkasten @Youtube]]
-  - [[https://yannherklotz.com/zettelkasten/][zettelkasten in orgmode @Blog]]
-*** TODO Qtile toggle fullscreen floating :QTILE:
-DEADLINE: <2025-06-23 Mon>
-- *OBJECTIVE:* Toggle between fullscreen and floating window
-- *Issue:* Toggle fullscreen to floating causes qtile to crash
+  - [[https://yannherklotz.com/zettelkasten/][Zettelkasten in orgmode @Blog]]
+  - [[https://www.youtube.com/embed/-TpWahIzueg?start=49m16s#__preview][Apple zettelkasten correctly in orgroam @Youtube]]
+*** TODO Qutebrowser multiple mode keybind :QUTEBROWSER:
+- *OBJECTIVE:* How to bind key in different modes
+- *Reference:* [[qute://help/configuring.html][Configurating qutebrowser @Doc-qutebrowser]]
+*** TODO Detect git repos from system :GIT:FZF:
+- /Detect system wise git repos the use fzf to open lazygit at repo location/
+*** TODO Nvim indent align :NVIM:
+- *Objective:* /Manage nvim virtual indentaion alignment in plugins:/
+  - [ ] ~nvim-orgmode~ 
+  - [ ] ~render-markdown~
+*** TODO Connect to running nvim server :NVIM:
+- *Objective:* /Connect to running/ ~nvim-server~ /apply to/ ~orgmode~
+  - *Visit:* [[https://github.com/neovim/neovim/issues/5035][github.com#\:connect-to-nvim-server @Github]]
+*** Qtile keymap in json :QTILE:
+- *Idea:* /Write key map and run in python/
+**** Encode keymap json :JSON:
+- *Objective:* /Encode [[file:~/.config/qtile/settings/keymaps.py][keymaps.py]] in json/
+- *References:* [[id:27fdd8c2-5435-466b-9856-407ade06d893][Json database @Orgmode]]
+**** Decode json files :PYTHON:
+- *Objective:* /Deocde [[file:~/.config/qtile/settings/keymaps.py][keymaps.py]] using python/
+- *References:* [[https://docs.python.org/3/library/json.html][Json encoder and decoder using python @Python-doc]]
 ** Incidental :INCIDENTAL:
 ** Coordinated :COORDINATED:
 ** Urgent :URGENT:

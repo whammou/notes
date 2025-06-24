@@ -22,7 +22,7 @@ Contact local bank for physical credit card
 - tel:02836364730
 *** PENDING Fix sneakers :ONEOFF:
 Glue back a hole on my sneakers
-*** Bike checkup :BIKE:
+*** TODO Bike checkup :BIKE:
 DEADLINE: <2025-06-25 Wed 14:00>
 - *OBJECTIVE:* Check up bike oil
 ** Incidental :INCIDENTAL:

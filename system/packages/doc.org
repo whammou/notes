@@ -501,3 +501,17 @@ CLOSED: [2025-06-01 Sun 00:29]
 CLOSED: [2025-06-01 Sun 00:29]
 - *OBJECTIVE:* /Make rofi size as small as ~qtile-bar~/
 - *References:* [[https://github.com/davatorium/rofi/blob/next/doc/rofi-theme.5.markdown][Rofi-theme @Github]]
+*** Fish shell Configuration [100%] :FISH:
+- /Config/ ~fish~
+**** DONE Fish shell directory preview
+CLOSED: [2025-04-12 Sat 22:34] DEADLINE: <2025-04-12 Sat 20:00>
+- /Set input dir as a parameter/
+- *Visit:* [[https://github.com/fish-shell/fish-shell/issues/6838][preview-shortcuts]]
+  - /commandline help:/ run ~man commandline~
+    
+- [x] *READ!*List contents of current directory under cursor: [[file:/usr/share/fish/functions/__fish_list_current_token.fish][__fish_list_current_token.fish]]
+- [x] Modifiied ~__fish_list_current_token~ to run with ~yazi~ [[file:~/.config/fish/functions/_yazi_current_token.fish][_yazi_current_token.fish]]
+**** DONE Fish edit current token
+CLOSED: [2025-04-24 Thu 16:50] DEADLINE: <2025-04-24 Thu 20:30>
+- /Create function to edit current token/
+- *Run:* ~bat --color always $arg &| less --color~

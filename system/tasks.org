@@ -163,6 +163,14 @@ CLOSED: [2025-06-04 Wed 09:07]
 *** TODO Orgmode toggle archived items :ORGMODE:
 - *OBJECTIVE:* Toggle archive view in =orgmode-nvim= and =orgzly=
 - *Reference:* [[https://nvim-orgmode.github.io/configuration#org_agenda_archive][Archiving in nvim-orgmode @Doc-orgmode]]
+*** PENDING Run wind-apps via RDP :RDP:
+:PROPERTIES:
+:ID:       d0f420d8-78e9-4545-b022-9edc0e4b3cb4
+:END:
+- *OBJECTIVE:* Run Windows applications via RDP
+- *Reference:*
+  - [[https://github.com/LizardByte/Sunshine][Sunshine and Moonlight @Github]]
+  - [[https://github.com/FreeRDP/Remmina][Remmina RDP @Github]]
 ** Incidental :INCIDENTAL:
 *** PENDING Termux ssh :LINUX:TERMUX:
 - *Objective:* ssh to the server via Termux

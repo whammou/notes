@@ -58,7 +58,7 @@ CLOSED: [2025-06-21 Sat 15:15]
 - *OBJECTIVE:* Learn about this interesting topic on PKM in mathematics/physics field
 - *Reference:* [[https://publish.obsidian.md/myquantumwell/Welcome+to+The+Quantum+Well!][Quantum well example @Blog-obsidian]]
 *** DONE Learn zettelkasten system :ZETTELKASTEN:
-DEADLINE: <2025-06-23 Mon> CLOSED: [2025-06-23 Mon 22:51]
+CLOSED: [2025-06-23 Mon 22:51] DEADLINE: <2025-06-23 Mon>
 :PROPERTIES:
 :ID:       ad309d55-fe5c-4d83-9a8c-42106cadce43
 :END:

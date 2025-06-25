@@ -5,7 +5,7 @@
 Allocated space for archives
 ** The Zettelkasten system :PKM:ZETTELKASTEN:
 :PROPERTIES:
-:ID: 705d42e4-c980-4d53-ad38-029f28d503dc
+:ID:       705d42e4-c980-4d53-ad38-029f28d503dc
 :END:
 - *OBJECTIVE:* Learn the structure of a zettelkasten system
 *** Types of notes
@@ -56,7 +56,7 @@ Allocated space for archives
   - Live only for the lifetime of said project
 *** Address of each note
 :PROPERTIES:
-:ID: 0ce0544c-320b-4aef-9bad-14564ee61474
+:ID:       0ce0544c-320b-4aef-9bad-14564ee61474
 :END:
 - *OBJECTIVE:* Determine which address structure to use in a ZK system
 - *[NOTE]* taken on [2025-06-22 23:14]:

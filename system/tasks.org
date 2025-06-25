@@ -110,6 +110,14 @@ CLOSED: [2025-06-24 Tue 22:51]
 *** PENDING Learn Docker :DOCKER:
 CLOSED: [2025-05-24 Sat 01:19]
 - /Learn to operate dockers/
+*** PENDING Run wind-apps via RDP :RDP:
+:PROPERTIES:
+:ID:       d0f420d8-78e9-4545-b022-9edc0e4b3cb4
+:END:
+- *OBJECTIVE:* Run Windows applications via RDP
+- *Reference:*
+  - [[https://github.com/LizardByte/Sunshine][Sunshine and Moonlight @Github]]
+  - [[https://github.com/FreeRDP/Remmina][Remmina RDP @Github]]
 ** Incidental :INCIDENTAL:
 *** PENDING Termux ssh :LINUX:TERMUX:
 - *Objective:* ssh to the server via Termux

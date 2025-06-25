@@ -176,12 +176,13 @@ Meal-preps, cooking recipes and grocery planning
 - /Picking my girl up/
 - *Location:*  [[https://www.google.com/maps/place/A%2BC+Coffee+Experience,+230%2F18+Pasteur,+Ph%C6%B0%E1%BB%9Dng+6,+Qu%E1%BA%ADn+3,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7858949,106.6915706,16z/data=!4m6!3m5!1s0x31752f0079a094e1:0xa8800ca97260d786!8m2!3d10.7858949!4d106.6915706!16s%2Fg%2F11x1lhrz1t?force=pwa&source=mlapk][230/18 Pasteur, Phường 6, Quận 3]]
 *** TODO Wake the F up :ALARM:
-SCHEDULED: <2025-06-25 Wed 12:30 +1d>
+SCHEDULED: <2025-06-26 Thu 12:30 +1d>
 :PROPERTIES:
 :ID:       3e654b15-2b4d-406e-88de-9e7d50e4e161
-:LAST_REPEAT: [2025-06-24 Tue 15:43]
+:LAST_REPEAT: [2025-06-26 Thu 00:01]
 :END:
 :LOGBOOK:
+- State "DONE"       from "TODO"       [2025-06-26 Thu 00:01]
 - State "DONE"       from "TODO"       [2025-06-24 Tue 15:43]
 - State "DONE"       from "TODO"       [2025-06-23 Mon 22:20]
 - State "DONE"       from "TODO"       [2025-06-23 Mon 16:19]

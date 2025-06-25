@@ -54,7 +54,7 @@ Allocated space for archives
 - *[NOTE]* taken on [2025-06-23 01:55]:
   - Serve as a pointer to the current on going project
   - Live only for the lifetime of said project
-*** Address of each note
+*** ID system of a zettelkastem
 :PROPERTIES:
 :ID: 0ce0544c-320b-4aef-9bad-14564ee61474
 :END:

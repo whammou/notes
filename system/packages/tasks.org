@@ -8,19 +8,25 @@ Allocated space for tasks/todos
 *** PENDING Create qtile widget :QTILE:
 - *OBJECTIVE:* Create a custom qtile widget
 - *Reference:* [[https://docs.qtile.org/en/latest/manual/howto/widget.html][Create a qtile widget @Doc-qtile]]
-*** Orgroam extension :ORGROAM:
-- *OBJECTIVE:* Using orgroam as solution
+*** TODO Orgroam zettelkasten :ZETTELKASTEN:
+DEADLINE: <2025-06-25 Wed 21:00>
+:PROPERTIES:
+:ID: 1e76b464-a6af-40b5-98a5-40d7e4ab3c84
+:END:
+- *OBJECTIVE:* Apply [[id:705d42e4-c980-4d53-ad38-029f28d503dc][The Zettelkasten system]] with orgroam
+- *Reference:*
+  - [[https://www.youtube.com/watch?v=-TpWahIzueg#__preview][Orgroam zettelkasten @Youtube]]
+  - [[https://yannherklotz.com/zettelkasten/][Zettelkasten in orgmode @Blog]]
+  - [[https://www.youtube.com/embed/-TpWahIzueg?start=49m16s#__preview][Apply zettelkasten correctly in orgroam @Youtube]]
+**** Orgroam extension :ORGROAM:
+:PROPERTIES:
+:ID: ca2cbb16-4d86-419e-a1f6-9a48640ce323
+:END:
+- *OBJECTIVE:* [[id:1902d6da-cad7-4fd8-9de5-001ede5334e1][Implementation]] of orgroam to manage zettelkasten vault
 - *Reference:*
   - [[https://www.youtube.com/watch?v=AyhPmypHDEw#__preview][Getting started with orgroam @Youtube]]
   - [[https://github.com/chipsenkbeil/org-roam.nvim][Org-roam nvim plugin @Github]]
   - [[https://l.opnxng.com/r/emacs/comments/u10j69/org_mode_how_do_you_keep_your_daily_agenda_to_a/][How do you keep your daily agenda @Reddit]]
-**** TODO Orgroam zettelkasten :ZETTELKASTEN:
-DEADLINE: <2025-06-25 Wed>
-- *OBJECTIVE:* Apply zettelkasten with orgroam
-- *Reference:*
-  - [[https://www.youtube.com/watch?v=-TpWahIzueg#__preview][Orgroam zettelkasten @Youtube]]
-  - [[https://yannherklotz.com/zettelkasten/][Zettelkasten in orgmode @Blog]]
-  - [[https://www.youtube.com/embed/-TpWahIzueg?start=49m16s#__preview][Apple zettelkasten correctly in orgroam @Youtube]]
 *** TODO Qutebrowser multiple mode keybind :QUTEBROWSER:
 - *OBJECTIVE:* How to bind key in different modes
 - *Reference:* [[qute://help/configuring.html][Configurating qutebrowser @Doc-qutebrowser]]
@@ -181,6 +187,37 @@ CLOSED: [2025-06-03 Tue 07:43]
 - *OBJECTIVE:* /Cache mode takes a lot of space, workaround this issue/
 - *Checkout:* [[https://forum.rclone.org/t/why-arent-cache-rclone-files-being-removed/28948/8][Vfs cache explain @Forum-rclone]]
 - *References:* [[https://l.opnxng.com/r/rclone/comments/xnbhsx/rclone_mount_with_vfs_cache_mode_full_is_using_up/][Cache mode using up space @Reddit]]
+*** TODO Disable blink.cmp for orgroam menu :NVIM:BLINK:ORGROAM:
+- *OBJECTIVE:* Disable completion in orgroam buffer
+- *[NOTE]* taken on [2025-06-25 22:33]:
+  #+NAME: Disable completion nvim-cmp
+  #+BEGIN_SRC lua
+  require('nvim-cmp').setup({
+  enabled = function()
+  local buftype = vim.api.nvim_get_option_value("buftype", { buf = 0 })
+  if buftype == "nofile" then
+  return false
+  end
+  -- ... handling other conditions
+  end
+  })
+  #+END_SRC
+- *Reference:*
+  - [[https://github.com/chipsenkbeil/org-roam.nvim/blob/8369398de7c343732eea89f834b1bc71f1f110da/DOCS.org#disable-nvim-cmp-completion-in-select-buffer][Disable completion in orgroam buffer @Github]]
+  - [[https://cmp.saghen.dev/configuration/general#general][Blink.cmp general options @Doc]]
+*** PENDING Understanding git :GIT:
+/Understand the fundamentals of the git tool/
+**** Git config
+There are two locations a git config file can exist:
+- *Local* git repo: in the repo itself (and ignored by ~.gitignore~)
+- *Global* exist outside of the repo e.g. [[file:/home/whammou/.gitconfig][gitconfig]]
+**** Git merge vs re-base vs squashing
+There are different strategies to merge two ~branches~:
+- *Merging:* Merge and ties together the ~history~ of both ~branches~
+- *Re-basing:* Merge the ~commits~ of a branch to the *tip* of ~main~ and then performs a ~fast-forward-merge~
+- *Squashing:* Squeeze all the ~commits~ of ~feature branch~ into one single ~commit~ and merge it with ~main~
+**** Git commit vs stash
+*Visit:* [[https://paulapivat.com/technical_notes/example_tech/git_stash/][Git Stash vs Git Commit]]
 ** Incidental :INCIDENTAL:
 ** Coordinated :COORDINATED:
 ** Urgent :URGENT:

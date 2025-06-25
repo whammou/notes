@@ -54,7 +54,7 @@ Allocated space for archives
 - *[NOTE]* taken on [2025-06-23 01:55]:
   - Serve as a pointer to the current on going project
   - Live only for the lifetime of said project
-*** Address of each note
+*** ID system of a zettelkastem
 :PROPERTIES:
 :ID:       0ce0544c-320b-4aef-9bad-14564ee61474
 :END:
@@ -75,10 +75,9 @@ Allocated space for archives
 - *Reference:* [[https://l.opnxng.com/r/Zettelkasten/comments/1ejuwtj/how_to_find_my_notes_in_the_zettelkasten/][How do I access my notes in zettelkasten @Reddit]]
 ** Subjects on procrastination :PSYCHOLOGY:
 :PROPERTIES:
-:ID: dab253c3-d227-4471-8eda-41f63f36563c
+:ID:       dab253c3-d227-4471-8eda-41f63f36563c
 :END:
 - *OBJECTIVE:* Learn about procrastination and how to defuse it
-
 *** Do the next best thing
 - *OBJECTIVE:* Techniqute to defuse to procastination
 - *Reference:* [[https://www.youtube.com/embed/VBifDZwPiI4?start=8m20s#__preview][What is procrastination and how to defuse it @Youtube]]

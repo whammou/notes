@@ -110,6 +110,59 @@ CLOSED: [2025-06-24 Tue 22:51]
 *** PENDING Learn Docker :DOCKER:
 CLOSED: [2025-05-24 Sat 01:19]
 - /Learn to operate dockers/
+*** TODO Windows software on linux :WINDOWS:LINUX:
+- *OBJECTIVE:* Running windows exclusive software on linux e.g., cad, offices, pts/
+**** Running Virtual machines :VM:
+- *Keypoint:* /Virutal machine on linux/
+- *References:*
+  - [[https://l.opnxng.com/r/docker/comments/q6ykxa/when_should_you_choose_vms_over_docker/][Docker vs Vms when @Reddit]]
+  - [[https://www.atlassian.com/microservices/cloud-computing/containers-vs-vms][VMs vs Dockers differences @Atlassian]]
+  - [[https://l.opnxng.com/r/linuxquestions/comments/144nvkt/how_viable_is_it_to_use_a_windows_virtual_machine/][How viable is using wm wind on linux @Reddit]]
+***** CAD softwares :CAD:SOLIDWORKS:
+- *OBJECTIVE:* Running CAD Software on linux/
+- *Reference:* [[https://github.com/cryinkfly/SOLIDWORKS-for-Linux][Soliworks on linux @Github]]
+**** Running remote software
+- *OBJECTIVE:* Connect to a running remote desktop from linux/
+- *Reference:*
+  - [[https://l.opnxng.com/r/linux4noobs/comments/148dko9/looking_for_remote_software_for_linux_laptop_to/][Remote software for linux desktop @Reddit]]
+  - [[https://www.youtube.com/watch?v=EXL8mMUXs88#__preview][Remote desktops foss @Youtube-preview]]
+*** TODO Config system notification :NOTIFICATION:
+- *OBJECTIVE:* /Config system notifications with dunst/
+  - *Run:* =man dunst=
+  - *File:* [[file:=/.config/dunst/dunstrc][dunst config @Confini]]
+  - *Visit:* [[id:45d7010b-dd20-44c8-a271-51ac24ba840e][Icon packs @Orgmode]]
+**** DONE Dunst notification stacking [100%] :DUNST:
+CLOSED: [2025-06-04 Wed 09:07]
+- [X] *OBJECTIVE:* /Stack notifications/
+- +[ ] *OBJECTIVE:* /Interacte with stacked+ notifications/
+- *References:*
+  - [[https://github.com/dunst-project/dunst/issues/321][Dunst notification stacking @Github-issue]]
+  - [[https://dunst-project.org/documentation/][Documentaion @Dunst-doc]]
+**** TODO Notification colorscheme
+:PROPERTIES:
+:ID:       f8ffc50b-03a6-4be9-842a-2c6278a62b86
+:END:
+- *OBJECTIVE:* Create a comprehensive colorscheme to notifications/
+*** TODO Config terminal app titles :UI:
+- *OBJECTIVE:* /Config terminal app titles/
+  - Config title to look the same: =<content> - <appname>=
+*** TODO Pacman lock-file :PACMAN:BACKUP:
+- *OBJECTIVE:* /Create pacman lock-file/
+*** DOING Org2ical [%] :DATA:ORGMODE:
+- *OBJECTIVE:* Generate .ics files from .org files(use homelab for daily merge)
+- *Visit:*  [[https://pypi.org/project/org2ical/][org2ical package]] [[https://github.com/jacobmischka/ics-merger][icals merger]]
+**** DOING [#B] Sync orgmode to CalDav [0%] :KHALORG:
+- *OBJECTIVE:* /Succefully sync between orgmode and caldav for professional uses/
+  - *Visit:* [[file:/home/whammou/dots/BartSte/dotfiles/nvim/lua/config/orgmode.lua][orgmode config @Git]]
+  - *References:* [[https://github.com/BartSte/khalorg][khalorg @Github]]
+***** TODO Config vdirsyncer :VDIRSYNCER:
+- *OBJECTIVE:* /Config vdirsyncer to work sync calendar to google cal/
+  - *References:* [[http://vdirsyncer.pimutils.org/en/stable/when.html][Vdirsyncer documentation @Doc]]
+*** TODO Orgmode quicknote script :ORGMODE:
+- *OBJECTIVE:* Quickly output new note directory
+*** TODO Orgmode toggle archived items :ORGMODE:
+- *OBJECTIVE:* Toggle archive view in =orgmode-nvim= and =orgzly=
+- *Reference:* [[https://nvim-orgmode.github.io/configuration#org_agenda_archive][Archiving in nvim-orgmode @Doc-orgmode]]
 *** PENDING Run wind-apps via RDP :RDP:
 :PROPERTIES:
 :ID:       d0f420d8-78e9-4545-b022-9edc0e4b3cb4
@@ -132,3 +185,16 @@ CLOSED: [2025-05-24 Sat 01:19]
 ** Performance :PERFORMANCE:
 ** Urgent :URGENT:
 ** Recurring :RECURRING:
+*** DOING Prettify orgmode documents [50%] :ORGMODE:
+- *OBJECTIVE:* Prettify my org documents
+- *Reference:* [[https://orgmode.org/manual/Export-Settings.html][Export settings @Orgmode-document]]
+**** DONE Github orgmode feature :GITHUB:
+CLOSED: [2025-06-19 Thu 23:36]
+- *OBJECTIVE:* Testing github render and feature for org notes
+- *Checkout:* [[id:7fd3eabc-0cd2-43bb-b3b3-a31c018163b2][Github render tests [100%] @Orgmode]]
+- *Reference:*
+  - [[https://github.com/noncog/github-org-mode-hacks][Github orgmode hacks @Github]]
+  - [[https://github.com/novoid/github-orgmode-tests][Github readme.org test repo @Github]]
+**** TODO Org-ruby document config
+- *OBJECTIVE:* Config orgmode for better document render on github
+- *Reference:* [[https://orgmode.org/worg/org-tutorials/org-ruby.html][Org-ruby documentation @Doc-orgmode-ruby]]

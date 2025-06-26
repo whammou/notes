@@ -11,7 +11,7 @@ Allocated space for tasks/todos
 *** TODO Orgroam zettelkasten :ZETTELKASTEN:
 DEADLINE: <2025-06-25 Wed 21:00>
 :PROPERTIES:
-:ID: 1e76b464-a6af-40b5-98a5-40d7e4ab3c84
+:ID:       1e76b464-a6af-40b5-98a5-40d7e4ab3c84
 :END:
 - *OBJECTIVE:* Apply [[id:705d42e4-c980-4d53-ad38-029f28d503dc][The Zettelkasten system]] with orgroam
 - *Reference:*
@@ -20,7 +20,7 @@ DEADLINE: <2025-06-25 Wed 21:00>
   - [[https://www.youtube.com/embed/-TpWahIzueg?start=49m16s#__preview][Apply zettelkasten correctly in orgroam @Youtube]]
 **** Orgroam extension :ORGROAM:
 :PROPERTIES:
-:ID: ca2cbb16-4d86-419e-a1f6-9a48640ce323
+:ID:       ca2cbb16-4d86-419e-a1f6-9a48640ce323
 :END:
 - *OBJECTIVE:* [[id:1902d6da-cad7-4fd8-9de5-001ede5334e1][Implementation]] of orgroam to manage zettelkasten vault
 - *Reference:*

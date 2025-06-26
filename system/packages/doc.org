@@ -170,8 +170,29 @@ CLOSED: [2025-06-08 Sun 05:17] DEADLINE: <2025-06-08 Sun>
 :ID: 1902d6da-cad7-4fd8-9de5-001ede5334e1
 :END:
 - *OBJECTIVE:* Implemment =ZK system= using =orgroam= framwork
-**** The ID system of ZK in orgroam
+**** Zettelkasten vault
+:PROPERTIES:
+:ID: e1fba411-956b-4add-b9d9-8882888d76c9
+:END:
+- *OBJECTIVE:* Create a Zettelkasten vault inside a [[id:5ee85686-4255-4634-afbc-c364fa16a025][PARA system]]
+- *[NOTE]* taken on [2025-06-26 05:26]:
+  Why a PARA on top of Zettelkasten? PARA system provide a rigid stucture that allows planning and ease of access information
+    - Zettelkasten is good for developing ideas but managing tasks in not its strong suit due to its chaotic nature
+    - PARA system allows information to be stored in a structured way that is easy in intuitive to access
+    - Both system have pros and cons. Im plementing PARA on top of zettelkasten allow information to accessed and stored with ease
+  - Problems facing when implement both systems:
+***** The ID of each notes
 :PROPERTIES:
 :ID: cbd65a94-ed43-4a7f-8e27-7a9aa35cf9cd
 :END:
 - *OBJECTIVE:* How to implement [[id:0ce0544c-320b-4aef-9bad-14564ee61474][ID system of a zettelkastem]]
+**** Uniqute Identifier System
+:PROPERTIES:
+:ID: 9f057f7e-6a65-448a-b19d-784ecb100a46
+:END:
+- *OBJECTIVE:* Implement the ID system to the [[id:e1fba411-956b-4add-b9d9-8882888d76c9][Zettelkasten vault]]
+- *[NOTE]* taken on [2025-06-26 17:12]:
+  - A UID system is the core of zettelkasten and should serve a way to navigate between notes:
+    - The system should have the benefits of the [[id:0ce0544c-320b-4aef-9bad-14564ee61474][original Luhmman's ZK system]]
+    - The system should work in both zettelkasten and orgroam extension
+

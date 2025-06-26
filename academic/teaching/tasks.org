@@ -8,8 +8,8 @@ Allocated space for tasks/todos
 *** TODO Teaching IELTS :IELTS:
 DEADLINE: <2025-06-25 Wed 22:45>
 :PROPERTIES:
-:Effort: 30:00
-:ID: 07a3cbb5-704c-4ced-9bd6-7911918ec01b
+:Effort:   30:00
+:ID:       07a3cbb5-704c-4ced-9bd6-7911918ec01b
 :END:
 :LOGBOOK:
 CLOCK: [2025-06-24 Tue 22:47]

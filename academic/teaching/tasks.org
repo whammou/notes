@@ -11,9 +11,6 @@ DEADLINE: <2025-06-25 Wed 22:45>
 :Effort: 30:00
 :ID: 07a3cbb5-704c-4ced-9bd6-7911918ec01b
 :END:
-:LOGBOOK:
-CLOCK: [2025-06-24 Tue 22:47]
-:END:
 - *OBJECTIVE:* Setup a teaching syllabus
 - *Reference:*
   - [[https://www.ieltsadvantage.com/ielts-syllabus/][IETLS teaching syllabus @Blog]]

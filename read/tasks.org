@@ -18,6 +18,9 @@ Allocated space for tasks/todos
 - *Reference:* [[https://l.opnxng.com/r/PKMS/comments/1ae7spf/what_is_pkm/][What is a PKM @Reddit]]
 **** DONE Learn PARA system :PARA:
 CLOSED: [2025-06-21 Sat 13:23] DEADLINE: <2025-06-21 Sat 20:00>
+:PROPERTIES:
+:ID: 5ee85686-4255-4634-afbc-c364fa16a025
+:END:
 - *OBJECTIVE:* Learn para system and compare it to current workflow
 - *[NOTE]* taken on [2025-06-21 13:26]:
   PARA system is very similar to current =pkm= system with some key differences:
@@ -62,7 +65,7 @@ CLOSED: [2025-06-23 Mon 22:51] DEADLINE: <2025-06-23 Mon>
 :PROPERTIES:
 :ID:       ad309d55-fe5c-4d83-9a8c-42106cadce43
 :END:
-- *OBJECTIVE:* Develop a zettel system for note repo
+- *OBJECTIVE:* Develop a [[id:705d42e4-c980-4d53-ad38-029f28d503dc][Zettelkasten system]] for note repo
 - *Complication:* How to access information in zettelkasten
 - *Reference:*
   - [[https://www.youtube.com/watch?v=Q2zY7l2tzoQ#__preview][zettelkasten system explain @Youtube]]
@@ -72,8 +75,7 @@ CLOSED: [2025-06-23 Mon 22:51] DEADLINE: <2025-06-23 Mon>
   - [[https://thoughtfulatlas.substack.com/p/a-new-identifier-system-for-zettelkasten][New identifier for zettelkasten @Blog]]
   - [[https://forum.zettelkasten.de/][Zettelkasten forum @Forum]]
   - [[https://publish.obsidian.md/myquantumwell/Welcome+to+The+Quantum+Well!][Zettelkasten example: Quantum Well @Obsidian]]
-- *Backlinks:*
-  - [[id:705d42e4-c980-4d53-ad38-029f28d503dc][The Zettelkasten system]] 
+
 *** TODO Research prompt engineering :RESEARCH:AI:
 - *Goal:* /Learn to create prompts/
 - *References:* [[https://l.opnxng.com/r/PromptEngineering/comments/1kggmh0/google_dropped_a_68page_prompt_engineering_guide/][Google 68-page prompt engineering guide @Reddit]]

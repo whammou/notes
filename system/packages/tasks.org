@@ -18,15 +18,21 @@ DEADLINE: <2025-06-25 Wed 21:00>
   - [[https://www.youtube.com/watch?v=-TpWahIzueg#__preview][Orgroam zettelkasten @Youtube]]
   - [[https://yannherklotz.com/zettelkasten/][Zettelkasten in orgmode @Blog]]
   - [[https://www.youtube.com/embed/-TpWahIzueg?start=49m16s#__preview][Apply zettelkasten correctly in orgroam @Youtube]]
-**** Orgroam extension :ORGROAM:
+**** TODO Orgroam extension :ORGROAM:
 :PROPERTIES:
 :ID: ca2cbb16-4d86-419e-a1f6-9a48640ce323
 :END:
-- *OBJECTIVE:* [[id:1902d6da-cad7-4fd8-9de5-001ede5334e1][Implementation]] of orgroam to manage zettelkasten vault
+- *OBJECTIVE:* [[id:1902d6da-cad7-4fd8-9de5-001ede5334e1][Implementation of orgroam]] to manage zettelkasten vault
 - *Reference:*
   - [[https://www.youtube.com/watch?v=AyhPmypHDEw#__preview][Getting started with orgroam @Youtube]]
   - [[https://github.com/chipsenkbeil/org-roam.nvim][Org-roam nvim plugin @Github]]
   - [[https://l.opnxng.com/r/emacs/comments/u10j69/org_mode_how_do_you_keep_your_daily_agenda_to_a/][How do you keep your daily agenda @Reddit]]
+**** TODO Implement Zettelkasten-Orgroam ID system :ORGROAM:
+:PROPERTIES:
+:ID: f1360cc5-099f-457d-a2cf-45e4ccedd4e6
+:END:
+- *OBJECTIVE:* Implement an [[id:9f057f7e-6a65-448a-b19d-784ecb100a46][UID System]] that works with zettelkasten vault and orgroam
+- *Reference:* [[https://forum.zettelkasten.de/discussion/2433/id-for-notes-time-stamp-id-is-useless][ID system discussion @Forum-zettelkasten]]
 *** TODO Qutebrowser multiple mode keybind :QUTEBROWSER:
 - *OBJECTIVE:* How to bind key in different modes
 - *Reference:* [[qute://help/configuring.html][Configurating qutebrowser @Doc-qutebrowser]]

@@ -8,8 +8,7 @@ Allocated space for tasks/todos
 *** PENDING Create qtile widget :QTILE:
 - *OBJECTIVE:* Create a custom qtile widget
 - *Reference:* [[https://docs.qtile.org/en/latest/manual/howto/widget.html][Create a qtile widget @Doc-qtile]]
-*** TODO Orgroam zettelkasten :ZETTELKASTEN:
-DEADLINE: <2025-06-25 Wed 21:00>
+*** DOING Orgroam zettelkasten :ZETTELKASTEN:
 :PROPERTIES:
 :ID: 1e76b464-a6af-40b5-98a5-40d7e4ab3c84
 :END:
@@ -27,7 +26,10 @@ DEADLINE: <2025-06-25 Wed 21:00>
   - [[https://www.youtube.com/watch?v=AyhPmypHDEw#__preview][Getting started with orgroam @Youtube]]
   - [[https://github.com/chipsenkbeil/org-roam.nvim][Org-roam nvim plugin @Github]]
   - [[https://l.opnxng.com/r/emacs/comments/u10j69/org_mode_how_do_you_keep_your_daily_agenda_to_a/][How do you keep your daily agenda @Reddit]]
+***** Learn Orgroam UID system
+- *OBJECTIVE:* Learn about orgroam uid and filename
 **** TODO Implement Zettelkasten-Orgroam ID system :ORGROAM:
+DEADLINE: <2025-06-26 Thu 20:00>
 :PROPERTIES:
 :ID: f1360cc5-099f-457d-a2cf-45e4ccedd4e6
 :END:

@@ -165,9 +165,9 @@ CLOSED: [2025-06-08 Sun 05:17] DEADLINE: <2025-06-08 Sun>
 - *Reference:*
   - [[https://sw.kovidgoyal.net/kitty/kittens/hints/#source-code-for-hints][Kitty hint documentation @Doc-kitty]]
   - [[https://github.com/kovidgoyal/kitty/issues/2124][Extended regex mode for kitty]]
-*** Implement zettelkasten with orgroam :ZETTELKASTEN:ORGROAM:
+*** Zettelkasten with orgroam :ZETTELKASTEN:ORGROAM:
 :PROPERTIES:
-:ID: 1902d6da-cad7-4fd8-9de5-001ede5334e1
+:ID:       1902d6da-cad7-4fd8-9de5-001ede5334e1
 :END:
 - *OBJECTIVE:* Implemment =ZK system= using =orgroam= framwork
 **** Zettelkasten vault

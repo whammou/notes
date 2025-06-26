@@ -9,7 +9,7 @@
 CLOSED: [2025-01-10 Fri 05:51] DEADLINE: <2025-01-09 Thu 05:00>
 - *Objective:* generate ssh key and successfully pull repos from github
 ** DONE Qtile toggle fullscreen floating :QTILE:
-DEADLINE: <2025-06-24 Tue> CLOSED: [2025-06-24 Tue 22:44]
+CLOSED: [2025-06-24 Tue 22:44] DEADLINE: <2025-06-24 Tue>
 - *OBJECTIVE:* Toggle between fullscreen and floating window
 - *Issue:* Toggle fullscreen to floating causes qtile to crash
   - *Checkout:* [[https://github.com/whammou/dotfiles/commit/e99f96a1349c58e4954de83477c67dc384b4454d][Fixed toogle fullscreen crash @Commit]]

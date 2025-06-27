@@ -1,60 +1,58 @@
 #+TITLE: Coding Documents
 #+DESCRIPTION: Description for archive here
 #+OPTIONS: ^:nil
-* Archives :LIB:CODING:
-- /System archives/
-** Documents :DOC:
+* Documents :DOC:CODING:
 /Documents archives/
-*** DOING Working with python [0%] :PYTHON:
+** DOING Working with python [0%] :PYTHON:
 - *OBJECTIVE:* /Automantion documentation with python/
-**** Python scripting :SCRIPTING:
+*** Python scripting :SCRIPTING:
 - *OBJECTIVE:* /Learn to do some scrpiting with python/
-***** Passing shell arguments :SHELL:
+**** Passing shell arguments :SHELL:
 - *OBJECTIVE:* /Passing argument from shell/
   - *References:* [[https://ao.bloat.cat/exchange/stackoverflow.com/questions/39498702/passing-arguments-to-python-from-shell-script][Passing shell argument to python @Overflow]]
-**** TODO Python virutal enviroment
+*** TODO Python virutal enviroment
 - *OBJECTIVE:* /Manage python virtual enviroments/
   - To initiate virtual environment, run =python -m venv <name>=
 - *Visit:* [[https://www.youtube.com/watch?v=IYcTaZfjODg#__preview][Understand python vm @Youtube]]
-***** Manage packages
+**** Manage packages
 - *OBJECTIVE:* /Save virtual environemnt state/
   - To create lock file, run (when inside virtual environment) =pip freeze > requirements.txt=
   - To install from =requirements.txt= run =pip install -r requirements.txt=
-**** DOING [#C] Python as a tool for note-taking :WORFLOW:
+*** DOING [#C] Python as a tool for note-taking :WORFLOW:
 - *OBJECTIVE:* /Create a tool ultilies python and latex in nvim to create similar workflow in this/ [[https://l.opnxng.com/r/neovim/comments/yfbfvu/sympy_luasnip_vimtex/][post]]
 - *References:* [[https://castel.dev/post/lecture-notes-1/][How I take math notes with LaTex @Blog]]
-*** DOING Working with latex [0%] :LATEX:
+** DOING Working with latex [0%] :LATEX:
 - *OBJECTIVE:* Develop a framwork for latex format/
 - *Reference:* Tutorial documentation for latex
   - [[https://www.learnlatex.org/en/][Latex for beginner @Learntex]]
   - [[https://www.overleaf.com/learn][Overleaf latex tutorial for beginner @Overleaf]]
-**** TODO Setup editor for latex :NVIM:
+*** TODO Setup editor for latex :NVIM:
 - *OBJECTIVE:* Setup nvim to env to write latex in/
   - *Visit:* [[https://github.com/lervag/vimtex][Vimtex plugin @Github]]
-**** TODO Files conversion :PANDOC:GEMINI:
+*** TODO Files conversion :PANDOC:GEMINI:
 - [-] *OBJECTIVE:* Convert documents from and to latex/ [50%]
   - [ ] Convert from pdf to latex - Use =Gemini-2.5-pro=
   - [X] Convert from latex to pdf - Use =latexmk= or =pandoc=
 - *Complication:* Workflow integration
   Having to log on [[https://gemini.google.com/app][Google gemini @Google]] is not ideal - Integrate to shell or nvim
 - *Reference:* [[id:7c0ce0b0-4d7d-4468-8263-c3b28cd3af1b][File conversions @Orgmode]]
-***** TODO Convert PDF to latex :AI:
+**** TODO Convert PDF to latex :AI:
 :PROPERTIES:
 :ID:       0fba82ab-0863-4292-838e-bee27fb27153
 :END:
 - *OBJECTIVE:* /Convert documents from PDF to latex using AI/
 - *Reference:* [[https://www.reddit.com/r/Bard/comments/1bgstvx/suddenly_discovered_latex_on_gemini_web/][Latex on Gemini @Reddit]]
-***** Convert PDF to markdown
+**** Convert PDF to markdown
 - *OBJECTIVE:* Convert pdf to markdown/
-***** Pandoc conversion :PANDOC:
+**** Pandoc conversion :PANDOC:
 - *OBJECTIVE:* Convert filetype using pandoc
 - *Reference:* [[https://ao.bloat.cat/exchange/stackoverflow.com/questions/56828128/pandoc-is-tex-output-with-dollar-sign-math-possible][Pandoc math filter @Overflow]]
-*** TODO Working with html :HTML:
+** TODO Working with html :HTML:
 :PROPERTIES:
 :ID:       6440266f-57df-40e2-a9e2-8d0867fcf9f2
 :END:
 - *OBJECTIVE:* Learn basic html
 - *Reference:* [[https://github.com/Asabeneh/30-Days-Of-HTML][30 days of html @Github]]
-*** Learning Lua :LUA:
+** Learning Lua :LUA:
 - *OBJECTIVE:* Learn basic lua language
 - *Reference:* [[https://github.com/pohka/Lua-Beginners-Guide][Lua beginners guide @Github]]

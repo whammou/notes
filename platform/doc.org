@@ -2,17 +2,15 @@
 #+DESCRIPTION: Description for archive here
 #+OPTIONS: ^:nil
 
-* Archives :LIB:PLATFORM:
-- /System archives/
-** Documents :DOC:
+* Documents :DOC:PLATFORM:
 /Documents archives/
-*** DONE Github render tests [100%] :GITHUB:ORGMODE:
+** DONE Github render tests [100%] :GITHUB:ORGMODE:
 CLOSED: [2025-06-19 Thu 20:52]
 :PROPERTIES:
 :ID:       7fd3eabc-0cd2-43bb-b3b3-a31c018163b2
 :END:
 - *OBJECTIVE:* Testing github render for orgmode
-**** PARTIAL Testing math render :LATEX:
+*** PARTIAL Testing math render :LATEX:
 CLOSED: [2025-06-19 Thu 02:07]
 - *OBJECTIVE:* Testing markup and math render on github
   - This is inline math block: $\omega_{av} = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}$
@@ -31,7 +29,7 @@ $$m_1 v_{1ix} + m_2 v_{2ix} = m_1 v_{1 \mathord{\mathit{f}} x} + m_2 v_{2 \matho
 - *Complication:* Render orgmode mathmode error
   - [[https://ao.bloat.cat/exchange/tex.stackexchange.com/questions/74969/how-to-make-the-limit-mathematics-sign][latex display mode @Overflow]]
 - *Reference:* [[https://ao.bloat.cat/exchange/stackoverflow.com/questions/31534084/how-can-i-get-github-to-display-inline-math-in-readme-org-file#79302884][State of orgmode in github @Overflow]]
-**** DONE Testing html render :HTML:
+*** DONE Testing html render :HTML:
 CLOSED: [2025-06-15 Sun 21:32] DEADLINE: <2025-06-15 Sun>
 - [X] *OBJECTIVE:* Testing html render with math on github render [3/3]
   - [X] Center images
@@ -67,21 +65,21 @@ $$\omega = \lim^2_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$$
 - *Reference:*
   - [[id:6440266f-57df-40e2-a9e2-8d0867fcf9f2][Working with html @Orgmode]]
   - [[id:8506cc5d-a3e8-4d18-94aa-87ceb7a8c932][Treesitter highlight @Orgmode]]
-**** DONE Relative links
+*** DONE Relative links
 CLOSED: [2025-06-19 Thu 20:52]
 - *OBJECTIVE:* Determine how to link between notes on github page
 - *Complication:* Relative links (links with id:) do not work on github render
   - [[https://github.com/novoid/github-orgmode-tests][Github orgmode test @Github]]
-*** DONE Overhaul Note repo [100%] :ORGMODE:GITHUB:
+** DONE Overhaul Note repo [100%] :ORGMODE:GITHUB:
 CLOSED: [2025-05-13 Tue 18:11] DEADLINE: <2025-05-13 Tue 20:00>
 - *Goal(s):* update note repo structure for more optimal workflow
 - *NOTE:* checkout [[./README.org][README]] and find a suitable repo structure
-**** ABORTED Modify README
+*** ABORTED Modify README
 CLOSED: [2025-04-11 Fri 21:41]
 - *Goal(s):* modify and add README content
   - [ ] modify [[./README.org::repo-hierarchy][Hierarchy]]
   - [ ] add template structure
-**** DONE Separate archive hierarchy
+*** DONE Separate archive hierarchy
 CLOSED: [2025-05-13 Tue 18:11]
 - Note taken on [2025-01-23 Thu 00:09] \\
   Separate ~Logs~ ~Lists~ and ~Documents~ to different files to avoid callbacks

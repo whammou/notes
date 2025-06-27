@@ -1,77 +1,76 @@
 #+TITLE: Routine Archive
 #+DESCRIPTION: Description for archive here
-* Archives :ROUTINE:
-Allocated space for archives
-** Documents :DOC:
-*** Hitting the gym :GYM:
+
+* Documents :DOC:ROUTINE:
+** Hitting the gym :GYM:
 Documenting exercises and planning workout schedule
-**** Terminology
+*** Terminology
 - *Reps -* refers to a single execution of a movement
 - *Sets -* refers to specific number of reps to perform of an exercise
 - *Rest -* refers to period of rest between ~sets~ of an exercise
-**** Resources
-***** Primer Routine
+*** Resources
+**** Primer Routine
 - Visit [[https://redlib.seasi.dev/r/bodyweightfitness/wiki/training_guide][r/bodyweightfitness guide]]
 - Visit [[https://nick-e.com/primer/][Nick-E.com guide]]
 - Visit [[https://www.hybridcalisthenics.com/routine][hybridcalisthenics.com]]
-***** Overcome Gravity - Steven Low :BOOK:
+**** Overcome Gravity - Steven Low :BOOK:
 Visit [[/server/archive/calisthenics/Class,\ Health\ -\ Bodyweight\ Training_\ The\ Scientific\ Approach\ to\ Calisthenics\ Workout_\ The\ Easiest\ Way\ to\ Overcome\ Gravity\ and\ be\ Leaner,\ Bigger\ and\ Stronger.pdf]]
-***** Youtube
+**** Youtube
 - *Channel:*
   1. [[https://youtube.com/channel/UCeJFgNahi--FKs0oJyeRDEw][Hybridcalisthenics.youtube]]
   2. [[https://www.youtube.com/@OFFICIALTHENXSTUDIOS][THENXstudio@youtube]]
 - *Video:*
   1. [[https://youtube.com/watch?v=U9ENCvFf9yQ][Step-by_step beginner gym guide]]
-***** Reddit
+**** Reddit
 1. [[https://redlib.seasi.dev/r/Fitness/comments/3sjpv8/best_learning_resources/][r/Fitness - Best learning resources]]
-**** Research
-***** Bulk or Cut
+*** Research
+**** Bulk or Cut
 - *Bulk -* Deliberately targeting a ~caloric surplus~ for the purpose of ~gaining~ weight over a period of time
 - *Cut -* Deliberately targeting a ~caloric deficit~ for the purpose of ~losing~ weight over a period of time
-***** Calisthenics vs Weight-lifting
+**** Calisthenics vs Weight-lifting
 - *Goal:* Develop a suitable workout session and timeline
 - *Resource:* [[https://youtube.com/watch?v=VLOKMjHEyhY][youtube]]
-***** Calories Deficit
+**** Calories Deficit
 - *Source:* [[https://redlib.seasi.dev/r/StrongerByScience/comments/1f2tk5v/why_is_it_that_calorie_intake_is_so_important_for/][Calorie intake and muscle growth]]
-***** PENDING Plaintext Accounting for Weight loss
+**** PENDING Plaintext Accounting for Weight loss
 - *Goal(s):* use ~beancount~  for monitoring nutrition intake
 - *Stumble upon:* [[https://github.com/rcaputo/calories-ledger][plaintext accouting for weight loss@github]]
-***** PENDING [#A] Measure body fat :ARTICLE:
+**** PENDING [#A] Measure body fat :ARTICLE:
 - *Goal:* 
   - [X] Var check ~skincaliper~
     - *Visit:* [[https://pubmed.ncbi.nlm.nih.gov/804177/11]]
   - [ ] Measuring body fat and log data
 - *Visit:* [[https://www.healthline.com/nutrition/ways-to-measure-body-fat#TOC_TITLE_HDR_2][measure__body_fat_with_calipers@healthline]]
-**** PENDING Exercise techniques
+*** PENDING Exercise techniques
 A collection of various exercise and techniques require to perform an exercise
-***** Warm-up
+**** Warm-up
 - Shoulder, wrists, knees, and hips
-***** Push-ups
-**** DONE Post-workout maintenance
+**** Push-ups
+*** DONE Post-workout maintenance
 CLOSED: [2024-10-07 Mon 20:22]
 - *Goal:* Look for a way to manage hair after a workout session 
 - *Solution:* Implemented new shampoo and conditioner day schedules  [[#conditioner_day]]  [[#shampoo_day]]
-**** Gym information
+*** Gym information
 - *Goal(s):* collect information on different gyms
 - *Visit:* 
-*** Calisthenic :GYM:
+** Calisthenic :GYM:
 <2024-10-09 Wed 01:00 +1w>
 <2024-10-11 Fri 01:00 +1w>
 <2024-10-13 Sun 01:00 +1w>
 - *Goal:* finish [[https://nick-e.com/primer/#buildup][14 days build up routine]]
-*** Hydrography forcast :BIKE:
+** Hydrography forcast :BIKE:
 Hydrography forcast of a next day or week is important to schedule a smooth ride
-**** Sources :LIST:
+*** Sources :LIST:
 - *Visit:*  [[https://thegioimoicau.com/dia-danh/sai-gon/trang-1][Hydrography forcast]]  [[http://thuydacvietnam.org.vn/thuy-trieu/sai-gon-DNP280101983DIZI29.html][Hydrography archive]]
-**** DONE Ideal conditions :LOG:
+*** DONE Ideal conditions :LOG:
 CLOSED: [2024-11-07 Thu 06:04]
 - *Goal:* log ideal condition for a smooth ride
-***** Tie level
+**** Tie level
 - < 3.7mm, freeway might be flooded
 - > 3.6mm is ideal for a bike ride
-***** PENDING Rain amount
+**** PENDING Rain amount
 - *Goal:* log ideal percipitation status
-*** Classical bikes
+** Classical bikes
 Collection of classical bikes and manuals (tips and tricks included)
-**** PENDING Learn about classic motorbike
+*** PENDING Learn about classic motorbike
 - *Goal(s):* Learn to maintain and operate classic motorcycle 

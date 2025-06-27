@@ -1,7 +1,7 @@
 #+TITLE: Read Document
 #+DESCRIPTION: Description for archive here
 
-* Documents :READ:LIB:DOC:
+* Documents :DOC:READ:
 Allocated space for archives
 ** The Zettelkasten system :PKM:ZETTELKASTEN:
 :PROPERTIES:
@@ -81,3 +81,5 @@ Allocated space for archives
 *** Do the next best thing
 - *OBJECTIVE:* Techniqute to defuse to procastination
 - *Reference:* [[https://www.youtube.com/embed/VBifDZwPiI4?start=8m20s#__preview][What is procrastination and how to defuse it @Youtube]]
+** Failure to launch (hikimori) :PSYCHOLOGY:
+/A closer look at failure to launch in life/

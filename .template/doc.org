@@ -2,5 +2,5 @@
 #+DESCRIPTION: Description for archive here
 #+OPTIONS: ^:nil
 
-* Documents :LIB:DOC:TEMPLATE:
+* Documents :DOC:TEMPLATE:
 /Documents archives/

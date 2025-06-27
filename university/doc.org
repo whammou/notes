@@ -1,5 +1,4 @@
 #+TITLE: University Document
 #+DESCRIPTION: Description for archive here
-<<<<<<< HEAD
 
 * Documents :DOC:UNIVERSITY:

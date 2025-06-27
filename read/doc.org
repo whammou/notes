@@ -67,6 +67,18 @@ Allocated space for archives
   #+end_html
   Luhmann's numbering growth by adding notes in between notes by adding a sequence of number or character between indexes
 - *Reference:* [[https://zettelkasten.de/introduction/#the-fixed-address-of-each-note][The fixed address of each note @Zettlekasten.de]]
+**** Naming convention
+:PROPERTIES:
+:ID: f78fe37b-4ff7-4a73-86e9-16ccf28a4888
+:END:
+- *OBJECTIVE:* Different naming convention pros and cons
+- *[NOTE]* taken on [2025-06-28 00:11]:
+  Different naming convention has different pros and cons. Mixing and matching between conventions is recommended to create a suitable workflow
+    - Timestamp (YYMMDDTTTT)
+    - Numeric (1, 1.1, 1.2)
+    - Alphanumeric (1a, 1a1, 1b)
+    - Semantic (physics, math)
+- *Reference:* [[https://www.youtube.com/watch?v=92EEEsptqfI#__preview][Don't over think Adress format @Youtube]]
 *** Zettelkasten note search and access
 :PROPERTIES:
 :ID:       64a2f52f-b16c-454b-92b9-9de7a9d431f0

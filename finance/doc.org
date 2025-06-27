@@ -1,91 +1,49 @@
 #+TITLE: Finance Documents
 #+DESCRIPTION: Description for archive here
 
-* Documents :DOC:FINANCE:
+* Archives :FINANCE:
+
+- /Allocated space for archives/
+
+** Documents :DOC:
 
 - /Documents on personal finance topics/
-<<<<<<< HEAD
-  
-** Finance basic
-
-||||||| 502f063
 
 *** Finance basic
 
-=======
-*** Finance basic
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 Double entry book keeping and accounting to manage personal finance situation in plain text
-<<<<<<< HEAD
-
-*** Accounting Basics
-||||||| 502f063
 
 **** Accounting Basics
-=======
-**** Accounting Basics
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 :PROPERTIES:
 :CUSTOM_ID: accounting_basics
 :END:
+
 Accounting basics and further study
-<<<<<<< HEAD
-
-**** Single-entry vs double-entry
-
-||||||| 502f063
 
 ***** Single-entry vs double-entry
 
-=======
-***** Single-entry vs double-entry
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 Differences in single-entry bookkeeping (current system) and double-entry bookkeeping (implementing)
-<<<<<<< HEAD
-
-***** Single-entry Bookkeeping
-
-||||||| 502f063
 
 ****** Single-entry Bookkeeping
 
-=======
-****** Single-entry Bookkeeping
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 file:finance/assets/single-entry.png
 
 a. Straightforward track of one account spending and earning
 b. Every changes are recorded onto the *main* (only) account
 c. Entries can have ~tags~ to separate and group them together for further calculation
-<<<<<<< HEAD
-   
-***** Double-entry Bookkeeping
-
-||||||| 502f063
 
 ****** Double-entry Bookkeeping
 
-=======
-****** Double-entry Bookkeeping
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 file:finance/assets/double-entry.png
 
 a. Tracking multiple accounts 
 b. Assets "flow" from 1 account to another is called a ~transaction~
 c. Each accounts can have their own ~entries~ and ~tags~
-   
+
 /More details on/ [[#double-entry-bookkeeping][double-entry-bookkeeping]]
-<<<<<<< HEAD
-
-****** Many Accounts
-
-||||||| 502f063
 
 ******* Many Accounts
 
-=======
-******* Many Accounts
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 file:finance/assets/many-entry.png
 
 There are many such transactions, over many different accounts. It could be represented by creating a "credit card" account dedicated to tracking the real world credit card balance, and with a corresponding transaction
@@ -95,66 +53,33 @@ For each real world account, the owner can create a bookkeeping account like we 
 > [!NOTE]
 > Note that the balance in the example is negative number; this is not an error. Lances for credit card accounts are normally negative: they represent an amount you owe, that the bank is lending you *on credit*. When your credit card company keeps track of your expenses, they write out your statement from their perspective, as positive numbers. For you, those are amounts you need to eventually pay.
 
-<<<<<<< HEAD
-**The sum of all the postings of a transaction must equal zero*
-
-****** Multiple Postings
-||||||| 502f063
 ***The sum of all the postings of a transaction must equal zero*
 
 ******* Multiple Postings
-=======
-***The sum of all the postings of a transaction must equal zero*
-******* Multiple Postings
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 - Note taken on [2024-10-03 Thu 05:12] \\
   The contents of accounts can change over time. In order to change the content of an account, we have to add something to it. We will call this addition a ~posting~ to an account
-  
+
 file:finance/assets/multiple-postings.png
 
 Finally, transactions may have more than two postings; in fact they may have any number postings. The only thing that matters is that the sum of their amounts is *zero* (from the rule of double-entry bookkeeping)
-<<<<<<< HEAD
-
-**** Debits and Credits
-
-||||||| 502f063
 
 ***** Debits and Credits
 
-=======
-***** Debits and Credits
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 ~Double-entry bookkeeping~ traditionally names movements of money as *debits* or *credits*. As an error-checking mechanism, the debits must exactly balance the credits, both within each individual transaction and over all transactions
-<<<<<<< HEAD
-
-**** Signed Numbers
-
-||||||| 502f063
 
 ***** Signed Numbers
 
-=======
-***** Signed Numbers
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 ~(+)~ and ~(-)~ integers instead of debit and credit labels. This is essentially the same system. 
 
 - ~(+)~ integers are debits
 - ~(-)~ integers are credits
-  
+
 And within each transaction the sum of amounts must be zero
 
 /As a consequence PTA tools, its common for reports to show equity, liability, and revenue balances as negative numbers/
-<<<<<<< HEAD
-
-**** Assets, Liabilities and Equity
-
-||||||| 502f063
 
 ***** Assets, Liabilities and Equity
 
-=======
-***** Assets, Liabilities and Equity
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 Accounting describes the status of a business, person or other entity at any point in time in terms of three amounts
 
 - *Assets* - Things owned
@@ -162,221 +87,140 @@ Accounting describes the status of a business, person or other entity at any poi
 - *Equity* - The amount invested by owners/shareholders
 - *Income* - Things earn
 - *Expenses* - Things spend
-  
+
 The foundation of double-entry accounting is the ~accouting equation~, which says Equity is always equal to Assets minus Liabilities (or, Net Assets)
 
 or *Assets* = *Liabilities* + *Equity*
 
 These three are called the ~Balance Sheet accounts~. Their balances summarise the overall financial status at some point in time
-<<<<<<< HEAD
-
-**** Revenue and Expenses
-
-||||||| 502f063
 
 ***** Revenue and Expenses
 
-=======
-***** Revenue and Expenses
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 Two more amounts are used to describe changes in the above during a given period:
 
 - *Revenue* - Money flowing in
 - *Expenses* - Money flowing out
-  
+
 /In come is sometimes used to mean Net income, which is Revenue - Expenses/
 
 These two are called ~Income Statement accounts~. The balances they accumulate during some period of time indicate the inflows and outflows during that period (which will affect the Assets and Liabilities balances)
-<<<<<<< HEAD
-
-**** Types of Accounts
-||||||| 502f063
 
 ***** Types of Accounts
-=======
-***** Types of Accounts
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 - Note taken on [2024-10-05 Sat 01:56] \\
   In ~beancount~, all account names, without exception, must be associated to one of the types of accounts described below.
-  
+
 The most important distinction between accounts is about whether we care about the balance *at a particular point* in time, or whether it only makes sense to care about the differences *over a period* of time 
 
 
 - *Balance or Delta*
-  
-  
+
+
 a. Accounts whose balance at a point in time is meaningful are called *balanace sheet accounts*. There are two types of such accounts: ~Assets~ and ~Liabilities~
 b. The other accounts, whose balance is not particularly meaningful but for which we are interested in calculating changes over a period of time are called *income statement accounts*. Again where are two kinds: ~Income~ and ~Expenses~
-   
-   
+
+
 - *Normal sign*
-  
-  
+
+
 Additionally, consider the /usual sign of an account's balance/. The great majority of accounts in the double-entry system tend to have a balance with always a positive sign, or always a negative sign. This is how we will distinguish between the pairs of accounts mentioned before
 
 file:finance/assets/normal-signs.png
 
 
 - *Types of accounts*
-  
-  
+
+
 - ~Assets~, *(+)* Asset accounts represent /something the ownder has/. E.g banking accounts, cash account, investments are also assets (their units aren't dollars in this case but rather some number of shares of some mutual fund or stock), home - itself is considered an asset (and its market value fluctuate over time)
-  
+
 - ~Liabilites~ *(-)* A liability account represents /something the owner owes/. E.g /Credit cards/, a /Loan/ is also a liability account, /Mortgage/ is also a liability as you pay every months the negative number goes up
-  
+
 - ~Expenses~ *(+)* An expense account represent /something owner received/. E.g exchange something else to purchase it. This type of account seem pretty natural.  E.g food and drinks, clothing, rents, etc. However, taxes are also typically tracked an expense account: when you receive some salary income, the amount of taxes withheld at the source is recorded immediately as an expense
-  
+
 - ~Income~ *(-)* An income account is used to count /something you've given away/ in order to receive something else (typically ~assets~ or ~expenses~). For most people with jobs, that is the value of their time. 
-  
-  
+
+
 Since the type of an account never changes during its lifetime, we will make its type a part of an accounts' name, as a /prefix/. 
 
 - The qualified account name for restaurant will be ~Exapenses:Restaurant~
 - The qualified account names for bank checking will be ~Assets:Checking~
-  
+
 Other than that you can select any name you like for your accounts. You can create as many accounts as you like
 
 file:finance/assets/naming.png
 file:finance/assets/naming2.png
 file:finance/assets/naming3.png
-<<<<<<< HEAD
-
-**** Types of Financial Statements
-
-||||||| 502f063
 
 ***** Types of Financial Statements
 
-=======
-***** Types of Financial Statements
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 Financial ~statments~ are used to summarize/organize different types of account to and interprets them in meaningful way
-<<<<<<< HEAD
-
-***** Trial Balance
-
-||||||| 502f063
 
 ****** Trial Balance
 
-=======
-****** Trial Balance
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 The of the ~postings~ on all of the accounts and render just the account name and its final balance on the right, we obtain a report we call the *trial balance*
 
 file:finance/assets/trial-balance.png
 
 This simply reflects the balance of each account at particular point in time. And because each of the accounts began with a zero balance, and each transaction has itself a zero balance, we know that the sum of all those balances must equal zero. This is a consequence of our constraining that each of the postings be part of a transaction, and that each transaction have postings that balance each other out
-<<<<<<< HEAD
-
-***** Income Statement
-
-***Income Statement -* is a summary of changes in income statement accounts during a particular period of time.It tells us how much money was earned and spent during this period, and the difference tells us how much profit (or loss) was incurred
-||||||| 502f063
 
 ****** Income Statement
 
 ****Income Statement -* is a summary of changes in income statement accounts during a particular period of time.It tells us how much money was earned and spent during this period, and the difference tells us how much profit (or loss) was incurred
-=======
-****** Income Statement
-****Income Statement -* is a summary of changes in income statement accounts during a particular period of time.It tells us how much money was earned and spent during this period, and the difference tells us how much profit (or loss) was incurred
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 
 file:finance/assets/income-statement.png
 
 /In order to generate this summary, we simply sum up just the transactions for a particular period of types Income and Expenses then separate each type vertically/
 a. /It is important to take note of the *normal signs -* Income numbers are negative and Expenses numbers positive/
 b. /If the final sum is a negative number means that there is a corresponding amount of Assets and/or Liabilities with positive number(this a good)/
-<<<<<<< HEAD
-   
-***** Clearing Income
-
-||||||| 502f063
 
 ****** Clearing Income
 
-=======
-****** Clearing Income
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 The ~income statement~ only sum up within a particular internal of time. If we were to sum up all the transactions of this account since its inception we should obtain the total amount of income earned since the account was created
 
 A bette rway to achieve the same thing is to zero out the balances of the ~Income~ and ~Expenses~ accounts. /Beancount calls this basic transformation "clearing". It is carried out by:/
 
 1. Computing the balances of those accounts of those accounts from the beginning of time to the start of the reporting period
 2. Inserting transactions to empty those balances and trnasfer them to some other account that isn't ~Income~ nor ~Expenses~ 
-   
+
 - [NOTE]: this is unrelated to the term "clearing transactions" which means acknowledging or marking that some transactions have been eyeballed by the bookkeeper and checked for correction
-  
+
 file:finance/assets/clearing-income.png
-<<<<<<< HEAD
-
-***** Equity Accounts
-
-||||||| 502f063
 
 ****** Equity Accounts
 
-=======
-****** Equity Accounts
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 The account type *Equity* is used for accounts that hold a summary of the net income implied by all the past activity. This account list together the ~Assets~, ~Liabilities~ and ~Equity~ accounts. Ans because the ~income~ and ~expenses~ accounts have been zeroed out the sum of of these balances should equal to exactly zero
 
 - [NOTE]: /The normal sign of an equity account is negative/
-  
+
 There are few different ~Equity~ accounts in Beancount:
 - *Previous Earnings* or *Retained Earnings*. An account used to hold the sum totoal of ~Income~ and ~Expenses~ balances from the beginning of time until the beginning of a reporting period. /This is the account referred to in the previous section/
 - *Current Earnings* or *Net Income*. An account used to contain the sum of ~Income~ and ~Expenses~ incurred during the reposting period. They are filled in by *clearing* the ~Income~ and ~Expenses~ accounts at the end of the reporting period 
 - *Opening Balances* An account used to counterbalance deposits used to initialize accounts. This type of account is used when we truncate the past history with a particular amount
-<<<<<<< HEAD
-  
-***** Balance Sheet
-
-||||||| 502f063
 
 ****** Balance Sheet
 
-=======
-****** Balance Sheet
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 Another kind of summary is a listing of the owner's assets and debts, for each of the accounts. This answers the question: /"Where is the money?"/
 
 - [NOTE]: To account for the money left once the debts are all paid off look at *net worth*
-  
+
 /If the Income & Expenses are cleared to zro and all their balances have been transferred to Equity accounts, the net worth should be equal the sum of all the Equity accounts/. So in building up the ~balance sheet~, it is customary to clear the net income and the display the balances of the Equity accounts
 
 file:finance/assets/balance-sheet.png
-<<<<<<< HEAD
-
-**** Chart of Accounts
-
-||||||| 502f063
 
 ***** Chart of Accounts
 
-=======
-***** Chart of Accounts
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 Account name implicitly define a hierarchy. The ":" separator is interpreted by some reporting code to create an in-memory tree and can allow you to collapse a note's children sub accounts and compute aggregates on the parent
-<<<<<<< HEAD
-
-*** Accounting Equations
-
-||||||| 502f063
 
 **** Accounting Equations
 
-=======
-**** Accounting Equations
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 Express *accounting equations* in signed terms
 - *A* = the sum of all ~Assets~ postings
 - *L* = the sum of all ~Liabilities~ postings
 - *E* = the sum of all ~Equity~ postings
 - *X* = the sum of all ~Expenses~ postings
 - *I* = the sum of all ~Income~ postings
-  
+
 In general,
-**A* + *L* + *E* + *X* + *I* = 0
+***A* + *L* + *E* + *X* + *I* = 0
 
 This follows from the fact that
 ~sum(all postings) = 0~
@@ -385,55 +229,33 @@ Which follows from the fact that each transaction is guaranteed to sum up to zer
 ~for all transactions t, sum(postings of t) = 0~
 
 Moreover, the sum of postings from ~Income~ and ~Expenses~ the ~Net Income~ (NI):
-**NI* = *X* + *I*
+***NI* = *X* + *I*
 
 If we adjust the ~equity~ to reflect the total ~net income~ effect by clearing the income to the ~Equity~ retained earnings account, we get an updated Equity value (E'):
-**E'* = *E* + *NI* + *X* + *I*
+***E'* = *E* + *NI* + *X* + *I*
 
 And simplified accounting equation:
-**A* + *L* + *E'* = 0
+***A* + *L* + *E'* = 0
 
 If we were to adjust the signs for ~credits~ and ~debits~ and have sums that are all the positive number, this becomes the familiar accounting equation:
 /Assets - Liabilities = Equity/
 
 /Its much easier to just always add up the numbers/
-<<<<<<< HEAD
-
-*** Double-entry Bookkeeping
-||||||| 502f063
 
 **** Double-entry Bookkeeping
-=======
-**** Double-entry Bookkeeping
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 :PROPERTIES:
 :CUSTOM_ID: double-entry-bookkeeping
 :END:
+
 Double-entry accounting or bookkeeping is an accounting method, which states that every financial transaction has equal and opposite effects in at least two different accounts
-<<<<<<< HEAD
-
-**** Resources
-
-||||||| 502f063
 
 ***** Resources
 
-=======
-***** Resources
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 - *Source(s):*  [[http://furius.ca/beancount/doc/double-entry][The Double-Entry Counting Method]]
 - *Source(s):*  [[https://youtube.com/watch?v=EibibVFEkvk][youtube@The Finance Story Teller]]
-<<<<<<< HEAD
-  
-**** Terminology
-
-||||||| 502f063
 
 ***** Terminology
 
-=======
-***** Terminology
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 More details can be found in [[#accounting_basics]]
 
 Double-entry bookkeeping is the standard method for keeping accounting records reliable. Fore every movement of value(a transaction), both the source and destination are recorded
@@ -441,74 +263,34 @@ Double-entry bookkeeping is the standard method for keeping accounting records r
 Value at any point in time is tracked in various ~accounts~, classified as ~asset~ (owned), ~liability~ (owed) or ~equity~ (invested). Two more classifications track changes during some period: ~revenues~ (inflows) and ~expenses~ (outflows) 
 
 Transactions consists of ~debits~ (increase to asset or expense accounts or decrease to liability or equity accounts)
-<<<<<<< HEAD
-
-**** Introduction
-
-||||||| 502f063
 
 ***** Introduction
 
-=======
-***** Introduction
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 General rule: /The sum of ~Debit~ entries is equal to the sum of ~Credit~ entries/
 file:./assets/DEA1.jpg
-<<<<<<< HEAD
-
-***** Rules of bookkeeping
-
-||||||| 502f063
 
 ****** Rules of bookkeeping
 
-=======
-****** Rules of bookkeeping
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 a. *Debit* increases an asset account. *credit* decreases it. *Liability* accounts are reversed
 b. All transactions will sum to zero (they will /balance/)
 c. *Income* and *Expense* aren't "/categories/", they are accounts in thier own right, with balances
 d. Special account handles only one type of currency
    - The most common way that things get complicated involve stock transaction or foreign currency 
-<<<<<<< HEAD
-     
-***** How to Bookkeeping
-
-||||||| 502f063
 
 ****** How to Bookkeeping
 
-=======
-****** How to Bookkeeping
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 1. Take a complete inventory of everything you *own* or *owe*
 2. Every time you move money from one place to another, write it down. Every transaction must balance to zero
 3. Keep doing step 2 forever
    - Roll up the books, move the total of your *income* and *expense* to *equity*, and zero out your *income* and *expense* accounts once a year
-<<<<<<< HEAD
-     
-*** PENDING Beancount Double-entry bookkeeping :VIM:BEANCOUNT:
-
-||||||| 502f063
 
 **** PENDING Beancount Double-entry bookkeeping :VIM:BEANCOUNT:
 
-=======
-**** PENDING Beancount Double-entry bookkeeping :VIM:BEANCOUNT:
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 - *Visit:* [[https://beancount.github.io/docs/][beancount DOCS]]  [[https://beancount.github.io/docs/beancount_cheat_sheet.html][beancount-syntax-pta]]
 - *Visit:* [[https://github.com/simonmichael/hledger][github]]
-<<<<<<< HEAD
-  
-**** Plain-Text Accounting
-
-||||||| 502f063
 
 ***** Plain-Text Accounting
 
-=======
-***** Plain-Text Accounting
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 This document talks about Beancount, whose purpose is "double-entry bookkeeping using text files". Beancount implements a parser for a single syntax that allows you to record transactions and postings. The syntax for an example transaction looks something like this:
 
 ~2016-12-06 * "Biang!" "Dinner"~
@@ -518,17 +300,9 @@ This document talks about Beancount, whose purpose is "double-entry bookkeeping 
 - *Verification -* After parsing the transactions, ~beancount~ also verifies the rule of the double-entry method: it checks that the sum of the postings on al your transactions is zero. If you make a mistake an record a transaction with a non-zero balance, an error will be displayed
 - *Balance Assertions -* ~Beancount~ allows you to replicate which can automate and/or process the streams of transactions in your input files. You can build custom functionality by writing code which directly processes the transaction stream
 - *Querying & Reporting -* It provides tools to then process this stream of transactions to produce the kinds of reports we discussed earlier in this document
-<<<<<<< HEAD
-  
-***** The Table Perspective
-
-||||||| 502f063
 
 ****** The Table Perspective
 
-=======
-****** The Table Perspective
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 ~Beancount~ input:
 file:finance/assets/table-perspective1.png
 
@@ -536,65 +310,21 @@ Rendered output:
 file:finance/assets/table-perspective2.png
 
 /Beancount and SQL database together/
-<<<<<<< HEAD
-
-**** Fave web interface for Beancount
-
-||||||| 502f063
 
 ***** Fave web interface for Beancount
 
-=======
-***** Fave web interface for Beancount
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 - *Goal(s):* Fave self-host using Home-lab  [[https://fava.pythonanywhere.com][demo]]
 - *Source(s):* [[https://github.com/beancount/fava][fava@github]]
-<<<<<<< HEAD
-  
-***** Fave self-host via ssh
-
-||||||| 502f063
 
 ****** Fave self-host via ssh
 
-=======
-****** Fave self-host via ssh
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 - *Goal(s):* Config Home-lab for fave web interface
-<<<<<<< HEAD
-  
-** Manage Finance with Big Data Languages
-||||||| 502f063
 
 *** Manage Finance with Big Data Languages
-=======
-*** Manage Finance with Big Data Languages
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 CLOSED: [2024-09-28 Sat 11:44]
-<<<<<<< HEAD
-
-**Goal(s):* Research technique to manage efficiently manage money with BDL (e.g. .cvs .js)
-||||||| 502f063
 
 ***Goal(s):* Research technique to manage efficiently manage money with BDL (e.g. .cvs .js)
-=======
-***Goal(s):* Research technique to manage efficiently manage money with BDL (e.g. .cvs .js)
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 
-<<<<<<< HEAD
-**Stumble upon:* [[https://aldur.pages.dev/articles/2024/03/01/beancount][Beancout-nvim guide]]
-
-*** Resources
-
-**** Community
-
-**Visit:* [[https://plaintextaccounting.org/][plaintextaccoutning.org]]
-
-**** Ledger cli
-
-***** Documentation
-
-||||||| 502f063
 ***Stumble upon:* [[https://aldur.pages.dev/articles/2024/03/01/beancount][Beancout-nvim guide]]
 
 **** Resources
@@ -607,264 +337,116 @@ CLOSED: [2024-09-28 Sat 11:44]
 
 ****** Documentation
 
-=======
-***Stumble upon:* [[https://aldur.pages.dev/articles/2024/03/01/beancount][Beancout-nvim guide]]
-**** Resources
-***** Community
-***Visit:* [[https://plaintextaccounting.org/][plaintextaccoutning.org]]
-***** Ledger cli
-****** Documentation
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 - *Visit:* [[https://ledger-cli.org/docs.html][ledger docs]]
-<<<<<<< HEAD
-  
-***** Youtube
-
-||||||| 502f063
 
 ****** Youtube
 
-=======
-****** Youtube
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 - *Visit:* [[https://youtube.com/watch?v=FJtaM43PgXQ][Dean Collin]]
-<<<<<<< HEAD
-  
-**** Reddit
-
-||||||| 502f063
 
 ***** Reddit
 
-=======
-***** Reddit
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 - *Visit:* [[https://redlib.seasi.dev/r/plaintextaccounting/][r/plaintextaccounting]]
-<<<<<<< HEAD
-  
-*** Plain text vs Spreadsheets data tracking
-
-**.csv* file is a simple type of plain text file which uses a specific structure to arrange tabular data. The standard format of a CSV file is defined by rows and columns data where a newline is terminates each row to begin the next row, and each column is separated by a comma within the row
-
-**.xlxs* file is a Excel format spreadsheet software. It is widely use to create tables and grids of numbers and formulas that specify calculations, inventory tracking, accounting and more
-||||||| 502f063
 
 **** Plain text vs Spreadsheets data tracking
 
 ***.csv* file is a simple type of plain text file which uses a specific structure to arrange tabular data. The standard format of a CSV file is defined by rows and columns data where a newline is terminates each row to begin the next row, and each column is separated by a comma within the row
-=======
-**** Plain text vs Spreadsheets data tracking
-***.csv* file is a simple type of plain text file which uses a specific structure to arrange tabular data. The standard format of a CSV file is defined by rows and columns data where a newline is terminates each row to begin the next row, and each column is separated by a comma within the row
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 
-<<<<<<< HEAD
-*** Plain-text data tracking
-||||||| 502f063
 ***.xlxs* file is a Excel format spreadsheet software. It is widely use to create tables and grids of numbers and formulas that specify calculations, inventory tracking, accounting and more
 
 **** Plain-text data tracking
-=======
-***.xlxs* file is a Excel format spreadsheet software. It is widely use to create tables and grids of numbers and formulas that specify calculations, inventory tracking, accounting and more
-**** Plain-text data tracking
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 - Note taken on [2024-09-13 Fri 02:42] \\
   Most plain text accounting implementations use signed amounts instead of ~debits~ and ~credits~. This makes them "double entry light" , but it has been a rather successful simplification.
-  
+
 The plain text storage format is open, human-readable, future-proof, scales smoothly with complex needs and taps a huge ecosystem of highly useful tooling such as version control systems. Ans despite the name, there's no reason these tools can't support other kinds of storage, such as database
-<<<<<<< HEAD
-
-**** What is plain text accounting (PTA)
-
-||||||| 502f063
 
 ***** What is plain text accounting (PTA)
 
-=======
-***** What is plain text accounting (PTA)
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 Tracking of flows of valuable commodities, such as money or time. It clarifies activity, priorities, obligations, opportunities, It can reduce stress and even be enjoyable
-<<<<<<< HEAD
-
-**** Characteristics of Plain Text Accounting
-
-||||||| 502f063
 
 ***** Characteristics of Plain Text Accounting
 
-=======
-***** Characteristics of Plain Text Accounting
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 Accounting data id valuable; we want to know that it will be accessible for ever -even without software. We want to search and manipulate it efficiently so we store it as human-readable ~plain text~ 
 
 - Simplify debits and credits by using *signed numbers* - ~positive for inflows to an accout. negative outflows from an account~
-  
+
 - Arbitrary ~account hierachy~ to suit our needs. This scales smoothly from simple to complex scenarios, and from high-level overview to fine detail 
-<<<<<<< HEAD
-  
-**** Advantages over spreadsheets
-
-||||||| 502f063
 
 ***** Advantages over spreadsheets
 
-=======
-***** Advantages over spreadsheets
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 - Recording complex transactions(double entry, arbitrary splits) is harder in spreadsheets
 - ~Spreadsheets~ are so flexible that each one is unique, common community-wide format
 - The usual advantages of plain text mentioned above (longevity, readability, version control, etc)
-<<<<<<< HEAD
-  
-**** Some Alternatives
-
-||||||| 502f063
 
 ***** Some Alternatives
 
-=======
-***** Some Alternatives
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 Traditional GUI-centric accounting software:
 - Free/open-sources: GNUCash, Grisbi, KMyMoney
 - Online/Cloud-based accounting software: Xero, FreeAgent
-<<<<<<< HEAD
-  
-*** Ledger data format
-
-||||||| 502f063
 
 **** Ledger data format
 
-=======
-**** Ledger data format
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 - *Goal(s):* Create simple personal ledger to manage flows i/o 
-<<<<<<< HEAD
-  
-*** PENDING Accounting Basics
-||||||| 502f063
 
 **** PENDING Accounting Basics
-=======
-**** PENDING Accounting Basics
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 :PROPERTIES:
 :CUSTOM_ID: accounting_basics
 :END:
+
 Accounting basics and further study
-<<<<<<< HEAD
-
-**** Debits and Credits
-
-||||||| 502f063
 
 ***** Debits and Credits
 
-=======
-***** Debits and Credits
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 ~Double-entry bookkeeping~ traditionally names movements of money as *debits* or *credits*. As an error-checking mechanism, the debits must exactly balance the credits, both within each individual transaction and over all transactions
-<<<<<<< HEAD
-
-**** Signed Numbers
-
-||||||| 502f063
 
 ***** Signed Numbers
 
-=======
-***** Signed Numbers
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 ~(+)~ and ~(-)~ integers instead of debit and credit labels. This is essentially the same system. 
 
 - ~(+)~ integers are debits
 - ~(-)~ integers are credits
-  
+
 And within each transaction the sum of amounts must be zero
 
 /As a consequence PTA tools, its common for reports to show equity, liability, and revenue balances as negative numbers/
-<<<<<<< HEAD
-
-**** Assets, Liabilities and Equity
-
-||||||| 502f063
 
 ***** Assets, Liabilities and Equity
 
-=======
-***** Assets, Liabilities and Equity
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 Accounting describes the status of a business, person or other entity at any point in time in terms of three amounts
 
 - *Assets* - Things owned
 - *Liabilities* - Things owed
 - *Equity* - The amount invested by owners/shareholders
-  
+
 The foundation of double-entry accounting is the ~accouting equation~, which says Equity is always equal to Assets minus Liabilities (or, Net Assets)
 
 or *Assets* = *Liabilities* + *Equity*
 
 These three are called the ~Balance Sheet accounts~. Their balances summarise the overall financial status at some point in time
-<<<<<<< HEAD
-
-**** Revenue and Expenses
-
-||||||| 502f063
 
 ***** Revenue and Expenses
 
-=======
-***** Revenue and Expenses
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 Two more amounts are used to describe changes in the above during a given period:
 
 - *Revenue* - Money flowing in
 - *Expenses* - Money flowing out
-  
+
 /In come is sometimes used to mean Net income, which is Revenue - Expenses/
 
 These two are called ~Income Statement accounts~. The balances they accumulate during some period of time indicate the inflows and outflows during that period (which will affect the Assets and Liabilities balances)
-<<<<<<< HEAD
-
-**** Chart of Accounts
-
-||||||| 502f063
 
 ***** Chart of Accounts
 
-=======
-***** Chart of Accounts
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 Five numbers do not give 
-<<<<<<< HEAD
-
-*** PENDING Double-entry accounting
-
-**** Resources
-
-||||||| 502f063
 
 **** PENDING Double-entry accounting
 
 ***** Resources
 
-=======
-**** PENDING Double-entry accounting
-***** Resources
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 Visit:* [[http://furius.ca/beancount/doc/double-entry][The Double-Entry Counting Method]]
 Visit:* [[https://youtube.com/watch?v=EibibVFEkvk][youtube@The Finance Story Teller]]
-<<<<<<< HEAD
-
-**** Terminology
-
-||||||| 502f063
 
 ***** Terminology
 
-=======
-***** Terminology
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 Detail can be found in [[#accounting_basics]]
 
 Double-entry bookkeeping is the standard method for keeping accounting records reliable. Fore every movement of value(a transaction), both the source and destination are recorded
@@ -872,16 +454,9 @@ Double-entry bookkeeping is the standard method for keeping accounting records r
 Value at any point in time is tracked in various ~accounts~, classified as ~asset~ (owned), ~liability~ (owed) or ~equity~ (invested). Two more classifications track changes during some period: ~revenues~ (inflows) and ~expenses~ (outflows) 
 
 Transactions consists of ~debits~ (increase to asset or expense accounts or decrease to liability or equity accounts)
-<<<<<<< HEAD
-
-**** Introduction
-
-||||||| 502f063
 
 ***** Introduction
 
-=======
-***** Introduction
->>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 General rule: /The sum of ~Debit~ entries is equal to the sum of ~Credit~ entries/
 file:finance/assets/DEA1.jpg
+

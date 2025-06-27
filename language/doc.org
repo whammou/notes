@@ -2,19 +2,12 @@
 #+DESCRIPTION: Description for archive here
 
 * Archives :LANGUAGE:
-
 - /Allocated space for archives/
-
 ** Documents :DOC:
-
 - /Language learning documents/
-
 *** Learning German :GERMAN:
-
 - /Notebook on planning and learning German/
-
 **** Introduction
-
 /German and English belong to the same family of languages/
 
 German is not difficult to pronounce and spel
@@ -39,17 +32,10 @@ The German word for the definite article "the" is very intriguing. The English w
 *d.* German verbs have endings which correspond to the subject pronoune
 
 file:language/assets/verb_form.png
-
 **** Grammar
-
 - *Goal(s):* Learn German grammar
-
 **** PENDING Speaking practice environment
-
 - *Goal:* create speaking environment via either irl or discord(schedule events if necessary)
-
 **** Resources
-
 - *Book:*  [[https://libgen.li/edition.php?id=138543351][Auf geht's! beginning German language and culture 4th]] [[https://www.fluentu.com/blog/german/best-books-to-learn-german/][book-lists]]
 - *Reddit:*  [[https://www.reddit.com/r/German/comments/xtvvqd/best_german_self_study_books/][self-study]] [[https://www.reddit.com/r/German/comments/4b1ft7/best_resource_for_learning_german_free/][self-study resource]]
-

@@ -29,7 +29,7 @@ Allocated space for tasks/todos
 ***** Learn Orgroam UID system
 - *OBJECTIVE:* Learn about orgroam uid and filename
 **** TODO Implement Zettelkasten-Orgroam ID system :ORGROAM:
-DEADLINE: <2025-06-26 Thu 20:00>
+ DEADLINE: <2025-06-27 Fri>
 :PROPERTIES:
 :ID: f1360cc5-099f-457d-a2cf-45e4ccedd4e6
 :END:

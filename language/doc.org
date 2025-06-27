@@ -2,28 +2,19 @@
 #+DESCRIPTION: Description for archive here
 
 * Documents :DOC:LANGUAGE:
-
 - /Language learning documents/
 <<<<<<< HEAD
-  
 ** Learning German :GERMAN:
-
 ||||||| 502f063
-
 *** Learning German :GERMAN:
-
 =======
 *** Learning German :GERMAN:
 >>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 - /Notebook on planning and learning German/
 <<<<<<< HEAD
-  
 *** Introduction
-
 ||||||| 502f063
-
 **** Introduction
-
 =======
 **** Introduction
 >>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
@@ -52,37 +43,25 @@ d.* German verbs have endings which correspond to the subject pronoune
 
 file:language/assets/verb_form.png
 <<<<<<< HEAD
-
 *** Grammar
-
 ||||||| 502f063
-
 **** Grammar
-
 =======
 **** Grammar
 >>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 - *Goal(s):* Learn German grammar
 <<<<<<< HEAD
-  
 *** PENDING Speaking practice environment
-
 ||||||| 502f063
-
 **** PENDING Speaking practice environment
-
 =======
 **** PENDING Speaking practice environment
 >>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 - *Goal:* create speaking environment via either irl or discord(schedule events if necessary)
 <<<<<<< HEAD
-  
 *** Resources
-
 ||||||| 502f063
-
 **** Resources
-
 =======
 **** Resources
 >>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547

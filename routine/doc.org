@@ -16,6 +16,7 @@ Documenting exercises and planning workout schedule
 **** Overcome Gravity - Steven Low :BOOK:
 Visit [[/server/archive/calisthenics/Class,\ Health\ -\ Bodyweight\ Training_\ The\ Scientific\ Approach\ to\ Calisthenics\ Workout_\ The\ Easiest\ Way\ to\ Overcome\ Gravity\ and\ be\ Leaner,\ Bigger\ and\ Stronger.pdf]]
 **** Youtube
+nvim ~/notes/capture.org
 - *Channel:*
   1. [[https://youtube.com/channel/UCeJFgNahi--FKs0oJyeRDEw][Hybridcalisthenics.youtube]]
   2. [[https://www.youtube.com/@OFFICIALTHENXSTUDIOS][THENXstudio@youtube]]

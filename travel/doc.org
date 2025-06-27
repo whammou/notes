@@ -1,4 +1,5 @@
 #+TITLE: Travel Archive
 #+DESCRIPTION: Description for archive here
+<<<<<<< HEAD
 
 * Documents :DOC:TRAVEL:

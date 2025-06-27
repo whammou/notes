@@ -31,7 +31,7 @@ Allocated space for tasks/todos
 **** TODO Implement Zettelkasten-Orgroam ID system :ORGROAM:
  DEADLINE: <2025-06-27 Fri>
 :PROPERTIES:
-:ID: f1360cc5-099f-457d-a2cf-45e4ccedd4e6
+:ID:       f1360cc5-099f-457d-a2cf-45e4ccedd4e6
 :END:
 - *OBJECTIVE:* Implement an [[id:9f057f7e-6a65-448a-b19d-784ecb100a46][UID System]] that works with zettelkasten vault and orgroam
 - *Reference:* [[https://forum.zettelkasten.de/discussion/2433/id-for-notes-time-stamp-id-is-useless][ID system discussion @Forum-zettelkasten]]

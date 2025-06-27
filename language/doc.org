@@ -4,13 +4,29 @@
 * Documents :DOC:LANGUAGE:
 
 - /Language learning documents/
+<<<<<<< HEAD
   
 ** Learning German :GERMAN:
 
+||||||| 502f063
+
+*** Learning German :GERMAN:
+
+=======
+*** Learning German :GERMAN:
+>>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 - /Notebook on planning and learning German/
+<<<<<<< HEAD
   
 *** Introduction
 
+||||||| 502f063
+
+**** Introduction
+
+=======
+**** Introduction
+>>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 /German and English belong to the same family of languages/
 
 German is not difficult to pronounce and spel
@@ -35,17 +51,46 @@ c.* German nouns do not form their plurals by adding *-s* or *-es* as is the cas
 d.* German verbs have endings which correspond to the subject pronoune
 
 file:language/assets/verb_form.png
+<<<<<<< HEAD
 
 *** Grammar
 
+||||||| 502f063
+
+**** Grammar
+
+=======
+**** Grammar
+>>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 - *Goal(s):* Learn German grammar
+<<<<<<< HEAD
   
 *** PENDING Speaking practice environment
 
+||||||| 502f063
+
+**** PENDING Speaking practice environment
+
+=======
+**** PENDING Speaking practice environment
+>>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 - *Goal:* create speaking environment via either irl or discord(schedule events if necessary)
+<<<<<<< HEAD
   
 *** Resources
 
+||||||| 502f063
+
+**** Resources
+
+=======
+**** Resources
+>>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547
 - *Book:*  [[https://libgen.li/edition.php?id=138543351][Auf geht's! beginning German language and culture 4th]] [[https://www.fluentu.com/blog/german/best-books-to-learn-german/][book-lists]]
 - *Reddit:*  [[https://www.reddit.com/r/German/comments/xtvvqd/best_german_self_study_books/][self-study]] [[https://www.reddit.com/r/German/comments/4b1ft7/best_resource_for_learning_german_free/][self-study resource]]
+<<<<<<< HEAD
   
+||||||| 502f063
+
+=======
+>>>>>>> origin/merge-university/doc.org-06cfab3-2025-06-27_154547

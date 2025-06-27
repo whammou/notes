@@ -73,10 +73,10 @@ Allocated space for archives
 :END:
 - *OBJECTIVE:* Different naming convention pros and cons
 - *[NOTE]* taken on [2025-06-28 00:11]:
-  Different naming convention has different pros and cons. Mixing and matching between conventions is recommended to create a suitable workflow
+  - Different naming convention has different pros and cons. Mixing and matching between conventions is recommended to create a suitable workflow
     - Timestamp (YYMMDDTTTT)
     - Numeric (1, 1.1, 1.2)
-    - Alphanumeric (1a, 1a1, 1b)
+    - Alphanumeric (1a, 1a1, 1b) - Luhmaan's prefer [[id:0ce0544c-320b-4aef-9bad-14564ee61474][method]]
     - Semantic (physics, math)
 - *Reference:* [[https://www.youtube.com/watch?v=92EEEsptqfI#__preview][Don't over think Adress format @Youtube]]
 *** Zettelkasten note search and access

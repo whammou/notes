@@ -172,7 +172,7 @@ CLOSED: [2025-06-08 Sun 05:17] DEADLINE: <2025-06-08 Sun>
 - *OBJECTIVE:* Implemment =ZK system= using =orgroam= framwork
 **** Zettelkasten vault
 :PROPERTIES:
-:ID: e1fba411-956b-4add-b9d9-8882888d76c9
+:ID:       e1fba411-956b-4add-b9d9-8882888d76c9
 :END:
 - *OBJECTIVE:* Create a Zettelkasten vault inside a [[id:5ee85686-4255-4634-afbc-c364fa16a025][PARA system]]
 - *[NOTE]* taken on [2025-06-26 05:26]:
@@ -183,12 +183,12 @@ CLOSED: [2025-06-08 Sun 05:17] DEADLINE: <2025-06-08 Sun>
   - Problems facing when implement both systems:
 ***** The ID of each notes
 :PROPERTIES:
-:ID: cbd65a94-ed43-4a7f-8e27-7a9aa35cf9cd
+:ID:       cbd65a94-ed43-4a7f-8e27-7a9aa35cf9cd
 :END:
 - *OBJECTIVE:* How to implement [[id:0ce0544c-320b-4aef-9bad-14564ee61474][ID system of a zettelkastem]]
 **** ZK-Orgroam UID System
 :PROPERTIES:
-:ID: 9f057f7e-6a65-448a-b19d-784ecb100a46
+:ID:       9f057f7e-6a65-448a-b19d-784ecb100a46
 :END:
 - *OBJECTIVE:* Implement the ID system to the [[id:e1fba411-956b-4add-b9d9-8882888d76c9][Zettelkasten vault]]
 - *[NOTE]* taken on [2025-06-26 17:12]:

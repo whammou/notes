@@ -8,7 +8,7 @@ Allocated space for tasks/todos
 *** PENDING Create qtile widget :QTILE:
 - *OBJECTIVE:* Create a custom qtile widget
 - *Reference:* [[https://docs.qtile.org/en/latest/manual/howto/widget.html][Create a qtile widget @Doc-qtile]]
-*** DOING Orgroam zettelkasten :ZETTELKASTEN:
+*** DOING Implement Zettelkasten in Orgroam :ZETTELKASTEN:ORGROAM:
 :PROPERTIES:
 :ID:       1e76b464-a6af-40b5-98a5-40d7e4ab3c84
 :END:
@@ -17,7 +17,7 @@ Allocated space for tasks/todos
   - [[https://www.youtube.com/watch?v=-TpWahIzueg#__preview][Orgroam zettelkasten @Youtube]]
   - [[https://yannherklotz.com/zettelkasten/][Zettelkasten in orgmode @Blog]]
   - [[https://www.youtube.com/embed/-TpWahIzueg?start=49m16s#__preview][Apply zettelkasten correctly in orgroam @Youtube]]
-**** DOING Orgroam extension :ORGROAM:
+**** DOING Orgroam extension
 :PROPERTIES:
 :ID:       ca2cbb16-4d86-419e-a1f6-9a48640ce323
 :END:
@@ -28,8 +28,8 @@ Allocated space for tasks/todos
   - [[https://l.opnxng.com/r/emacs/comments/u10j69/org_mode_how_do_you_keep_your_daily_agenda_to_a/][How do you keep your daily agenda @Reddit]]
 ***** TODO Learn Orgroam UID system
 - *OBJECTIVE:* Learn about orgroam uid and filename
-**** TODO Implement Zettelkasten-Orgroam ID system :ORGROAM:
- DEADLINE: <2025-06-27 Fri>
+**** TODO Implement Zettelkasten-Orgroam ID system
+ DEADLINE: <2025-06-29 Sun>
 :PROPERTIES:
 :ID:       f1360cc5-099f-457d-a2cf-45e4ccedd4e6
 :END:

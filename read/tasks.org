@@ -19,7 +19,7 @@ Allocated space for tasks/todos
 **** DONE Learn PARA system :PARA:
 CLOSED: [2025-06-21 Sat 13:23] DEADLINE: <2025-06-21 Sat 20:00>
 :PROPERTIES:
-:ID: 5ee85686-4255-4634-afbc-c364fa16a025
+:ID:       5ee85686-4255-4634-afbc-c364fa16a025
 :END:
 - *OBJECTIVE:* Learn para system and compare it to current workflow
 - *[NOTE]* taken on [2025-06-21 13:26]:
@@ -77,7 +77,6 @@ CLOSED: [2025-06-21 Sat 15:15]
   - [[https://forum.zettelkasten.de/][Zettelkasten forum @Forum]]
   - [[https://zk.zettel.page/][Public wiki for the Zettelkasten method @Blog]]
   - [[https://publish.obsidian.md/myquantumwell/Welcome+to+The+Quantum+Well!][Zettelkasten example: Quantum Well @Obsidian]]
-
 *** TODO Research prompt engineering :RESEARCH:AI:
 - *Goal:* /Learn to create prompts/
 - *References:* [[https://l.opnxng.com/r/PromptEngineering/comments/1kggmh0/google_dropped_a_68page_prompt_engineering_guide/][Google 68-page prompt engineering guide @Reddit]]

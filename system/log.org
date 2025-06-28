@@ -653,3 +653,28 @@ CLOSED: [2025-06-03 Tue 11:59] DEADLINE: <2025-06-03 Tue>
   - [[https://i.imgur.com/ujOHTu4.png][Onedark  @Imgur]]
   - [[https://hdqwalls.com/one-dark-cubes-4k-wallpaper][Onedark cube @Reddit]]
   - [[https://github.com/Narmis-E/onedark-wallpapers?tab=readme-ov-file][Onedark collection @Github]]
+** DONE Icon packs :LINUX:
+CLOSED: [2025-05-27 Tue 05:15] DEADLINE: <2025-05-25 Sun 14:00>
+:PROPERTIES:
+:ID:       45d7010b-dd20-44c8-a271-51ac24ba840e
+:END:
+- *Objective:* /Update system icons for ~notifications~ and ~systray~/
+- *References:*
+  - [[https://l.opnxng.com/r/linuxmint/comments/pcmpwh/cool_icon_packs/][Icon packs suggestions @Reddit]]
+  - [[https://github.com/gusbemacbe/suru-plus-aspromauros][Suru-plus icon pack @Github]]
+** DONE Migrate orgmode options to config :ORGMODE:
+CLOSED: [2025-06-15 Sun 15:27]
+- *Objective:* /Migrate settings to/ [[file:~/.config/nvim/lua/config/orgmode.lua][config.lua]]
+** DONE Clean-up capture :HOUSEKEEPING:
+CLOSED: [2025-05-24 Sat 21:11] DEADLINE: <2025-05-24 Sat 01:15>
+- *Objective:* /Clean up/ [[file:../capture.org][capture.org]]
+** DONE Connect to Samba drive :LINUX:
+CLOSED: [2025-03-25 Tue 06:45] DEADLINE: <2025-03-24 Mon 17:00>
+- /Create keybinds to connect to ~sambashare~/
+  
+- [x] Remove aliases
+- [x] Update [[file:/usr/local/bin/smb-mount][smb-mount]]
+- [ ] Add ~qtile~ [[file:~/.config/qtile/settings/key/spawn.py][keybinds]]
+** DONE Learn nvim-orgmode_capture :NVIM:
+CLOSED: [2025-05-23 Fri 01:43]
+- *Objective:* learn ~org_capture_template~ at [[https://github.com/nvim-orgmode/orgmode/blob/master/docs/configuration.org#org_capture_templates][nvim-orgmode-configuration]]

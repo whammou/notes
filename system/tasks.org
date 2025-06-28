@@ -4,9 +4,6 @@
 * Tasks :SYSTEM:TASK:
 Allocated space for tasks/todos
 ** One-off :ONEOFF:
-*** DONE Learn nvim-orgmode_capture :NVIM:
-CLOSED: [2025-05-23 Fri 01:43]
-- *Objective:* learn ~org_capture_template~ at [[https://github.com/nvim-orgmode/orgmode/blob/master/docs/configuration.org#org_capture_templates][nvim-orgmode-configuration]]
 *** ABORTED Orgzly nerdfont :ORGMODE:
 CLOSED: [2025-03-25 Tue 09:16] DEADLINE: <2025-03-25 Tue 21:00>
 :PROPERTIES:
@@ -18,13 +15,6 @@ CLOSED: [2025-03-25 Tue 09:16] DEADLINE: <2025-03-25 Tue 21:00>
 *** TODO Qtile ssh-tmux method :LINUX:
 - /Add ssh-tmux keybind to qtile/
 - *File:* [[file:~/.config/qtile/settings/key/spawn.py][qtile-config]]
-*** DONE Connect to Samba drive :LINUX:
-CLOSED: [2025-03-25 Tue 06:45] DEADLINE: <2025-03-24 Mon 17:00>
-- /Create keybinds to connect to ~sambashare~/
-
-- [x] Remove aliases
-- [x] Update [[file:/usr/local/bin/smb-mount][smb-mount]]
-- [ ] Add ~qtile~ [[file:~/.config/qtile/settings/key/spawn.py][keybinds]]
 *** TODO Notification through ssh :LINUX:
 - /Pipe notification socket through ssh/
 *** ABORTED Openai API :SYSTEM:
@@ -36,9 +26,6 @@ CLOSED: [2025-03-22 Sat 06:17] DEADLINE: <2025-03-22 Sat 22:00>
 *** DOING Backup systemd services :SYSTEMD:
 - *Objective:* /Backup systemd across systems/
 - *Reference:* [[https://www.reddit.com/r/linuxquestions/comments/18hep9r/how_to_back_up_export_import_the_usercreated/][Auto backing up systemd services @Reddit]]
-*** DONE Clean-up capture :HOUSEKEEPING:
-CLOSED: [2025-05-24 Sat 21:11] DEADLINE: <2025-05-24 Sat 01:15>
-- *Objective:* /Clean up/ [[file:../capture.org][capture.org]]
 *** PENDING Plain text music playlist :LINUX:
 ***Objective:* Plain text music playlist that works with ~ytfzf~ and ~new pipe~
 *** TODO Search more efficiently :LINUX:
@@ -75,24 +62,12 @@ CLOSED: [2025-05-12 Mon 09:04]
 :ID:       8546e69f-f9ab-46d7-b9fc-13356175edbf
 :END:
 - *Objective:* /Create multiple magic-tape sessions using git/
-*** DONE Migrate orgmode options to config :ORGMODE:
-CLOSED: [2025-06-15 Sun 15:27]
-- *Objective:* /Migrate settings to/ [[file:~/.config/nvim/lua/config/orgmode.lua][config.lua]]
-*** DONE Icon packs :LINUX:
-CLOSED: [2025-05-27 Tue 05:15] DEADLINE: <2025-05-25 Sun 14:00>
-:PROPERTIES:
-:ID:       45d7010b-dd20-44c8-a271-51ac24ba840e
-:END:
-- *Objective:* /Update system icons for ~notifications~ and ~systray~/
-- *References:*
-  - [[https://l.opnxng.com/r/linuxmint/comments/pcmpwh/cool_icon_packs/][Icon packs suggestions @Reddit]]
-  - [[https://github.com/gusbemacbe/suru-plus-aspromauros][Suru-plus icon pack @Github]]
 *** DOING [#B] Update repo hierarchy :ORGMODE:
 - *Objective:* /Adding new hierarchy to this repo/
   - [ ] Adding ~TASK~ tag (including all type of tasks)
   - [ ] Adding ~LIB~ and remove ~Archives~ headline
   - [ ] Create new template
-*** Re-write smb-mount command
+*** TODO Re-write smb-mount command
 - *Objective:* /Re-write smb-mount command to quickly toggle server on/off/
 - *File:* [[file:~/dotfiles/scripts/smb-mount][smb-mount]]
 *** ABORTED DNS speed test :DNS:
@@ -102,7 +77,7 @@ CLOSED: [2025-06-24 Tue 22:51]
 :END:
 - *Objective:* /Benchmark DNS look up speed/
 - *Reference:* []
-*** Json database :JSON:
+*** PENDING Json database :JSON:
 :PROPERTIES:
 :ID:       27fdd8c2-5435-466b-9856-407ade06d893
 :END:
@@ -126,8 +101,8 @@ CLOSED: [2025-05-24 Sat 01:19]
 - *Reference:*
   - [[https://l.opnxng.com/r/linux4noobs/comments/148dko9/looking_for_remote_software_for_linux_laptop_to/][Remote software for linux desktop @Reddit]]
   - [[https://www.youtube.com/watch?v=EXL8mMUXs88#__preview][Remote desktops foss @Youtube-preview]]
-*** TODO Config system notification :NOTIFICATION:
-DEADLINE: <2025-06-27 Fri>
+*** DONE Config system notification :NOTIFICATION:
+DEADLINE: <2025-06-28 Sat> CLOSED: [2025-06-28 Sat 22:43]
 - *OBJECTIVE:* /Config system notifications with dunst/
   - *Run:* =man dunst=
   - *File:* [[file:=/.config/dunst/dunstrc][dunst config @Confini]]
@@ -173,6 +148,10 @@ CLOSED: [2025-06-04 Wed 09:07]
 - *Reference:*
   - [[https://github.com/LizardByte/Sunshine][Sunshine and Moonlight @Github]]
   - [[https://github.com/FreeRDP/Remmina][Remmina RDP @Github]]
+*** TODO Redirect URL :QUTEBROWSER:
+- *OBJECTIVE:* /Redirect URL via user-scripts/
+  - *Visit:* [[https://l.opnxng.com/r/qutebrowser/comments/mvd89k/is_there_a_way_to_implement_redirect_links_in/][Redirect URL @ Reddit]]
+  - *Visit:* [[https://github.com/gicrisf/swapforqute][Redirect URL script @ Github]]
 ** Incidental :INCIDENTAL:
 *** PENDING Termux ssh :LINUX:TERMUX:
 - *Objective:* ssh to the server via Termux

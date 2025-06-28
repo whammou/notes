@@ -1,7 +1,7 @@
 #+TITLE: Read Tasks
 #+DESCRIPTION: Add notebook description here
 
-* Tasks :READ:
+* Tasks :TASK:READ:
 Allocated space for tasks/todos
 ** One-off :ONEOFF:
 *** TODO Watch podcast on procrastination
@@ -60,8 +60,8 @@ CLOSED: [2025-06-21 Sat 15:15]
 *** Take a look at Quantum Well
 - *OBJECTIVE:* Learn about this interesting topic on PKM in mathematics/physics field
 - *Reference:* [[https://publish.obsidian.md/myquantumwell/Welcome+to+The+Quantum+Well!][Quantum well example @Blog-obsidian]]
-*** DONE Learn zettelkasten system :ZETTELKASTEN:
-CLOSED: [2025-06-23 Mon 22:51] DEADLINE: <2025-06-23 Mon>
+*** TODO Learn zettelkasten system :ZETTELKASTEN:
+ DEADLINE: <2025-06-28 Sat>
 :PROPERTIES:
 :ID:       ad309d55-fe5c-4d83-9a8c-42106cadce43
 :END:
@@ -69,11 +69,13 @@ CLOSED: [2025-06-23 Mon 22:51] DEADLINE: <2025-06-23 Mon>
 - *Complication:* How to access information in zettelkasten
 - *Reference:*
   - [[https://www.youtube.com/watch?v=Q2zY7l2tzoQ#__preview][zettelkasten system explain @Youtube]]
-  - [[https://github.com/KasperZutterman/Second-Brain][A curated list public zettelkasten @Github]]
   - [[https://github.com/rhelmstedter/Zettelkasten/blob/main/zettel/202101241731.md][zettelkasten example repo @Github]]
   - [[https://m.opnxng.com/@fairylights_io/the-zettelkasten-method-examples-to-help-you-get-started-8f8a44fa9ae6][Getting started with zettelkasten @Blog]]
   - [[https://thoughtfulatlas.substack.com/p/a-new-identifier-system-for-zettelkasten][New identifier for zettelkasten @Blog]]
+- *Resource:*
+  - [[https://github.com/KasperZutterman/Second-Brain][A curated list public zettelkasten @Github]]
   - [[https://forum.zettelkasten.de/][Zettelkasten forum @Forum]]
+  - [[https://zk.zettel.page/][Public wiki for the Zettelkasten method @Blog]]
   - [[https://publish.obsidian.md/myquantumwell/Welcome+to+The+Quantum+Well!][Zettelkasten example: Quantum Well @Obsidian]]
 
 *** TODO Research prompt engineering :RESEARCH:AI:

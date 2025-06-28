@@ -3,7 +3,7 @@
 
 * Documents :DOC:READ:
 Allocated space for archives
-** The Zettelkasten system :PKM:ZETTELKASTEN:
+** The Zettelkasten Notetaking System :PKM:ZETTELKASTEN:
 :PROPERTIES:
 :ID:       705d42e4-c980-4d53-ad38-029f28d503dc
 :END:
@@ -90,6 +90,7 @@ Allocated space for archives
 :END:
 - *[NOTE]* taken on [2025-06-28 01:08]:
   - Each note in the ZK system contain a unique address using the [[id:0ce0544c-320b-4aef-9bad-14564ee61474][ID system]]
+  - Address use alphanumeric [[id:f78fe37b-4ff7-4a73-86e9-16ccf28a4888][Naming convention]] to provide context for current note
 **** Index Note
 :PROPERTIES:
 :ID:       6fcda433-18fc-4ec8-b059-eb48bf168d84

@@ -69,7 +69,7 @@ Allocated space for archives
 - *Reference:* [[https://zettelkasten.de/introduction/#the-fixed-address-of-each-note][The fixed address of each note @Zettlekasten.de]]
 **** Naming convention
 :PROPERTIES:
-:ID: f78fe37b-4ff7-4a73-86e9-16ccf28a4888
+:ID:       f78fe37b-4ff7-4a73-86e9-16ccf28a4888
 :END:
 - *OBJECTIVE:* Different naming convention pros and cons
 - *[NOTE]* taken on [2025-06-28 00:11]:

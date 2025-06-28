@@ -6,7 +6,7 @@
 - /System archives/
 ** Documents :DOC:
 /Documents archives/
-*** PARTIAL Qutebrowser configuration [80%] :QUTEBROWSER:
+*** PARTIAL Qutebrowser configuration [77%] :QUTEBROWSER:
 CLOSED: [2025-06-10 Tue 01:04]
 - *OBJECTIVE:* implement text to speech to qutebrowser
   - *Visit:* [[https://redlib.seasi.dev/r/qutebrowser/comments/w4pv2v/configpy_ideas/][Qutebrowser tts config idea @ Reddit]]
@@ -65,11 +65,6 @@ CLOSED: [2025-05-21 Wed 23:28]
       - *Solution:* [[https://github.com/qtile/qtile/issues/2433][Implement using python script for bash @Github-issue]]
   - [X] Create alias
   - [X] Crreate keybinds
-**** ABORTED Redirect URL
-CLOSED: [2025-05-07 Wed 23:34]
-- *OBJECTIVE:* /Redirect URL via user-scripts/
-  - *Visit:* [[https://l.opnxng.com/r/qutebrowser/comments/mvd89k/is_there_a_way_to_implement_redirect_links_in/][Redirect URL @ Reddit]]
-  - *Visit:* [[https://github.com/gicrisf/swapforqute][Redirect URL script @ Github]]
 **** DONE Hardware Acceleration
 CLOSED: [2025-04-18 Fri 14:16] DEADLINE: <2025-04-16 Wed 16:00>
 - *OBJECTIVE:* /Enable hardware acceleration/
@@ -95,7 +90,7 @@ CLOSED: [2025-05-30 Fri 06:06]
     - [[qute://help/settings.html#bindings.commands][Settings references @Qutebrowser-doc]]
     - [[qute://help/configuring.html][Keybinds and configuring @Qutebrowser-doc]]
 **** DONE Qutebrowser modular configs
-CLOSED: [2025-06-06 Fri 05:12]
+CLOSED: [2025-06-28 Sat 22:38]
 - *Objective:* /Re-write qutebrowser and make it modular/
   - *File:* [[file:~/.config/qutebrowser/][config @Directory]]
   - *Checkout:* [[https://github.com/whammou/dotfiles/commit/8f1d1a0c68f3c7f3de95d91896047db420495bfa][Modularize qutebrowser config @Commit]]
@@ -181,11 +176,6 @@ CLOSED: [2025-06-08 Sun 05:17] DEADLINE: <2025-06-08 Sun>
     - PARA system allows information to be stored in a structured way that is easy in intuitive to access
     - Both system have pros and cons. Im plementing PARA on top of zettelkasten allow information to accessed and stored with ease
   - Problems facing when implement both systems:
-***** The ID of each notes
-:PROPERTIES:
-:ID: cbd65a94-ed43-4a7f-8e27-7a9aa35cf9cd
-:END:
-- *OBJECTIVE:* How to implement [[id:0ce0544c-320b-4aef-9bad-14564ee61474][ID system of a zettelkastem]]
 **** ZK-Orgroam UID System
 :PROPERTIES:
 :ID: 9f057f7e-6a65-448a-b19d-784ecb100a46

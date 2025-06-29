@@ -16,7 +16,7 @@ CLOSED: [2025-06-19 Thu 02:07]
   - This is inline math block: $\omega_{av} = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}$
     
 #+begin_latex latex
-$$\omega_av = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}$$
+\omega_av = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}
 #+end_latex
 
 #$$\omega_av = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}$$

@@ -72,3 +72,5 @@ CLOSED: [2025-05-28 Wed 04:03]
 - *Reference:*
   - [[https://m.opnxng.com/@akulahemanth/pythons-contextlib-suppress-a-clean-way-to-handle-exceptions-db7439e32025][Clean way to handle error exception @Blog]]
   - [[https://l.opnxng.com/r/learnpython/comments/stfbow/how_to_tell_python_to_ignore_list_out_of_index/][Ignore list out of index @Reddit]]
+* TODO Testing image render :ORGMODE:ORGZlY:GITHUB:
+- *OBJECTIVE:* Find an image syntax that works on both github and orgzly

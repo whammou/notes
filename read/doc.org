@@ -176,19 +176,19 @@ Allocated space for archives
 :END:
 - *[NOTE]* taken on [2025-06-30 01:18]:
   - Index note represents a cluster of related permanent notes
-    #+begin_html name
+    #+begin_html html
     <p align='left'>
     <IMG src='https://cdn-images-1.medium.com/fit/c/696/364/1*4U_9xI1ypiWvE99axi_PWA.png' alt='stratigies' width=50%/>
     </p>
     #+end_html
-    #+begin_html
+    #+begin_html html
     <p align='left'>
     <IMG src='https://cdn-images-1.medium.com/fit/c/684/720/1*XJSwHMagGJMghg8qTvVhaw.png' alt='concepts' width=50%/>
     </p>
     #+end_html
   - Keyword note is similar to an index note except at a more general level
     - Represent in a form of a TOC
-      #+begin_html
+      #+begin_html html
       <p align='left'>
       <IMG src='https://cdn-images-1.medium.com/fit/c/710/426/1*IAs1IKT--tQj9jLeFcVTKQ.png' alt='keyword note' width=50%/>
       </p>

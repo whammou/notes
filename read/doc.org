@@ -104,16 +104,6 @@ Allocated space for archives
 *[NOTE]* taken on [2025-06-28 01:11]:
   - Index note or [[id:fe01f997-0aef-4081-9b5b-33e20019f9d0][Hub Note]] is a note contains the important address of a notes threat or a cluster
   - Its not recommended to include every notes in the index note, only the address of a topic
-** Subjects on procrastination :PSYCHOLOGY:
-:PROPERTIES:
-:ID:       dab253c3-d227-4471-8eda-41f63f36563c
-:END:
-- *OBJECTIVE:* Learn about procrastination and how to defuse it
-*** Do the next best thing
-- *OBJECTIVE:* Techniqute to defuse to procastination
-- *Reference:* [[https://www.youtube.com/embed/VBifDZwPiI4?start=8m20s#__preview][What is procrastination and how to defuse it @Youtube]]
-** Failure to launch (Hikimori) :PSYCHOLOGY:
-/A closer look at failure to launch in life/
 ** Zettelkasten Workflow :PKM:ZETTELKASTEN:
 :PROPERTIES:
 :ID: 1e3cf208-3bec-4d2f-bcb0-a61fdcbfb355
@@ -186,7 +176,7 @@ Allocated space for archives
 :END:
 - *[NOTE]* taken on [2025-06-30 01:18]:
   - Index note represents a cluster of related permanent notes
-    #+begin_html
+    #+begin_html name
     <p align='left'>
     <IMG src='https://cdn-images-1.medium.com/fit/c/696/364/1*4U_9xI1ypiWvE99axi_PWA.png' alt='stratigies' width=50%/>
     </p>
@@ -209,3 +199,13 @@ Allocated space for archives
 :END:
 - *OBJECTIVE:* How to search and access notes in a Zettelkasten system
 - *Reference:* [[https://l.opnxng.com/r/Zettelkasten/comments/1ejuwtj/how_to_find_my_notes_in_the_zettelkasten/][How do I access my notes in zettelkasten @Reddit]]
+** Subjects on procrastination :PSYCHOLOGY:
+:PROPERTIES:
+:ID:       dab253c3-d227-4471-8eda-41f63f36563c
+:END:
+- *OBJECTIVE:* Learn about procrastination and how to defuse it
+*** Do the next best thing
+- *OBJECTIVE:* Techniqute to defuse to procastination
+- *Reference:* [[https://www.youtube.com/embed/VBifDZwPiI4?start=8m20s#__preview][What is procrastination and how to defuse it @Youtube]]
+** Failure to launch (Hikimori) :PSYCHOLOGY:
+/A closer look at failure to launch in life/

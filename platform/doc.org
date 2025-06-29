@@ -14,19 +14,10 @@ CLOSED: [2025-06-19 Thu 20:52]
 CLOSED: [2025-06-19 Thu 02:07]
 - *OBJECTIVE:* Testing markup and math render on github
   - This is inline math block: $\omega_{av} = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}$
-    
-#+begin_latex latex
-\omega_av = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}
-#+end_latex
-
-#$$\omega_av = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}$$
-
-- This is inline math block: $\omega^2 = \omega^2_i + 2 \alpha \Delta \theta$
-  
+$$\omega_av = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}$$
+  - This is inline math block: $\omega^2 = \omega^2_i + 2 \alpha \Delta \theta$
 $$\omega^2 = \omega^2_i + 2 \alpha \Delta \theta$$
-
-- This is inline math block: $\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$
-  
+  - This is inline math block: $\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$
 $$\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$$
 
 $$m_1 v_{1ix} + m_2 v_{2ix} = m_1 v_{1 \mathord{\mathit{f}} x} + m_2 v_{2 \mathord{\mathit{f}} x}$$

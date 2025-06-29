@@ -104,12 +104,17 @@ Allocated space for archives
 *[NOTE]* taken on [2025-06-28 01:11]:
   - Index note or [[id:fe01f997-0aef-4081-9b5b-33e20019f9d0][Hub Note]] is a note contains the important address of a notes threat or a cluster
   - Its not recommended to include every notes in the index note, only the address of a topic
-*** The Workflow
+*** Zettelkasten Workflow
 :PROPERTIES:
 :ID: 1e3cf208-3bec-4d2f-bcb0-a61fdcbfb355
 :END:
+- *OBJECTIVE:* Visualize how to a zettelkasten workflow looks like
+**** Note Translating Process Workflow
+:PROPERTIES:
+:ID: 2571fa1d-4106-4bb6-b597-804b7fc0b906
+:END:
 - *[NOTE]* taken on [2025-06-30 00:02]:
-  1. Starting with =fleeting note= take a fleeting note when an idea meet these criterias:
+  1. Starting with =fleeting note= take a fleeting note when an idea meet these criteria:
      1. You want to remember this idea permanently
      2. you want to use this idea in your work
         #+begin_html
@@ -117,7 +122,55 @@ Allocated space for archives
         <IMG src='https://cdn-images-1.medium.com/fit/c/800/457/1*fGr7PqyhychMxbDPk-hUiw.png' alt='fleeting note' width=50%/>
         </p>
         #+end_html
-- *Reference:* [[https://m.opnxng.com/@fairylights_io/the-zettelkasten-method-examples-to-help-you-get-started-8f8a44fa9ae6][Zettelkasten workflow @Blog]]
+  2. Pick up from =fleeting note= and translate into =literature note=
+     1. Write it in your own words
+     2. Write with great care so that revision is possible
+     3. Keep it only idea per note
+        - If you need to define a term for the concept, create a =term definition= card and link to it
+     4. Include the source you got the idea from
+     5. Include relevant citation (LastName, year, pp.22)
+        #+begin_html
+        <p align='left'>
+        <IMG src='https://cdn-images-1.medium.com/fit/c/800/347/1*DprUr_6QbqbUKNl4Oe7t9Q.png' alt='literature note' width=50%/>
+        </p>
+        #+end_html
+  3. Translating from =literature note= into a =permanent note=
+     1. =Literature note= are written in *context of the source*. Whereas =permanent note= is written on context of *your own idea*
+     2. =Literature  note= should have only 1 connection. While =permanent notes= have many connections
+        - To individual notes
+        - As part of multiple topics
+     3. =Permanent notes= are connectable across multiple =contexts=
+        - Content First topics
+          #+begin_html
+          <p align='left'>
+          <IMG src='https://cdn-images-1.medium.com/fit/c/800/332/1*2iUZcCgGYfyoUyzSLxR0ig.png' alt='content first topics' width=50%/>
+          </p>
+          #+end_html
+        - Topics forming from contents
+          #+begin_html
+          <p align='left'>
+          <IMG src='https://cdn-images-1.medium.com/fit/c/800/619/1*kfZoMrTpYFKoGwuSqUAKJg.png' alt='topics forming from contents' width=50%/>
+          </p>
+          #+end_html
+- *Reference:* [[https://m.opnxng.com/@fairylights_io/the-zettelkasten-method-examples-to-help-you-get-started-8f8a44fa9ae6][Zettelkasten translating notes workflow @Blog]]
+**** Linking Process Between Notes
+:PROPERTIES:
+:ID: c75bbd86-a73f-4ad4-8f18-cf314dee1752
+:END:
+- *[NOTE]* taken on [2025-06-30 01:01]:
+  1. Connect notes =chronologically=:
+     Provides a link to another note that can be combined with the current note in a way that still makes sense *without* needing to modify either of them
+     - A term mentioned in a note which links to a =term definition note=
+     - An author mentioned in a note which links to a =biography note=
+     - A note which contradict a finding from a =fact note=
+     - A note which adds something to an existing note
+     - A personal comment on the idea mentioned in another note
+  2. Connect notes via a =bridge note=:
+     Connect two seemingly unrelated notes using a separate note that explains why you think they are connected
+  3. Connect notes via =topic index=:
+     - A =index topic= note is a note contain a list of links to idea that are directly related to a topic
+     - You create a topic indexes once your notes have formed a =topic cluster=
+
 *** Zettelkasten note search and access
 :PROPERTIES:
 :ID:       64a2f52f-b16c-454b-92b9-9de7a9d431f0

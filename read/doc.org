@@ -117,7 +117,8 @@ Allocated space for archives
   1. Starting with =fleeting note= take a fleeting note when an idea meet these criteria:
      1. You want to remember this idea permanently
      2. you want to use this idea in your work
-        #+begin_html
+        #+name: fleeting note
+        #+begin_html html
         <p align='left'>
         <IMG src='https://cdn-images-1.medium.com/fit/c/800/457/1*fGr7PqyhychMxbDPk-hUiw.png' alt='fleeting note' width=50%/>
         </p>
@@ -129,7 +130,8 @@ Allocated space for archives
         - If you need to define a term for the concept, create a =term definition= card and link to it
      4. Include the source you got the idea from
      5. Include relevant citation (LastName, year, pp.22)
-        #+begin_html
+        #+name: literature note
+        #+begin_html html
         <p align='left'>
         <IMG src='https://cdn-images-1.medium.com/fit/c/800/347/1*DprUr_6QbqbUKNl4Oe7t9Q.png' alt='literature note' width=50%/>
         </p>
@@ -141,13 +143,15 @@ Allocated space for archives
         - As part of multiple topics
      3. =Permanent notes= are connectable across multiple =contexts=
         - Content First topics
-          #+begin_html
+          #+name: content first topics
+          #+begin_html html
           <p align='left'>
           <IMG src='https://cdn-images-1.medium.com/fit/c/800/332/1*2iUZcCgGYfyoUyzSLxR0ig.png' alt='content first topics' width=50%/>
           </p>
           #+end_html
         - Topics forming from contents
-          #+begin_html
+          #+name: topics forming from contents
+          #+begin_html html
           <p align='left'>
           <IMG src='https://cdn-images-1.medium.com/fit/c/800/619/1*kfZoMrTpYFKoGwuSqUAKJg.png' alt='topics forming from contents' width=50%/>
           </p>
@@ -176,11 +180,13 @@ Allocated space for archives
 :END:
 - *[NOTE]* taken on [2025-06-30 01:18]:
   - Index note represents a cluster of related permanent notes
+    #+name: strategies
     #+begin_html html
     <p align='left'>
     <IMG src='https://cdn-images-1.medium.com/fit/c/696/364/1*4U_9xI1ypiWvE99axi_PWA.png' alt='stratigies' width=50%/>
     </p>
     #+end_html
+    #+name: concepts
     #+begin_html html
     <p align='left'>
     <IMG src='https://cdn-images-1.medium.com/fit/c/684/720/1*XJSwHMagGJMghg8qTvVhaw.png' alt='concepts' width=50%/>
@@ -188,6 +194,7 @@ Allocated space for archives
     #+end_html
   - Keyword note is similar to an index note except at a more general level
     - Represent in a form of a TOC
+      #+name: keyword note
       #+begin_html html
       <p align='left'>
       <IMG src='https://cdn-images-1.medium.com/fit/c/710/426/1*IAs1IKT--tQj9jLeFcVTKQ.png' alt='keyword note' width=50%/>

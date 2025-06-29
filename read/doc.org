@@ -8,6 +8,13 @@ Allocated space for archives
 :ID:       705d42e4-c980-4d53-ad38-029f28d503dc
 :END:
 - *OBJECTIVE:* Learn the structure of a zettelkasten system
+*** Zettelkasten Atomicity Principle
+:PROPERTIES:
+:ID: 7f3e2fb8-77aa-4560-8dea-a457bee1cc8d
+:END:
+- *[NOTE]* taken on [2025-06-29 02:43]:
+  - Write no more than 2 to 3 sentences and keep it about 1 topic
+  - Write in my own words
 *** Types of notes
 - *OBJECTIVE:* Differences different types of notes
 - *[NOTE]* taken on [2025-06-23 01:07]:
@@ -81,9 +88,7 @@ Allocated space for archives
 - *[NOTE]* taken on [2025-06-28 01:00]:
   - Indexing system is a separate system from the [[id:0ce0544c-320b-4aef-9bad-14564ee61474][ID system in zettelkasten]]
   - Indexing system provides ways to continue or parallel threats while maintain the interconnected linkings
-- *Reference:*
-  - [[https://www.youtube.com/embed/92EEEsptqfI?start=2m3s#__preview][ZK Indexing system showcase @Youtube]]
-  - [[https://www.youtube.com/embed/92EEEsptqfI?start=2m28s#__preview][ZK Indexing system walk-through @Youtube]]
+- *Reference:* [[https://www.youtube.com/embed/92EEEsptqfI?start=2m3s#__preview][ZK Indexing system showcase @Youtube]]
 
 **** Address of Each Note
 :PROPERTIES:
@@ -91,7 +96,7 @@ Allocated space for archives
 :END:
 - *[NOTE]* taken on [2025-06-28 01:08]:
   - Each note in the ZK system contain a unique address using the [[id:0ce0544c-320b-4aef-9bad-14564ee61474][ID system]]
-  - Address use alphanumeric [[id:f78fe37b-4ff7-4a73-86e9-16ccf28a4888][Naming convention]] to provide context for current note
+  - Address use alphanumeric [[id:f78fe37b-4ff7-4a73-86e9-16ccf28a4888][Naming Convention]] to provide context for current note
 **** Index Note
 :PROPERTIES:
 :ID: 6fcda433-18fc-4ec8-b059-eb48bf168d84
@@ -99,6 +104,20 @@ Allocated space for archives
 *[NOTE]* taken on [2025-06-28 01:11]:
   - Index note or [[id:fe01f997-0aef-4081-9b5b-33e20019f9d0][Hub Note]] is a note contains the important address of a notes threat or a cluster
   - Its not recommended to include every notes in the index note, only the address of a topic
+*** The Workflow
+:PROPERTIES:
+:ID: 1e3cf208-3bec-4d2f-bcb0-a61fdcbfb355
+:END:
+- *[NOTE]* taken on [2025-06-30 00:02]:
+  1. Starting with =fleeting note= take a fleeting note when an idea meet these criterias:
+     1. You want to remember this idea permanently
+     2. you want to use this idea in your work
+        #+begin_html
+        <p align='left'>
+        <IMG src='https://cdn-images-1.medium.com/fit/c/800/457/1*fGr7PqyhychMxbDPk-hUiw.png' alt='fleeting note' width=50%/>
+        </p>
+        #+end_html
+- *Reference:* [[https://m.opnxng.com/@fairylights_io/the-zettelkasten-method-examples-to-help-you-get-started-8f8a44fa9ae6][Zettelkasten workflow @Blog]]
 *** Zettelkasten note search and access
 :PROPERTIES:
 :ID:       64a2f52f-b16c-454b-92b9-9de7a9d431f0

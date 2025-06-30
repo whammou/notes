@@ -8,7 +8,7 @@ Allocated space for tasks/todos
 *** PENDING Create qtile widget :QTILE:
 - *OBJECTIVE:* Create a custom qtile widget
 - *Reference:* [[https://docs.qtile.org/en/latest/manual/howto/widget.html][Create a qtile widget @Doc-qtile]]
-*** DOING Implement Zettelkasten in Orgroam :ZETTELKASTEN:ORGROAM:
+*** DOING Implement Zettelkasten in Orgroam [%] :ZETTELKASTEN:ORGROAM:
 :PROPERTIES:
 :ID:       1e76b464-a6af-40b5-98a5-40d7e4ab3c84
 :END:
@@ -17,7 +17,7 @@ Allocated space for tasks/todos
   - [[https://www.youtube.com/watch?v=-TpWahIzueg#__preview][Orgroam zettelkasten @Youtube]]
   - [[https://yannherklotz.com/zettelkasten/][Zettelkasten in orgmode @Blog]]
   - [[https://www.youtube.com/embed/-TpWahIzueg?start=49m16s#__preview][Apply zettelkasten correctly in orgroam @Youtube]]
-**** DOING Learn Orgroam Extension
+**** DOING Learn Orgroam Extension [%]
 :PROPERTIES:
 :ID:       ca2cbb16-4d86-419e-a1f6-9a48640ce323
 :END:
@@ -30,7 +30,7 @@ Allocated space for tasks/todos
 :PROPERTIES:
 :ID:       ebb8b3dc-b038-4844-b1e7-025f7d684250
 :END:
-- *OBJECTIVE:* Learn about[[id:bc6b5a2e-214b-4e04-a8e7-f6444bebc3c5][Orgroam Built-in UID System]]  and filename
+- *OBJECTIVE:* Learn about [[id:bc6b5a2e-214b-4e04-a8e7-f6444bebc3c5][Orgroam Built-in UID System]] and filename
 **** TODO Implement Zettelkasten-Orgroam ID system
 DEADLINE: <2025-06-29 Sun>
 :PROPERTIES:
@@ -38,6 +38,10 @@ DEADLINE: <2025-06-29 Sun>
 :END:
 - *OBJECTIVE:* Implement an [[id:9f057f7e-6a65-448a-b19d-784ecb100a46][UID System]] that works with zettelkasten vault and orgroam
 - *Reference:* [[https://forum.zettelkasten.de/discussion/2433/id-for-notes-time-stamp-id-is-useless][ID system discussion @Forum-zettelkasten]]
+***** TODO Edit capture filename
+DEADLINE: <2025-06-30 Mon>
+- *OBJECTIVE:* Custom orgroam capture target name
+- *Reference:* [[https://github.com/chipsenkbeil/org-roam.nvim/blob/main/DOCS.org#capture-node][Capture API in nvim-orgroam @Github]]
 *** TODO Qutebrowser multiple mode keybind :QUTEBROWSER:
 - *OBJECTIVE:* How to bind key in different modes
 - *Reference:* [[qute://help/configuring.html][Configurating qutebrowser @Doc-qutebrowser]]

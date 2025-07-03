@@ -39,7 +39,7 @@ DEADLINE: <2025-07-04 Fri>
 - *OBJECTIVE:* Implement an [[id:9f057f7e-6a65-448a-b19d-784ecb100a46][UID System]] that works with zettelkasten vault and orgroam
 - *Reference:* [[https://forum.zettelkasten.de/discussion/2433/id-for-notes-time-stamp-id-is-useless][ID system discussion @Forum-zettelkasten]]
 ***** DONE Edit capture filename
-DEADLINE: <2025-06-30 Mon 22:50> CLOSED: [2025-07-04 Fri 05:22]
+CLOSED: [2025-07-04 Fri 05:22] DEADLINE: <2025-06-30 Mon 22:50>
 :LOGBOOK:
 CLOCK: [2025-06-30 Mon 22:49]--[2025-07-01 Tue 00:11] => 1:22
 :END:

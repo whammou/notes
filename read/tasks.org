@@ -57,7 +57,7 @@ CLOSED: [2025-06-21 Sat 15:15]
 - *OBJECTIVE:* Consider Ease of access for notes then develop a structure to access information from both systems
 ***** Note template
 - *OBJECTIVE:* How should a note looks like
-*** DOING Learn zettelkasten system [33%] :ZETTELKASTEN:
+*** DOING Learn zettelkasten system [66%] :ZETTELKASTEN:
 :PROPERTIES:
 :ID:       ad309d55-fe5c-4d83-9a8c-42106cadce43
 :END:
@@ -79,15 +79,16 @@ CLOSED: [2025-06-29 Sun 02:54]
   - [[https://zk.zettel.page/][Public wiki for the Zettelkasten method @Blog]]
   - [[https://forum.zettelkasten.de/][Zettelkasten forum @Forum]]
   - [[https://publish.obsidian.md/myquantumwell/Welcome+to+The+Quantum+Well!][Zettelkasten example: Quantum Well @Obsidian]]
-**** DOING Learn Luhmann index system [%]
+**** DONE Learn Luhmann index system [100%]
+CLOSED: [2025-07-01 Tue 22:05]
 - *OBJECTIVE:* What is the Luhmann's index system why it works
 - *Reference:* [[id:8bc68863-62d7-4676-9d14-1fe46dc7019f][The Indexing System @Org]]
-***** TODO Learn Naming and Managing Index of Each Note
-DEADLINE: <2025-06-29 Sun 23:40>
+***** DONE Learn Naming and Managing Index of Each Note
+DEADLINE: <2025-07-01 Tue 23:50> CLOSED: [2025-07-01 Tue 22:05]
 - *OBJECTIVE:* How to manage large amount of notes using =index-system=
 - *Reference:* [[https://www.youtube.com/embed/92EEEsptqfI?start=2m3s#__preview][ZK Indexing system showcase @Youtube]]
-***** TODO Learn Searching Using The Index System
-DEADLINE: <2025-06-29 Sun 23:40>
+***** DONE Learn Searching Using The Index System
+DEADLINE: <2025-07-01 Tue 23:50> CLOSED: [2025-07-01 Tue 22:05]
 - *OBJECTIVE:* Search for a note using the =index-system=
 - *Reference:* [[https://www.youtube.com/embed/92EEEsptqfI?start=2m28s#__preview][ZK Indexing system walk-through @Youtube]]
 **** TODO Learn Referencing Materials in ZK-system

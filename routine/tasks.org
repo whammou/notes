@@ -29,6 +29,9 @@ CLOSED: [2025-06-28 Sat 21:21] DEADLINE: <2025-06-28 Sat 14:00>
 *** PENDING Bike repair :BIKE:
 Diagnose failure point
 *Visit:* [[https://vinfastauto.com/vn_vi/cu-de-xe-may][hư hỏng củ đề]]  [[https://3mp.vn/service/cu-de-xe-may-bao-nhieu-tien-nguyen-nhan-cu-de-hu-hon][giá tham khảo]]
+*** TODO Lẩu bò
+DEADLINE: <2025-07-04 Fri 15:00>
+- *OBJECTIVE:* Đem hủ muối
 ** Coordinated :COORDINATED:
 ** Urgent :URGENT:
 ** Recurring :RECURRING:
@@ -176,12 +179,18 @@ Meal-preps, cooking recipes and grocery planning
 - /Picking my girl up/
 - *Location:*  [[https://www.google.com/maps/place/A%2BC+Coffee+Experience,+230%2F18+Pasteur,+Ph%C6%B0%E1%BB%9Dng+6,+Qu%E1%BA%ADn+3,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7858949,106.6915706,16z/data=!4m6!3m5!1s0x31752f0079a094e1:0xa8800ca97260d786!8m2!3d10.7858949!4d106.6915706!16s%2Fg%2F11x1lhrz1t?force=pwa&source=mlapk][230/18 Pasteur, Phường 6, Quận 3]]
 *** TODO Wake the F up :ALARM:
-SCHEDULED: <2025-06-29 Sun 12:30 +1d>
+SCHEDULED: <2025-07-05 Sat 12:30 +1d>
 :PROPERTIES:
 :ID:       3e654b15-2b4d-406e-88de-9e7d50e4e161
-:LAST_REPEAT: [2025-06-28 Sat 21:21]
+:LAST_REPEAT: [2025-07-04 Fri 00:15]
 :END:
 :LOGBOOK:
+- State "DONE"       from "TODO"       [2025-07-04 Fri 00:15]
+- State "DONE"       from "TODO"       [2025-07-03 Thu 20:37]
+- State "DONE"       from "TODO"       [2025-07-03 Thu 17:16]
+- State "DONE"       from "TODO"       [2025-07-02 Wed 18:08]
+- State "DONE"       from "TODO"       [2025-07-01 Tue 17:31]
+- State "DONE"       from "TODO"       [2025-06-30 Mon 22:47]
 - State "DONE"       from "TODO"       [2025-06-28 Sat 21:21]
 - State "DONE"       from "TODO"       [2025-06-27 Fri 15:42]
 - State "DONE"       from "TODO"       [2025-06-26 Thu 17:22]

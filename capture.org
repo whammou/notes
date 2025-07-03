@@ -64,13 +64,24 @@ CLOSED: [2025-01-10 Fri 02:27]
 ** PENDING Nvim integration :NVIM:
 CLOSED: [2025-05-28 Wed 04:03]
 - *Goal(s):* render response in markdown to take advantage of nvim markdown render
-* TODO Files hierarchy :FILE:
+* PENDING Files hierarchy :FILE:
 - *OBJECTIVE:* /Manage files with better hierarchy/
 - *References:* [[https://l.opnxng.com/r/linux/comments/om150l/personal_file_hierarchy_under_home/][Home hierarchy @Reddit]]
-* TODO Handle exception in python :PYTHON:
+* PENDING Handle exception in python :PYTHON:
 - *OBJECTIVE:* Handle exceptions error from populating logs/
 - *Reference:*
   - [[https://m.opnxng.com/@akulahemanth/pythons-contextlib-suppress-a-clean-way-to-handle-exceptions-db7439e32025][Clean way to handle error exception @Blog]]
   - [[https://l.opnxng.com/r/learnpython/comments/stfbow/how_to_tell_python_to_ignore_list_out_of_index/][Ignore list out of index @Reddit]]
-* TODO Testing image render :ORGMODE:ORGZlY:GITHUB:
+* PENDING Testing image render :ORGMODE:ORGZlY:GITHUB:
 - *OBJECTIVE:* Find an image syntax that works on both github and orgzly
+* PENDING Nvim folding keybinds :NVIM:
+- *OBJECTIVE:* Bind keys to quickly navigate foldings in nvim
+* PENDING Create orgmode capture :ORGMODE:
+- *OBJECTIVE:* Create orgmode task capture
+* PENDING Run script on device plugin :ARCH:
+- *OBJECTIVE:* Run a script on device plugin
+* Testing image render in orgzly :ORGZlY:
+- *OBJECTIVE:* Testing image render in orgzly app
+  file:./assets/lobes.jpg
+  file:assets/lobes.jpg
+

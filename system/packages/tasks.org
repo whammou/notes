@@ -28,7 +28,7 @@ Allocated space for tasks/todos
   - [[https://l.opnxng.com/r/emacs/comments/u10j69/org_mode_how_do_you_keep_your_daily_agenda_to_a/][How do you keep your daily agenda @Reddit]]
 ***** TODO Learn Orgroam UID system
 :PROPERTIES:
-:ID: ebb8b3dc-b038-4844-b1e7-025f7d684250
+:ID:       ebb8b3dc-b038-4844-b1e7-025f7d684250
 :END:
 - *OBJECTIVE:* Learn about [[id:bc6b5a2e-214b-4e04-a8e7-f6444bebc3c5][Orgroam Built-in UID System]] and filename
 **** TODO Implement Zettelkasten-Orgroam ID system

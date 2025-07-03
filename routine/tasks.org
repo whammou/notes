@@ -23,7 +23,7 @@ Contact local bank for physical credit card
 *** PENDING Fix sneakers :ONEOFF:
 Glue back a hole on my sneakers
 *** DONE Bike checkup :BIKE:
-DEADLINE: <2025-06-28 Sat 14:00> CLOSED: [2025-06-28 Sat 21:21]
+CLOSED: [2025-06-28 Sat 21:21] DEADLINE: <2025-06-28 Sat 14:00>
 - *OBJECTIVE:* Check up bike oil
 ** Incidental :INCIDENTAL:
 *** PENDING Bike repair :BIKE:

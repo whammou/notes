@@ -14,18 +14,13 @@ CLOSED: [2025-06-19 Thu 20:52]
 CLOSED: [2025-06-19 Thu 02:07]
 - *OBJECTIVE:* Testing markup and math render on github
   - This is inline math block: $\omega_{av} = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}$
-    
-$$\omega_av = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}$$
+  #+html: <div align='center'>$$\omega_av = \frac{\theta_f - \theta_i}{t_f - t_i} = \frac{\Delta \theta}{\Delta t}$$</div>
+  - This is inline math block: $\omega^2 = \omega^2_i + 2 \alpha \Delta \theta$
+  $$\omega^2 = \omega^2_i + 2 \alpha \Delta \theta$$
+  - This is inline math block: $\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$
+  $$\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$$
+  $$m_1 v_{1ix} + m_2 v_{2ix} = m_1 v_{1 \mathord{\mathit{f}} x} + m_2 v_{2 \mathord{\mathit{f}} x}$$
 
-- This is inline math block: $\omega^2 = \omega^2_i + 2 \alpha \Delta \theta$
-  
-$$\omega^2 = \omega^2_i + 2 \alpha \Delta \theta$$
-
-- This is inline math block: $\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$
-  
-$$\omega = \lim_{\Delta t \to 0} \frac{\Delta \theta}{\Delta t}$$
-
-$$m_1 v_{1ix} + m_2 v_{2ix} = m_1 v_{1 \mathord{\mathit{f}} x} + m_2 v_{2 \mathord{\mathit{f}} x}$$
 - *Complication:* Render orgmode mathmode error
   - [[https://ao.bloat.cat/exchange/tex.stackexchange.com/questions/74969/how-to-make-the-limit-mathematics-sign][latex display mode @Overflow]]
 - *Reference:* [[https://ao.bloat.cat/exchange/stackoverflow.com/questions/31534084/how-can-i-get-github-to-display-inline-math-in-readme-org-file#79302884][State of orgmode in github @Overflow]]
@@ -35,12 +30,12 @@ CLOSED: [2025-06-15 Sun 21:32] DEADLINE: <2025-06-15 Sun>
   - [X] Center images
   - [X] Math block html nest
   - [X] Hide iamges
-#+begin_html
+#+begin_html html
 <p align="center">
   <IMG src="./design/EEET2603/assets/LAB_03/LAB_3_1.svg" alt="test image" width=50%/>
 </p>
 #+end_html
-#+begin_html
+#+begin_html html
 <details>
   <summary>Example</summary>
   <p align="center">
@@ -48,7 +43,7 @@ CLOSED: [2025-06-15 Sun 21:32] DEADLINE: <2025-06-15 Sun>
   </p>
 </details>
 #+end_html
-#+begin_html
+#+begin_html html
 <details>
   <summary>Example</summary>
   <IMG src="./design/EEET2603/assets/LAB_03/LAB_1_2.svg" alt="test image" width=50%/>

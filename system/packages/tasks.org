@@ -123,6 +123,10 @@ CLOSED: [2025-06-03 Tue 07:43]
 - *Reference:*
   - [[https://github.com/chipsenkbeil/org-roam.nvim/blob/8369398de7c343732eea89f834b1bc71f1f110da/DOCS.org#disable-nvim-cmp-completion-in-select-buffer][Disable completion in orgroam buffer @Github]]
   - [[https://cmp.saghen.dev/configuration/general#general][Blink.cmp general options @Doc]]
+*** Testing image render :ORGZlY:
+- *OBJECTIVE:* Testing image render
+  file:../../assets/snoopy/IMG_20241026_002110.jpg
+  file:./assets/snoopy/IMG_20241026_002110.jpg
 ** Incidental :INCIDENTAL:
 ** Coordinated :COORDINATED:
 ** Urgent :URGENT:

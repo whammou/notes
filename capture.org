@@ -80,3 +80,5 @@ CLOSED: [2025-05-28 Wed 04:03]
 - *OBJECTIVE:* Create orgmode task capture
 * PENDING Run script on device plugin :ARCH:
 - *OBJECTIVE:* Run a script on device plugin
+* TODO Mua nước dừa
+DEADLINE: <2025-07-05 Sat 17:00>

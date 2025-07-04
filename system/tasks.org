@@ -172,6 +172,7 @@ DEADLINE: <2025-07-04 Fri>
 - *OBJECTIVE:* Testing image render
   file:../../assets/snoopy/IMG_20241026_002110.jpg
   file:./assets/snoopy/IMG_20241026_002110.jpg
+  file:/assets/snoopy/IMG_20241026_002110.jpg
 ** Incidental :INCIDENTAL:
 *** PENDING Termux ssh :LINUX:TERMUX:
 - *Objective:* ssh to the server via Termux

@@ -29,8 +29,8 @@ CLOSED: [2025-06-28 Sat 21:21] DEADLINE: <2025-06-28 Sat 14:00>
 *** PENDING Bike repair :BIKE:
 Diagnose failure point
 *Visit:* [[https://vinfastauto.com/vn_vi/cu-de-xe-may][hư hỏng củ đề]]  [[https://3mp.vn/service/cu-de-xe-may-bao-nhieu-tien-nguyen-nhan-cu-de-hu-hon][giá tham khảo]]
-*** TODO Lẩu bò
-DEADLINE: <2025-07-04 Fri 15:00>
+*** DONE Lẩu bò
+DEADLINE: <2025-07-04 Fri 15:00> CLOSED: [2025-07-04 Fri 20:48]
 - *OBJECTIVE:* Đem hủ muối
 ** Coordinated :COORDINATED:
 ** Urgent :URGENT:

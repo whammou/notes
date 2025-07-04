@@ -165,6 +165,13 @@ CLOSED: [2025-06-19 Thu 23:36]
 **** TODO Org-ruby document config
 - *OBJECTIVE:* Config orgmode for better document render on github
 - *Reference:* [[https://orgmode.org/worg/org-tutorials/org-ruby.html][Org-ruby documentation @Doc-orgmode-ruby]]
+*** TODO Repo Root Dir :PACKAGE:GIT:ORGZlY:PLATFORM:GITHUB:
+DEADLINE: <2025-07-04 Fri>
+- *OBJECTIVE:* Discover =file-root= on github and orgzly
+**** Testing image render :ORGZlY:
+- *OBJECTIVE:* Testing image render
+  file:../../assets/snoopy/IMG_20241026_002110.jpg
+  file:./assets/snoopy/IMG_20241026_002110.jpg
 ** Incidental :INCIDENTAL:
 *** PENDING Termux ssh :LINUX:TERMUX:
 - *Objective:* ssh to the server via Termux

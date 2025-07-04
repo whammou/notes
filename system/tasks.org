@@ -168,6 +168,7 @@ CLOSED: [2025-06-19 Thu 23:36]
 *** TODO Repo Root Dir :PACKAGE:GIT:ORGZlY:PLATFORM:GITHUB:
 DEADLINE: <2025-07-04 Fri>
 - *OBJECTIVE:* Discover =file-root= on github and orgzly
+- *Reference:* [[https://gist.github.com/awkoren/961a93e5f20d138359ec][Get github root dir @Gist-github]]
 **** Testing image render :ORGZlY:
 - *OBJECTIVE:* Testing image render
   file:../../assets/snoopy/IMG_20241026_002110.jpg

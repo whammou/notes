@@ -80,8 +80,3 @@ CLOSED: [2025-05-28 Wed 04:03]
 - *OBJECTIVE:* Create orgmode task capture
 * PENDING Run script on device plugin :ARCH:
 - *OBJECTIVE:* Run a script on device plugin
-* Testing image render in orgzly :ORGZlY:
-- *OBJECTIVE:* Testing image render in orgzly app
-  file:./assets/lobes.jpg
-  file:assets/lobes.jpg
-

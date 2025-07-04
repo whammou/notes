@@ -84,4 +84,3 @@ CLOSED: [2025-05-28 Wed 04:03]
 - *OBJECTIVE:* Testing image render in orgzly app
   file:./assets/lobes.jpg
   file:assets/lobes.jpg
-

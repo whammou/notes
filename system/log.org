@@ -178,39 +178,13 @@ CLOSED: [2024-10-07 Mon 22:27]
 CLOSED: [2024-10-07 Mon 04:39]
 - *Source:* [[https://wiki.termux.com/wiki/Internal_and_external_storage][termux wiki]]
   run: ~termux-setup-storage~
-** PENDING Github search query :GITHUB:
-- *Goal(s):* Learn github search queries
 ** DONE Tmux selection-panel script :TMUX:
 CLOSED: [2024-10-07 Mon 04:38]
 - *Goal(s):* Config tmux selection panel with qtile scratch board for quick access
 - *Stumble upon:*  [[https://linuxier.com/how-to-list-sessions-in-tmux/][How to list tmux sessions]]  [[https://gist.github.com/vaughany/483324b983ac51281ef63bb672f6c1ed][.tmux.conf]]
-** PENDING View vim-dap :NVIM:
-- *Goal:* Take a look at vim
-- [[https://github.com/mfussenegger/nvim-dap][documentation]]
 ** DONE Config xdg-open :LINUX:
 CLOSED: [2024-10-07 Mon 22:27]
 - *Goal:* Config xdg-open to open demanding file types
-** PENDING Refactor dotfiles@github :GITHUB:
-- *Goal:* re flow [[https://github.com/whammou/dotfiles][dotfiles-repo]] to work with my client and server
-*** Fork repos
-Fork [[https://github.com/whammou/dotfiles][dotfiles-main]] to another repo and use that repo for server configs, then merge arch-branch to main repo and use as client configs
-*** Merge arch to main
-Merge arch to main branch
-*** Develop install script
-- *Goal:* Develop install script for [[https://github.com/whammou/dotfiles][dotfiles]]
-** PENDING Github workflow doc :GITHUB:
-- *Stumble upon:* [[https://docs.github.com/en/get-started/using-git/about-git][Git handbook]]
-** PENDING Config Neomutt :NEOMUTT:
-- *Goal(s):* Determine if its worth to include [[https://neomutt.org/guide/gettingstarted.html][Neomutt]] in workflow
-** PENDING Zathura Doc :ZATHURA:
-:PROPERTIES:
-:ARCHIVE_TIME: 2024-09-11 Wed 04:59
-:ARCHIVE_FILE: /home/whammou/notes/personal.org
-:ARCHIVE_CATEGORY: personal
-:ARCHIVE_TODO: IN-PROGESS
-:END:
-- *Goal:* Learn to navigate and notate in Zathura sufficiently
-- *Documentation:* [[https://pwmt.org/projects/zathura/documentation/]]
 ** DONE Integrate Github link :NVIM:GITHUB:
 CLOSED: [2024-12-26 Thu 22:27]
 **Goal:* Integrate github orgmode render for android
@@ -221,13 +195,6 @@ CLOSED: [2024-12-26 Thu 22:27]
 CLOSED: [2024-10-07 Mon 02:06]
 - *Goal(s):* Create an nvim-orgmode scratchpad with ~qtile~
 - *Stumble upon:* [[https://curtismchale.ca/2023/12/20/ultimate-keyboard-control-task-management-nvim-orgmode/][nvim-orgmode workflow]]
-** PENDING Spreadsheet data visualize :DATA:DOC:
-:PROPERTIES:
-:CUSTOM_ID: visidata
-:END:
-- *Goal(s):* implement .csv for data tracking
-- *Stumble upon:* python data visualizer  [[https://www.visidata.org/][visidata]]
-- *DOCS:* [[https://github.com/saulpw/visidata/wiki/Screen-Layout][visidata DOCS][documents]]
 ** DONE [#B] Linux G-suite :LINUX:
 CLOSED: [2024-10-22 Tue 00:13] DEADLINE: <2024-10-20 Sun 22:00>
 - *Goal:* Integrate G-suites with Linux
@@ -256,9 +223,6 @@ Run ~printenv VARIBLE_NAME~ or ~echo $varname~ to print the value of a certain v
 Run ~Export VARIABLE_NAME=value~ to define a variable 
 **** Fcitx5 with nvim
 Install [[https://github.com/pysan3/fcitx5.nvim][fcitx5.nvim]] for better workflow
-** PENDING Clean up $HOME :LINUX:
-- *Goal(s):* clean up $HOME dir
-- *Stumble upon:* [[https://github.com/b3nj5m1n/xdg-ninja][xdg-ninjja@github]]
 ** DONE Install Latex nvim-treesitter parser :NVIM:
 CLOSED: [2024-10-31 Thu 01:38]
 - *Goal(s):* Integrate latex parser to nvim to write tex math in markdown
@@ -678,3 +642,22 @@ CLOSED: [2025-03-25 Tue 06:45] DEADLINE: <2025-03-24 Mon 17:00>
 ** DONE Learn nvim-orgmode_capture :NVIM:
 CLOSED: [2025-05-23 Fri 01:43]
 - *Objective:* learn ~org_capture_template~ at [[https://github.com/nvim-orgmode/orgmode/blob/master/docs/configuration.org#org_capture_templates][nvim-orgmode-configuration]]
+** ABORTED Orgzly nerdfont :ORGMODE:
+CLOSED: [2025-03-25 Tue 09:16] DEADLINE: <2025-03-25 Tue 21:00>
+:PROPERTIES:
+:ID:       c1fcc5ff-079a-40e9-950b-5f15210d08c6
+:END:
+- /Test nerdfont on Orgzly/
+** ABORTED Openai API :SYSTEM:
+CLOSED: [2025-03-22 Sat 06:17] DEADLINE: <2025-03-22 Sat 22:00>
+:PROPERTIES:
+:ID:       4eb61678-1269-411e-ad54-efb16c040ba4
+:END:
+- /Contact [[tel:DuyTung][Duy Tung]] for API access/
+** ABORTED DNS speed test :DNS:
+CLOSED: [2025-06-24 Tue 22:51]
+:PROPERTIES:
+:ID:       a5ef0120-9e5c-49ce-acbf-8c04b6d4cb4f
+:END:
+- *Objective:* /Benchmark DNS look up speed/
+- *Reference:* []

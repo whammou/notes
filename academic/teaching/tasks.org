@@ -17,9 +17,12 @@ Allocated space for tasks/todos
 - *Reference links:*
   - [[id:237192a4-e192-438d-87ad-9e5df105a5c8][IELTS syllabus @Org]]
 *** TODO Calculus syllabus :MATH:
-DEADLINE: <2025-07-04 Fri>
+DEADLINE: <2025-07-06 Sun>
 - *OBJECTIVE:* What to teach in calculus
 ** Incidental :INCIDENTAL:
 ** Coordinated :COORDINATED:
+*** Math 101 - Unit
+DEADLINE: <2025-07-06 Sun 21:00> SCHEDULED: <2025-07-07 Mon>
+- *OBJECTIVE:* Teaching on Units and how to use them to your advantage
 ** Urgent :URGENT:
 ** Recurring :RECURRING:

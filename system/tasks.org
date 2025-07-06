@@ -4,31 +4,19 @@
 * Tasks :SYSTEM:TASK:
 Allocated space for tasks/todos
 ** One-off :ONEOFF:
-*** ABORTED Orgzly nerdfont :ORGMODE:
-CLOSED: [2025-03-25 Tue 09:16] DEADLINE: <2025-03-25 Tue 21:00>
-:PROPERTIES:
-:ID:       c1fcc5ff-079a-40e9-950b-5f15210d08c6
-:END:
-- /Test nerdfont on Orgzly/
-*** TODO Open-source application :LINUX:
+*** PENDING Open-source application :LINUX:
 - /List of FOSS AI/
-*** TODO Qtile ssh-tmux method :LINUX:
+*** PENDING Qtile ssh-tmux method :LINUX:
 - /Add ssh-tmux keybind to qtile/
 - *File:* [[file:~/.config/qtile/settings/key/spawn.py][qtile-config]]
-*** TODO Notification through ssh :LINUX:
+*** PENDING Notification through ssh :LINUX:
 - /Pipe notification socket through ssh/
-*** ABORTED Openai API :SYSTEM:
-CLOSED: [2025-03-22 Sat 06:17] DEADLINE: <2025-03-22 Sat 22:00>
-:PROPERTIES:
-:ID:       4eb61678-1269-411e-ad54-efb16c040ba4
-:END:
-- /Contact [[tel:DuyTung][Duy Tung]] for API access/
 *** DOING Backup systemd services :SYSTEMD:
 - *Objective:* /Backup systemd across systems/
 - *Reference:* [[https://www.reddit.com/r/linuxquestions/comments/18hep9r/how_to_back_up_export_import_the_usercreated/][Auto backing up systemd services @Reddit]]
 *** PENDING Plain text music playlist :LINUX:
 ***Objective:* Plain text music playlist that works with ~ytfzf~ and ~new pipe~
-*** TODO Search more efficiently :LINUX:
+*** PENDING Search more efficiently :LINUX:
 :PROPERTIES:
 :ID:       995adf02-30af-429f-94ca-56e405e15914
 :END:
@@ -54,7 +42,7 @@ CLOSED: [2025-05-12 Mon 09:04]
     - [[https://github.com/nvim-treesitter/nvim-treesitter/pull/3442][Fold sublists instead of lists in markdown @Github-issue]]
     - [[https://github.com/nvim-treesitter/nvim-treesitter/issues/5366][Markdown folds don't work correctly with nested lists @Github-issue]]
     - [[https://linkarzu.com/][Resources @Linkarzu]]
-*** TODO Toggle program :BASH:
+*** PENDING Toggle program :BASH:
 - *Objective:* /Toggle command using bash script/
 - *References:* [[https://www.youtube.com/watch?v=eBzDiBAcIFo#__preview][A one line bash script to toggle programs on/off @Youtube-DistroTube]]
 *** PENDING Magic Tape sessions :MAGICTAPE:
@@ -67,16 +55,9 @@ CLOSED: [2025-05-12 Mon 09:04]
   - [ ] Adding ~TASK~ tag (including all type of tasks)
   - [ ] Adding ~LIB~ and remove ~Archives~ headline
   - [ ] Create new template
-*** TODO Re-write smb-mount command
+*** PENDING Re-write smb-mount command
 - *Objective:* /Re-write smb-mount command to quickly toggle server on/off/
 - *File:* [[file:~/dotfiles/scripts/smb-mount][smb-mount]]
-*** ABORTED DNS speed test :DNS:
-CLOSED: [2025-06-24 Tue 22:51]
-:PROPERTIES:
-:ID:       a5ef0120-9e5c-49ce-acbf-8c04b6d4cb4f
-:END:
-- *Objective:* /Benchmark DNS look up speed/
-- *Reference:* []
 *** PENDING Json database :JSON:
 :PROPERTIES:
 :ID:       27fdd8c2-5435-466b-9856-407ade06d893
@@ -85,7 +66,7 @@ CLOSED: [2025-06-24 Tue 22:51]
 *** PENDING Learn Docker :DOCKER:
 CLOSED: [2025-05-24 Sat 01:19]
 - /Learn to operate dockers/
-*** TODO Windows software on linux :WINDOWS:LINUX:
+*** PENDING Windows software on linux :WINDOWS:LINUX:
 - *OBJECTIVE:* Running windows exclusive software on linux e.g., cad, offices, pts/
 **** Running Virtual machines :VM:
 - *Keypoint:* /Virutal machine on linux/
@@ -101,7 +82,7 @@ CLOSED: [2025-05-24 Sat 01:19]
 - *Reference:*
   - [[https://l.opnxng.com/r/linux4noobs/comments/148dko9/looking_for_remote_software_for_linux_laptop_to/][Remote software for linux desktop @Reddit]]
   - [[https://www.youtube.com/watch?v=EXL8mMUXs88#__preview][Remote desktops foss @Youtube-preview]]
-*** DONE Config system notification :NOTIFICATION:
+*** PARTIAL Config system notification [50%] :NOTIFICATION:
 CLOSED: [2025-06-28 Sat 22:43] DEADLINE: <2025-06-28 Sat>
 - *OBJECTIVE:* /Config system notifications with dunst/
   - *Run:* =man dunst=
@@ -120,10 +101,10 @@ CLOSED: [2025-06-04 Wed 09:07]
 :ID:       f8ffc50b-03a6-4be9-842a-2c6278a62b86
 :END:
 - *OBJECTIVE:* Create a comprehensive colorscheme to notifications/
-*** TODO Config terminal app titles :UI:
+*** PENDING Config terminal app titles :UI:
 - *OBJECTIVE:* /Config terminal app titles/
   - Config title to look the same: =<content> - <appname>=
-*** TODO Pacman lock-file :PACMAN:BACKUP:
+*** PENDING Pacman lock-file :PACMAN:BACKUP:
 - *OBJECTIVE:* /Create pacman lock-file/
 *** DOING Org2ical [%] :DATA:ORGMODE:
 - *OBJECTIVE:* Generate .ics files from .org files(use homelab for daily merge)
@@ -135,9 +116,9 @@ CLOSED: [2025-06-04 Wed 09:07]
 ***** TODO Config vdirsyncer :VDIRSYNCER:
 - *OBJECTIVE:* /Config vdirsyncer to work sync calendar to google cal/
   - *References:* [[http://vdirsyncer.pimutils.org/en/stable/when.html][Vdirsyncer documentation @Doc]]
-*** TODO Orgmode quicknote script :ORGMODE:
+*** PENDING Orgmode quicknote script :ORGMODE:
 - *OBJECTIVE:* Quickly output new note directory
-*** TODO Orgmode toggle archived items :ORGMODE:
+*** PENDING Orgmode toggle archived items :ORGMODE:
 - *OBJECTIVE:* Toggle archive view in =orgmode-nvim= and =orgzly=
 - *Reference:* [[https://nvim-orgmode.github.io/configuration#org_agenda_archive][Archiving in nvim-orgmode @Doc-orgmode]]
 *** PENDING Run wind-apps via RDP :RDP:
@@ -148,7 +129,7 @@ CLOSED: [2025-06-04 Wed 09:07]
 - *Reference:*
   - [[https://github.com/LizardByte/Sunshine][Sunshine and Moonlight @Github]]
   - [[https://github.com/FreeRDP/Remmina][Remmina RDP @Github]]
-*** TODO Redirect URL :QUTEBROWSER:
+*** PENDING Redirect URL :QUTEBROWSER:
 - *OBJECTIVE:* /Redirect URL via user-scripts/
   - *Visit:* [[https://l.opnxng.com/r/qutebrowser/comments/mvd89k/is_there_a_way_to_implement_redirect_links_in/][Redirect URL @ Reddit]]
   - *Visit:* [[https://github.com/gicrisf/swapforqute][Redirect URL script @ Github]]
@@ -166,7 +147,7 @@ CLOSED: [2025-06-19 Thu 23:36]
 - *OBJECTIVE:* Config orgmode for better document render on github
 - *Reference:* [[https://orgmode.org/worg/org-tutorials/org-ruby.html][Org-ruby documentation @Doc-orgmode-ruby]]
 *** TODO Repo Root Dir :PACKAGE:GIT:ORGZlY:PLATFORM:GITHUB:
-DEADLINE: <2025-07-04 Fri>
+DEADLINE: <2025-07-06 Sun>
 - *OBJECTIVE:* Discover =file-root= on github and orgzly
 - *Reference:* [[https://gist.github.com/awkoren/961a93e5f20d138359ec][Get github root dir @Gist-github]]
 **** Testing image render :ORGZlY:
@@ -178,6 +159,43 @@ DEADLINE: <2025-07-04 Fri>
   [[file:./assets/snoopy/IMG_20241026_002110.jpg]]
   [[file:/assets/snoopy/IMG_20241026_002110.jpg]]
   [[file:assets/snoopy/IMG_20241026_002110.jpg]]
+*** PENDING Spreadsheet data visualize :DATA:DOC:
+:PROPERTIES:
+:CUSTOM_ID: visidata
+:END:
+- *Goal(s):* implement .csv for data tracking
+- *Stumble upon:* python data visualizer  [[https://www.visidata.org/][visidata]]
+- *DOCS:* [[https://github.com/saulpw/visidata/wiki/Screen-Layout][visidata DOCS][documents]]
+*** PENDING Zathura Doc :ZATHURA:
+:PROPERTIES:
+:ARCHIVE_TIME: 2024-09-11 Wed 04:59
+:ARCHIVE_FILE: /home/whammou/notes/personal.org
+:ARCHIVE_CATEGORY: personal
+:ARCHIVE_TODO: IN-PROGESS
+:END:
+- *Goal:* Learn to navigate and notate in Zathura sufficiently
+- *Documentation:* [[https://pwmt.org/projects/zathura/documentation/]]
+*** PENDING Config Neomutt :NEOMUTT:
+- *Goal(s):* Determine if its worth to include [[https://neomutt.org/guide/gettingstarted.html][Neomutt]] in workflow
+*** PENDING Github workflow doc :GITHUB:
+- *Stumble upon:* [[https://docs.github.com/en/get-started/using-git/about-git][Git handbook]]
+*** PENDING Refactor dotfiles@github :GITHUB:
+- *Goal:* re flow [[https://github.com/whammou/dotfiles][dotfiles-repo]] to work with my client and server
+**** Fork repos
+Fork [[https://github.com/whammou/dotfiles][dotfiles-main]] to another repo and use that repo for server configs, then merge arch-branch to main repo and use as client configs
+**** Merge arch to main
+Merge arch to main branch
+**** Develop install script
+- *Goal:* Develop install script for [[https://github.com/whammou/dotfiles][dotfiles]]
+*** PENDING View vim-dap :NVIM:
+- *Goal:* Take a look at vim
+- [[https://github.com/mfussenegger/nvim-dap][documentation]]
+*** PENDING Github search query :GITHUB:
+- *Goal(s):* Learn github search queries
+*** TODO Media Control
+DEADLINE: <2025-07-06 Sun>
+- *OBJECTIVE:* Pause/playing playing media
+- *Reference:* [[https://old.reddit.com/r/mpv/comments/sx8o2t/is_there_a_way_to_playpause_multiple_instances_of/][Pause playing media instance @Reddit]]
 ** Incidental :INCIDENTAL:
 *** PENDING Termux ssh :LINUX:TERMUX:
 - *Objective:* ssh to the server via Termux
@@ -192,3 +210,6 @@ DEADLINE: <2025-07-04 Fri>
 ** Performance :PERFORMANCE:
 ** Urgent :URGENT:
 ** Recurring :RECURRING:
+*** PENDING Clean up $HOME :LINUX:
+- *Goal(s):* clean up $HOME dir
+- *Stumble upon:* [[https://github.com/b3nj5m1n/xdg-ninja][xdg-ninjja@github]]

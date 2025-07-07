@@ -30,10 +30,12 @@ DEADLINE: <2025-07-07 Mon 01:00>
 - [ ] *OBJECTIVE:* Teaching on units and how use them to your advantage
 - [ ] *OBJECTIVE:* Link between units and anti-derivative
 - *[NOTE]* taken on [2025-07-07 08:48]:
-  1. Integration is called an anti-derivative is because it is literally an anti/undo of an derivative
-     1. Antiderivative: An antiderivative of a function $\mathit{f}(x)$ is a function $F(x)$ such that $F'(x) = \mathit{f}(x)$. In the other words, $F(X)$ is a function whose derivative gives back the original function $\mathit{f}(x)$
-     2. Integral: The integral of a function (indefinite integral or an antiderivative) is denoted as $\int \mathit{f} \,dx$. This represent a family of functions $F(x) + C$, where $C$ is a constant. The process of integration can be thought of as finding an antiderivative
-  2. Units are the formulas to approach a problem e.g. $S = 1 (m^2)$, $a = 1 (\frac{m}{s^2})$
-  3. 
+  1. =Integration= is called an =anti-derivative= is because it is literally an anti/undo of an =derivative=
+     1. *Antiderivative:* An =antiderivative= of a /function/ $\mathit{f}(x)$ is a /function/ $F(x)$ such that $F'(x) = \mathit{f}(x)$. In the other words, $F(X)$ is a /function/ whose =derivative= gives back the original /function/ $\mathit{f}(x)$
+     2. *Integral:* The =integral= of a /function/ (indefinite =integral= or an =antiderivative=) is denoted as $\int \mathit{f} \,dx$. This represent a family of /functions/ $F(x) + C$, where $C$ is a *constant*. The process of integration can be thought of as finding an =antiderivative=
+  2. =Units= are the formulas to approach a problem e.g. $S = 1 (m^2)$, $a = 1 \frac{m}{s^2}$
+  3. What does =units= tell us about =integrations=
+     1. Example: Area of a square
+     2. Example: Connections between: speed, acceleration, and  displacement
 ** Urgent :URGENT:
 ** Recurring :RECURRING:

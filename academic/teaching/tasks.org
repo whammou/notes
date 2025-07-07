@@ -17,12 +17,20 @@ Allocated space for tasks/todos
 - *Reference links:*
   - [[id:237192a4-e192-438d-87ad-9e5df105a5c8][IELTS syllabus @Org]]
 *** TODO Calculus syllabus :MATH:
-DEADLINE: <2025-07-06 Sun>
+DEADLINE: <2025-07-07 Mon>
 - *OBJECTIVE:* What to teach in calculus
 ** Incidental :INCIDENTAL:
 ** Coordinated :COORDINATED:
-*** Math 101 - Unit
-DEADLINE: <2025-07-06 Sun 21:00> SCHEDULED: <2025-07-07 Mon>
-- *OBJECTIVE:* Teaching on Units and how to use them to your advantage
+*** TODO Math tutor 1 :MATH:
+DEADLINE: <2025-07-07 Mon 21:00> SCHEDULED: <2025-07-07 Mon>
+- *OBJECTIVE:* Get ready for upcoming SAC
+**** TODO Navigation in practical math [0/4]
+DEADLINE: <2025-07-07 Mon 01:00>
+- [ ] *OBJECTIVE:* Understand why integration is called anti-derivative
+- [ ] *OBJECTIVE:* Teaching on units and how use them to your advantage
+- [ ] *OBJECTIVE:* Link between units and anti-derivative
+- *[NOTE]* taken on [2025-07-07 08:48]:
+  1. Integration is called an anti-derivative is because it is literally an anti/undo of an derivative
+     1. Antiderivative: An antiderivative of a function $\mathit{f}_x$ is a function $F(x)$ such that $F'(x)$
 ** Urgent :URGENT:
 ** Recurring :RECURRING:

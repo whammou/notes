@@ -360,3 +360,12 @@ CLOSED: [2025-04-12 Sat 22:34] DEADLINE: <2025-04-12 Sat 20:00>
 CLOSED: [2025-04-24 Thu 16:50] DEADLINE: <2025-04-24 Thu 20:30>
 - /Create function to edit current token/
 - *Run:* ~bat --color always $arg &| less --color~
+** DONE Media Control :ROFI:PLAYERCTL:
+DEADLINE: <2025-07-07 Mon> CLOSED: [2025-07-07 Mon 22:22]
+- *OBJECTIVE:* Pause/playing playing media
+- *[NOTE]* taken on [2025-07-07 22:07]:
+  Using =playerctl= to remotely control playing media client and =rofi= to interact with =playerctl=
+- *Reference:*
+  - [[https://old.reddit.com/r/mpv/comments/sx8o2t/is_there_a_way_to_playpause_multiple_instances_of/][Pause playing media instance @Reddit]]
+  - [[https://github.com/altdesktop/playerctl][Playerctl #Github]]
+  - [[https://wiki.archlinux.org/title/MPRIS#Playerctl][Setup playerctl @Archwiki]]

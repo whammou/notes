@@ -17,9 +17,33 @@ Allocated space for tasks/todos
 - *Reference links:*
   - [[id:237192a4-e192-438d-87ad-9e5df105a5c8][IELTS syllabus @Org]]
 *** TODO Calculus syllabus :MATH:
-DEADLINE: <2025-07-04 Fri>
+DEADLINE: <2025-07-09 Wed>
 - *OBJECTIVE:* What to teach in calculus
 ** Incidental :INCIDENTAL:
 ** Coordinated :COORDINATED:
+*** DOING Math tutor 1 :MATH:
+DEADLINE: <2025-07-09 Wed 21:00> SCHEDULED: <2025-07-10 Thu 16:25>
+- *OBJECTIVE:* Get ready for upcoming SAC
+**** PARTIAL Navigation in practical math [2/3]
+DEADLINE: <2025-07-07 Mon 01:00> CLOSED: [2025-07-07 Mon 17:43]
+:PROPERTIES:
+:Effort: 1h
+:END:
+- [X] *OBJECTIVE:* Understand why integration is called anti-derivative
+- [X] *OBJECTIVE:* Teaching on units and how use them to your advantage
+- [ ] *OBJECTIVE:* Link between units and anti-derivative
+- *[NOTE]* taken on [2025-07-07 08:48]:
+  1. =Integration= is called an =anti-derivative= is because it is literally an anti/undo of an =derivative=
+     1. *Antiderivative:* An =antiderivative= of a /function/ $\mathit{f}(x)$ is a /function/ $F(x)$ such that $F'(x) = \mathit{f}(x)$. In the other words, $F(X)$ is a /function/ whose =derivative= gives back the original /function/ $\mathit{f}(x)$
+     2. *Integral:* The =integral= of a /function/ (indefinite =integral= or an =antiderivative=) is denoted as $\int \mathit{f} (x) \,dx$. This represent a family of /functions/ $F(x) + C$, where $C$ is a *constant*. The process of integration can be thought of as finding an =antiderivative=
+  2. =Units= are the formulas to approach a problem e.g. $S = 1 (m^2)$, $a = 1 \frac{m}{s^2}$
+  3. What does =units= tell us about =integrations=
+     1. Example: Area of a square
+     2. Example: Connections between: speed, acceleration, and  displacement
+**** TODO Transformation of functions [/]
+DEADLINE: <2025-07-09 Wed 00:00>
+- *OBJECTIVE:* Understand functions transformation
+- *Reference:* [[https://courses.lumenlearning.com/calculus1/chapter/transformations-of-functions/][Transformation of function @Blog]]
+- *Additional:* [[https://math.libretexts.org/Courses/Cosumnes_River_College/Math_370%3A_Precalculus/01%3A_Relations_and_Functions/1.07%3A_Transformations][Detailed function transformation @Libretext]]
 ** Urgent :URGENT:
 ** Recurring :RECURRING:

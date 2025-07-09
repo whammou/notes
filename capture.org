@@ -1,4 +1,4 @@
-#+TITLE: Capture
++TITLE: Capture
 #+DESCRIPTION: Captures and Quick notes
 #+OPTIONS: ^:nil
 
@@ -80,5 +80,3 @@ CLOSED: [2025-05-28 Wed 04:03]
 - *OBJECTIVE:* Create orgmode task capture
 * PENDING Run script on device plugin :ARCH:
 - *OBJECTIVE:* Run a script on device plugin
-* DONE Mua nước dừa
-CLOSED: [2025-07-06 Sun 02:48] DEADLINE: <2025-07-05 Sat 17:00>

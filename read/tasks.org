@@ -4,12 +4,15 @@
 * Tasks :TASK:READ:
 Allocated space for tasks/todos
 ** One-off :ONEOFF:
-*** TODO Watch podcast on procrastination
+*** PENDING Watch podcast on procrastination :PODCAST:
 :PROPERTIES:
 :ID:       97bb5e0b-bdc6-4f6f-a8bc-1b9ec506a721
 :END:
 - *OBJECTIVE:* What podcast on procastination and checkout [[id:dab253c3-d227-4471-8eda-41f63f36563c][Subjects on procrastination]]
 - *Reference:* [[https://www.youtube.com/watch?v=VBifDZwPiI4#__preview][How to defuse procrastination @Youtube]]
+*** PENDING Watch Forever Child podcast :PODCAST:
+- *OBJECTIVE:* Finish podcast Forever Child
+- *Reference:* [[https://www.youtube.com/embed/e0ec2-E5Xq8?start=16m33s#__preview][Why you never grow up - Healthygamergg @Youtube]]
 *** DOING PARA vs zettelkasten [%] :PKM:
 - *OBJECTIVE:* Determine which =PKM= is more compatible with current workflow
 - *Visit:* [[id:08c4ff53-dd44-419b-b305-23ccccba4250][Develop a hybrid PKM system @Orgmode]]
@@ -71,7 +74,7 @@ CLOSED: [2025-06-21 Sat 15:15]
 **** DONE Look Zettlekasten examples
 CLOSED: [2025-06-29 Sun 02:54]
 :PROPERTIES:
-:ID: 550c3397-ee19-4a0d-b3ef-87a216cf6662
+:ID:       550c3397-ee19-4a0d-b3ef-87a216cf6662
 :END:
 - *OBJECTIVE:* Looking for public zettelkasten repo
 - *Reference:*
@@ -84,11 +87,11 @@ CLOSED: [2025-07-01 Tue 22:05]
 - *OBJECTIVE:* What is the Luhmann's index system why it works
 - *Reference:* [[id:8bc68863-62d7-4676-9d14-1fe46dc7019f][The Indexing System @Org]]
 ***** DONE Learn Naming and Managing Index of Each Note
-DEADLINE: <2025-07-01 Tue 23:50> CLOSED: [2025-07-01 Tue 22:05]
+CLOSED: [2025-07-01 Tue 22:05] DEADLINE: <2025-07-01 Tue 23:50>
 - *OBJECTIVE:* How to manage large amount of notes using =index-system=
 - *Reference:* [[https://www.youtube.com/embed/92EEEsptqfI?start=2m3s#__preview][ZK Indexing system showcase @Youtube]]
 ***** DONE Learn Searching Using The Index System
-DEADLINE: <2025-07-01 Tue 23:50> CLOSED: [2025-07-01 Tue 22:05]
+CLOSED: [2025-07-01 Tue 22:05] DEADLINE: <2025-07-01 Tue 23:50>
 - *OBJECTIVE:* Search for a note using the =index-system=
 - *Reference:* [[https://www.youtube.com/embed/92EEEsptqfI?start=2m28s#__preview][ZK Indexing system walk-through @Youtube]]
 **** TODO Learn Referencing Materials in ZK-system

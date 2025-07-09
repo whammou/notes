@@ -147,7 +147,7 @@ CLOSED: [2025-06-19 Thu 23:36]
 - *OBJECTIVE:* Config orgmode for better document render on github
 - *Reference:* [[https://orgmode.org/worg/org-tutorials/org-ruby.html][Org-ruby documentation @Doc-orgmode-ruby]]
 *** TODO Repo Root Dir :PACKAGE:GIT:ORGZlY:PLATFORM:GITHUB:
-DEADLINE: <2025-07-06 Sun>
+DEADLINE: <2025-07-09 Wed>
 - *OBJECTIVE:* Discover =file-root= on github and orgzly
 - *Reference:* [[https://gist.github.com/awkoren/961a93e5f20d138359ec][Get github root dir @Gist-github]]
 **** Testing image render :ORGZlY:
@@ -192,10 +192,10 @@ Merge arch to main branch
 - [[https://github.com/mfussenegger/nvim-dap][documentation]]
 *** PENDING Github search query :GITHUB:
 - *Goal(s):* Learn github search queries
-*** TODO Media Control
-DEADLINE: <2025-07-06 Sun>
-- *OBJECTIVE:* Pause/playing playing media
-- *Reference:* [[https://old.reddit.com/r/mpv/comments/sx8o2t/is_there_a_way_to_playpause_multiple_instances_of/][Pause playing media instance @Reddit]]
+*** TODO Resolve boot partition is full :ARCH:
+DEADLINE: <2025-07-15 Tue>
+- *OBJECTIVE:* Resolve error ZSTD-compressed data is truncated on boot
+- *Reference:* [[https://ao.bloat.cat/exchange/unix.stackexchange.com/questions/697401/arch-linux-initramfs-unpacking-failed-zstd-compressed-data-is-truncated][Discussion initramfs unpack failed error @Overflow-discussion]]
 ** Incidental :INCIDENTAL:
 *** PENDING Termux ssh :LINUX:TERMUX:
 - *Objective:* ssh to the server via Termux

@@ -27,12 +27,13 @@ Allocated space for tasks/todos
   - [[https://github.com/chipsenkbeil/org-roam.nvim][Org-roam nvim plugin @Github]]
   - [[https://l.opnxng.com/r/emacs/comments/u10j69/org_mode_how_do_you_keep_your_daily_agenda_to_a/][How do you keep your daily agenda @Reddit]]
 ***** TODO Learn Orgroam UID system
+DEADLINE: <2025-07-09 Wed>
 :PROPERTIES:
 :ID:       ebb8b3dc-b038-4844-b1e7-025f7d684250
 :END:
 - *OBJECTIVE:* Learn about [[id:bc6b5a2e-214b-4e04-a8e7-f6444bebc3c5][Orgroam Built-in UID System]] and filename
 **** TODO Implement Zettelkasten-Orgroam ID system
-DEADLINE: <2025-07-04 Fri>
+DEADLINE: <2025-07-09 Wed>
 :PROPERTIES:
 :ID:       f1360cc5-099f-457d-a2cf-45e4ccedd4e6
 :END:
@@ -45,16 +46,16 @@ CLOCK: [2025-06-30 Mon 22:49]--[2025-07-01 Tue 00:11] => 1:22
 :END:
 - *OBJECTIVE:* Custom orgroam capture target name
 - *Reference:* [[https://github.com/chipsenkbeil/org-roam.nvim/blob/main/DOCS.org#capture-node][Capture API in nvim-orgroam @Github]]
-*** TODO Qutebrowser multiple mode keybind :QUTEBROWSER:
+*** PENDING Qutebrowser multiple mode keybind :QUTEBROWSER:
 - *OBJECTIVE:* How to bind key in different modes
 - *Reference:* [[qute://help/configuring.html][Configurating qutebrowser @Doc-qutebrowser]]
-*** TODO Detect git repos from system :GIT:FZF:
+*** PENDING Detect git repos from system :GIT:FZF:
 - /Detect system wise git repos the use fzf to open lazygit at repo location/
-*** TODO Nvim indent align :NVIM:
+*** PENDING Nvim indent align :NVIM:
 - *Objective:* /Manage nvim virtual indentaion alignment in plugins:/
   - [ ] ~nvim-orgmode~ 
   - [ ] ~render-markdown~
-*** TODO Connect to running nvim server :NVIM:
+*** PENDING Connect to running nvim server :NVIM:
 - *Objective:* /Connect to running/ ~nvim-server~ /apply to/ ~orgmode~
   - *Visit:* [[https://github.com/neovim/neovim/issues/5035][github.com#\:connect-to-nvim-server @Github]]
 *** Qtile keymap in json :QTILE:
@@ -72,7 +73,7 @@ CLOCK: [2025-06-30 Mon 22:49]--[2025-07-01 Tue 00:11] => 1:22
 - *Reference:* 
   - [[http://www.lazyvim.org/plugins][Lazyvim core plugins @Doc-lazyvim]]
   - [[https://github.com/LazyVim/LazyVim/issues/1942#issuecomment-1793438952][Changing border with nvim-lspconfig @Github-issue]]
-*** TODO Create scripted tmux session :TMUX:
+*** PENDING Create scripted tmux session :TMUX:
 - *OBJECTIVE:* Create a persist session for orgmode notes/
 - *Complication:* nvim does not allow edit if multiple session are running
 - *Reference:* [[https://ryan.himmelwright.net/post/scripting-tmux-workspaces/][Scripting tmux workspace @Blog]]
@@ -105,7 +106,7 @@ CLOSED: [2025-06-03 Tue 07:43]
 - *OBJECTIVE:* /Cache mode takes a lot of space, workaround this issue/
 - *Checkout:* [[https://forum.rclone.org/t/why-arent-cache-rclone-files-being-removed/28948/8][Vfs cache explain @Forum-rclone]]
 - *References:* [[https://l.opnxng.com/r/rclone/comments/xnbhsx/rclone_mount_with_vfs_cache_mode_full_is_using_up/][Cache mode using up space @Reddit]]
-*** TODO Disable blink.cmp for orgroam menu :NVIM:BLINK:ORGROAM:
+*** PENDING Disable blink.cmp for orgroam menu :NVIM:BLINK:ORGROAM:
 - *OBJECTIVE:* Disable completion in orgroam buffer
 - *[NOTE]* taken on [2025-06-25 22:33]:
   #+NAME: Disable completion nvim-cmp
@@ -123,7 +124,72 @@ CLOSED: [2025-06-03 Tue 07:43]
 - *Reference:*
   - [[https://github.com/chipsenkbeil/org-roam.nvim/blob/8369398de7c343732eea89f834b1bc71f1f110da/DOCS.org#disable-nvim-cmp-completion-in-select-buffer][Disable completion in orgroam buffer @Github]]
   - [[https://cmp.saghen.dev/configuration/general#general][Blink.cmp general options @Doc]]
+*** DOING Integrating AI [50%] :AI:
+- *OBJECTIVE:* /Integrate AI to current workflow/
+- *Resource:*
+  - [[https://www.reddit.com/r/ChatGPT/comments/1akynsv/any_free_alternatives_to_open_ai_api/][Google AI Studio @Google-studio]]
+  - [[https://ai.google.dev/docs][Google AI docs @Google-dev]]
+**** DONE Working with Google AI :GEMINI:
+CLOSED: [2025-05-28 Wed 03:24]
+- *Goal(s):* create workspace with [[https://pypi.org/project/google-generativeai/][google-generativeai sdk @Pypi]]
+- *Resources:*
+  - [[https://github.com/google-gemini/cookbook][Cookbook @Github]]
+  - [[https://ai.google.dev][Documentation @Google-dev]]
+***** DONE Requesting API
+CLOSED: [2025-01-10 Fri 02:28]
+- *Goal(s):* successfully obtain working API for Google Gemini
+- *Resource:* [[https://console.cloud.google.com/apis/credentials?pli=1&inv=1&invt=AbmaIA][Google cloud console]]
+  - Obtain working API through google cloud console
+  - NOTE: only 1 API per project
+- *Note:* looking up for platform free tier limitation
+****** DONE Making request via script
+CLOSED: [2025-01-10 Fri 02:27]
+- *Goal(s):* make request from terminal to Gemini
+- *Note:* use the [[https://ai.google.dev/api/generate-content#method:-models.generatecontent][=generateContent=]] to make request to Gemini API
+  #+NAME: Make request to Gemini API
+  #+BEGIN_SRC python
+  import google.generativeai as genai
+  
+  genai.configure(api_key="YOUR_API_KEY")
+  model = genai.GenerativeModel("gemini-1.5-flash")
+  response = model.generate_content("Explain how AI works")
+  print(response.text)
+  #+END_SRC
+**** TODO Working with fabric :FABRIC:
+- *OBJECTIVE:* /Integrate fabric to current workflow/
+- *References:*
+  - [[https://github.com/danielmiessler/fabric][Fabric @Gtihub]]
+  - [[https://www.reddit.com/r/PromptEngineering/][r/PromptEngineering @Reddit]]
+***** TODO Fzf menu script :FZF:
+:PROPERTIES:
+:ID:       36141277-e892-4034-a47e-468c825e188b
+:END:
+- *OBJECTIVE:* /Use fzf menu to quickly output notes from ai/
+- *Reference:* [[https://www.youtube.com/watch?v=qwpK4rqAZwA&t=57#__preview][notekami @Youtube-gotbletu]]
+**** TODO Shell Integrations :SHELL:
+:PROPERTIES:
+:ID:       4af0707d-93ed-4689-b971-15c9ebfebdd8
+:END:
+- *Goal(s):* working on integrate AI with =kitty=
+- [IDEA] Run fabric with current hint-url
+  - To implement, run: =fabric -uy <hint-url> | fabric -p <pattern> -o <output>=
+    - [ ] Query  [[file:=/.config/fabric/patterns/][=<patterns>=]] with =fzf-menu=
+    - [ ] Create output =hierarchy=
+- *Visit:*
+  - [[id:90a03e2c-edb3-4afd-8252-462b6d912cbe][Improve kitty worflow @Orgmode]]
+  - [[id:f0e11344-5210-4709-b5df-f6de28e7ee7a::*Function fzf][Fzf menu @Orgmode]]
+***** TODO Integrate with fabric and kitty :FABRIC:KITTY:
+- *Idea:* Implement printing outputs for fabric
+- *Visit:*
+  - [[id:90a03e2c-edb3-4afd-8252-462b6d912cbe][Improve kitty worflow @Orgmode]]
+  - [[id:4af0707d-93ed-4689-b971-15c9ebfebdd8][Shell Integrations @Orgmode]]
+**** PENDING Nvim integration :NVIM:
+CLOSED: [2025-05-28 Wed 04:03]
+- *Goal(s):* render response in markdown to take advantage of nvim markdown render
 ** Incidental :INCIDENTAL:
+*** PENDING Get transcript from Teams :TEAMS:
+- *OBJECTIVE:* Get transcript from Teams meeting
+- *Reference:* [[https://learn.microsoft.com/en-us/microsoftteams/platform/graph-api/meeting-transcripts/overview-transcripts][Get transcript via teams API @Doc-MS_teams]]
 ** Coordinated :COORDINATED:
 ** Urgent :URGENT:
 ** Recurring :RECURRING:

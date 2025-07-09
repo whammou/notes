@@ -4,8 +4,14 @@
 * Logs :LOG:LANGUAGE:
 ** Integrate tts :LINUX:
 - *Goal(s):*  Utilize tts and stt system in linux for better language learning experience
-*** DONE Speech to Text
-CLOSED: [2024-10-15 Tue 19:56]
+
+*** DONE Text to Speech
+CLOSED: [2025-07-06 Sun 07:58]
+- *[NOTE]* taken on [2025-07-06 07:56]:
+  Convert plain text =stdout= into speech using =gtts= and playing it using =mpv=
+  #+BEGIN_SRC fish
+  stdout | gtts - | mpv -
+  #+END_SRC
 - Note taken on [2024-10-11 Fri 20:47] \\
   Re-config nvim-orgmode for better tts experience
 - Note taken on [2024-10-07 Mon 03:10] \\

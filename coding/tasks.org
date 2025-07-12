@@ -1,6 +1,7 @@
 #+TITLE: Coding Notebook
 #+DESCRIPTION: Add notebook description here
 #+OPTIONS: ^:nil
+
 * Tasks :TASK:CODING:
 Allocated space for tasks/todos
 ** One-off :ONEOFF:

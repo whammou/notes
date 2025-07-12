@@ -25,9 +25,9 @@ DEADLINE: <2025-07-09 Wed>
 DEADLINE: <2025-07-09 Wed 21:00> SCHEDULED: <2025-07-10 Thu 16:25>
 - *OBJECTIVE:* Get ready for upcoming SAC
 **** PARTIAL Navigation in practical math [2/3]
-DEADLINE: <2025-07-07 Mon 01:00> CLOSED: [2025-07-07 Mon 17:43]
+CLOSED: [2025-07-07 Mon 17:43] DEADLINE: <2025-07-07 Mon 01:00>
 :PROPERTIES:
-:Effort: 1h
+:Effort:   1h
 :END:
 - [X] *OBJECTIVE:* Understand why integration is called anti-derivative
 - [X] *OBJECTIVE:* Teaching on units and how use them to your advantage

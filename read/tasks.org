@@ -10,9 +10,10 @@ Allocated space for tasks/todos
 :END:
 - *OBJECTIVE:* What podcast on procastination and checkout [[id:dab253c3-d227-4471-8eda-41f63f36563c][Subjects on procrastination]]
 - *Reference:* [[https://www.youtube.com/watch?v=VBifDZwPiI4#__preview][How to defuse procrastination @Youtube]]
-*** PENDING Watch Forever Child podcast :PODCAST:
+*** TODO Watch Forever Child podcast :PODCAST:
+DEADLINE: <2025-07-12 Sat 04:30>
 - *OBJECTIVE:* Finish podcast Forever Child
-- *Reference:* [[https://www.youtube.com/embed/e0ec2-E5Xq8?start=16m33s#__preview][Why you never grow up - Healthygamergg @Youtube]]
+- *Reference:* [[https://www.youtube.com/embed/e0ec2-E5Xq8?start=19m20s#__preview][Why you never grow up - Healthygamergg @Youtube]]
 *** DOING PARA vs zettelkasten [%] :PKM:
 - *OBJECTIVE:* Determine which =PKM= is more compatible with current workflow
 - *Visit:* [[id:08c4ff53-dd44-419b-b305-23ccccba4250][Develop a hybrid PKM system @Orgmode]]
@@ -60,7 +61,7 @@ CLOSED: [2025-06-21 Sat 15:15]
 - *OBJECTIVE:* Consider Ease of access for notes then develop a structure to access information from both systems
 ***** Note template
 - *OBJECTIVE:* How should a note looks like
-*** DOING Learn zettelkasten system [66%] :ZETTELKASTEN:
+*** DOING Learn zettelkasten system [75%] :ZETTELKASTEN:
 :PROPERTIES:
 :ID:       ad309d55-fe5c-4d83-9a8c-42106cadce43
 :END:
@@ -95,8 +96,13 @@ DEADLINE: <2025-07-01 Tue 23:50> CLOSED: [2025-07-01 Tue 22:05]
 - *OBJECTIVE:* Search for a note using the =index-system=
 - *Reference:* [[https://www.youtube.com/embed/92EEEsptqfI?start=2m28s#__preview][ZK Indexing system walk-through @Youtube]]
 **** TODO Learn Referencing Materials in ZK-system
+DEADLINE: <2025-07-12 Sat>
 - *OBJECTIVE:* How to create and store =references= in ZK-system
 - *Reference:* [[https://forum.zettelkasten.de/discussion/1807/reference-notes][How to use reference note in ZK-system @Discussion-ZKForum]]
+**** DONE Learn Folgekasten :FOLGEKASTEN:
+DEADLINE: <2025-07-10 Thu> CLOSED: [2025-07-10 Thu 05:56]
+- *OBJECTIVE:* Learn how to start using Folgekasten in a Zettelkasten system
+- *Reference:* [[https://old.reddit.com/r/Zettelkasten/comments/10sm19g/how_to_use_folgezettel_in_your_zettelkasten/][How to use Folgekasten in zettelkasten @Reddit]]
 *** TODO Research prompt engineering :RESEARCH:AI:
 - *Goal:* /Learn to create prompts/
 - *References:* [[https://l.opnxng.com/r/PromptEngineering/comments/1kggmh0/google_dropped_a_68page_prompt_engineering_guide/][Google 68-page prompt engineering guide @Reddit]]

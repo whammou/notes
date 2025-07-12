@@ -5,7 +5,7 @@
 * Tasks :TASK:ACADEMIC:TEACHING:
 Allocated space for tasks/todos
 ** One-off :ONEOFF:
-*** TODO Teaching IELTS :IELTS:
+*** PENDING Teaching IELTS :IELTS:
 :PROPERTIES:
 :Effort:   30:00
 :ID:       07a3cbb5-704c-4ced-9bd6-7911918ec01b
@@ -17,12 +17,19 @@ Allocated space for tasks/todos
 - *Reference links:*
   - [[id:237192a4-e192-438d-87ad-9e5df105a5c8][IELTS syllabus @Org]]
 *** TODO Calculus syllabus :MATH:
-DEADLINE: <2025-07-09 Wed>
+DEADLINE: <2025-07-12 Sat>
 - *OBJECTIVE:* What to teach in calculus
 ** Incidental :INCIDENTAL:
 ** Coordinated :COORDINATED:
-*** DOING Math tutor 1 :MATH:
-DEADLINE: <2025-07-09 Wed 21:00> SCHEDULED: <2025-07-10 Thu 16:25>
+*** TODO Math tutor 1 [66%] :MATH:
+SCHEDULED: <2025-07-11 Fri 16:00 ++1w> SCHEDULED: <2025-07-09 Wed 16:00 ++1w> SCHEDULED: <2025-07-14 Mon 16:00 ++1w> SCHEDULED: <2025-07-12 Sat 16:00 ++1w>
+
+:PROPERTIES:
+:LAST_REPEAT: [2025-07-12 Sat 06:34]
+:END:
+:LOGBOOK:
+- State "DOING"      from "PARTIAL"    [2025-07-12 Sat 06:34]
+:END:
 - *OBJECTIVE:* Get ready for upcoming SAC
 **** PARTIAL Navigation in practical math [2/3]
 DEADLINE: <2025-07-07 Mon 01:00> CLOSED: [2025-07-07 Mon 17:43]
@@ -40,10 +47,23 @@ DEADLINE: <2025-07-07 Mon 01:00> CLOSED: [2025-07-07 Mon 17:43]
   3. What does =units= tell us about =integrations=
      1. Example: Area of a square
      2. Example: Connections between: speed, acceleration, and  displacement
-**** TODO Transformation of functions [/]
-DEADLINE: <2025-07-09 Wed 00:00>
-- *OBJECTIVE:* Understand functions transformation
+**** DONE Transformation of functions [1/1]
+DEADLINE: <2025-07-11 Fri> CLOSED: [2025-07-11 Fri 18:59]
+- [X] *OBJECTIVE:* Understand functions transformation
 - *Reference:* [[https://courses.lumenlearning.com/calculus1/chapter/transformations-of-functions/][Transformation of function @Blog]]
 - *Additional:* [[https://math.libretexts.org/Courses/Cosumnes_River_College/Math_370%3A_Precalculus/01%3A_Relations_and_Functions/1.07%3A_Transformations][Detailed function transformation @Libretext]]
+**** TODO Estimating cross-section area [0/2]
+DEADLINE: <2025-07-12 Sat 08:00>
+- [ ] *OBJECTIVE:* Understand =estimation-methods= [0/3]
+  - [ ] Left-endpoint method
+  - [ ] Right-endpoint method
+  - [ ] The Trapezium method
+- [ ] *OBJECTIVE:* Solve question-1 [[file:./assets/2022-practice-SAC.pdf][SAC-2022]]
+- *Reference:* [[file:~/downloads/cambridge-senior-mathematics-vce-mathematical-methods-vce-units-3-amp-4-2nbsped-9781009110495-1009110497_compress_compressed.pdf][Page 478 @Vce-math]]
+*** TODO Classroom criteria :CLASSROOM:
+DEADLINE: <2025-07-12 Sat 15:00>
+- *OBJECTIVE:* Create classroom criteria
+- *Contact:* [[mailto:khanhvy@gmail.com][khanhvy@gmail.com]]
+  
 ** Urgent :URGENT:
 ** Recurring :RECURRING:

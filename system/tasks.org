@@ -147,7 +147,7 @@ CLOSED: [2025-06-19 Thu 23:36]
 - *OBJECTIVE:* Config orgmode for better document render on github
 - *Reference:* [[https://orgmode.org/worg/org-tutorials/org-ruby.html][Org-ruby documentation @Doc-orgmode-ruby]]
 *** TODO Repo Root Dir :PACKAGE:GIT:ORGZlY:PLATFORM:GITHUB:
-DEADLINE: <2025-07-09 Wed>
+DEADLINE: <2025-07-12 Sat>
 - *OBJECTIVE:* Discover =file-root= on github and orgzly
 - *Reference:* [[https://gist.github.com/awkoren/961a93e5f20d138359ec][Get github root dir @Gist-github]]
 **** Testing image render :ORGZlY:

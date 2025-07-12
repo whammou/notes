@@ -120,9 +120,9 @@ CLOSED: [2025-04-19 Sat 07:58]
 - *Goal(s):* config ~pacman~ to:
   - Output colors: ~Colors~
   - have a funny animation ~IloveCandy~
-*** TODO Select io scheduler
+*** PENDING Select io scheduler
 - /Change/ ~udev~ /rules for ioscheduler/
-*** TODO CPU and IRQ scheduler
+*** PENDING CPU and IRQ scheduler
 - /Setup CPU and IRQ scheduler/ ~daemon~
 *** DONE Fix screen tearing
 CLOSED: [2025-05-21 Wed 18:21]

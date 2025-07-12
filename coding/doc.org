@@ -10,7 +10,7 @@
 **** Passing shell arguments :SHELL:
 - *OBJECTIVE:* /Passing argument from shell/
   - *References:* [[https://ao.bloat.cat/exchange/stackoverflow.com/questions/39498702/passing-arguments-to-python-from-shell-script][Passing shell argument to python @Overflow]]
-*** TODO Python virutal enviroment
+*** PENDING Python virutal enviroment
 - *OBJECTIVE:* /Manage python virtual enviroments/
   - To initiate virtual environment, run =python -m venv <name>=
 - *Visit:* [[https://www.youtube.com/watch?v=IYcTaZfjODg#__preview][Understand python vm @Youtube]]
@@ -21,12 +21,13 @@
 *** DOING [#C] Python as a tool for note-taking :WORFLOW:
 - *OBJECTIVE:* /Create a tool ultilies python and latex in nvim to create similar workflow in this/ [[https://l.opnxng.com/r/neovim/comments/yfbfvu/sympy_luasnip_vimtex/][post]]
 - *References:* [[https://castel.dev/post/lecture-notes-1/][How I take math notes with LaTex @Blog]]
-** DOING Working with latex [0%] :LATEX:
+** DOING Working with latex [50%] :LATEX:
 - *OBJECTIVE:* Develop a framwork for latex format/
 - *Reference:* Tutorial documentation for latex
   - [[https://www.learnlatex.org/en/][Latex for beginner @Learntex]]
   - [[https://www.overleaf.com/learn][Overleaf latex tutorial for beginner @Overleaf]]
-*** TODO Setup editor for latex :NVIM:
+*** DONE Setup editor for latex :NVIM:
+CLOSED: [2025-07-12 Sat 07:51]
 - *OBJECTIVE:* Setup nvim to env to write latex in/
   - *Visit:* [[https://github.com/lervag/vimtex][Vimtex plugin @Github]]
 *** TODO Files conversion :PANDOC:GEMINI:
@@ -47,12 +48,6 @@
 **** Pandoc conversion :PANDOC:
 - *OBJECTIVE:* Convert filetype using pandoc
 - *Reference:* [[https://ao.bloat.cat/exchange/stackoverflow.com/questions/56828128/pandoc-is-tex-output-with-dollar-sign-math-possible][Pandoc math filter @Overflow]]
-** TODO Working with html :HTML:
-:PROPERTIES:
-:ID:       6440266f-57df-40e2-a9e2-8d0867fcf9f2
-:END:
-- *OBJECTIVE:* Learn basic html
-- *Reference:* [[https://github.com/Asabeneh/30-Days-Of-HTML][30 days of html @Github]]
 ** Learning Lua :LUA:
 - *OBJECTIVE:* Learn basic lua language
 - *Reference:* [[https://github.com/pohka/Lua-Beginners-Guide][Lua beginners guide @Github]]

@@ -2,10 +2,47 @@
 #+DESCRIPTION: Description for archive here
 #+OPTIONS: ^:nil
 
-* Documents :LIB:DOC:ACADEMIC:TEACHING:
+* Documents :DOC:ACADEMIC:TEACHING:
 /Documents archives/
 ** IELTS syllabus :IELTS:
 :PROPERTIES:
 :ID:       237192a4-e192-438d-87ad-9e5df105a5c8
 :END:
 - *OBJECTIVE:* Compose an ielts syllabus for teaching review purpose
+** TODO Calculus syllabus :MATH:
+DEADLINE: <2025-07-12 Sat>
+:PROPERTIES:
+:ID: 898b2fbd-436f-44f8-b284-4c044f64c16a
+:END:
+- *OBJECTIVE:* What to teach in calculus
+*** PARTIAL Navigation in practical math [2/3]
+DEADLINE: <2025-07-07 Mon 01:00> CLOSED: [2025-07-07 Mon 17:43]
+:PROPERTIES:
+:Effort: 1h
+:END:
+- [X] *OBJECTIVE:* Understand why integration is called anti-derivative
+- [X] *OBJECTIVE:* Teaching on units and how use them to your advantage
+- [ ] *OBJECTIVE:* Link between units and anti-derivative
+- *[NOTE]* taken on [2025-07-07 08:48]:
+  1. =Integration= is called an =anti-derivative= is because it is literally an anti/undo of an =derivative=
+     1. *Antiderivative:* An =antiderivative= of a /function/ $\mathit{f}(x)$ is a /function/ $F(x)$ such that $F'(x) = \mathit{f}(x)$. In the other words, $F(X)$ is a /function/ whose =derivative= gives back the original /function/ $\mathit{f}(x)$
+     2. *Integral:* The =integral= of a /function/ (indefinite =integral= or an =antiderivative=) is denoted as $\int \mathit{f} (x) \,dx$. This represent a family of /functions/ $F(x) + C$, where $C$ is a *constant*. The process of integration can be thought of as finding an =antiderivative=
+  2. =Units= are the formulas to approach a problem e.g. $S = 1 (m^2)$, $a = 1 \frac{m}{s^2}$
+  3. What does =units= tell us about =integrations=
+     1. Example: Area of a square
+     2. Example: Connections between: speed, acceleration, and  displacement
+*** DONE Transformation of functions [1/1]
+DEADLINE: <2025-07-11 Fri> CLOSED: [2025-07-11 Fri 18:59]
+- [X] *OBJECTIVE:* Understand functions transformation
+- *[NOTE]* taken on [2025-07-12 07:22]:
+  Checkout function $\mathit{f}(x) = a(x - h)^2 +k$ in a =Parabola=
+- *Reference:* [[https://courses.lumenlearning.com/calculus1/chapter/transformations-of-functions/][Transformation of function @Blog]]
+- *Additional:* [[https://math.libretexts.org/Courses/Cosumnes_River_College/Math_370%3A_Precalculus/01%3A_Relations_and_Functions/1.07%3A_Transformations][Detailed function transformation @Libretext]]
+*** TODO Estimating cross-section area [0/2]
+DEADLINE: <2025-07-12 Sat 08:00>
+- [ ] *OBJECTIVE:* Understand =estimation-methods= [0/3]
+  - [ ] Left-endpoint method
+  - [ ] Right-endpoint method
+  - [ ] The Trapezium method
+- [ ] *OBJECTIVE:* Solve question-1 [[file:./assets/2022-practice-SAC.pdf][SAC-2022]]
+- *Reference:* [[file:~/downloads/cambridge-senior-mathematics-vce-mathematical-methods-vce-units-3-amp-4-2nbsped-9781009110495-1009110497_compress_compressed.pdf][Page 478 @Vce-math]]

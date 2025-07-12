@@ -50,11 +50,13 @@ DEADLINE: <2025-07-07 Mon 01:00> CLOSED: [2025-07-07 Mon 17:43]
 **** DONE Transformation of functions [1/1]
 DEADLINE: <2025-07-11 Fri> CLOSED: [2025-07-11 Fri 18:59]
 - [X] *OBJECTIVE:* Understand functions transformation
+- *NOTE* taken on [2025-07-12 07:22]:
+  Checkout function $ \mathit{f}(x) = a(x - h)^2 +k $ in a =Parabola=
 - *Reference:* [[https://courses.lumenlearning.com/calculus1/chapter/transformations-of-functions/][Transformation of function @Blog]]
 - *Additional:* [[https://math.libretexts.org/Courses/Cosumnes_River_College/Math_370%3A_Precalculus/01%3A_Relations_and_Functions/1.07%3A_Transformations][Detailed function transformation @Libretext]]
 **** TODO Estimating cross-section area [0/2]
 DEADLINE: <2025-07-12 Sat 08:00>
-- [ ] *OBJECTIVE:* Understand =estimation-methods= [0/3]
+:LOGBOOK- [ ] *OBJECTIVE:* Understand =estimation-methods= [0/3]
   - [ ] Left-endpoint method
   - [ ] Right-endpoint method
   - [ ] The Trapezium method

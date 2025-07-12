@@ -4,6 +4,12 @@
 * Tasks :TASK:CODING:
 Allocated space for tasks/todos
 ** One-off :ONEOFF:
+*** PENDING Working with html :HTML:
+:PROPERTIES:
+:ID:       6440266f-57df-40e2-a9e2-8d0867fcf9f2
+:END:
+- *OBJECTIVE:* Learn basic html
+- *Reference:* [[https://github.com/Asabeneh/30-Days-Of-HTML][30 days of html @Github]]
 ** Incidental :INCIDENTAL:
 ** Coordinated :COORDINATED:
 ** Urgent :URGENT:

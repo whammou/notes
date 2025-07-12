@@ -27,7 +27,7 @@ Allocated space for tasks/todos
   - [[https://github.com/chipsenkbeil/org-roam.nvim][Org-roam nvim plugin @Github]]
   - [[https://l.opnxng.com/r/emacs/comments/u10j69/org_mode_how_do_you_keep_your_daily_agenda_to_a/][How do you keep your daily agenda @Reddit]]
 ***** TODO Config Orgroam UID system
-DEADLINE: <2025-07-12 Sat>
+DEADLINE: <2025-07-13 Sun>
 :PROPERTIES:
 :ID:       ebb8b3dc-b038-4844-b1e7-025f7d684250
 :END:

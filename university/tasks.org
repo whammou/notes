@@ -51,7 +51,7 @@ CLOSED: [2025-04-10 Thu 21:49] SCHEDULED: <2025-04-10 Thu 13:00>
 - *Goal:* /Prepare paperwork for rmit/
 - *Visit:* [[https://www.rmit.edu.vn/study-at-rmit/undergraduate-programs/apply-for-undergraduate-programs][Ungrade admission @Rmit]]
 - *Contact:* [[mailto:enquiries@rmit.edu.vn][Recruitment team @Mail]]
-**** TODO University documents :PAPERWORK:
+**** PENDING University documents :PAPERWORK:
 :PROPERTIES:
 :ID:       6aaa4c17-f24d-4c4b-8956-d2884a404563
 :END:

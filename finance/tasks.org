@@ -4,7 +4,7 @@
 * Tasks :FINANCE:
 Allocated space for tasks/todos
 ** One-off :ONEOFF:
-*** TODO Beancount language server :BEANCOUNT:
+*** PENDING Beancount language server :BEANCOUNT:
 :PROPERTIES:
 :ID:       7e4c96fd-fc20-436c-8222-ccc9d3f68f6f
 :END:

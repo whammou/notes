@@ -194,6 +194,11 @@ DEADLINE: <2025-07-07 Mon> CLOSED: [2025-07-10 Thu 05:40]
 *** PENDING Write fish auto-completion :FISH:FABRIC:
 - *OBJECTIVE:* Write fish completions for fabric-ai
 - *Reference:* [[https://fishshell.com/docs/current/completions.html][Custom completions @Doc-fish]]
+*** PENDING Specify pandoc convert :PANDOC:
+- *OBJECTIVE:* Convert specific part of a document with =pandoc=
+- *Reference:*
+  - [[https://ao.bloat.cat/exchange/superuser.com/questions/1577299/limit-what-sections-get-exported-processed-in-pandoc-markdown][Limit section to export in pandoc @Overflow]]
+  - [[https://ao.bloat.cat/exchange/tex.stackexchange.com/questions/637047/pandoc-convert-specific-parts-of-document][Pandoc conert specific parts of a document @Overflow]]
 ** Incidental :INCIDENTAL:
 *** PENDING Get transcript from Teams :TEAMS:
 - *OBJECTIVE:* Get transcript from Teams meeting

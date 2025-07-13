@@ -18,3 +18,7 @@
 - *OBJECTIVE:* Create orgmode task capture
 * PENDING Run script on device plugin :ARCH:
 - *OBJECTIVE:* Run a script on device plugin
+  \begin{equation}
+    \label{eq:this is a test}
+    \omega = a^2 = b
+  \end{equation}

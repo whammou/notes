@@ -34,11 +34,10 @@ DEADLINE: <2025-07-07 Mon 01:00> CLOSED: [2025-07-07 Mon 17:43]
 DEADLINE: <2025-07-11 Fri> CLOSED: [2025-07-11 Fri 18:59]
 - Formula $f(x) = a(x - h)^2 + k$ is =called a vertex form of a parabola=
   - A parabola form can be written as $y = ax^2 + bx + c$
-  - And can be re-written as: $y = a(x -h)^2 + K$
+  - And can be re-written as: $y = a(x - h)^2 + k$
     - *h*: is the /horizontal/ coordinate of the =vertex= (x)
     - *k*: is the /vertical/ coordinate of the =vertex= (y)
     - *a*: is the /coefficieent/
-
 - *Reference:* [[https://courses.lumenlearning.com/calculus1/chapter/transformations-of-functions/][Transformation of function @Blog]]
 - *Additional:* [[https://math.libretexts.org/Courses/Cosumnes_River_College/Math_370%3A_Precalculus/01%3A_Relations_and_Functions/1.07%3A_Transformations][Detailed function transformation @Libretext]]
 **** TODO Vertex form of a Parabola
@@ -56,17 +55,16 @@ DEADLINE: <2025-07-14 Mon 16:00>
   1. Identify the =vertex= (tipping) point
   2. Identify a second point P of the =parabola=
   3. Find the coefficient *a* by inputing *vertex point* as (h, k) and the new point *P* as (x, y)
-
 - *Reference:* [[https://www.radfordmathematics.com/functions/quadratic-functions-parabola/vertex-form/vertex-form-finding-equation-parabola.html][Vertex form of a parabola @Blog]]
 - *Additional:* [[https://www.radfordmathematics.com/functions/quadratic-functions-parabola/vertex-form/vertex-form-finding-equation-parabola-worksheet-1.pdf][Exercise 1]] [[https://www.radfordmathematics.com/functions/quadratic-functions-parabola/vertex-form/vertex-form-finding-equation-parabola-worksheet-2.pdf][Exercise 2]]
-*** TODO Estimating cross-section area [0/2]
-DEADLINE: <2025-07-14 Mon 15:30>
+*** DONE Estimating cross-section area [2/2]
+DEADLINE: <2025-07-14 Mon 15:30> CLOSED: [2025-07-14 Mon 18:04]
 :PROPERTIES:
 :ID: 01ca62f7-0500-4790-9ba8-93aa13bd1a64
 :END:
-- [ ] *OBJECTIVE:* Understand =estimation-methods= [0/3]
-  - [ ] Left-endpoint method
-  - [ ] Right-endpoint method
-  - [ ] The Trapezium method
-- [ ] *OBJECTIVE:* Solve question-1 [[file:./assets/2022-practice-SAC.pdf][SAC-2022]]
+- [X] *OBJECTIVE:* Understand =estimation-methods= [3/3]
+  - [X] Left-endpoint method
+  - [X] Right-endpoint method
+  - [X] The Trapezium method
+- [X] *OBJECTIVE:* Solve question-1 [[file:./assets/2022-practice-SAC.pdf][SAC-2022]]
 - *Reference:* [[file:~/downloads/cambridge-senior-mathematics-vce-mathematical-methods-vce-units-3-amp-4-2nbsped-9781009110495-1009110497_compress_compressed.pdf][Page 478 @Vce-math]]

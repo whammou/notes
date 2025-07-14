@@ -151,7 +151,7 @@ CLOSED: [2025-06-19 Thu 23:36]
 - *OBJECTIVE:* Specify section to export in a document
 - *Reference:* [[https://github.com/noncog/github-org-mode-hacks#hiding-org-headings-on-github][Hidding section from export @Github]]
 *** TODO Repo Root Dir :PACKAGE:GIT:ORGZlY:PLATFORM:GITHUB:
-DEADLINE: <2025-07-13 Sun>
+DEADLINE: <2025-07-14 Mon>
 - *OBJECTIVE:* Discover =file-root= on github and orgzly
 - *Reference:* [[https://gist.github.com/awkoren/961a93e5f20d138359ec][Get github root dir @Gist-github]]
 **** Testing image render :ORGZlY:
@@ -196,12 +196,12 @@ Merge arch to main branch
 - [[https://github.com/mfussenegger/nvim-dap][documentation]]
 *** PENDING Github search query :GITHUB:
 - *Goal(s):* Learn github search queries
-*** TODO Resolve boot partition is full :ARCH:
-DEADLINE: <2025-07-15 Tue>
+*** DONE Resolve boot partition is full :ARCH:
+DEADLINE: <2025-07-15 Tue> CLOSED: [2025-07-14 Mon 10:31]
 - *OBJECTIVE:* Resolve error ZSTD-compressed data is truncated on boot
 - *Reference:* [[https://ao.bloat.cat/exchange/unix.stackexchange.com/questions/697401/arch-linux-initramfs-unpacking-failed-zstd-compressed-data-is-truncated][Discussion initramfs unpack failed error @Overflow-discussion]]
-*** TODO Distinguish between task and doc :ORGMODE:PARA:
-DEADLINE: <2025-07-12 Sat>
+*** DONE Distinguish between task and doc :ORGMODE:PARA:
+DEADLINE: <2025-07-14 Mon>
 - *OBJECTIVE:* Distinguish between =document= task and =task= task
 - *[NOTE]* taken on [2025-07-12 08:28]:
   Document task and Task share the same state TODO but in different context. Try to distinguish them using more advanced search presets

@@ -19,18 +19,27 @@ Allocated space for tasks/todos
 ** Incidental :INCIDENTAL:
 ** Coordinated :COORDINATED:
 *** TODO Classroom criteria :CLASSROOM:
-DEADLINE: <2025-07-12 Sat 15:00>
+DEADLINE: <2025-07-15 Tue 15:00>
 - *OBJECTIVE:* Create classroom criteria
 - *Contact:* [[mailto:khanhvy@gmail.com][khanhvy@gmail.com]]
 ** Urgent :URGENT:
 ** Recurring :RECURRING:
-*** Math tutor 1 :MATH:
-<2025-07-11 Fri 16:00 ++1w> <2025-07-09 Wed 16:00 ++1w> <2025-07-14 Mon 16:00 ++1w> <2025-07-12 Sat 16:00 ++1w>
+*** TODO Math tutor 1 :MATH:
+SCHEDULED: <2025-07-11 Fri 16:00-17:30 ++1w> SCHEDULED: <2025-07-09 Wed 16:00-17:30 ++1w> SCHEDULED: <2025-07-14 Mon 16:00-17:30 ++1w>
 :PROPERTIES:
-:LAST_REPEAT: [2025-07-12 Sat 06:34]
+:LAST_REPEAT: [2025-07-13 Sun 22:19]
 :END:
 :LOGBOOK:
+- State "ABORTED"    from "TODO"       [2025-07-13 Sun 22:19]
 - State "DOING"      from "PARTIAL"    [2025-07-12 Sat 06:34]
 :END:
 - *OBJECTIVE:* Get ready for upcoming SAC
-- *Visit:* [[id:898b2fbd-436f-44f8-b284-4c044f64c16a][Calculus syllabus]]
+- *Material:* [[id:898b2fbd-436f-44f8-b284-4c044f64c16a][Calculus syllabus]]
+**** W1 2025-07-11
+- *OBJECTIVE:* Understand functions transformation
+- *[NOTE]* taken on <2025-07-12 07:22>:
+  Checkout out formula $f(x) = a(x - h)^2 + k$ of a =Parabola=
+**** W2 2025-07-14 [0/2]
+- [ ] *OBJECTIVE:* Find parabola equation via [[id:c05472a1-eb44-4efc-8cfa-c8f384f2c511][Vertex form of a Parabola]] 
+- [ ] *OBJECTIVE:* Methods to [[id:01ca62f7-0500-4790-9ba8-93aa13bd1a64][Estimating cross-section area [0/2]]]
+

@@ -18,3 +18,7 @@
 - *OBJECTIVE:* Create orgmode task capture
 * PENDING Run script on device plugin :ARCH:
 - *OBJECTIVE:* Run a script on device plugin
+* TODO Changing filtype on open :NVIM:
+DEADLINE: <2025-07-14 Mon>
+- *OBJECTIVE:* Change =org-roam-node=-buffer to =org=
+- *Reference:* [[https://old.reddit.com/r/neovim/comments/12qzsu1/changing_a_filetype_on_open/][Changing filetype on open @Reddit]]

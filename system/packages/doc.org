@@ -309,12 +309,24 @@ Closes D2IQ-12345
 - *Reference:* [[https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History][Git tools rewrite history @Doc-git]]
 *** Securely storing secrets in git
 - *OBJECTIVE:* Learn how to securely store secrets in git
-** Working with nvim snippets :NVIM:SNIPPET:
+** DOING Working with nvim snippets :NVIM:SNIPPET:
 - *OBJECTIVE:* Custom snippets to boost productivity
-*** TODO Friendly snippet insert date :FRIENDLYSNIP:
+*** DONE Friendly snippet insert date :FRIENDLYSNIP:
+DEADLINE: <2025-07-12 Sat 22:30> CLOSED: [2025-07-12 Sat 22:20]
 - *OBJECTIVE:* /Create note block with today inserted/
-- *References:* [[https://l.opnxng.com/r/neovim/comments/wi4uf3/how_do_i_insert_current_date_or_time/][Insert today date in friendly snippet @Reddit]]
-*** Setting up luasnip :LUASNIP:
+- *[NOTE]* taken on <2025-07-12 22:18>:
+  Embed datetime to snippet via =friendly-snippet=
+  #+BEGIN_SRC json
+  "Note": {
+    "prefix": "No",
+    "body": "*[NOTE]* taken on <$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE>:\n  $0"
+  },
+  #+END_SRC
+- *References:*
+  - [[https://l.opnxng.com/r/neovim/comments/wi4uf3/how_do_i_insert_current_date_or_time/][Insert today date in friendly snippet @Reddit]]
+  - [[https://www.deepanseeralan.com/tech/insert-datetime-vscode-using-snippets/][Insert date and time in vscode @Blog]]
+  - [[https://mybyways.com/blog/vs-code-snippet-to-insert-formatted-date-and-time][VScode snippet for date time @Blog]]
+*** PENDING Setting up luasnip :LUASNIP:
 - *OBJECTIVE:* Writing custom luasnip snippets
 ** Working with pandoc :PANDOC:
 - *OBJECTIVE:* /Develop workflow with pandoc to convert between files/

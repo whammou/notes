@@ -9,8 +9,7 @@
 :ID:       237192a4-e192-438d-87ad-9e5df105a5c8
 :END:
 - *OBJECTIVE:* Compose an ielts syllabus for teaching review purpose
-** TODO Calculus syllabus :MATH:
-DEADLINE: <2025-07-12 Sat>
+** TODO Calculus syllabus :MATH:CALCULUS:
 :PROPERTIES:
 :ID: 898b2fbd-436f-44f8-b284-4c044f64c16a
 :END:
@@ -31,15 +30,40 @@ DEADLINE: <2025-07-07 Mon 01:00> CLOSED: [2025-07-07 Mon 17:43]
   3. What does =units= tell us about =integrations=
      1. Example: Area of a square
      2. Example: Connections between: speed, acceleration, and  displacement
-*** DONE Transformation of functions [1/1]
+*** DONE Transformation of functions
 DEADLINE: <2025-07-11 Fri> CLOSED: [2025-07-11 Fri 18:59]
-- [X] *OBJECTIVE:* Understand functions transformation
-- *[NOTE]* taken on [2025-07-12 07:22]:
-  Checkout function $\mathit{f}(x) = a(x - h)^2 +k$ in a =Parabola=
+- Formula $f(x) = a(x - h)^2 + k$ is =called a vertex form of a parabola=
+  - A parabola form can be written as $y = ax^2 + bx + c$
+  - And can be re-written as: $y = a(x -h)^2 + K$
+    - *h*: is the /horizontal/ coordinate of the =vertex= (x)
+    - *k*: is the /vertical/ coordinate of the =vertex= (y)
+    - *a*: is the /coefficieent/
+
 - *Reference:* [[https://courses.lumenlearning.com/calculus1/chapter/transformations-of-functions/][Transformation of function @Blog]]
 - *Additional:* [[https://math.libretexts.org/Courses/Cosumnes_River_College/Math_370%3A_Precalculus/01%3A_Relations_and_Functions/1.07%3A_Transformations][Detailed function transformation @Libretext]]
+**** TODO Vertex form of a Parabola
+DEADLINE: <2025-07-14 Mon 16:00>
+:PROPERTIES:
+:ID: c05472a1-eb44-4efc-8cfa-c8f384f2c511
+:END:
+- How to find a =parapola= equation using =vertex form=: $f(x) = a(x - h)^2 + k$
+  #+name: Vertex form
+  #+begin_html html
+  <p align='left'>
+  <IMG src='https://www.radfordmathematics.com/functions/quadratic-functions-parabola/vertex-form/vertex-form-illustration.png' alt='Vertex form' width=50%/>
+  </p>
+  #+end_html
+  1. Identify the =vertex= (tipping) point
+  2. Identify a second point P of the =parabola=
+  3. Find the coefficient *a* by inputing *vertex point* as (h, k) and the new point *P* as (x, y)
+
+- *Reference:* [[https://www.radfordmathematics.com/functions/quadratic-functions-parabola/vertex-form/vertex-form-finding-equation-parabola.html][Vertex form of a parabola @Blog]]
+- *Additional:* [[https://www.radfordmathematics.com/functions/quadratic-functions-parabola/vertex-form/vertex-form-finding-equation-parabola-worksheet-1.pdf][Exercise 1]] [[https://www.radfordmathematics.com/functions/quadratic-functions-parabola/vertex-form/vertex-form-finding-equation-parabola-worksheet-2.pdf][Exercise 2]]
 *** TODO Estimating cross-section area [0/2]
-DEADLINE: <2025-07-12 Sat 08:00>
+DEADLINE: <2025-07-14 Mon 15:30>
+:PROPERTIES:
+:ID: 01ca62f7-0500-4790-9ba8-93aa13bd1a64
+:END:
 - [ ] *OBJECTIVE:* Understand =estimation-methods= [0/3]
   - [ ] Left-endpoint method
   - [ ] Right-endpoint method

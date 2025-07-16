@@ -46,6 +46,7 @@ DEADLINE: <2025-07-14 Mon 16:00> CLOSED: [2025-07-14 Mon 23:29]
 :ID: c05472a1-eb44-4efc-8cfa-c8f384f2c511
 :END:
 - How to find a =parapola= equation using =vertex form=: $f(x) = a(x - h)^2 + k$
+  [[file:https://www.radfordmathematics.com/functions/quadratic-functions-parabola/vertex-form/vertex-form-illustration.png]]
   #+name: Vertex form
   #+begin_html html
   <p align='left'>

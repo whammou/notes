@@ -150,11 +150,23 @@ CLOSED: [2025-06-19 Thu 23:36]
 ***** TODO Orgmode specify export
 - *OBJECTIVE:* Specify section to export in a document
 - *Reference:* [[https://github.com/noncog/github-org-mode-hacks#hiding-org-headings-on-github][Hidding section from export @Github]]
-*** TODO Repo Root Dir :PACKAGE:GIT:ORGZlY:PLATFORM:GITHUB:
-DEADLINE: <2025-07-14 Mon>
+*** PARTIAL Repo Root Dir :PACKAGE:GIT:ORGZlY:PLATFORM:GITHUB:
+DEADLINE: <2025-07-16 Wed> CLOSED: [2025-07-16 Wed 00:17]
 - *OBJECTIVE:* Discover =file-root= on github and orgzly
-- *Reference:* [[https://gist.github.com/awkoren/961a93e5f20d138359ec][Get github root dir @Gist-github]]
-**** Testing image render :ORGZlY:
+- *Issue:* Conflict between *system* and *github* relative path detection e.g running =xdg= in =pwd= return file not found
+- *Reference:*
+  - [[https://gist.github.com/awkoren/961a93e5f20d138359ec][Get github root dir @Gist-github]]
+  - [[https://github.com/Kaiser-Yang/blink-cmp-git][blink-cmp-git @Github]]
+  - [[https://github.com/Saghen/blink.cmp/discussions/952][Path completion source for root dir @Discuss-blink]]
+  - [[https://cmp.saghen.dev/configuration/reference.html#providers][Providers configuration @Blink.cmp-DOC]]
+**** TODO Solve relative path conflict
+DEADLINE: <2025-07-16 Wed>
+- *OBJECTIVE:* Solve path conflicts on =github=, =orgzly= and =system=
+- *Reference:*
+  - [[https://github.com/notjedi/nvim-rooter.lua][Rooter-nvim @Github]]
+  - [[https://github.com/ahmedkhalf/project.nvim][Project-nvim @Github]]
+**** DONE Testing image render :ORGZlY:
+CLOSED: [2025-07-16 Wed 00:20]
 - *OBJECTIVE:* Testing image render
   file:../../assets/snoopy/IMG_20241026_002110.jpg
   file:./assets/snoopy/IMG_20241026_002110.jpg

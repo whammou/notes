@@ -661,3 +661,7 @@ CLOSED: [2025-06-24 Tue 22:51]
 :END:
 - *Objective:* /Benchmark DNS look up speed/
 - *Reference:* []
+** DONE Terminal recording :RECORDING:
+CLOSED: [2025-07-14 Mon 23:51]
+- *OBJECTIVE:* Record terminal session for demonstrations
+- *Visit:* [[https://github.com/asciinema/asciinema][Terminal recording asciinema @Github]]

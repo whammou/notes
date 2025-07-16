@@ -27,7 +27,7 @@ Allocated space for tasks/todos
   - [[https://github.com/chipsenkbeil/org-roam.nvim][Org-roam nvim plugin @Github]]
   - [[https://l.opnxng.com/r/emacs/comments/u10j69/org_mode_how_do_you_keep_your_daily_agenda_to_a/][How do you keep your daily agenda @Reddit]]
 ***** TODO Config Orgroam UID system
-DEADLINE: <2025-07-14 Mon>
+DEADLINE: <2025-07-17 Thu>
 :PROPERTIES:
 :ID:       ebb8b3dc-b038-4844-b1e7-025f7d684250
 :END:
@@ -199,6 +199,10 @@ DEADLINE: <2025-07-07 Mon> CLOSED: [2025-07-10 Thu 05:40]
 - *Reference:*
   - [[https://ao.bloat.cat/exchange/superuser.com/questions/1577299/limit-what-sections-get-exported-processed-in-pandoc-markdown][Limit section to export in pandoc @Overflow]]
   - [[https://ao.bloat.cat/exchange/tex.stackexchange.com/questions/637047/pandoc-convert-specific-parts-of-document][Pandoc conert specific parts of a document @Overflow]]
+*** TODO Changing filtype on open :NVIM:
+DEADLINE: <2025-07-16 Wed>
+- *OBJECTIVE:* Change =org-roam-node=-buffer to =org=
+- *Reference:* [[https://old.reddit.com/r/neovim/comments/12qzsu1/changing_a_filetype_on_open/][Changing filetype on open @Reddit]]
 ** Incidental :INCIDENTAL:
 *** PENDING Get transcript from Teams :TEAMS:
 - *OBJECTIVE:* Get transcript from Teams meeting

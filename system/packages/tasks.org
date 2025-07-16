@@ -188,7 +188,7 @@ CLOSED: [2025-01-10 Fri 02:27]
 CLOSED: [2025-05-28 Wed 04:03]
 - *Goal(s):* render response in markdown to take advantage of nvim markdown render
 *** DONE Media Control :ROFI:
-DEADLINE: <2025-07-07 Mon> CLOSED: [2025-07-10 Thu 05:40]
+CLOSED: [2025-07-10 Thu 05:40] DEADLINE: <2025-07-07 Mon>
 - *OBJECTIVE:* Pause/playing playing media
 - *Reference:* [[https://old.reddit.com/r/mpv/comments/sx8o2t/is_there_a_way_to_playpause_multiple_instances_of/][Pause playing media instance @Reddit]]
 *** PENDING Write fish auto-completion :FISH:FABRIC:

@@ -42,7 +42,7 @@ SCHEDULED: <2025-07-11 Fri 16:00-17:30 ++1w> SCHEDULED: <2025-07-09 Wed 16:00-17
   Checkout out formula $f(x) = a(x - h)^2 + k$ of a =Parabola=
 **** W2 2025-07-14 [2/2]
 :PROPERTIES:
-:ID: bfcda80f-4e74-415f-b9b2-75c7ab2e6d09
+:ID:       bfcda80f-4e74-415f-b9b2-75c7ab2e6d09
 :END:
 - [X] *OBJECTIVE:* Find parabola equation via [[id:c05472a1-eb44-4efc-8cfa-c8f384f2c511][Vertex form of a Parabola]]
 - [X] *OBJECTIVE:* Methods to [[id:01ca62f7-0500-4790-9ba8-93aa13bd1a64][Estimating cross-section area [0/2]]]

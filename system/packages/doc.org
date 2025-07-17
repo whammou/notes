@@ -329,9 +329,3 @@ DEADLINE: <2025-07-12 Sat 22:30> CLOSED: [2025-07-12 Sat 22:20]
 *** PENDING Setting up luasnip :LUASNIP:
 - *OBJECTIVE:* Writing custom luasnip snippets
  *OBJECTIVE:* /Develop workflow with pandoc to convert between files/
-** TODO Pandoc font settings :PANDOC:
-DEADLINE: <2025-07-17 Thu>
-- *OBJECTIVE:* Set conversion fonts from =markdown= to =LaTex=
-- *Reference:*
-  - [[https://a.opnxng.com/exchange/tex.stackexchange.com/questions/234786/how-to-set-a-font-family-with-pandoc][pandoc fonts @Stack]]
-  - [[https://ao.bloat.cat/exchange/tex.stackexchange.com/questions/234786/how-to-set-a-font-family-with-pandoc][Pandoc set font family @Overflow]]

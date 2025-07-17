@@ -79,7 +79,7 @@ CLOSED: [2025-06-10 Tue 01:10]
 :ID:       882b4f23-d2f9-4274-87e5-fb041e4a0c48
 :END:
 - *OBJECTIVE:* /Manage data in cloud drives/
-*** DONE Config rclone [100%] :RCLONE:
+*** PARTIAL Config rclone [100%] :RCLONE:
 CLOSED: [2025-06-01 Sun 23:02]
 - *OBJECTIVE:* /Config rclone to sync with google-drive/
   - [X] [[https://rclone.org/drive/#making-your-own-client-id][Make your own client-id @Doc-rclone]]

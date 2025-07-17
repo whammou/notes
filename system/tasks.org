@@ -151,7 +151,7 @@ CLOSED: [2025-06-19 Thu 23:36]
 - *OBJECTIVE:* Specify section to export in a document
 - *Reference:* [[https://github.com/noncog/github-org-mode-hacks#hiding-org-headings-on-github][Hidding section from export @Github]]
 *** PARTIAL Repo Root Dir :PACKAGE:GIT:ORGZlY:PLATFORM:GITHUB:
-DEADLINE: <2025-07-16 Wed> CLOSED: [2025-07-16 Wed 00:17]
+CLOSED: [2025-07-16 Wed 00:17] DEADLINE: <2025-07-16 Wed>
 - *OBJECTIVE:* Discover =file-root= on github and orgzly
 - *Issue:* Conflict between *system* and *github* relative path detection e.g running =xdg= in =pwd= return file not found
 - *Reference:*

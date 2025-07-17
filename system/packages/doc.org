@@ -197,13 +197,13 @@ CLOSED: [2025-06-08 Sun 05:17] DEADLINE: <2025-06-08 Sun>
   - Address follow Luhmann's [[id:f78fe37b-4ff7-4a73-86e9-16ccf28a4888][Naming convention]] (alphanumeric)
 ** Working With Orgroam :ORGROAM:
 :PROPERTIES:
-:ID: 4c2571b3-e416-48c0-bf7d-4d93af0ce820
+:ID:       4c2571b3-e416-48c0-bf7d-4d93af0ce820
 :END:
 - *OBJECTIVE:* Develop a notetaking workflow in orgroam
 - *Reference:* [[https://github.com/chipsenkbeil/org-roam.nvim][Orgroam-nvim @Github]]
 *** Orgroam Built-in UID System
 :PROPERTIES:
-:ID: bc6b5a2e-214b-4e04-a8e7-f6444bebc3c5
+:ID:       bc6b5a2e-214b-4e04-a8e7-f6444bebc3c5
 :END:
 - *[NOTE]* taken on [2025-06-28 23:35]:
   - =Orgroam= built-in UID system provide a unique identifier for each note (e.g. id:e1fba411-956b-4add-b9d9-8882888d76c9)
@@ -312,7 +312,7 @@ Closes D2IQ-12345
 ** DOING Working with nvim snippets :NVIM:SNIPPET:
 - *OBJECTIVE:* Custom snippets to boost productivity
 *** DONE Friendly snippet insert date :FRIENDLYSNIP:
-DEADLINE: <2025-07-12 Sat 22:30> CLOSED: [2025-07-12 Sat 22:20]
+CLOSED: [2025-07-12 Sat 22:20] DEADLINE: <2025-07-12 Sat 22:30>
 - *OBJECTIVE:* /Create note block with today inserted/
 - *[NOTE]* taken on <2025-07-12 22:18>:
   Embed datetime to snippet via =friendly-snippet=

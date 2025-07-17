@@ -19,13 +19,13 @@ Allocated space for tasks/todos
 ** Incidental :INCIDENTAL:
 ** Coordinated :COORDINATED:
 *** ABORTED Classroom criteria :CLASSROOM:
-DEADLINE: <2025-07-15 Tue 15:00> CLOSED: [2025-07-15 Tue 17:20]
+CLOSED: [2025-07-15 Tue 17:20] DEADLINE: <2025-07-15 Tue 15:00>
 - *OBJECTIVE:* Create classroom criteria
 - *Contact:* [[mailto:khanhvy@gmail.com][khanhvy@gmail.com]]
 ** Urgent :URGENT:
 ** Recurring :RECURRING:
 *** TODO Math tutor 1 :MATH:
-SCHEDULED: <2025-07-11 Fri 16:00-17:30 ++1w> SCHEDULED: <2025-07-09 Wed 16:00-17:30 ++1w> SCHEDULED: <2025-07-21 Mon 16:00-17:30 ++1w>
+SCHEDULED: <2025-07-21 Mon 16:00-17:30 ++1w>
 :PROPERTIES:
 :LAST_REPEAT: [2025-07-14 Mon 23:51]
 :END:

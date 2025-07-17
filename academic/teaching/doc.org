@@ -42,7 +42,7 @@ CLOSED: [2025-07-11 Fri 18:59] DEADLINE: <2025-07-11 Fri>
 - *Reference:* [[https://courses.lumenlearning.com/calculus1/chapter/transformations-of-functions/][Transformation of function @Blog]]
 - *Additional:* [[https://math.libretexts.org/Courses/Cosumnes_River_College/Math_370%3A_Precalculus/01%3A_Relations_and_Functions/1.07%3A_Transformations][Detailed function transformation @Libretext]]
 **** DONE Vertex form of a Parabola
-DEADLINE: <2025-07-14 Mon 16:00> CLOSED: [2025-07-14 Mon 23:29]
+CLOSED: [2025-07-14 Mon 23:29] DEADLINE: <2025-07-14 Mon 16:00>
 :PROPERTIES:
 :ID:       c05472a1-eb44-4efc-8cfa-c8f384f2c511
 :END:

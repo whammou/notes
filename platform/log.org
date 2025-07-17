@@ -4,3 +4,7 @@
 #+FILETAGS: TEST
 * Logs :LOG:PLATFORM:
 - /Store finished tasks/
+** DONE Setting Gdrive scope :GDRIVE:RCLONE:
+DEADLINE: <2025-07-17 Thu> CLOSED: [2025-07-17 Thu 08:23]
+- *OBJECTIVE:* Setting up =gdrive= working scope for =rclone=
+- *Reference:* [[https://rclone.org/drive/#scopes][Google drive scope @Rclone-doc]]

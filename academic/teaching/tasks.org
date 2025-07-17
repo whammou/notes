@@ -5,17 +5,16 @@
 * Tasks :TASK:ACADEMIC:TEACHING:
 Allocated space for tasks/todos
 ** One-off :ONEOFF:
-*** PENDING Teaching IELTS :IELTS:
+*** TODO Teaching IELTS :IELTS:
+DEADLINE: <2025-07-17 Thu>
 :PROPERTIES:
 :Effort:   30:00
 :ID:       07a3cbb5-704c-4ced-9bd6-7911918ec01b
 :END:
 - *OBJECTIVE:* Setup a teaching syllabus
-- *Reference:*
+- *Reference:* [[id:237192a4-e192-438d-87ad-9e5df105a5c8][IELTS syllabus @Org]]
   - [[https://www.ieltsadvantage.com/ielts-syllabus/][IETLS teaching syllabus @Blog]]
   - [[https://www.youtube.com/playlist?list=PL-oYKB0D9-E20WQvE1PQviuqf_VdLdnd0][How to teach IELTS @Youtube]]
-- *Reference links:*
-  - [[id:237192a4-e192-438d-87ad-9e5df105a5c8][IELTS syllabus @Org]]
 ** Incidental :INCIDENTAL:
 ** Coordinated :COORDINATED:
 *** ABORTED Classroom criteria :CLASSROOM:

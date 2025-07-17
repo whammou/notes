@@ -200,9 +200,15 @@ CLOSED: [2025-07-10 Thu 05:40] DEADLINE: <2025-07-07 Mon>
   - [[https://ao.bloat.cat/exchange/superuser.com/questions/1577299/limit-what-sections-get-exported-processed-in-pandoc-markdown][Limit section to export in pandoc @Overflow]]
   - [[https://ao.bloat.cat/exchange/tex.stackexchange.com/questions/637047/pandoc-convert-specific-parts-of-document][Pandoc conert specific parts of a document @Overflow]]
 *** TODO Changing filtype on open :NVIM:
-DEADLINE: <2025-07-16 Wed>
+DEADLINE: <2025-07-18 Fri>
 - *OBJECTIVE:* Change =org-roam-node=-buffer to =org=
 - *Reference:* [[https://old.reddit.com/r/neovim/comments/12qzsu1/changing_a_filetype_on_open/][Changing filetype on open @Reddit]]
+*** TODO Pandoc font settings :PANDOC:
+DEADLINE: <2025-07-17 Thu>
+- *OBJECTIVE:* Set conversion fonts from =markdown= to =LaTex=
+- *Reference:*
+  - [[https://a.opnxng.com/exchange/tex.stackexchange.com/questions/234786/how-to-set-a-font-family-with-pandoc][pandoc fonts @Stack]]
+  - [[https://ao.bloat.cat/exchange/tex.stackexchange.com/questions/234786/how-to-set-a-font-family-with-pandoc][Pandoc set font family @Overflow]]
 ** Incidental :INCIDENTAL:
 *** PENDING Get transcript from Teams :TEAMS:
 - *OBJECTIVE:* Get transcript from Teams meeting

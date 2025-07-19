@@ -34,7 +34,7 @@ CLOSED: [2025-04-22 Tue 03:08]
   - [X] [[https://github.com/raphaeltannous/mpv-copyStuff][mpv-yankstuff]]
   - [X] ~xdg-open~ specific ~cmd~ to open specific ~url~:
     - [[https://a.opnxng.com/exchange/unix.stackexchange.com/questions/777237/open-specific-urls-in-certain-app][xdg-open limitations]]
-    +- [[https://wiki.archlinux.org/title/Default_applications#mimeo][Archwiki#mimeo]]+
+    - [[https://wiki.archlinux.org/title/Default_applications#mimeo][Archwiki#mimeo]]
   - *Example:*
     - [[https://www.youtube.com/watch?v=ryR2-jVjoeA&t=15][Trailer starts at 00:15]]
     - [[https://www.youtube.com/watch?v=jv4pDOKe7OE&t=30][Test video starts at 00:30]]

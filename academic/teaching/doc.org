@@ -5,7 +5,7 @@
 * Documents :DOC:ACADEMIC:TEACHING:
 /Documents archives/
 ** TODO IELTS syllabus :IELTS:
-DEADLINE: <2025-07-17 Thu>
+DEADLINE: <2025-07-20 Sun>
 :PROPERTIES:
 :ID:       237192a4-e192-438d-87ad-9e5df105a5c8
 :END:

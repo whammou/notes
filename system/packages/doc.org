@@ -117,7 +117,7 @@ CLOSED: [2025-05-22 Thu 06:28]
   ytdl-format = 'worstvideo[height>=720]+bestaudio'
   #+END_SRC
   - Youtube [[https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file][Cli-youtube-downloader @Github]]
-**** PENDING Youtube viewer - mpv :MPV:
+**** PENDING Subtitle chooser :MPV:
 - /Prioritize sub selection script/
   - *Visit:* [[https://github.com/CogentRedTester/mpv-sub-select][Mpv-sub-select @Github]]
 *** DONE Youtube workflow integration
@@ -291,7 +291,7 @@ The =[footer]= is also optional. We use the footer to link the JIRA story what w
 #+BEGIN_SRC
 fix: fix foo to enable bar
 
-This fixes the broken behavior of the component by doing xyz. 
+This fixes the broken behavior of the component by doing xyz.
 
 BREAKING CHANGE
 Before this fix foo wasn't enabled at all, behavior changes from <old> to <new>

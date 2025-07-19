@@ -25,6 +25,14 @@ Glue back a hole on my sneakers
 *** DONE Bike checkup :BIKE:
 CLOSED: [2025-06-28 Sat 21:21] DEADLINE: <2025-06-28 Sat 14:00>
 - *OBJECTIVE:* Check up bike oil
+*** TODO Konima film event :DATING:MOVIE:
+SCHEDULED: <2025-07-20 Sun 18:30-21:30>
+- *OBJECTIVE:* Attend to Konima file event
+- *Reference:* [[https://www.facebook.com/story.php?story_fbid=pfbid0qyfrbYZqefSL5nRzg2tGTojCManEt15ouRTovHEZ9wrAZJAKbBdKtqeNuQTm7o6l&id=61565078548639&mibextid=wwXIfr&_rdr][Konima film event poster @Facebook]]
+**** TODO Konima film registration
+DEADLINE: <2025-07-19 Sat 14:00>
+- *OBJECTIVE:* Register 2 seats for upcoming event
+- *Reference:* [[https://l.facebook.com/l.php?u=https%3A%2F%2Fforms.gle%2FZU7pMujmgNs6vbfT8&h=AT0Ikk2zaNyQuMYmalu7J6m0ceP0s9hHXGrZ3AeYM1gXh6217GqaK4qpAjlskJJ94BoO3_UrY_D8-xD_gVWpVqLWW57Q9eJqObEvt3JZtesfqYGN69cHoK0mkfPc-hKRZXRP77-En2usCOoQwfPSjQLjsg&__tn__=-UK-R&c[0]=AT2gysKF6xLwMmSu1RkqLxlI4YWGFcMSifw8lkLNtJEf5D5pKEyluqB1heS5Uwt9Z5CJU356XbLhx8Dq9bbP0wyPXO9AvudsJt3jqLf0y7Pbbsjs9FykAjv4WrZKiT3WfZM8ztjROrtdaMDxQWfmdWvyroLI9yU3n5DOTEiYN-zdEJF6TKvRWM5xOAjD1S9Ckh4][Register form @Google-register]]
 ** Incidental :INCIDENTAL:
 *** PENDING Bike repair :BIKE:
 Diagnose failure point
@@ -179,12 +187,15 @@ Meal-preps, cooking recipes and grocery planning
 - /Picking my girl up/
 - *Location:*  [[https://www.google.com/maps/place/A%2BC+Coffee+Experience,+230%2F18+Pasteur,+Ph%C6%B0%E1%BB%9Dng+6,+Qu%E1%BA%ADn+3,+H%E1%BB%93+Ch%C3%AD+Minh,+Vietnam/@10.7858949,106.6915706,16z/data=!4m6!3m5!1s0x31752f0079a094e1:0xa8800ca97260d786!8m2!3d10.7858949!4d106.6915706!16s%2Fg%2F11x1lhrz1t?force=pwa&source=mlapk][230/18 Pasteur, Phường 6, Quận 3]]
 *** TODO Wake the F up :ALARM:
-SCHEDULED: <2025-07-17 Thu 12:30 +1d>
+SCHEDULED: <2025-07-20 Sun 12:30 +1d>
 :PROPERTIES:
 :ID:       3e654b15-2b4d-406e-88de-9e7d50e4e161
-:LAST_REPEAT: [2025-07-16 Wed 00:12]
+:LAST_REPEAT: [2025-07-19 Sat 08:53]
 :END:
 :LOGBOOK:
+- State "DONE"       from "TODO"       [2025-07-19 Sat 08:53]
+- State "DONE"       from "TODO"       [2025-07-18 Fri 14:19]
+- State "DONE"       from "TODO"       [2025-07-17 Thu 13:48]
 - State "DONE"       from "TODO"       [2025-07-16 Wed 00:12]
 - State "DONE"       from "TODO"       [2025-07-15 Tue 09:55]
 - State "DONE"       from "TODO"       [2025-07-14 Mon 14:14]

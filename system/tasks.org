@@ -147,9 +147,6 @@ CLOSED: [2025-06-19 Thu 23:36]
 **** Org-ruby document config [0/1]
 - *OBJECTIVE:* Config orgmode for better document render on github
 - *Reference:* [[https://orgmode.org/worg/org-tutorials/org-ruby.html][Org-ruby documentation @Doc-orgmode-ruby]]
-***** TODO Orgmode specify export
-- *OBJECTIVE:* Specify section to export in a document
-- *Reference:* [[https://github.com/noncog/github-org-mode-hacks#hiding-org-headings-on-github][Hidding section from export @Github]]
 *** PENDING Spreadsheet data visualize :DATA:DOC:
 :PROPERTIES:
 :CUSTOM_ID: visidata

@@ -6,7 +6,7 @@
 Allocated space for tasks/todos
 ** One-off :ONEOFF:
 *** TODO Teaching IELTS :IELTS:
-DEADLINE: <2025-07-17 Thu>
+DEADLINE: <2025-07-20 Sun>
 :PROPERTIES:
 :Effort:   30:00
 :ID:       07a3cbb5-704c-4ced-9bd6-7911918ec01b

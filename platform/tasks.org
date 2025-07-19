@@ -34,6 +34,10 @@ Organize ~scripts~ in ~/scipts~ and ~scripts~ in ~$PATH~
 DEADLINE: <2025-07-14 Mon> CLOSED: [2025-07-14 Mon 11:07]
 - *OBJECTIVE:* Create an issue on latex syntax does not load on nvim first launch
 - *Visit:* [[https://github.com/nvim-orgmode/orgmode/issues][Issue nvim-orgmode @Github]]
+*** DONE Setup rclone mega :RCLONE:MEGANZ:
+DEADLINE: <2025-07-18 Fri> CLOSED: [2025-07-18 Fri 17:17]
+- *OBJECTIVE:* Setup rclone to sync with mega-nz cloud platfoem
+- *Reference:* [[https://help.mega.io/megas4/setup-guides/rclone-setup-guide-for-mega-s4][Mega-rclone guide @Mega-doc]]
 ** Incidental :INCIDENTAL:
 ** Coordinated :COORDINATED:
 ** Urgent :URGENT:

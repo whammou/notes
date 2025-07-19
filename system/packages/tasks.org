@@ -27,7 +27,7 @@ Allocated space for tasks/todos
   - [[https://github.com/chipsenkbeil/org-roam.nvim][Org-roam nvim plugin @Github]]
   - [[https://l.opnxng.com/r/emacs/comments/u10j69/org_mode_how_do_you_keep_your_daily_agenda_to_a/][How do you keep your daily agenda @Reddit]]
 ***** TODO Config Orgroam UID system
-DEADLINE: <2025-07-17 Thu>
+DEADLINE: <2025-07-20 Sun>
 :PROPERTIES:
 :ID:       ebb8b3dc-b038-4844-b1e7-025f7d684250
 :END:
@@ -200,19 +200,40 @@ CLOSED: [2025-07-10 Thu 05:40] DEADLINE: <2025-07-07 Mon>
   - [[https://ao.bloat.cat/exchange/superuser.com/questions/1577299/limit-what-sections-get-exported-processed-in-pandoc-markdown][Limit section to export in pandoc @Overflow]]
   - [[https://ao.bloat.cat/exchange/tex.stackexchange.com/questions/637047/pandoc-convert-specific-parts-of-document][Pandoc conert specific parts of a document @Overflow]]
 *** TODO Changing filtype on open :NVIM:
-DEADLINE: <2025-07-18 Fri>
+DEADLINE: <2025-07-20 Sun>
 - *OBJECTIVE:* Change =org-roam-node=-buffer to =org=
 - *Reference:* [[https://old.reddit.com/r/neovim/comments/12qzsu1/changing_a_filetype_on_open/][Changing filetype on open @Reddit]]
 *** TODO Pandoc font settings :PANDOC:
-DEADLINE: <2025-07-17 Thu>
+DEADLINE: <2025-07-19 Sat>
 - *OBJECTIVE:* Set conversion fonts from =markdown= to =LaTex=
 - *Reference:*
-  - [[https://a.opnxng.com/exchange/tex.stackexchange.com/questions/234786/how-to-set-a-font-family-with-pandoc][pandoc fonts @Stack]]
-  - [[https://ao.bloat.cat/exchange/tex.stackexchange.com/questions/234786/how-to-set-a-font-family-with-pandoc][Pandoc set font family @Overflow]]
+  - [[https://ao.bloat.cat/exchange/tex.stackexchange.com/questions/234786/how-to-set-a-font-family-with-pandoc][In-depth pandoc font settings @Overflow]]
+  - [[file:~/documents/local/ai-output/font-org-pdf.md][Pandoc from orgmode to pef @Gemini]]
+*** DONE Insert file section to buffer :NVIM:
+DEADLINE: <2025-07-18 Fri> CLOSED: [2025-07-18 Fri 14:52]
+- *OBJECTIVE:* Pull text from a file to current buffer
+- *[NOTE]* taken on <2025-07-18 14:51>:
+  - Run: =:h :r= inside nvim for more details
+- *Reference:* [[https://ao.bloat.cat/exchange/unix.stackexchange.com/questions/61273/while-in-vi-how-can-i-pull-in-insert-paste-the-contents-of-another-file][Insert to content from another file nvim @Overflow]]
+*** TODO Org export :ORGMODE:
+DEADLINE: <2025-07-19 Sat>
+- *OBJECTIVE:* Improve export format for =orgmode=
+- *Reference:* [[https://github.com/noncog/github-org-mode-hacks#hiding-org-headings-on-github][Hidding section from export @Github]]
+*** ABORTED Realtime transcript :MPV:
+DEADLINE: <2025-07-20 Sun> CLOSED: [2025-07-19 Sat 14:21]
+- *OBJECTIVE:* Install WhisperSubs for realtime transcript in mpv
+- *[NOTE]* taken on <2025-07-19 14:21>:
+  Failed to install =whisper.cpp=
+- *Reference:* [[https://github.com/GhostNaN/whisper-subs][WhisperSubs @Github]]
 ** Incidental :INCIDENTAL:
 *** PENDING Get transcript from Teams :TEAMS:
 - *OBJECTIVE:* Get transcript from Teams meeting
 - *Reference:* [[https://learn.microsoft.com/en-us/microsoftteams/platform/graph-api/meeting-transcripts/overview-transcripts][Get transcript via teams API @Doc-MS_teams]]
+*** PENDING Switching to emacs :EMACS:
+- *OBJECTIVE:* Switching from nvim to emacs
+- *Reference:*
+  - [[https://old.reddit.com/r/emacs/comments/qocwo1/from_vim_to_emacs/][From vim to emacs @Reddit]]
+  - [[https://psakalo.substack.com/p/my-take-on-neovim-vs-emacs-vs-vs][Compare vim emacs vs vscode @Blog]]
 ** Coordinated :COORDINATED:
 ** Urgent :URGENT:
 ** Recurring :RECURRING:
